@@ -1,0 +1,2683 @@
+- generic [ref=e2]:
+  - region "Skip to main content":
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#__docusaurus_skipToContent_fallback"
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - text: Collaborate with Seeed -
+      - link "Creator" [ref=e7] [cursor=pointer]:
+        - /url: https://www.seeedstudio.com/blog/affiliate-program/
+      - text: ","
+      - link "Ranger" [ref=e8] [cursor=pointer]:
+        - /url: https://www.seeedstudio.com/ranger-program/
+      - text: ", or"
+      - link "Contributor" [ref=e9] [cursor=pointer]:
+        - /url: https://wiki.seeedstudio.com/contributors/
+      - text: ", there is always a role ideal for you!"
+  - navigation "Main" [ref=e10]:
+    - generic [ref=e11]:
+      - generic [ref=e12]:
+        - link "Seeed Studio" [ref=e13] [cursor=pointer]:
+          - /url: /
+          - img "Seeed Studio" [ref=e15]
+        - button "Quick Links" [ref=e17] [cursor=pointer]
+        - button "Explore with Topics" [ref=e19] [cursor=pointer]
+        - button "FAQs" [ref=e21] [cursor=pointer]
+        - button "Get Involved" [ref=e23] [cursor=pointer]
+      - generic [ref=e24]:
+        - button "🇺🇸 English" [ref=e26] [cursor=pointer]:
+          - generic [ref=e27]: 🇺🇸
+          - generic [ref=e28]: English
+        - link "Bazaar 🛍️" [ref=e29] [cursor=pointer]:
+          - /url: https://www.seeedstudio.com/
+        - link "SenseCraft AI" [ref=e30] [cursor=pointer]:
+          - /url: https://sensecraft.seeed.cc/ai/#/home
+        - link [ref=e31] [cursor=pointer]:
+          - /url: https://sensecraft.seeed.cc/ai/#/home
+        - link "GitHub repository" [ref=e32] [cursor=pointer]:
+          - /url: https://github.com/Seeed-Studio/wiki-documents
+        - button "Switch between dark and light mode (currently dark mode)" [ref=e34] [cursor=pointer]:
+          - img [ref=e35]
+        - button "Search" [ref=e38] [cursor=pointer]:
+          - generic [ref=e39]:
+            - img [ref=e40]
+            - generic [ref=e42]: Search
+          - generic [ref=e43]:
+            - generic [ref=e44]: ⌘
+            - generic [ref=e45]: K
+  - generic [ref=e48]:
+    - complementary [ref=e49]:
+      - generic [ref=e51]:
+        - navigation "Docs sidebar" [ref=e52]:
+          - list [ref=e53]:
+            - listitem [ref=e54]:
+              - link "Getting Started" [ref=e55] [cursor=pointer]:
+                - /url: /Getting_Started/
+            - listitem [ref=e56]:
+              - link "Weekly Wiki" [ref=e57] [cursor=pointer]:
+                - /url: /weekly_wiki/
+            - listitem [ref=e58]:
+              - link "Sensing" [ref=e59] [cursor=pointer]:
+                - /url: /Sensor_Network/
+            - listitem [ref=e60]:
+              - generic [ref=e61]:
+                - link "Grove" [ref=e62] [cursor=pointer]:
+                  - /url: /Grove_System/
+                - button "Expand sidebar category 'Grove'" [ref=e63] [cursor=pointer]
+            - listitem [ref=e64]:
+              - generic [ref=e65]:
+                - link "SenseCAP" [ref=e66] [cursor=pointer]:
+                  - /url: /SenseCAP_introduction/
+                - button "Expand sidebar category 'SenseCAP'" [ref=e67] [cursor=pointer]
+            - listitem [ref=e68]:
+              - generic [ref=e69]:
+                - link "SenseCAP Indicator" [ref=e70] [cursor=pointer]:
+                  - /url: /Sensor/SenseCAP/SenseCAP_Indicator/Get_started_with_SenseCAP_Indicator/
+                - button "Expand sidebar category 'SenseCAP Indicator'" [ref=e71] [cursor=pointer]
+            - listitem [ref=e72]:
+              - generic [ref=e73]:
+                - link "SenseCAP Watcher" [ref=e74] [cursor=pointer]:
+                  - /url: /watcher/
+                - button "Expand sidebar category 'SenseCAP Watcher'" [ref=e75] [cursor=pointer]
+            - listitem [ref=e76]:
+              - generic [ref=e77]:
+                - link "mmWave Radar Sensor" [ref=e78] [cursor=pointer]:
+                  - /url: /mmwave_radar_Intro/
+                - button "Expand sidebar category 'mmWave Radar Sensor'" [ref=e79] [cursor=pointer]
+            - listitem [ref=e80]:
+              - generic [ref=e81]:
+                - link "XIAO" [ref=e82] [cursor=pointer]:
+                  - /url: /SeeedStudio_XIAO_Series_Introduction/
+                - button "Collapse sidebar category 'XIAO'" [expanded] [ref=e83] [cursor=pointer]
+              - list [ref=e84]:
+                - listitem [ref=e85]:
+                  - link "Exhibition for XIAO Series" [ref=e86] [cursor=pointer]:
+                    - /url: /xiao_topic_page/
+                - listitem [ref=e87]:
+                  - button "XIAO SAMD21" [ref=e89] [cursor=pointer]
+                - listitem [ref=e90]:
+                  - button "XIAO RA4M1" [ref=e92] [cursor=pointer]
+                - listitem [ref=e93]:
+                  - button "XIAO MG24" [ref=e95] [cursor=pointer]
+                - listitem [ref=e96]:
+                  - button "XIAO RP2040" [ref=e98] [cursor=pointer]
+                - listitem [ref=e99]:
+                  - button "XIAO RP2350" [ref=e101] [cursor=pointer]
+                - listitem [ref=e102]:
+                  - button "XIAO nRF52840 Series" [ref=e104] [cursor=pointer]
+                - listitem [ref=e105]:
+                  - button "XIAO nRF54L15 Series" [ref=e107] [cursor=pointer]
+                - listitem [ref=e108]:
+                  - button "XIAO ESP32C3" [ref=e110] [cursor=pointer]
+                - listitem [ref=e111]:
+                  - button "XIAO ESP32C5" [ref=e113] [cursor=pointer]
+                - listitem [ref=e114]:
+                  - button "XIAO ESP32C6" [ref=e116] [cursor=pointer]
+                - listitem [ref=e117]:
+                  - button "XIAO ESP32S3 Series" [ref=e119] [cursor=pointer]
+                - listitem [ref=e120]:
+                  - generic [ref=e121]:
+                    - link "XIAO Debug Mate" [ref=e122] [cursor=pointer]:
+                      - /url: /getting_started_with_xiao_debug_mate/
+                    - button "Expand sidebar category 'XIAO Debug Mate'" [ref=e123] [cursor=pointer]
+                - listitem [ref=e124]:
+                  - button "Expansion Boards for XIAO" [expanded] [ref=e126] [cursor=pointer]
+                  - list [ref=e127]:
+                    - listitem [ref=e128]:
+                      - button "ePaper Breakout Board for XIAO" [ref=e130] [cursor=pointer]
+                    - listitem [ref=e131]:
+                      - button "Round Display for XIAO" [ref=e133] [cursor=pointer]
+                    - listitem [ref=e134]:
+                      - button "GPS Module for XIAO" [ref=e136] [cursor=pointer]
+                    - listitem [ref=e137]:
+                      - link "Expansion Board Base for XIAO" [ref=e138] [cursor=pointer]:
+                        - /url: /Seeeduino-XIAO-Expansion-Board/
+                    - listitem [ref=e139]:
+                      - link "XIAO CAN Bus Expansion Board" [ref=e140] [cursor=pointer]:
+                        - /url: /xiao-can-bus-expansion/
+                    - listitem [ref=e141]:
+                      - link "Grove Shield for XIAO with battery management chip" [ref=e142] [cursor=pointer]:
+                        - /url: /Grove-Shield-for-Seeeduino-XIAO-embedded-battery-management-chip/
+                    - listitem [ref=e143]:
+                      - link "Getting Started with 6x10 RGB MATRIX for XIAO" [ref=e144] [cursor=pointer]:
+                        - /url: /rgb_matrix_for_xiao/
+                    - listitem [ref=e145]:
+                      - link "IO Expander for XIAO" [ref=e146] [cursor=pointer]:
+                        - /url: /io_expander_for_xiao/
+                    - listitem [ref=e147]:
+                      - link "ePaper Driver Board" [ref=e148] [cursor=pointer]:
+                        - /url: /xiao_eink_expansion_board_v2/
+                    - listitem [ref=e149]:
+                      - link "RS485 Expansion Board for XIAO" [ref=e150] [cursor=pointer]:
+                        - /url: /XIAO-RS485-Expansion-Board/
+                    - listitem [ref=e151]:
+                      - link "Bus Servo Driver Board" [ref=e152] [cursor=pointer]:
+                        - /url: /bus_servo_driver_board/
+                    - listitem [ref=e153]:
+                      - link "LED Driver Board for XIAO" [ref=e154] [cursor=pointer]:
+                        - /url: /led_driver_board/
+                    - listitem [ref=e155]:
+                      - link "COB LED Driver Board for XIAO" [ref=e156] [cursor=pointer]:
+                        - /url: /getting_started_with_cob_led_dirver_board/
+                - listitem [ref=e157]:
+                  - button "XIAO + ESP-IDF + ESP-Matter" [ref=e159] [cursor=pointer]
+                - listitem [ref=e160]:
+                  - link "ESP-NOW on XIAO ESP32 Series" [ref=e161] [cursor=pointer]:
+                    - /url: /xiao_espnow/
+                - listitem [ref=e162]:
+                  - link "PCB Design for XIAO" [ref=e163] [cursor=pointer]:
+                    - /url: /PCB_Design_XIAO/
+                - listitem [ref=e164]:
+                  - button "Kit with Courses" [ref=e166] [cursor=pointer]
+                - listitem [ref=e167]:
+                  - link "FAQs for XIAO Series" [ref=e168] [cursor=pointer]:
+                    - /url: /XIAO_FAQ/
+            - listitem [ref=e169]:
+              - button "ePaper" [ref=e171] [cursor=pointer]
+            - listitem [ref=e172]:
+              - button "XIAO Gadgets" [ref=e174] [cursor=pointer]
+            - listitem [ref=e175]:
+              - generic [ref=e176]:
+                - link "Wio Terminal" [ref=e177] [cursor=pointer]:
+                  - /url: /Wio_Terminal_Intro/
+                - button "Expand sidebar category 'Wio Terminal'" [ref=e178] [cursor=pointer]
+            - listitem [ref=e179]:
+              - generic [ref=e180]:
+                - link "reSpeaker" [ref=e181] [cursor=pointer]:
+                  - /url: /respeaker/
+                - button "Expand sidebar category 'reSpeaker'" [ref=e182] [cursor=pointer]
+            - listitem [ref=e183]:
+              - button "Other Sensing Modules" [ref=e185] [cursor=pointer]
+            - listitem [ref=e186]:
+              - button "Other Microcontrollers" [ref=e188] [cursor=pointer]
+            - listitem [ref=e189]:
+              - link "Network" [ref=e190] [cursor=pointer]:
+                - /url: /Network/
+            - listitem [ref=e191]:
+              - generic [ref=e192]:
+                - link "Meshtastic Network" [ref=e193] [cursor=pointer]:
+                  - /url: /meshtastic_introduction/
+                - button "Expand sidebar category 'Meshtastic Network'" [ref=e194] [cursor=pointer]
+            - listitem [ref=e195]:
+              - button "LoRa Wio Series" [ref=e197] [cursor=pointer]
+            - listitem [ref=e198]:
+              - generic [ref=e199]:
+                - link "SenseCAP Gateway" [ref=e200] [cursor=pointer]:
+                  - /url: /Network/SenseCAP_Network/SenseCAP_Gateway_Intro/
+                - button "Expand sidebar category 'SenseCAP Gateway'" [ref=e201] [cursor=pointer]
+            - listitem [ref=e202]:
+              - generic [ref=e203]:
+                - link "SenseCAP K1100" [ref=e204] [cursor=pointer]:
+                  - /url: /SenseCAP_K1100_Intro/
+                - button "Expand sidebar category 'SenseCAP K1100'" [ref=e205] [cursor=pointer]
+            - listitem [ref=e206]:
+              - button "SenseCAP LoRaWAN Starter Kit" [ref=e208] [cursor=pointer]
+            - listitem [ref=e209]:
+              - button "Raspberry Pi Solutions" [ref=e211] [cursor=pointer]
+            - listitem [ref=e212]:
+              - generic [ref=e213]:
+                - link "Rockchip Solutions" [ref=e214] [cursor=pointer]:
+                  - /url: /Rockchip_network_solutions/
+                - button "Expand sidebar category 'Rockchip Solutions'" [ref=e215] [cursor=pointer]
+            - listitem [ref=e216]:
+              - button "Other Network Devices" [ref=e218] [cursor=pointer]
+            - listitem [ref=e219]:
+              - link "Edge Computing" [ref=e220] [cursor=pointer]:
+                - /url: /Edge_Computing/
+            - listitem [ref=e221]:
+              - button "RK Devices" [ref=e223] [cursor=pointer]
+            - listitem [ref=e224]:
+              - generic [ref=e225]:
+                - link "Raspberry Pi Devices" [ref=e226] [cursor=pointer]:
+                  - /url: /raspberry-pi-devices/
+                - button "Expand sidebar category 'Raspberry Pi Devices'" [ref=e227] [cursor=pointer]
+            - listitem [ref=e228]:
+              - generic [ref=e229]:
+                - link "NVIDIA® Jetson™" [ref=e230] [cursor=pointer]:
+                  - /url: /NVIDIA_Jetson/
+                - button "Expand sidebar category 'NVIDIA® Jetson™'" [ref=e231] [cursor=pointer]
+            - listitem [ref=e232]:
+              - button "ESP Devices" [ref=e234] [cursor=pointer]
+            - listitem [ref=e235]:
+              - generic [ref=e236]:
+                - link "BeagleBone®" [ref=e237] [cursor=pointer]:
+                  - /url: /BeagleBone/
+                - button "Expand sidebar category 'BeagleBone®'" [ref=e238] [cursor=pointer]
+            - listitem [ref=e239]:
+              - generic [ref=e240]:
+                - link "ODYSSEY" [ref=e241] [cursor=pointer]:
+                  - /url: /ODYSSEY_Intro/
+                - button "Expand sidebar category 'ODYSSEY'" [ref=e242] [cursor=pointer]
+            - listitem [ref=e243]:
+              - button "reCamera" [ref=e245] [cursor=pointer]
+            - listitem [ref=e246]:
+              - generic [ref=e247]:
+                - link "reTerminal E Series" [ref=e248] [cursor=pointer]:
+                  - /url: /reterminal_e10xx_main_page/
+                - button "Expand sidebar category 'reTerminal E Series'" [ref=e249] [cursor=pointer]
+            - listitem [ref=e250]:
+              - generic [ref=e251]:
+                - link "reTerminal D Series" [ref=e252] [cursor=pointer]:
+                  - /url: /reterminal_d10xx_main_page/
+                - button "Expand sidebar category 'reTerminal D Series'" [ref=e253] [cursor=pointer]
+            - listitem [ref=e254]:
+              - button "Other Edge Devices" [ref=e256] [cursor=pointer]
+            - listitem [ref=e257]:
+              - link "Robotics Page" [ref=e258] [cursor=pointer]:
+                - /url: /robotics_page/
+            - listitem [ref=e259]:
+              - button "Robot Kits" [ref=e261] [cursor=pointer]
+            - listitem [ref=e262]:
+              - button "Actuator" [ref=e264] [cursor=pointer]
+            - listitem [ref=e265]:
+              - button "Sensor" [ref=e267] [cursor=pointer]
+            - listitem [ref=e268]:
+              - button "Software" [ref=e270] [cursor=pointer]
+            - listitem [ref=e271]:
+              - link "SenseCraft & Cloud" [ref=e272] [cursor=pointer]:
+                - /url: /Cloud/
+            - listitem [ref=e273]:
+              - button "SenseCraft AI" [ref=e275] [cursor=pointer]
+            - listitem [ref=e276]:
+              - button "SenseCraft APP" [ref=e278] [cursor=pointer]
+            - listitem [ref=e279]:
+              - button "SenseCraft Data Platform" [ref=e281] [cursor=pointer]
+            - listitem [ref=e282]:
+              - generic [ref=e283]:
+                - link "SenseCraft HMI" [ref=e284] [cursor=pointer]:
+                  - /url: /sensecraft_hmi_overview/
+                - button "Expand sidebar category 'SenseCraft HMI'" [ref=e285] [cursor=pointer]
+            - listitem [ref=e286]:
+              - button "SenseCraft Blockchain" [ref=e288] [cursor=pointer]
+            - listitem [ref=e289]:
+              - link "Solutions" [ref=e290] [cursor=pointer]:
+                - /url: https://www.seeed.cc/category/solutions
+                - text: Solutions
+                - img [ref=e291]
+            - listitem [ref=e293]:
+              - generic [ref=e294]:
+                - link "AI Vision" [ref=e295] [cursor=pointer]:
+                  - /url: /ai-vision/
+                - button "Expand sidebar category 'AI Vision'" [ref=e296] [cursor=pointer]
+            - listitem [ref=e297]:
+              - generic [ref=e298]:
+                - link "AI Sound" [ref=e299] [cursor=pointer]:
+                  - /url: /ai-sound/
+                - button "Expand sidebar category 'AI Sound'" [ref=e300] [cursor=pointer]
+            - listitem [ref=e301]:
+              - button "AI Intelligent" [ref=e303] [cursor=pointer]
+            - listitem [ref=e304]:
+              - button "Device Integration & Control" [ref=e306] [cursor=pointer]
+            - listitem [ref=e307]:
+              - button "Environmental Monitoring" [ref=e309] [cursor=pointer]
+            - listitem [ref=e310]:
+              - generic [ref=e311]:
+                - link "Hazard Response" [ref=e312] [cursor=pointer]:
+                  - /url: /hazard-response/
+                - button "Expand sidebar category 'Hazard Response'" [ref=e313] [cursor=pointer]
+            - listitem [ref=e314]:
+              - button "Indoor-Outdoor Positioning" [ref=e316] [cursor=pointer]
+            - listitem [ref=e317]:
+              - link "Technology Topics" [ref=e318] [cursor=pointer]:
+                - /url: /topicintroduction/
+            - listitem [ref=e319]:
+              - generic [ref=e320]:
+                - link "Home Assistant" [ref=e321] [cursor=pointer]:
+                  - /url: /home_assistant_topic/
+                - button "Expand sidebar category 'Home Assistant'" [ref=e322] [cursor=pointer]
+            - listitem [ref=e323]:
+              - generic [ref=e324]:
+                - link "TinyML" [ref=e325] [cursor=pointer]:
+                  - /url: /tinyml_topic/
+                - button "Expand sidebar category 'TinyML'" [ref=e326] [cursor=pointer]
+            - listitem [ref=e327]:
+              - link "Open Source" [ref=e328] [cursor=pointer]:
+                - /url: /open_source_topic/
+            - listitem [ref=e329]:
+              - link "Edge AI" [ref=e330] [cursor=pointer]:
+                - /url: /edge_ai_topic/
+            - listitem [ref=e331]:
+              - link "Contributions" [ref=e332] [cursor=pointer]:
+                - /url: /Contributor/
+            - listitem [ref=e333]:
+              - generic [ref=e334]:
+                - link "Github Contributions Guide" [ref=e335] [cursor=pointer]:
+                  - /url: /Contribution-Guide/
+                - button "Expand sidebar category 'Github Contributions Guide'" [ref=e336] [cursor=pointer]
+            - listitem [ref=e337]:
+              - link "Scale up Your Creation with Seeed Studio Fusion" [ref=e338] [cursor=pointer]:
+                - /url: /Scale-up-Your-Creation-with-Fusion/
+            - listitem [ref=e339]:
+              - link "Popular Platforms" [ref=e340] [cursor=pointer]:
+                - /url: /popularplatforms/
+            - listitem [ref=e341]:
+              - generic [ref=e342]:
+                - link "Arduino" [ref=e343] [cursor=pointer]:
+                  - /url: /Arduino/
+                - button "Expand sidebar category 'Arduino'" [ref=e344] [cursor=pointer]
+            - listitem [ref=e345]:
+              - generic [ref=e346]:
+                - link "Raspberry Pi" [ref=e347] [cursor=pointer]:
+                  - /url: /Raspberry_Pi/
+                - button "Expand sidebar category 'Raspberry Pi'" [ref=e348] [cursor=pointer]
+            - listitem [ref=e349]:
+              - generic [ref=e350]:
+                - link "Micro:bit" [ref=e351] [cursor=pointer]:
+                  - /url: /microbit_wiki_page/
+                - button "Expand sidebar category 'Micro:bit'" [ref=e352] [cursor=pointer]
+            - listitem [ref=e353]:
+              - link "Discontinued Products" [ref=e354] [cursor=pointer]:
+                - /url: /discontinuedproducts/
+            - listitem [ref=e355]:
+              - button "Product List" [ref=e357] [cursor=pointer]
+            - listitem [ref=e358]:
+              - link "About Seeed" [ref=e359] [cursor=pointer]:
+                - /url: /About/
+            - listitem [ref=e360]:
+              - link "License" [ref=e361] [cursor=pointer]:
+                - /url: /License/
+        - button "Collapse sidebar" [ref=e362] [cursor=pointer]:
+          - img [ref=e363]
+    - main [ref=e367]:
+      - generic [ref=e369]:
+        - generic [ref=e370]:
+          - generic [ref=e371]:
+            - article [ref=e372]:
+              - navigation "Breadcrumbs" [ref=e373]:
+                - list [ref=e374]:
+                  - listitem [ref=e375]:
+                    - link "Home page" [ref=e376] [cursor=pointer]:
+                      - /url: /
+                      - img [ref=e377]
+                  - listitem [ref=e379]:
+                    - link "XIAO" [ref=e380] [cursor=pointer]:
+                      - /url: /SeeedStudio_XIAO_Series_Introduction/
+                  - listitem [ref=e381]:
+                    - generic [ref=e382]: Expansion Boards for XIAO
+                  - listitem [ref=e383]:
+                    - generic [ref=e384]: Expansion Board Base for XIAO
+              - generic [ref=e385]:
+                - heading "Expansion Board Base for XIAO" [level=1] [ref=e387]
+                - heading "OverviewDirect link to Overview" [level=2] [ref=e388]:
+                  - text: Overview
+                  - link "Direct link to Overview" [ref=e389] [cursor=pointer]:
+                    - /url: "#overview"
+                    - text: "#"
+                - img [ref=e391]
+                - paragraph [ref=e392]:
+                  - text: A powerful functional expansion board for Seeed Studio XIAO of only half Raspberry Pi 4 size. It enables build prototype and project in easy and quick way. With its rich peripherals including OLED, RTC, expandable memory, passive buzzer, RESET/User button, 5V servo connector, multiple data interfaces… you could explore infinite possibilities of Seeed Studio XIAO .
+                  - link "Circuitpython" [ref=e393] [cursor=pointer]:
+                    - /url: https://circuitpython.org/
+                  - text: is also well supported by this board.
+                - paragraph [ref=e394]:
+                  - text: As Seeed Studio XIAO form factor, all Seeed Studio XIAO boards support both
+                  - link "Grove Shield for Seeed Studio XIAO" [ref=e395] [cursor=pointer]:
+                    - /url: https://www.seeedstudio.com/Grove-Shield-for-Seeeduino-XIAO-p-4621.html
+                  - text: and
+                  - link "Seeed Studio Expansion Base for XIAO" [ref=e396] [cursor=pointer]:
+                    - /url: https://www.seeedstudio.com/Seeeduino-XIAO-Expansion-board-p-4746.html
+                  - text: . There is a slight difference between the pins and refer to the Pinout it is easy to manage.
+                - paragraph [ref=e397]: Seeed Studio XIAO SAMD21 , Seeed Studio XIAO RP2040, and Seeed Studio XIAO nRF52840 are compatible to the Seeed Studio Expansion Base for XIAO.
+                - link "Get One Now 🖱️" [ref=e399] [cursor=pointer]:
+                  - /url: https://www.seeedstudio.com/Seeeduino-XIAO-Expansion-board-p-4746.html
+                  - strong [ref=e400]:
+                    - generic [ref=e401]: Get One Now 🖱️
+                - heading "FeaturesDirect link to Features" [level=2] [ref=e402]:
+                  - text: Features
+                  - link "Direct link to Features" [ref=e403] [cursor=pointer]:
+                    - /url: "#features"
+                    - text: "#"
+                - list [ref=e404]:
+                  - listitem [ref=e405]:
+                    - strong [ref=e406]: "Quick Prototyping:"
+                    - text: Easy debug and Reset with RESET button and SWD pin led out to male header.
+                - list [ref=e407]:
+                  - listitem [ref=e408]:
+                    - strong [ref=e409]: "Rich peripherals:"
+                    - text: OLED display, RTC, expandable memory space, passive buzzer, user button, on board battery management chip.
+                  - listitem [ref=e410]:
+                    - strong [ref=e411]: "No Soldering Needed:"
+                    - text: All pin led out. Convenient plug and play Grove connectors support multiple data protocols, including IIC, UART, Analog/Digital.
+                  - listitem [ref=e412]:
+                    - strong [ref=e413]: "Circuit Python Supported:"
+                    - text: Well supports circuit python. MicroSD card slot enables memory space expand, making it possible to allocate more libraries needed in prototyping and project building.
+                  - listitem [ref=e414]:
+                    - strong [ref=e415]: "Mini Size:"
+                    - text: Compact and elegant with only half Raspberry Pi 4 size, especially suitable for projects require mini size.
+                - heading "SpecificationDirect link to Specification" [level=2] [ref=e416]:
+                  - text: Specification
+                  - link "Direct link to Specification" [ref=e417] [cursor=pointer]:
+                    - /url: "#specification"
+                    - text: "#"
+                - table [ref=e419]:
+                  - row "Item Value" [ref=e420]:
+                    - columnheader "Item" [ref=e421]
+                    - columnheader "Value" [ref=e422]
+                  - row "Operating voltage 5V / 3.7V Lithium Battery" [ref=e423]:
+                    - cell "Operating voltage" [ref=e424]
+                    - cell "5V / 3.7V Lithium Battery" [ref=e425]
+                  - row "Charging current 460mA (Max)" [ref=e426]:
+                    - cell "Charging current" [ref=e427]
+                    - cell "460mA (Max)" [ref=e428]
+                  - row "RTC timer precision ± 1.5S/DAY(25°C)" [ref=e429]:
+                    - cell "RTC timer precision" [ref=e430]
+                    - cell "± 1.5S/DAY(25°C)" [ref=e431]
+                  - row "RTC battery CR1220" [ref=e432]:
+                    - cell "RTC battery" [ref=e433]
+                    - cell "CR1220" [ref=e434]
+                  - row "Display 0.96\" OLED display" [ref=e435]:
+                    - cell "Display" [ref=e436]
+                    - cell "0.96\" OLED display" [ref=e437]
+                  - row "Expandable memory MicroSD card" [ref=e438]:
+                    - cell "Expandable memory" [ref=e439]
+                    - cell "MicroSD card" [ref=e440]
+                  - row "Grove Interface Grove IIC2, Grove UART1, A0/D0 Grove*1" [ref=e441]:
+                    - cell "Grove Interface" [ref=e442]
+                    - cell "Grove IIC2, Grove UART1, A0/D0 Grove*1" [ref=e443]:
+                      - text: Grove IIC
+                      - emphasis [ref=e444]: 2, Grove UART
+                      - text: 1, A0/D0 Grove*1
+                  - row "Other External Equipment Passive buzzer, user button, 5V servo connector" [ref=e445]:
+                    - cell "Other External Equipment" [ref=e446]
+                    - cell "Passive buzzer, user button, 5V servo connector" [ref=e447]
+                - heading "ApplicationsDirect link to Applications" [level=2] [ref=e448]:
+                  - text: Applications
+                  - link "Direct link to Applications" [ref=e449] [cursor=pointer]:
+                    - /url: "#applications"
+                    - text: "#"
+                - list [ref=e450]:
+                  - listitem [ref=e451]: SWD debug
+                  - listitem [ref=e452]: Rapid prototyping
+                  - listitem [ref=e453]: Data display
+                  - listitem [ref=e454]: Mini Size Project
+                - heading "Part ListDirect link to Part List" [level=2] [ref=e455]:
+                  - text: Part List
+                  - link "Direct link to Part List" [ref=e456] [cursor=pointer]:
+                    - /url: "#part-list"
+                    - text: "#"
+                - table [ref=e457]:
+                  - rowgroup [ref=e458]:
+                    - row "Item Value" [ref=e459]:
+                      - columnheader "Item" [ref=e460]
+                      - columnheader "Value" [ref=e461]
+                  - rowgroup [ref=e462]:
+                    - row "Seeed Studio Expansion Base for XIAO *1" [ref=e463]:
+                      - cell "Seeed Studio Expansion Base for XIAO" [ref=e464]
+                      - cell "*1" [ref=e465]
+                - generic [ref=e466]:
+                  - generic [ref=e467]:
+                    - img [ref=e469]
+                    - text: note
+                  - paragraph [ref=e472]:
+                    - text: This product does not include Seeed Studio XIAO and battery. Because the SWD pins are different, this expansion board does not support the XIAO nRF54L15 and XIAO MG24.Seeed Studio XIAO is constantly introducing new products. To keep up with the latest product developments in this series, visit the
+                    - link "XIAO series homepage" [ref=e473] [cursor=pointer]:
+                      - /url: https://www.seeedstudio.com/xiao-series-page
+                    - text: .
+                - heading "Getting StartedDirect link to Getting Started" [level=2] [ref=e474]:
+                  - text: Getting Started
+                  - link "Direct link to Getting Started" [ref=e475] [cursor=pointer]:
+                    - /url: "#getting-started"
+                    - text: "#"
+                - heading "Materials RequiredDirect link to Materials Required" [level=3] [ref=e476]:
+                  - text: Materials Required
+                  - link "Direct link to Materials Required" [ref=e477] [cursor=pointer]:
+                    - /url: "#materials-required"
+                    - text: "#"
+                - table [ref=e478]:
+                  - rowgroup [ref=e479]:
+                    - row "Seeed Studio XIAO SAMD21 (Pre-solder) Seeed Studio Expansion Base for XIAO" [ref=e480]:
+                      - columnheader "Seeed Studio XIAO SAMD21 (Pre-solder)" [ref=e481]
+                      - columnheader "Seeed Studio Expansion Base for XIAO" [ref=e482]
+                  - rowgroup [ref=e483]:
+                    - row "pir pir" [ref=e484]:
+                      - cell "pir" [ref=e485]:
+                        - paragraph [ref=e486]:
+                          - img "pir" [ref=e487]
+                      - cell "pir" [ref=e488]:
+                        - paragraph [ref=e489]:
+                          - img "pir" [ref=e490]
+                    - row "Get ONE Now Get ONE Now" [ref=e491]:
+                      - cell "Get ONE Now" [ref=e492]:
+                        - link "Get ONE Now" [ref=e493] [cursor=pointer]:
+                          - /url: https://www.seeedstudio.com/Seeeduino-XIAO-Arduino-Microcontroller-SAMD21-Cortex-M0+-p-4426.html
+                          - strong [ref=e494]: Get ONE Now
+                      - cell "Get ONE Now" [ref=e495]:
+                        - link "Get ONE Now" [ref=e496] [cursor=pointer]:
+                          - /url: https://www.seeedstudio.com/Seeeduino-XIAO-Expansion-board-p-4746.html
+                          - strong [ref=e497]: Get ONE Now
+                - heading "Hardware OverviewDirect link to Hardware Overview" [level=3] [ref=e498]:
+                  - text: Hardware Overview
+                  - link "Direct link to Hardware Overview" [ref=e499] [cursor=pointer]:
+                    - /url: "#hardware-overview"
+                    - text: "#"
+                - img [ref=e501]
+                - paragraph [ref=e502]:
+                  - text: There are an external MicroSD card slot and RTC Battery Holder, the MicroSD card mostly is used for saving and run the
+                  - code [ref=e503]: python.py
+                  - text: file, the RTC is for tracks the current time and can be used to program actions at a specific time.
+                - img [ref=e505]
+                - img [ref=e507]
+                - heading "Pinout DiagramDirect link to Pinout Diagram" [level=3] [ref=e508]:
+                  - text: Pinout Diagram
+                  - link "Direct link to Pinout Diagram" [ref=e509] [cursor=pointer]:
+                    - /url: "#pinout-diagram"
+                    - text: "#"
+                - paragraph [ref=e510]: External headers-pin description for Grove-Shield for Seeed Studio XIAO .
+                - img [ref=e512]
+                - heading "Expansion Board UsageDirect link to Expansion Board Usage" [level=2] [ref=e513]:
+                  - text: Expansion Board Usage
+                  - link "Direct link to Expansion Board Usage" [ref=e514] [cursor=pointer]:
+                    - /url: "#expansion-board-usage"
+                    - text: "#"
+                - heading "ConnectionDirect link to Connection" [level=3] [ref=e515]:
+                  - text: Connection
+                  - link "Direct link to Connection" [ref=e516] [cursor=pointer]:
+                    - /url: "#connection"
+                    - text: "#"
+                - paragraph [ref=e517]: Put the Seeed Studio XIAO SAMD21 on the expansion board, the Seeed Studio XIAO SAMD21 green LED should light up.
+                - img [ref=e519]
+                - generic [ref=e520]:
+                  - generic [ref=e521]:
+                    - img [ref=e523]
+                    - text: note
+                  - paragraph [ref=e526]:
+                    - text: Please plug the Seeed Studio XIAO on the expansion board first, then plug Type-C, Remember pluing Seeed Studio XIAO into the
+                    - strong [ref=e527]: middle of the two female header connectors
+                    - text: ", otherwise you will damage the Seeed Studio XIAO and the expansion board."
+                - heading "Battery usageDirect link to Battery usage" [level=2] [ref=e528]:
+                  - text: Battery usage
+                  - link "Direct link to Battery usage" [ref=e529] [cursor=pointer]:
+                    - /url: "#battery-usage"
+                    - text: "#"
+                - paragraph [ref=e530]: The Seeed Studio Expansion Base for XIAO can be powered by a battery, so if you do some demo that needs to be moved, that battery will help you to solve the power supply issue. when you plug the battery please watch out for the positive and negative anodes, follow the picture to connect the battery in case of damage the board.
+                - img [ref=e532]
+                - paragraph [ref=e533]: In addition, the board charged the battery when you plug the battery cable and the type-C cable and switch the button to on.
+                - paragraph [ref=e534]: As the below picture, if the LED flashing which means the battery does not charge or the board does not connect battery if the LED keeps light on which is mean the battery is charging.
+                - img [ref=e536]
+                - heading "Modules on the expansion boardDirect link to Modules on the expansion board" [level=2] [ref=e537]:
+                  - text: Modules on the expansion board
+                  - link "Direct link to Modules on the expansion board" [ref=e538] [cursor=pointer]:
+                    - /url: "#modules-on-the-expansion-board"
+                    - text: "#"
+                - paragraph [ref=e539]: "Rich peripherals on board including:"
+                - list [ref=e540]:
+                  - listitem [ref=e541]:
+                    - paragraph [ref=e542]:
+                      - strong [ref=e543]: "OLED display:"
+                      - text: Visual data display without connecting to PC, which enables debug in a more efficient way, and builds application such as a sensor hub, data monitor system, etc.
+                  - listitem [ref=e544]:
+                    - paragraph [ref=e545]:
+                      - strong [ref=e546]: "RESET button:"
+                      - text: No more jumper wire and short circuit, easy reset with just one click.
+                  - listitem [ref=e547]:
+                    - paragraph [ref=e548]:
+                      - strong [ref=e549]: "SWD debug:"
+                      - text: SWD pin led out as male pin header, making debugger connection and firmware download much easier.
+                  - listitem [ref=e550]:
+                    - paragraph [ref=e551]:
+                      - strong [ref=e552]: "High precision RTC:"
+                      - text: High precision real-time clock with battery backup, enable maintain accurate time when the main power is turned off.
+                  - listitem [ref=e553]:
+                    - paragraph [ref=e554]:
+                      - strong [ref=e555]: "Expandable memory:"
+                      - text: With a MicroSD card slot on the back, no worry on memory limit any more when adding libraries and using circuit python.
+                  - listitem [ref=e556]:
+                    - paragraph [ref=e557]:
+                      - strong [ref=e558]: "User button:"
+                      - text: Besides the RESET button, also provide with another user-defined button.
+                  - listitem [ref=e559]:
+                    - paragraph [ref=e560]:
+                      - strong [ref=e561]: "Passive buzzer:"
+                      - text: You could change the PMW frequency to award different beep sound to get a "buzzer music".
+                  - listitem [ref=e562]:
+                    - paragraph [ref=e563]:
+                      - strong [ref=e564]: "Grove connectors:"
+                      - text: All pin led out, plug and play grove connectors support common data protocols (Grove IIC
+                      - emphasis [ref=e565]: 2, Grove UART
+                      - text: 1, A0/D0 Grove*1)
+                  - listitem [ref=e566]:
+                    - paragraph [ref=e567]:
+                      - strong [ref=e568]: "Lipo Battery Charging:"
+                      - text: JST2.0mm standard lipo battery connector and battery management system, supports both USB and lipo battery power supply, and easy onboard battery recharge.
+                  - listitem [ref=e569]:
+                    - paragraph [ref=e570]:
+                      - strong [ref=e571]: "5V servo connector:"
+                      - text: 5V output led out to male header for 5V servo and sensor connection.
+                - img [ref=e573]
+                - heading "OLED DisplayDirect link to OLED Display" [level=3] [ref=e574]:
+                  - text: OLED Display
+                  - link "Direct link to OLED Display" [ref=e575] [cursor=pointer]:
+                    - /url: "#oled-display"
+                    - text: "#"
+                - paragraph [ref=e576]: This example introduces how to use the OLED display on the Seeed Studio Expansion Base for XIAO.
+                - img [ref=e578]
+                - paragraph [ref=e579]:
+                  - strong [ref=e580]: Step 1
+                  - text: . Install the Seeed Studio XIAO SAMD21 on the Expansion board then conect the Type-C cable.
+                - paragraph [ref=e581]:
+                  - strong [ref=e582]: Step 2
+                  - text: . Install the
+                  - link "u8g2" [ref=e583] [cursor=pointer]:
+                    - /url: https://github.com/olikraus/U8g2_Arduino
+                    - strong [ref=e584]: u8g2
+                  - text: library, this is the guide
+                  - link "how to install the library" [ref=e585] [cursor=pointer]:
+                    - /url: https://wiki.seeedstudio.com/How_to_install_Arduino_Library/
+                    - strong [ref=e586]: how to install the library
+                  - text: .
+                - paragraph [ref=e587]:
+                  - strong [ref=e588]: Step 3
+                  - text: . Copy the code and stick on the Ardiono IDE then upload it.
+                - paragraph [ref=e589]:
+                  - strong [ref=e590]: OLED Code
+                - generic [ref=e592]:
+                  - code [ref=e594]:
+                    - generic [ref=e595]: "#include <Arduino.h>"
+                    - generic [ref=e596]: "#include <U8x8lib.h>"
+                    - generic [ref=e597]: "#include <Wire.h>"
+                    - generic [ref=e598]: U8X8_SSD1306_128X64_NONAME_HW_I2C u8x8(/* reset=*/ U8X8_PIN_NONE, /* clock=*/ SCL, /* data=*/ SDA ); // OLEDs without Reset of the Display
+                    - generic [ref=e599]: "void setup(void) {"
+                    - generic [ref=e600]: u8x8.begin();
+                    - generic [ref=e601]: u8x8.setFlipMode(1); // Enable (1) and disbale (0) 180 degree rotation of the display content
+                    - generic [ref=e602]: "}"
+                    - generic [ref=e603]: "void loop(void) {"
+                    - generic [ref=e604]: u8x8.setFont(u8x8_font_chroma48medium8_r);
+                    - generic [ref=e605]: u8x8.setCursor(0, 0);
+                    - generic [ref=e606]: u8x8.print("Hello World!");
+                    - generic [ref=e607]: "}"
+                  - generic [ref=e608]:
+                    - button "Toggle word wrap" [ref=e609] [cursor=pointer]:
+                      - img [ref=e610]
+                    - button "Copy code to clipboard" [ref=e612] [cursor=pointer]:
+                      - generic [ref=e613]:
+                        - img [ref=e614]
+                        - img [ref=e616]
+                - heading "LED control by User ButtonDirect link to LED control by User Button" [level=3] [ref=e618]:
+                  - text: LED control by User Button
+                  - link "Direct link to LED control by User Button" [ref=e619] [cursor=pointer]:
+                    - /url: "#led-control-by-user-button"
+                    - text: "#"
+                - paragraph [ref=e620]: This example introduces how to use the button on the Seeed Studio Expansion Base for XIAO to control the LED on the Seeed Studio XIAO SAMD21.
+                - img [ref=e622]
+                - paragraph [ref=e623]:
+                  - strong [ref=e624]: Step 1
+                  - text: . Install the Seeed Studio XIAO SAMD21 on the Expansion board then conect the Type-C cable.
+                - paragraph [ref=e625]:
+                  - strong [ref=e626]: Step 2
+                  - text: . Open Arduino IDE, Copy the code and stick on the Ardiono IDE then upload it.
+                - paragraph [ref=e627]:
+                  - strong [ref=e628]: Code
+                - generic [ref=e630]:
+                  - code [ref=e632]:
+                    - generic [ref=e633]: const int buttonPin = 1; // the number of the pushbutton pin
+                    - generic [ref=e634]: int buttonState = 0; // variable for reading the pushbutton status
+                    - generic [ref=e635]: "void setup() {"
+                    - generic [ref=e636]: "// initialize the LED pin as an output:"
+                    - generic [ref=e637]: pinMode(LED_BUILTIN, OUTPUT);
+                    - generic [ref=e638]: "// initialize the pushbutton pin as an input:"
+                    - generic [ref=e639]: pinMode(buttonPin, INPUT_PULLUP);
+                    - generic [ref=e640]: "}"
+                    - generic [ref=e641]: "void loop() {"
+                    - generic [ref=e642]: "// read the state of the pushbutton value:"
+                    - generic [ref=e643]: buttonState = digitalRead(buttonPin);
+                    - generic [ref=e644]: "// check if the pushbutton is pressed. If it is, the buttonState is HIGH:"
+                    - generic [ref=e645]: "if (buttonState == HIGH) {"
+                    - generic [ref=e646]: "// turn LED on:"
+                    - generic [ref=e647]: digitalWrite(LED_BUILTIN, HIGH);
+                    - generic [ref=e648]: "} else {"
+                    - generic [ref=e649]: "// turn LED off:"
+                    - generic [ref=e650]: digitalWrite(LED_BUILTIN, LOW);
+                    - generic [ref=e651]: "}"
+                    - generic [ref=e652]: "}"
+                  - generic [ref=e653]:
+                    - button "Toggle word wrap" [ref=e654] [cursor=pointer]:
+                      - img [ref=e655]
+                    - button "Copy code to clipboard" [ref=e657] [cursor=pointer]:
+                      - generic [ref=e658]:
+                        - img [ref=e659]
+                        - img [ref=e661]
+                - heading "BuzzerDirect link to Buzzer" [level=3] [ref=e663]:
+                  - text: Buzzer
+                  - link "Direct link to Buzzer" [ref=e664] [cursor=pointer]:
+                    - /url: "#buzzer"
+                    - text: "#"
+                - paragraph [ref=e665]: The Buzzer is default connected to the Pin A3, if you want to remove the buzzer function, just follow the below picture, cut off the line.
+                - img [ref=e667]
+                - heading "Play Song with Passive BuzzerDirect link to play-song-with-passive-buzzer" [level=4] [ref=e668]:
+                  - strong [ref=e669]: Play Song with Passive Buzzer
+                  - link "Direct link to play-song-with-passive-buzzer" [ref=e670] [cursor=pointer]:
+                    - /url: "#play-song-with-passive-buzzer"
+                    - text: "#"
+                - paragraph [ref=e671]: This example uses Buzzer on the Seeed Studio Expansion Base for XIAO to play Happy birthday.
+                - paragraph [ref=e672]:
+                  - strong [ref=e673]: Step 1
+                  - text: . Install the Seeed Studio XIAO SAMD21 on the Expansion board then conect the Type-C cable.
+                - paragraph [ref=e674]:
+                  - strong [ref=e675]: Step 2
+                  - text: . Open Arduino IDE, Copy the code and stick on the Ardiono IDE then upload it.
+                - paragraph [ref=e676]:
+                  - strong [ref=e677]: Code
+                - generic [ref=e679]:
+                  - code [ref=e681]:
+                    - generic [ref=e682]: int speakerPin = D3;
+                    - generic [ref=e683]: int length = 28; // the number of notes
+                    - generic [ref=e684]: char notes[] = "GGAGcB GGAGdc GGxecBA yyecdc";
+                    - generic [ref=e685]: "int beats[] = { 2, 2, 8, 8, 8, 16, 1, 2, 2, 8, 8, 8, 16, 1, 2, 2, 8, 8, 8, 8, 16, 1, 2, 2, 8, 8, 8, 16 };"
+                    - generic [ref=e686]: int tempo = 150;
+                    - generic [ref=e687]: "void playTone(int tone, int duration) {"
+                    - generic [ref=e688]: "for (long i = 0; i < duration * 1000L; i += tone * 2) {"
+                    - generic [ref=e689]: digitalWrite(speakerPin, HIGH);
+                    - generic [ref=e690]: delayMicroseconds(tone);
+                    - generic [ref=e691]: digitalWrite(speakerPin, LOW);
+                    - generic [ref=e692]: delayMicroseconds(tone);
+                    - generic [ref=e693]: "}"
+                    - generic [ref=e694]: "}"
+                    - generic [ref=e695]: "void playNote(char note, int duration) {"
+                    - generic [ref=e696]: "char names[] = {'C', 'D', 'E', 'F', 'G', 'A', 'B',"
+                    - generic [ref=e697]: "'c', 'd', 'e', 'f', 'g', 'a', 'b',"
+                    - generic [ref=e698]: "'x', 'y'"
+                    - generic [ref=e699]: "};"
+                    - generic [ref=e700]: "int tones[] = { 1915, 1700, 1519, 1432, 1275, 1136, 1014,"
+                    - generic [ref=e701]: 956, 834, 765, 593, 468, 346, 224,
+                    - generic [ref=e702]: 655 , 715
+                    - generic [ref=e703]: "};"
+                    - generic [ref=e704]: int SPEE = 5;
+                    - generic [ref=e705]: // play the tone corresponding to the note name
+                    - generic [ref=e706]: "for (int i = 0; i < 16; i++) {"
+                    - generic [ref=e707]: "if (names[i] == note) {"
+                    - generic [ref=e708]: int newduration = duration / SPEE;
+                    - generic [ref=e709]: playTone(tones[i], newduration);
+                    - generic [ref=e710]: "}"
+                    - generic [ref=e711]: "}"
+                    - generic [ref=e712]: "}"
+                    - generic [ref=e713]: "void setup() {"
+                    - generic [ref=e714]: pinMode(speakerPin, OUTPUT);
+                    - generic [ref=e715]: "}"
+                    - generic [ref=e716]: "void loop() {"
+                    - generic [ref=e717]: "for (int i = 0; i < length; i++) {"
+                    - generic [ref=e718]: "if (notes[i] == ' ') {"
+                    - generic [ref=e719]: delay(beats[i] * tempo); // rest
+                    - generic [ref=e720]: "} else {"
+                    - generic [ref=e721]: playNote(notes[i], beats[i] * tempo);
+                    - generic [ref=e722]: "}"
+                    - generic [ref=e723]: // pause between notes
+                    - generic [ref=e724]: delay(tempo);
+                    - generic [ref=e725]: "}"
+                    - generic [ref=e726]: "}"
+                  - generic [ref=e727]:
+                    - button "Toggle word wrap" [ref=e728] [cursor=pointer]:
+                      - img [ref=e729]
+                    - button "Copy code to clipboard" [ref=e731] [cursor=pointer]:
+                      - generic [ref=e732]:
+                        - img [ref=e733]
+                        - img [ref=e735]
+                - heading "Servo Control by Rotary Angle SensorDirect link to Servo Control by Rotary Angle Sensor" [level=3] [ref=e737]:
+                  - text: Servo Control by Rotary Angle Sensor
+                  - link "Direct link to Servo Control by Rotary Angle Sensor" [ref=e738] [cursor=pointer]:
+                    - /url: "#servo-control-by-rotary-angle-sensor"
+                    - text: "#"
+                - paragraph [ref=e739]: This example uses a rotary angle sensor to control servo via integration ports on the Seeed Studio Expansion Base for XIAO.
+                - img [ref=e741]
+                - paragraph [ref=e742]:
+                  - strong [ref=e743]: Step 1
+                  - text: . Install the Seeed Studio XIAO SAMD21 on the Expansion board then conect the Type-C cable.
+                - paragraph [ref=e744]:
+                  - strong [ref=e745]: Step 2
+                  - text: . Connect the Servo cable to
+                  - strong [ref=e746]: I2C
+                  - text: port, rotary angle sensor to
+                  - strong [ref=e747]: D0
+                  - text: .
+                - paragraph [ref=e748]:
+                  - strong [ref=e749]: Step 3
+                  - text: . Open Arduino IDE, Copy the code and stick on the Ardiono IDE then upload it.
+                - generic [ref=e750]:
+                  - generic [ref=e751]:
+                    - img [ref=e753]
+                    - text: tip
+                  - paragraph [ref=e756]:
+                    - text: If your Development Board is
+                    - strong [ref=e757]: XIAO ESP32 Series
+                    - text: . Before you run the following code, you need to install ESP32Servo library first in
+                    - strong [ref=e758]: Arduino Library Manager
+                    - text: and change the following code from
+                    - code [ref=e759]: "#include <Servo.h>"
+                    - text: to
+                    - code [ref=e760]: "#include <ESP32Servo.h>"
+                    - text: .
+                - generic [ref=e762]:
+                  - code [ref=e764]:
+                    - generic [ref=e765]: "#include <Servo.h>"
+                    - generic [ref=e766]: "#include <Arduino.h>"
+                    - generic [ref=e767]: "#include <Wire.h>"
+                    - generic [ref=e768]: "#define ROTARY_ANGLE_SENSOR A0"
+                    - generic [ref=e769]: "#define ADC_REF 3 //reference voltage of ADC is 3v.If the Vcc switch on the seeeduino"
+                    - generic [ref=e770]: "#define GROVE_VCC 3 //VCC of the grove interface is normally 3v"
+                    - generic [ref=e771]: "#define FULL_ANGLE 300 //full value of the rotary angle is 300 degrees"
+                    - generic [ref=e772]: Servo myservo; // create servo object to control a servo
+                    - generic [ref=e773]: // twelve servo objects can be created on most boards
+                    - generic [ref=e774]: int pos = 0; // variable to store the servo position
+                    - generic [ref=e775]: "void setup() {"
+                    - generic [ref=e776]: Serial.begin(9600);
+                    - generic [ref=e777]: pinMode(ROTARY_ANGLE_SENSOR, INPUT);
+                    - generic [ref=e778]: myservo.attach(5); // attaches the servo on pin 9 to the servo object
+                    - generic [ref=e779]: "}"
+                    - generic [ref=e780]: "void loop() {"
+                    - generic [ref=e781]: float voltage;
+                    - generic [ref=e782]: int sensor_value = analogRead(ROTARY_ANGLE_SENSOR);
+                    - generic [ref=e783]: voltage = (float)sensor_value * ADC_REF / 1023;
+                    - generic [ref=e784]: float degrees = (voltage * FULL_ANGLE) / GROVE_VCC;
+                    - generic [ref=e785]: Serial.println("The angle between the mark and the starting position:");
+                    - generic [ref=e786]: Serial.println(degrees);
+                    - generic [ref=e787]: delay(50);
+                    - generic [ref=e788]: myservo.write(degrees);
+                    - generic [ref=e789]: "}"
+                  - generic [ref=e790]:
+                    - button "Toggle word wrap" [ref=e791] [cursor=pointer]:
+                      - img [ref=e792]
+                    - button "Copy code to clipboard" [ref=e794] [cursor=pointer]:
+                      - generic [ref=e795]:
+                        - img [ref=e796]
+                        - img [ref=e798]
+                - heading "RTC clock displayDirect link to RTC clock display" [level=3] [ref=e800]:
+                  - text: RTC clock display
+                  - link "Direct link to RTC clock display" [ref=e801] [cursor=pointer]:
+                    - /url: "#rtc-clock-display"
+                    - text: "#"
+                - paragraph [ref=e802]: This example uses RTC to display the clock on the OLED.
+                - img [ref=e804]
+                - paragraph [ref=e805]:
+                  - strong [ref=e806]: Step 1
+                  - text: . Install the Seeed Studio XIAO SAMD21 on the Expansion board then conect the Type-C cable.
+                - paragraph [ref=e807]:
+                  - strong [ref=e808]: Step 2
+                  - text: . Install the
+                  - link "u8g2" [ref=e809] [cursor=pointer]:
+                    - /url: https://github.com/olikraus/U8g2_Arduino
+                    - strong [ref=e810]: u8g2
+                  - text: and
+                  - link "PCF8563" [ref=e811] [cursor=pointer]:
+                    - /url: https://github.com/Bill2462/PCF8563-Arduino-Library
+                    - strong [ref=e812]: PCF8563
+                  - text: library, this is the guide
+                  - link "how to install the library" [ref=e813] [cursor=pointer]:
+                    - /url: https://wiki.seeedstudio.com/How_to_install_Arduino_Library/
+                    - strong [ref=e814]: how to install the library
+                  - text: .
+                - paragraph [ref=e815]:
+                  - strong [ref=e816]: Step 3
+                  - text: . Copy the code and stick on the Ardiono IDE then upload it.
+                - generic [ref=e818]:
+                  - code [ref=e820]:
+                    - generic [ref=e821]: "#include <Arduino.h>"
+                    - generic [ref=e822]: "#include <U8x8lib.h>"
+                    - generic [ref=e823]: "#include <PCF8563.h>"
+                    - generic [ref=e824]: PCF8563 pcf;
+                    - generic [ref=e825]: "#include <Wire.h>"
+                    - generic [ref=e826]: U8X8_SSD1306_128X64_NONAME_HW_I2C u8x8(/* reset=*/ U8X8_PIN_NONE, /* clock=*/ SCL, /* data=*/ SDA ); // OLEDs without Reset of the Display
+                    - generic [ref=e827]: "void setup() {"
+                    - generic [ref=e828]: Serial.begin(115200);
+                    - generic [ref=e829]: u8x8.begin();
+                    - generic [ref=e830]: u8x8.setFlipMode(1);
+                    - generic [ref=e831]: Wire.begin();
+                    - generic [ref=e832]: pcf.init();//initialize the clock
+                    - generic [ref=e833]: pcf.stopClock();//stop the clock
+                    - generic [ref=e834]: pcf.setYear(20);//set year
+                    - generic [ref=e835]: pcf.setMonth(10);//set month
+                    - generic [ref=e836]: pcf.setDay(23);//set dat
+                    - generic [ref=e837]: pcf.setHour(17);//set hour
+                    - generic [ref=e838]: pcf.setMinut(33);//set minut
+                    - generic [ref=e839]: pcf.setSecond(0);//set second
+                    - generic [ref=e840]: pcf.startClock();//start the clock
+                    - generic [ref=e841]: "}"
+                    - generic [ref=e842]: "void loop() {"
+                    - generic [ref=e843]: Time nowTime = pcf.getTime();//get current time
+                    - generic [ref=e844]: u8x8.setFont(u8x8_font_chroma48medium8_r); // choose a suitable font
+                    - generic [ref=e845]: u8x8.setCursor(0, 0);
+                    - generic [ref=e846]: u8x8.print(nowTime.day);
+                    - generic [ref=e847]: u8x8.print("/");
+                    - generic [ref=e848]: u8x8.print(nowTime.month);
+                    - generic [ref=e849]: u8x8.print("/");
+                    - generic [ref=e850]: u8x8.print("20");
+                    - generic [ref=e851]: u8x8.print(nowTime.year);
+                    - generic [ref=e852]: u8x8.setCursor(0, 1);
+                    - generic [ref=e853]: u8x8.print(nowTime.hour);
+                    - generic [ref=e854]: u8x8.print(":");
+                    - generic [ref=e855]: u8x8.print(nowTime.minute);
+                    - generic [ref=e856]: u8x8.print(":");
+                    - generic [ref=e857]: u8x8.println(nowTime.second);
+                    - generic [ref=e858]: delay(1000);
+                    - generic [ref=e859]: "}"
+                  - generic [ref=e860]:
+                    - button "Toggle word wrap" [ref=e861] [cursor=pointer]:
+                      - img [ref=e862]
+                    - button "Copy code to clipboard" [ref=e864] [cursor=pointer]:
+                      - generic [ref=e865]:
+                        - img [ref=e866]
+                        - img [ref=e868]
+                - heading "SD card FunctionDirect link to SD card Function" [level=3] [ref=e870]:
+                  - text: SD card Function
+                  - link "Direct link to SD card Function" [ref=e871] [cursor=pointer]:
+                    - /url: "#sd-card-function"
+                    - text: "#"
+                - paragraph [ref=e872]: For the XIAO SAMD21, XIAO RP2040, XIAO ESP32C3 and XIAO ESP32S3, you do not need to install a separate SD card library to use a third party. This procedure below is applicable to these XIAOs.
+                - generic [ref=e873]:
+                  - generic [ref=e874]:
+                    - img [ref=e876]
+                    - text: tip
+                  - paragraph [ref=e879]:
+                    - text: The expansion board circuit is designed so that the CS pin of the SD card slot is connected to the
+                    - strong [ref=e880]: D2
+                    - text: pin of the XIAO.
+                - generic [ref=e882]:
+                  - code [ref=e884]:
+                    - generic [ref=e885]: "#include <SPI.h>"
+                    - generic [ref=e886]: "#include <SD.h>"
+                    - generic [ref=e887]: "#include \"FS.h\""
+                    - generic [ref=e888]: File myFile;
+                    - generic [ref=e889]: "void setup() {"
+                    - generic [ref=e890]: "// Open serial communications and wait for port to open:"
+                    - generic [ref=e891]: Serial.begin(115200);
+                    - generic [ref=e892]: while(!Serial); // Execute after turning on the serial monitor
+                    - generic [ref=e893]: delay(500);
+                    - generic [ref=e894]: Serial.print("Initializing SD card...");
+                    - generic [ref=e895]: pinMode(D2, OUTPUT); // Modify the pins here to fit the CS pins of the SD card you are using.
+                    - generic [ref=e896]: "if (!SD.begin(D2)) {"
+                    - generic [ref=e897]: Serial.println("initialization failed!");
+                    - generic [ref=e898]: return;
+                    - generic [ref=e899]: "}"
+                    - generic [ref=e900]: Serial.println("initialization done.");
+                    - generic [ref=e901]: // open the file. note that only one file can be open at a time,
+                    - generic [ref=e902]: // so you have to close this one before opening another.
+                    - generic [ref=e903]: myFile = SD.open("/test.txt", FILE_WRITE); // The path to read and write files needs to start with "/"
+                    - generic [ref=e904]: "// if the file opened okay, write to it:"
+                    - generic [ref=e905]: "if (myFile) {"
+                    - generic [ref=e906]: Serial.print("Writing to test.txt...");
+                    - generic [ref=e907]: myFile.println("testing 1, 2, 3.");
+                    - generic [ref=e908]: "// close the file:"
+                    - generic [ref=e909]: myFile.close();
+                    - generic [ref=e910]: Serial.println("done.");
+                    - generic [ref=e911]: "} else {"
+                    - generic [ref=e912]: "// if the file didn't open, print an error:"
+                    - generic [ref=e913]: Serial.println("error opening test.txt");
+                    - generic [ref=e914]: "}"
+                    - generic [ref=e915]: "// re-open the file for reading:"
+                    - generic [ref=e916]: myFile = SD.open("/test.txt"); // The path to read and write files needs to start with "/"
+                    - generic [ref=e917]: "if (myFile) {"
+                    - generic [ref=e918]: Serial.println("test.txt:");
+                    - generic [ref=e919]: "// read from the file until there's nothing else in it:"
+                    - generic [ref=e920]: "while (myFile.available()) {"
+                    - generic [ref=e921]: Serial.write(myFile.read());
+                    - generic [ref=e922]: "}"
+                    - generic [ref=e923]: "// close the file:"
+                    - generic [ref=e924]: myFile.close();
+                    - generic [ref=e925]: "} else {"
+                    - generic [ref=e926]: "// if the file didn't open, print an error:"
+                    - generic [ref=e927]: Serial.println("error opening test.txt");
+                    - generic [ref=e928]: "}"
+                    - generic [ref=e929]: "}"
+                    - generic [ref=e930]: "void loop() {"
+                    - generic [ref=e931]: // nothing happens after setup
+                    - generic [ref=e932]: "}"
+                  - generic [ref=e933]:
+                    - button "Toggle word wrap" [ref=e934] [cursor=pointer]:
+                      - img [ref=e935]
+                    - button "Copy code to clipboard" [ref=e937] [cursor=pointer]:
+                      - generic [ref=e938]:
+                        - img [ref=e939]
+                        - img [ref=e941]
+                - paragraph [ref=e943]:
+                  - text: If you are using the XIAO nRF52840 series then you may need to download the
+                  - link "SdFat library" [ref=e944] [cursor=pointer]:
+                    - /url: https://github.com/greiman/SdFat
+                  - text: separately in order to use the SD card function.
+                - generic [ref=e946]:
+                  - code [ref=e948]:
+                    - generic [ref=e949]: "#include <SPI.h>"
+                    - generic [ref=e950]: "#include \"SdFat.h\""
+                    - generic [ref=e951]: SdFat SD;
+                    - generic [ref=e952]: "#define SD_CS_PIN D2"
+                    - generic [ref=e953]: File myFile;
+                    - generic [ref=e954]: "void setup() {"
+                    - generic [ref=e955]: "// Open serial communications and wait for port to open:"
+                    - generic [ref=e956]: Serial.begin(9600);
+                    - generic [ref=e957]: "while (!Serial) {"
+                    - generic [ref=e958]: ; // wait for serial port to connect. Needed for native USB port only
+                    - generic [ref=e959]: "}"
+                    - generic [ref=e960]: Serial.print("Initializing SD card...");
+                    - generic [ref=e961]: "if (!SD.begin(SD_CS_PIN)) {"
+                    - generic [ref=e962]: Serial.println("initialization failed!");
+                    - generic [ref=e963]: return;
+                    - generic [ref=e964]: "}"
+                    - generic [ref=e965]: Serial.println("initialization done.");
+                    - generic [ref=e966]: // open the file. note that only one file can be open at a time,
+                    - generic [ref=e967]: // so you have to close this one before opening another.
+                    - generic [ref=e968]: myFile = SD.open("/test.txt", FILE_WRITE);
+                    - generic [ref=e969]: "// if the file opened okay, write to it:"
+                    - generic [ref=e970]: "if (myFile) {"
+                    - generic [ref=e971]: Serial.print("Writing to test.txt...");
+                    - generic [ref=e972]: myFile.println("testing 1, 2, 3.");
+                    - generic [ref=e973]: "// close the file:"
+                    - generic [ref=e974]: myFile.close();
+                    - generic [ref=e975]: Serial.println("done.");
+                    - generic [ref=e976]: "} else {"
+                    - generic [ref=e977]: "// if the file didn't open, print an error:"
+                    - generic [ref=e978]: Serial.println("error opening test.txt");
+                    - generic [ref=e979]: "}"
+                    - generic [ref=e980]: "// re-open the file for reading:"
+                    - generic [ref=e981]: myFile = SD.open("test.txt");
+                    - generic [ref=e982]: "if (myFile) {"
+                    - generic [ref=e983]: Serial.println("test.txt:");
+                    - generic [ref=e984]: "// read from the file until there's nothing else in it:"
+                    - generic [ref=e985]: "while (myFile.available()) {"
+                    - generic [ref=e986]: Serial.write(myFile.read());
+                    - generic [ref=e987]: "}"
+                    - generic [ref=e988]: "// close the file:"
+                    - generic [ref=e989]: myFile.close();
+                    - generic [ref=e990]: "} else {"
+                    - generic [ref=e991]: "// if the file didn't open, print an error:"
+                    - generic [ref=e992]: Serial.println("error opening test.txt");
+                    - generic [ref=e993]: "}"
+                    - generic [ref=e994]: "}"
+                    - generic [ref=e995]: "void loop() {"
+                    - generic [ref=e996]: // nothing happens after setup
+                    - generic [ref=e997]: "}"
+                  - button "Copy code to clipboard" [ref=e999] [cursor=pointer]:
+                    - generic [ref=e1000]:
+                      - img [ref=e1001]
+                      - img [ref=e1003]
+                - heading "Acrylic Case for Seeed Studio Seeed Studio Expansion Base for XIAODirect link to Acrylic Case for Seeed Studio Seeed Studio Expansion Base for XIAO" [level=2] [ref=e1005]:
+                  - text: Acrylic Case for Seeed Studio Seeed Studio Expansion Base for XIAO
+                  - link "Direct link to Acrylic Case for Seeed Studio Seeed Studio Expansion Base for XIAO" [ref=e1006] [cursor=pointer]:
+                    - /url: "#acrylic-case-for-seeed-studio-seeed-studio-expansion-base-for-xiao"
+                    - text: "#"
+                - img [ref=e1008]
+                - paragraph [ref=e1009]:
+                  - link [ref=e1010] [cursor=pointer]:
+                    - /url: https://www.seeedstudio.com/XIAO-p-4812.html
+                    - img [ref=e1011]
+                - paragraph [ref=e1012]:
+                  - text: We made this
+                  - link "acrylic case" [ref=e1013] [cursor=pointer]:
+                    - /url: https://www.seeedstudio.com/XIAO-p-4812.html
+                    - strong [ref=e1014]: acrylic case
+                  - text: for protecting the Seeed Studio Expansion Base for XIAO, those are acrylic case components.
+                - img [ref=e1016]
+                - paragraph [ref=e1017]: Compare with the Grove Shield for Seeed Studio XIAO , the Seeed Studio Expansion Base for XIAO added a lot useful modules for the users.
+                - img [ref=e1019]
+                - paragraph [ref=e1020]: This Acrylic case easy to build it up and it also can dress the case look neater.
+                - img [ref=e1022]
+                - heading "Circuitpython on Seeed Studio XIAO SAMD21 with expansion boardDirect link to Circuitpython on Seeed Studio XIAO SAMD21 with expansion board" [level=2] [ref=e1023]:
+                  - text: Circuitpython on Seeed Studio XIAO SAMD21 with expansion board
+                  - link "Direct link to Circuitpython on Seeed Studio XIAO SAMD21 with expansion board" [ref=e1024] [cursor=pointer]:
+                    - /url: "#circuitpython-on-seeed-studio-xiao-samd21-with-expansion-board"
+                    - text: "#"
+                - paragraph [ref=e1025]:
+                  - text: This wiki introduce how to install and run the official
+                  - link "CircuitPython" [ref=e1026] [cursor=pointer]:
+                    - /url: https://circuitpython.org/
+                    - strong [ref=e1027]: CircuitPython
+                  - text: by Adafruit Industries on the
+                  - link "Seeed Studio XIAO SAMD21 development board" [ref=e1028] [cursor=pointer]:
+                    - /url: https://www.seeedstudio.com/Seeeduino-XIAO-Pre-Soldered-p-4747.html
+                    - strong [ref=e1029]: Seeed Studio XIAO SAMD21 development board
+                  - text: "!"
+                - paragraph [ref=e1030]:
+                  - text: CircuitPython is a programming language designed to simplify experimenting and learning to program on low-cost microcontroller boards. It makes getting started easier than ever with no upfront desktop downloads needed. Once you get your board set up, open any text editor, and get started editing code. For more info, please refer to
+                  - link "here" [ref=e1031] [cursor=pointer]:
+                    - /url: https://learn.adafruit.com/welcome-to-circuitpython/what-is-circuitpython
+                    - strong [ref=e1032]: here
+                  - text: .
+                - heading "Installing CircuitPythonDirect link to Installing CircuitPython" [level=2] [ref=e1033]:
+                  - text: Installing CircuitPython
+                  - link "Direct link to Installing CircuitPython" [ref=e1034] [cursor=pointer]:
+                    - /url: "#installing-circuitpython"
+                    - text: "#"
+                - paragraph [ref=e1035]:
+                  - strong [ref=e1036]: Step 1.
+                  - text: Install the Seeed Studio XIAO SAMD21 on the Expansion board then conect the Type-C cable.
+                - paragraph [ref=e1037]:
+                  - strong [ref=e1038]: Step 2.
+                  - text: Download the official
+                  - link "**CircuitPython Bootloader for Seeed Studio XIAO SAMD21 **" [ref=e1039] [cursor=pointer]:
+                    - /url: https://circuitpython.org/board/seeeduino_xiao/
+                  - text: . A
+                  - code [ref=e1040]: .uf2
+                  - text: ", the flie will be store in your PC download."
+                - img [ref=e1042]
+                - paragraph [ref=e1043]:
+                  - strong [ref=e1044]: Step 3.
+                  - text: Entering the DFU bootloader mode by press the reset button twice quickly on the Seeed Studio Expansion Base for XIAO, then your PC will appear Arduino drive.
+                - img [ref=e1046]
+                - img [ref=e1048]
+                - paragraph [ref=e1049]:
+                  - strong [ref=e1050]: Step 4.
+                  - text: An external drive named
+                  - code [ref=e1051]: Arduino
+                  - text: should appear in your PC. Drag the downloaded CircuitPython uf2 files to the
+                  - code [ref=e1052]: Arduino
+                  - text: drive.
+                - img [ref=e1054]
+                - paragraph [ref=e1055]:
+                  - strong [ref=e1056]: Step 5.
+                  - text: Once loaded the CircuitPython bootloader, unplug the USB Type-C and re-connect. A new external drive called
+                  - code [ref=e1057]: CIRCUITPY
+                  - text: should be appear.
+                - img [ref=e1059]
+                - paragraph [ref=e1060]:
+                  - strong [ref=e1061]: Step 6.
+                  - text: Now, CircuitPython is loaded on Seeed Studio XIAO SAMD21 ! All you need to do it's to write you python program and name it
+                  - code [ref=e1062]: main.py
+                  - text: and drag it onto the
+                  - code [ref=e1063]: CIRCUITPY
+                  - text: drive.
+                - heading "CircuitPython Blink exampleDirect link to CircuitPython Blink example" [level=3] [ref=e1064]:
+                  - text: CircuitPython Blink example
+                  - link "Direct link to CircuitPython Blink example" [ref=e1065] [cursor=pointer]:
+                    - /url: "#circuitpython-blink-example"
+                    - text: "#"
+                - paragraph [ref=e1066]: There is a simple example introduce how to use the CirsuitPython on the Seeed Studio XIAO .
+                - paragraph [ref=e1067]:
+                  - strong [ref=e1068]: Step 1
+                  - text: Create a txt file name
+                  - code [ref=e1069]: main
+                  - text: on the
+                  - code [ref=e1070]: CIRCUITPY
+                  - text: drive.
+                - img [ref=e1072]
+                - generic [ref=e1073]:
+                  - generic [ref=e1074]:
+                    - img [ref=e1076]
+                    - text: note
+                  - paragraph [ref=e1079]:
+                    - text: The
+                    - code [ref=e1080]: main
+                    - text: "name is one of these:"
+                    - strong [ref=e1081]: code.txt
+                    - text: ","
+                    - strong [ref=e1082]: code.py
+                    - text: ","
+                    - strong [ref=e1083]: main.py
+                    - text: ","
+                    - strong [ref=e1084]: main.txt
+                    - text: ", there is more detail about"
+                    - link "this behavior" [ref=e1085] [cursor=pointer]:
+                      - /url: https://docs.circuitpython.org/en/latest/README.html#behavior
+                      - strong [ref=e1086]: this behavior
+                    - text: .
+                - paragraph [ref=e1087]:
+                  - strong [ref=e1088]: Step 2
+                  - text: Use REPL to get the pins of the orange LED. For details on REPL, see
+                  - link "Welcome to CircuitPython!" [ref=e1089] [cursor=pointer]:
+                    - /url: https://learn.adafruit.com/welcome-to-circuitpython/the-repl
+                  - text: To use REPL, you first need to connet to the serial console. Once the connection is established, press CTRL+C twice to enter edit mode. Then, copy the following code and enter respectively.
+                - generic [ref=e1091]:
+                  - code [ref=e1093]:
+                    - generic [ref=e1094]: ">>> import board"
+                    - generic [ref=e1095]: ">>> dir(board)"
+                  - button "Copy code to clipboard" [ref=e1097] [cursor=pointer]:
+                    - generic [ref=e1098]:
+                      - img [ref=e1099]
+                      - img [ref=e1101]
+                - paragraph [ref=e1103]:
+                  - text: You will see a list of all the pins on your board that are available for you to use in your code. Each board will differ slightly depending on the number of pins available.
+                  - img "image.png"
+                - paragraph [ref=e1104]: Do you see YELLOW_LED_INVERTED? That's the pin you used to blink the orange LED!
+                - paragraph [ref=e1105]:
+                  - strong [ref=e1106]: Step 3
+                  - text: Paste the code on the
+                  - code [ref=e1107]: main
+                  - text: file then save it, you will see the orange LED blinking on the Seeed Studio XIAO SAMD21 board.
+                - paragraph [ref=e1108]:
+                  - strong [ref=e1109]: Code
+                - generic [ref=e1111]:
+                  - code [ref=e1113]:
+                    - generic [ref=e1114]: import time
+                    - generic [ref=e1115]: import board
+                    - generic [ref=e1116]: from digitalio import DigitalInOut, Direction
+                    - generic [ref=e1117]: led = DigitalInOut(board.YELLOW_LED_INVERTED)
+                    - generic [ref=e1118]: led.direction = Direction.OUTPUT
+                    - generic [ref=e1119]: "while True:"
+                    - generic [ref=e1120]: led.value = True
+                    - generic [ref=e1121]: time.sleep(1)
+                    - generic [ref=e1122]: led.value = False
+                    - generic [ref=e1123]: time.sleep(1)
+                  - button "Copy code to clipboard" [ref=e1125] [cursor=pointer]:
+                    - generic [ref=e1126]:
+                      - img [ref=e1127]
+                      - img [ref=e1129]
+                - heading "MicroSD card for circuitpythonDirect link to MicroSD card for circuitpython" [level=3] [ref=e1131]:
+                  - text: MicroSD card for circuitpython
+                  - link "Direct link to MicroSD card for circuitpython" [ref=e1132] [cursor=pointer]:
+                    - /url: "#microsd-card-for-circuitpython"
+                    - text: "#"
+                - paragraph [ref=e1133]: The Seeed Studio XIAO SAMD21 build-in about 40 KB flash, but it may have not enough space to store the large size python code file, fortunately, Seeed Studio XIAO SAMD21 Expansion board built-in an MicroSD card slot for extending the store space, so you can follow this instruction to learn how to run the circuitpython on the MicroSD card.
+                - generic [ref=e1134]:
+                  - generic [ref=e1135]:
+                    - img [ref=e1137]
+                    - text: note
+                  - paragraph [ref=e1140]: The MicroSD card system format is FAT or exFAT. If you use other MicroSD card system format that will cause the MicroSD card can not be recognized.
+                - paragraph [ref=e1141]:
+                  - strong [ref=e1142]: Step 1.
+                  - text: Prepare a micro SD Card to plug in the Seeed Studio XIAO SAMD21 expansion board.
+                - paragraph [ref=e1143]:
+                  - strong [ref=e1144]: Step 2.
+                  - text: Assume you do not download the
+                  - link "circuitPython file" [ref=e1145] [cursor=pointer]:
+                    - /url: https://circuitpython.org/board/seeeduino_xiao/
+                    - strong [ref=e1146]: circuitPython file
+                  - text: yet, please refer to
+                  - link "Installing CircuitPython" [ref=e1147] [cursor=pointer]:
+                    - /url: https://wiki.seeedstudio.com/Seeeduino-XIAO-Expansion-Board/#installing-circuitpython
+                    - strong [ref=e1148]: Installing CircuitPython
+                  - text: chapter.
+                - paragraph [ref=e1149]:
+                  - strong [ref=e1150]: Step 3.
+                  - text: Download
+                  - link "lib" [ref=e1151] [cursor=pointer]:
+                    - /url: https://files.seeedstudio.com/wiki/Seeeduino-XIAO-Expansion-Board/lib.zip
+                    - strong [ref=e1152]: lib
+                  - text: unzips the file, then replace it with the new lib in the
+                  - code [ref=e1153]: CIRCUITPY
+                  - text: .
+                - img [ref=e1155]
+                - paragraph [ref=e1156]:
+                  - strong [ref=e1157]: Step 4.
+                  - text: Download the
+                  - link "main.py" [ref=e1158] [cursor=pointer]:
+                    - /url: https://files.seeedstudio.com/wiki/Seeeduino-XIAO-Expansion-Board/main.py
+                    - strong [ref=e1159]: main.py
+                  - text: file in the
+                  - code [ref=e1160]: CIRCUITPY
+                  - text: drive.
+                - paragraph [ref=e1161]:
+                  - strong [ref=e1162]:
+                    - text: The
+                    - code [ref=e1163]: main.py
+                    - text: code
+                - generic [ref=e1165]:
+                  - code [ref=e1167]:
+                    - generic [ref=e1168]: import sd
+                    - generic [ref=e1169]: "f = open(\"/sd/hello.txt\", \"r\") ## read the file from SD card"
+                    - generic [ref=e1170]: print(f.read())
+                  - button "Copy code to clipboard" [ref=e1172] [cursor=pointer]:
+                    - generic [ref=e1173]:
+                      - img [ref=e1174]
+                      - img [ref=e1176]
+                - paragraph [ref=e1178]:
+                  - strong [ref=e1179]: Step 5.
+                  - text: Download the
+                  - link "sd.py" [ref=e1180] [cursor=pointer]:
+                    - /url: https://files.seeedstudio.com/wiki/Seeeduino-XIAO-Expansion-Board/sd.py
+                    - strong [ref=e1181]: sd.py
+                  - text: file in the
+                  - code [ref=e1182]: CIRCUITPY
+                  - text: drive.
+                - paragraph [ref=e1183]:
+                  - strong [ref=e1184]:
+                    - text: The
+                    - code [ref=e1185]: sd.py
+                    - text: code
+                - generic [ref=e1187]:
+                  - code [ref=e1189]:
+                    - generic [ref=e1190]: import os
+                    - generic [ref=e1191]: import adafruit_sdcard
+                    - generic [ref=e1192]: import board
+                    - generic [ref=e1193]: import busio
+                    - generic [ref=e1194]: import digitalio
+                    - generic [ref=e1195]: import storage
+                    - generic [ref=e1196]: import sys
+                    - generic [ref=e1197]: "# Connect to the card and mount the filesystem for Seeed Studio XIAO ."
+                    - generic [ref=e1198]: spi = busio.SPI(board.SCK, board.MOSI, board.MISO)
+                    - generic [ref=e1199]: cs = digitalio.DigitalInOut(board.D2)
+                    - generic [ref=e1200]: sdcard = adafruit_sdcard.SDCard(spi, cs)
+                    - generic [ref=e1201]: vfs = storage.VfsFat(sdcard)
+                    - generic [ref=e1202]: storage.mount(vfs, "/sd")
+                    - generic [ref=e1203]: sys.path.append("/sd")
+                    - generic [ref=e1204]: "sys.path.append(\"/sd/lib\") ## switch to the path to SD card"
+                  - button "Copy code to clipboard" [ref=e1206] [cursor=pointer]:
+                    - generic [ref=e1207]:
+                      - img [ref=e1208]
+                      - img [ref=e1210]
+                - paragraph [ref=e1212]:
+                  - strong [ref=e1213]: Buzzer Example
+                - paragraph [ref=e1214]:
+                  - text: This example for test the buzzer via the run the
+                  - code [ref=e1215]: buzzer.py
+                  - text: in the MicroSD card.
+                - paragraph [ref=e1216]:
+                  - strong [ref=e1217]: Step 1.
+                  - text: You can just paste
+                  - link "buzzer.py" [ref=e1218] [cursor=pointer]:
+                    - /url: https://files.seeedstudio.com/wiki/Seeeduino-XIAO-Expansion-Board/buzzer.py
+                    - strong [ref=e1219]: buzzer.py
+                  - text: in the MicroSD card.
+                - img [ref=e1221]
+                - paragraph [ref=e1222]:
+                  - strong [ref=e1223]: Step 2.
+                  - text: Open
+                  - code [ref=e1224]: main.py
+                  - text: in the
+                  - code [ref=e1225]: CIRCUITPY
+                  - text: drive.
+                - img [ref=e1227]
+                - paragraph [ref=e1228]:
+                  - strong [ref=e1229]: Step 3.
+                  - text: Add
+                  - code [ref=e1230]: import buzzer
+                  - text: in the main.py file.
+                - img [ref=e1232]
+                - paragraph [ref=e1233]: When you finish all the step, the buzzer will work. If you to run other python files in the MicroSD card, please imitate the example.
+                - generic [ref=e1234]:
+                  - generic [ref=e1235]:
+                    - img [ref=e1237]
+                    - text: note
+                  - paragraph [ref=e1240]: If you want back to Arduino mode, you just need to upload any programme on the Arduino IDE.
+                - heading "DemoDirect link to Demo" [level=2] [ref=e1241]:
+                  - text: Demo
+                  - link "Direct link to Demo" [ref=e1242] [cursor=pointer]:
+                    - /url: "#demo"
+                    - text: "#"
+                - heading "Project 1 - Remote control fanDirect link to Project 1 - Remote control fan" [level=3] [ref=e1243]:
+                  - text: Project 1 - Remote control fan
+                  - link "Direct link to Project 1 - Remote control fan" [ref=e1244] [cursor=pointer]:
+                    - /url: "#project-1---remote-control-fan"
+                    - text: "#"
+                - paragraph [ref=e1245]:
+                  - strong [ref=e1246]: Overview
+                - img [ref=e1248]
+                - paragraph [ref=e1249]: This wiki introduce how to make a Mini fan to plase on your room keep cool.
+                - paragraph [ref=e1250]:
+                  - strong [ref=e1251]: Feature
+                - list [ref=e1252]:
+                  - listitem [ref=e1253]: Automatic swing fan
+                - paragraph [ref=e1254]:
+                  - strong [ref=e1255]: Component required
+                - list [ref=e1256]:
+                  - listitem [ref=e1257]:
+                    - paragraph [ref=e1258]:
+                      - link "**Seeed Studio XIAO SAMD21 **" [ref=e1259] [cursor=pointer]:
+                        - /url: https://www.seeedstudio.com/Seeeduino-XIAO-Arduino-Microcontroller-SAMD21-Cortex-M0+-p-4426.html
+                  - listitem [ref=e1260]:
+                    - paragraph [ref=e1261]:
+                      - link "Seeed Studio Expansion Base for XIAO" [ref=e1262] [cursor=pointer]:
+                        - /url: https://www.seeedstudio.com/Seeeduino-XIAO-Expansion-board-p-4746.html
+                        - strong [ref=e1263]: Seeed Studio Expansion Base for XIAO
+                  - listitem [ref=e1264]:
+                    - paragraph [ref=e1265]:
+                      - link "Grove mini fan" [ref=e1266] [cursor=pointer]:
+                        - /url: https://www.seeedstudio.com/Grove-Mini-Fan-v1-1.html
+                        - strong [ref=e1267]: Grove mini fan
+                  - listitem [ref=e1268]:
+                    - paragraph [ref=e1269]:
+                      - link "Grove-Servo" [ref=e1270] [cursor=pointer]:
+                        - /url: https://www.seeedstudio.com/Grove-Servo.html
+                        - strong [ref=e1271]: Grove-Servo
+                  - listitem [ref=e1272]:
+                    - paragraph [ref=e1273]:
+                      - link "Grove - IR (Infrared) Receiver" [ref=e1274] [cursor=pointer]:
+                        - /url: https://www.seeedstudio.com/Grove-Infrared-Receiver.html
+                        - strong [ref=e1275]: Grove - IR (Infrared) Receiver
+                - paragraph [ref=e1276]:
+                  - strong [ref=e1277]: Hardware Connection
+                - paragraph [ref=e1278]:
+                  - text: Please follow the same color line to connect each sensor on the board. Please connect the fan grove cable to D0, servo grove cable to
+                  - strong [ref=e1279]: I2C
+                  - text: ", IR grove cable to"
+                  - strong [ref=e1280]: D7
+                  - text: .
+                - img [ref=e1282]
+                - paragraph [ref=e1283]:
+                  - strong [ref=e1284]: Arduino Instructions
+                - paragraph [ref=e1285]:
+                  - strong [ref=e1286]: Step 1
+                  - text: . Follow the connection picture connect all the sensor on the board.
+                - paragraph [ref=e1287]:
+                  - strong [ref=e1288]: Step 2
+                  - text: . Install the
+                  - link "Arduino-IRremote" [ref=e1289] [cursor=pointer]:
+                    - /url: https://github.com/Seeed-Studio/Seeed_Arduino_IRSendRev
+                    - strong [ref=e1290]: Arduino-IRremote
+                  - text: library, this is the guide
+                  - link "how to install the library" [ref=e1291] [cursor=pointer]:
+                    - /url: https://wiki.seeedstudio.com/How_to_install_Arduino_Library/
+                    - strong [ref=e1292]: how to install the library
+                  - text: .
+                - paragraph [ref=e1293]:
+                  - strong [ref=e1294]: Step 3
+                  - text: . Copy the code stick on the Aruino IDE then upload it.
+                - paragraph [ref=e1295]:
+                  - strong [ref=e1296]: Step 4
+                  - text: . Place the Fan in the safety position, try to press the button make sure it can work safely.
+                - paragraph [ref=e1297]:
+                  - strong [ref=e1298]: Code
+                - generic [ref=e1300]:
+                  - code [ref=e1302]:
+                    - generic [ref=e1303]: "#include <IRremote.h>"
+                    - generic [ref=e1304]: "#include <Servo.h>"
+                    - generic [ref=e1305]: Servo myservo; // create servo object to control a servo
+                    - generic [ref=e1306]: int RECV_PIN = 7; // set pin 2 as IR control
+                    - generic [ref=e1307]: IRrecv irrecv(RECV_PIN);
+                    - generic [ref=e1308]: decode_results results;
+                    - generic [ref=e1309]: int pos = 90; // variable to store the servo position
+                    - generic [ref=e1310]: int fanPin = 0; // set D6 as control switch
+                    - generic [ref=e1311]: int fanState = LOW;
+                    - generic [ref=e1312]: int IO = 0;
+                    - generic [ref=e1313]: void setup()
+                    - generic [ref=e1314]: "{"
+                    - generic [ref=e1315]: Serial.begin(9600);
+                    - generic [ref=e1316]: Serial.println("Enabling IRin"); // remind enabling IR
+                    - generic [ref=e1317]: irrecv.enableIRIn(); // Start the receiver
+                    - generic [ref=e1318]: Serial.println("Enabled IRin");
+                    - generic [ref=e1319]: myservo.attach(5); // attaches the servo on pin 2 to the servo object
+                    - generic [ref=e1320]: pinMode(fanPin, OUTPUT);
+                    - generic [ref=e1321]: "}"
+                    - generic [ref=e1322]: "void loop() {"
+                    - generic [ref=e1323]: "if (irrecv.decode(&results)) { //checking IR signal"
+                    - generic [ref=e1324]: "if (results.value == 2155829415) { // Power off/on"
+                    - generic [ref=e1325]: IO++;
+                    - generic [ref=e1326]: "if (IO % 2 == 0) {"
+                    - generic [ref=e1327]: fanState = HIGH;
+                    - generic [ref=e1328]: digitalWrite(fanPin, fanState);
+                    - generic [ref=e1329]: delay(100);
+                    - generic [ref=e1330]: "}"
+                    - generic [ref=e1331]: "else {"
+                    - generic [ref=e1332]: fanState = LOW;
+                    - generic [ref=e1333]: digitalWrite(fanPin, fanState);
+                    - generic [ref=e1334]: delay(100);
+                    - generic [ref=e1335]: "}"
+                    - generic [ref=e1336]: "}"
+                    - generic [ref=e1337]: "if (results.value == 2155821255 ) { // fan swing to left"
+                    - generic [ref=e1338]: "for (pos; pos <= 89; pos += 1) { // goes from 0 degrees to 90 degrees"
+                    - generic [ref=e1339]: // in steps of 1 degree
+                    - generic [ref=e1340]: myservo.write(pos); // tell servo to go to position in variable 'pos'
+                    - generic [ref=e1341]: delay(40); // waits 15ms for the servo to reach the position
+                    - generic [ref=e1342]: "if (irrecv.decode(&results)) {"
+                    - generic [ref=e1343]: irrecv.resume();
+                    - generic [ref=e1344]: if (results.value == 2155870215)
+                    - generic [ref=e1345]: break;
+                    - generic [ref=e1346]: "}"
+                    - generic [ref=e1347]: "}"
+                    - generic [ref=e1348]: "}"
+                    - generic [ref=e1349]: "if (results.value == 2155870215 ) { // fan swing to right"
+                    - generic [ref=e1350]: "for (pos; pos >= 1; pos -= 1) { // goes from 90 degrees to 0 degrees"
+                    - generic [ref=e1351]: myservo.write(pos); // tell servo to go to position in variable 'pos'
+                    - generic [ref=e1352]: delay(40); // waits 15ms for the servo to reach the position
+                    - generic [ref=e1353]: "if (irrecv.decode(&results)) {"
+                    - generic [ref=e1354]: irrecv.resume();
+                    - generic [ref=e1355]: if (results.value == 2155821255)
+                    - generic [ref=e1356]: break;
+                    - generic [ref=e1357]: "}"
+                    - generic [ref=e1358]: "}"
+                    - generic [ref=e1359]: "}"
+                    - generic [ref=e1360]: Serial.println(pos);
+                    - generic [ref=e1361]: Serial.println(results.value, HEX);
+                    - generic [ref=e1362]: Serial.println(results.value);
+                    - generic [ref=e1363]: irrecv.resume(); //recive next intrustion
+                    - generic [ref=e1364]: "}"
+                    - generic [ref=e1365]: delay(100);
+                    - generic [ref=e1366]: "}"
+                  - generic [ref=e1367]:
+                    - button "Toggle word wrap" [ref=e1368] [cursor=pointer]:
+                      - img [ref=e1369]
+                    - button "Copy code to clipboard" [ref=e1371] [cursor=pointer]:
+                      - generic [ref=e1372]:
+                        - img [ref=e1373]
+                        - img [ref=e1375]
+                - heading "Project 2 - Remote control carDirect link to Project 2 - Remote control car" [level=3] [ref=e1377]:
+                  - text: Project 2 - Remote control car
+                  - link "Direct link to Project 2 - Remote control car" [ref=e1378] [cursor=pointer]:
+                    - /url: "#project-2---remote-control-car"
+                    - text: "#"
+                - paragraph [ref=e1379]:
+                  - strong [ref=e1380]: Overview
+                - img [ref=e1382]
+                - paragraph [ref=e1383]: This wiki introduce how to make a remote control car.
+                - paragraph [ref=e1384]:
+                  - strong [ref=e1385]: Feature
+                - list [ref=e1386]:
+                  - listitem [ref=e1387]: Mini size car easy to across the narrow road
+                - paragraph [ref=e1388]:
+                  - strong [ref=e1389]: Component required
+                - list [ref=e1390]:
+                  - listitem [ref=e1391]:
+                    - paragraph [ref=e1392]:
+                      - link "**Seeed Studio XIAO **" [ref=e1393] [cursor=pointer]:
+                        - /url: https://www.seeedstudio.com/Seeeduino-XIAO-Arduino-Microcontroller-SAMD21-Cortex-M0+-p-4426.html
+                  - listitem [ref=e1394]:
+                    - paragraph [ref=e1395]:
+                      - link "Seeed Studio Expansion Base for XIAO" [ref=e1396] [cursor=pointer]:
+                        - /url: https://www.seeedstudio.com/Seeeduino-XIAO-Expansion-board-p-4746.html
+                        - strong [ref=e1397]: Seeed Studio Expansion Base for XIAO
+                  - listitem [ref=e1398]:
+                    - paragraph [ref=e1399]:
+                      - link "Grove - I2C Mini Motor Driver" [ref=e1400] [cursor=pointer]:
+                        - /url: https://www.seeedstudio.com/Grove-I2C-Mini-Motor-Driver.html
+                        - strong [ref=e1401]: Grove - I2C Mini Motor Driver
+                  - listitem [ref=e1402]:
+                    - paragraph [ref=e1403]:
+                      - link "DC Motor" [ref=e1404] [cursor=pointer]:
+                        - /url: https://www.seeedstudio.com/130-DC-Motor-p-2023.html
+                        - strong [ref=e1405]: DC Motor
+                  - listitem [ref=e1406]:
+                    - paragraph [ref=e1407]:
+                      - link "Grove - IR (Infrared) Receiver" [ref=e1408] [cursor=pointer]:
+                        - /url: https://www.seeedstudio.com/Grove-Infrared-Receiver.html
+                        - strong [ref=e1409]: Grove - IR (Infrared) Receiver
+                - paragraph [ref=e1410]:
+                  - strong [ref=e1411]: Hardware Connection
+                - paragraph [ref=e1412]: Please follow the same color line to connect each sensor on the board. Please connect the IR sensor grove cable to D0, Mini Motor Driver grove cable to I2C.
+                - img [ref=e1414]
+                - paragraph [ref=e1415]:
+                  - strong [ref=e1416]: Arduino Instructions
+                - paragraph [ref=e1417]:
+                  - strong [ref=e1418]: Step 1
+                  - text: . Follow the connection picture connect all the sensor on the board.
+                - paragraph [ref=e1419]:
+                  - strong [ref=e1420]: Step 2
+                  - text: . Download the
+                  - link "Aruidno IDE" [ref=e1421] [cursor=pointer]:
+                    - /url: https://www.arduino.cc/en/Main/software
+                    - strong [ref=e1422]: Aruidno IDE
+                - paragraph [ref=e1423]:
+                  - strong [ref=e1424]: Step 3
+                  - text: . Install the
+                  - link "Arduino-IRremote" [ref=e1425] [cursor=pointer]:
+                    - /url: https://github.com/Seeed-Studio/Seeed_Arduino_IRSendRev
+                    - strong [ref=e1426]: Arduino-IRremote
+                  - text: and
+                  - link "Motor driver" [ref=e1427] [cursor=pointer]:
+                    - /url: https://github.com/Seeed-Studio/Drv8830_Motor_Driver
+                    - strong [ref=e1428]: Motor driver
+                  - text: library, this is the guide
+                  - link "how to install the library" [ref=e1429] [cursor=pointer]:
+                    - /url: https://wiki.seeedstudio.com/How_to_install_Arduino_Library/
+                    - strong [ref=e1430]: how to install the library
+                  - text: .
+                - paragraph [ref=e1431]:
+                  - strong [ref=e1432]: Step 4
+                  - text: . Copy the code stick on the Aruino IDE then upload it.
+                - paragraph [ref=e1433]:
+                  - strong [ref=e1434]: Code
+                - generic [ref=e1436]:
+                  - code [ref=e1438]:
+                    - generic [ref=e1439]: "#include <Arduino.h>"
+                    - generic [ref=e1440]: "#include <U8g2lib.h>"
+                    - generic [ref=e1441]: "#include <IRremote.h>"
+                    - generic [ref=e1442]: "#include <SparkFunMiniMoto.h> // Include the MiniMoto library"
+                    - generic [ref=e1443]: // Create two MiniMoto instances, with different address settings.
+                    - generic [ref=e1444]: MiniMoto motor0(0xC4); // A1 = 1, A0 = clear
+                    - generic [ref=e1445]: MiniMoto motor1(0xC0); // A1 = 1, A0 = 1 (default)
+                    - generic [ref=e1446]: "#define FAULTn 1 // Pin used for fault detection."
+                    - generic [ref=e1447]: int RECV_PIN = 0; // set pin 2 as IR control
+                    - generic [ref=e1448]: IRrecv irrecv(RECV_PIN);
+                    - generic [ref=e1449]: decode_results results;
+                    - generic [ref=e1450]: "void setup() {"
+                    - generic [ref=e1451]: Serial.begin(9600);
+                    - generic [ref=e1452]: Serial.println("Enabling IRin"); // remind enabling IR
+                    - generic [ref=e1453]: irrecv.enableIRIn(); // Start the receiver
+                    - generic [ref=e1454]: pinMode(FAULTn, INPUT);
+                    - generic [ref=e1455]: "}"
+                    - generic [ref=e1456]: "void loop() {"
+                    - generic [ref=e1457]: "if (irrecv.decode(&results)) { //checking IR signal"
+                    - generic [ref=e1458]: "if (results.value == 2155862055) {"
+                    - generic [ref=e1459]: //Forward 2155862055
+                    - generic [ref=e1460]: motor0.drive(-600);
+                    - generic [ref=e1461]: motor1.drive(600);
+                    - generic [ref=e1462]: delayUntil(20);
+                    - generic [ref=e1463]: "}"
+                    - generic [ref=e1464]: "if (results.value == 2155813095) {"
+                    - generic [ref=e1465]: //Brake 2155813095
+                    - generic [ref=e1466]: motor0.brake();
+                    - generic [ref=e1467]: motor1.brake();
+                    - generic [ref=e1468]: delay(100);
+                    - generic [ref=e1469]: "}"
+                    - generic [ref=e1470]: "if (results.value == 2155823295) {"
+                    - generic [ref=e1471]: //backward 2155823295
+                    - generic [ref=e1472]: motor0.drive(600);
+                    - generic [ref=e1473]: motor1.drive(-600);
+                    - generic [ref=e1474]: delayUntil(20);
+                    - generic [ref=e1475]: "}"
+                    - generic [ref=e1476]: "if (results.value == 2155829415) {"
+                    - generic [ref=e1477]: //Stop 2155829415
+                    - generic [ref=e1478]: motor0.stop();
+                    - generic [ref=e1479]: motor1.stop();
+                    - generic [ref=e1480]: delay(100);
+                    - generic [ref=e1481]: "}"
+                    - generic [ref=e1482]: "if (results.value == 2155821255) {"
+                    - generic [ref=e1483]: //turn right 2155821255
+                    - generic [ref=e1484]: motor0.drive(600);
+                    - generic [ref=e1485]: motor1.drive(600);
+                    - generic [ref=e1486]: delayUntil(20);
+                    - generic [ref=e1487]: "}"
+                    - generic [ref=e1488]: "if (results.value == 2155837575) {"
+                    - generic [ref=e1489]: //turn left 2155837575
+                    - generic [ref=e1490]: motor0.drive(-600);
+                    - generic [ref=e1491]: motor1.drive(-600);
+                    - generic [ref=e1492]: delayUntil(20);
+                    - generic [ref=e1493]: "}"
+                    - generic [ref=e1494]: irrecv.resume(); //recive next intrustion
+                    - generic [ref=e1495]: "}"
+                    - generic [ref=e1496]: delay(100);
+                    - generic [ref=e1497]: "}"
+                    - generic [ref=e1498]: "void delayUntil(unsigned long elapsedTime) {"
+                    - generic [ref=e1499]: unsigned long startTime = millis();
+                    - generic [ref=e1500]: "while (startTime + elapsedTime > millis()) {"
+                    - generic [ref=e1501]: "if (digitalRead(FAULTn) == LOW) {"
+                    - generic [ref=e1502]: byte result = motor0.getFault();
+                    - generic [ref=e1503]: result = motor1.getFault();
+                    - generic [ref=e1504]: "}"
+                    - generic [ref=e1505]: "}"
+                    - generic [ref=e1506]: "}"
+                  - button "Copy code to clipboard" [ref=e1508] [cursor=pointer]:
+                    - generic [ref=e1509]:
+                      - img [ref=e1510]
+                      - img [ref=e1512]
+                - heading "Project 3 - Fingerprint unlocks treasure box -Seeed Studio XIAODirect link to Project 3 - Fingerprint unlocks treasure box -Seeed Studio XIAO" [level=3] [ref=e1514]:
+                  - text: Project 3 - Fingerprint unlocks treasure box -Seeed Studio XIAO
+                  - link "Direct link to Project 3 - Fingerprint unlocks treasure box -Seeed Studio XIAO" [ref=e1515] [cursor=pointer]:
+                    - /url: "#project-3---fingerprint-unlocks-treasure-box--seeed-studio-xiao"
+                    - text: "#"
+                - paragraph [ref=e1516]:
+                  - strong [ref=e1517]: Overview
+                - img [ref=e1519]
+                - paragraph [ref=e1520]: This box can store your important stuff, and you are not worried about some people will take your thing, the box has the fingerprint function to protecting your thing, and if the fingerprint authorization failed, the buzzer will alarm and the LED ring will display the red colour, only your finger has registered on the board when the begin, then put your finger on the board, when fingerprint pass the authorization, the LED ring will display green colour.
+                - paragraph [ref=e1521]:
+                  - strong [ref=e1522]: Feature
+                - list [ref=e1523]:
+                  - listitem [ref=e1524]: Easy to record your fingerprint
+                  - listitem [ref=e1525]: LED ring can remind you the lock state
+                  - listitem [ref=e1526]: The OLED screen can display the current information
+                  - listitem [ref=e1527]: The buzzer can remind you the fingerprint whether pass authorization
+                - paragraph [ref=e1528]:
+                  - strong [ref=e1529]: Component required
+                - list [ref=e1530]:
+                  - listitem [ref=e1531]:
+                    - paragraph [ref=e1532]:
+                      - link "**Seeed Studio XIAO SAMD21 **" [ref=e1533] [cursor=pointer]:
+                        - /url: https://www.seeedstudio.com/Seeeduino-XIAO-Arduino-Microcontroller-SAMD21-Cortex-M0+-p-4426.html
+                  - listitem [ref=e1534]:
+                    - paragraph [ref=e1535]:
+                      - link "Seeed Studio Expansion Base for XIAO" [ref=e1536] [cursor=pointer]:
+                        - /url: https://www.seeedstudio.com/Seeeduino-XIAO-Expansion-board-p-4746.html
+                        - strong [ref=e1537]: Seeed Studio Expansion Base for XIAO
+                  - listitem [ref=e1538]:
+                    - paragraph [ref=e1539]:
+                      - link "Seeed Grove - Capacitive Fingerprint Scanner/Sensor" [ref=e1540] [cursor=pointer]:
+                        - /url: https://www.hackster.io/products/buy/80263?s=BAhJIhMzNzA5MzAsUHJvamVjdAY6BkVG%0A
+                        - strong [ref=e1541]: Seeed Grove - Capacitive Fingerprint Scanner/Sensor
+                  - listitem [ref=e1542]:
+                    - paragraph [ref=e1543]:
+                      - link "Seeed Grove RGB LED Ring - 24" [ref=e1544] [cursor=pointer]:
+                        - /url: https://www.hackster.io/products/buy/80264?s=BAhJIhMzNzA5MzAsUHJvamVjdAY6BkVG%0A
+                        - strong [ref=e1545]: Seeed Grove RGB LED Ring - 24
+                  - listitem [ref=e1546]:
+                    - paragraph [ref=e1547]:
+                      - link "Seeed Grove - Servo" [ref=e1548] [cursor=pointer]:
+                        - /url: https://www.hackster.io/products/buy/80265?s=BAhJIhMzNzA5MzAsUHJvamVjdAY6BkVG%0A
+                        - strong [ref=e1549]: Seeed Grove - Servo
+                - paragraph [ref=e1550]:
+                  - strong [ref=e1551]: Hardware Connection
+                - paragraph [ref=e1552]: Please connect each module on the board as shown in the picture. Connect the fingerprint module to the UART port of the XIAO expansion board, and connect the servo to the D0 port of the XIAO expansion board.
+                - img [ref=e1554]
+                - paragraph [ref=e1555]: "Note that the NeoPixel ring is directly connected to the pins of the XIAO development board through three different colored wires: Connect the DIN pin of the NeoPixel ring with the yellow wire to the D1 pin of the XIAO, connect the VIN pin of the NeoPixel ring with the red wire to the 3V3 pin of the XIAO, and connect the GND pin of the NeoPixel ring with the black wire to the GND pin of the XIAO."
+                - paragraph [ref=e1556]
+                - paragraph [ref=e1557]:
+                  - strong [ref=e1558]: Arduino Instructions
+                - paragraph [ref=e1559]:
+                  - strong [ref=e1560]: Step 1
+                  - text: . Follow the connection picture connect all the sensor on the board.
+                - paragraph [ref=e1561]:
+                  - strong [ref=e1562]: Step 2
+                  - text: . Download the
+                  - link "Aruidno IDE" [ref=e1563] [cursor=pointer]:
+                    - /url: https://www.arduino.cc/en/Main/software
+                    - strong [ref=e1564]: Aruidno IDE
+                - paragraph [ref=e1565]:
+                  - strong [ref=e1566]: Step 3
+                  - text: . Install the
+                  - link "u8g2" [ref=e1567] [cursor=pointer]:
+                    - /url: https://github.com/olikraus/U8g2_Arduino
+                    - strong [ref=e1568]: u8g2
+                  - text: ","
+                  - link "Servo" [ref=e1569] [cursor=pointer]:
+                    - /url: https://github.com/arduino-libraries/Servo
+                    - strong [ref=e1570]: Servo
+                  - text: ","
+                  - link "Seeed_Arduino_KCT202" [ref=e1571] [cursor=pointer]:
+                    - /url: https://github.com/Seeed-Studio/Seeed_Arduino_KCT202
+                    - strong [ref=e1572]: Seeed_Arduino_KCT202
+                  - text: and
+                  - link "Seeed_LED_Ring" [ref=e1573] [cursor=pointer]:
+                    - /url: https://github.com/Seeed-Studio/Seeed_LED_Ring
+                    - strong [ref=e1574]: Seeed_LED_Ring
+                  - text: library, this is the guide
+                  - link "how to install the library" [ref=e1575] [cursor=pointer]:
+                    - /url: https://wiki.seeedstudio.com/How_to_install_Arduino_Library/
+                    - strong [ref=e1576]: how to install the library
+                  - text: .
+                - paragraph [ref=e1577]:
+                  - strong [ref=e1578]: Step 4
+                  - text: . Copy the code stick on the Aruino IDE then upload it.
+                - paragraph [ref=e1579]:
+                  - strong [ref=e1580]: Demonstration
+                - list [ref=e1581]:
+                  - listitem [ref=e1582]: Record your fingerprint
+                - paragraph [ref=e1583]: The screen will display finger recording at the begin, you just need to put your finger on the finger device, after that, the program will analyze your fingerprint, then finish registered.
+                - img [ref=e1585]
+                - list [ref=e1586]:
+                  - listitem [ref=e1587]: Identity authorization(pass certification)
+                - paragraph [ref=e1588]: The screen will display "Please verify", you need to put your finger on the fingerprint device, then the LED ring will turn to green colour.
+                - img [ref=e1590]
+                - list [ref=e1591]:
+                  - listitem [ref=e1592]: Identity authorization(unpass certification)
+                - paragraph [ref=e1593]: If other people put their finger on it, the LED ring will turn to red colour and the board will display "Identity deny" meanwhile the alarm will be work.
+                - img [ref=e1595]
+                - paragraph [ref=e1596]:
+                  - strong [ref=e1597]: Code
+                - generic [ref=e1599]:
+                  - code [ref=e1601]:
+                    - generic [ref=e1602]: "#include <Servo.h>"
+                    - generic [ref=e1603]: "#include <Arduino.h>"
+                    - generic [ref=e1604]: "#include <U8x8lib.h>"
+                    - generic [ref=e1605]: "#include \"ATSerial.h\""
+                    - generic [ref=e1606]: "#include \"Protocol.h\""
+                    - generic [ref=e1607]: "#include \"KCT202.h\""
+                    - generic [ref=e1608]: "#include \"Adafruit_NeoPixel.h\""
+                    - generic [ref=e1609]: "#define PIXEL_PIN 2 // Digital IO pin connected to the NeoPixels."
+                    - generic [ref=e1610]: "#define PIXEL_COUNT 24"
+                    - generic [ref=e1611]: "#define debug SerialUSB"
+                    - generic [ref=e1612]: "#define uart Serial1"
+                    - generic [ref=e1613]: FingerPrint_KCT202<Uart, Serial_> kct202;
+                    - generic [ref=e1614]: Adafruit_NeoPixel strip = Adafruit_NeoPixel(PIXEL_COUNT, PIXEL_PIN, NEO_GRB + NEO_KHZ800);
+                    - generic [ref=e1615]: Servo myservo;
+                    - generic [ref=e1616]: Protocol_oprt oprt;
+                    - generic [ref=e1617]: uint8_t err_code = 0;
+                    - generic [ref=e1618]: uint8_t param[10];
+                    - generic [ref=e1619]: uint32_t param_len;
+                    - generic [ref=e1620]: int pos = 0;
+                    - generic [ref=e1621]: const int buttonPin = 1;
+                    - generic [ref=e1622]: int buttonState = 0;
+                    - generic [ref=e1623]: int BuzzerPin = A3;
+                    - generic [ref=e1624]: U8X8_SSD1306_128X64_NONAME_HW_I2C u8x8(/* reset=*/ U8X8_PIN_NONE);
+                    - generic [ref=e1625]: "void setup(void) {"
+                    - generic [ref=e1626]: Serial.begin(115200);
+                    - generic [ref=e1627]: strip.setBrightness(255);
+                    - generic [ref=e1628]: strip.begin();
+                    - generic [ref=e1629]: strip.show(); // Initialize all pixels to 'off'
+                    - generic [ref=e1630]: colorWipe(strip.Color(125, 0, 125), 50);
+                    - generic [ref=e1631]: u8x8.begin();
+                    - generic [ref=e1632]: u8x8.setFlipMode(0);
+                    - generic [ref=e1633]: debug.begin(115200);
+                    - generic [ref=e1634]: pinMode(buttonPin, INPUT_PULLUP);
+                    - generic [ref=e1635]: pinMode(BuzzerPin, OUTPUT);
+                    - generic [ref=e1636]: kct202.begin(uart, debug);
+                    - generic [ref=e1637]: myservo.attach(0);
+                    - generic [ref=e1638]: myservo.write(0);
+                    - generic [ref=e1639]: kct202.autoRegisterFingerPrint(1, 4, LED_OFF_AFTER_GET_GRAGH | PRETREATMENT_GRAGH | NOT_RET_FOR_EVERY_STEP | OVERRIDE_CURR_FINGER_PRINT);
+                    - generic [ref=e1640]: u8x8.setFont(u8x8_font_chroma48medium8_r);
+                    - generic [ref=e1641]: u8x8.setCursor(0, 3);
+                    - generic [ref=e1642]: u8x8.print("finger recording");
+                    - generic [ref=e1643]: "if (0 == kct202.getRegisterResponAndparse()) {"
+                    - generic [ref=e1644]: debug.println("Register ok!");
+                    - generic [ref=e1645]: u8x8.setFont(u8x8_font_chroma48medium8_r);
+                    - generic [ref=e1646]: u8x8.setCursor(0, 3);
+                    - generic [ref=e1647]: u8x8.print(" be ready ");
+                    - generic [ref=e1648]: delay(500);
+                    - generic [ref=e1649]: colorWipe(strip.Color(0, 125, 125), 50);
+                    - generic [ref=e1650]: u8x8.setCursor(0, 3);
+                    - generic [ref=e1651]: u8x8.print(" *** 3 *** ");
+                    - generic [ref=e1652]: delay(500);
+                    - generic [ref=e1653]: u8x8.setCursor(0, 3);
+                    - generic [ref=e1654]: u8x8.print(" *** 2 *** ");
+                    - generic [ref=e1655]: delay(500);
+                    - generic [ref=e1656]: u8x8.setCursor(0, 3);
+                    - generic [ref=e1657]: u8x8.print(" *** 1 *** ");
+                    - generic [ref=e1658]: delay(500);
+                    - generic [ref=e1659]: u8x8.setCursor(0, 3);
+                    - generic [ref=e1660]: u8x8.print(" Registered");
+                    - generic [ref=e1661]: delay(800);
+                    - generic [ref=e1662]: "}"
+                    - generic [ref=e1663]: "}"
+                    - generic [ref=e1664]: "void loop(void) {"
+                    - generic [ref=e1665]: uint16_t finger_num = 0;
+                    - generic [ref=e1666]: kct202.autoVerifyFingerPrint(CHECK_ALL_FINGER_TEMP,
+                    - generic [ref=e1667]: LED_OFF_AFTER_GET_GRAGH | PRETREATMENT_GRAGH | NOT_RET_FOR_EVERY_STEP);
+                    - generic [ref=e1668]: u8x8.setFont(u8x8_font_chroma48medium8_r);
+                    - generic [ref=e1669]: u8x8.setCursor(0, 3);
+                    - generic [ref=e1670]: u8x8.print(" Please verify ");
+                    - generic [ref=e1671]: "if (0 == kct202.getVerifyResponAndparse(finger_num)) {"
+                    - generic [ref=e1672]: debug.println("Verify ok!");
+                    - generic [ref=e1673]: debug.print("Your finger temp id = ");
+                    - generic [ref=e1674]: debug.println(finger_num, HEX);
+                    - generic [ref=e1675]: colorWipe(strip.Color(0, 255, 30), 50);
+                    - generic [ref=e1676]: u8x8.setFont(u8x8_font_chroma48medium8_r);
+                    - generic [ref=e1677]: u8x8.setCursor(0, 3);
+                    - generic [ref=e1678]: u8x8.print("Identity comfirm");
+                    - generic [ref=e1679]: delay(800);
+                    - generic [ref=e1680]: analogWrite(BuzzerPin, 128);
+                    - generic [ref=e1681]: delay(100);
+                    - generic [ref=e1682]: analogWrite(BuzzerPin, 0);
+                    - generic [ref=e1683]: delay(100);
+                    - generic [ref=e1684]: analogWrite(BuzzerPin, 128);
+                    - generic [ref=e1685]: delay(100);
+                    - generic [ref=e1686]: analogWrite(BuzzerPin, 0);
+                    - generic [ref=e1687]: delay(100);
+                    - generic [ref=e1688]: "for (pos = 0; pos <= 90; pos += 1) {"
+                    - generic [ref=e1689]: myservo.write(pos);
+                    - generic [ref=e1690]: delay(15);
+                    - generic [ref=e1691]: "}"
+                    - generic [ref=e1692]: "while (1) {"
+                    - generic [ref=e1693]: // pinMode(buttonPin, INPUT);
+                    - generic [ref=e1694]: buttonState = digitalRead(buttonPin);
+                    - generic [ref=e1695]: u8x8.setFont(u8x8_font_chroma48medium8_r);
+                    - generic [ref=e1696]: u8x8.setCursor(0, 3);
+                    - generic [ref=e1697]: u8x8.print("Please close ");
+                    - generic [ref=e1698]: Serial.println(pos);
+                    - generic [ref=e1699]: Serial.println(buttonState);
+                    - generic [ref=e1700]: "if (buttonState == LOW && pos == 91) {"
+                    - generic [ref=e1701]: "for (pos = 91; pos >= 0; pos -= 1) { // goes from 180 degrees to 0 degrees"
+                    - generic [ref=e1702]: u8x8.setFont(u8x8_font_chroma48medium8_r);
+                    - generic [ref=e1703]: u8x8.setCursor(0, 3);
+                    - generic [ref=e1704]: u8x8.print("Lock closing ");
+                    - generic [ref=e1705]: myservo.write(pos); // tell servo to go to position in variable 'pos'
+                    - generic [ref=e1706]: delay(15); // waits 15ms for the servo to reach the position
+                    - generic [ref=e1707]: "}"
+                    - generic [ref=e1708]: colorWipe(strip.Color(255, 0, 0), 50);
+                    - generic [ref=e1709]: break;
+                    - generic [ref=e1710]: "}"
+                    - generic [ref=e1711]: "}"
+                    - generic [ref=e1712]: "}"
+                    - generic [ref=e1713]: "else {"
+                    - generic [ref=e1714]: colorWipe(strip.Color(255, 0, 0), 50);
+                    - generic [ref=e1715]: u8x8.setFont(u8x8_font_chroma48medium8_r);
+                    - generic [ref=e1716]: u8x8.setCursor(0, 3);
+                    - generic [ref=e1717]: u8x8.print(" Identity deny ");
+                    - generic [ref=e1718]: // myservo.write(0);
+                    - generic [ref=e1719]: delay(200);
+                    - generic [ref=e1720]: analogWrite(BuzzerPin, 250);
+                    - generic [ref=e1721]: delay(2000);
+                    - generic [ref=e1722]: analogWrite(BuzzerPin, 0);
+                    - generic [ref=e1723]: delay(100);
+                    - generic [ref=e1724]: u8x8.setCursor(0, 3);
+                    - generic [ref=e1725]: u8x8.print(" Please retry ");
+                    - generic [ref=e1726]: delay(1500);
+                    - generic [ref=e1727]: "}"
+                    - generic [ref=e1728]: "}"
+                    - generic [ref=e1729]: "void colorWipe(uint32_t c, uint8_t wait) {"
+                    - generic [ref=e1730]: "for (uint16_t i = 0; i < strip.numPixels(); i++) {"
+                    - generic [ref=e1731]: strip.setPixelColor(i, c);
+                    - generic [ref=e1732]: strip.show();
+                    - generic [ref=e1733]: delay(70);
+                    - generic [ref=e1734]: "}"
+                    - generic [ref=e1735]: "}"
+                  - generic [ref=e1736]:
+                    - button "Toggle word wrap" [ref=e1737] [cursor=pointer]:
+                      - img [ref=e1738]
+                    - button "Copy code to clipboard" [ref=e1740] [cursor=pointer]:
+                      - generic [ref=e1741]:
+                        - img [ref=e1742]
+                        - img [ref=e1744]
+                - heading "Project 4 - Seeed Studio Expansion Base for XIAO - mjolnirDirect link to Project 4 - Seeed Studio Expansion Base for XIAO - mjolnir" [level=3] [ref=e1746]:
+                  - text: Project 4 - Seeed Studio Expansion Base for XIAO - mjolnir
+                  - link "Direct link to Project 4 - Seeed Studio Expansion Base for XIAO - mjolnir" [ref=e1747] [cursor=pointer]:
+                    - /url: "#project-4---seeed-studio-expansion-base-for-xiao---mjolnir"
+                    - text: "#"
+                - paragraph [ref=e1748]:
+                  - strong [ref=e1749]: Overview
+                - img [ref=e1751]
+                - paragraph [ref=e1752]: This hammer is simulated Mjolnir, you need you to record your fingerprint on this device then you will become its master. The hammer needs a magnet to adsorb on the grove - electromagnet until its master to unlock via fingerprint, the hammer can take away.
+                - paragraph [ref=e1753]:
+                  - strong [ref=e1754]: Component required
+                - list [ref=e1755]:
+                  - listitem [ref=e1756]:
+                    - paragraph [ref=e1757]:
+                      - link "**Seeed Studio XIAO SAMD21 **" [ref=e1758] [cursor=pointer]:
+                        - /url: https://www.seeedstudio.com/Seeeduino-XIAO-Arduino-Microcontroller-SAMD21-Cortex-M0+-p-4426.html
+                  - listitem [ref=e1759]:
+                    - paragraph [ref=e1760]:
+                      - link "Seeed Studio Expansion Base for XIAO" [ref=e1761] [cursor=pointer]:
+                        - /url: https://www.seeedstudio.com/Seeeduino-XIAO-Expansion-board-p-4746.html
+                        - strong [ref=e1762]: Seeed Studio Expansion Base for XIAO
+                  - listitem [ref=e1763]:
+                    - paragraph [ref=e1764]:
+                      - link "Seeed Grove - Capacitive Fingerprint Scanner/Sensor" [ref=e1765] [cursor=pointer]:
+                        - /url: https://www.hackster.io/products/buy/81052?s=BAhJIhMzNzQxMDUsUHJvamVjdAY6BkVG%0A
+                        - strong [ref=e1766]: Seeed Grove - Capacitive Fingerprint Scanner/Sensor
+                  - listitem [ref=e1767]:
+                    - paragraph [ref=e1768]:
+                      - link "Seeed Grove - Electromagnet" [ref=e1769] [cursor=pointer]:
+                        - /url: https://www.hackster.io/products/buy/32769?s=BAhJIhMzNzQxMDUsUHJvamVjdAY6BkVG%0A
+                        - strong [ref=e1770]: Seeed Grove - Electromagnet
+                - paragraph [ref=e1771]:
+                  - strong [ref=e1772]: Hardware Connection
+                - paragraph [ref=e1773]: Please connect the expansion board and the required modules with Grove wire, connect the Grove electromagnet module to D0 port, and connect the fingerprint module to I2C port.
+                - img [ref=e1775]
+                - paragraph [ref=e1776]:
+                  - strong [ref=e1777]: Arduino Instructions
+                - paragraph [ref=e1778]:
+                  - strong [ref=e1779]: Step 1
+                  - text: . Follow the connection picture connect all the sensor on the board.
+                - paragraph [ref=e1780]:
+                  - strong [ref=e1781]: Step 2
+                  - text: . Download the
+                  - link "Aruidno IDE" [ref=e1782] [cursor=pointer]:
+                    - /url: https://www.arduino.cc/en/Main/software
+                    - strong [ref=e1783]: Aruidno IDE
+                - paragraph [ref=e1784]:
+                  - strong [ref=e1785]: Step 3
+                  - text: . Install the
+                  - link "u8g2" [ref=e1786] [cursor=pointer]:
+                    - /url: https://github.com/olikraus/U8g2_Arduino
+                    - strong [ref=e1787]: u8g2
+                  - text: and
+                  - link "Seeed_Arduino_KCT202" [ref=e1788] [cursor=pointer]:
+                    - /url: https://github.com/Seeed-Studio/Seeed_Arduino_KCT202
+                    - strong [ref=e1789]: Seeed_Arduino_KCT202
+                  - text: library, this is the guide
+                  - link "how to install the library" [ref=e1790] [cursor=pointer]:
+                    - /url: https://wiki.seeedstudio.com/How_to_install_Arduino_Library/
+                    - strong [ref=e1791]: how to install the library
+                  - text: .
+                - paragraph [ref=e1792]:
+                  - strong [ref=e1793]: Step 4
+                  - text: . Copy the code stick on the Aruino IDE then upload it.
+                - paragraph [ref=e1794]:
+                  - strong [ref=e1795]: Code
+                - generic [ref=e1797]:
+                  - code [ref=e1799]:
+                    - generic [ref=e1800]: "#include <U8x8lib.h>"
+                    - generic [ref=e1801]: "#include \"ATSerial.h\""
+                    - generic [ref=e1802]: "#include \"Protocol.h\""
+                    - generic [ref=e1803]: "#include \"KCT202.h\""
+                    - generic [ref=e1804]: "#define debug SerialUSB"
+                    - generic [ref=e1805]: "#define uart Serial1"
+                    - generic [ref=e1806]: FingerPrint_KCT202<Uart, Serial_> kct202;
+                    - generic [ref=e1807]: Protocol_oprt oprt;
+                    - generic [ref=e1808]: uint8_t err_code = 0;
+                    - generic [ref=e1809]: uint8_t param[10];
+                    - generic [ref=e1810]: uint32_t param_len;
+                    - generic [ref=e1811]: int Electromagnet = 0;
+                    - generic [ref=e1812]: U8X8_SSD1306_128X64_NONAME_HW_I2C u8x8(/* reset=*/ U8X8_PIN_NONE);
+                    - generic [ref=e1813]: "// the setup routine runs once when you press reset:"
+                    - generic [ref=e1814]: "void setup() {"
+                    - generic [ref=e1815]: // initialize the digital pin as an output.
+                    - generic [ref=e1816]: u8x8.begin();
+                    - generic [ref=e1817]: u8x8.setFlipMode(0);
+                    - generic [ref=e1818]: debug.begin(115200);
+                    - generic [ref=e1819]: pinMode(Electromagnet, OUTPUT);
+                    - generic [ref=e1820]: digitalWrite(Electromagnet, HIGH); // turn the Electromagnet on (HIGH is the voltage level)
+                    - generic [ref=e1821]: kct202.begin(uart, debug);
+                    - generic [ref=e1822]: kct202.autoRegisterFingerPrint(1, 4, LED_OFF_AFTER_GET_GRAGH | PRETREATMENT_GRAGH | NOT_RET_FOR_EVERY_STEP | OVERRIDE_CURR_FINGER_PRINT);
+                    - generic [ref=e1823]: u8x8.setFont(u8x8_font_chroma48medium8_r);
+                    - generic [ref=e1824]: u8x8.setCursor(0, 3);
+                    - generic [ref=e1825]: u8x8.print("finger recording");
+                    - generic [ref=e1826]: "if (0 == kct202.getRegisterResponAndparse()) {"
+                    - generic [ref=e1827]: u8x8.setFont(u8x8_font_chroma48medium8_r);
+                    - generic [ref=e1828]: u8x8.setCursor(0, 3);
+                    - generic [ref=e1829]: u8x8.print(" be ready ");
+                    - generic [ref=e1830]: delay(500);
+                    - generic [ref=e1831]: u8x8.setCursor(0, 3);
+                    - generic [ref=e1832]: u8x8.print(" *** 3 *** ");
+                    - generic [ref=e1833]: delay(500);
+                    - generic [ref=e1834]: u8x8.setCursor(0, 3);
+                    - generic [ref=e1835]: u8x8.print(" *** 2 *** ");
+                    - generic [ref=e1836]: delay(500);
+                    - generic [ref=e1837]: u8x8.setCursor(0, 3);
+                    - generic [ref=e1838]: u8x8.print(" *** 1 *** ");
+                    - generic [ref=e1839]: delay(500);
+                    - generic [ref=e1840]: u8x8.setCursor(0, 3);
+                    - generic [ref=e1841]: u8x8.print(" Registered");
+                    - generic [ref=e1842]: delay(800);
+                    - generic [ref=e1843]: "}"
+                    - generic [ref=e1844]: "}"
+                    - generic [ref=e1845]: "// the loop routine runs over and over again forever:"
+                    - generic [ref=e1846]: "void loop() {"
+                    - generic [ref=e1847]: uint16_t finger_num = 0;
+                    - generic [ref=e1848]: kct202.autoVerifyFingerPrint(CHECK_ALL_FINGER_TEMP, LED_OFF_AFTER_GET_GRAGH | PRETREATMENT_GRAGH | NOT_RET_FOR_EVERY_STEP);
+                    - generic [ref=e1849]: u8x8.setFont(u8x8_font_chroma48medium8_r);
+                    - generic [ref=e1850]: u8x8.setCursor(0, 3);
+                    - generic [ref=e1851]: u8x8.print(" Please verify ");
+                    - generic [ref=e1852]: "if (0 == kct202.getVerifyResponAndparse(finger_num)) {"
+                    - generic [ref=e1853]: u8x8.setFont(u8x8_font_chroma48medium8_r);
+                    - generic [ref=e1854]: u8x8.setCursor(0, 3);
+                    - generic [ref=e1855]: u8x8.print("Identity comfirm");
+                    - generic [ref=e1856]: delay(800);
+                    - generic [ref=e1857]: digitalWrite(Electromagnet, LOW); // turn the Electromagnet on (HIGH is the voltage level)
+                    - generic [ref=e1858]: delay(5000);
+                    - generic [ref=e1859]: digitalWrite(Electromagnet, HIGH);
+                    - generic [ref=e1860]: "}"
+                    - generic [ref=e1861]: "else {"
+                    - generic [ref=e1862]: u8x8.setFont(u8x8_font_chroma48medium8_r);
+                    - generic [ref=e1863]: u8x8.setCursor(0, 3);
+                    - generic [ref=e1864]: u8x8.print(" Identity deny ");
+                    - generic [ref=e1865]: // myservo.write(0);
+                    - generic [ref=e1866]: delay(200);
+                    - generic [ref=e1867]: u8x8.setCursor(0, 3);
+                    - generic [ref=e1868]: u8x8.print(" Please retry ");
+                    - generic [ref=e1869]: delay(1500);
+                    - generic [ref=e1870]: digitalWrite(Electromagnet, HIGH); // turn the Electromagnet on (HIGH is the voltage level)
+                    - generic [ref=e1871]: "}"
+                    - generic [ref=e1872]: "}"
+                  - generic [ref=e1873]:
+                    - button "Toggle word wrap" [ref=e1874] [cursor=pointer]:
+                      - img [ref=e1875]
+                    - button "Copy code to clipboard" [ref=e1877] [cursor=pointer]:
+                      - generic [ref=e1878]:
+                        - img [ref=e1879]
+                        - img [ref=e1881]
+                - heading "Project 5 - Air Quality Sensor Hub - Seeed Studio Expansion Base for XIAODirect link to Project 5 - Air Quality Sensor Hub - Seeed Studio Expansion Base for XIAO" [level=3] [ref=e1883]:
+                  - text: Project 5 - Air Quality Sensor Hub - Seeed Studio Expansion Base for XIAO
+                  - link "Direct link to Project 5 - Air Quality Sensor Hub - Seeed Studio Expansion Base for XIAO" [ref=e1884] [cursor=pointer]:
+                    - /url: "#project-5---air-quality-sensor-hub---seeed-studio-expansion-base-for-xiao"
+                    - text: "#"
+                - paragraph [ref=e1885]:
+                  - strong [ref=e1886]: Overview
+                - img [ref=e1888]
+                - paragraph [ref=e1889]: This is an environment detect device to collect PM2.5, PM10, temperature, humidity, CO2 and dust particle via Grove - Laser PM2.5 Sensor, Grove - CO2 & Temperature & Humidity sensor and Grove - dust Sensor respectively.
+                - paragraph [ref=e1890]:
+                  - strong [ref=e1891]: Component required
+                - list [ref=e1892]:
+                  - listitem [ref=e1893]:
+                    - paragraph [ref=e1894]:
+                      - link "**Seeed Studio XIAO SAMD21 **" [ref=e1895] [cursor=pointer]:
+                        - /url: https://www.seeedstudio.com/Seeeduino-XIAO-Arduino-Microcontroller-SAMD21-Cortex-M0+-p-4426.html
+                  - listitem [ref=e1896]:
+                    - paragraph [ref=e1897]:
+                      - link "Seeed Studio Expansion Base for XIAO" [ref=e1898] [cursor=pointer]:
+                        - /url: https://www.seeedstudio.com/Seeeduino-XIAO-Expansion-board-p-4746.html
+                        - strong [ref=e1899]: Seeed Studio Expansion Base for XIAO
+                  - listitem [ref=e1900]:
+                    - paragraph [ref=e1901]:
+                      - link "Seeed Grove - CO2 & Temperature & Humidity Sensor for Arduino (SCD30) - 3-in-1" [ref=e1902] [cursor=pointer]:
+                        - /url: https://www.hackster.io/products/buy/80471?s=BAhJIhMzNzE2NzQsUHJvamVjdAY6BkVG%0A
+                        - strong [ref=e1903]: Seeed Grove - CO2 & Temperature & Humidity Sensor for Arduino (SCD30) - 3-in-1
+                  - listitem [ref=e1904]:
+                    - paragraph [ref=e1905]:
+                      - link "Seeed Grove - Laser PM2.5 Dust Sensor - Arduino Compatible - HM3301" [ref=e1906] [cursor=pointer]:
+                        - /url: https://www.hackster.io/products/buy/80472?s=BAhJIhMzNzE2NzQsUHJvamVjdAY6BkVG%0A
+                        - strong [ref=e1907]: Seeed Grove - Laser PM2.5 Dust Sensor - Arduino Compatible - HM3301
+                  - listitem [ref=e1908]:
+                    - paragraph [ref=e1909]:
+                      - link "Seeed Grove - Dust Sensor（PPD42NS）" [ref=e1910] [cursor=pointer]:
+                        - /url: https://www.hackster.io/products/buy/30140?s=BAhJIhMzNzE2NzQsUHJvamVjdAY6BkVG%0A
+                        - strong [ref=e1911]: Seeed Grove - Dust Sensor（PPD42NS）
+                - paragraph [ref=e1912]:
+                  - strong [ref=e1913]: Hardware Connection
+                - paragraph [ref=e1914]: Please connect each sensor as shown in the diagram. Connect the CO2 sensor and PM2.5 sensor to two I2C ports respectively, and connect the Dust sensor to the UART port.
+                - img [ref=e1916]
+                - paragraph [ref=e1917]:
+                  - strong [ref=e1918]: Arduino Instructions
+                - paragraph [ref=e1919]:
+                  - strong [ref=e1920]: Step 1
+                  - text: . Follow the connection picture connect all the sensor on the board.
+                - paragraph [ref=e1921]:
+                  - strong [ref=e1922]: Step 2
+                  - text: . Download the
+                  - link "Aruidno IDE" [ref=e1923] [cursor=pointer]:
+                    - /url: https://www.arduino.cc/en/Main/software
+                    - strong [ref=e1924]: Aruidno IDE
+                - paragraph [ref=e1925]:
+                  - strong [ref=e1926]: Step 3
+                  - text: . Install the
+                  - link "u8g2" [ref=e1927] [cursor=pointer]:
+                    - /url: https://github.com/olikraus/U8g2_Arduino
+                    - strong [ref=e1928]: u8g2
+                  - text: ","
+                  - link "Seeed_PM2_5_sensor_HM3301" [ref=e1929] [cursor=pointer]:
+                    - /url: https://github.com/Seeed-Studio/Seeed_PM2_5_sensor_HM3301
+                    - strong [ref=e1930]: Seeed_PM2_5_sensor_HM3301
+                  - text: and
+                  - link "Seeed_SCD30" [ref=e1931] [cursor=pointer]:
+                    - /url: https://github.com/Seeed-Studio/Seeed_SCD30
+                    - strong [ref=e1932]: Seeed_SCD30
+                  - text: library, this is the guide
+                  - link "how to install the library" [ref=e1933] [cursor=pointer]:
+                    - /url: https://wiki.seeedstudio.com/How_to_install_Arduino_Library/
+                    - strong [ref=e1934]: how to install the library
+                  - text: .
+                - paragraph [ref=e1935]:
+                  - strong [ref=e1936]: Step 4
+                  - text: . Copy the code stick on the Aruino IDE then upload it.
+                - paragraph [ref=e1937]:
+                  - strong [ref=e1938]: Code
+                - generic [ref=e1940]:
+                  - code [ref=e1942]:
+                    - generic [ref=e1943]: "#include <Arduino.h>"
+                    - generic [ref=e1944]: "#include <U8x8lib.h>"
+                    - generic [ref=e1945]: "#include <Seeed_HM330X.h>"
+                    - generic [ref=e1946]: "#include \"SCD30.h\""
+                    - generic [ref=e1947]: "#define SERIAL_OUTPUT SerialUSB"
+                    - generic [ref=e1948]: "#define SERIAL SerialUSB"
+                    - generic [ref=e1949]: int pin = 7;
+                    - generic [ref=e1950]: unsigned long duration;
+                    - generic [ref=e1951]: unsigned long starttime;
+                    - generic [ref=e1952]: unsigned long sampletime_ms = 5000;//sampe 30s ;
+                    - generic [ref=e1953]: unsigned long lowpulseoccupancy = 0;
+                    - generic [ref=e1954]: float ratio = 0;
+                    - generic [ref=e1955]: float concentration = 0;
+                    - generic [ref=e1956]: const int buttonPin = 1;
+                    - generic [ref=e1957]: int buttonState = 0;
+                    - generic [ref=e1958]: int memu = 0;
+                    - generic [ref=e1959]: U8X8_SSD1306_128X64_NONAME_HW_I2C u8x8(/* reset=*/ U8X8_PIN_NONE);
+                    - generic [ref=e1960]: HM330X sensor;
+                    - generic [ref=e1961]: uint8_t buf[30];
+                    - generic [ref=e1962]: "const char* str[] = {\"sensor num: \", \"PM1.0 concentration(CF=1,Standard particulate matter,unit:ug/m3): \","
+                    - generic [ref=e1963]: "\"PM2.5 concentration(CF=1,Standard particulate matter,unit:ug/m3): \","
+                    - generic [ref=e1964]: "\"PM10 concentration(CF=1,Standard particulate matter,unit:ug/m3): \","
+                    - generic [ref=e1965]: "\"PM1.0 concentration(Atmospheric environment,unit:ug/m3): \","
+                    - generic [ref=e1966]: "\"PM2.5 concentration(Atmospheric environment,unit:ug/m3): \","
+                    - generic [ref=e1967]: "\"PM10 concentration(Atmospheric environment,unit:ug/m3): \","
+                    - generic [ref=e1968]: "};"
+                    - generic [ref=e1969]: ///////////////////////////////////////////////////////////////////
+                    - generic [ref=e1970]: "//PM2.5 concentration(Atmospheric environment,unit:ug/m3): value"
+                    - generic [ref=e1971]: ///////////////////////////////////////////////////////////////////
+                    - generic [ref=e1972]: "HM330XErrorCode print_result(const char* str, uint16_t value) {"
+                    - generic [ref=e1973]: "if (NULL == str) {"
+                    - generic [ref=e1974]: return ERROR_PARAM;
+                    - generic [ref=e1975]: "}"
+                    - generic [ref=e1976]: // SERIAL_OUTPUT.print(str);
+                    - generic [ref=e1977]: u8x8.setFont(u8x8_font_chroma48medium8_r);
+                    - generic [ref=e1978]: u8x8.setCursor(0, 0);
+                    - generic [ref=e1979]: "u8x8.print(\"PM2.5: \");"
+                    - generic [ref=e1980]: u8x8.setCursor(7, 0);
+                    - generic [ref=e1981]: u8x8.print(value);
+                    - generic [ref=e1982]: u8x8.setCursor(11, 0);
+                    - generic [ref=e1983]: u8x8.print("ug/m");
+                    - generic [ref=e1984]: Serial.println(value);
+                    - generic [ref=e1985]: return NO_ERROR;
+                    - generic [ref=e1986]: "}"
+                    - generic [ref=e1987]: "HM330XErrorCode print_result_1(const char* str, uint16_t value) {"
+                    - generic [ref=e1988]: "if (NULL == str) {"
+                    - generic [ref=e1989]: return ERROR_PARAM;
+                    - generic [ref=e1990]: "}"
+                    - generic [ref=e1991]: // SERIAL_OUTPUT.print(str);
+                    - generic [ref=e1992]: u8x8.setFont(u8x8_font_chroma48medium8_r);
+                    - generic [ref=e1993]: u8x8.setCursor(0, 0);
+                    - generic [ref=e1994]: "u8x8.print(\"PM10: \");"
+                    - generic [ref=e1995]: u8x8.setCursor(7, 0);
+                    - generic [ref=e1996]: u8x8.print(value);
+                    - generic [ref=e1997]: u8x8.setCursor(11, 0);
+                    - generic [ref=e1998]: u8x8.print("ug/m");
+                    - generic [ref=e1999]: Serial.println(value);
+                    - generic [ref=e2000]: return NO_ERROR;
+                    - generic [ref=e2001]: "}"
+                    - generic [ref=e2002]: /*parse buf with 29 uint8_t-data*/
+                    - generic [ref=e2003]: "HM330XErrorCode parse_result(uint8_t* data) {"
+                    - generic [ref=e2004]: uint16_t value = 0;
+                    - generic [ref=e2005]: "if (NULL == data) {"
+                    - generic [ref=e2006]: return ERROR_PARAM;
+                    - generic [ref=e2007]: "}"
+                    - generic [ref=e2008]: value = (uint16_t) data[6 * 2] << 8 | data[6 * 2 + 1];
+                    - generic [ref=e2009]: print_result(str[6 - 1], value);
+                    - generic [ref=e2010]: return NO_ERROR;
+                    - generic [ref=e2011]: "}"
+                    - generic [ref=e2012]: "HM330XErrorCode parse_result2(uint8_t* data) {"
+                    - generic [ref=e2013]: uint16_t value = 0;
+                    - generic [ref=e2014]: "if (NULL == data) {"
+                    - generic [ref=e2015]: return ERROR_PARAM;
+                    - generic [ref=e2016]: "}"
+                    - generic [ref=e2017]: value = (uint16_t) data[7 * 2] << 8 | data[7 * 2 + 1];
+                    - generic [ref=e2018]: print_result_1(str[7 - 1], value);
+                    - generic [ref=e2019]: return NO_ERROR;
+                    - generic [ref=e2020]: "}"
+                    - generic [ref=e2021]: ////////////////////////////////////////////////////////////////////
+                    - generic [ref=e2022]: /*30s*/
+                    - generic [ref=e2023]: "void setup() {"
+                    - generic [ref=e2024]: Serial.begin(115200);
+                    - generic [ref=e2025]: Wire.begin();
+                    - generic [ref=e2026]: u8x8.begin();
+                    - generic [ref=e2027]: u8x8.setFlipMode(0);
+                    - generic [ref=e2028]: scd30.initialize();
+                    - generic [ref=e2029]: pinMode(pin, INPUT);
+                    - generic [ref=e2030]: pinMode(buttonPin, INPUT_PULLUP);
+                    - generic [ref=e2031]: starttime = millis();//get the current time;
+                    - generic [ref=e2032]: "}"
+                    - generic [ref=e2033]: "void loop() {"
+                    - generic [ref=e2034]: "float result[3] = {0};"
+                    - generic [ref=e2035]: duration = pulseIn(pin, LOW);
+                    - generic [ref=e2036]: lowpulseoccupancy = lowpulseoccupancy + duration;
+                    - generic [ref=e2037]: buttonState = digitalRead(buttonPin);
+                    - generic [ref=e2038]: "if (buttonState == LOW) {"
+                    - generic [ref=e2039]: memu++;
+                    - generic [ref=e2040]: delay(15);
+                    - generic [ref=e2041]: "if (memu == 2) {"
+                    - generic [ref=e2042]: memu = 0;
+                    - generic [ref=e2043]: "}"
+                    - generic [ref=e2044]: "}"
+                    - generic [ref=e2045]: Serial.println(memu);
+                    - generic [ref=e2046]: "if (scd30.isAvailable() && memu == 0) {"
+                    - generic [ref=e2047]: scd30.getCarbonDioxideConcentration(result);
+                    - generic [ref=e2048]: u8x8.setFont(u8x8_font_chroma48medium8_r);
+                    - generic [ref=e2049]: u8x8.setCursor(0, 3);
+                    - generic [ref=e2050]: "u8x8.print(\"CO2: \");"
+                    - generic [ref=e2051]: u8x8.setCursor(5, 3);
+                    - generic [ref=e2052]: u8x8.print(result[0]);
+                    - generic [ref=e2053]: u8x8.setCursor(12, 3);
+                    - generic [ref=e2054]: u8x8.print("pmm");
+                    - generic [ref=e2055]: delay(1000);
+                    - generic [ref=e2056]: "}"
+                    - generic [ref=e2057]: "if (sensor.read_sensor_value(buf, 29) && memu == 0) {"
+                    - generic [ref=e2058]: SERIAL_OUTPUT.println("HM330X read result failed!!!");
+                    - generic [ref=e2059]: "}"
+                    - generic [ref=e2060]: "if(memu == 0){"
+                    - generic [ref=e2061]: parse_result(buf);
+                    - generic [ref=e2062]: "}"
+                    - generic [ref=e2063]: "if ((millis() - starttime) > sampletime_ms && memu == 0) {"
+                    - generic [ref=e2064]: ratio = lowpulseoccupancy / (sampletime_ms * 10.0); // Integer percentage 0=>100
+                    - generic [ref=e2065]: concentration = 1.1 * pow(ratio, 3) - 3.8 * pow(ratio, 2) + 520 * ratio + 0.62; // using spec sheet curve
+                    - generic [ref=e2066]: u8x8.setFont(u8x8_font_chroma48medium8_r);
+                    - generic [ref=e2067]: u8x8.setCursor(0, 6);
+                    - generic [ref=e2068]: "u8x8.print(\"Dust: \");"
+                    - generic [ref=e2069]: u8x8.setCursor(6, 6);
+                    - generic [ref=e2070]: u8x8.print(concentration);
+                    - generic [ref=e2071]: u8x8.setCursor(12, 6);
+                    - generic [ref=e2072]: u8x8.print("pcs");
+                    - generic [ref=e2073]: // Serial.println(concentration);
+                    - generic [ref=e2074]: lowpulseoccupancy = 0;
+                    - generic [ref=e2075]: starttime = millis();
+                    - generic [ref=e2076]: "}"
+                    - generic [ref=e2077]: "if (scd30.isAvailable() && memu == 1) {"
+                    - generic [ref=e2078]: scd30.getCarbonDioxideConcentration(result);
+                    - generic [ref=e2079]: u8x8.setFont(u8x8_font_chroma48medium8_r);
+                    - generic [ref=e2080]: u8x8.setCursor(0, 3);
+                    - generic [ref=e2081]: "u8x8.print(\"Temp: \");"
+                    - generic [ref=e2082]: u8x8.setCursor(6, 3);
+                    - generic [ref=e2083]: u8x8.print(result[1]);
+                    - generic [ref=e2084]: u8x8.setCursor(10, 3);
+                    - generic [ref=e2085]: u8x8.print(" C ");
+                    - generic [ref=e2086]: u8x8.setCursor(0, 6);
+                    - generic [ref=e2087]: "u8x8.print(\"Humi: \");"
+                    - generic [ref=e2088]: u8x8.setCursor(5, 6);
+                    - generic [ref=e2089]: u8x8.print(result[2]);
+                    - generic [ref=e2090]: u8x8.setCursor(8, 6);
+                    - generic [ref=e2091]: u8x8.print(" % ");
+                    - generic [ref=e2092]: delay(1000);
+                    - generic [ref=e2093]: "}"
+                    - generic [ref=e2094]: "if (sensor.read_sensor_value(buf, 29) && memu == 1) {"
+                    - generic [ref=e2095]: SERIAL_OUTPUT.println("HM330X read result failed!!!");
+                    - generic [ref=e2096]: "}"
+                    - generic [ref=e2097]: "if(memu == 1){"
+                    - generic [ref=e2098]: parse_result2(buf);
+                    - generic [ref=e2099]: "}"
+                    - generic [ref=e2100]: "}"
+                  - generic [ref=e2101]:
+                    - button "Toggle word wrap" [ref=e2102] [cursor=pointer]:
+                      - img [ref=e2103]
+                    - button "Copy code to clipboard" [ref=e2105] [cursor=pointer]:
+                      - generic [ref=e2106]:
+                        - img [ref=e2107]
+                        - img [ref=e2109]
+                - heading "Project 6 - Seeed Studio Expansion Base for XIAO - Heart RateDirect link to Project 6 - Seeed Studio Expansion Base for XIAO - Heart Rate" [level=3] [ref=e2111]:
+                  - text: Project 6 - Seeed Studio Expansion Base for XIAO - Heart Rate
+                  - link "Direct link to Project 6 - Seeed Studio Expansion Base for XIAO - Heart Rate" [ref=e2112] [cursor=pointer]:
+                    - /url: "#project-6---seeed-studio-expansion-base-for-xiao---heart-rate"
+                    - text: "#"
+                - paragraph [ref=e2113]:
+                  - strong [ref=e2114]: Overview
+                - img [ref=e2116]
+                - paragraph [ref=e2117]: This simple and inexpensive project is based on the Seeed Studio Expansion Base for XIAO to report the heart rate. The device used has an I2C two-wire interface and therefore keeps the wiring down to a minimum.
+                - paragraph [ref=e2118]:
+                  - strong [ref=e2119]: Component required
+                - list [ref=e2120]:
+                  - listitem [ref=e2121]:
+                    - paragraph [ref=e2122]:
+                      - link "**Seeed Studio XIAO SAMD21 **" [ref=e2123] [cursor=pointer]:
+                        - /url: https://www.seeedstudio.com/Seeeduino-XIAO-Arduino-Microcontroller-SAMD21-Cortex-M0+-p-4426.html
+                  - listitem [ref=e2124]:
+                    - paragraph [ref=e2125]:
+                      - link "Seeed Studio Expansion Base for XIAO" [ref=e2126] [cursor=pointer]:
+                        - /url: https://www.seeedstudio.com/Seeeduino-XIAO-Expansion-board-p-4746.html
+                        - strong [ref=e2127]: Seeed Studio Expansion Base for XIAO
+                  - listitem [ref=e2128]:
+                    - paragraph [ref=e2129]:
+                      - link "Seeed Grove - Finger-clip Heart Rate Sensor" [ref=e2130] [cursor=pointer]:
+                        - /url: https://www.hackster.io/products/buy/80359?s=BAhJIhMzNzExNzMsUHJvamVjdAY6BkVG%0A
+                        - strong [ref=e2131]: Seeed Grove - Finger-clip Heart Rate Sensor
+                - paragraph [ref=e2132]:
+                  - strong [ref=e2133]: Hardware Connection
+                - paragraph [ref=e2134]: As shown in the figure below, connect the heart rate sensor to the I2C interface of the XIAO expansion board.
+                - img [ref=e2136]
+                - paragraph [ref=e2137]:
+                  - strong [ref=e2138]: Arduino Instructions
+                - paragraph [ref=e2139]:
+                  - strong [ref=e2140]: Step 1
+                  - text: . Follow the connection picture connect all the sensor on the board.
+                - paragraph [ref=e2141]:
+                  - strong [ref=e2142]: Step 2
+                  - text: . Download the
+                  - link "Aruidno IDE" [ref=e2143] [cursor=pointer]:
+                    - /url: https://www.arduino.cc/en/Main/software
+                    - strong [ref=e2144]: Aruidno IDE
+                - paragraph [ref=e2145]:
+                  - strong [ref=e2146]: Step 3
+                  - text: . Install the
+                  - link "u8g2" [ref=e2147] [cursor=pointer]:
+                    - /url: https://github.com/olikraus/U8g2_Arduino
+                    - strong [ref=e2148]: u8g2
+                  - text: library, this is the guide
+                  - link "how to install the library" [ref=e2149] [cursor=pointer]:
+                    - /url: https://wiki.seeedstudio.com/How_to_install_Arduino_Library/
+                    - strong [ref=e2150]: how to install the library
+                  - text: .
+                - paragraph [ref=e2151]:
+                  - strong [ref=e2152]: Step 4
+                  - text: . Copy the code stick on the Aruino IDE then upload it.
+                - paragraph [ref=e2153]:
+                  - strong [ref=e2154]: Code
+                - generic [ref=e2156]:
+                  - code [ref=e2158]:
+                    - generic [ref=e2159]: "#include <Arduino.h>"
+                    - generic [ref=e2160]: "#include <U8x8lib.h>"
+                    - generic [ref=e2161]: "#include <Wire.h>"
+                    - generic [ref=e2162]: U8X8_SSD1306_128X64_NONAME_HW_I2C u8x8(/* reset=*/ U8X8_PIN_NONE);
+                    - generic [ref=e2163]: "void setup() {"
+                    - generic [ref=e2164]: Serial.begin(9600);
+                    - generic [ref=e2165]: Serial.println("heart rate sensor:");
+                    - generic [ref=e2166]: u8x8.begin();
+                    - generic [ref=e2167]: u8x8.setFlipMode(1);
+                    - generic [ref=e2168]: Wire.begin();
+                    - generic [ref=e2169]: "}"
+                    - generic [ref=e2170]: "void loop() {"
+                    - generic [ref=e2171]: Wire.requestFrom(0xA0 >> 1, 1); // request 1 bytes from slave device
+                    - generic [ref=e2172]: "while (Wire.available()) { // slave may send less than requested"
+                    - generic [ref=e2173]: unsigned char c = Wire.read(); // receive heart rate value (a byte)
+                    - generic [ref=e2174]: u8x8.setFont(u8x8_font_chroma48medium8_r);
+                    - generic [ref=e2175]: // u8x8.setCursor(0, 3);
+                    - generic [ref=e2176]: // u8x8.print("blood detecting ");
+                    - generic [ref=e2177]: // delay(10000);
+                    - generic [ref=e2178]: u8x8.setCursor(0, 3);
+                    - generic [ref=e2179]: "u8x8.print(\"HeartRate: \");"
+                    - generic [ref=e2180]: u8x8.setCursor(10, 3);
+                    - generic [ref=e2181]: u8x8.print(c);
+                    - generic [ref=e2182]: u8x8.setCursor(13, 3);
+                    - generic [ref=e2183]: u8x8.print("bpm");
+                    - generic [ref=e2184]: Serial.println(c);
+                    - generic [ref=e2185]: "}"
+                    - generic [ref=e2186]: delay(500);
+                    - generic [ref=e2187]: "}"
+                  - generic [ref=e2188]:
+                    - button "Toggle word wrap" [ref=e2189] [cursor=pointer]:
+                      - img [ref=e2190]
+                    - button "Copy code to clipboard" [ref=e2192] [cursor=pointer]:
+                      - generic [ref=e2193]:
+                        - img [ref=e2194]
+                        - img [ref=e2196]
+                - heading "ResourcesDirect link to Resources" [level=2] [ref=e2198]:
+                  - text: Resources
+                  - link "Direct link to Resources" [ref=e2199] [cursor=pointer]:
+                    - /url: "#resources"
+                    - text: "#"
+                - list [ref=e2200]:
+                  - listitem [ref=e2201]:
+                    - strong [ref=e2202]: "[PDF]"
+                    - link "ETA1038" [ref=e2203] [cursor=pointer]:
+                      - /url: https://files.seeedstudio.com/wiki/Seeeduino-XIAO-Expansion-Board/document/ETA1038.pdf
+                      - strong [ref=e2204]: ETA1038
+                  - listitem [ref=e2205]:
+                    - strong [ref=e2206]: "[PDF]"
+                    - link "ETA3410" [ref=e2207] [cursor=pointer]:
+                      - /url: https://files.seeedstudio.com/wiki/Seeeduino-XIAO-Expansion-Board/document/ETA3410.pdf
+                      - strong [ref=e2208]: ETA3410
+                  - listitem [ref=e2209]:
+                    - strong [ref=e2210]: "[PDF]"
+                    - link "ETA6003" [ref=e2211] [cursor=pointer]:
+                      - /url: https://files.seeedstudio.com/wiki/Seeeduino-XIAO-Expansion-Board/document/ETA6003.pdf
+                      - strong [ref=e2212]: ETA6003
+                  - listitem [ref=e2213]:
+                    - strong [ref=e2214]: "[PDF]"
+                    - link "PCF8563T" [ref=e2215] [cursor=pointer]:
+                      - /url: https://files.seeedstudio.com/wiki/Seeeduino-XIAO-Expansion-Board/document/PCF8563T.pdf
+                      - strong [ref=e2216]: PCF8563T
+                  - listitem [ref=e2217]:
+                    - strong [ref=e2218]: "[PDF]"
+                    - link "Seeed Studio Expansion Base for XIAO_v1.0_SCH_200824" [ref=e2219] [cursor=pointer]:
+                      - /url: https://files.seeedstudio.com/wiki/Seeeduino-XIAO-Expansion-Board/document/Seeeduino%20XIAO%20Expansion%20board_v1.0_SCH_200824.pdf
+                      - strong [ref=e2220]: Seeed Studio Expansion Base for XIAO_v1.0_SCH_200824
+                  - listitem [ref=e2221]:
+                    - strong [ref=e2222]: "[SCH]"
+                    - link "Seeed Studio Expansion Base for XIAO_v1.0_200824" [ref=e2223] [cursor=pointer]:
+                      - /url: https://files.seeedstudio.com/wiki/Seeeduino-XIAO-Expansion-Board/document/Seeeduino%20XIAO%20Expansion%20board_v1.0_200824.sch
+                      - strong [ref=e2224]: Seeed Studio Expansion Base for XIAO_v1.0_200824
+                  - listitem [ref=e2225]:
+                    - strong [ref=e2226]: "[BRD]"
+                    - link "Seeed Studio Expansion Base for XIAO_v1.0_200824" [ref=e2227] [cursor=pointer]:
+                      - /url: https://files.seeedstudio.com/wiki/Seeeduino-XIAO-Expansion-Board/document/Seeeduino%20XIAO%20Expansion%20board_v1.0_200824.brd
+                      - strong [ref=e2228]: Seeed Studio Expansion Base for XIAO_v1.0_200824
+                - heading "FAQDirect link to FAQ" [level=2] [ref=e2229]:
+                  - text: FAQ
+                  - link "Direct link to FAQ" [ref=e2230] [cursor=pointer]:
+                    - /url: "#faq"
+                    - text: "#"
+                - 'heading "Q1: Does the PMIC on the XIAO Expansion board output power on the 5V pins?Direct link to Q1: Does the PMIC on the XIAO Expansion board output power on the 5V pins?" [level=3] [ref=e2231]':
+                  - text: "Q1: Does the PMIC on the XIAO Expansion board output power on the 5V pins?"
+                  - 'link "Direct link to Q1: Does the PMIC on the XIAO Expansion board output power on the 5V pins?" [ref=e2232] [cursor=pointer]':
+                    - /url: "#q1-does-the-pmic-on-the-xiao-expansion-board-output-power-on-the-5v-pins"
+                    - text: "#"
+                - paragraph [ref=e2233]: The PMIC does not output power; the 5V is directly sourced from the USB. The current provided on the 5V pin is equivalent to the current available from the USB connection.
+                - heading "Tech Support & Product DiscussionDirect link to Tech Support & Product Discussion" [level=2] [ref=e2234]:
+                  - text: Tech Support & Product Discussion
+                  - link "Direct link to Tech Support & Product Discussion" [ref=e2235] [cursor=pointer]:
+                    - /url: "#tech-support--product-discussion"
+                    - text: "#"
+                - paragraph [ref=e2236]: Thank you for choosing our products! We are here to provide you with different support to ensure that your experience with our products is as smooth as possible. We offer several communication channels to cater to different preferences and needs.
+                - generic [ref=e2237]:
+                  - link [ref=e2238] [cursor=pointer]:
+                    - /url: https://forum.seeedstudio.com/
+                  - link [ref=e2239] [cursor=pointer]:
+                    - /url: https://www.seeedstudio.com/contacts
+                - generic [ref=e2240]:
+                  - link [ref=e2241] [cursor=pointer]:
+                    - /url: https://discord.gg/eWkprNDMU7
+                  - link [ref=e2242] [cursor=pointer]:
+                    - /url: https://github.com/Seeed-Studio/wiki-documents/discussions/69
+              - generic [ref=e2244]:
+                - link "Edit this page" [ref=e2246] [cursor=pointer]:
+                  - /url: https://github.com/Seeed-Studio/wiki-documents/blob/docusaurus-version/sites/en/docs/docs/Sensor/SeeedStudio_XIAO/SeeedStudio_XIAO_Expansion_board/Seeeduino-XIAO-Expansion-Board.md
+                  - img [ref=e2247]
+                  - text: Edit this page
+                - generic [ref=e2251]:
+                  - text: Last updated on
+                  - time [ref=e2253]: Jul 18, 2024
+                  - text: by Spencer
+            - navigation "Docs pages" [ref=e2254]:
+              - link "Previous « L76K Path Tracking on Ubidots" [ref=e2255] [cursor=pointer]:
+                - /url: /L76K_Path_Tracking_on_Ubidots/
+                - generic [ref=e2256]: Previous
+                - generic [ref=e2257]: « L76K Path Tracking on Ubidots
+              - link "Next XIAO CAN Bus Expansion Board »" [ref=e2258] [cursor=pointer]:
+                - /url: /xiao-can-bus-expansion/
+                - generic [ref=e2259]: Next
+                - generic [ref=e2260]: XIAO CAN Bus Expansion Board »
+          - iframe [ref=e2263]:
+            
+        - list [ref=e2266]:
+          - listitem [ref=e2267]:
+            - link "Overview" [ref=e2268] [cursor=pointer]:
+              - /url: "#overview"
+          - listitem [ref=e2269]:
+            - link "Features" [ref=e2270] [cursor=pointer]:
+              - /url: "#features"
+          - listitem [ref=e2271]:
+            - link "Specification" [ref=e2272] [cursor=pointer]:
+              - /url: "#specification"
+          - listitem [ref=e2273]:
+            - link "Applications" [ref=e2274] [cursor=pointer]:
+              - /url: "#applications"
+          - listitem [ref=e2275]:
+            - link "Part List" [ref=e2276] [cursor=pointer]:
+              - /url: "#part-list"
+          - listitem [ref=e2277]:
+            - link "Getting Started" [ref=e2278] [cursor=pointer]:
+              - /url: "#getting-started"
+            - list [ref=e2279]:
+              - listitem [ref=e2280]:
+                - link "Materials Required" [ref=e2281] [cursor=pointer]:
+                  - /url: "#materials-required"
+              - listitem [ref=e2282]:
+                - link "Hardware Overview" [ref=e2283] [cursor=pointer]:
+                  - /url: "#hardware-overview"
+              - listitem [ref=e2284]:
+                - link "Pinout Diagram" [ref=e2285] [cursor=pointer]:
+                  - /url: "#pinout-diagram"
+          - listitem [ref=e2286]:
+            - link "Expansion Board Usage" [ref=e2287] [cursor=pointer]:
+              - /url: "#expansion-board-usage"
+            - list [ref=e2288]:
+              - listitem [ref=e2289]:
+                - link "Connection" [ref=e2290] [cursor=pointer]:
+                  - /url: "#connection"
+          - listitem [ref=e2291]:
+            - link "Battery usage" [ref=e2292] [cursor=pointer]:
+              - /url: "#battery-usage"
+          - listitem [ref=e2293]:
+            - link "Modules on the expansion board" [ref=e2294] [cursor=pointer]:
+              - /url: "#modules-on-the-expansion-board"
+            - list [ref=e2295]:
+              - listitem [ref=e2296]:
+                - link "OLED Display" [ref=e2297] [cursor=pointer]:
+                  - /url: "#oled-display"
+              - listitem [ref=e2298]:
+                - link "LED control by User Button" [ref=e2299] [cursor=pointer]:
+                  - /url: "#led-control-by-user-button"
+              - listitem [ref=e2300]:
+                - link "Buzzer" [ref=e2301] [cursor=pointer]:
+                  - /url: "#buzzer"
+                - list [ref=e2302]:
+                  - listitem [ref=e2303]:
+                    - link "Play Song with Passive Buzzer" [ref=e2304] [cursor=pointer]:
+                      - /url: "#play-song-with-passive-buzzer"
+                      - strong [ref=e2305]: Play Song with Passive Buzzer
+              - listitem [ref=e2306]:
+                - link "Servo Control by Rotary Angle Sensor" [ref=e2307] [cursor=pointer]:
+                  - /url: "#servo-control-by-rotary-angle-sensor"
+              - listitem [ref=e2308]:
+                - link "RTC clock display" [ref=e2309] [cursor=pointer]:
+                  - /url: "#rtc-clock-display"
+              - listitem [ref=e2310]:
+                - link "SD card Function" [ref=e2311] [cursor=pointer]:
+                  - /url: "#sd-card-function"
+          - listitem [ref=e2312]:
+            - link "Acrylic Case for Seeed Studio Seeed Studio Expansion Base for XIAO" [ref=e2313] [cursor=pointer]:
+              - /url: "#acrylic-case-for-seeed-studio-seeed-studio-expansion-base-for-xiao"
+          - listitem [ref=e2314]:
+            - link "Circuitpython on Seeed Studio XIAO SAMD21 with expansion board" [ref=e2315] [cursor=pointer]:
+              - /url: "#circuitpython-on-seeed-studio-xiao-samd21-with-expansion-board"
+          - listitem [ref=e2316]:
+            - link "Installing CircuitPython" [ref=e2317] [cursor=pointer]:
+              - /url: "#installing-circuitpython"
+            - list [ref=e2318]:
+              - listitem [ref=e2319]:
+                - link "CircuitPython Blink example" [ref=e2320] [cursor=pointer]:
+                  - /url: "#circuitpython-blink-example"
+              - listitem [ref=e2321]:
+                - link "MicroSD card for circuitpython" [ref=e2322] [cursor=pointer]:
+                  - /url: "#microsd-card-for-circuitpython"
+          - listitem [ref=e2323]:
+            - link "Demo" [ref=e2324] [cursor=pointer]:
+              - /url: "#demo"
+            - list [ref=e2325]:
+              - listitem [ref=e2326]:
+                - link "Project 1 - Remote control fan" [ref=e2327] [cursor=pointer]:
+                  - /url: "#project-1---remote-control-fan"
+              - listitem [ref=e2328]:
+                - link "Project 2 - Remote control car" [ref=e2329] [cursor=pointer]:
+                  - /url: "#project-2---remote-control-car"
+              - listitem [ref=e2330]:
+                - link "Project 3 - Fingerprint unlocks treasure box -Seeed Studio XIAO" [ref=e2331] [cursor=pointer]:
+                  - /url: "#project-3---fingerprint-unlocks-treasure-box--seeed-studio-xiao"
+              - listitem [ref=e2332]:
+                - link "Project 4 - Seeed Studio Expansion Base for XIAO - mjolnir" [ref=e2333] [cursor=pointer]:
+                  - /url: "#project-4---seeed-studio-expansion-base-for-xiao---mjolnir"
+              - listitem [ref=e2334]:
+                - link "Project 5 - Air Quality Sensor Hub - Seeed Studio Expansion Base for XIAO" [ref=e2335] [cursor=pointer]:
+                  - /url: "#project-5---air-quality-sensor-hub---seeed-studio-expansion-base-for-xiao"
+              - listitem [ref=e2336]:
+                - link "Project 6 - Seeed Studio Expansion Base for XIAO - Heart Rate" [ref=e2337] [cursor=pointer]:
+                  - /url: "#project-6---seeed-studio-expansion-base-for-xiao---heart-rate"
+          - listitem [ref=e2338]:
+            - link "Resources" [ref=e2339] [cursor=pointer]:
+              - /url: "#resources"
+          - listitem [ref=e2340]:
+            - link "FAQ" [ref=e2341] [cursor=pointer]:
+              - /url: "#faq"
+            - list [ref=e2342]:
+              - listitem [ref=e2343]:
+                - 'link "Q1: Does the PMIC on the XIAO Expansion board output power on the 5V pins?" [ref=e2344] [cursor=pointer]':
+                  - /url: "#q1-does-the-pmic-on-the-xiao-expansion-board-output-power-on-the-5v-pins"
+          - listitem [ref=e2345]:
+            - link "Tech Support & Product Discussion" [ref=e2346] [cursor=pointer]:
+              - /url: "#tech-support--product-discussion"
+  - contentinfo [ref=e2347]:
+    - generic [ref=e2348]:
+      - generic [ref=e2349]:
+        - generic [ref=e2350]:
+          - generic [ref=e2351]: Navigation
+          - list [ref=e2352]:
+            - listitem [ref=e2353]:
+              - link "Getting Started" [ref=e2354] [cursor=pointer]:
+                - /url: /Getting_Started/
+            - listitem [ref=e2355]:
+              - link "Sensor and Sensing" [ref=e2356] [cursor=pointer]:
+                - /url: /Sensor_Network/
+            - listitem [ref=e2357]:
+              - link "Network" [ref=e2358] [cursor=pointer]:
+                - /url: /Network/
+            - listitem [ref=e2359]:
+              - link "Edge Computing" [ref=e2360] [cursor=pointer]:
+                - /url: /Edge_Computing/
+            - listitem [ref=e2361]:
+              - link "Cloud" [ref=e2362] [cursor=pointer]:
+                - /url: /Cloud/
+            - listitem [ref=e2363]:
+              - link "Solutions" [ref=e2364] [cursor=pointer]:
+                - /url: https://solution.seeed.cc/
+        - generic [ref=e2365]:
+          - generic [ref=e2366]: Ecosystem
+          - list [ref=e2367]:
+            - listitem [ref=e2368]:
+              - link "Discord" [ref=e2369] [cursor=pointer]:
+                - /url: https://discord.com/invite/QqMgVwHT3X
+            - listitem [ref=e2370]:
+              - link "Project Hub" [ref=e2371] [cursor=pointer]:
+                - /url: https://project.seeedstudio.com/
+            - listitem [ref=e2372]:
+              - link "Partners" [ref=e2373] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/ecosystem/
+            - listitem [ref=e2374]:
+              - link "Distributors" [ref=e2375] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/distributors.html
+        - generic [ref=e2376]:
+          - generic [ref=e2377]: Quick Guide
+          - list [ref=e2378]:
+            - listitem [ref=e2379]:
+              - link "Bazaar" [ref=e2380] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/
+            - listitem [ref=e2381]:
+              - link "How to get help" [ref=e2382] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/get_help/HowToGetHelp
+            - listitem [ref=e2383]:
+              - link "FAQs" [ref=e2384] [cursor=pointer]:
+                - /url: https://support.seeedstudio.com/knowledgebase
+            - listitem [ref=e2385]:
+              - link "Forum" [ref=e2386] [cursor=pointer]:
+                - /url: https://forum.seeedstudio.com/
+            - listitem [ref=e2387]:
+              - link "Technical Support" [ref=e2388] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/get_help/TechnicalSupport
+        - generic [ref=e2389]:
+          - generic [ref=e2390]: Company
+          - list [ref=e2391]:
+            - listitem [ref=e2392]:
+              - link "About Seeed" [ref=e2393] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/about-us/
+            - listitem [ref=e2394]:
+              - link "Join us" [ref=e2395] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/join-us/
+            - listitem [ref=e2396]:
+              - link "Contact Us" [ref=e2397] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/contacts
+            - listitem [ref=e2398]:
+              - link "Press" [ref=e2399] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/blog/2020/04/22/seeed-in-the-news/
+      - generic [ref=e2401]: Copyright © 2026 Seeed Studio, Inc. Built with Docusaurus.

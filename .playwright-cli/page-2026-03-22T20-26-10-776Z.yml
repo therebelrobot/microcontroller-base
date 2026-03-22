@@ -1,0 +1,317 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#content-area"
+    - generic [ref=e5]:
+      - generic [ref=e11]:
+        - generic [ref=e12]:
+          - link "atopile home page light logo" [ref=e13] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e14]: atopile home page
+            - img "light logo" [ref=e15]
+          - button "0.14.x" [ref=e17] [cursor=pointer]:
+            - generic [ref=e18]: 0.14.x
+            - img [ref=e19]
+        - generic [ref=e21]:
+          - generic [ref=e22]:
+            - link "atopile" [ref=e25] [cursor=pointer]:
+              - /url: /atopile-0.14.x/introduction
+            - navigation:
+              - list
+          - generic [ref=e26]:
+            - button "Open search" [ref=e27] [cursor=pointer]:
+              - generic [ref=e28]: Search...
+              - img [ref=e29]
+            - button [ref=e30] [cursor=pointer]:
+              - img [ref=e31]
+            - button "Toggle dark mode" [ref=e35] [cursor=pointer]:
+              - img [ref=e36]
+      - generic [ref=e43]:
+        - generic [ref=e48]:
+          - list [ref=e49]:
+            - listitem [ref=e50]:
+              - link "GitHub" [ref=e51] [cursor=pointer]:
+                - /url: https://github.com/atopile/atopile
+                - img [ref=e52]
+                - generic [ref=e53]: GitHub
+            - listitem [ref=e54]:
+              - link "Packages" [ref=e55] [cursor=pointer]:
+                - /url: https://packages.atopile.io
+                - img [ref=e56]
+                - generic [ref=e57]: Packages
+            - listitem [ref=e58]:
+              - link "Support" [ref=e59] [cursor=pointer]:
+                - /url: https://docs.atopile.io/support
+                - img [ref=e60]
+                - generic [ref=e61]: Support
+            - listitem [ref=e62]:
+              - link "Community" [ref=e63] [cursor=pointer]:
+                - /url: https://discord.gg/CRe5xaDBr3
+                - img [ref=e64]
+                - generic [ref=e65]: Community
+            - listitem [ref=e66]:
+              - link "Blog" [ref=e67] [cursor=pointer]:
+                - /url: https://blog.atopile.io
+                - img [ref=e68]
+                - generic [ref=e69]: Blog
+          - generic [ref=e70]:
+            - heading "Introduction" [level=5] [ref=e72]
+            - list [ref=e73]:
+              - listitem [ref=e74]:
+                - link "Introduction" [ref=e75] [cursor=pointer]:
+                  - /url: /atopile-0.14.x/introduction
+                  - img [ref=e77]
+                  - generic [ref=e79]: Introduction
+              - listitem [ref=e80]:
+                - link "Change Log" [ref=e81] [cursor=pointer]:
+                  - /url: /atopile-0.14.x/changelog
+                  - img [ref=e83]
+                  - generic [ref=e85]: Change Log
+          - generic [ref=e86]:
+            - heading "Getting Started Guide" [level=5] [ref=e88]
+            - list [ref=e89]:
+              - listitem [ref=e90]:
+                - link "1. Install" [ref=e91] [cursor=pointer]:
+                  - /url: /atopile-0.14.x/quickstart/1-installation
+                  - img [ref=e93]
+                  - generic [ref=e95]: 1. Install
+              - listitem [ref=e96]:
+                - link "2. Hello, World!" [ref=e97] [cursor=pointer]:
+                  - /url: /atopile-0.14.x/quickstart/2-create-a-project
+                  - img [ref=e99]
+                  - generic [ref=e101]: 2. Hello, World!
+              - listitem [ref=e102]:
+                - link "3. Adding Parts" [ref=e103] [cursor=pointer]:
+                  - /url: /atopile-0.14.x/quickstart/3-adding-parts
+                  - img [ref=e105]
+                  - generic [ref=e107]: 3. Adding Parts
+              - listitem [ref=e108]:
+                - link "4. Manufacturing Export" [ref=e109] [cursor=pointer]:
+                  - /url: /atopile-0.14.x/quickstart/4-manufacturing-files
+                  - img [ref=e111]
+                  - generic [ref=e113]: 4. Manufacturing Export
+              - listitem [ref=e114]:
+                - link "5. Examples" [ref=e115] [cursor=pointer]:
+                  - /url: /atopile-0.14.x/quickstart/5-examples
+                  - img [ref=e117]
+                  - generic [ref=e119]: 5. Examples
+          - generic [ref=e120]:
+            - heading "Essentials" [level=5] [ref=e122]
+            - list [ref=e123]:
+              - listitem [ref=e124]:
+                - 'link "1. `ato` Language" [ref=e125] [cursor=pointer]':
+                  - /url: /atopile-0.14.x/essentials/1-the-ato-language
+                  - img [ref=e127]
+                  - generic [ref=e129]: "1. `ato` Language"
+              - listitem [ref=e130]:
+                - 'link "2. `ato` Compiler" [ref=e131] [cursor=pointer]':
+                  - /url: /atopile-0.14.x/essentials/2-the-ato-compiler
+                  - img [ref=e133]
+                  - generic [ref=e135]: "2. `ato` Compiler"
+              - listitem [ref=e136]:
+                - link "3. Add a component" [ref=e137] [cursor=pointer]:
+                  - /url: /atopile-0.14.x/essentials/3-add-component
+                  - img [ref=e139]
+                  - generic [ref=e141]: 3. Add a component
+              - listitem [ref=e142]:
+                - link "4. Packages" [ref=e143] [cursor=pointer]:
+                  - /url: /atopile-0.14.x/essentials/4-packages
+                  - img [ref=e145]
+                  - generic [ref=e147]: 4. Packages
+              - listitem [ref=e148]:
+                - link "5. Project Structure" [ref=e149] [cursor=pointer]:
+                  - /url: /atopile-0.14.x/essentials/5-project-structure
+                  - img [ref=e151]
+                  - generic [ref=e153]: 5. Project Structure
+              - listitem [ref=e154]:
+                - link "6. Layout" [ref=e155] [cursor=pointer]:
+                  - /url: /atopile-0.14.x/essentials/6-layout
+                  - img [ref=e157]
+                  - generic [ref=e159]: 6. Layout
+              - listitem [ref=e160]:
+                - link "7. Saving Your Work" [ref=e161] [cursor=pointer]:
+                  - /url: /atopile-0.14.x/essentials/7-saving-your-work
+                  - img [ref=e163]
+                  - generic [ref=e165]: 7. Saving Your Work
+              - listitem [ref=e166]:
+                - link "8. Traits" [ref=e167] [cursor=pointer]:
+                  - /url: /atopile-0.14.x/essentials/8-traits
+                  - img [ref=e169]
+                  - generic [ref=e171]: 8. Traits
+          - generic [ref=e172]:
+            - heading "Guides" [level=5] [ref=e174]
+            - list [ref=e175]:
+              - listitem [ref=e176]:
+                - link "git" [ref=e177] [cursor=pointer]:
+                  - /url: /atopile-0.14.x/guides/git
+                  - img [ref=e179]
+                  - img [ref=e182]
+                  - generic [ref=e184]: git
+              - listitem [ref=e185]:
+                - link "Publishing Packages" [ref=e186] [cursor=pointer]:
+                  - /url: /atopile-0.14.x/guides/publish
+                  - img [ref=e188]
+                  - generic [ref=e190]: Publishing Packages
+              - listitem [ref=e191]:
+                - link "faebryk" [ref=e192] [cursor=pointer]:
+                  - /url: /atopile-0.14.x/guides/faebryk
+                  - img [ref=e194]
+                  - generic [ref=e196]: faebryk
+              - listitem [ref=e197]:
+                - link "fabll (python)" [ref=e198] [cursor=pointer]:
+                  - /url: /atopile-0.14.x/guides/fabll
+                  - img [ref=e200]
+                  - generic [ref=e202]: fabll (python)
+              - listitem [ref=e203]:
+                - link "Development" [ref=e204] [cursor=pointer]:
+                  - /url: /atopile-0.14.x/guides/development
+                  - img [ref=e206]
+                  - generic [ref=e208]: Development
+          - generic [ref=e209]:
+            - heading "Library Reference" [level=5] [ref=e211]
+            - list [ref=e212]:
+              - listitem [ref=e213]:
+                - button "Toggle Components section" [ref=e214] [cursor=pointer]:
+                  - generic [ref=e215]: Components
+                  - img [ref=e216]
+              - listitem [ref=e218]:
+                - button "Toggle Interfaces section" [ref=e219] [cursor=pointer]:
+                  - generic [ref=e220]: Interfaces
+                  - img [ref=e221]
+              - listitem [ref=e223]:
+                - button "Toggle Traits section" [ref=e224] [cursor=pointer]:
+                  - generic [ref=e225]: Traits
+                  - img [ref=e226]
+        - generic [ref=e229]:
+          - generic [ref=e232]:
+            - button "On this page" [ref=e233] [cursor=pointer]:
+              - img [ref=e234]
+              - generic [ref=e235]: On this page
+            - list [ref=e237]:
+              - listitem [ref=e238]:
+                - img [ref=e239]
+                - link "Basic usage" [ref=e241] [cursor=pointer]:
+                  - /url: "#basic-usage"
+              - listitem [ref=e242]:
+                - link "Workflow overview" [ref=e243] [cursor=pointer]:
+                  - /url: "#workflow-overview"
+              - listitem [ref=e244]:
+                - link "More resources" [ref=e245] [cursor=pointer]:
+                  - /url: "#more-resources"
+          - generic [ref=e246]:
+            - banner [ref=e247]:
+              - generic [ref=e248]:
+                - generic [ref=e249]: Guides
+                - heading "git" [level=1] [ref=e251]
+              - paragraph [ref=e253]:
+                - text: Using
+                - code [ref=e254]: git
+                - text: for Hardware
+            - generic [ref=e255]:
+              - generic [ref=e256]:
+                - code [ref=e257]: git
+                - text: is a powerful way to version control your design and one of the key reasons atopile was started. If you don’t know about
+                - code [ref=e258]: git
+                - text: ", learning it is strongly recommended. It’s highly likely you’ll end up loving it."
+              - heading "Navigate to header Basic usage" [level=2] [ref=e259]:
+                - link "Navigate to header" [ref=e260] [cursor=pointer]:
+                  - /url: "#basic-usage"
+                  - img [ref=e262]
+                - generic [ref=e264] [cursor=pointer]: Basic usage
+              - generic [ref=e265]:
+                - generic [ref=e266]:
+                  - generic [ref=e267]:
+                    - button "Copy the contents from the code block" [ref=e268] [cursor=pointer]:
+                      - img [ref=e269]
+                    - generic [ref=e272]: Copy
+                  - generic [ref=e273]:
+                    - button "Ask AI" [ref=e274] [cursor=pointer]:
+                      - img [ref=e275]
+                    - generic [ref=e278]: Ask AI
+                - code [ref=e282]:
+                  - generic [ref=e283]: git clone <repo-url>
+                  - generic [ref=e284]: git checkout -b <new-branch-name>
+                  - generic [ref=e285]: git add <file-to-commit>
+                  - generic [ref=e286]: git commit -m "This commits adds an LED indicator..."
+                  - generic [ref=e287]: git push -u origin HEAD
+              - heading "Navigate to header Workflow overview" [level=2] [ref=e288]:
+                - link "Navigate to header" [ref=e289] [cursor=pointer]:
+                  - /url: "#workflow-overview"
+                  - img [ref=e291]
+                - generic [ref=e293] [cursor=pointer]: Workflow overview
+              - generic [ref=e294]:
+                - code [ref=e295]: git
+                - text: "is the de facto standard for version control in software development. For people who haven’t used it before, it’s worth explaining a few terms and the workflow:"
+              - table [ref=e298]:
+                - rowgroup [ref=e299]:
+                  - row "Term Definition" [ref=e300]:
+                    - columnheader "Term" [ref=e301]
+                    - columnheader "Definition" [ref=e302]
+                - rowgroup [ref=e303]:
+                  - row "”Repo” or Repository A collection of files and directories that are version controlled together." [ref=e304]:
+                    - cell "”Repo” or Repository" [ref=e305]
+                    - cell "A collection of files and directories that are version controlled together." [ref=e306]
+                  - row "Branch A “branch” is an isolated space for your changes." [ref=e307]:
+                    - cell "Branch" [ref=e308]
+                    - cell "A “branch” is an isolated space for your changes." [ref=e309]
+                  - row "Commit A “commit” is a snapshot of some changes at that place in time." [ref=e310]:
+                    - cell "Commit" [ref=e311]
+                    - cell "A “commit” is a snapshot of some changes at that place in time." [ref=e312]
+                  - row "Push A “push” is sending your changes to the remote repo." [ref=e313]:
+                    - cell "Push" [ref=e314]
+                    - cell "A “push” is sending your changes to the remote repo." [ref=e315]
+                  - row "Pull Request A “pull request” is a request to merge your changes into the main branch. This is the time to review and test your changes with others on your team." [ref=e316]:
+                    - cell "Pull Request" [ref=e317]
+                    - cell "A “pull request” is a request to merge your changes into the main branch. This is the time to review and test your changes with others on your team." [ref=e318]
+              - heading "Navigate to header More resources" [level=2] [ref=e319]:
+                - link "Navigate to header" [ref=e320] [cursor=pointer]:
+                  - /url: "#more-resources"
+                  - img [ref=e322]
+                - generic [ref=e324] [cursor=pointer]: More resources
+              - list [ref=e325]:
+                - listitem [ref=e326]:
+                  - link "https://github.com/git-guides" [ref=e327] [cursor=pointer]:
+                    - /url: https://github.com/git-guides
+                - listitem [ref=e328]:
+                  - link "https://git-scm.com/docs/gittutorial" [ref=e329] [cursor=pointer]:
+                    - /url: https://git-scm.com/docs/gittutorial
+            - generic [ref=e330]:
+              - link "8. Traits" [ref=e331] [cursor=pointer]:
+                - /url: /atopile-0.14.x/essentials/8-traits
+                - generic [ref=e332]:
+                  - generic [ref=e333]: 8. Traits
+                  - img [ref=e334]
+              - link "Publishing Packages" [ref=e336] [cursor=pointer]:
+                - /url: /atopile-0.14.x/guides/publish
+                - generic [ref=e337]:
+                  - generic [ref=e338]: Publishing Packages
+                  - img [ref=e339]
+            - generic [ref=e342]:
+              - textbox "Ask a question..." [ref=e343]
+              - generic: ⌘I
+              - button "Send message" [disabled] [ref=e344]:
+                - img [ref=e345]
+            - contentinfo [ref=e347]:
+              - generic [ref=e348]:
+                - link "youtube" [ref=e349] [cursor=pointer]:
+                  - /url: https://www.youtube.com/@atopile_io
+                  - generic [ref=e350]: youtube
+                  - img [ref=e351]
+                - link "x" [ref=e352] [cursor=pointer]:
+                  - /url: https://x.com/atopile_io
+                  - generic [ref=e353]: x
+                  - img [ref=e354]
+                - link "github" [ref=e355] [cursor=pointer]:
+                  - /url: https://github.com/atopile
+                  - generic [ref=e356]: github
+                  - img [ref=e357]
+                - link "linkedin" [ref=e358] [cursor=pointer]:
+                  - /url: https://linkedin.com/company/atopile
+                  - generic [ref=e359]: linkedin
+                  - img [ref=e360]
+              - link "Powered by This documentation is built and hosted on Mintlify, a developer documentation platform" [ref=e363] [cursor=pointer]:
+                - /url: https://www.mintlify.com?utm_campaign=poweredBy&utm_medium=referral&utm_source=atopile
+                - generic [ref=e364]: Powered by
+                - img [ref=e365]
+                - generic [ref=e374]: This documentation is built and hosted on Mintlify, a developer documentation platform
+  - alert [ref=e375]

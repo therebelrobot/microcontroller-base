@@ -1,0 +1,902 @@
+- generic [ref=e2]:
+  - region
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=e11]
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]:
+                  - text: Platform
+                  - img [ref=e21]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]:
+                  - text: Solutions
+                  - img [ref=e26]
+              - listitem [ref=e28]:
+                - button "Resources" [ref=e30] [cursor=pointer]:
+                  - text: Resources
+                  - img [ref=e31]
+              - listitem [ref=e33]:
+                - button "Open Source" [ref=e35] [cursor=pointer]:
+                  - text: Open Source
+                  - img [ref=e36]
+              - listitem [ref=e38]:
+                - button "Enterprise" [ref=e40] [cursor=pointer]:
+                  - text: Enterprise
+                  - img [ref=e41]
+              - listitem [ref=e43]:
+                - link "Pricing" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+                  - generic [ref=e45]: Pricing
+          - generic [ref=e46]:
+            - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+              - img [ref=e51]
+            - link "Sign in" [ref=e54] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2FSeeed-Studio%2Fwiki-documents%2Ffind%2Fdocusaurus-version
+            - link "Sign up" [ref=e55] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E%2Ftree%2Ffind&source=header-repo&source_repo=Seeed-Studio%2Fwiki-documents
+            - button "Appearance settings" [ref=e58] [cursor=pointer]:
+              - img
+  - main [ref=e62]:
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - generic [ref=e66]:
+          - img [ref=e67]
+          - link "Seeed-Studio" [ref=e70] [cursor=pointer]:
+            - /url: /Seeed-Studio
+          - generic [ref=e71]: /
+          - strong [ref=e72]:
+            - link "wiki-documents" [ref=e73] [cursor=pointer]:
+              - /url: /Seeed-Studio/wiki-documents
+          - generic [ref=e74]: Public
+        - generic [ref=e75]:
+          - list:
+            - listitem [ref=e76]:
+              - link "You must be signed in to change notification settings" [ref=e77] [cursor=pointer]:
+                - /url: /login?return_to=%2FSeeed-Studio%2Fwiki-documents
+                - img [ref=e78]
+                - text: Notifications
+            - listitem [ref=e80]:
+              - link "Fork 259" [ref=e81] [cursor=pointer]:
+                - /url: /login?return_to=%2FSeeed-Studio%2Fwiki-documents
+                - img [ref=e82]
+                - text: Fork
+                - generic "259" [ref=e84]
+            - listitem [ref=e85]:
+              - link "You must be signed in to star a repository" [ref=e87] [cursor=pointer]:
+                - /url: /login?return_to=%2FSeeed-Studio%2Fwiki-documents
+                - img [ref=e88]
+                - text: Star
+                - generic "290 users starred this repository" [ref=e90]: "290"
+      - navigation "Repository" [ref=e91]:
+        - list [ref=e92]:
+          - listitem [ref=e93]:
+            - link "Code" [ref=e94] [cursor=pointer]:
+              - /url: /Seeed-Studio/wiki-documents
+              - img [ref=e95]
+              - generic [ref=e97]: Code
+          - listitem [ref=e98]:
+            - link "Issues 57" [ref=e99] [cursor=pointer]:
+              - /url: /Seeed-Studio/wiki-documents/issues
+              - img [ref=e100]
+              - generic [ref=e103]: Issues
+              - generic "57" [ref=e104]
+          - listitem [ref=e105]:
+            - link "Pull requests 3" [ref=e106] [cursor=pointer]:
+              - /url: /Seeed-Studio/wiki-documents/pulls
+              - img [ref=e107]
+              - generic [ref=e109]: Pull requests
+              - generic "3" [ref=e110]
+          - listitem [ref=e111]:
+            - link "Discussions" [ref=e112] [cursor=pointer]:
+              - /url: /Seeed-Studio/wiki-documents/discussions
+              - img [ref=e113]
+              - generic [ref=e115]: Discussions
+          - listitem [ref=e116]:
+            - link "Actions" [ref=e117] [cursor=pointer]:
+              - /url: /Seeed-Studio/wiki-documents/actions
+              - img [ref=e118]
+              - generic [ref=e120]: Actions
+          - listitem [ref=e121]:
+            - link "Projects" [ref=e122] [cursor=pointer]:
+              - /url: /Seeed-Studio/wiki-documents/projects
+              - img [ref=e123]
+              - generic [ref=e125]: Projects
+          - listitem [ref=e126]:
+            - link "Security" [ref=e127] [cursor=pointer]:
+              - /url: /Seeed-Studio/wiki-documents/security
+              - img [ref=e128]
+              - generic [ref=e130]: Security
+          - listitem [ref=e131]:
+            - link "Insights" [ref=e132] [cursor=pointer]:
+              - /url: /Seeed-Studio/wiki-documents/pulse
+              - img [ref=e133]
+              - generic [ref=e135]: Insights
+    - generic [ref=e139]:
+      - generic [ref=e140]:
+        - generic [ref=e141]:
+          - link "wiki-documents" [ref=e143] [cursor=pointer]:
+            - /url: /Seeed-Studio/wiki-documents
+          - text: /
+        - combobox "The name of the file to navigate to." [expanded] [active] [ref=e144]: powerbread
+      - listbox [ref=e146]:
+        - option "sites/en/docs/Robotics/Robot_Kits/Lerobot/Sound_Follow_Robot_Powered_by_reSpeaker_and_Lekiwi.md" [selected] [ref=e544] [cursor=pointer]:
+          - img [ref=e545]
+          - img [ref=e547]
+          - generic [ref=e549]:
+            - text: sites/en/docs/Robotics/Robot_Kits/Lerobot/Sound_Follow_Robot_Powered_by_reS
+            - mark [ref=e550]: p
+            - text: eaker_and_Lekiwi.md
+        - option "sites/es/docs/Robotics/Robot_Kits/Lerobot/es_Sound_Follow_Robot_Powered_by_reSpeaker_and_Lekiwi.md" [ref=e551] [cursor=pointer]:
+          - img [ref=e552]
+          - img [ref=e554]
+          - generic [ref=e556]:
+            - text: sites/es/docs/Robotics/Robot_Kits/Lerobot/es_Sound_Follow_Robot_Powered_by_reS
+            - mark [ref=e557]: p
+            - text: eaker_and_Lekiwi.md
+        - option "sites/ja/docs/Robotics/Robot_Kits/Lerobot/ja_Sound_Follow_Robot_Powered_by_reSpeaker_and_Lekiwi.md" [ref=e558] [cursor=pointer]:
+          - img [ref=e559]
+          - img [ref=e561]
+          - generic [ref=e563]:
+            - text: sites/ja/docs/Robotics/Robot_Kits/Lerobot/ja_Sound_Follow_Robot_Powered_by_reS
+            - mark [ref=e564]: p
+            - text: eaker_and_Lekiwi.md
+        - option "sites/pt-BR/docs/Robotics/Robot_Kits/Lerobot/pt_Sound_Follow_Robot_Powered_by_reSpeaker_and_Lekiwi.md" [ref=e565] [cursor=pointer]:
+          - img [ref=e566]
+          - img [ref=e568]
+          - generic [ref=e570]:
+            - text: sites/
+            - mark [ref=e571]: p
+            - text: t-BR/d
+            - mark [ref=e572]: o
+            - text: cs/Robotics/Robot_Kits/Lerobot/pt_Sound_Follo
+            - mark [ref=e573]: w
+            - text: _Robot_Pow
+            - mark [ref=e574]: e
+            - mark [ref=e575]: r
+            - text: ed_
+            - mark [ref=e576]: b
+            - text: y_
+            - mark [ref=e577]: r
+            - mark [ref=e578]: e
+            - text: Spe
+            - mark [ref=e579]: a
+            - text: ker_an
+            - mark [ref=e580]: d
+            - text: _Lekiwi.md
+        - option "sites/zh-CN/docs/Robotics/Robot_Kits/Lerobot/cn_Sound_Follow_Robot_Powered_by_reSpeaker_and_Lekiwi.md" [ref=e581] [cursor=pointer]:
+          - img [ref=e582]
+          - img [ref=e584]
+          - generic [ref=e586]:
+            - text: sites/zh-CN/docs/Robotics/Robot_Kits/Lerobot/cn_Sound_Follow_Robot_Powered_by_reS
+            - mark [ref=e587]: p
+            - text: eaker_and_Lekiwi.md
+        - option "sites/pt-BR/docs/Sensor/Wio_Terminal/Tutorial/Wio_Terminal_USB_Client/pt_Wio-Terminal-Reading-Raspberry-Pi.md" [ref=e588] [cursor=pointer]:
+          - img [ref=e589]
+          - img [ref=e591]
+          - generic [ref=e593]:
+            - text: sites/
+            - mark [ref=e594]: p
+            - text: t-BR/d
+            - mark [ref=e595]: o
+            - text: cs/Sensor/Wio_Terminal/Tutorial/Wio_Terminal_USB_Client/pt_Wio-Terminal-Reading-Raspberry-Pi.md
+        - option "sites/pt-BR/docs/Sensor/Wio_Terminal/Extension_Board/pt_Wio_Terminal_LoRaWan_Chassis_with_Antenna-built-in_LoRa-E5_and_GNSS_EU868_US915.md" [ref=e596] [cursor=pointer]:
+          - img [ref=e597]
+          - img [ref=e599]
+          - generic [ref=e601]:
+            - text: sites/
+            - mark [ref=e602]: p
+            - text: t-BR/d
+            - mark [ref=e603]: o
+            - text: cs/Sensor/Wio_Terminal/Extension_Board/pt_Wio_Terminal_LoRaWan_Chassis_
+            - mark [ref=e604]: w
+            - text: ith_Ant
+            - mark [ref=e605]: e
+            - text: nna-built-in_LoRa-E5_and_GNSS_EU868_US915.md
+        - option "sites/pt-BR/docs/FAQ/wio_terminal/pt_Program_loss_by_repeated_power.md" [ref=e606] [cursor=pointer]:
+          - img [ref=e607]
+          - img [ref=e609]
+          - generic [ref=e611]:
+            - text: sites/
+            - mark [ref=e612]: p
+            - text: t-BR/d
+            - mark [ref=e613]: o
+            - text: cs/FAQ/
+            - mark [ref=e614]: w
+            - text: io_t
+            - mark [ref=e615]: e
+            - mark [ref=e616]: r
+            - text: minal/pt_Program_loss_
+            - mark [ref=e617]: b
+            - text: y_
+            - mark [ref=e618]: r
+            - mark [ref=e619]: e
+            - text: pe
+            - mark [ref=e620]: a
+            - text: te
+            - mark [ref=e621]: d
+            - text: _power.md
+        - option "sites/pt-BR/docs/Sensor/Wio_Series/Wio_RP2040/Wio_RP2040_mini_Dev_Board/Application/pt_Wireless-Fall-Detection-Device.md" [ref=e622] [cursor=pointer]:
+          - img [ref=e623]
+          - img [ref=e625]
+          - generic [ref=e627]:
+            - text: sites/
+            - mark [ref=e628]: p
+            - text: t-BR/d
+            - mark [ref=e629]: o
+            - text: cs/Sensor/Wio_Series/Wio_RP2040/Wio_RP2040_mini_Dev_Board/Application/pt_Wireless-Fall-Detection-Device.md
+        - option "sites/pt-BR/docs/Sensor/Wio_Terminal/Extension_Board/Audio_Extension_Board/pt_Wio-Terminal-Audio-GUI.md" [ref=e630] [cursor=pointer]:
+          - img [ref=e631]
+          - img [ref=e633]
+          - generic [ref=e635]:
+            - text: sites/
+            - mark [ref=e636]: p
+            - text: t-BR/d
+            - mark [ref=e637]: o
+            - text: cs/Sensor/Wio_Terminal/Extension_Board/Audio_Extension_Board/pt_Wio-Terminal-Audio-GUI.md
+        - option "sites/pt-BR/docs/Sensor/Wio_Terminal/Extension_Board/Audio_Extension_Board/pt_Wio-Terminal-Audio-Overview.md" [ref=e638] [cursor=pointer]:
+          - img [ref=e639]
+          - img [ref=e641]
+          - generic [ref=e643]:
+            - text: sites/
+            - mark [ref=e644]: p
+            - text: t-BR/d
+            - mark [ref=e645]: o
+            - text: cs/Sensor/Wio_Terminal/Extension_Board/Audio_Extension_Board/pt_Wio-Terminal-Audio-Overvie
+            - mark [ref=e646]: w
+            - text: .md
+        - option "sites/pt-BR/docs/Sensor/Wio_Series/Wio_RP2040/Wio_RP2040_mini_Dev_Board/Application/pt_Wireless-desktop-atmosphere-lamp.md" [ref=e647] [cursor=pointer]:
+          - img [ref=e648]
+          - img [ref=e650]
+          - generic [ref=e652]:
+            - text: sites/
+            - mark [ref=e653]: p
+            - text: t-BR/d
+            - mark [ref=e654]: o
+            - text: cs/Sensor/Wio_Series/Wio_RP2040/Wio_RP2040_mini_Dev_Board/Application/pt_Wireless-desktop-atmosphere-lamp.md
+        - option "sites/pt-BR/docs/Sensor/Wio_Terminal/Extension_Board/Audio_Extension_Board/pt_Wio-Terminal-Audio-Play-Record.md" [ref=e655] [cursor=pointer]:
+          - img [ref=e656]
+          - img [ref=e658]
+          - generic [ref=e660]:
+            - text: sites/
+            - mark [ref=e661]: p
+            - text: t-BR/d
+            - mark [ref=e662]: o
+            - text: cs/Sensor/Wio_Terminal/Extension_Board/Audio_Extension_Board/pt_Wio-Terminal-Audio-Play-Record.md
+        - option "sites/pt-BR/docs/Sensor/SenseCAP/SenseCAP_ONE_Weather_Station/SenseCAP_ONE_Compact_Weather_Station/pt_Benchmark_Labs_Forecast_Integration_for_Seeed_Weather_Stations.md" [ref=e663] [cursor=pointer]:
+          - img [ref=e664]
+          - img [ref=e666]
+          - generic [ref=e668]:
+            - text: sites/
+            - mark [ref=e669]: p
+            - text: t-BR/d
+            - mark [ref=e670]: o
+            - text: cs/Sensor/SenseCAP/SenseCAP_ONE_Weather_Station/SenseCAP_ONE_Compact_Weather_Station/pt_Benchmark_Labs_Forecast_Integration_for_Seeed_Weather_Stations.md
+        - option "sites/pt-BR/docs/Network/LoRa_Wio_Series/Wio_Tracker_1110_Dev_Board/pt_Configure_the_parameters.md" [ref=e671] [cursor=pointer]:
+          - img [ref=e672]
+          - img [ref=e674]
+          - generic [ref=e676]:
+            - text: sites/
+            - mark [ref=e677]: p
+            - text: t-BR/d
+            - mark [ref=e678]: o
+            - text: cs/Net
+            - mark [ref=e679]: w
+            - text: ork/LoRa_Wio_S
+            - mark [ref=e680]: e
+            - mark [ref=e681]: r
+            - text: ies/Wio_Tracker_1110_Dev_Board/pt_Configure_the_parameters.md
+        - option "sites/pt-BR/docs/Sensor/Wio_Terminal/Tutorial/pt_Barometric-Pressure-sensor-using-the-Wio-terminal.md" [ref=e682] [cursor=pointer]:
+          - img [ref=e683]
+          - img [ref=e685]
+          - generic [ref=e687]:
+            - text: sites/
+            - mark [ref=e688]: p
+            - text: t-BR/d
+            - mark [ref=e689]: o
+            - text: cs/Sensor/Wio_Terminal/Tutorial/pt_Barometric-Pressure-sensor-using-the-Wio-terminal.md
+        - option "sites/en/docs/Edge/Raspberry_Pi_Devices/Application/AIoT/UI_design/weather-dashboard-with-Grafana-reTerminal.md" [ref=e690] [cursor=pointer]:
+          - img [ref=e691]
+          - img [ref=e693]
+          - generic [ref=e695]:
+            - text: sites/en/docs/Edge/Ras
+            - mark [ref=e696]: p
+            - text: berry_Pi_Devices/Applicati
+            - mark [ref=e697]: o
+            - text: n/AIoT/UI_design/
+            - mark [ref=e698]: w
+            - mark [ref=e699]: e
+            - text: athe
+            - mark [ref=e700]: r
+            - text: "-dash"
+            - mark [ref=e701]: b
+            - text: oa
+            - mark [ref=e702]: r
+            - text: d-with-Grafana-r
+            - mark [ref=e703]: e
+            - text: Termin
+            - mark [ref=e704]: a
+            - text: l.m
+            - mark [ref=e705]: d
+        - option "sites/pt-BR/docs/Sensor/Wio_Terminal/Tutorial/Blynk_for_Wio_Terminal/pt_Blynk-wireless-OTA-functionality-to-Wio-Terminal.md" [ref=e706] [cursor=pointer]:
+          - img [ref=e707]
+          - img [ref=e709]
+          - generic [ref=e711]:
+            - text: sites/
+            - mark [ref=e712]: p
+            - text: t-BR/d
+            - mark [ref=e713]: o
+            - text: cs/Sensor/Wio_Terminal/Tutorial/Blynk_for_Wio_Terminal/pt_Blynk-
+            - mark [ref=e714]: w
+            - text: ir
+            - mark [ref=e715]: e
+            - text: less-OTA-functionality-to-Wio-Te
+            - mark [ref=e716]: r
+            - text: minal.md
+        - option "sites/pt-BR/docs/Network/LoRa_Wio_Series/Wio_Tracker_1110_Dev_Board/pt_change_antenna_path.md" [ref=e717] [cursor=pointer]:
+          - img [ref=e718]
+          - img [ref=e720]
+          - generic [ref=e722]:
+            - text: sites/
+            - mark [ref=e723]: p
+            - text: t-BR/d
+            - mark [ref=e724]: o
+            - text: cs/Net
+            - mark [ref=e725]: w
+            - text: ork/LoRa_Wio_S
+            - mark [ref=e726]: e
+            - mark [ref=e727]: r
+            - text: ies/Wio_Tracker_1110_Dev_Board/pt_change_antenna_path.md
+        - option "sites/es/docs/Edge/Raspberry_Pi_Devices/Application/AIoT/UI_design/es_weather-dashboard-with-Grafana-reTerminal.md" [ref=e728] [cursor=pointer]:
+          - img [ref=e729]
+          - img [ref=e731]
+          - generic [ref=e733]:
+            - text: sites/es/docs/Edge/Ras
+            - mark [ref=e734]: p
+            - text: berry_Pi_Devices/Applicati
+            - mark [ref=e735]: o
+            - text: n/AIoT/UI_design/es_
+            - mark [ref=e736]: w
+            - mark [ref=e737]: e
+            - text: athe
+            - mark [ref=e738]: r
+            - text: "-dash"
+            - mark [ref=e739]: b
+            - text: oa
+            - mark [ref=e740]: r
+            - text: d-with-Grafana-r
+            - mark [ref=e741]: e
+            - text: Termin
+            - mark [ref=e742]: a
+            - text: l.m
+            - mark [ref=e743]: d
+        - option "sites/ja/docs/Edge/Raspberry_Pi_Devices/Application/AIoT/UI_design/ja_weather-dashboard-with-Grafana-reTerminal.md" [ref=e744] [cursor=pointer]:
+          - img [ref=e745]
+          - img [ref=e747]
+          - generic [ref=e749]:
+            - text: sites/ja/docs/Edge/Ras
+            - mark [ref=e750]: p
+            - text: berry_Pi_Devices/Applicati
+            - mark [ref=e751]: o
+            - text: n/AIoT/UI_design/ja_
+            - mark [ref=e752]: w
+            - mark [ref=e753]: e
+            - text: athe
+            - mark [ref=e754]: r
+            - text: "-dash"
+            - mark [ref=e755]: b
+            - text: oa
+            - mark [ref=e756]: r
+            - text: d-with-Grafana-r
+            - mark [ref=e757]: e
+            - text: Termin
+            - mark [ref=e758]: a
+            - text: l.m
+            - mark [ref=e759]: d
+        - option "sites/pt-BR/docs/Sensor/Wio_Terminal/Extension_Board/pt_Wio-Terminal-Chassis-Battery_650mAh.md" [ref=e760] [cursor=pointer]:
+          - img [ref=e761]
+          - img [ref=e763]
+          - generic [ref=e765]:
+            - text: sites/
+            - mark [ref=e766]: p
+            - text: t-BR/d
+            - mark [ref=e767]: o
+            - text: cs/Sensor/Wio_Terminal/Extension_Board/pt_Wio-Terminal-Chassis-Battery_650mAh.md
+        - option "sites/pt-BR/docs/Network/LoRa_Wio_Series/Wio_Tracker_1110_Dev_Board/Development_Tutorial/pt_Development_Tutorial.md" [ref=e768] [cursor=pointer]:
+          - img [ref=e769]
+          - img [ref=e771]
+          - generic [ref=e773]:
+            - text: sites/
+            - mark [ref=e774]: p
+            - text: t-BR/d
+            - mark [ref=e775]: o
+            - text: cs/Net
+            - mark [ref=e776]: w
+            - text: ork/LoRa_Wio_S
+            - mark [ref=e777]: e
+            - mark [ref=e778]: r
+            - text: ies/Wio_Tracker_1110_Dev_Board/Development_Tutorial/pt_Development_Tutorial.md
+        - option "sites/pt-BR/docs/Edge/Raspberry_Pi_Devices/Application/AIoT/UI_design/pt_weather-dashboard-with-Grafana-reTerminal.md" [ref=e779] [cursor=pointer]:
+          - img [ref=e780]
+          - img [ref=e782]
+          - generic [ref=e784]:
+            - text: sites/
+            - mark [ref=e785]: p
+            - text: t-BR/d
+            - mark [ref=e786]: o
+            - text: cs/Edge/Raspberry_Pi_Devices/Application/AIoT/UI_design/pt_
+            - mark [ref=e787]: w
+            - mark [ref=e788]: e
+            - text: athe
+            - mark [ref=e789]: r
+            - text: "-dash"
+            - mark [ref=e790]: b
+            - text: oa
+            - mark [ref=e791]: r
+            - text: d-with-Grafana-r
+            - mark [ref=e792]: e
+            - text: Termin
+            - mark [ref=e793]: a
+            - text: l.m
+            - mark [ref=e794]: d
+        - option "sites/zh-CN/docs/Edge/Raspberry_Pi_Devices/Application/AIoT/UI_design/cn_weather-dashboard-with-Grafana-reTerminal.md" [ref=e795] [cursor=pointer]:
+          - img [ref=e796]
+          - img [ref=e798]
+          - generic [ref=e800]:
+            - text: sites/zh-CN/docs/Edge/Ras
+            - mark [ref=e801]: p
+            - text: berry_Pi_Devices/Applicati
+            - mark [ref=e802]: o
+            - text: n/AIoT/UI_design/cn_
+            - mark [ref=e803]: w
+            - mark [ref=e804]: e
+            - text: athe
+            - mark [ref=e805]: r
+            - text: "-dash"
+            - mark [ref=e806]: b
+            - text: oa
+            - mark [ref=e807]: r
+            - text: d-with-Grafana-r
+            - mark [ref=e808]: e
+            - text: Termin
+            - mark [ref=e809]: a
+            - text: l.m
+            - mark [ref=e810]: d
+        - option "sites/pt-BR/docs/Sensor/Wio_Series/Wio_RP2040/Wio_RP2040_mini_Dev_Board/pt_Wio_RP2040_mini_Dev_Board-Onboard_Wifi.md" [ref=e811] [cursor=pointer]:
+          - img [ref=e812]
+          - img [ref=e814]
+          - generic [ref=e816]:
+            - text: sites/
+            - mark [ref=e817]: p
+            - text: t-BR/d
+            - mark [ref=e818]: o
+            - text: cs/Sensor/Wio_Series/Wio_RP2040/Wio_RP2040_mini_Dev_Board/pt_Wio_RP2040_mini_Dev_Board-Onboard_Wifi.md
+        - option "sites/en/docs/Sensor/SenseCAP/SenseCAP_ONE_Weather_Station/SenseCAP_ONE_Compact_Weather_Station/Benchmark_Labs_Forecast_Integration_for_Seeed_Weather_Stations.md" [ref=e819] [cursor=pointer]:
+          - img [ref=e820]
+          - img [ref=e822]
+          - generic [ref=e824]:
+            - text: sites/en/docs/Sensor/SenseCAP/SenseCAP_ONE_Weather_Station/SenseCAP_ONE_Com
+            - mark [ref=e825]: p
+            - text: act_Weather_Stati
+            - mark [ref=e826]: o
+            - text: n/Benchmark_Labs_Forecast_Integration_for_Seeed_Weather_Stations.md
+        - option "sites/es/docs/Sensor/SenseCAP/SenseCAP_ONE_Weather_Station/SenseCAP_ONE_Compact_Weather_Station/es_Benchmark_Labs_Forecast_Integration_for_Seeed_Weather_Stations.md" [ref=e827] [cursor=pointer]:
+          - img [ref=e828]
+          - img [ref=e830]
+          - generic [ref=e832]:
+            - text: sites/es/docs/Sensor/SenseCAP/SenseCAP_ONE_Weather_Station/SenseCAP_ONE_Com
+            - mark [ref=e833]: p
+            - text: act_Weather_Stati
+            - mark [ref=e834]: o
+            - text: n/es_Benchmark_Labs_Forecast_Integration_for_Seeed_Weather_Stations.md
+        - option "sites/ja/docs/Sensor/SenseCAP/SenseCAP_ONE_Weather_Station/SenseCAP_ONE_Compact_Weather_Station/ja_Benchmark_Labs_Forecast_Integration_for_Seeed_Weather_Stations.md" [ref=e835] [cursor=pointer]:
+          - img [ref=e836]
+          - img [ref=e838]
+          - generic [ref=e840]:
+            - text: sites/ja/docs/Sensor/SenseCAP/SenseCAP_ONE_Weather_Station/SenseCAP_ONE_Com
+            - mark [ref=e841]: p
+            - text: act_Weather_Stati
+            - mark [ref=e842]: o
+            - text: n/ja_Benchmark_Labs_Forecast_Integration_for_Seeed_Weather_Stations.md
+        - option "sites/zh-CN/docs/Sensor/SenseCAP/SenseCAP_ONE_Weather_Station/SenseCAP_ONE_Compact_Weather_Station/cn_Benchmark_Labs_Forecast_Integration_for_Seeed_Weather_Stations.md" [ref=e843] [cursor=pointer]:
+          - img [ref=e844]
+          - img [ref=e846]
+          - generic [ref=e848]:
+            - text: sites/zh-CN/docs/Sensor/SenseCAP/SenseCAP_ONE_Weather_Station/SenseCAP_ONE_Com
+            - mark [ref=e849]: p
+            - text: act_Weather_Stati
+            - mark [ref=e850]: o
+            - text: n/cn_Benchmark_Labs_Forecast_Integration_for_Seeed_Weather_Stations.md
+        - option "sites/en/docs/Edge/Raspberry_Pi_Devices/Edge_Controller/Edge_Box_RPi_200/Hardware/Edgebox-rpi-200-boot-from-external-media.md" [ref=e851] [cursor=pointer]:
+          - img [ref=e852]
+          - img [ref=e854]
+          - generic [ref=e856]:
+            - text: sites/en/docs/Edge/Ras
+            - mark [ref=e857]: p
+            - text: berry_Pi_Devices/Edge_C
+            - mark [ref=e858]: o
+            - text: ntroller/Edge_Box_RPi_200/Hard
+            - mark [ref=e859]: w
+            - text: ar
+            - mark [ref=e860]: e
+            - text: /Edgebox-
+            - mark [ref=e861]: r
+            - text: pi-200-
+            - mark [ref=e862]: b
+            - text: oot-f
+            - mark [ref=e863]: r
+            - text: om-
+            - mark [ref=e864]: e
+            - text: xtern
+            - mark [ref=e865]: a
+            - text: l-me
+            - mark [ref=e866]: d
+            - text: ia.md
+        - option "sites/pt-BR/docs/Top_Brand/Arduino/Kit_with_Courses/Grove_Beginner_Kit_for_Arduino/pt_Grove-Beginner-Kit-for-Arduino-education-pack.md" [ref=e867] [cursor=pointer]:
+          - img [ref=e868]
+          - img [ref=e870]
+          - generic [ref=e872]:
+            - text: sites/
+            - mark [ref=e873]: p
+            - text: t-BR/d
+            - mark [ref=e874]: o
+            - text: cs/Top_Brand/Arduino/Kit_
+            - mark [ref=e875]: w
+            - text: ith_Cours
+            - mark [ref=e876]: e
+            - text: s/G
+            - mark [ref=e877]: r
+            - text: ove_Beginner_Kit_for_Arduino/pt_Grove-Beginner-Kit-for-Arduino-education-pack.md
+        - option "sites/es/docs/Edge/Raspberry_Pi_Devices/Edge_Controller/Edge_Box_RPi_200/Hardware/es_Edgebox-rpi-200-boot-from-external-media.md" [ref=e878] [cursor=pointer]:
+          - img [ref=e879]
+          - img [ref=e881]
+          - generic [ref=e883]:
+            - text: sites/es/docs/Edge/Ras
+            - mark [ref=e884]: p
+            - text: berry_Pi_Devices/Edge_C
+            - mark [ref=e885]: o
+            - text: ntroller/Edge_Box_RPi_200/Hard
+            - mark [ref=e886]: w
+            - text: ar
+            - mark [ref=e887]: e
+            - text: /es_Edgebox-
+            - mark [ref=e888]: r
+            - text: pi-200-
+            - mark [ref=e889]: b
+            - text: oot-f
+            - mark [ref=e890]: r
+            - text: om-
+            - mark [ref=e891]: e
+            - text: xtern
+            - mark [ref=e892]: a
+            - text: l-me
+            - mark [ref=e893]: d
+            - text: ia.md
+        - option "sites/ja/docs/Edge/Raspberry_Pi_Devices/Edge_Controller/Edge_Box_RPi_200/Hardware/ja_Edgebox-rpi-200-boot-from-external-media.md" [ref=e894] [cursor=pointer]:
+          - img [ref=e895]
+          - img [ref=e897]
+          - generic [ref=e899]:
+            - text: sites/ja/docs/Edge/Ras
+            - mark [ref=e900]: p
+            - text: berry_Pi_Devices/Edge_C
+            - mark [ref=e901]: o
+            - text: ntroller/Edge_Box_RPi_200/Hard
+            - mark [ref=e902]: w
+            - text: ar
+            - mark [ref=e903]: e
+            - text: /ja_Edgebox-
+            - mark [ref=e904]: r
+            - text: pi-200-
+            - mark [ref=e905]: b
+            - text: oot-f
+            - mark [ref=e906]: r
+            - text: om-
+            - mark [ref=e907]: e
+            - text: xtern
+            - mark [ref=e908]: a
+            - text: l-me
+            - mark [ref=e909]: d
+            - text: ia.md
+        - option "sites/pt-BR/docs/Edge/Raspberry_Pi_Devices/Edge_Controller/Edge_Box_RPi_200/Hardware/pt_Edgebox-rpi-200-boot-from-external-media.md" [ref=e910] [cursor=pointer]:
+          - img [ref=e911]
+          - img [ref=e913]
+          - generic [ref=e915]:
+            - text: sites/
+            - mark [ref=e916]: p
+            - text: t-BR/d
+            - mark [ref=e917]: o
+            - text: cs/Edge/Raspberry_Pi_Devices/Edge_Controller/Edge_Box_RPi_200/Hard
+            - mark [ref=e918]: w
+            - text: ar
+            - mark [ref=e919]: e
+            - text: /pt_Edgebox-
+            - mark [ref=e920]: r
+            - text: pi-200-
+            - mark [ref=e921]: b
+            - text: oot-f
+            - mark [ref=e922]: r
+            - text: om-
+            - mark [ref=e923]: e
+            - text: xtern
+            - mark [ref=e924]: a
+            - text: l-me
+            - mark [ref=e925]: d
+            - text: ia.md
+        - option "sites/zh-CN/docs/Edge/Raspberry_Pi_Devices/Edge_Controller/Edge_Box_RPi_200/Hardware/cn_Edgebox-rpi-200-boot-from-external-media.md" [ref=e926] [cursor=pointer]:
+          - img [ref=e927]
+          - img [ref=e929]
+          - generic [ref=e931]:
+            - text: sites/zh-CN/docs/Edge/Ras
+            - mark [ref=e932]: p
+            - text: berry_Pi_Devices/Edge_C
+            - mark [ref=e933]: o
+            - text: ntroller/Edge_Box_RPi_200/Hard
+            - mark [ref=e934]: w
+            - text: ar
+            - mark [ref=e935]: e
+            - text: /cn_Edgebox-
+            - mark [ref=e936]: r
+            - text: pi-200-
+            - mark [ref=e937]: b
+            - text: oot-f
+            - mark [ref=e938]: r
+            - text: om-
+            - mark [ref=e939]: e
+            - text: xtern
+            - mark [ref=e940]: a
+            - text: l-me
+            - mark [ref=e941]: d
+            - text: ia.md
+        - option "sites/pt-BR/docs/Sensor/Wio_Terminal/Hardware_Overview/Buzzer/pt_Wio-Terminal-Buzzer.md" [ref=e942] [cursor=pointer]:
+          - img [ref=e943]
+          - img [ref=e945]
+          - generic [ref=e947]:
+            - text: sites/
+            - mark [ref=e948]: p
+            - text: t-BR/d
+            - mark [ref=e949]: o
+            - text: cs/Sensor/Wio_Terminal/Hard
+            - mark [ref=e950]: w
+            - text: ar
+            - mark [ref=e951]: e
+            - text: _Ove
+            - mark [ref=e952]: r
+            - text: view/Buzzer/pt_Wio-Terminal-Buzzer.md
+        - option "sites/pt-BR/docs/Sensor/Wio_Terminal/Extension_Board/pt_Wio-Terminal-Ethernet.md" [ref=e953] [cursor=pointer]:
+          - img [ref=e954]
+          - img [ref=e956]
+          - generic [ref=e958]:
+            - text: sites/
+            - mark [ref=e959]: p
+            - text: t-BR/d
+            - mark [ref=e960]: o
+            - text: cs/Sensor/Wio_Terminal/Extension_Board/pt_Wio-Terminal-Ethernet.md
+        - option "sites/pt-BR/docs/Sensor/Wio_Terminal/Tutorial/Blynk_for_Wio_Terminal/pt_Wio-Terminal-Blynk.md" [ref=e961] [cursor=pointer]:
+          - img [ref=e962]
+          - img [ref=e964]
+          - generic [ref=e966]:
+            - text: sites/
+            - mark [ref=e967]: p
+            - text: t-BR/d
+            - mark [ref=e968]: o
+            - text: cs/Sensor/Wio_Terminal/Tutorial/Blynk_for_Wio_Terminal/pt_Wio-Terminal-Blynk.md
+        - option "sites/pt-BR/docs/Network/LoRa_Wio_Series/Wio_Tracker_1110_Dev_Board/pt_Get_Started.md" [ref=e969] [cursor=pointer]:
+          - img [ref=e970]
+          - img [ref=e972]
+          - generic [ref=e974]:
+            - text: sites/
+            - mark [ref=e975]: p
+            - text: t-BR/d
+            - mark [ref=e976]: o
+            - text: cs/Net
+            - mark [ref=e977]: w
+            - text: ork/LoRa_Wio_S
+            - mark [ref=e978]: e
+            - mark [ref=e979]: r
+            - text: ies/Wio_Tracker_1110_Dev_Board/pt_Get_Started.md
+        - option "sites/pt-BR/docs/Sensor/Wio_Terminal/Extension_Board/pt_Wio-Terminal-Battery-Chassis.md" [ref=e980] [cursor=pointer]:
+          - img [ref=e981]
+          - img [ref=e983]
+          - generic [ref=e985]:
+            - text: sites/
+            - mark [ref=e986]: p
+            - text: t-BR/d
+            - mark [ref=e987]: o
+            - text: cs/Sensor/Wio_Terminal/Extension_Board/pt_Wio-Terminal-Battery-Chassis.md
+        - option "sites/pt-BR/docs/Network/LoRa_Wio_Series/Wio_Tracker_1110_Dev_Board/pt_Connect_1110_to_HA.md" [ref=e988] [cursor=pointer]:
+          - img [ref=e989]
+          - img [ref=e991]
+          - generic [ref=e993]:
+            - text: sites/
+            - mark [ref=e994]: p
+            - text: t-BR/d
+            - mark [ref=e995]: o
+            - text: cs/Net
+            - mark [ref=e996]: w
+            - text: ork/LoRa_Wio_S
+            - mark [ref=e997]: e
+            - mark [ref=e998]: r
+            - text: ies/Wio_Tracker_1110_Dev_Board/pt_Connect_1110_to_HA.md
+        - option "sites/pt-BR/docs/Network/RaspberryPi_Devices/LTE_CAT_4_EG25_GL_4G_HAT_for_Raspberry_Pi/Applications/pt_getting_start_with_raspberry_pi_4g_hat_and_quectel_gnss.md" [ref=e999] [cursor=pointer]:
+          - img [ref=e1000]
+          - img [ref=e1002]
+          - generic [ref=e1004]:
+            - text: sites/
+            - mark [ref=e1005]: p
+            - text: t-BR/d
+            - mark [ref=e1006]: o
+            - text: cs/Net
+            - mark [ref=e1007]: w
+            - text: ork/Raspb
+            - mark [ref=e1008]: e
+            - mark [ref=e1009]: r
+            - text: ryPi_Devices/LTE_CAT_4_EG25_GL_4G_HAT_for_Rasp
+            - mark [ref=e1010]: b
+            - text: e
+            - mark [ref=e1011]: r
+            - text: ry_Pi/Applications/pt_g
+            - mark [ref=e1012]: e
+            - text: tting_st
+            - mark [ref=e1013]: a
+            - text: rt_with_raspberry_pi_4g_hat_an
+            - mark [ref=e1014]: d
+            - text: _quectel_gnss.md
+        - option "sites/pt-BR/docs/Network/LoRa_Wio_Series/Wio_Tracker_1110_Dev_Board/Development_Tutorial/pt_Setup_toolchain.md" [ref=e1015] [cursor=pointer]:
+          - img [ref=e1016]
+          - img [ref=e1018]
+          - generic [ref=e1020]:
+            - text: sites/
+            - mark [ref=e1021]: p
+            - text: t-BR/d
+            - mark [ref=e1022]: o
+            - text: cs/Net
+            - mark [ref=e1023]: w
+            - text: ork/LoRa_Wio_S
+            - mark [ref=e1024]: e
+            - mark [ref=e1025]: r
+            - text: ies/Wio_Tracker_1110_Dev_Board/Development_Tutorial/pt_Setup_toolchain.md
+        - option "sites/pt-BR/docs/Sensor/Wio_Terminal/Application/Embedded_ML/Projects_based_Edge_Impulse/pt_Wio-Terminal-TinyML-EI-1.md" [ref=e1026] [cursor=pointer]:
+          - img [ref=e1027]
+          - img [ref=e1029]
+          - generic [ref=e1031]:
+            - text: sites/
+            - mark [ref=e1032]: p
+            - text: t-BR/d
+            - mark [ref=e1033]: o
+            - text: cs/Sensor/Wio_Terminal/Application/Embedded_ML/Projects_based_Edge_Impulse/pt_Wio-Terminal-TinyML-EI-1.md
+        - option "sites/pt-BR/docs/Sensor/Wio_Terminal/Application/Embedded_ML/Projects_based_Edge_Impulse/pt_Wio-Terminal-TinyML-EI-2.md" [ref=e1034] [cursor=pointer]:
+          - img [ref=e1035]
+          - img [ref=e1037]
+          - generic [ref=e1039]:
+            - text: sites/
+            - mark [ref=e1040]: p
+            - text: t-BR/d
+            - mark [ref=e1041]: o
+            - text: cs/Sensor/Wio_Terminal/Application/Embedded_ML/Projects_based_Edge_Impulse/pt_Wio-Terminal-TinyML-EI-2.md
+        - option "sites/pt-BR/docs/Sensor/Wio_Terminal/Application/Embedded_ML/Projects_based_Edge_Impulse/pt_Wio-Terminal-TinyML-EI-3.md" [ref=e1042] [cursor=pointer]:
+          - img [ref=e1043]
+          - img [ref=e1045]
+          - generic [ref=e1047]:
+            - text: sites/
+            - mark [ref=e1048]: p
+            - text: t-BR/d
+            - mark [ref=e1049]: o
+            - text: cs/Sensor/Wio_Terminal/Application/Embedded_ML/Projects_based_Edge_Impulse/pt_Wio-Terminal-TinyML-EI-3.md
+        - option "sites/pt-BR/docs/Sensor/Wio_Terminal/Application/Embedded_ML/Projects_based_Edge_Impulse/pt_Wio-Terminal-TinyML-EI-4.md" [ref=e1050] [cursor=pointer]:
+          - img [ref=e1051]
+          - img [ref=e1053]
+          - generic [ref=e1055]:
+            - text: sites/
+            - mark [ref=e1056]: p
+            - text: t-BR/d
+            - mark [ref=e1057]: o
+            - text: cs/Sensor/Wio_Terminal/Application/Embedded_ML/Projects_based_Edge_Impulse/pt_Wio-Terminal-TinyML-EI-4.md
+        - option "sites/pt-BR/docs/Sensor/Wio_Terminal/Application/Embedded_ML/Projects_based_Edge_Impulse/pt_Wio-Terminal-TinyML-EI-5.md" [ref=e1058] [cursor=pointer]:
+          - img [ref=e1059]
+          - img [ref=e1061]
+          - generic [ref=e1063]:
+            - text: sites/
+            - mark [ref=e1064]: p
+            - text: t-BR/d
+            - mark [ref=e1065]: o
+            - text: cs/Sensor/Wio_Terminal/Application/Embedded_ML/Projects_based_Edge_Impulse/pt_Wio-Terminal-TinyML-EI-5.md
+        - option "sites/pt-BR/docs/Sensor/Wio_Terminal/Application/Embedded_ML/Projects_based_Edge_Impulse/pt_Wio-Terminal-TinyML-EI-6.md" [ref=e1066] [cursor=pointer]:
+          - img [ref=e1067]
+          - img [ref=e1069]
+          - generic [ref=e1071]:
+            - text: sites/
+            - mark [ref=e1072]: p
+            - text: t-BR/d
+            - mark [ref=e1073]: o
+            - text: cs/Sensor/Wio_Terminal/Application/Embedded_ML/Projects_based_Edge_Impulse/pt_Wio-Terminal-TinyML-EI-6.md
+        - option "sites/pt-BR/docs/Edge/reCamera/software_documents/pt_Real_time_YOLO_object_detection_using_reCamera_based_on_Cpp.md" [ref=e1074] [cursor=pointer]:
+          - img [ref=e1075]
+          - img [ref=e1077]
+          - generic [ref=e1079]:
+            - text: sites/
+            - mark [ref=e1080]: p
+            - text: t-BR/d
+            - mark [ref=e1081]: o
+            - text: cs/Edge/reCamera/soft
+            - mark [ref=e1082]: w
+            - text: ar
+            - mark [ref=e1083]: e
+            - text: _documents/pt_Real_time_YOLO_object_detection_using_
+            - mark [ref=e1084]: r
+            - text: eCamera_
+            - mark [ref=e1085]: b
+            - text: ased_on_Cpp.md
+        - option "sites/pt-BR/docs/Sensor/Wio_Terminal/Application/Embedded_ML/Projects_based_TensorFlow_Lite/pt_Wio-Terminal-TinyML-TFLM-1.md" [ref=e1086] [cursor=pointer]:
+          - img [ref=e1087]
+          - img [ref=e1089]
+          - generic [ref=e1091]:
+            - text: sites/
+            - mark [ref=e1092]: p
+            - text: t-BR/d
+            - mark [ref=e1093]: o
+            - text: cs/Sensor/Wio_Terminal/Application/Embedded_ML/Projects_based_TensorFlo
+            - mark [ref=e1094]: w
+            - text: _Lit
+            - mark [ref=e1095]: e
+            - text: /pt_Wio-Te
+            - mark [ref=e1096]: r
+            - text: minal-TinyML-TFLM-1.md
+        - option "sites/pt-BR/docs/Sensor/Wio_Terminal/Application/Embedded_ML/Projects_based_TensorFlow_Lite/pt_Wio-Terminal-TinyML-TFLM-2.md" [ref=e1097] [cursor=pointer]:
+          - img [ref=e1098]
+          - img [ref=e1100]
+          - generic [ref=e1102]:
+            - text: sites/
+            - mark [ref=e1103]: p
+            - text: t-BR/d
+            - mark [ref=e1104]: o
+            - text: cs/Sensor/Wio_Terminal/Application/Embedded_ML/Projects_based_TensorFlo
+            - mark [ref=e1105]: w
+            - text: _Lit
+            - mark [ref=e1106]: e
+            - text: /pt_Wio-Te
+            - mark [ref=e1107]: r
+            - text: minal-TinyML-TFLM-2.md
+  - contentinfo [ref=e147]:
+    - heading "Footer" [level=2] [ref=e148]
+    - generic [ref=e149]:
+      - generic [ref=e150]:
+        - link "GitHub Homepage" [ref=e151] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e152]
+        - generic [ref=e154]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e155]:
+        - heading "Footer navigation" [level=3] [ref=e156]
+        - list "Footer navigation" [ref=e157]:
+          - listitem [ref=e158]:
+            - link "Terms" [ref=e159] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e160]:
+            - link "Privacy" [ref=e161] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e162]:
+            - link "Security" [ref=e163] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e164]:
+            - link "Status" [ref=e165] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e166]:
+            - link "Community" [ref=e167] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e168]:
+            - link "Docs" [ref=e169] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e170]:
+            - link "Contact" [ref=e171] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e172]:
+            - button "Manage cookies" [ref=e174] [cursor=pointer]
+          - listitem [ref=e175]:
+            - button "Do not share my personal information" [ref=e177] [cursor=pointer]

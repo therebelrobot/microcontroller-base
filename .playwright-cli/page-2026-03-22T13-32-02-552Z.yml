@@ -1,0 +1,1622 @@
+- generic [ref=e2]:
+  - region "Skip to main content":
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#__docusaurus_skipToContent_fallback"
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - text: Collaborate with Seeed -
+      - link "Creator" [ref=e7] [cursor=pointer]:
+        - /url: https://www.seeedstudio.com/blog/affiliate-program/
+      - text: ","
+      - link "Ranger" [ref=e8] [cursor=pointer]:
+        - /url: https://www.seeedstudio.com/ranger-program/
+      - text: ", or"
+      - link "Contributor" [ref=e9] [cursor=pointer]:
+        - /url: https://wiki.seeedstudio.com/contributors/
+      - text: ", there is always a role ideal for you!"
+  - navigation "Main" [ref=e10]:
+    - generic [ref=e11]:
+      - generic [ref=e12]:
+        - link "Seeed Studio" [ref=e13] [cursor=pointer]:
+          - /url: /
+          - img "Seeed Studio" [ref=e15]
+        - button "Quick Links" [ref=e17] [cursor=pointer]
+        - button "Explore with Topics" [ref=e19] [cursor=pointer]
+        - button "FAQs" [ref=e21] [cursor=pointer]
+        - button "Get Involved" [ref=e23] [cursor=pointer]
+      - generic [ref=e24]:
+        - button "🇺🇸 English" [ref=e1454] [cursor=pointer]:
+          - generic [ref=e1455]: 🇺🇸
+          - generic [ref=e1456]: English
+        - link "Bazaar 🛍️" [ref=e25] [cursor=pointer]:
+          - /url: https://www.seeedstudio.com/
+        - link "SenseCraft AI" [ref=e26] [cursor=pointer]:
+          - /url: https://sensecraft.seeed.cc/ai/#/home
+        - link [ref=e27] [cursor=pointer]:
+          - /url: https://sensecraft.seeed.cc/ai/#/home
+        - link "GitHub repository" [ref=e28] [cursor=pointer]:
+          - /url: https://github.com/Seeed-Studio/wiki-documents
+        - button "Switch between dark and light mode (currently dark mode)" [ref=e30] [cursor=pointer]:
+          - img [ref=e31]
+        - button "Search" [ref=e34] [cursor=pointer]:
+          - generic [ref=e35]:
+            - img [ref=e36]
+            - generic [ref=e38]: Search
+          - generic [ref=e39]:
+            - generic [ref=e40]: ⌘
+            - generic [ref=e41]: K
+  - generic [ref=e44]:
+    - complementary [ref=e45]:
+      - generic [ref=e47]:
+        - navigation "Docs sidebar" [ref=e48]:
+          - list [ref=e49]:
+            - listitem [ref=e50]:
+              - link "Getting Started" [ref=e51] [cursor=pointer]:
+                - /url: /Getting_Started/
+            - listitem [ref=e52]:
+              - link "Weekly Wiki" [ref=e53] [cursor=pointer]:
+                - /url: /weekly_wiki/
+            - listitem [ref=e54]:
+              - link "Sensing" [ref=e55] [cursor=pointer]:
+                - /url: /Sensor_Network/
+            - listitem [ref=e56]:
+              - generic [ref=e57]:
+                - link "Grove" [ref=e58] [cursor=pointer]:
+                  - /url: /Grove_System/
+                - button "Expand sidebar category 'Grove'" [ref=e59] [cursor=pointer]
+            - listitem [ref=e60]:
+              - generic [ref=e61]:
+                - link "SenseCAP" [ref=e62] [cursor=pointer]:
+                  - /url: /SenseCAP_introduction/
+                - button "Expand sidebar category 'SenseCAP'" [ref=e63] [cursor=pointer]
+            - listitem [ref=e64]:
+              - generic [ref=e65]:
+                - link "SenseCAP Indicator" [ref=e66] [cursor=pointer]:
+                  - /url: /Sensor/SenseCAP/SenseCAP_Indicator/Get_started_with_SenseCAP_Indicator/
+                - button "Expand sidebar category 'SenseCAP Indicator'" [ref=e67] [cursor=pointer]
+            - listitem [ref=e68]:
+              - generic [ref=e69]:
+                - link "SenseCAP Watcher" [ref=e70] [cursor=pointer]:
+                  - /url: /watcher/
+                - button "Expand sidebar category 'SenseCAP Watcher'" [ref=e71] [cursor=pointer]
+            - listitem [ref=e72]:
+              - generic [ref=e73]:
+                - link "mmWave Radar Sensor" [ref=e74] [cursor=pointer]:
+                  - /url: /mmwave_radar_Intro/
+                - button "Expand sidebar category 'mmWave Radar Sensor'" [ref=e75] [cursor=pointer]
+            - listitem [ref=e76]:
+              - generic [ref=e77]:
+                - link "XIAO" [ref=e78] [cursor=pointer]:
+                  - /url: /SeeedStudio_XIAO_Series_Introduction/
+                - button "Collapse sidebar category 'XIAO'" [expanded] [ref=e79] [cursor=pointer]
+              - list [ref=e80]:
+                - listitem [ref=e81]:
+                  - link "Exhibition for XIAO Series" [ref=e82] [cursor=pointer]:
+                    - /url: /xiao_topic_page/
+                - listitem [ref=e83]:
+                  - button "XIAO SAMD21" [ref=e85] [cursor=pointer]
+                - listitem [ref=e86]:
+                  - button "XIAO RA4M1" [ref=e88] [cursor=pointer]
+                - listitem [ref=e89]:
+                  - button "XIAO MG24" [expanded] [ref=e91] [cursor=pointer]
+                  - list [ref=e92]:
+                    - listitem [ref=e93]:
+                      - link "Getting Started with Seeed Studio XIAO MG24" [ref=e94] [cursor=pointer]:
+                        - /url: /xiao_mg24_getting_started/
+                    - listitem [ref=e95]:
+                      - link "Pin Multiplexing with Seeed Studio XIAO MG24" [ref=e96] [cursor=pointer]:
+                        - /url: /xiao_mg24_pin_multiplexing/
+                    - listitem [ref=e97]:
+                      - link "Seeed Studio XIAO MG24 Example - Matter" [ref=e98] [cursor=pointer]:
+                        - /url: /xiao_mg24_matter/
+                    - listitem [ref=e99]:
+                      - link "Seeed Studio XIAO MG24 Sense built-in Sensor" [ref=e100] [cursor=pointer]:
+                        - /url: /xiao_mg24_sense_built_in_sensor/
+                    - listitem [ref=e101]:
+                      - link "Seeed Studio XIAO MG24 Connect HomeAssistant With Matter" [ref=e102] [cursor=pointer]:
+                        - /url: /xiao_mg24_ha_openthread/
+                    - listitem [ref=e103]:
+                      - link "Seeed Studio XIAO MG24 Bluetooth usage" [ref=e104] [cursor=pointer]:
+                        - /url: /xiao_mg24_bluetooth/
+                    - listitem [ref=e105]:
+                      - link "Seeed Studio XIAO MG24 Sense With MicroPython" [ref=e106] [cursor=pointer]:
+                        - /url: /xiao_mg24_sense_micropython/
+                    - listitem [ref=e107]:
+                      - link "XIAO MG24 with PlatformIO" [ref=e108] [cursor=pointer]:
+                        - /url: /xiao_mg24_with_platform_io/
+                - listitem [ref=e109]:
+                  - button "XIAO RP2040" [ref=e111] [cursor=pointer]
+                - listitem [ref=e112]:
+                  - button "XIAO RP2350" [ref=e114] [cursor=pointer]
+                - listitem [ref=e115]:
+                  - button "XIAO nRF52840 Series" [ref=e117] [cursor=pointer]
+                - listitem [ref=e118]:
+                  - button "XIAO nRF54L15 Series" [ref=e120] [cursor=pointer]
+                - listitem [ref=e121]:
+                  - button "XIAO ESP32C3" [ref=e123] [cursor=pointer]
+                - listitem [ref=e124]:
+                  - button "XIAO ESP32C5" [ref=e126] [cursor=pointer]
+                - listitem [ref=e127]:
+                  - button "XIAO ESP32C6" [ref=e129] [cursor=pointer]
+                - listitem [ref=e130]:
+                  - button "XIAO ESP32S3 Series" [ref=e132] [cursor=pointer]
+                - listitem [ref=e133]:
+                  - generic [ref=e134]:
+                    - link "XIAO Debug Mate" [ref=e135] [cursor=pointer]:
+                      - /url: /getting_started_with_xiao_debug_mate/
+                    - button "Expand sidebar category 'XIAO Debug Mate'" [ref=e136] [cursor=pointer]
+                - listitem [ref=e137]:
+                  - button "Expansion Boards for XIAO" [ref=e139] [cursor=pointer]
+                - listitem [ref=e140]:
+                  - button "XIAO + ESP-IDF + ESP-Matter" [ref=e142] [cursor=pointer]
+                - listitem [ref=e143]:
+                  - link "ESP-NOW on XIAO ESP32 Series" [ref=e144] [cursor=pointer]:
+                    - /url: /xiao_espnow/
+                - listitem [ref=e145]:
+                  - link "PCB Design for XIAO" [ref=e146] [cursor=pointer]:
+                    - /url: /PCB_Design_XIAO/
+                - listitem [ref=e147]:
+                  - button "Kit with Courses" [ref=e149] [cursor=pointer]
+                - listitem [ref=e150]:
+                  - link "FAQs for XIAO Series" [ref=e151] [cursor=pointer]:
+                    - /url: /XIAO_FAQ/
+            - listitem [ref=e152]:
+              - button "ePaper" [ref=e154] [cursor=pointer]
+            - listitem [ref=e155]:
+              - button "XIAO Gadgets" [ref=e157] [cursor=pointer]
+            - listitem [ref=e158]:
+              - generic [ref=e159]:
+                - link "Wio Terminal" [ref=e160] [cursor=pointer]:
+                  - /url: /Wio_Terminal_Intro/
+                - button "Expand sidebar category 'Wio Terminal'" [ref=e161] [cursor=pointer]
+            - listitem [ref=e162]:
+              - generic [ref=e163]:
+                - link "reSpeaker" [ref=e164] [cursor=pointer]:
+                  - /url: /respeaker/
+                - button "Expand sidebar category 'reSpeaker'" [ref=e165] [cursor=pointer]
+            - listitem [ref=e166]:
+              - button "Other Sensing Modules" [ref=e168] [cursor=pointer]
+            - listitem [ref=e169]:
+              - button "Other Microcontrollers" [ref=e171] [cursor=pointer]
+            - listitem [ref=e172]:
+              - link "Network" [ref=e173] [cursor=pointer]:
+                - /url: /Network/
+            - listitem [ref=e174]:
+              - generic [ref=e175]:
+                - link "Meshtastic Network" [ref=e176] [cursor=pointer]:
+                  - /url: /meshtastic_introduction/
+                - button "Expand sidebar category 'Meshtastic Network'" [ref=e177] [cursor=pointer]
+            - listitem [ref=e178]:
+              - button "LoRa Wio Series" [ref=e180] [cursor=pointer]
+            - listitem [ref=e181]:
+              - generic [ref=e182]:
+                - link "SenseCAP Gateway" [ref=e183] [cursor=pointer]:
+                  - /url: /Network/SenseCAP_Network/SenseCAP_Gateway_Intro/
+                - button "Expand sidebar category 'SenseCAP Gateway'" [ref=e184] [cursor=pointer]
+            - listitem [ref=e185]:
+              - generic [ref=e186]:
+                - link "SenseCAP K1100" [ref=e187] [cursor=pointer]:
+                  - /url: /SenseCAP_K1100_Intro/
+                - button "Expand sidebar category 'SenseCAP K1100'" [ref=e188] [cursor=pointer]
+            - listitem [ref=e189]:
+              - button "SenseCAP LoRaWAN Starter Kit" [ref=e191] [cursor=pointer]
+            - listitem [ref=e192]:
+              - button "Raspberry Pi Solutions" [ref=e194] [cursor=pointer]
+            - listitem [ref=e195]:
+              - generic [ref=e196]:
+                - link "Rockchip Solutions" [ref=e197] [cursor=pointer]:
+                  - /url: /Rockchip_network_solutions/
+                - button "Expand sidebar category 'Rockchip Solutions'" [ref=e198] [cursor=pointer]
+            - listitem [ref=e199]:
+              - button "Other Network Devices" [ref=e201] [cursor=pointer]
+            - listitem [ref=e202]:
+              - link "Edge Computing" [ref=e203] [cursor=pointer]:
+                - /url: /Edge_Computing/
+            - listitem [ref=e204]:
+              - button "RK Devices" [ref=e206] [cursor=pointer]
+            - listitem [ref=e207]:
+              - generic [ref=e208]:
+                - link "Raspberry Pi Devices" [ref=e209] [cursor=pointer]:
+                  - /url: /raspberry-pi-devices/
+                - button "Expand sidebar category 'Raspberry Pi Devices'" [ref=e210] [cursor=pointer]
+            - listitem [ref=e211]:
+              - generic [ref=e212]:
+                - link "NVIDIA® Jetson™" [ref=e213] [cursor=pointer]:
+                  - /url: /NVIDIA_Jetson/
+                - button "Expand sidebar category 'NVIDIA® Jetson™'" [ref=e214] [cursor=pointer]
+            - listitem [ref=e215]:
+              - button "ESP Devices" [ref=e217] [cursor=pointer]
+            - listitem [ref=e218]:
+              - generic [ref=e219]:
+                - link "BeagleBone®" [ref=e220] [cursor=pointer]:
+                  - /url: /BeagleBone/
+                - button "Expand sidebar category 'BeagleBone®'" [ref=e221] [cursor=pointer]
+            - listitem [ref=e222]:
+              - generic [ref=e223]:
+                - link "ODYSSEY" [ref=e224] [cursor=pointer]:
+                  - /url: /ODYSSEY_Intro/
+                - button "Expand sidebar category 'ODYSSEY'" [ref=e225] [cursor=pointer]
+            - listitem [ref=e226]:
+              - button "reCamera" [ref=e228] [cursor=pointer]
+            - listitem [ref=e229]:
+              - generic [ref=e230]:
+                - link "reTerminal E Series" [ref=e231] [cursor=pointer]:
+                  - /url: /reterminal_e10xx_main_page/
+                - button "Expand sidebar category 'reTerminal E Series'" [ref=e232] [cursor=pointer]
+            - listitem [ref=e233]:
+              - generic [ref=e234]:
+                - link "reTerminal D Series" [ref=e235] [cursor=pointer]:
+                  - /url: /reterminal_d10xx_main_page/
+                - button "Expand sidebar category 'reTerminal D Series'" [ref=e236] [cursor=pointer]
+            - listitem [ref=e237]:
+              - button "Other Edge Devices" [ref=e239] [cursor=pointer]
+            - listitem [ref=e240]:
+              - link "Robotics Page" [ref=e241] [cursor=pointer]:
+                - /url: /robotics_page/
+            - listitem [ref=e242]:
+              - button "Robot Kits" [ref=e244] [cursor=pointer]
+            - listitem [ref=e245]:
+              - button "Actuator" [ref=e247] [cursor=pointer]
+            - listitem [ref=e248]:
+              - button "Sensor" [ref=e250] [cursor=pointer]
+            - listitem [ref=e251]:
+              - button "Software" [ref=e253] [cursor=pointer]
+            - listitem [ref=e254]:
+              - link "SenseCraft & Cloud" [ref=e255] [cursor=pointer]:
+                - /url: /Cloud/
+            - listitem [ref=e256]:
+              - button "SenseCraft AI" [ref=e258] [cursor=pointer]
+            - listitem [ref=e259]:
+              - button "SenseCraft APP" [ref=e261] [cursor=pointer]
+            - listitem [ref=e262]:
+              - button "SenseCraft Data Platform" [ref=e264] [cursor=pointer]
+            - listitem [ref=e265]:
+              - generic [ref=e266]:
+                - link "SenseCraft HMI" [ref=e267] [cursor=pointer]:
+                  - /url: /sensecraft_hmi_overview/
+                - button "Expand sidebar category 'SenseCraft HMI'" [ref=e268] [cursor=pointer]
+            - listitem [ref=e269]:
+              - button "SenseCraft Blockchain" [ref=e271] [cursor=pointer]
+            - listitem [ref=e272]:
+              - link "Solutions" [ref=e273] [cursor=pointer]:
+                - /url: https://www.seeed.cc/category/solutions
+                - text: Solutions
+                - img [ref=e274]
+            - listitem [ref=e276]:
+              - generic [ref=e277]:
+                - link "AI Vision" [ref=e278] [cursor=pointer]:
+                  - /url: /ai-vision/
+                - button "Expand sidebar category 'AI Vision'" [ref=e279] [cursor=pointer]
+            - listitem [ref=e280]:
+              - generic [ref=e281]:
+                - link "AI Sound" [ref=e282] [cursor=pointer]:
+                  - /url: /ai-sound/
+                - button "Expand sidebar category 'AI Sound'" [ref=e283] [cursor=pointer]
+            - listitem [ref=e284]:
+              - button "AI Intelligent" [ref=e286] [cursor=pointer]
+            - listitem [ref=e287]:
+              - button "Device Integration & Control" [ref=e289] [cursor=pointer]
+            - listitem [ref=e290]:
+              - button "Environmental Monitoring" [ref=e292] [cursor=pointer]
+            - listitem [ref=e293]:
+              - generic [ref=e294]:
+                - link "Hazard Response" [ref=e295] [cursor=pointer]:
+                  - /url: /hazard-response/
+                - button "Expand sidebar category 'Hazard Response'" [ref=e296] [cursor=pointer]
+            - listitem [ref=e297]:
+              - button "Indoor-Outdoor Positioning" [ref=e299] [cursor=pointer]
+            - listitem [ref=e300]:
+              - link "Technology Topics" [ref=e301] [cursor=pointer]:
+                - /url: /topicintroduction/
+            - listitem [ref=e302]:
+              - generic [ref=e303]:
+                - link "Home Assistant" [ref=e304] [cursor=pointer]:
+                  - /url: /home_assistant_topic/
+                - button "Expand sidebar category 'Home Assistant'" [ref=e305] [cursor=pointer]
+            - listitem [ref=e306]:
+              - generic [ref=e307]:
+                - link "TinyML" [ref=e308] [cursor=pointer]:
+                  - /url: /tinyml_topic/
+                - button "Expand sidebar category 'TinyML'" [ref=e309] [cursor=pointer]
+            - listitem [ref=e310]:
+              - link "Open Source" [ref=e311] [cursor=pointer]:
+                - /url: /open_source_topic/
+            - listitem [ref=e312]:
+              - link "Edge AI" [ref=e313] [cursor=pointer]:
+                - /url: /edge_ai_topic/
+            - listitem [ref=e314]:
+              - link "Contributions" [ref=e315] [cursor=pointer]:
+                - /url: /Contributor/
+            - listitem [ref=e316]:
+              - generic [ref=e317]:
+                - link "Github Contributions Guide" [ref=e318] [cursor=pointer]:
+                  - /url: /Contribution-Guide/
+                - button "Expand sidebar category 'Github Contributions Guide'" [ref=e319] [cursor=pointer]
+            - listitem [ref=e320]:
+              - link "Scale up Your Creation with Seeed Studio Fusion" [ref=e321] [cursor=pointer]:
+                - /url: /Scale-up-Your-Creation-with-Fusion/
+            - listitem [ref=e322]:
+              - link "Popular Platforms" [ref=e323] [cursor=pointer]:
+                - /url: /popularplatforms/
+            - listitem [ref=e324]:
+              - generic [ref=e325]:
+                - link "Arduino" [ref=e326] [cursor=pointer]:
+                  - /url: /Arduino/
+                - button "Expand sidebar category 'Arduino'" [ref=e327] [cursor=pointer]
+            - listitem [ref=e328]:
+              - generic [ref=e329]:
+                - link "Raspberry Pi" [ref=e330] [cursor=pointer]:
+                  - /url: /Raspberry_Pi/
+                - button "Expand sidebar category 'Raspberry Pi'" [ref=e331] [cursor=pointer]
+            - listitem [ref=e332]:
+              - generic [ref=e333]:
+                - link "Micro:bit" [ref=e334] [cursor=pointer]:
+                  - /url: /microbit_wiki_page/
+                - button "Expand sidebar category 'Micro:bit'" [ref=e335] [cursor=pointer]
+            - listitem [ref=e336]:
+              - link "Discontinued Products" [ref=e337] [cursor=pointer]:
+                - /url: /discontinuedproducts/
+            - listitem [ref=e338]:
+              - button "Product List" [ref=e340] [cursor=pointer]
+            - listitem [ref=e341]:
+              - link "About Seeed" [ref=e342] [cursor=pointer]:
+                - /url: /About/
+            - listitem [ref=e343]:
+              - link "License" [ref=e344] [cursor=pointer]:
+                - /url: /License/
+        - button "Collapse sidebar" [ref=e345] [cursor=pointer]:
+          - img [ref=e346]
+    - main [ref=e350]:
+      - generic [ref=e352]:
+        - generic [ref=e353]:
+          - generic [ref=e354]:
+            - article [ref=e355]:
+              - navigation "Breadcrumbs" [ref=e356]:
+                - list [ref=e357]:
+                  - listitem [ref=e358]:
+                    - link "Home page" [ref=e359] [cursor=pointer]:
+                      - /url: /
+                      - img [ref=e360]
+                  - listitem [ref=e362]:
+                    - link "XIAO" [ref=e363] [cursor=pointer]:
+                      - /url: /SeeedStudio_XIAO_Series_Introduction/
+                  - listitem [ref=e364]:
+                    - generic [ref=e365]: XIAO MG24
+                  - listitem [ref=e366]:
+                    - generic [ref=e367]: Getting Started with Seeed Studio XIAO MG24
+              - generic [ref=e368]:
+                - img [ref=e370]
+                - heading "Getting Started with Seeed Studio XIAO MG24(Sense)" [level=1] [ref=e372]
+                - table [ref=e374]:
+                  - row "Seeed Studio XIAO MG24 Seeed Studio XIAO MG24 Sense" [ref=e375]:
+                    - columnheader "Seeed Studio XIAO MG24" [ref=e376]
+                    - columnheader "Seeed Studio XIAO MG24 Sense" [ref=e377]
+                  - row [ref=e378]:
+                    - cell [ref=e379]:
+                      - img [ref=e381]
+                    - cell [ref=e382]:
+                      - img [ref=e384]
+                  - row "Get One Now 🖱️ Get One Now 🖱️" [ref=e385]:
+                    - cell "Get One Now 🖱️" [ref=e386]:
+                      - link "Get One Now 🖱️" [ref=e388] [cursor=pointer]:
+                        - /url: https://www.seeedstudio.com/Seeed-Studio-XIAO-MG24-p-6247.html
+                        - strong [ref=e389]:
+                          - generic [ref=e390]: Get One Now 🖱️
+                    - cell "Get One Now 🖱️" [ref=e391]:
+                      - link "Get One Now 🖱️" [ref=e393] [cursor=pointer]:
+                        - /url: https://www.seeedstudio.com/Seeed-XIAO-MG24-Sense-p-6248.html
+                        - strong [ref=e394]:
+                          - generic [ref=e395]: Get One Now 🖱️
+                - heading "IntroductionDirect link to Introduction" [level=2] [ref=e396]:
+                  - text: Introduction
+                  - link "Direct link to Introduction" [ref=e397] [cursor=pointer]:
+                    - /url: "#introduction"
+                    - text: "#"
+                - paragraph [ref=e398]:
+                  - strong [ref=e399]: Seeed Studio XIAO MG24
+                  - text: is a mini development board based on Silicon Labs' MG24. XIAO MG24 is based on
+                  - strong [ref=e400]: ARM Cortex-M33 core
+                  - text: ","
+                  - strong [ref=e401]: 32-bit RISC
+                  - text: architecture with a maximum clock speed of 78MHz, supporting DSP instructions and FPU floating-point operations, possessing powerful computing power, and built-in
+                  - strong [ref=e402]: AL/ML hardware accelerator MVP
+                  - text: ", which can efficiently process AI/machine learning algorithms. Secondly, it has excellent RF performance, with a transmission"
+                  - strong [ref=e403]: power of up to+19.5 dBm
+                  - text: and a reception sensitivity as
+                  - strong [ref=e404]: low as -105.4 dBm
+                  - text: . It supports multiple IoT and wireless transmission protocols such as
+                  - strong [ref=e405]: Matter, Thread, Zigbee, Bluetooth LE 5.3,Bluetooth mesh
+                  - text: etc.
+                - heading "SpecificationDirect link to Specification" [level=3] [ref=e406]:
+                  - text: Specification
+                  - link "Direct link to Specification" [ref=e407] [cursor=pointer]:
+                    - /url: "#specification"
+                    - text: "#"
+                - table [ref=e408]:
+                  - row "Product XIAO MG24 XIAO MG24 Sense" [ref=e409]:
+                    - rowheader "Product" [ref=e410]
+                    - cell "XIAO MG24" [ref=e411]
+                    - cell "XIAO MG24 Sense" [ref=e412]:
+                      - link "XIAO MG24 Sense" [ref=e413] [cursor=pointer]:
+                        - /url: https://www.seeedstudio.com/Seeed-XIAO-MG24-Sense-p-6248.html
+                  - row "Processor Silicon Labs EFR32MG24 ARM Cortex-M33 @ 78MHz" [ref=e414]:
+                    - rowheader "Processor" [ref=e415]
+                    - cell "Silicon Labs EFR32MG24 ARM Cortex-M33 @ 78MHz" [ref=e416]:
+                      - text: Silicon Labs EFR32MG24
+                      - text: ARM Cortex-M33 @ 78MHz
+                  - row "RAM 256kB" [ref=e417]:
+                    - rowheader "RAM" [ref=e418]
+                    - cell "256kB" [ref=e419]
+                  - row "Flash 1536KB + 4MB Onboard" [ref=e420]:
+                    - rowheader "Flash" [ref=e421]
+                    - cell "1536KB + 4MB Onboard" [ref=e422]
+                  - row "LEDs 1x User LED 1x Power LED" [ref=e423]:
+                    - rowheader "LEDs" [ref=e424]
+                    - cell "1x User LED 1x Power LED" [ref=e425]:
+                      - text: 1x User LED
+                      - text: 1x Power LED
+                  - row "Sensors - 1x Onboard Analog Microphone 1x Onboard 6-Axis IMU" [ref=e426]:
+                    - rowheader "Sensors" [ref=e427]
+                    - cell "-" [ref=e428]
+                    - cell "1x Onboard Analog Microphone 1x Onboard 6-Axis IMU" [ref=e429]:
+                      - text: 1x Onboard Analog Microphone
+                      - text: 1x Onboard 6-Axis IMU
+                  - 'row "Interface 22 Pins (All PWM): 19x Analog 19x Digital 1x I²C 2x UART 2x SPI" [ref=e430]':
+                    - rowheader "Interface" [ref=e431]
+                    - 'cell "22 Pins (All PWM): 19x Analog 19x Digital 1x I²C 2x UART 2x SPI" [ref=e432]':
+                      - text: "22 Pins (All PWM):"
+                      - text: 19x Analog
+                      - text: 19x Digital
+                      - text: 1x I²C
+                      - text: 2x UART
+                      - text: 2x SPI
+                  - row "Button 1x RESET Button" [ref=e433]:
+                    - rowheader "Button" [ref=e434]
+                    - cell "1x RESET Button" [ref=e435]
+                  - row "Security Hardware Cryptographic Acceleration, True Random Number Generator, ARM® TrustZone®, Secure Boot, Secure Debug Unlock etc." [ref=e436]:
+                    - rowheader "Security" [ref=e437]
+                    - cell "Hardware Cryptographic Acceleration, True Random Number Generator, ARM® TrustZone®, Secure Boot, Secure Debug Unlock etc." [ref=e438]
+                  - row "Low Power (Typ.) 1.95μA" [ref=e439]:
+                    - rowheader "Low Power (Typ.)" [ref=e440]
+                    - cell "1.95μA" [ref=e441]
+                  - row "Normal (Typ.) 6.71mA" [ref=e442]:
+                    - rowheader "Normal (Typ.)" [ref=e443]
+                    - cell "6.71mA" [ref=e444]
+                  - row "Sleep (Typ.) 1.91mA" [ref=e445]:
+                    - rowheader "Sleep (Typ.)" [ref=e446]
+                    - cell "1.91mA" [ref=e447]
+                  - row "Software Compatibility Arduino IDE" [ref=e448]:
+                    - rowheader "Software Compatibility" [ref=e449]
+                    - cell "Arduino IDE" [ref=e450]
+                  - 'row "Supported Antenna MAX 2.4GHz Ceramic Antenna: 4.97dBi" [ref=e451]':
+                    - rowheader "Supported Antenna" [ref=e452]
+                    - 'cell "MAX 2.4GHz Ceramic Antenna: 4.97dBi" [ref=e453]'
+                  - row "Working Temperature -20°C~70°C" [ref=e454]:
+                    - rowheader "Working Temperature" [ref=e455]
+                    - cell "-20°C~70°C" [ref=e456]
+                  - row "Dimensions 21×17.8 mm" [ref=e457]:
+                    - rowheader "Dimensions" [ref=e458]
+                    - cell "21×17.8 mm" [ref=e459]
+                - heading "FeaturesDirect link to Features" [level=3] [ref=e460]:
+                  - text: Features
+                  - link "Direct link to Features" [ref=e461] [cursor=pointer]:
+                    - /url: "#features"
+                    - text: "#"
+                - list [ref=e462]:
+                  - listitem [ref=e463]:
+                    - strong [ref=e464]: Powerful CPU
+                    - text: :ARM Cortex-M33 core, with a maximum clock speed of 78MHz, supporting DSP instructions and FPU floating-point operations, 32-bit RISC architecture.
+                  - listitem [ref=e465]:
+                    - strong [ref=e466]: Ultra-Low Power
+                    - text: :RX current 4.6mA/TX current 5mA (0dBm), multiple low-power sleep modes
+                  - listitem [ref=e467]:
+                    - strong [ref=e468]: Powerful AI
+                    - text: :Built in AI/ML hardware accelerator MVP, capable of efficiently processing AI/machine learning algorithms.
+                  - listitem [ref=e469]:
+                    - strong [ref=e470]: Multi style wireless transmission
+                    - text: :Integrated 2.4GHz multi protocol wireless transceiver, supporting multiple IoT protocols such as Matter, OpenThread, Zigbee, Bluetooth LE 5.3, Bluetooth mesh, etc.
+                  - listitem [ref=e471]:
+                    - strong [ref=e472]: Better RF Performance
+                    - text: :Excellent RF performance, with a transmission power of up to+19.5 dBm and a reception sensitivity as low as -105.4 dBm (250kbps DSSS)
+                  - listitem [ref=e473]:
+                    - strong [ref=e474]: Powerful security
+                    - text: :Powerful security features of Secure Vault, including secure boot, encryption, random number generation, tamper proof, secure debugging, etc.
+                  - listitem [ref=e475]:
+                    - strong [ref=e476]: Ultra-small size
+                    - text: :21 x 17.8mm.
+                  - listitem [ref=e477]:
+                    - strong [ref=e478]: Rich on-chip resources
+                    - text: :Maximum 1536KB Flash and 256KB RAM, with ample storage space.
+                  - listitem [ref=e479]:
+                    - strong [ref=e480]: Rich interfaces
+                    - text: :Integrated with 12 bit 1Msps ADC, temperature sensor, analog comparator, DCDC and other rich peripherals, and up to 22 Pin, 2 USART, 2 low-power UART, 1 IIC and other interfaces.
+                - heading "Hardware overviewDirect link to Hardware overview" [level=2] [ref=e481]:
+                  - text: Hardware overview
+                  - link "Direct link to Hardware overview" [ref=e482] [cursor=pointer]:
+                    - /url: "#hardware-overview"
+                    - text: "#"
+                - table [ref=e483]:
+                  - row "XIAO MG24 Sense indication diagram" [ref=e484]:
+                    - columnheader "XIAO MG24 Sense indication diagram" [ref=e485]
+                  - row [ref=e486]:
+                    - cell [ref=e487]:
+                      - img [ref=e489]
+                  - row "XIAO MG24 indication diagram" [ref=e490]:
+                    - columnheader "XIAO MG24 indication diagram" [ref=e491]
+                  - row [ref=e492]:
+                    - cell [ref=e493]:
+                      - img [ref=e495]
+                  - row "XIAO MG24/ XIAO MG24(Sense) Pin List" [ref=e496]:
+                    - columnheader "XIAO MG24/ XIAO MG24(Sense) Pin List" [ref=e497]
+                  - row [ref=e498]:
+                    - cell [ref=e499]:
+                      - img [ref=e501]
+                - generic [ref=e502]:
+                  - generic [ref=e503]:
+                    - img [ref=e505]
+                    - text: tip
+                  - paragraph [ref=e508]: The difference between the two development boards is that MG24 Sense has a microphone sensor and a six axis acceleration sensor, while MG24 does not have one.
+                - list [ref=e509]:
+                  - listitem [ref=e510]: 5V - This is 5v out from the USB port. You can also use this as a voltage input but you must have some sort of diode (schottky, signal, power) between your external power source and this pin with anode to battery, cathode to 5V pin.
+                  - listitem [ref=e511]: 3V3 - This is the regulated output from the onboard regulator.
+                  - listitem [ref=e512]: GND - Power/data/signal ground
+                - heading "Pin MapDirect link to pin-map" [level=2] [ref=e513]:
+                  - strong [ref=e514]: Pin Map
+                  - link "Direct link to pin-map" [ref=e515] [cursor=pointer]:
+                    - /url: "#pin-map"
+                    - text: "#"
+                - table [ref=e516]:
+                  - rowgroup [ref=e517]:
+                    - row "XIAO Pin Function Chip Pin Alternate Functions Description" [ref=e518]:
+                      - columnheader "XIAO Pin" [ref=e519]
+                      - columnheader "Function" [ref=e520]
+                      - columnheader "Chip Pin" [ref=e521]
+                      - columnheader "Alternate Functions" [ref=e522]
+                      - columnheader "Description" [ref=e523]
+                  - rowgroup [ref=e524]:
+                    - row "5V VBUS Power Input/Output" [ref=e525]:
+                      - cell "5V" [ref=e526]
+                      - cell "VBUS" [ref=e527]
+                      - cell [ref=e528]
+                      - cell [ref=e529]
+                      - cell "Power Input/Output" [ref=e530]
+                    - row "GND" [ref=e531]:
+                      - cell "GND" [ref=e532]
+                      - cell [ref=e533]
+                      - cell [ref=e534]
+                      - cell [ref=e535]
+                      - cell [ref=e536]
+                    - row "3V3 3V3_OUT Power Output" [ref=e537]:
+                      - cell "3V3" [ref=e538]
+                      - cell "3V3_OUT" [ref=e539]
+                      - cell [ref=e540]
+                      - cell [ref=e541]
+                      - cell "Power Output" [ref=e542]
+                    - row "D0 Analog PC00 GPIO, ADC" [ref=e543]:
+                      - cell "D0" [ref=e544]
+                      - cell "Analog" [ref=e545]
+                      - cell "PC00" [ref=e546]
+                      - cell [ref=e547]
+                      - cell "GPIO, ADC" [ref=e548]
+                    - row "D1 Analog PC01 GPIO, ADC" [ref=e549]:
+                      - cell "D1" [ref=e550]
+                      - cell "Analog" [ref=e551]
+                      - cell "PC01" [ref=e552]
+                      - cell [ref=e553]
+                      - cell "GPIO, ADC" [ref=e554]
+                    - row "D2 Analog PC02 GPIO, ADC" [ref=e555]:
+                      - cell "D2" [ref=e556]
+                      - cell "Analog" [ref=e557]
+                      - cell "PC02" [ref=e558]
+                      - cell [ref=e559]
+                      - cell "GPIO, ADC" [ref=e560]
+                    - row "D3 Analog PC03 GPIO, SPI, ADC" [ref=e561]:
+                      - cell "D3" [ref=e562]
+                      - cell "Analog" [ref=e563]
+                      - cell "PC03" [ref=e564]
+                      - cell [ref=e565]
+                      - cell "GPIO, SPI, ADC" [ref=e566]
+                    - row "D4 Analog,SDA PC04 GPIO, I2C Data, ADC" [ref=e567]:
+                      - cell "D4" [ref=e568]
+                      - cell "Analog,SDA" [ref=e569]
+                      - cell "PC04" [ref=e570]
+                      - cell [ref=e571]
+                      - cell "GPIO, I2C Data, ADC" [ref=e572]
+                    - row "D5 Analog,SCL PC05 GPIO, I2C Clock, ADC" [ref=e573]:
+                      - cell "D5" [ref=e574]
+                      - cell "Analog,SCL" [ref=e575]
+                      - cell "PC05" [ref=e576]
+                      - cell [ref=e577]
+                      - cell "GPIO, I2C Clock, ADC" [ref=e578]
+                    - row "D6 Analog,TX0 PC06 GPIO, UART Transmit, ADC" [ref=e579]:
+                      - cell "D6" [ref=e580]
+                      - cell "Analog,TX0" [ref=e581]
+                      - cell "PC06" [ref=e582]
+                      - cell [ref=e583]
+                      - cell "GPIO, UART Transmit, ADC" [ref=e584]
+                    - row "D7 Analog,RX0 PC07 GPIO, UART Receive, ADC" [ref=e585]:
+                      - cell "D7" [ref=e586]
+                      - cell "Analog,RX0" [ref=e587]
+                      - cell "PC07" [ref=e588]
+                      - cell [ref=e589]
+                      - cell "GPIO, UART Receive, ADC" [ref=e590]
+                    - row "D8 Analog,SCK0 PA03 GPIO, SPI Clock, ADC" [ref=e591]:
+                      - cell "D8" [ref=e592]
+                      - cell "Analog,SCK0" [ref=e593]
+                      - cell "PA03" [ref=e594]
+                      - cell [ref=e595]
+                      - cell "GPIO, SPI Clock, ADC" [ref=e596]
+                    - row "D9 Analog,MISO0 PA04 GPIO, SPI Data, ADC" [ref=e597]:
+                      - cell "D9" [ref=e598]
+                      - cell "Analog,MISO0" [ref=e599]
+                      - cell "PA04" [ref=e600]
+                      - cell [ref=e601]
+                      - cell "GPIO, SPI Data, ADC" [ref=e602]
+                    - row "D10 Analog,MOSI0 PA05 GPIO, SPI Data, ADC" [ref=e603]:
+                      - cell "D10" [ref=e604]
+                      - cell "Analog,MOSI0" [ref=e605]
+                      - cell "PA05" [ref=e606]
+                      - cell [ref=e607]
+                      - cell "GPIO, SPI Data, ADC" [ref=e608]
+                    - row "D11 Analog PA09 SAMD11_TX GPIO, UART Receive, ADC" [ref=e609]:
+                      - cell "D11" [ref=e610]
+                      - cell "Analog" [ref=e611]
+                      - cell "PA09" [ref=e612]
+                      - cell "SAMD11_TX" [ref=e613]
+                      - cell "GPIO, UART Receive, ADC" [ref=e614]
+                    - row "D12 Analog PA08 SAMD11_RX GPIO, UART Transmit, ADC" [ref=e615]:
+                      - cell "D12" [ref=e616]
+                      - cell "Analog" [ref=e617]
+                      - cell "PA08" [ref=e618]
+                      - cell "SAMD11_RX" [ref=e619]
+                      - cell "GPIO, UART Transmit, ADC" [ref=e620]
+                    - row "D13 Analog PB02 GPIO, I2C Clock, ADC" [ref=e621]:
+                      - cell "D13" [ref=e622]
+                      - cell "Analog" [ref=e623]
+                      - cell "PB02" [ref=e624]
+                      - cell [ref=e625]
+                      - cell "GPIO, I2C Clock, ADC" [ref=e626]
+                    - row "D14 Analog PB03 GPIO, I2C Data, ADC" [ref=e627]:
+                      - cell "D14" [ref=e628]
+                      - cell "Analog" [ref=e629]
+                      - cell "PB03" [ref=e630]
+                      - cell [ref=e631]
+                      - cell "GPIO, I2C Data, ADC" [ref=e632]
+                    - row "D15 Analog,MOSI1 PB00 GPIO, SPI Data, ADC" [ref=e633]:
+                      - cell "D15" [ref=e634]
+                      - cell "Analog,MOSI1" [ref=e635]
+                      - cell "PB00" [ref=e636]
+                      - cell [ref=e637]
+                      - cell "GPIO, SPI Data, ADC" [ref=e638]
+                    - row "D16 Analog,MISO1 PB01 GPIO, SPI Data, ADC" [ref=e639]:
+                      - cell "D16" [ref=e640]
+                      - cell "Analog,MISO1" [ref=e641]
+                      - cell "PB01" [ref=e642]
+                      - cell [ref=e643]
+                      - cell "GPIO, SPI Data, ADC" [ref=e644]
+                    - row "D17 Analog,SCK1 PA00 GPIO, SPI Clock, ADC" [ref=e645]:
+                      - cell "D17" [ref=e646]
+                      - cell "Analog,SCK1" [ref=e647]
+                      - cell "PA00" [ref=e648]
+                      - cell [ref=e649]
+                      - cell "GPIO, SPI Clock, ADC" [ref=e650]
+                    - row "D18 Analog,CS PD02 Csn GPIO, Csn, ADC" [ref=e651]:
+                      - cell "D18" [ref=e652]
+                      - cell "Analog,CS" [ref=e653]
+                      - cell "PD02" [ref=e654]
+                      - cell "Csn" [ref=e655]
+                      - cell "GPIO, Csn, ADC" [ref=e656]
+                    - row "ADC_BAT PD04 Read the BAT voltage value" [ref=e657]:
+                      - cell "ADC_BAT" [ref=e658]
+                      - cell [ref=e659]
+                      - cell "PD04" [ref=e660]
+                      - cell [ref=e661]
+                      - cell "Read the BAT voltage value" [ref=e662]
+                    - row "RF Switch Port Select PB04 Switch onboard antenna and the UFL antenna" [ref=e663]:
+                      - cell "RF Switch Port Select" [ref=e664]
+                      - cell [ref=e665]
+                      - cell "PB04" [ref=e666]
+                      - cell [ref=e667]
+                      - cell "Switch onboard antenna and the UFL antenna" [ref=e668]
+                    - row "RF Switch Power PB05 RF Power" [ref=e669]:
+                      - cell "RF Switch Power" [ref=e670]
+                      - cell [ref=e671]
+                      - cell "PB05" [ref=e672]
+                      - cell [ref=e673]
+                      - cell "RF Power" [ref=e674]
+                    - row "Reset RESET RESET" [ref=e675]:
+                      - cell "Reset" [ref=e676]
+                      - cell [ref=e677]
+                      - cell "RESET" [ref=e678]
+                      - cell [ref=e679]
+                      - cell "RESET" [ref=e680]
+                    - row "CHARGE_LED VBUS CHG-LED_Red" [ref=e681]:
+                      - cell "CHARGE_LED" [ref=e682]
+                      - cell [ref=e683]
+                      - cell "VBUS" [ref=e684]
+                      - cell [ref=e685]
+                      - cell "CHG-LED_Red" [ref=e686]
+                    - row "USER_LED PA07 User Light_Yellow" [ref=e687]:
+                      - cell "USER_LED" [ref=e688]
+                      - cell [ref=e689]
+                      - cell "PA07" [ref=e690]
+                      - cell [ref=e691]
+                      - cell "User Light_Yellow" [ref=e692]
+                - heading "Getting startedDirect link to Getting started" [level=2] [ref=e693]:
+                  - text: Getting started
+                  - link "Direct link to Getting started" [ref=e694] [cursor=pointer]:
+                    - /url: "#getting-started"
+                    - text: "#"
+                - paragraph [ref=e695]: To enable you to get started with the XIAO MG24 faster, please read the hardware and software preparation below to prepare the XIAO.
+                - heading "Factory procedureDirect link to Factory procedure" [level=3] [ref=e696]:
+                  - text: Factory procedure
+                  - link "Direct link to Factory procedure" [ref=e697] [cursor=pointer]:
+                    - /url: "#factory-procedure"
+                    - text: "#"
+                - paragraph [ref=e698]: We pre-program each new XIAO MG24 and XIAO MG24 Sense with a simple factory program.
+                - list [ref=e699]:
+                  - listitem [ref=e700]:
+                    - strong [ref=e701]: XIAO MG24
+                - paragraph [ref=e702]: The factory program preset in the regular version is Blink Light. When you power up the XIAO,the orange user indicator will light up.
+                - img [ref=e704]
+                - list [ref=e705]:
+                  - listitem [ref=e706]:
+                    - strong [ref=e707]: XIAO MG24 Sense
+                - paragraph [ref=e708]: The factory program preset in the regular version is The louder you shout, the brighter the light will be.
+                - img [ref=e710]
+                - heading "Hardware PreparationDirect link to Hardware Preparation" [level=3] [ref=e711]:
+                  - text: Hardware Preparation
+                  - link "Direct link to Hardware Preparation" [ref=e712] [cursor=pointer]:
+                    - /url: "#hardware-preparation"
+                    - text: "#"
+                - paragraph [ref=e713]: "You need to prepare the following:"
+                - list [ref=e714]:
+                  - listitem [ref=e715]:
+                    - text: 1 x
+                    - link "Seeed Studio XIAO MG24" [ref=e716] [cursor=pointer]:
+                      - /url: https://www.seeedstudio.com/Seeed-Studio-XIAO-MG24-p-6247.html
+                  - listitem [ref=e717]: 1 x Computer
+                  - listitem [ref=e718]: 1 x USB Type-C cable
+                - generic [ref=e719]:
+                  - generic [ref=e720]:
+                    - img [ref=e722]
+                    - text: tip
+                  - paragraph [ref=e725]:
+                    - text: Some USB cables can only supply power and cannot transfer data. If you don't have a USB cable or don't know if your USB cable can transmit data, you can check
+                    - link "Seeed USB Type-C support USB 3.1" [ref=e726] [cursor=pointer]:
+                      - /url: https://www.seeedstudio.com/USB-3-1-Type-C-to-A-Cable-1-Meter-3-1A-p-4085.html
+                    - text: .
+                - heading "Software PreparationDirect link to Software Preparation" [level=3] [ref=e727]:
+                  - text: Software Preparation
+                  - link "Direct link to Software Preparation" [ref=e728] [cursor=pointer]:
+                    - /url: "#software-preparation"
+                    - text: "#"
+                - paragraph [ref=e729]: The recommended programming tool for the XIAO MG24 is the Arduino IDE, so you need to complete the Arduino installation as part of the software preparation.
+                - generic [ref=e730]:
+                  - generic [ref=e731]:
+                    - img [ref=e733]
+                    - text: tip
+                  - paragraph [ref=e736]:
+                    - text: If this is your first time using Arduino, we highly recommend you to refer to
+                    - link "Getting Started with Arduino" [ref=e737] [cursor=pointer]:
+                      - /url: https://wiki.seeedstudio.com/Getting_Started_with_Arduino/
+                    - text: .
+                - list [ref=e738]:
+                  - listitem [ref=e739]:
+                    - strong [ref=e740]: Step 1.
+                    - text: Download and Install the stable version of Arduino IDE according to your operating system.
+                - link "Download Arduino IDE" [ref=e742] [cursor=pointer]:
+                  - /url: https://www.arduino.cc/en/software
+                  - strong [ref=e743]:
+                    - generic [ref=e744]: Download Arduino IDE
+                - list [ref=e745]:
+                  - listitem [ref=e746]:
+                    - strong [ref=e747]: Step 2.
+                    - text: Launch the Arduino application.
+                  - listitem [ref=e748]:
+                    - strong [ref=e749]:
+                      - link "Step 3" [ref=e750] [cursor=pointer]:
+                        - /url: "#add-board"
+                      - text: .
+                    - text: Add the XIAO MG24 on-board package to the Arduino IDE and click
+                    - code [ref=e751]: OK
+                    - text: .
+                  - listitem [ref=e752]:
+                    - strong [ref=e753]: Step 4.
+                    - text: Close the Arduino IDE and reopen it.
+                - heading "Add the XIAO MG24 BoardDirect link to Add the XIAO MG24 Board" [level=4] [ref=e754]:
+                  - text: Add the XIAO MG24 Board
+                  - link "Direct link to Add the XIAO MG24 Board" [ref=e755] [cursor=pointer]:
+                    - /url: "#add-board"
+                    - text: "#"
+                - paragraph [ref=e756]: "To install the XIAO MG24 board, follow these steps:"
+                - generic [ref=e758]:
+                  - code [ref=e760]:
+                    - generic [ref=e761]: https://siliconlabs.github.io/arduino/package_arduinosilabs_index.json
+                  - button "Copy code to clipboard" [ref=e763] [cursor=pointer]:
+                    - generic [ref=e764]:
+                      - img [ref=e765]
+                      - img [ref=e767]
+                - list [ref=e769]:
+                  - listitem [ref=e770]: Add the above board manager URL to the preferences of your Arduino IDE.
+                - img [ref=e772]
+                - list [ref=e773]:
+                  - listitem [ref=e774]: Download the XIAO MG24 board package.
+                - img [ref=e776]
+                - generic [ref=e777]:
+                  - generic [ref=e778]:
+                    - img [ref=e780]
+                    - text: tip
+                  - paragraph [ref=e783]: If you cannot find it after entering, please reopen the Arduino IDE.
+                - list [ref=e784]:
+                  - listitem [ref=e785]:
+                    - text: Opt for
+                    - code [ref=e786]: XIAO_MG24
+                    - text: variant.
+                - img [ref=e788]
+                - paragraph [ref=e789]: Now enjoy coding ✨.
+                - heading "Run your first Blink programDirect link to Run your first Blink program" [level=4] [ref=e790]:
+                  - text: Run your first Blink program
+                  - link "Direct link to Run your first Blink program" [ref=e791] [cursor=pointer]:
+                    - /url: "#run-your-first-blink-program"
+                    - text: "#"
+                - list [ref=e792]:
+                  - listitem [ref=e793]:
+                    - paragraph [ref=e794]:
+                      - strong [ref=e795]: Step 1.
+                      - text: Launch the Arduino application.
+                  - listitem [ref=e796]:
+                    - paragraph [ref=e797]:
+                      - strong [ref=e798]: Step 2.
+                      - text: Navigate to
+                      - strong [ref=e799]: File > Examples > 01.Basics > Blink
+                      - text: ", open the program."
+                - img [ref=e801]
+                - list [ref=e802]:
+                  - listitem [ref=e803]:
+                    - strong [ref=e804]: Step 3.
+                    - text: Select the board model to
+                    - strong [ref=e805]: XIAO MG24
+                    - text: ", and select the correct port number to upload the program."
+                - img [ref=e807]
+                - paragraph [ref=e808]: Once the program is successfully uploaded, you will see the following output message and you can observe that the orange LED on the right side of the XIAO MG24 is blinking.
+                - table [ref=e810]:
+                  - row "MG24 BLink Code LED BLink DisPlay" [ref=e811]:
+                    - columnheader "MG24 BLink Code" [ref=e812]
+                    - columnheader "LED BLink DisPlay" [ref=e813]
+                  - row [ref=e814]:
+                    - cell [ref=e815]:
+                      - img [ref=e817]
+                    - cell [ref=e818]:
+                      - img [ref=e820]
+                - heading "Battery UsageDirect link to Battery Usage" [level=2] [ref=e821]:
+                  - text: Battery Usage
+                  - link "Direct link to Battery Usage" [ref=e822] [cursor=pointer]:
+                    - /url: "#battery-usage"
+                    - text: "#"
+                - paragraph [ref=e823]: The XIAO MG24 has a built-in power management chip that allows the XIAO MG24 to be powered independently by using a battery or to charge the battery through the XIAO MG24's USB port.
+                - paragraph [ref=e824]: If you want to connect the battery for XIAO, we recommend you to purchase qualified rechargeable 3.7V lithium battery. When soldering the battery, please be careful to distinguish between the positive and negative terminals. The negative terminal of the power supply should be the side closest to the USB port, and the positive terminal of the power supply is the side away from the USB port.
+                - img "pir" [ref=e826]
+                - generic [ref=e827]:
+                  - generic [ref=e828]:
+                    - img [ref=e830]
+                    - text: caution
+                  - paragraph [ref=e833]: Please be careful not to short-circuit the positive and negative terminals and burn the battery and equipment when soldering.
+                - paragraph [ref=e834]:
+                  - strong [ref=e835]: "Instructions on the use of batteries:"
+                - list [ref=e836]:
+                  - listitem [ref=e837]: Please use qualified batteries that meet the specifications.
+                  - listitem [ref=e838]: XIAO can be connected to your computer device via data cable while using the battery, rest assured that XIAO has a built-in circuit protection chip, which is safe.
+                  - listitem [ref=e839]: The XIAO MG24 will not have any LED on when it is battery powered (unless you have written a specific program), please do not judge whether the XIAO MG24 is working or not by the condition of the LED, please judge it reasonably by your program.
+                  - listitem [ref=e840]: Sorry, we currently have no way to help you check the remaining battery level through software (because there are no more chip pins available), you need to charge the battery regularly or use a multimeter to check the battery level.
+                - paragraph [ref=e841]: At the same time, we designed a red indicator light for battery charging, through the indicator light display to inform the user of the current state of the battery in the charge.
+                - list [ref=e842]:
+                  - listitem [ref=e843]: When XIAO MG24 is not connected to the battery, the red light comes on when the Type-C cable is connected and goes off after 30 seconds.
+                  - listitem [ref=e844]: The red light flashes when the battery is connected and the Type-C cable is connected for charging.
+                  - listitem [ref=e845]: When connecting Type-C to charge the battery fully, the red light turns off.
+                - img [ref=e847]
+                - heading "Reading Battery VoltageDirect link to Reading Battery Voltage" [level=2] [ref=e848]:
+                  - text: Reading Battery Voltage
+                  - link "Direct link to Reading Battery Voltage" [ref=e849] [cursor=pointer]:
+                    - /url: "#reading-battery-voltage"
+                    - text: "#"
+                - paragraph [ref=e850]:
+                  - strong [ref=e851]: Software code
+                - generic [ref=e853]:
+                  - code [ref=e855]:
+                    - generic [ref=e856]: /*
+                    - generic [ref=e857]: AnalogReadSerial
+                    - generic [ref=e858]: Reads an analog input on pin 0, prints the result to the Serial Monitor.
+                    - generic [ref=e859]: Graphical representation is available using Serial Plotter (Tools > Serial Plotter menu).
+                    - generic [ref=e860]: Attach the center pin of a potentiometer to pin A0, and the outside pins to +5V and ground.
+                    - generic [ref=e861]: This example code is in the public domain.
+                    - generic [ref=e862]: https://www.arduino.cc/en/Tutorial/BuiltInExamples/AnalogReadSerial
+                    - generic [ref=e863]: "*/"
+                    - generic [ref=e864]: "// the setup routine runs once when you press reset:"
+                    - generic [ref=e865]: "void setup() {"
+                    - generic [ref=e866]: Serial.begin(115200);
+                    - generic [ref=e867]: pinMode(PD3, OUTPUT);
+                    - generic [ref=e868]: digitalWrite(PD3, HIGH);
+                    - generic [ref=e869]: "}"
+                    - generic [ref=e870]: "void loop() {"
+                    - generic [ref=e871]: int voltageValue = analogRead(PD4);
+                    - generic [ref=e872]: float voltage = voltageValue * (2 * 3.3 / 4095.0);
+                    - generic [ref=e874]: "Serial.print(\"Voltage: \");"
+                    - generic [ref=e875]: Serial.print(voltage, 2);
+                    - generic [ref=e876]: Serial.println(" V");
+                    - generic [ref=e877]: delay(1000); // delay in between reads for stability
+                    - generic [ref=e878]: "}"
+                  - generic [ref=e879]:
+                    - button "Toggle word wrap" [ref=e880] [cursor=pointer]:
+                      - img [ref=e881]
+                    - button "Copy code to clipboard" [ref=e883] [cursor=pointer]:
+                      - generic [ref=e884]:
+                        - img [ref=e885]
+                        - img [ref=e887]
+                - paragraph [ref=e889]:
+                  - strong [ref=e890]: Display Result
+                - img "pir" [ref=e892]
+                - heading "Deep Sleep and Sleep ExampleDirect link to Deep Sleep and Sleep Example" [level=2] [ref=e893]:
+                  - text: Deep Sleep and Sleep Example
+                  - link "Direct link to Deep Sleep and Sleep Example" [ref=e894] [cursor=pointer]:
+                    - /url: "#deep-sleep-and-sleep-example"
+                    - text: "#"
+                - 'heading "Demo1 : Sleep Mode and wake-upDirect link to Demo1 : Sleep Mode and wake-up" [level=4] [ref=e895]':
+                  - text: "Demo1 : Sleep Mode and wake-up"
+                  - 'link "Direct link to Demo1 : Sleep Mode and wake-up" [ref=e896] [cursor=pointer]':
+                    - /url: "#demo1--sleep-mode-and-wake-up"
+                    - text: "#"
+                - generic [ref=e898]:
+                  - code [ref=e900]:
+                    - generic [ref=e901]: /*
+                    - generic [ref=e902]: ArduinoLowPower timed sleep example
+                    - generic [ref=e903]: The example shows the basic usage of the Arduino Low Power library by putting the device to sleep for a period of time.
+                    - generic [ref=e904]: The device will enter sleep mode for 2000ms. During sleep the CPU is stopped but the RAM retains its contents.
+                    - generic [ref=e905]: This example is compatible with all Silicon Labs Arduino boards.
+                    - generic [ref=e906]: "Author: Tamas Jozsi (Silicon Labs)"
+                    - generic [ref=e907]: "*/"
+                    - generic [ref=e908]: "#include \"ArduinoLowPower.h\""
+                    - generic [ref=e909]: void setup()
+                    - generic [ref=e910]: "{"
+                    - generic [ref=e911]: Serial.begin(115200);
+                    - generic [ref=e912]: pinMode(LED_BUILTIN, OUTPUT);
+                    - generic [ref=e913]: digitalWrite(LED_BUILTIN, LED_BUILTIN_INACTIVE);
+                    - generic [ref=e914]: Serial.println("Sleep with timed wakeup");
+                    - generic [ref=e915]: "}"
+                    - generic [ref=e916]: void loop()
+                    - generic [ref=e917]: "{"
+                    - generic [ref=e918]: digitalWrite(LED_BUILTIN, LED_BUILTIN_ACTIVE);
+                    - generic [ref=e919]: delay(500);
+                    - generic [ref=e920]: digitalWrite(LED_BUILTIN, LED_BUILTIN_INACTIVE);
+                    - generic [ref=e921]: delay(500);
+                    - generic [ref=e922]: Serial.printf("Going to sleep at %lu\n", millis());
+                    - generic [ref=e923]: LowPower.sleep(2000);
+                    - generic [ref=e924]: Serial.printf("Woke up at %lu\n", millis());
+                    - generic [ref=e925]: "}"
+                  - generic [ref=e926]:
+                    - button "Toggle word wrap" [ref=e927] [cursor=pointer]:
+                      - img [ref=e928]
+                    - button "Copy code to clipboard" [ref=e930] [cursor=pointer]:
+                      - generic [ref=e931]:
+                        - img [ref=e932]
+                        - img [ref=e934]
+                - 'heading "Demo2 : Deep Sleep Mode and wake-upDirect link to Demo2 : Deep Sleep Mode and wake-up" [level=4] [ref=e936]':
+                  - text: "Demo2 : Deep Sleep Mode and wake-up"
+                  - 'link "Direct link to Demo2 : Deep Sleep Mode and wake-up" [ref=e937] [cursor=pointer]':
+                    - /url: "#demo2--deep-sleep-mode-and-wake-up"
+                    - text: "#"
+                - generic [ref=e939]:
+                  - code [ref=e941]:
+                    - generic [ref=e942]: /*
+                    - generic [ref=e943]: ArduinoLowPower deep sleep example with external or timed wakeup
+                    - generic [ref=e944]: The example shows the basic usage of the Arduino Low Power library by putting the device into deep sleep.
+                    - generic [ref=e945]: The device will remain in deep sleep until the sleep timer expires.
+                    - generic [ref=e946]: During deep sleep the whole device is powered down except for a minimal set of peripherals (like the Back-up RAM and RTC).
+                    - generic [ref=e947]: This means that the CPU is stopped and the RAM contents are lost - the device will start from the beginning of the sketch after waking up.
+                    - generic [ref=e948]: This example is compatible with all Silicon Labs Arduino boards.
+                    - generic [ref=e949]: "Author: Tamas Jozsi (Silicon Labs)"
+                    - generic [ref=e950]: "*/"
+                    - generic [ref=e951]: "#include \"ArduinoLowPower.h\""
+                    - generic [ref=e952]: void setup()
+                    - generic [ref=e953]: "{"
+                    - generic [ref=e954]: Serial.begin(115200);
+                    - generic [ref=e955]: pinMode(LED_BUILTIN, OUTPUT);
+                    - generic [ref=e956]: digitalWrite(LED_BUILTIN, LED_BUILTIN_INACTIVE);
+                    - generic [ref=e957]: Serial.println("Deep sleep timed wakeup");
+                    - generic [ref=e958]: "}"
+                    - generic [ref=e959]: void loop()
+                    - generic [ref=e960]: "{"
+                    - generic [ref=e961]: digitalWrite(LED_BUILTIN, LED_BUILTIN_ACTIVE);
+                    - generic [ref=e962]: delay(500);
+                    - generic [ref=e963]: digitalWrite(LED_BUILTIN, LED_BUILTIN_INACTIVE);
+                    - generic [ref=e964]: delay(500);
+                    - generic [ref=e965]: Serial.printf("Going to deep sleep for 10s at %lu\n", millis());
+                    - generic [ref=e966]: LowPower.deepSleep(10000);
+                    - generic [ref=e967]: "}"
+                  - generic [ref=e968]:
+                    - button "Toggle word wrap" [ref=e969] [cursor=pointer]:
+                      - img [ref=e970]
+                    - button "Copy code to clipboard" [ref=e972] [cursor=pointer]:
+                      - generic [ref=e973]:
+                        - img [ref=e974]
+                        - img [ref=e976]
+                - 'heading "Demo3 : Deep Sleep Mode with flash and wake-upDirect link to Demo3 : Deep Sleep Mode with flash and wake-up" [level=4] [ref=e978]':
+                  - text: "Demo3 : Deep Sleep Mode with flash and wake-up"
+                  - 'link "Direct link to Demo3 : Deep Sleep Mode with flash and wake-up" [ref=e979] [cursor=pointer]':
+                    - /url: "#demo3--deep-sleep-mode-with-flash-and-wake-up"
+                    - text: "#"
+                - generic [ref=e980]:
+                  - generic [ref=e981]:
+                    - img [ref=e983]
+                    - text: tip
+                  - paragraph [ref=e986]: If you want to set flash to deep sleep, you need to enable the 0xb9 register
+                - generic [ref=e988]:
+                  - code [ref=e990]:
+                    - generic [ref=e991]: /*
+                    - generic [ref=e992]: ArduinoLowPower deep sleep example with external or timed wakeup
+                    - generic [ref=e993]: The example shows the basic usage of the Arduino Low Power library by putting the device into deep sleep.
+                    - generic [ref=e994]: The device will remain in deep sleep until the sleep timer expires.
+                    - generic [ref=e995]: During deep sleep the whole device is powered down except for a minimal set of peripherals (like the Back-up RAM and RTC).
+                    - generic [ref=e996]: This means that the CPU is stopped and the RAM contents are lost - the device will start from the beginning of the sketch after waking up.
+                    - generic [ref=e997]: This example is compatible with all Silicon Labs Arduino boards.
+                    - generic [ref=e998]: "Author: Tamas Jozsi (Silicon Labs)"
+                    - generic [ref=e999]: "*/"
+                    - generic [ref=e1000]: "#include <Arduino.h>"
+                    - generic [ref=e1001]: "#include \"ArduinoLowPower.h\""
+                    - generic [ref=e1002]: "#define CS_PIN PA6"
+                    - generic [ref=e1003]: "#define CLK_PIN PA3"
+                    - generic [ref=e1004]: "#define MOSI_PIN PA5"
+                    - generic [ref=e1005]: "#define MISO_PIN PA4"
+                    - generic [ref=e1006]: "#define READ_DATA 0x03"
+                    - generic [ref=e1007]: "#define WRITE_ENABLE 0x06"
+                    - generic [ref=e1008]: "#define PAGE_PROGRAM 0x02"
+                    - generic [ref=e1009]: "#define SECTOR_ERASE 0x20"
+                    - generic [ref=e1010]: "void sendSPI(byte data) {"
+                    - generic [ref=e1011]: "for (int i = 0; i < 8; i++) {"
+                    - generic [ref=e1012]: digitalWrite(MOSI_PIN, data & 0x80);
+                    - generic [ref=e1013]: data <<= 1;
+                    - generic [ref=e1014]: digitalWrite(CLK_PIN, HIGH);
+                    - generic [ref=e1015]: delayMicroseconds(1);
+                    - generic [ref=e1016]: digitalWrite(CLK_PIN, LOW);
+                    - generic [ref=e1017]: delayMicroseconds(1);
+                    - generic [ref=e1018]: "}"
+                    - generic [ref=e1019]: "}"
+                    - generic [ref=e1020]: "void writeEnable() {"
+                    - generic [ref=e1021]: digitalWrite(CS_PIN, LOW);
+                    - generic [ref=e1022]: sendSPI(WRITE_ENABLE);
+                    - generic [ref=e1023]: digitalWrite(CS_PIN, HIGH);
+                    - generic [ref=e1024]: "}"
+                    - generic [ref=e1025]: void setup()
+                    - generic [ref=e1026]: "{"
+                    - generic [ref=e1027]: //Serial.begin(115200);
+                    - generic [ref=e1028]: pinMode(PA7, OUTPUT);
+                    - generic [ref=e1029]: digitalWrite(PA7, LOW);
+                    - generic [ref=e1030]: pinMode(CS_PIN, OUTPUT);
+                    - generic [ref=e1031]: pinMode(CLK_PIN, OUTPUT);
+                    - generic [ref=e1032]: pinMode(MOSI_PIN, OUTPUT);
+                    - generic [ref=e1033]: pinMode(MISO_PIN, INPUT);
+                    - generic [ref=e1034]: //SW
+                    - generic [ref=e1035]: pinMode(PD3, OUTPUT);
+                    - generic [ref=e1036]: pinMode(PB5, OUTPUT);
+                    - generic [ref=e1037]: pinMode(PB1, OUTPUT);
+                    - generic [ref=e1038]: pinMode(PB0, OUTPUT);
+                    - generic [ref=e1039]: pinMode(PA6, OUTPUT);
+                    - generic [ref=e1040]: digitalWrite(PD3, LOW); //VBAT
+                    - generic [ref=e1041]: digitalWrite(PB5, LOW); //RF_SW
+                    - generic [ref=e1042]: digitalWrite(PB1, LOW); //IMU
+                    - generic [ref=e1043]: digitalWrite(PB0, LOW); //MIC
+                    - generic [ref=e1044]: digitalWrite(PA6, HIGH); //FLASH
+                    - generic [ref=e1045]: //Serial.println("Deep sleep timed wakeup");
+                    - generic [ref=e1046]: writeEnable();
+                    - generic [ref=e1047]: digitalWrite(CS_PIN, LOW);
+                    - generic [ref=e1048]: sendSPI(0xB9);
+                    - generic [ref=e1049]: digitalWrite(CS_PIN, HIGH);
+                    - generic [ref=e1050]: "}"
+                    - generic [ref=e1051]: void loop()
+                    - generic [ref=e1052]: "{"
+                    - generic [ref=e1053]: delay(12000);
+                    - generic [ref=e1054]: digitalWrite(PA7, HIGH);
+                    - generic [ref=e1055]: delay(500);
+                    - generic [ref=e1056]: //Serial.printf("Going to deep sleep for 10s at %lu\n", millis());
+                    - generic [ref=e1057]: LowPower.deepSleep(600000);
+                    - generic [ref=e1058]: "}"
+                  - generic [ref=e1059]:
+                    - button "Toggle word wrap" [ref=e1060] [cursor=pointer]:
+                      - img [ref=e1061]
+                    - button "Copy code to clipboard" [ref=e1063] [cursor=pointer]:
+                      - generic [ref=e1064]:
+                        - img [ref=e1065]
+                        - img [ref=e1067]
+                - img [ref=e1070]
+                - heading "Preventing XIAO MG24 from Bricking During Deep SleepDirect link to Preventing XIAO MG24 from Bricking During Deep Sleep" [level=3] [ref=e1071]:
+                  - text: Preventing XIAO MG24 from Bricking During Deep Sleep
+                  - link "Direct link to Preventing XIAO MG24 from Bricking During Deep Sleep" [ref=e1072] [cursor=pointer]:
+                    - /url: "#preventing-xiao-mg24-from-bricking-during-deep-sleep"
+                    - text: "#"
+                - paragraph [ref=e1073]:
+                  - text: The
+                  - strong [ref=e1074]: XIAO MG24
+                  - text: is a powerful microcontroller board from Seeed Studio, but users have reported issues where the device becomes unresponsive ("bricked") after entering Deep Sleep mode. This tutorial explains the cause of the problem, provides a detailed recovery method, and offers preventive measures to avoid bricking your XIAO MG24.
+                - paragraph [ref=e1075]:
+                  - text: The XIAO MG24 enters a
+                  - strong [ref=e1076]: Deep Sleep mode
+                  - text: (EM4) to conserve power, but in some cases, it fails to wake up properly, preventing new sketches from being uploaded. Unlike other XIAO boards, the MG24 does not have a dedicated
+                  - strong [ref=e1077]: BOOT button
+                  - text: or a documented method to enter boot mode, making recovery challenging.
+                - heading "Preventive MeasuresDirect link to Preventive Measures" [level=4] [ref=e1078]:
+                  - text: Preventive Measures
+                  - link "Direct link to Preventive Measures" [ref=e1079] [cursor=pointer]:
+                    - /url: "#preventive-measures"
+                    - text: "#"
+                - paragraph [ref=e1080]: "To avoid bricking your XIAO MG24 while using Deep Sleep mode, follow these steps:"
+                - list [ref=e1081]:
+                  - listitem [ref=e1082]: Use the Escape Pin (PC1)
+                - paragraph [ref=e1083]:
+                  - text: The XIAO MG24 has a built-in
+                  - strong [ref=e1084]: escape mechanism
+                  - text: to prevent bricking. If
+                  - strong [ref=e1085]: PC1
+                  - text: is pulled
+                  - strong [ref=e1086]: LOW
+                  - text: during reset, the device enters an infinite loop, allowing you to upload a new sketch.
+                - list [ref=e1087]:
+                  - listitem [ref=e1088]:
+                    - text: Connect
+                    - strong [ref=e1089]: PC1
+                    - text: to
+                    - strong [ref=e1090]: GND
+                    - text: before resetting the device.
+                  - listitem [ref=e1091]: After resetting, upload your sketch while the device is in the loop.
+                - list [ref=e1092]:
+                  - listitem [ref=e1093]: "Modify Your Sketch Add the following code to your sketch to detect a user switch and enter an infinite loop if pressed. This allows you to upload a new sketch while the device is looping:"
+                - generic [ref=e1095]:
+                  - code [ref=e1097]:
+                    - generic [ref=e1098]: "#define USER_SW PC3 // Example pin for user switch"
+                    - generic [ref=e1099]: "void setup() {"
+                    - generic [ref=e1100]: // Other setup code...
+                    - generic [ref=e1101]: pinMode(USER_SW, INPUT_PULLUP);
+                    - generic [ref=e1102]: "if (digitalRead(USER_SW) == LOW) {"
+                    - generic [ref=e1103]: Serial.println("Enable to upload new sketch");
+                    - generic [ref=e1104]: "while (true) {"
+                    - generic [ref=e1105]: digitalWrite(LED_BUILTIN, LOW);
+                    - generic [ref=e1106]: delay(50);
+                    - generic [ref=e1107]: digitalWrite(LED_BUILTIN, HIGH);
+                    - generic [ref=e1108]: delay(50);
+                    - generic [ref=e1109]: "}"
+                    - generic [ref=e1110]: "}"
+                    - generic [ref=e1111]: "}"
+                  - button "Copy code to clipboard" [ref=e1113] [cursor=pointer]:
+                    - generic [ref=e1114]:
+                      - img [ref=e1115]
+                      - img [ref=e1117]
+                - list [ref=e1119]:
+                  - listitem [ref=e1120]: Avoid Unnecessary Flash Sleep
+                - paragraph [ref=e1121]:
+                  - text: Ensure that your sketch does not put the flash memory into sleep mode (
+                  - code [ref=e1122]: Deep Power Down
+                  - text: ) unless absolutely necessary. This can prevent issues with uploading new sketches.
+                - heading "AcknowledgmentsDirect link to Acknowledgments" [level=4] [ref=e1123]:
+                  - text: Acknowledgments
+                  - link "Direct link to Acknowledgments" [ref=e1124] [cursor=pointer]:
+                    - /url: "#acknowledgments"
+                    - text: "#"
+                - paragraph [ref=e1125]:
+                  - text: Special thanks to the
+                  - strong [ref=e1126]: Seeed Studio community
+                  - text: for their valuable contributions and solutions to this issue. The recovery methods and preventive measures discussed in this tutorial were developed based on insights from community members like
+                  - strong [ref=e1127]:
+                    - link "msfujino" [ref=e1128] [cursor=pointer]:
+                      - /url: https://forum.seeedstudio.com/u/msfujino
+                  - text: and
+                  - strong [ref=e1129]:
+                    - link "PJ_Glasso" [ref=e1130] [cursor=pointer]:
+                      - /url: https://forum.seeedstudio.com/u/PJ_Glasso
+                  - text: .
+                - paragraph [ref=e1131]:
+                  - text: "For more details and discussions, visit the original forum thread:"
+                  - link "DeepSleep bricks XIAO_MG24 - Seeed Studio Forum" [ref=e1132] [cursor=pointer]:
+                    - /url: https://forum.seeedstudio.com/t/deepsleep-bricks-xiao-mg24/284889
+                - heading "UnbrickingDirect link to Unbricking" [level=2] [ref=e1133]:
+                  - text: Unbricking
+                  - link "Direct link to Unbricking" [ref=e1134] [cursor=pointer]:
+                    - /url: "#unbricking"
+                    - text: "#"
+                - paragraph [ref=e1135]: The XIAO MG24 is currently the only XIAO model equipped with a serial port chip. Unlike other XIAO models, it does not have a BOOT button or a BOOT recovery method. This design oversight can cause issues when the device enters sleep mode or encounters software anomalies, making it impossible to upload a program via the serial port. To address this, we’ve provided a method to wake up the serial port and restore functionality.
+                - heading "Solution for WindowsDirect link to Solution for Windows" [level=3] [ref=e1136]:
+                  - text: Solution for Windows
+                  - link "Direct link to Solution for Windows" [ref=e1137] [cursor=pointer]:
+                    - /url: "#solution-for-windows"
+                    - text: "#"
+                - list [ref=e1138]:
+                  - listitem [ref=e1139]:
+                    - strong [ref=e1140]: Download and Extract the Package
+                    - list [ref=e1141]:
+                      - listitem [ref=e1142]: Download the provided ZIP file.
+                - link "Download the ZIP 🖱️" [ref=e1144] [cursor=pointer]:
+                  - /url: https://files.seeedstudio.com/wiki/XIAO_MG24/xiao_mg24_flash_erase_windows.zip
+                  - strong [ref=e1145]:
+                    - generic [ref=e1146]: Download the ZIP 🖱️
+                - list [ref=e1147]:
+                  - listitem [ref=e1148]: Extract the contents to a folder on your computer.
+                - list [ref=e1149]:
+                  - listitem [ref=e1150]:
+                    - paragraph [ref=e1151]:
+                      - strong [ref=e1152]: Connect the XIAO MG24
+                    - list [ref=e1153]:
+                      - listitem [ref=e1154]: Use a USB cable to connect the unresponsive XIAO MG24 to your computer.
+                  - listitem [ref=e1155]:
+                    - paragraph [ref=e1156]:
+                      - strong [ref=e1157]: Run the Script
+                    - list [ref=e1158]:
+                      - listitem [ref=e1159]:
+                        - text: Open the extracted folder and locate the script
+                        - code [ref=e1160]: flash_erase.bat
+                        - text: .
+                      - listitem [ref=e1161]: Double-click the script to run it.
+                      - listitem [ref=e1162]: The script will erase the flash memory and reset the device.
+                  - listitem [ref=e1163]:
+                    - paragraph [ref=e1164]:
+                      - strong [ref=e1165]: Verify Recovery
+                    - list [ref=e1166]:
+                      - listitem [ref=e1167]: After the script completes, the XIAO MG24 should be restored and ready for use.
+                - heading "Solution for macOSDirect link to Solution for macOS" [level=3] [ref=e1168]:
+                  - text: Solution for macOS
+                  - link "Direct link to Solution for macOS" [ref=e1169] [cursor=pointer]:
+                    - /url: "#solution-for-macos"
+                    - text: "#"
+                - list [ref=e1170]:
+                  - listitem [ref=e1171]:
+                    - strong [ref=e1172]: Download and Extract the Package
+                    - list [ref=e1173]:
+                      - listitem [ref=e1174]: Download the provided ZIP file (link will be added here).
+                - link "Download the ZIP 🖱️" [ref=e1176] [cursor=pointer]:
+                  - /url: https://files.seeedstudio.com/wiki/XIAO_MG24/xiao_mg24_flash_erase_macos.zip
+                  - strong [ref=e1177]:
+                    - generic [ref=e1178]: Download the ZIP 🖱️
+                - list [ref=e1179]:
+                  - listitem [ref=e1180]: Extract the contents to a folder on your computer.
+                - list [ref=e1181]:
+                  - listitem [ref=e1182]:
+                    - paragraph [ref=e1183]:
+                      - strong [ref=e1184]: Connect the XIAO MG24
+                    - list [ref=e1185]:
+                      - listitem [ref=e1186]: Use a USB cable to connect the unresponsive XIAO MG24 to your computer.
+                  - listitem [ref=e1187]:
+                    - paragraph [ref=e1188]:
+                      - strong [ref=e1189]: Allow Terminal Access
+                    - list [ref=e1190]:
+                      - listitem [ref=e1191]:
+                        - text: Open
+                        - strong [ref=e1192]: System Preferences
+                        - text: ">"
+                        - strong [ref=e1193]: Security & Privacy
+                        - text: ">"
+                        - strong [ref=e1194]: Privacy
+                        - text: .
+                      - listitem [ref=e1195]:
+                        - text: Under
+                        - strong [ref=e1196]: Accessibility
+                        - text: ", ensure that"
+                        - strong [ref=e1197]: Terminal
+                        - text: is allowed to control your computer.
+                      - listitem [ref=e1198]:
+                        - text: If Terminal is not listed, click the
+                        - strong [ref=e1199]: +
+                        - text: button to add it manually.
+                  - listitem [ref=e1200]:
+                    - paragraph [ref=e1201]:
+                      - strong [ref=e1202]: Run the Script
+                    - list [ref=e1203]:
+                      - listitem [ref=e1204]:
+                        - paragraph [ref=e1205]:
+                          - text: Open
+                          - strong [ref=e1206]: Terminal
+                          - text: .
+                      - listitem [ref=e1207]:
+                        - paragraph [ref=e1208]:
+                          - text: Navigate to the extracted folder using the
+                          - code [ref=e1209]: cd
+                          - text: "command. For example:"
+                        - generic [ref=e1211]:
+                          - code [ref=e1213]:
+                            - generic [ref=e1214]: cd /path/to/extracted/folder
+                          - button "Copy code to clipboard" [ref=e1216] [cursor=pointer]:
+                            - generic [ref=e1217]:
+                              - img [ref=e1218]
+                              - img [ref=e1220]
+                      - listitem [ref=e1222]:
+                        - paragraph [ref=e1223]:
+                          - text: Run the script
+                          - code [ref=e1224]: xiao_mg24_erase.sh
+                          - text: "using the following command:"
+                        - generic [ref=e1226]:
+                          - code [ref=e1228]:
+                            - generic [ref=e1229]: ./xiao_mg24_erase.sh
+                          - button "Copy code to clipboard" [ref=e1231] [cursor=pointer]:
+                            - generic [ref=e1232]:
+                              - img [ref=e1233]
+                              - img [ref=e1235]
+                      - listitem [ref=e1237]:
+                        - paragraph [ref=e1238]: The script will use OpenOCD to erase the flash memory and reset the device.
+                  - listitem [ref=e1239]:
+                    - paragraph [ref=e1240]:
+                      - strong [ref=e1241]: Verify Recovery
+                    - list [ref=e1242]:
+                      - listitem [ref=e1243]: After the script completes, the XIAO MG24 should be restored and ready for use.
+                - generic [ref=e1244]:
+                  - generic [ref=e1245]:
+                    - img [ref=e1247]
+                    - text: note
+                  - list [ref=e1250]:
+                    - listitem [ref=e1251]: If macOS fails to recognize OpenOCD, ensure OpenOCD is installed and the correct path is used in the script.
+                    - listitem [ref=e1252]: The scripts provided are designed specifically for the XIAO MG24 and should not be used with other XIAO models.
+                - heading "ResourcesDirect link to Resources" [level=2] [ref=e1253]:
+                  - text: Resources
+                  - link "Direct link to Resources" [ref=e1254] [cursor=pointer]:
+                    - /url: "#resources"
+                    - text: "#"
+                - heading "For Seeed Studio XIAO MG24Direct link to For Seeed Studio XIAO MG24" [level=3] [ref=e1255]:
+                  - text: For Seeed Studio XIAO MG24
+                  - link "Direct link to For Seeed Studio XIAO MG24" [ref=e1256] [cursor=pointer]:
+                    - /url: "#for-seeed-studio-xiao-mg24"
+                    - text: "#"
+                - paragraph [ref=e1257]:
+                  - strong [ref=e1258]: Hardware Design
+                - list [ref=e1259]:
+                  - listitem [ref=e1260]:
+                    - strong [ref=e1261]: 📄[Datasheet]
+                    - link "Silicon Labs EFR32MG24 Datasheet" [ref=e1262] [cursor=pointer]:
+                      - /url: https://files.seeedstudio.com/wiki/XIAO_MG24/Getting_Start/mg24-group-datasheet.PDF
+                  - listitem [ref=e1263]:
+                    - strong [ref=e1264]: 📄[Reference Manual]
+                    - link "Silicon Labs EFR32MG24 Reference Manual" [ref=e1265] [cursor=pointer]:
+                      - /url: https://files.seeedstudio.com/wiki/XIAO_MG24/Getting_Start/efr32xg24_rm.pdf
+                  - listitem [ref=e1266]:
+                    - strong [ref=e1267]: 📄[Schematic]
+                    - link "XIAO MG24 Schematic" [ref=e1268] [cursor=pointer]:
+                      - /url: https://files.seeedstudio.com/wiki/XIAO_MG24/Getting_Start/XIAO_MGM240S_KICAD_Prj.pdf
+                  - listitem [ref=e1269]:
+                    - strong [ref=e1270]: 🗃️[PCB Design Files]
+                    - link "XIAO MG24 KiCad Project" [ref=e1271] [cursor=pointer]:
+                      - /url: https://files.seeedstudio.com/wiki/XIAO_MG24/Getting_Start/XIAO_MG24_v1.0_KiCad_260114.zip
+                  - listitem [ref=e1272]:
+                    - strong [ref=e1273]: 🗃️[PCB Design Libraries]
+                    - list [ref=e1274]:
+                      - listitem [ref=e1275]:
+                        - link "XIAO Series KiCad Footprints" [ref=e1276] [cursor=pointer]:
+                          - /url: https://files.seeedstudio.com/wiki/XIAO-KiCad-Library/XIAO_Series_Footprints.zip
+                      - listitem [ref=e1277]:
+                        - link "XIAO Series KiCad SCH Symbols" [ref=e1278] [cursor=pointer]:
+                          - /url: https://files.seeedstudio.com/wiki/XIAO-KiCad-Library/XIAO_Series_SCH_Symbols.zip
+                - heading "For Seeed Studio XIAO MG24 SenseDirect link to For Seeed Studio XIAO MG24 Sense" [level=3] [ref=e1279]:
+                  - text: For Seeed Studio XIAO MG24 Sense
+                  - link "Direct link to For Seeed Studio XIAO MG24 Sense" [ref=e1280] [cursor=pointer]:
+                    - /url: "#for-seeed-studio-xiao-mg24-sense"
+                    - text: "#"
+                - paragraph [ref=e1281]:
+                  - strong [ref=e1282]: Hardware Design
+                - list [ref=e1283]:
+                  - listitem [ref=e1284]:
+                    - strong [ref=e1285]: 📄[Datasheet]
+                    - link "Silicon Labs EFR32MG24 Datasheet" [ref=e1286] [cursor=pointer]:
+                      - /url: https://files.seeedstudio.com/wiki/XIAO_MG24/Getting_Start/mg24-group-datasheet.PDF
+                  - listitem [ref=e1287]:
+                    - strong [ref=e1288]: 📄[Reference Manual]
+                    - link "Silicon Labs EFR32MG24 Reference Manual" [ref=e1289] [cursor=pointer]:
+                      - /url: https://files.seeedstudio.com/wiki/XIAO_MG24/Getting_Start/efr32xg24_rm.pdf
+                  - listitem [ref=e1290]:
+                    - strong [ref=e1291]: 📄[Schematic]
+                    - link "XIAO MG24 Sense Schematic" [ref=e1292] [cursor=pointer]:
+                      - /url: https://files.seeedstudio.com/wiki/XIAO_MG24/Getting_Start/XIAO_MGM240S_KICAD_Prj.pdf
+                  - listitem [ref=e1293]:
+                    - strong [ref=e1294]: 🗃️[PCB Design Files]
+                    - link "XIAO MG24 Sense KiCad Project" [ref=e1295] [cursor=pointer]:
+                      - /url: https://files.seeedstudio.com/wiki/XIAO_MG24/Getting_Start/XIAO_MG24_v1.0_KiCad_260114.zip
+                  - listitem [ref=e1296]:
+                    - strong [ref=e1297]: 🗃️[PCB Design Libraries]
+                    - list [ref=e1298]:
+                      - listitem [ref=e1299]:
+                        - link "XIAO Series KiCad Footprints" [ref=e1300] [cursor=pointer]:
+                          - /url: https://files.seeedstudio.com/wiki/XIAO-KiCad-Library/XIAO_Series_Footprints.zip
+                      - listitem [ref=e1301]:
+                        - link "XIAO Series KiCad SCH Symbols" [ref=e1302] [cursor=pointer]:
+                          - /url: https://files.seeedstudio.com/wiki/XIAO-KiCad-Library/XIAO_Series_SCH_Symbols.zip
+                - heading "Tech Support & Product DiscussionDirect link to Tech Support & Product Discussion" [level=2] [ref=e1303]:
+                  - text: Tech Support & Product Discussion
+                  - link "Direct link to Tech Support & Product Discussion" [ref=e1304] [cursor=pointer]:
+                    - /url: "#tech-support--product-discussion"
+                    - text: "#"
+                - paragraph [ref=e1305]: Thank you for choosing our products! We are here to provide you with different support to ensure that your experience with our products is as smooth as possible. We offer several communication channels to cater to different preferences and needs.
+                - generic [ref=e1306]:
+                  - link [ref=e1307] [cursor=pointer]:
+                    - /url: https://forum.seeedstudio.com/
+                  - link [ref=e1308] [cursor=pointer]:
+                    - /url: https://www.seeedstudio.com/contacts
+                - generic [ref=e1309]:
+                  - link [ref=e1310] [cursor=pointer]:
+                    - /url: https://discord.gg/eWkprNDMU7
+                  - link [ref=e1311] [cursor=pointer]:
+                    - /url: https://github.com/Seeed-Studio/wiki-documents/discussions/69
+              - generic [ref=e1313]:
+                - link "Edit this page" [ref=e1315] [cursor=pointer]:
+                  - /url: https://github.com/Seeed-Studio/wiki-documents/blob/docusaurus-version/sites/en/docs/docs/Sensor/SeeedStudio_XIAO/SeeedStudio_XIAO_MG24/XIAO_MG24_Getting_Started.md
+                  - img [ref=e1316]
+                  - text: Edit this page
+                - generic [ref=e1320]:
+                  - text: Last updated on
+                  - time [ref=e1322]: Oct 17, 2024
+                  - text: by Jason
+            - navigation "Docs pages" [ref=e1323]:
+              - link "Previous « XIAO RA4M1 with PlatformIO" [ref=e1324] [cursor=pointer]:
+                - /url: /xiao_ra4m1_with_platform_io/
+                - generic [ref=e1325]: Previous
+                - generic [ref=e1326]: « XIAO RA4M1 with PlatformIO
+              - link "Next Pin Multiplexing with Seeed Studio XIAO MG24 »" [ref=e1327] [cursor=pointer]:
+                - /url: /xiao_mg24_pin_multiplexing/
+                - generic [ref=e1328]: Next
+                - generic [ref=e1329]: Pin Multiplexing with Seeed Studio XIAO MG24 »
+          - iframe [ref=e1332]:
+            
+        - list [ref=e1335]:
+          - listitem [ref=e1336]:
+            - link "Introduction" [ref=e1337] [cursor=pointer]:
+              - /url: "#introduction"
+            - list [ref=e1338]:
+              - listitem [ref=e1339]:
+                - link "Specification" [ref=e1340] [cursor=pointer]:
+                  - /url: "#specification"
+              - listitem [ref=e1341]:
+                - link "Features" [ref=e1342] [cursor=pointer]:
+                  - /url: "#features"
+          - listitem [ref=e1343]:
+            - link "Hardware overview" [ref=e1344] [cursor=pointer]:
+              - /url: "#hardware-overview"
+          - listitem [ref=e1345]:
+            - link "Pin Map" [ref=e1346] [cursor=pointer]:
+              - /url: "#pin-map"
+              - strong [ref=e1347]: Pin Map
+          - listitem [ref=e1348]:
+            - link "Getting started" [ref=e1349] [cursor=pointer]:
+              - /url: "#getting-started"
+            - list [ref=e1350]:
+              - listitem [ref=e1351]:
+                - link "Factory procedure" [ref=e1352] [cursor=pointer]:
+                  - /url: "#factory-procedure"
+              - listitem [ref=e1353]:
+                - link "Hardware Preparation" [ref=e1354] [cursor=pointer]:
+                  - /url: "#hardware-preparation"
+              - listitem [ref=e1355]:
+                - link "Software Preparation" [ref=e1356] [cursor=pointer]:
+                  - /url: "#software-preparation"
+                - list [ref=e1357]:
+                  - listitem [ref=e1358]:
+                    - link "Add the XIAO MG24 Board" [ref=e1359] [cursor=pointer]:
+                      - /url: "#add-board"
+                  - listitem [ref=e1360]:
+                    - link "Run your first Blink program" [ref=e1361] [cursor=pointer]:
+                      - /url: "#run-your-first-blink-program"
+          - listitem [ref=e1362]:
+            - link "Battery Usage" [ref=e1363] [cursor=pointer]:
+              - /url: "#battery-usage"
+          - listitem [ref=e1364]:
+            - link "Reading Battery Voltage" [ref=e1365] [cursor=pointer]:
+              - /url: "#reading-battery-voltage"
+          - listitem [ref=e1366]:
+            - link "Deep Sleep and Sleep Example" [ref=e1367] [cursor=pointer]:
+              - /url: "#deep-sleep-and-sleep-example"
+            - list [ref=e1368]:
+              - listitem [ref=e1369]:
+                - 'link "Demo1 : Sleep Mode and wake-up" [ref=e1370] [cursor=pointer]':
+                  - /url: "#demo1--sleep-mode-and-wake-up"
+              - listitem [ref=e1371]:
+                - 'link "Demo2 : Deep Sleep Mode and wake-up" [ref=e1372] [cursor=pointer]':
+                  - /url: "#demo2--deep-sleep-mode-and-wake-up"
+              - listitem [ref=e1373]:
+                - 'link "Demo3 : Deep Sleep Mode with flash and wake-up" [ref=e1374] [cursor=pointer]':
+                  - /url: "#demo3--deep-sleep-mode-with-flash-and-wake-up"
+              - listitem [ref=e1375]:
+                - link "Preventing XIAO MG24 from Bricking During Deep Sleep" [ref=e1376] [cursor=pointer]:
+                  - /url: "#preventing-xiao-mg24-from-bricking-during-deep-sleep"
+                - list [ref=e1377]:
+                  - listitem [ref=e1378]:
+                    - link "Preventive Measures" [ref=e1379] [cursor=pointer]:
+                      - /url: "#preventive-measures"
+                  - listitem [ref=e1380]:
+                    - link "Acknowledgments" [ref=e1381] [cursor=pointer]:
+                      - /url: "#acknowledgments"
+          - listitem [ref=e1382]:
+            - link "Unbricking" [ref=e1383] [cursor=pointer]:
+              - /url: "#unbricking"
+            - list [ref=e1384]:
+              - listitem [ref=e1385]:
+                - link "Solution for Windows" [ref=e1386] [cursor=pointer]:
+                  - /url: "#solution-for-windows"
+              - listitem [ref=e1387]:
+                - link "Solution for macOS" [ref=e1388] [cursor=pointer]:
+                  - /url: "#solution-for-macos"
+          - listitem [ref=e1389]:
+            - link "Resources" [ref=e1390] [cursor=pointer]:
+              - /url: "#resources"
+            - list [ref=e1391]:
+              - listitem [ref=e1392]:
+                - link "For Seeed Studio XIAO MG24" [ref=e1393] [cursor=pointer]:
+                  - /url: "#for-seeed-studio-xiao-mg24"
+              - listitem [ref=e1394]:
+                - link "For Seeed Studio XIAO MG24 Sense" [ref=e1395] [cursor=pointer]:
+                  - /url: "#for-seeed-studio-xiao-mg24-sense"
+          - listitem [ref=e1396]:
+            - link "Tech Support & Product Discussion" [ref=e1397] [cursor=pointer]:
+              - /url: "#tech-support--product-discussion"
+  - contentinfo [ref=e1398]:
+    - generic [ref=e1399]:
+      - generic [ref=e1400]:
+        - generic [ref=e1401]:
+          - generic [ref=e1402]: Navigation
+          - list [ref=e1403]:
+            - listitem [ref=e1404]:
+              - link "Getting Started" [ref=e1405] [cursor=pointer]:
+                - /url: /Getting_Started/
+            - listitem [ref=e1406]:
+              - link "Sensor and Sensing" [ref=e1407] [cursor=pointer]:
+                - /url: /Sensor_Network/
+            - listitem [ref=e1408]:
+              - link "Network" [ref=e1409] [cursor=pointer]:
+                - /url: /Network/
+            - listitem [ref=e1410]:
+              - link "Edge Computing" [ref=e1411] [cursor=pointer]:
+                - /url: /Edge_Computing/
+            - listitem [ref=e1412]:
+              - link "Cloud" [ref=e1413] [cursor=pointer]:
+                - /url: /Cloud/
+            - listitem [ref=e1414]:
+              - link "Solutions" [ref=e1415] [cursor=pointer]:
+                - /url: https://solution.seeed.cc/
+        - generic [ref=e1416]:
+          - generic [ref=e1417]: Ecosystem
+          - list [ref=e1418]:
+            - listitem [ref=e1419]:
+              - link "Discord" [ref=e1420] [cursor=pointer]:
+                - /url: https://discord.com/invite/QqMgVwHT3X
+            - listitem [ref=e1421]:
+              - link "Project Hub" [ref=e1422] [cursor=pointer]:
+                - /url: https://project.seeedstudio.com/
+            - listitem [ref=e1423]:
+              - link "Partners" [ref=e1424] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/ecosystem/
+            - listitem [ref=e1425]:
+              - link "Distributors" [ref=e1426] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/distributors.html
+        - generic [ref=e1427]:
+          - generic [ref=e1428]: Quick Guide
+          - list [ref=e1429]:
+            - listitem [ref=e1430]:
+              - link "Bazaar" [ref=e1431] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/
+            - listitem [ref=e1432]:
+              - link "How to get help" [ref=e1433] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/get_help/HowToGetHelp
+            - listitem [ref=e1434]:
+              - link "FAQs" [ref=e1435] [cursor=pointer]:
+                - /url: https://support.seeedstudio.com/knowledgebase
+            - listitem [ref=e1436]:
+              - link "Forum" [ref=e1437] [cursor=pointer]:
+                - /url: https://forum.seeedstudio.com/
+            - listitem [ref=e1438]:
+              - link "Technical Support" [ref=e1439] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/get_help/TechnicalSupport
+        - generic [ref=e1440]:
+          - generic [ref=e1441]: Company
+          - list [ref=e1442]:
+            - listitem [ref=e1443]:
+              - link "About Seeed" [ref=e1444] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/about-us/
+            - listitem [ref=e1445]:
+              - link "Join us" [ref=e1446] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/join-us/
+            - listitem [ref=e1447]:
+              - link "Contact Us" [ref=e1448] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/contacts
+            - listitem [ref=e1449]:
+              - link "Press" [ref=e1450] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/blog/2020/04/22/seeed-in-the-news/
+      - generic [ref=e1452]: Copyright © 2026 Seeed Studio, Inc. Built with Docusaurus.

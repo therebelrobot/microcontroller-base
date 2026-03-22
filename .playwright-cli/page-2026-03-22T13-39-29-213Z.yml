@@ -1,0 +1,220 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - link [ref=e7] [cursor=pointer]:
+          - /url: https://www.arduino.cc/
+          - img [ref=e8]
+        - link [ref=e11] [cursor=pointer]:
+          - /url: https://docs.arduino.cc/
+          - img [ref=e12]
+      - combobox "Search"
+    - main [ref=e25]:
+      - generic [ref=e26]:
+        - generic [ref=e27]:
+          - link "Go Back" [ref=e29] [cursor=pointer]:
+            - /url: /hardware/
+            - img [ref=e31]
+            - generic [ref=e34]: Go Back
+          - generic [ref=e36]: Hardware
+          - button [ref=e37]:
+            - img [ref=e38]
+        - generic [ref=e41]:
+          - button "MKR Family" [ref=e42]:
+            - generic [ref=e43] [cursor=pointer]:
+              - heading "MKR Family" [level=5] [ref=e45]
+              - img [ref=e47]
+          - button "UNO Family" [ref=e50]:
+            - generic [ref=e51] [cursor=pointer]:
+              - heading "UNO Family" [level=5] [ref=e53]
+              - img [ref=e55]
+          - button "Nano Family" [ref=e58]:
+            - generic [ref=e59] [cursor=pointer]:
+              - heading "Nano Family" [level=5] [ref=e61]
+              - img [ref=e63]
+          - button "Portenta Family" [ref=e66]:
+            - generic [ref=e67] [cursor=pointer]:
+              - heading "Portenta Family" [level=5] [ref=e69]
+              - img [ref=e71]
+          - button "Pro Solutions and Kits" [ref=e74]:
+            - generic [ref=e75] [cursor=pointer]:
+              - heading "Pro Solutions and Kits" [level=5] [ref=e77]
+              - img [ref=e79]
+          - button "Nicla Family" [ref=e82]:
+            - generic [ref=e83] [cursor=pointer]:
+              - heading "Nicla Family" [level=5] [ref=e85]
+              - img [ref=e87]
+          - button "Opta" [ref=e90]:
+            - generic [ref=e91] [cursor=pointer]:
+              - heading "Opta" [level=5] [ref=e93]
+              - img [ref=e95]
+          - button "Education" [ref=e98]:
+            - generic [ref=e99] [cursor=pointer]:
+              - heading "Education" [level=5] [ref=e101]
+              - img [ref=e103]
+          - button "Kits" [ref=e106]:
+            - generic [ref=e107] [cursor=pointer]:
+              - heading "Kits" [level=5] [ref=e109]
+              - img [ref=e111]
+          - button "Mega Boards Due GIGA R1 WiFi Mega 2560 Rev3 Shields GIGA Display Shield" [ref=e114]:
+            - generic [ref=e115] [cursor=pointer]:
+              - heading "Mega" [level=5] [ref=e117]
+              - img [ref=e119]
+            - generic [ref=e122]:
+              - heading "Boards" [level=6] [ref=e124]
+              - generic [ref=e126]:
+                - link "Due" [ref=e127] [cursor=pointer]:
+                  - /url: /hardware/due
+                - link "GIGA R1 WiFi" [ref=e128] [cursor=pointer]:
+                  - /url: /hardware/giga-r1-wifi
+                - link "Mega 2560 Rev3" [ref=e129] [cursor=pointer]:
+                  - /url: /hardware/mega-2560
+            - generic [ref=e130]:
+              - heading "Shields" [level=6] [ref=e132]
+              - link "GIGA Display Shield" [ref=e135] [cursor=pointer]:
+                - /url: /hardware/giga-display-shield
+          - button "Modulino" [ref=e136]:
+            - generic [ref=e137] [cursor=pointer]:
+              - heading "Modulino" [level=5] [ref=e139]
+              - img [ref=e141]
+          - button "Classic" [ref=e144]:
+            - generic [ref=e145] [cursor=pointer]:
+              - heading "Classic" [level=5] [ref=e147]
+              - img [ref=e149]
+      - generic [ref=e152]:
+        - generic [ref=e153]:
+          - link "Home /" [ref=e154] [cursor=pointer]:
+            - /url: /
+            - text: Home
+            - generic [ref=e155]: /
+          - link "Hardware /" [ref=e156] [cursor=pointer]:
+            - /url: /hardware/
+            - text: Hardware
+            - generic [ref=e157]: /
+          - link "Mega 2560 Rev3" [ref=e158] [cursor=pointer]:
+            - /url: /hardware/mega-2560
+        - generic [ref=e159]:
+          - generic [ref=e160]:
+            - generic [ref=e161]:
+              - heading "Mega 2560 Rev3" [level=1] [ref=e164]
+              - generic [ref=e165]:
+                - paragraph [ref=e167]: The 8-bit board with 54 digital pins, 16 analog inputs, and 4 serial ports.
+                - link "Get Started" [ref=e169] [cursor=pointer]:
+                  - /url: /tutorials/mega-2560/getting-started/
+                  - generic [ref=e170]: Get Started
+            - generic [ref=e171]:
+              - img "Mega 2560 Rev3" [ref=e172]
+              - generic [ref=e173]:
+                - button "Interactive Viewer" [ref=e176]:
+                  - img [ref=e177]
+                  - generic: Interactive Viewer
+                - button "Pinout" [ref=e181]:
+                  - img [ref=e182]
+                  - generic: Pinout
+                - link "Buy now" [ref=e187] [cursor=pointer]:
+                  - /url: https://store.arduino.cc/arduino-mega-2560-rev3
+                  - img [ref=e188]
+                  - generic [ref=e191]: Buy now
+          - generic [ref=e192]:
+            - heading "Downloadable resources" [level=2] [ref=e194]
+            - generic [ref=e196]:
+              - link "Pinout (PDF)" [ref=e197] [cursor=pointer]:
+                - /url: /resources/pinouts/A000067-full-pinout.pdf
+                - img [ref=e199]
+                - generic [ref=e202]: Pinout (PDF)
+              - link "Datasheet" [ref=e203] [cursor=pointer]:
+                - /url: /resources/datasheets/A000067-datasheet.pdf
+                - img [ref=e205]
+                - generic [ref=e208]: Datasheet
+              - link "Schematics" [ref=e209] [cursor=pointer]:
+                - /url: /resources/schematics/A000067-schematics.pdf
+                - img [ref=e211]
+                - generic [ref=e214]: Schematics
+              - link "Fritzing Files" [ref=e215] [cursor=pointer]:
+                - /url: /static/e4273dd5557bfe76b4240a02cd22f349/A000067-fritzing.fzpz
+                - img [ref=e217]
+                - generic [ref=e219]: Fritzing Files
+              - link "CAD Files" [ref=e220] [cursor=pointer]:
+                - /url: /static/d1927c3a6f7cce0a944fb502ae402e20/A000067-cad-files.zip
+                - img [ref=e222]
+                - generic [ref=e225]: CAD Files
+          - generic [ref=e226]:
+            - generic [ref=e227]:
+              - button "Features" [ref=e229]
+              - button "Tutorials" [ref=e231]
+              - button "Tech Specs" [ref=e233]
+              - button "Compatibility" [ref=e235]
+              - button "Suggested Libraries" [ref=e237]
+            - generic [ref=e240]:
+              - paragraph [ref=e242]: The Arduino Mega 2560 is a microcontroller board based on the ATmega2560. It has 54 digital input/output pins (of which 15 can be used as PWM outputs), 16 analog inputs, 4 UARTs (hardware serial ports), a 16 MHz crystal oscillator, a USB connection, a power jack, an ICSP header, and a reset button.
+              - generic [ref=e243]:
+                - generic [ref=e244]:
+                  - img "Microcontroller" [ref=e245]
+                  - generic [ref=e246]:
+                    - generic [ref=e247]: EEPROM
+                    - generic [ref=e248]:
+                      - paragraph [ref=e249]: The ATmega2560 features 4kb (4096 bytes) of EEPROM, a memory which is not erased when powered off.
+                      - link "Documentation" [ref=e252] [cursor=pointer]:
+                        - /url: /learn/programming/eeprom-guide
+                - generic [ref=e253]:
+                  - img "Pin" [ref=e254]
+                  - generic [ref=e255]:
+                    - generic [ref=e256]: 54 digital & 16 analog pins
+                    - paragraph [ref=e258]: The Mega 2560 has 54 digital pins, whereas 15 supports PWM, and 16 analog input pins.
+                - generic [ref=e259]:
+                  - img "Communication" [ref=e260]
+                  - generic [ref=e261]:
+                    - generic [ref=e262]: Four serial ports
+                    - paragraph [ref=e264]: Connect to several devices through the 4x hardware serial ports (UARTs) to your Arduino Mega.
+        - generic [ref=e265]:
+          - heading "Certifications" [level=4] [ref=e266]
+          - generic [ref=e267]:
+            - button "FCC" [ref=e269]
+            - button "UKCA" [ref=e271]
+            - button "CE" [ref=e273]
+        - generic [ref=e274]:
+          - heading "Connect and Contribute" [level=4] [ref=e275]
+          - generic [ref=e276]:
+            - generic [ref=e277]:
+              - link "Project Hub" [ref=e278] [cursor=pointer]:
+                - /url: https://projecthub.arduino.cc/?value=Mega 2560 Rev3
+              - link "GitHub Repository" [ref=e279] [cursor=pointer]:
+                - /url: https://github.com/arduino/docs-content
+              - link "Forum" [ref=e280] [cursor=pointer]:
+                - /url: https://forum.arduino.cc/c/hardware/12
+            - generic [ref=e281]:
+              - link "Product Compliance" [ref=e282] [cursor=pointer]:
+                - /url: /certifications/
+              - link "Help Center" [ref=e283] [cursor=pointer]:
+                - /url: https://support.arduino.cc/hc/en-us/articles/9264736457500-Hardware-Support
+              - link "Trademarks & Licensing" [ref=e284] [cursor=pointer]:
+                - /url: https://www.arduino.cc/en/trademark/
+        - generic [ref=e285]:
+          - heading "Was this article helpful?" [level=4] [ref=e286]
+          - generic [ref=e287]:
+            - button [ref=e288]:
+              - img [ref=e289]
+            - button [ref=e291]:
+              - img [ref=e292]
+    - contentinfo [ref=e295]:
+      - link "© 2026 Arduino" [ref=e296] [cursor=pointer]:
+        - /url: https://www.arduino.cc/
+      - generic [ref=e297]:
+        - link "Trademark & Copyright" [ref=e298] [cursor=pointer]:
+          - /url: https://www.arduino.cc/en/trademark/
+        - link "Whistleblowing" [ref=e299] [cursor=pointer]:
+          - /url: https://secure.ethicspoint.com/domain/media/en/gui/33575/
+        - link "Digital Services Act" [ref=e300] [cursor=pointer]:
+          - /url: https://www.arduino.cc/en/digital-services-act/
+        - link "Terms Of Service" [ref=e301] [cursor=pointer]:
+          - /url: https://www.arduino.cc/en/terms-conditions
+        - link "Privacy Policy" [ref=e302] [cursor=pointer]:
+          - /url: https://www.arduino.cc/en/privacy-policy
+        - link "Security" [ref=e303] [cursor=pointer]:
+          - /url: https://www.arduino.cc/en/security
+        - link "Cookie Settings" [ref=e304] [cursor=pointer]:
+          - /url: https://www.arduino.cc/en/cookie-policy
+  - iframe [ref=e306]:
+    - button "Help" [ref=f14e4] [cursor=pointer]:
+      - img [ref=f14e6]
+      - generic [ref=f14e13]: Help

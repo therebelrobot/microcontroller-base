@@ -1,0 +1,1527 @@
+- generic [ref=e2]:
+  - region "Skip to main content":
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#__docusaurus_skipToContent_fallback"
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - text: Collaborate with Seeed -
+      - link "Creator" [ref=e7] [cursor=pointer]:
+        - /url: https://www.seeedstudio.com/blog/affiliate-program/
+      - text: ","
+      - link "Ranger" [ref=e8] [cursor=pointer]:
+        - /url: https://www.seeedstudio.com/ranger-program/
+      - text: ", or"
+      - link "Contributor" [ref=e9] [cursor=pointer]:
+        - /url: https://wiki.seeedstudio.com/contributors/
+      - text: ", there is always a role ideal for you!"
+  - navigation "Main" [ref=e10]:
+    - generic [ref=e11]:
+      - generic [ref=e12]:
+        - link "Seeed Studio" [ref=e13] [cursor=pointer]:
+          - /url: /
+          - img "Seeed Studio" [ref=e15]
+        - button "Quick Links" [ref=e17] [cursor=pointer]
+        - button "Explore with Topics" [ref=e19] [cursor=pointer]
+        - button "FAQs" [ref=e21] [cursor=pointer]
+        - button "Get Involved" [ref=e23] [cursor=pointer]
+      - generic [ref=e24]:
+        - button "🇺🇸 English" [ref=e26] [cursor=pointer]:
+          - generic [ref=e27]: 🇺🇸
+          - generic [ref=e28]: English
+        - link "Bazaar 🛍️" [ref=e29] [cursor=pointer]:
+          - /url: https://www.seeedstudio.com/
+        - link "SenseCraft AI" [ref=e30] [cursor=pointer]:
+          - /url: https://sensecraft.seeed.cc/ai/#/home
+        - link [ref=e31] [cursor=pointer]:
+          - /url: https://sensecraft.seeed.cc/ai/#/home
+        - link "GitHub repository" [ref=e32] [cursor=pointer]:
+          - /url: https://github.com/Seeed-Studio/wiki-documents
+        - button "Switch between dark and light mode (currently dark mode)" [ref=e34] [cursor=pointer]:
+          - img [ref=e35]
+        - button "Search" [ref=e38] [cursor=pointer]:
+          - generic [ref=e39]:
+            - img [ref=e40]
+            - generic [ref=e42]: Search
+          - generic [ref=e43]:
+            - generic [ref=e44]: ⌘
+            - generic [ref=e45]: K
+  - generic [ref=e48]:
+    - complementary [ref=e49]:
+      - generic [ref=e51]:
+        - navigation "Docs sidebar" [ref=e52]:
+          - list [ref=e53]:
+            - listitem [ref=e54]:
+              - link "Getting Started" [ref=e55] [cursor=pointer]:
+                - /url: /Getting_Started/
+            - listitem [ref=e56]:
+              - link "Weekly Wiki" [ref=e57] [cursor=pointer]:
+                - /url: /weekly_wiki/
+            - listitem [ref=e58]:
+              - link "Sensing" [ref=e59] [cursor=pointer]:
+                - /url: /Sensor_Network/
+            - listitem [ref=e60]:
+              - generic [ref=e61]:
+                - link "Grove" [ref=e62] [cursor=pointer]:
+                  - /url: /Grove_System/
+                - button "Expand sidebar category 'Grove'" [ref=e63] [cursor=pointer]
+            - listitem [ref=e64]:
+              - generic [ref=e65]:
+                - link "SenseCAP" [ref=e66] [cursor=pointer]:
+                  - /url: /SenseCAP_introduction/
+                - button "Expand sidebar category 'SenseCAP'" [ref=e67] [cursor=pointer]
+            - listitem [ref=e68]:
+              - generic [ref=e69]:
+                - link "SenseCAP Indicator" [ref=e70] [cursor=pointer]:
+                  - /url: /Sensor/SenseCAP/SenseCAP_Indicator/Get_started_with_SenseCAP_Indicator/
+                - button "Expand sidebar category 'SenseCAP Indicator'" [ref=e71] [cursor=pointer]
+            - listitem [ref=e72]:
+              - generic [ref=e73]:
+                - link "SenseCAP Watcher" [ref=e74] [cursor=pointer]:
+                  - /url: /watcher/
+                - button "Expand sidebar category 'SenseCAP Watcher'" [ref=e75] [cursor=pointer]
+            - listitem [ref=e76]:
+              - generic [ref=e77]:
+                - link "mmWave Radar Sensor" [ref=e78] [cursor=pointer]:
+                  - /url: /mmwave_radar_Intro/
+                - button "Expand sidebar category 'mmWave Radar Sensor'" [ref=e79] [cursor=pointer]
+            - listitem [ref=e80]:
+              - generic [ref=e81]:
+                - link "XIAO" [ref=e82] [cursor=pointer]:
+                  - /url: /SeeedStudio_XIAO_Series_Introduction/
+                - button "Collapse sidebar category 'XIAO'" [expanded] [ref=e83] [cursor=pointer]
+              - list [ref=e84]:
+                - listitem [ref=e85]:
+                  - link "Exhibition for XIAO Series" [ref=e86] [cursor=pointer]:
+                    - /url: /xiao_topic_page/
+                - listitem [ref=e87]:
+                  - button "XIAO SAMD21" [ref=e89] [cursor=pointer]
+                - listitem [ref=e90]:
+                  - button "XIAO RA4M1" [ref=e92] [cursor=pointer]
+                - listitem [ref=e93]:
+                  - button "XIAO MG24" [ref=e95] [cursor=pointer]
+                - listitem [ref=e96]:
+                  - button "XIAO RP2040" [ref=e98] [cursor=pointer]
+                - listitem [ref=e99]:
+                  - button "XIAO RP2350" [ref=e101] [cursor=pointer]
+                - listitem [ref=e102]:
+                  - button "XIAO nRF52840 Series" [ref=e104] [cursor=pointer]
+                - listitem [ref=e105]:
+                  - button "XIAO nRF54L15 Series" [ref=e107] [cursor=pointer]
+                - listitem [ref=e108]:
+                  - button "XIAO ESP32C3" [ref=e110] [cursor=pointer]
+                - listitem [ref=e111]:
+                  - button "XIAO ESP32C5" [ref=e113] [cursor=pointer]
+                - listitem [ref=e114]:
+                  - button "XIAO ESP32C6" [ref=e116] [cursor=pointer]
+                - listitem [ref=e117]:
+                  - button "XIAO ESP32S3 Series" [ref=e119] [cursor=pointer]
+                - listitem [ref=e120]:
+                  - generic [ref=e121]:
+                    - link "XIAO Debug Mate" [ref=e122] [cursor=pointer]:
+                      - /url: /getting_started_with_xiao_debug_mate/
+                    - button "Expand sidebar category 'XIAO Debug Mate'" [ref=e123] [cursor=pointer]
+                - listitem [ref=e124]:
+                  - button "Expansion Boards for XIAO" [expanded] [ref=e126] [cursor=pointer]
+                  - list [ref=e127]:
+                    - listitem [ref=e128]:
+                      - button "ePaper Breakout Board for XIAO" [ref=e130] [cursor=pointer]
+                    - listitem [ref=e131]:
+                      - button "Round Display for XIAO" [ref=e133] [cursor=pointer]
+                    - listitem [ref=e134]:
+                      - button "GPS Module for XIAO" [ref=e136] [cursor=pointer]
+                    - listitem [ref=e137]:
+                      - link "Expansion Board Base for XIAO" [ref=e138] [cursor=pointer]:
+                        - /url: /Seeeduino-XIAO-Expansion-Board/
+                    - listitem [ref=e139]:
+                      - link "XIAO CAN Bus Expansion Board" [ref=e140] [cursor=pointer]:
+                        - /url: /xiao-can-bus-expansion/
+                    - listitem [ref=e141]:
+                      - link "Grove Shield for XIAO with battery management chip" [ref=e142] [cursor=pointer]:
+                        - /url: /Grove-Shield-for-Seeeduino-XIAO-embedded-battery-management-chip/
+                    - listitem [ref=e143]:
+                      - link "Getting Started with 6x10 RGB MATRIX for XIAO" [ref=e144] [cursor=pointer]:
+                        - /url: /rgb_matrix_for_xiao/
+                    - listitem [ref=e145]:
+                      - link "IO Expander for XIAO" [ref=e146] [cursor=pointer]:
+                        - /url: /io_expander_for_xiao/
+                    - listitem [ref=e147]:
+                      - link "ePaper Driver Board" [ref=e148] [cursor=pointer]:
+                        - /url: /xiao_eink_expansion_board_v2/
+                    - listitem [ref=e149]:
+                      - link "RS485 Expansion Board for XIAO" [ref=e150] [cursor=pointer]:
+                        - /url: /XIAO-RS485-Expansion-Board/
+                    - listitem [ref=e151]:
+                      - link "Bus Servo Driver Board" [ref=e152] [cursor=pointer]:
+                        - /url: /bus_servo_driver_board/
+                    - listitem [ref=e153]:
+                      - link "LED Driver Board for XIAO" [ref=e154] [cursor=pointer]:
+                        - /url: /led_driver_board/
+                    - listitem [ref=e155]:
+                      - link "COB LED Driver Board for XIAO" [ref=e156] [cursor=pointer]:
+                        - /url: /getting_started_with_cob_led_dirver_board/
+                - listitem [ref=e157]:
+                  - button "XIAO + ESP-IDF + ESP-Matter" [ref=e159] [cursor=pointer]
+                - listitem [ref=e160]:
+                  - link "ESP-NOW on XIAO ESP32 Series" [ref=e161] [cursor=pointer]:
+                    - /url: /xiao_espnow/
+                - listitem [ref=e162]:
+                  - link "PCB Design for XIAO" [ref=e163] [cursor=pointer]:
+                    - /url: /PCB_Design_XIAO/
+                - listitem [ref=e164]:
+                  - button "Kit with Courses" [ref=e166] [cursor=pointer]
+                - listitem [ref=e167]:
+                  - link "FAQs for XIAO Series" [ref=e168] [cursor=pointer]:
+                    - /url: /XIAO_FAQ/
+            - listitem [ref=e169]:
+              - button "ePaper" [ref=e171] [cursor=pointer]
+            - listitem [ref=e172]:
+              - button "XIAO Gadgets" [ref=e174] [cursor=pointer]
+            - listitem [ref=e175]:
+              - generic [ref=e176]:
+                - link "Wio Terminal" [ref=e177] [cursor=pointer]:
+                  - /url: /Wio_Terminal_Intro/
+                - button "Expand sidebar category 'Wio Terminal'" [ref=e178] [cursor=pointer]
+            - listitem [ref=e179]:
+              - generic [ref=e180]:
+                - link "reSpeaker" [ref=e181] [cursor=pointer]:
+                  - /url: /respeaker/
+                - button "Expand sidebar category 'reSpeaker'" [ref=e182] [cursor=pointer]
+            - listitem [ref=e183]:
+              - button "Other Sensing Modules" [ref=e185] [cursor=pointer]
+            - listitem [ref=e186]:
+              - button "Other Microcontrollers" [ref=e188] [cursor=pointer]
+            - listitem [ref=e189]:
+              - link "Network" [ref=e190] [cursor=pointer]:
+                - /url: /Network/
+            - listitem [ref=e191]:
+              - generic [ref=e192]:
+                - link "Meshtastic Network" [ref=e193] [cursor=pointer]:
+                  - /url: /meshtastic_introduction/
+                - button "Expand sidebar category 'Meshtastic Network'" [ref=e194] [cursor=pointer]
+            - listitem [ref=e195]:
+              - button "LoRa Wio Series" [ref=e197] [cursor=pointer]
+            - listitem [ref=e198]:
+              - generic [ref=e199]:
+                - link "SenseCAP Gateway" [ref=e200] [cursor=pointer]:
+                  - /url: /Network/SenseCAP_Network/SenseCAP_Gateway_Intro/
+                - button "Expand sidebar category 'SenseCAP Gateway'" [ref=e201] [cursor=pointer]
+            - listitem [ref=e202]:
+              - generic [ref=e203]:
+                - link "SenseCAP K1100" [ref=e204] [cursor=pointer]:
+                  - /url: /SenseCAP_K1100_Intro/
+                - button "Expand sidebar category 'SenseCAP K1100'" [ref=e205] [cursor=pointer]
+            - listitem [ref=e206]:
+              - button "SenseCAP LoRaWAN Starter Kit" [ref=e208] [cursor=pointer]
+            - listitem [ref=e209]:
+              - button "Raspberry Pi Solutions" [ref=e211] [cursor=pointer]
+            - listitem [ref=e212]:
+              - generic [ref=e213]:
+                - link "Rockchip Solutions" [ref=e214] [cursor=pointer]:
+                  - /url: /Rockchip_network_solutions/
+                - button "Expand sidebar category 'Rockchip Solutions'" [ref=e215] [cursor=pointer]
+            - listitem [ref=e216]:
+              - button "Other Network Devices" [ref=e218] [cursor=pointer]
+            - listitem [ref=e219]:
+              - link "Edge Computing" [ref=e220] [cursor=pointer]:
+                - /url: /Edge_Computing/
+            - listitem [ref=e221]:
+              - button "RK Devices" [ref=e223] [cursor=pointer]
+            - listitem [ref=e224]:
+              - generic [ref=e225]:
+                - link "Raspberry Pi Devices" [ref=e226] [cursor=pointer]:
+                  - /url: /raspberry-pi-devices/
+                - button "Expand sidebar category 'Raspberry Pi Devices'" [ref=e227] [cursor=pointer]
+            - listitem [ref=e228]:
+              - generic [ref=e229]:
+                - link "NVIDIA® Jetson™" [ref=e230] [cursor=pointer]:
+                  - /url: /NVIDIA_Jetson/
+                - button "Expand sidebar category 'NVIDIA® Jetson™'" [ref=e231] [cursor=pointer]
+            - listitem [ref=e232]:
+              - button "ESP Devices" [ref=e234] [cursor=pointer]
+            - listitem [ref=e235]:
+              - generic [ref=e236]:
+                - link "BeagleBone®" [ref=e237] [cursor=pointer]:
+                  - /url: /BeagleBone/
+                - button "Expand sidebar category 'BeagleBone®'" [ref=e238] [cursor=pointer]
+            - listitem [ref=e239]:
+              - generic [ref=e240]:
+                - link "ODYSSEY" [ref=e241] [cursor=pointer]:
+                  - /url: /ODYSSEY_Intro/
+                - button "Expand sidebar category 'ODYSSEY'" [ref=e242] [cursor=pointer]
+            - listitem [ref=e243]:
+              - button "reCamera" [ref=e245] [cursor=pointer]
+            - listitem [ref=e246]:
+              - generic [ref=e247]:
+                - link "reTerminal E Series" [ref=e248] [cursor=pointer]:
+                  - /url: /reterminal_e10xx_main_page/
+                - button "Expand sidebar category 'reTerminal E Series'" [ref=e249] [cursor=pointer]
+            - listitem [ref=e250]:
+              - generic [ref=e251]:
+                - link "reTerminal D Series" [ref=e252] [cursor=pointer]:
+                  - /url: /reterminal_d10xx_main_page/
+                - button "Expand sidebar category 'reTerminal D Series'" [ref=e253] [cursor=pointer]
+            - listitem [ref=e254]:
+              - button "Other Edge Devices" [ref=e256] [cursor=pointer]
+            - listitem [ref=e257]:
+              - link "Robotics Page" [ref=e258] [cursor=pointer]:
+                - /url: /robotics_page/
+            - listitem [ref=e259]:
+              - button "Robot Kits" [ref=e261] [cursor=pointer]
+            - listitem [ref=e262]:
+              - button "Actuator" [ref=e264] [cursor=pointer]
+            - listitem [ref=e265]:
+              - button "Sensor" [ref=e267] [cursor=pointer]
+            - listitem [ref=e268]:
+              - button "Software" [ref=e270] [cursor=pointer]
+            - listitem [ref=e271]:
+              - link "SenseCraft & Cloud" [ref=e272] [cursor=pointer]:
+                - /url: /Cloud/
+            - listitem [ref=e273]:
+              - button "SenseCraft AI" [ref=e275] [cursor=pointer]
+            - listitem [ref=e276]:
+              - button "SenseCraft APP" [ref=e278] [cursor=pointer]
+            - listitem [ref=e279]:
+              - button "SenseCraft Data Platform" [ref=e281] [cursor=pointer]
+            - listitem [ref=e282]:
+              - generic [ref=e283]:
+                - link "SenseCraft HMI" [ref=e284] [cursor=pointer]:
+                  - /url: /sensecraft_hmi_overview/
+                - button "Expand sidebar category 'SenseCraft HMI'" [ref=e285] [cursor=pointer]
+            - listitem [ref=e286]:
+              - button "SenseCraft Blockchain" [ref=e288] [cursor=pointer]
+            - listitem [ref=e289]:
+              - link "Solutions" [ref=e290] [cursor=pointer]:
+                - /url: https://www.seeed.cc/category/solutions
+                - text: Solutions
+                - img [ref=e291]
+            - listitem [ref=e293]:
+              - generic [ref=e294]:
+                - link "AI Vision" [ref=e295] [cursor=pointer]:
+                  - /url: /ai-vision/
+                - button "Expand sidebar category 'AI Vision'" [ref=e296] [cursor=pointer]
+            - listitem [ref=e297]:
+              - generic [ref=e298]:
+                - link "AI Sound" [ref=e299] [cursor=pointer]:
+                  - /url: /ai-sound/
+                - button "Expand sidebar category 'AI Sound'" [ref=e300] [cursor=pointer]
+            - listitem [ref=e301]:
+              - button "AI Intelligent" [ref=e303] [cursor=pointer]
+            - listitem [ref=e304]:
+              - button "Device Integration & Control" [ref=e306] [cursor=pointer]
+            - listitem [ref=e307]:
+              - button "Environmental Monitoring" [ref=e309] [cursor=pointer]
+            - listitem [ref=e310]:
+              - generic [ref=e311]:
+                - link "Hazard Response" [ref=e312] [cursor=pointer]:
+                  - /url: /hazard-response/
+                - button "Expand sidebar category 'Hazard Response'" [ref=e313] [cursor=pointer]
+            - listitem [ref=e314]:
+              - button "Indoor-Outdoor Positioning" [ref=e316] [cursor=pointer]
+            - listitem [ref=e317]:
+              - link "Technology Topics" [ref=e318] [cursor=pointer]:
+                - /url: /topicintroduction/
+            - listitem [ref=e319]:
+              - generic [ref=e320]:
+                - link "Home Assistant" [ref=e321] [cursor=pointer]:
+                  - /url: /home_assistant_topic/
+                - button "Expand sidebar category 'Home Assistant'" [ref=e322] [cursor=pointer]
+            - listitem [ref=e323]:
+              - generic [ref=e324]:
+                - link "TinyML" [ref=e325] [cursor=pointer]:
+                  - /url: /tinyml_topic/
+                - button "Expand sidebar category 'TinyML'" [ref=e326] [cursor=pointer]
+            - listitem [ref=e327]:
+              - link "Open Source" [ref=e328] [cursor=pointer]:
+                - /url: /open_source_topic/
+            - listitem [ref=e329]:
+              - link "Edge AI" [ref=e330] [cursor=pointer]:
+                - /url: /edge_ai_topic/
+            - listitem [ref=e331]:
+              - link "Contributions" [ref=e332] [cursor=pointer]:
+                - /url: /Contributor/
+            - listitem [ref=e333]:
+              - generic [ref=e334]:
+                - link "Github Contributions Guide" [ref=e335] [cursor=pointer]:
+                  - /url: /Contribution-Guide/
+                - button "Expand sidebar category 'Github Contributions Guide'" [ref=e336] [cursor=pointer]
+            - listitem [ref=e337]:
+              - link "Scale up Your Creation with Seeed Studio Fusion" [ref=e338] [cursor=pointer]:
+                - /url: /Scale-up-Your-Creation-with-Fusion/
+            - listitem [ref=e339]:
+              - link "Popular Platforms" [ref=e340] [cursor=pointer]:
+                - /url: /popularplatforms/
+            - listitem [ref=e341]:
+              - generic [ref=e342]:
+                - link "Arduino" [ref=e343] [cursor=pointer]:
+                  - /url: /Arduino/
+                - button "Expand sidebar category 'Arduino'" [ref=e344] [cursor=pointer]
+            - listitem [ref=e345]:
+              - generic [ref=e346]:
+                - link "Raspberry Pi" [ref=e347] [cursor=pointer]:
+                  - /url: /Raspberry_Pi/
+                - button "Expand sidebar category 'Raspberry Pi'" [ref=e348] [cursor=pointer]
+            - listitem [ref=e349]:
+              - generic [ref=e350]:
+                - link "Micro:bit" [ref=e351] [cursor=pointer]:
+                  - /url: /microbit_wiki_page/
+                - button "Expand sidebar category 'Micro:bit'" [ref=e352] [cursor=pointer]
+            - listitem [ref=e353]:
+              - link "Discontinued Products" [ref=e354] [cursor=pointer]:
+                - /url: /discontinuedproducts/
+            - listitem [ref=e355]:
+              - button "Product List" [ref=e357] [cursor=pointer]
+            - listitem [ref=e358]:
+              - link "About Seeed" [ref=e359] [cursor=pointer]:
+                - /url: /About/
+            - listitem [ref=e360]:
+              - link "License" [ref=e361] [cursor=pointer]:
+                - /url: /License/
+        - button "Collapse sidebar" [ref=e362] [cursor=pointer]:
+          - img [ref=e363]
+    - main [ref=e367]:
+      - generic [ref=e369]:
+        - generic [ref=e370]:
+          - generic [ref=e371]:
+            - article [ref=e372]:
+              - navigation "Breadcrumbs" [ref=e373]:
+                - list [ref=e374]:
+                  - listitem [ref=e375]:
+                    - link "Home page" [ref=e376] [cursor=pointer]:
+                      - /url: /
+                      - img [ref=e377]
+                  - listitem [ref=e379]:
+                    - link "XIAO" [ref=e380] [cursor=pointer]:
+                      - /url: /SeeedStudio_XIAO_Series_Introduction/
+                  - listitem [ref=e381]:
+                    - generic [ref=e382]: Expansion Boards for XIAO
+                  - listitem [ref=e383]:
+                    - generic [ref=e384]: COB LED Driver Board for XIAO
+              - generic [ref=e385]:
+                - heading "Getting Started with COB LED Driver Board for Seeed Studio XIAO" [level=1] [ref=e387]
+                - img [ref=e389]
+                - link "Get One Now 🖱️" [ref=e391] [cursor=pointer]:
+                  - /url: https://www.seeedstudio.com/COB-LED-Driver-Board-for-Seeed-Studio-XIAO-p-6602.html
+                  - strong [ref=e392]:
+                    - generic [ref=e393]: Get One Now 🖱️
+                - paragraph [ref=e394]: This is a 7-channel COB LED driver dock designed for Seeed Studio XIAO. This expansion board breaks GPIO power limits, offering 7 output channels, specifically tailored for ultra-narrow 1mm 3V COB LED strips. With integrated PMIC battery management, it is the ideal plug-and-play solution for building compact, high-brightness wireless lighting setups.
+                - heading "Safety NotesDirect link to Safety Notes" [level=2] [ref=e395]:
+                  - text: Safety Notes
+                  - link "Direct link to Safety Notes" [ref=e396] [cursor=pointer]:
+                    - /url: "#safety-notes"
+                    - text: "#"
+                - paragraph [ref=e397]:
+                  - strong [ref=e398]: Operation Prohibitions & Safety Rules
+                - list [ref=e399]:
+                  - listitem [ref=e400]: Do not connect any peripherals during charging. Disconnect the light bar first before plugging in the USB-C cable.
+                  - listitem [ref=e401]: When debugging the USB-C port, the battery holder must be empty (no battery installed).
+                  - listitem [ref=e402]: For full load currents >1A, ensure heat dissipation holes are drilled in the housing; otherwise, the PMIC will overheat and shut down.
+                  - listitem [ref=e403]:
+                    - text: "Never touch the PMIC area on the back of the board with bare hands: electrostatic discharge (ESD) can damage the chip, and the surface may reach scalding temperatures under full load."
+                    - strong [ref=e404]: Core Safety Reminders
+                  - listitem [ref=e405]: "Adhere to these four rules for safe operation:"
+                  - listitem [ref=e406]: Single power supply when peripherals are connected
+                  - listitem [ref=e407]: Power off before wiring/disconnecting
+                  - listitem [ref=e408]: Provide adequate heat dissipation holes
+                  - listitem [ref=e409]: Do not touch the backside of the board
+                - img [ref=e411]
+                - heading "IntroductionDirect link to Introduction" [level=2] [ref=e412]:
+                  - text: Introduction
+                  - link "Direct link to Introduction" [ref=e413] [cursor=pointer]:
+                    - /url: "#introduction"
+                    - text: "#"
+                - heading "FeatureDirect link to Feature" [level=3] [ref=e414]:
+                  - text: Feature
+                  - link "Direct link to Feature" [ref=e415] [cursor=pointer]:
+                    - /url: "#feature"
+                    - text: "#"
+                - list [ref=e416]:
+                  - listitem [ref=e417]:
+                    - paragraph [ref=e418]:
+                      - strong [ref=e419]: Adapted for 1mm 3V COB LED Strips
+                    - paragraph [ref=e420]: The onboard hardware current limiting is specifically tuned to match the electrical characteristics of 3V 1mm flexible COB strips.The tiered 300mA and 100mA current limits effectively drive strips of various lengths,providing Makers with a safe,stable and plug-and-play experience.
+                  - listitem [ref=e421]:
+                    - paragraph [ref=e422]:
+                      - strong [ref=e423]: Strategic 7-Channel Hybrid Output
+                    - paragraph [ref=e424]: Efficiently manages your entire lighting setup with a single board. It features 3 High-Power Channels (300mA) for bright main lighting and 4 Dimmable Channels (80mA) for delicate breathing or fading effects. One board handles it all—keeping your main lights bright and your effects dynamic.
+                  - listitem [ref=e425]:
+                    - paragraph [ref=e426]:
+                      - strong [ref=e427]: Battery Management for Wireless Projects
+                    - paragraph [ref=e428]: Integrated power circuit supports 3.7V Li-Po batteries or high-power 5V USB adapters.Perfect for building both wireless installations and high-brightness desktop ambient lighting.
+                  - listitem [ref=e429]:
+                    - paragraph [ref=e430]:
+                      - strong [ref=e431]: Easy Sensor Expansion
+                    - paragraph [ref=e432]: Includes a standard Grove I2C connector for hassle-free connection to sensors,allowing your lighting projects to react intelligently to the environment.
+                    - heading "SpecificationDirect link to Specification" [level=3] [ref=e433]:
+                      - text: Specification
+                      - link "Direct link to Specification" [ref=e434] [cursor=pointer]:
+                        - /url: "#specification"
+                        - text: "#"
+                - table [ref=e435]:
+                  - rowgroup [ref=e436]:
+                    - row "LED Power Support DC 3V" [ref=e437]:
+                      - rowheader "LED Power Support" [ref=e438]
+                      - cell "DC 3V" [ref=e439]
+                    - 'row "Power Input 5V USB (via XIAO) Note: A 5V/2A+ wall adapter is recommended for full-load operation. 3.7V Li-Po Battery (via onboard Battery Port)" [ref=e440]':
+                      - rowheader "Power Input" [ref=e441]
+                      - 'cell "5V USB (via XIAO) Note: A 5V/2A+ wall adapter is recommended for full-load operation. 3.7V Li-Po Battery (via onboard Battery Port)" [ref=e442]':
+                        - paragraph [ref=e443]:
+                          - text: 5V USB (via XIAO)
+                          - text: "Note: A 5V/2A+ wall adapter is recommended for full-load operation."
+                          - text: 3.7V Li-Po Battery (via onboard Battery Port)
+                    - 'row "3× High-Power Ports (Screw Terminals) 3 Channels Output Drive Capability: Max 300mA/channel Control Logic: 1× Always-On + 2× GPIO Switch (D0, D1) Note: On/Off Switch Only, NO PWM Support" [ref=e444]':
+                      - rowheader "3× High-Power Ports (Screw Terminals)" [ref=e445]:
+                        - text: 3× High-Power Ports
+                        - text: (Screw Terminals)
+                      - 'cell "3 Channels Output Drive Capability: Max 300mA/channel Control Logic: 1× Always-On + 2× GPIO Switch (D0, D1) Note: On/Off Switch Only, NO PWM Support" [ref=e446]':
+                        - paragraph [ref=e447]:
+                          - text: 3 Channels Output
+                          - text: "Drive Capability: Max 300mA/channel"
+                          - text: "Control Logic: 1× Always-On + 2× GPIO Switch (D0, D1)"
+                          - text: "Note: On/Off Switch Only, NO PWM Support"
+                    - 'row "4× FX/PWM Ports (Bottom Pads) 4 Channels Output Drive Capability: Max 80mA/channel Control Logic: Fully Dimmable (PWM) via D2, D3, D8, D9 Note: Active LOW logic" [ref=e448]':
+                      - rowheader "4× FX/PWM Ports (Bottom Pads)" [ref=e449]:
+                        - text: 4× FX/PWM Ports
+                        - text: (Bottom Pads)
+                      - 'cell "4 Channels Output Drive Capability: Max 80mA/channel Control Logic: Fully Dimmable (PWM) via D2, D3, D8, D9 Note: Active LOW logic" [ref=e450]':
+                        - paragraph [ref=e451]:
+                          - text: 4 Channels Output
+                          - text: "Drive Capability: Max 80mA/channel"
+                          - text: "Control Logic: Fully Dimmable (PWM) via D2, D3, D8, D9"
+                          - text: "Note: Active LOW logic"
+                    - row "Onboard Grove I²C Connector ×1 Power Switch ×1 Power LED ×1 Battery Connector ×1" [ref=e452]:
+                      - rowheader "Onboard" [ref=e453]
+                      - cell "Grove I²C Connector ×1 Power Switch ×1 Power LED ×1 Battery Connector ×1" [ref=e454]:
+                        - paragraph [ref=e455]:
+                          - text: Grove I²C Connector ×1
+                          - text: Power Switch ×1
+                          - text: Power LED ×1
+                          - text: Battery Connector ×1
+                    - row "Dimensions 30mm*41mm*16mm (With a Seeed Studio XIAO)" [ref=e456]:
+                      - rowheader "Dimensions" [ref=e457]
+                      - cell "30mm*41mm*16mm (With a Seeed Studio XIAO)" [ref=e458]:
+                        - code [ref=e459]: 30mm*41mm*16mm
+                        - text: (With a Seeed Studio XIAO)
+                - heading "Hardware OverviewDirect link to Hardware Overview" [level=3] [ref=e460]:
+                  - text: Hardware Overview
+                  - link "Direct link to Hardware Overview" [ref=e461] [cursor=pointer]:
+                    - /url: "#hardware-overview"
+                    - text: "#"
+                - img [ref=e463]
+                - list [ref=e464]:
+                  - listitem [ref=e465]:
+                    - strong [ref=e466]: "(1) D1-High-Power Port:"
+                    - text: A high-power port that supports a maximum current of 300mA, only allows ON/OFF switch control (PWM dimming is not supported), and is used to connect high-power loads.
+                  - listitem [ref=e467]:
+                    - strong [ref=e468]: "(2) D0-High-Power Port:"
+                    - text: A high-power port that supports a maximum current of 300mA, only allows ON/OFF switch control (PWM dimming is not supported), and is used to connect high-power loads.
+                  - listitem [ref=e469]:
+                    - strong [ref=e470]: "(3) VCC-Always-On Port:"
+                    - text: An always-powered VCC port that supports a maximum current of 300mA, is not controlled by the power switch, always outputs the supply voltage, and can power devices that require continuous power.
+                  - listitem [ref=e471]:
+                    - strong [ref=e472]: "(4) GND:"
+                    - text: The common ground port of the circuit, used to connect the ground wires of all modules.
+                  - listitem [ref=e473]:
+                    - strong [ref=e474]: "(5) I²C Grove Port:"
+                    - text: A Grove-standard I²C interface (including VCC, GND, SDA, SCL pins), used to connect Grove modules that support the I²C protocol (such as sensors, displays).
+                  - listitem [ref=e475]:
+                    - strong [ref=e476]: "(6) Power Switch:"
+                    - text: A power control switch; when toggled to "ON", it supplies power to high/low-power ports; when toggled to "OFF", it cuts off power (the VCC always-on port is not controlled by this switch).
+                  - listitem [ref=e477]:
+                    - strong [ref=e478]: "(7) Power LED:"
+                    - text: A power status indicator light that turns on when the power switch is toggled to "ON", indicating the module is powered.
+                  - listitem [ref=e479]:
+                    - strong [ref=e480]: "(8) Battery Connector:"
+                    - text: A battery interface that supports connection of 3.7V lithium batteries to power the module.
+                  - listitem [ref=e481]:
+                    - strong [ref=e482]: "(9) D2-Low-Power Port:"
+                    - text: A low-power port that supports a maximum current of 80mA, supports PWM dimming, and uses active LOW logic (the load operates when the level is low).
+                  - listitem [ref=e483]:
+                    - strong [ref=e484]: "(10) GND:"
+                    - text: A ground port in the low-power area, used to connect the ground wires of low-power loads.
+                  - listitem [ref=e485]:
+                    - strong [ref=e486]: "(11) D3-Low-Power Port:"
+                    - text: A low-power port that supports a maximum current of 80mA, supports PWM dimming, and uses active LOW logic (the load operates when the level is low).
+                  - listitem [ref=e487]:
+                    - strong [ref=e488]: "(12) D9-Low-Power Port:"
+                    - text: A low-power port that supports a maximum current of 80mA, supports PWM dimming, and uses active LOW logic (the load operates when the level is low).
+                  - listitem [ref=e489]:
+                    - strong [ref=e490]: "(13) D8-Low-Power Port:"
+                    - text: A low-power port that supports a maximum current of 80mA, supports PWM dimming, and uses active LOW logic (the load operates when the level is low).
+                - heading "Supported COB LEDs GuideDirect link to Supported COB LEDs Guide" [level=4] [ref=e491]:
+                  - text: Supported COB LEDs Guide
+                  - link "Direct link to Supported COB LEDs Guide" [ref=e492] [cursor=pointer]:
+                    - /url: "#supported-cob-leds-guide"
+                    - text: "#"
+                - heading "Supported LEDs GuideDirect link to Supported LEDs Guide" [level=4] [ref=e493]:
+                  - text: Supported LEDs Guide
+                  - link "Direct link to Supported LEDs Guide" [ref=e494] [cursor=pointer]:
+                    - /url: "#supported-leds-guide"
+                    - text: "#"
+                - table [ref=e496]:
+                  - row "Product Name Length Operating Current Luminous Flux" [ref=e497]:
+                    - columnheader "Product" [ref=e498]
+                    - columnheader "Name" [ref=e499]
+                    - columnheader "Length" [ref=e500]
+                    - columnheader "Operating Current" [ref=e501]
+                    - columnheader "Luminous Flux" [ref=e502]
+                  - row "Double Ended COB LED Strip - White(6500K) 38mm 100mA (Recommended) >20 lm (@ 100mA)" [ref=e503]:
+                    - cell [ref=e504]:
+                      - img [ref=e505]
+                    - cell "Double Ended COB LED Strip - White(6500K)" [ref=e506]:
+                      - link "Double Ended COB LED Strip - White(6500K)" [ref=e507] [cursor=pointer]:
+                        - /url: https://www.seeedstudio.com/Double-Ended-COB-LED-Strip-White-6500K-38mm-10PCS-p-6592.html
+                    - cell "38mm" [ref=e508]
+                    - cell "100mA (Recommended)" [ref=e509]
+                    - cell ">20 lm (@ 100mA)" [ref=e510]
+                  - row "Double Ended COB LED Strip - White(6500K) 130mm 300mA (Recommended) 21-25 lm (@ 300mA)" [ref=e511]:
+                    - cell [ref=e512]:
+                      - img [ref=e513]
+                    - cell "Double Ended COB LED Strip - White(6500K)" [ref=e514]:
+                      - link "Double Ended COB LED Strip - White(6500K)" [ref=e515] [cursor=pointer]:
+                        - /url: https://www.seeedstudio.com/Double-Ended-COB-LED-Strip-White-6500K-130mm-5PCS-p-6593.html
+                    - cell "130mm" [ref=e516]
+                    - cell "300mA (Recommended)" [ref=e517]
+                    - cell "21-25 lm (@ 300mA)" [ref=e518]
+                  - row "Double Ended COB LED Strip - White(6500K) 300mm 300mA (Recommended) >50 lm (@ 300mA)" [ref=e519]:
+                    - cell [ref=e520]:
+                      - img [ref=e521]
+                    - cell "Double Ended COB LED Strip - White(6500K)" [ref=e522]:
+                      - link "Double Ended COB LED Strip - White(6500K)" [ref=e523] [cursor=pointer]:
+                        - /url: https://www.seeedstudio.com/Double-Ended-COB-LED-Strip-White-6500K-300mm-5PCS-p-6594.html
+                    - cell "300mm" [ref=e524]
+                    - cell "300mA (Recommended)" [ref=e525]
+                    - cell ">50 lm (@ 300mA)" [ref=e526]
+                  - row "Single Ended COB LED Strip - White(6500K) 110mm 100mA (Recommended) >23 lm (@ 200mA)" [ref=e527]:
+                    - cell [ref=e528]:
+                      - img [ref=e529]
+                    - cell "Single Ended COB LED Strip - White(6500K)" [ref=e530]:
+                      - link "Single Ended COB LED Strip - White(6500K)" [ref=e531] [cursor=pointer]:
+                        - /url: https://www.seeedstudio.com/Single-Ended-COB-LED-Strip-White-6500K-110mm-5PCS-p-6590.html
+                    - cell "110mm" [ref=e532]
+                    - cell "100mA (Recommended)" [ref=e533]
+                    - cell ">23 lm (@ 200mA)" [ref=e534]
+                  - row "Single Ended COB LED Strip - White(6500K) 300mm 100mA (Recommended) >22 lm (@ 100mA)" [ref=e535]:
+                    - cell [ref=e536]:
+                      - img [ref=e537]
+                    - cell "Single Ended COB LED Strip - White(6500K)" [ref=e538]:
+                      - link "Single Ended COB LED Strip - White(6500K)" [ref=e539] [cursor=pointer]:
+                        - /url: https://www.seeedstudio.com/Single-Ended-COB-LED-Strip-White-6500K-300mm-5PCS-p-6591.html
+                    - cell "300mm" [ref=e540]
+                    - cell "100mA (Recommended)" [ref=e541]
+                    - cell ">22 lm (@ 100mA)" [ref=e542]
+                - heading "Getting StartedDirect link to Getting Started" [level=2] [ref=e543]:
+                  - text: Getting Started
+                  - link "Direct link to Getting Started" [ref=e544] [cursor=pointer]:
+                    - /url: "#getting-started"
+                    - text: "#"
+                - paragraph [ref=e545]: To unlock the full potential of the COB LED Driver Board and enjoy the best possible experience, we strongly recommend pairing it with a Seeed Studio XIAO board and our matching COB LED strips.
+                - generic [ref=e546]:
+                  - generic [ref=e547]:
+                    - img [ref=e549]
+                    - text: note
+                  - generic [ref=e551]:
+                    - paragraph [ref=e552]: "For safety:"
+                    - list [ref=e553]:
+                      - listitem [ref=e554]:
+                        - strong [ref=e555]: When charging the Li-ion battery
+                        - text: ", disconnect the LED strip and any other peripherals."
+                      - listitem [ref=e556]:
+                        - strong [ref=e557]: When connecting USB-C 5 V for programming or debugging
+                        - text: ", disconnect the battery."
+                    - paragraph [ref=e558]:
+                      - text: Using
+                      - strong [ref=e559]: either
+                      - text: the battery alone
+                      - strong [ref=e560]: or
+                      - text: the 5 V external supply alone is safe.It is not recommended to connect peripheral devices while charging.
+                - heading "Play with ArduinoDirect link to Play with Arduino" [level=3] [ref=e561]:
+                  - text: Play with Arduino
+                  - link "Direct link to Play with Arduino" [ref=e562] [cursor=pointer]:
+                    - /url: "#play-with-arduino"
+                    - text: "#"
+                - paragraph [ref=e563]: You need to configure the Arduino environment for the XIAO and add the on-board package.
+                - generic [ref=e564]:
+                  - generic [ref=e565]:
+                    - img [ref=e567]
+                    - text: tip
+                  - paragraph [ref=e570]:
+                    - text: If this is your first time using Arduino, we highly recommend you to refer to
+                    - link "Getting Started with Arduino" [ref=e571] [cursor=pointer]:
+                      - /url: https://wiki.seeedstudio.com/Getting_Started_with_Arduino/
+                    - text: .
+                - heading "Software PreparationDirect link to Software Preparation" [level=4] [ref=e572]:
+                  - text: Software Preparation
+                  - link "Direct link to Software Preparation" [ref=e573] [cursor=pointer]:
+                    - /url: "#software-preparation"
+                    - text: "#"
+                - paragraph [ref=e574]:
+                  - strong [ref=e575]: Step 1.
+                  - text: Launch the Arduino application.
+                - img [ref=e577]
+                - link "Download Arduino IDE" [ref=e579] [cursor=pointer]:
+                  - /url: https://www.arduino.cc/en/software
+                  - strong [ref=e580]:
+                    - generic [ref=e581]: Download Arduino IDE
+                - paragraph [ref=e582]:
+                  - strong [ref=e583]: Step 2.
+                  - text: Select your development board model and add it to the Arduino IDE.
+                - list [ref=e584]:
+                  - listitem [ref=e585]:
+                    - paragraph [ref=e586]:
+                      - text: If you want to use
+                      - strong [ref=e587]: Seeed Studio XIAO RP2040
+                      - text: for the later routines, please refer to
+                      - strong [ref=e588]:
+                        - link "this tutorial" [ref=e589] [cursor=pointer]:
+                          - /url: https://wiki.seeedstudio.com/XIAO-RP2040-with-Arduino/#software-setup
+                      - text: to finish adding.
+                  - listitem [ref=e590]:
+                    - paragraph [ref=e591]:
+                      - text: If you want to use
+                      - strong [ref=e592]: Seeed Studio XIAO RP2350
+                      - text: for the later routines, please refer to
+                      - strong [ref=e593]:
+                        - link "this tutorial" [ref=e594] [cursor=pointer]:
+                          - /url: https://wiki.seeedstudio.com/xiao_rp2350_arduino/#setting-up-the-software
+                      - text: to finish adding.
+                  - listitem [ref=e595]:
+                    - paragraph [ref=e596]:
+                      - text: If you want to use
+                      - strong [ref=e597]: Seeed Studio XIAO nRF52840
+                      - text: for the later routines, please refer to
+                      - strong [ref=e598]:
+                        - link "this tutorial" [ref=e599] [cursor=pointer]:
+                          - /url: https://wiki.seeedstudio.com/XIAO_BLE/#software-setup
+                      - text: to finish adding.
+                  - listitem [ref=e600]:
+                    - paragraph [ref=e601]:
+                      - text: If you want to use
+                      - strong [ref=e602]: Seeed Studio XIAO ESP32-C3
+                      - text: for the later routines, please refer to
+                      - strong [ref=e603]:
+                        - link "this tutorial" [ref=e604] [cursor=pointer]:
+                          - /url: https://wiki.seeedstudio.com/XIAO_ESP32C3_Getting_Started#software-setup
+                      - text: to finish adding.
+                  - listitem [ref=e605]:
+                    - paragraph [ref=e606]:
+                      - text: If you want to use
+                      - strong [ref=e607]: Seeed Studio XIAO ESP32-C6
+                      - text: for the later routines, please refer to
+                      - strong [ref=e608]:
+                        - link "this tutorial" [ref=e609] [cursor=pointer]:
+                          - /url: https://wiki.seeedstudio.com/xiao_esp32c6_getting_started/#software-preparation
+                      - text: to finish adding.
+                  - listitem [ref=e610]:
+                    - paragraph [ref=e611]:
+                      - text: If you want to use
+                      - strong [ref=e612]: Seeed Studio XIAO ESP32-S3
+                      - text: for the later routines, please refer to
+                      - strong [ref=e613]:
+                        - link "this tutorial" [ref=e614] [cursor=pointer]:
+                          - /url: https://wiki.seeedstudio.com/xiao_esp32s3_getting_started#software-preparation
+                      - text: to finish adding.
+                  - listitem [ref=e615]:
+                    - paragraph [ref=e616]:
+                      - text: If you want to use
+                      - strong [ref=e617]: Seeed Studio XIAO RA4M1
+                      - text: for the later routines, please refer to
+                      - strong [ref=e618]:
+                        - link "this tutorial" [ref=e619] [cursor=pointer]:
+                          - /url: https://wiki.seeedstudio.com/getting_started_xiao_ra4m1/#software-preparation
+                      - text: to finish adding.
+                  - listitem [ref=e620]:
+                    - paragraph [ref=e621]:
+                      - text: If you want to use
+                      - strong [ref=e622]: Seeed Studio XIAO MG24
+                      - text: for the later routines, please refer to
+                      - strong [ref=e623]:
+                        - link "this tutorial" [ref=e624] [cursor=pointer]:
+                          - /url: https://wiki.seeedstudio.com/xiao_mg24_getting_started/#software-preparation
+                      - text: to finish adding.
+                - generic [ref=e625]:
+                  - generic [ref=e626]:
+                    - img [ref=e628]
+                    - text: tip
+                  - paragraph [ref=e631]: The XIAO SAMD21 and XIAO nRF54L15 only work when powered via USB-C and cannot be used with a battery alone. Additionally, the nRF54L15 does not operate in the Arduino environment.
+                - heading "Low-Power Port Driver ExampleDirect link to Low-Power Port Driver Example" [level=4] [ref=e632]:
+                  - text: Low-Power Port Driver Example
+                  - link "Direct link to Low-Power Port Driver Example" [ref=e633] [cursor=pointer]:
+                    - /url: "#low-power-port-driver-example"
+                    - text: "#"
+                - paragraph [ref=e634]: A low-power port that supports a maximum current of 80mA, supports PWM dimming, and uses active LOW logic (the load operates when the level is low).
+                - paragraph [ref=e635]:
+                  - strong [ref=e636]: Step 1.
+                  - text: Hardware preparation
+                - table [ref=e637]:
+                  - row "Seeed Studio XIAO ESP32-C3 COB LED Driver Board Single Ended COB LED Strip" [ref=e638]:
+                    - columnheader "Seeed Studio XIAO ESP32-C3" [ref=e639]
+                    - columnheader "COB LED Driver Board" [ref=e640]
+                    - columnheader "Single Ended COB LED Strip" [ref=e641]
+                  - row [ref=e642]:
+                    - cell [ref=e643]:
+                      - img [ref=e645]
+                    - cell [ref=e646]:
+                      - img [ref=e648]
+                    - cell [ref=e649]:
+                      - img [ref=e651]
+                  - row "Get One Now 🖱️ Get One Now 🖱️ Get One Now 🖱️" [ref=e652]:
+                    - cell "Get One Now 🖱️" [ref=e653]:
+                      - link "Get One Now 🖱️" [ref=e655] [cursor=pointer]:
+                        - /url: https://www.seeedstudio.com/Seeed-XIAO-ESP32C3-p-5431.html
+                        - strong [ref=e656]:
+                          - generic [ref=e657]: Get One Now 🖱️
+                    - cell "Get One Now 🖱️" [ref=e658]:
+                      - link "Get One Now 🖱️" [ref=e660] [cursor=pointer]:
+                        - /url: https://www.seeedstudio.com/COB-LED-Driver-Board-for-Seeed-Studio-XIAO-p-6602.html
+                        - strong [ref=e661]:
+                          - generic [ref=e662]: Get One Now 🖱️
+                    - cell "Get One Now 🖱️" [ref=e663]:
+                      - link "Get One Now 🖱️" [ref=e665] [cursor=pointer]:
+                        - /url: https://www.seeedstudio.com/Single-Ended-COB-LED-Strip-White-6500K-300mm-5PCS-p-6591.html
+                        - strong [ref=e666]:
+                          - generic [ref=e667]: Get One Now 🖱️
+                - generic [ref=e668]:
+                  - generic [ref=e669]:
+                    - img [ref=e671]
+                    - text: tip
+                  - paragraph [ref=e674]: When connecting the XIAO to the driver board, be sure to unplug the USB cable.
+                - paragraph [ref=e675]:
+                  - strong [ref=e676]: Step 2.
+                  - text: "Connect Seeed Studio XIAO ESP32-C3,COB LED Driver Board for XIAO and Single Ended COB LED Strip as show below:"
+                - img [ref=e678]
+                - img [ref=e680]
+                - paragraph [ref=e681]:
+                  - strong [ref=e682]: Step 3.
+                  - text: Connect the XIAO to the USB flashing program. Copy and download the related example sketch.
+                - generic [ref=e684]:
+                  - code [ref=e686]:
+                    - generic [ref=e687]: "#define LED_BUILTIN D2"
+                    - generic [ref=e688]: // the setup function runs once when you press reset or power the board
+                    - generic [ref=e689]: "void setup() {"
+                    - generic [ref=e690]: // initialize digital pin LED_BUILTIN as an output.
+                    - generic [ref=e691]: pinMode(LED_BUILTIN, OUTPUT);
+                    - generic [ref=e692]: "}"
+                    - generic [ref=e693]: // the loop function runs over and over again forever
+                    - generic [ref=e694]: "void loop() {"
+                    - generic [ref=e695]: digitalWrite(LED_BUILTIN, LOW); // turn the LED on by making the voltage LOW
+                    - generic [ref=e696]: // digitalWrite(LED_BUILTIN, HIGH); // turn the LED off (HIGH is the voltage level)
+                    - generic [ref=e697]: "}"
+                  - generic [ref=e698]:
+                    - button "Toggle word wrap" [ref=e699] [cursor=pointer]:
+                      - img [ref=e700]
+                    - button "Copy code to clipboard" [ref=e702] [cursor=pointer]:
+                      - generic [ref=e703]:
+                        - img [ref=e704]
+                        - img [ref=e706]
+                - generic [ref=e708]:
+                  - generic [ref=e709]:
+                    - img [ref=e711]
+                    - text: tip
+                  - paragraph [ref=e714]: "“Low-Power Port” in the comment means active-low: pull the pin LOW to turn the strip ON, release (HIGH) to turn it OFF."
+                - paragraph [ref=e715]: "The code simply controls the GPIO pins HIGH or LOW. Since the driver board is already configured, you do not need to download any extra libraries. Follow the image link,upload the program and power COB LED Driver Board, if all goes well, you can see like this:"
+                - img [ref=e717]
+                - heading "High-Power Port Driver ExampleDirect link to High-Power Port Driver Example" [level=4] [ref=e718]:
+                  - text: High-Power Port Driver Example
+                  - link "Direct link to High-Power Port Driver Example" [ref=e719] [cursor=pointer]:
+                    - /url: "#high-power-port-driver-example"
+                    - text: "#"
+                - paragraph [ref=e720]: A high-power port that supports a maximum current of 300mA, only allows ON/OFF switch control (PWM dimming is not supported), and is used to connect high-power loads.
+                - paragraph [ref=e721]:
+                  - strong [ref=e722]: Step 1.
+                  - text: Hardware preparation
+                - table [ref=e723]:
+                  - row "Seeed Studio XIAO ESP32-C3 COB LED Driver Board Double Ended COB LED Strip" [ref=e724]:
+                    - columnheader "Seeed Studio XIAO ESP32-C3" [ref=e725]
+                    - columnheader "COB LED Driver Board" [ref=e726]
+                    - columnheader "Double Ended COB LED Strip" [ref=e727]
+                  - row [ref=e728]:
+                    - cell [ref=e729]:
+                      - img [ref=e731]
+                    - cell [ref=e732]:
+                      - img [ref=e734]
+                    - cell [ref=e735]:
+                      - img [ref=e737]
+                  - row "Get One Now 🖱️ Get One Now 🖱️ Get One Now 🖱️" [ref=e738]:
+                    - cell "Get One Now 🖱️" [ref=e739]:
+                      - link "Get One Now 🖱️" [ref=e741] [cursor=pointer]:
+                        - /url: https://www.seeedstudio.com/Seeed-XIAO-ESP32C3-p-5431.html
+                        - strong [ref=e742]:
+                          - generic [ref=e743]: Get One Now 🖱️
+                    - cell "Get One Now 🖱️" [ref=e744]:
+                      - link "Get One Now 🖱️" [ref=e746] [cursor=pointer]:
+                        - /url: https://www.seeedstudio.com/COB-LED-Driver-Board-for-Seeed-Studio-XIAO-p-6602.html
+                        - strong [ref=e747]:
+                          - generic [ref=e748]: Get One Now 🖱️
+                    - cell "Get One Now 🖱️" [ref=e749]:
+                      - link "Get One Now 🖱️" [ref=e751] [cursor=pointer]:
+                        - /url: https://www.seeedstudio.com/Double-Ended-COB-LED-Strip-White-6500K-300mm-5PCS-p-6594.html
+                        - strong [ref=e752]:
+                          - generic [ref=e753]: Get One Now 🖱️
+                - paragraph [ref=e754]:
+                  - strong [ref=e755]: Step 2.
+                  - text: "Connect Seeed Studio XIAO ESP32-C3,COB LED Driver Board for XIAO and Double Ended COB LED Strip as show below:"
+                - img [ref=e757]
+                - img [ref=e759]
+                - paragraph [ref=e760]:
+                  - strong [ref=e761]: Step 3.
+                  - text: Connect the XIAO to the USB flashing program. Copy and download the related example sketch.
+                - generic [ref=e763]:
+                  - code [ref=e765]:
+                    - generic [ref=e766]: "#define LED_BUILTIN D0"
+                    - generic [ref=e767]: // the setup function runs once when you press reset or power the board
+                    - generic [ref=e768]: "void setup() {"
+                    - generic [ref=e769]: // initialize digital pin LED_BUILTIN as an output.
+                    - generic [ref=e770]: pinMode(LED_BUILTIN, OUTPUT);
+                    - generic [ref=e771]: "}"
+                    - generic [ref=e772]: // the loop function runs over and over again forever
+                    - generic [ref=e773]: "void loop() {"
+                    - generic [ref=e774]: digitalWrite(LED_BUILTIN, HIGH); // turn the LED on (HIGH is the voltage level)
+                    - generic [ref=e775]: // digitalWrite(LED_BUILTIN, LOW); // turn the LED off by making the voltage LOW
+                    - generic [ref=e776]: "}"
+                  - generic [ref=e777]:
+                    - button "Toggle word wrap" [ref=e778] [cursor=pointer]:
+                      - img [ref=e779]
+                    - button "Copy code to clipboard" [ref=e781] [cursor=pointer]:
+                      - generic [ref=e782]:
+                        - img [ref=e783]
+                        - img [ref=e785]
+                - paragraph [ref=e787]: "The code simply controls the GPIO pins HIGH or LOW. Since the driver board is already configured, you do not need to download any extra libraries. Follow the image link,upload the program and power COB LED Driver Board, if all goes well, you can see like this:"
+                - img [ref=e789]
+                - heading "Low-Power Port Driver PWM ExampleDirect link to Low-Power Port Driver PWM Example" [level=4] [ref=e790]:
+                  - text: Low-Power Port Driver PWM Example
+                  - link "Direct link to Low-Power Port Driver PWM Example" [ref=e791] [cursor=pointer]:
+                    - /url: "#low-power-port-driver--pwm-example"
+                    - text: "#"
+                - paragraph [ref=e792]:
+                  - text: A low-power port that supports a maximum current of 80mA, supports PWM dimming, and uses active LOW logic (the load operates when the level is low).
+                  - strong [ref=e793]: Step 1.
+                  - text: Hardware preparation
+                - table [ref=e794]:
+                  - row "Seeed Studio XIAO ESP32-C3 COB LED Driver Board Single Ended COB LED Strip Double Ended COB LED Strip" [ref=e795]:
+                    - columnheader "Seeed Studio XIAO ESP32-C3" [ref=e796]
+                    - columnheader "COB LED Driver Board" [ref=e797]
+                    - columnheader "Single Ended COB LED Strip" [ref=e798]
+                    - columnheader "Double Ended COB LED Strip" [ref=e799]
+                  - row [ref=e800]:
+                    - cell [ref=e801]:
+                      - img [ref=e803]
+                    - cell [ref=e804]:
+                      - img [ref=e806]
+                    - cell [ref=e807]:
+                      - img [ref=e809]
+                    - cell [ref=e810]:
+                      - img [ref=e812]
+                  - row "Get One Now 🖱️ Get One Now 🖱️ Get One Now 🖱️ Get One Now 🖱️" [ref=e813]:
+                    - cell "Get One Now 🖱️" [ref=e814]:
+                      - link "Get One Now 🖱️" [ref=e816] [cursor=pointer]:
+                        - /url: https://www.seeedstudio.com/Seeed-XIAO-ESP32C3-p-5431.html
+                        - strong [ref=e817]:
+                          - generic [ref=e818]: Get One Now 🖱️
+                    - cell "Get One Now 🖱️" [ref=e819]:
+                      - link "Get One Now 🖱️" [ref=e821] [cursor=pointer]:
+                        - /url: https://www.seeedstudio.com/COB-LED-Driver-Board-for-Seeed-Studio-XIAO-p-6602.html
+                        - strong [ref=e822]:
+                          - generic [ref=e823]: Get One Now 🖱️
+                    - cell "Get One Now 🖱️" [ref=e824]:
+                      - link "Get One Now 🖱️" [ref=e826] [cursor=pointer]:
+                        - /url: https://www.seeedstudio.com/Single-Ended-COB-LED-Strip-White-6500K-300mm-5PCS-p-6591.html
+                        - strong [ref=e827]:
+                          - generic [ref=e828]: Get One Now 🖱️
+                    - cell "Get One Now 🖱️" [ref=e829]:
+                      - link "Get One Now 🖱️" [ref=e831] [cursor=pointer]:
+                        - /url: https://www.seeedstudio.com/Double-Ended-COB-LED-Strip-White-6500K-300mm-5PCS-p-6594.html
+                        - strong [ref=e832]:
+                          - generic [ref=e833]: Get One Now 🖱️
+                - paragraph [ref=e834]:
+                  - strong [ref=e835]: Step 2.
+                  - text: "Connect Seeed Studio XIAO ESP32-C3,COB LED Driver Board for XIAO,Single Ended COB LED Strip and Double Ended COB LED Strip as show below:"
+                - img [ref=e837]
+                - paragraph [ref=e838]:
+                  - strong [ref=e839]: Step 3.
+                  - text: Connect the XIAO to the USB flashing program. Copy and download the related example sketch.
+                - generic [ref=e841]:
+                  - code [ref=e843]:
+                    - generic [ref=e844]: "#include <Arduino.h>"
+                    - generic [ref=e845]: // ================= Define Pins =================
+                    - generic [ref=e846]: const int PIN_STRIP_1 = D2;
+                    - generic [ref=e847]: const int PIN_STRIP_2 = D3;
+                    - generic [ref=e848]: // ================= Parameter Configuration =================
+                    - generic [ref=e849]: "// Breathing speed: larger number = slower, smaller number = faster"
+                    - generic [ref=e850]: const int BREATH_SPEED = 2000;
+                    - generic [ref=e851]: "// Breathing phase offset: determines if the two light strips \"light up together\" or \"alternate lighting\""
+                    - generic [ref=e852]: // float PHASE_OFFSET = 0; // Set to 0 -> fully synchronized
+                    - generic [ref=e853]: float PHASE_OFFSET = PI; // Set to PI (3.14) -> fully alternating (complementary)
+                    - generic [ref=e854]: // float PHASE_OFFSET = PI/2; // Set to PI/2 -> slightly staggered rhythm
+                    - generic [ref=e855]: "// ================= Helper Function: Handle Active LOW Lighting Logic ================="
+                    - generic [ref=e856]: // This step is crucial, do not modify
+                    - generic [ref=e857]: "// Input: brightness (0=off, 255=maximum brightness)"
+                    - generic [ref=e858]: "void setLedBrightness(int pin, int brightness) {"
+                    - generic [ref=e859]: // 1. Safety limit range
+                    - generic [ref=e860]: brightness = constrain(brightness, 0, 255);
+                    - generic [ref=e862]: // 2. Logic inversion (Active LOW)
+                    - generic [ref=e863]: // Brightness 255 -> Output 0 (GND) -> Light at maximum brightness
+                    - generic [ref=e864]: // Brightness 0 -> Output 255 (VCC) -> Light off
+                    - generic [ref=e865]: int pwmValue = 255 - brightness;
+                    - generic [ref=e867]: analogWrite(pin, pwmValue);
+                    - generic [ref=e868]: "}"
+                    - generic [ref=e869]: // ================= Math Function for Calculating Breathing Brightness =================
+                    - generic [ref=e870]: // Using the algorithm (e^sin(x) - 1/e), which mimics human breathing curve better than ordinary triangular wave
+                    - generic [ref=e871]: "int calculateBreathBrightness(unsigned long time, float phaseOffset) {"
+                    - generic [ref=e872]: "// Calculate angle: time / speed factor"
+                    - generic [ref=e873]: float angle = (time / (float)BREATH_SPEED) * PI;
+                    - generic [ref=e875]: // Add phase offset
+                    - generic [ref=e876]: angle += phaseOffset;
+                    - generic [ref=e878]: // Core formula
+                    - generic [ref=e879]: float val = (exp(sin(angle)) - 0.36787944) * 108.0;
+                    - generic [ref=e881]: return (int)val;
+                    - generic [ref=e882]: "}"
+                    - generic [ref=e883]: "void setup() {"
+                    - generic [ref=e884]: pinMode(PIN_STRIP_1, OUTPUT);
+                    - generic [ref=e885]: pinMode(PIN_STRIP_2, OUTPUT);
+                    - generic [ref=e886]: "// Initialization: turn off all lights first"
+                    - generic [ref=e887]: setLedBrightness(PIN_STRIP_1, 0);
+                    - generic [ref=e888]: setLedBrightness(PIN_STRIP_2, 0);
+                    - generic [ref=e889]: "}"
+                    - generic [ref=e890]: "void loop() {"
+                    - generic [ref=e891]: unsigned long currentMillis = millis();
+                    - generic [ref=e892]: // 1. Calculate brightness for D2 (no offset)
+                    - generic [ref=e893]: int bright1 = calculateBreathBrightness(currentMillis, 0);
+                    - generic [ref=e894]: setLedBrightness(PIN_STRIP_1, bright1);
+                    - generic [ref=e895]: // 2. Calculate brightness for D3 (with offset)
+                    - generic [ref=e896]: int bright2 = calculateBreathBrightness(currentMillis, PHASE_OFFSET);
+                    - generic [ref=e897]: setLedBrightness(PIN_STRIP_2, bright2);
+                    - generic [ref=e898]: // The delay here doesn't need to be too long, just give the CPU a short break
+                    - generic [ref=e899]: delay(5);
+                    - generic [ref=e900]: "}"
+                  - generic [ref=e901]:
+                    - button "Toggle word wrap" [ref=e902] [cursor=pointer]:
+                      - img [ref=e903]
+                    - button "Copy code to clipboard" [ref=e905] [cursor=pointer]:
+                      - generic [ref=e906]:
+                        - img [ref=e907]
+                        - img [ref=e909]
+                - paragraph [ref=e911]: "This is a battery-powered project.This is the code for the breathing light style, if you like, you can use this style anywhere you want to shine Upload the program and power COB LED Driver Board, if all goes well, you can see like this:"
+                - img [ref=e913]
+                - generic [ref=e914]:
+                  - generic [ref=e915]:
+                    - img [ref=e917]
+                    - text: tip
+                  - paragraph [ref=e920]: LED strips with a rated current limit of 300mA or 100mA can both be safely connected to a port with a maximum output of 80mA (the port's output current is ≤ the LED strip's current limit, ensuring safety redundancy). However, an LED strip with a rated current limit of 100mA cannot be connected to a port with a maximum output of 300mA—since the port’s maximum output current far exceeds the LED strip’s current limit, this may damage the strip due to overcurrent.
+                - generic [ref=e921]:
+                  - generic [ref=e922]:
+                    - img [ref=e924]
+                    - text: note
+                  - paragraph [ref=e927]:
+                    - strong [ref=e928]: Hot-plugging is strictly prohibited!
+                    - text: Always assemble the XIAO and the driver board first, then plug in the USB cable. Never try to mate the XIAO while it is still connected to the USB cable。May cause the PMIC to break down.
+                - heading "Play with Home Assistant via ESPHomeDirect link to Play with Home Assistant via ESPHome" [level=3] [ref=e929]:
+                  - text: Play with Home Assistant via ESPHome
+                  - link "Direct link to Play with Home Assistant via ESPHome" [ref=e930] [cursor=pointer]:
+                    - /url: "#play-with-home-assistant-via-esphome"
+                    - text: "#"
+                - heading "Hardware PreparationDirect link to Hardware Preparation" [level=4] [ref=e931]:
+                  - text: Hardware Preparation
+                  - link "Direct link to Hardware Preparation" [ref=e932] [cursor=pointer]:
+                    - /url: "#hardware-preparation"
+                    - text: "#"
+                - table [ref=e934]:
+                  - row "Home Assistant Devices" [ref=e935]:
+                    - columnheader "Home Assistant Devices" [ref=e936]
+                  - row [ref=e937]:
+                    - cell [ref=e938]:
+                      - img [ref=e939]
+                  - row "Get One Now 🖱️" [ref=e940]:
+                    - cell "Get One Now 🖱️" [ref=e941]:
+                      - link "Get One Now 🖱️" [ref=e943] [cursor=pointer]:
+                        - /url: https://wiki.seeedstudio.com/home_assistant_topic/#-devices-for-home-assistant-
+                        - strong [ref=e944]:
+                          - generic [ref=e945]: Get One Now 🖱️
+                - heading "Software PreparationDirect link to Software Preparation" [level=4] [ref=e946]:
+                  - text: Software Preparation
+                  - link "Direct link to Software Preparation" [ref=e947] [cursor=pointer]:
+                    - /url: "#software-preparation-1"
+                    - text: "#"
+                - paragraph [ref=e948]:
+                  - link "ESPHome" [ref=e949] [cursor=pointer]:
+                    - /url: https://esphome.io/
+                  - text: is a tool which aims to make managing your ESP boards as simple as possible. It reads in a YAML configuration file and creates custom firmware which it installs on your ESP device. Devices or sensors added in ESPHome’s configuration will automatically show up in Home Assistant’s UI. ESPHome can help you connect and send the data to Home Assistant devices.
+                - generic [ref=e950]:
+                  - generic [ref=e951]:
+                    - img [ref=e953]
+                    - text: note
+                  - paragraph [ref=e956]:
+                    - text: If this is your first time using Home Assistant and ESPHome, you can follow
+                    - strong [ref=e957]:
+                      - link "here" [ref=e958] [cursor=pointer]:
+                        - /url: https://www.home-assistant.io/installation/
+                    - text: for a step-by-step guide on installing Home Assistant.
+                - paragraph [ref=e959]:
+                  - text: ESPHome is available as a
+                  - strong [ref=e960]: Home Assistant Add-On
+                  - text: and can simply be installed via the add-on store.
+                - img [ref=e962]
+                - list [ref=e963]:
+                  - listitem [ref=e964]:
+                    - strong [ref=e965]: Step 1.
+                    - text: Click
+                    - strong [ref=e966]: INSTALL
+                - img [ref=e968]
+                - list [ref=e969]:
+                  - listitem [ref=e970]:
+                    - strong [ref=e971]: Step 2.
+                    - text: Enable all the options and click
+                    - strong [ref=e972]: START
+                - img [ref=e974]
+                - paragraph [ref=e975]: You will see the following window if ESPHome is successfully loaded
+                - img [ref=e977]
+                - heading "Dusk-to-dawn LED lampDirect link to Dusk-to-dawn LED lamp" [level=4] [ref=e978]:
+                  - text: Dusk-to-dawn LED lamp
+                  - link "Direct link to Dusk-to-dawn LED lamp" [ref=e979] [cursor=pointer]:
+                    - /url: "#dusk-to-dawn-led-lamp"
+                    - text: "#"
+                - paragraph [ref=e980]:
+                  - strong [ref=e981]: Summary
+                - paragraph [ref=e982]: Let's make a demo of dusk-to-dawn LED lamp, the light will change with the intensity of the light throughout the day.If you're interested, keep reading.
+                - img [ref=e984]
+                - paragraph [ref=e985]:
+                  - strong [ref=e986]: Step 1.
+                  - text: Hardware preparation
+                - table [ref=e987]:
+                  - row "XIAO ESP32-C3 COB LED Driver Board for XIAO Grove - Digital Light Sensor Single Ended COB LED Strip" [ref=e988]:
+                    - columnheader "XIAO ESP32-C3" [ref=e989]
+                    - columnheader "COB LED Driver Board for XIAO" [ref=e990]
+                    - columnheader "Grove - Digital Light Sensor" [ref=e991]
+                    - columnheader "Single Ended COB LED Strip" [ref=e992]
+                  - row [ref=e993]:
+                    - cell [ref=e994]:
+                      - img [ref=e996]
+                    - cell [ref=e997]:
+                      - img [ref=e999]
+                    - cell [ref=e1000]:
+                      - img [ref=e1002]
+                    - cell [ref=e1003]:
+                      - img [ref=e1005]
+                  - row "Get One Now 🖱️ Get One Now 🖱️ Get One Now 🖱️ Get One Now 🖱️" [ref=e1006]:
+                    - cell "Get One Now 🖱️" [ref=e1007]:
+                      - link "Get One Now 🖱️" [ref=e1009] [cursor=pointer]:
+                        - /url: https://www.seeedstudio.com/Seeed-XIAO-ESP32C3-p-5431.html
+                        - strong [ref=e1010]:
+                          - generic [ref=e1011]: Get One Now 🖱️
+                    - cell "Get One Now 🖱️" [ref=e1012]:
+                      - link "Get One Now 🖱️" [ref=e1014] [cursor=pointer]:
+                        - /url: https://www.seeedstudio.com/COB-LED-Driver-Board-for-Seeed-Studio-XIAO-p-6602.html
+                        - strong [ref=e1015]:
+                          - generic [ref=e1016]: Get One Now 🖱️
+                    - cell "Get One Now 🖱️" [ref=e1017]:
+                      - link "Get One Now 🖱️" [ref=e1019] [cursor=pointer]:
+                        - /url: https://www.seeedstudio.com/Grove-Digital-Light-Sensor-TSL2561.html
+                        - strong [ref=e1020]:
+                          - generic [ref=e1021]: Get One Now 🖱️
+                    - cell "Get One Now 🖱️" [ref=e1022]:
+                      - link "Get One Now 🖱️" [ref=e1024] [cursor=pointer]:
+                        - /url: https://www.seeedstudio.com/Single-Ended-COB-LED-Strip-White-6500K-300mm-5PCS-p-6591.html
+                        - strong [ref=e1025]:
+                          - generic [ref=e1026]: Get One Now 🖱️
+                - paragraph [ref=e1027]:
+                  - strong [ref=e1028]: Step 2.
+                  - text: "Connect Seeed Studio XIAO ESP32-C3, COB LED Driver Board for XIAO and Single Ended COB LED Strip - White as show below:"
+                - img [ref=e1030]
+                - img [ref=e1032]
+                - paragraph [ref=e1033]:
+                  - strong [ref=e1034]: Step 3.
+                  - text: Open ESPHome page, and click
+                  - strong [ref=e1035]: + NEW DEVICE
+                - img [ref=e1037]
+                - paragraph [ref=e1038]:
+                  - strong [ref=e1039]: Step 4.
+                  - text: Click
+                  - strong [ref=e1040]: CONTINUE
+                - img [ref=e1042]
+                - paragraph [ref=e1043]:
+                  - strong [ref=e1044]: Step 5.
+                  - text: Enter a
+                  - strong [ref=e1045]: Name
+                  - text: for the device and enter WiFi credentials such as
+                  - strong [ref=e1046]: Network name
+                  - text: and
+                  - strong [ref=e1047]: Password
+                  - text: . Then click
+                  - strong [ref=e1048]: NEXT
+                - img [ref=e1050]
+                - paragraph [ref=e1051]:
+                  - strong [ref=e1052]: Step 6.
+                  - text: Select
+                  - strong [ref=e1053]: ESP32-C3
+                  - text: and click
+                - paragraph [ref=e1054]:
+                  - strong [ref=e1055]: Step 7.
+                  - text: Click
+                  - strong [ref=e1056]: SKIP
+                  - text: because we will configure this board manually
+                - img [ref=e1058]
+                - paragraph [ref=e1059]:
+                  - strong [ref=e1060]: Step 8.
+                  - text: Click
+                  - strong [ref=e1061]: EDIT
+                  - text: under the newly created board
+                - img [ref=e1063]
+                - paragraph [ref=e1064]:
+                  - strong [ref=e1065]: Step 9.
+                  - text: The following code is partially copied to the end of the .ymal file. XIAO ESP32-C3 reads the light value from the grove digital light sensor and changes the current level of the D2 pin according to the intensity of the light, so as to control the light bar
+                - generic [ref=e1067]:
+                  - code [ref=e1069]:
+                    - generic [ref=e1070]: "# ----------- Additional section (TSL2561, address 0x29) starts -----------"
+                    - generic [ref=e1071]: "i2c:"
+                    - generic [ref=e1072]: "sda: 6"
+                    - generic [ref=e1073]: "scl: 7"
+                    - generic [ref=e1074]: "scan: true"
+                    - generic [ref=e1075]: "# Global variables"
+                    - generic [ref=e1076]: "globals:"
+                    - generic [ref=e1077]: "# Record the end timestamp of sensor ignore period (milliseconds)"
+                    - generic [ref=e1078]: "- id: ignore_sensor_until"
+                    - generic [ref=e1079]: "type: uint32_t"
+                    - generic [ref=e1080]: "restore_value: no"
+                    - generic [ref=e1081]: "initial_value: '0'"
+                    - generic [ref=e1082]: "# Flag: True means current operation is from sensor"
+                    - generic [ref=e1083]: "- id: is_robot"
+                    - generic [ref=e1084]: "type: bool"
+                    - generic [ref=e1085]: "restore_value: no"
+                    - generic [ref=e1086]: "initial_value: 'false'"
+                    - generic [ref=e1087]: "sensor:"
+                    - generic [ref=e1088]: "- platform: tsl2561"
+                    - generic [ref=e1089]: "name: \"Ambient Light\""
+                    - generic [ref=e1090]: "address: 0x29"
+                    - generic [ref=e1091]: "# Ultra-fast response configuration"
+                    - generic [ref=e1092]: "update_interval: 200ms"
+                    - generic [ref=e1093]: "integration_time: 101ms"
+                    - generic [ref=e1094]: "gain: 1X"
+                    - generic [ref=e1095]: "id: lux"
+                    - generic [ref=e1096]: "on_value:"
+                    - generic [ref=e1097]: "then:"
+                    - generic [ref=e1098]: "- lambda: |-"
+                    - generic [ref=e1099]: // 1. Check if in manual control ignore period
+                    - generic [ref=e1100]: "if (millis() < id(ignore_sensor_until)) {"
+                    - generic [ref=e1101]: return;
+                    - generic [ref=e1102]: "}"
+                    - generic [ref=e1103]: // 2. Ultra-fast light control logic
+                    - generic [ref=e1104]: bool should_turn_on = (x < 180); // Threshold for turning on (dark)
+                    - generic [ref=e1105]: bool should_turn_off = (x > 220); // Threshold for turning off (bright)
+                    - generic [ref=e1107]: // Get current light state
+                    - generic [ref=e1108]: bool is_currently_on = id(light_strip).remote_values.is_on();
+                    - generic [ref=e1109]: "if (should_turn_off && is_currently_on) {"
+                    - generic [ref=e1110]: "ESP_LOGD(\"custom\", \"Environment brightened (Lux: %.1f), sensor auto-off light\", x);"
+                    - generic [ref=e1112]: "// Key: Inform Light component this is automated operation"
+                    - generic [ref=e1113]: id(is_robot) = true;
+                    - generic [ref=e1115]: auto call = id(light_strip).turn_off();
+                    - generic [ref=e1116]: call.set_transition_length(1000); // 1 second fade
+                    - generic [ref=e1117]: call.perform();
+                    - generic [ref=e1118]: "}"
+                    - generic [ref=e1119]: "else if (should_turn_on && !is_currently_on) {"
+                    - generic [ref=e1120]: "ESP_LOGD(\"custom\", \"Environment darkened (Lux: %.1f), sensor auto-on light\", x);"
+                    - generic [ref=e1122]: // Key
+                    - generic [ref=e1123]: id(is_robot) = true;
+                    - generic [ref=e1125]: auto call = id(light_strip).turn_on();
+                    - generic [ref=e1126]: call.set_transition_length(1000); // 1 second fade
+                    - generic [ref=e1127]: call.perform();
+                    - generic [ref=e1128]: "}"
+                    - generic [ref=e1129]: "output:"
+                    - generic [ref=e1130]: "- platform: ledc"
+                    - generic [ref=e1131]: "pin: 4"
+                    - generic [ref=e1132]: "id: pwm_output"
+                    - generic [ref=e1133]: "frequency: 1000Hz"
+                    - generic [ref=e1134]: "inverted: true"
+                    - generic [ref=e1135]: "light:"
+                    - generic [ref=e1136]: "- platform: monochromatic"
+                    - generic [ref=e1137]: "output: pwm_output"
+                    - generic [ref=e1138]: "name: \"Light Strip\""
+                    - generic [ref=e1139]: "id: light_strip"
+                    - generic [ref=e1140]: "restore_mode: ALWAYS_OFF"
+                    - generic [ref=e1141]: "default_transition_length: 1s"
+                    - generic [ref=e1143]: "# Monitor all state changes (on/off/dimming)"
+                    - generic [ref=e1144]: "on_state:"
+                    - generic [ref=e1145]: "- lambda: |-"
+                    - generic [ref=e1146]: // Check who triggered this state change
+                    - generic [ref=e1147]: "if (id(is_robot)) {"
+                    - generic [ref=e1148]: "// If triggered by Sensor:"
+                    - generic [ref=e1149]: ESP_LOGD("custom", "Detected automated operation, not ignoring sensor");
+                    - generic [ref=e1150]: // Task completed, wait for next cycle
+                    - generic [ref=e1151]: id(is_robot) = false;
+                    - generic [ref=e1152]: "} else {"
+                    - generic [ref=e1153]: "// Triggered by human (HA/Switch):"
+                    - generic [ref=e1154]: ESP_LOGD("custom", "Detected manual operation, ignoring sensor for 30 seconds");
+                    - generic [ref=e1155]: // Set ignore end time = current time + 30000 milliseconds
+                    - generic [ref=e1156]: id(ignore_sensor_until) = millis() + 30000;
+                    - generic [ref=e1157]: "}"
+                  - generic [ref=e1158]:
+                    - button "Toggle word wrap" [ref=e1159] [cursor=pointer]:
+                      - img [ref=e1160]
+                    - button "Copy code to clipboard" [ref=e1162] [cursor=pointer]:
+                      - generic [ref=e1163]:
+                        - img [ref=e1164]
+                        - img [ref=e1166]
+                - generic [ref=e1168]:
+                  - generic [ref=e1169]:
+                    - img [ref=e1171]
+                    - text: tip
+                  - paragraph [ref=e1174]: In the Home Assistant configuration, the numbers for sda, scl and pin always refer to the GPIO numbers, not the silk-screen labels printed on the XIAO board.
+                - paragraph [ref=e1175]:
+                  - strong [ref=e1176]: Step 10.
+                  - text: Click on the Install button in the top right hand corner. Then select the last item
+                  - strong [ref=e1177]: Manual download
+                  - text: ", Select"
+                  - strong [ref=e1178]: Modern format
+                - img [ref=e1180]
+                - paragraph [ref=e1181]: It will then take a long time to download and compile, so please be patient. Once everything is ready, the firmware(XX.bin) will be automatically downloaded to your computer.Compilation successful, as shown in the figure below
+                - img [ref=e1183]
+                - paragraph [ref=e1184]:
+                  - strong [ref=e1185]: Step 11.
+                  - text: Using the
+                  - link "ESPhome Web tool" [ref=e1186] [cursor=pointer]:
+                    - /url: https://web.esphome.io/?dashboard_install
+                  - text: to upload the firmware to XIAO ESP32, click
+                  - strong [ref=e1187]: CONNECT
+                - img [ref=e1189]
+                - paragraph [ref=e1190]:
+                  - text: Select the XIAO ESP32 serial port in the popup window, click
+                  - strong [ref=e1191]: INSTALL
+                  - text: and then select the .bin file downloaded from above steps.
+                - img [ref=e1193]
+                - img [ref=e1195]
+                - paragraph [ref=e1196]:
+                  - strong [ref=e1197]: Step 12.
+                  - text: "Once install successfully, you can see like this:"
+                - img [ref=e1199]
+                - paragraph [ref=e1200]: When the light is strong, the night light turns off,When the light is weak, the night light is on.
+                - paragraph [ref=e1201]:
+                  - strong [ref=e1202]: Step 13.
+                  - text: Once install successfully, Open the log and you will see the feedback messages.
+                - img [ref=e1204]
+                - img [ref=e1206]
+                - paragraph [ref=e1207]: If you like it, you can also follow the above steps to make a night light that is unique to you!
+                - generic [ref=e1208]:
+                  - generic [ref=e1209]:
+                    - img [ref=e1211]
+                    - text: tip
+                  - paragraph [ref=e1214]: While the board components are rated for -40°C to 85°C, driving all 7 channels at maximum load (Total >1A) will generate significant heat. If installed in a confined space (e.g., inside a sealed plastic model), please ensure passive ventilation to prevent triggering the PMIC's thermal shutdown protection.
+                - heading "Special appreciationDirect link to Special appreciation" [level=2] [ref=e1215]:
+                  - text: Special appreciation
+                  - link "Direct link to Special appreciation" [ref=e1216] [cursor=pointer]:
+                    - /url: "#special-appreciation"
+                    - text: "#"
+                - paragraph [ref=e1217]: We extend our special thanks to Xinyu for the valuable contribution to the 3D printing work.
+                - paragraph [ref=e1218]: The original design demonstrates remarkable creativity and practical value. For those interested in viewing the original design, the demonstration video and the author's homepage are available via the links provided below.
+                - paragraph [ref=e1219]:
+                  - strong [ref=e1220]:
+                    - link "LED Lamp 3D Printed Case" [ref=e1221] [cursor=pointer]:
+                      - /url: https://makerworld.com.cn/zh/models/126527-leddeng-b3#profileId-11109
+                - paragraph [ref=e1222]:
+                  - strong [ref=e1223]:
+                    - link "Author's Homepage" [ref=e1224] [cursor=pointer]:
+                      - /url: https://makerworld.com.cn/zh/@GLB_xinyulin/upload
+                - heading "ResourcesDirect link to Resources" [level=2] [ref=e1225]:
+                  - text: Resources
+                  - link "Direct link to Resources" [ref=e1226] [cursor=pointer]:
+                    - /url: "#resources"
+                    - text: "#"
+                - paragraph [ref=e1227]:
+                  - text: "[PDF]"
+                  - strong [ref=e1228]:
+                    - link "Seeed Studio COB LED Driver Board Schematic" [ref=e1229] [cursor=pointer]:
+                      - /url: https://files.seeedstudio.com/wiki/COBLED_Driver_Board_for_XIAO/SCH_Sch_V1.2_2025-11-21.pdf
+                - paragraph [ref=e1230]:
+                  - text: "[ZIP]"
+                  - strong [ref=e1231]:
+                    - link "Seeed Studio COB LED Driver Board PCB" [ref=e1232] [cursor=pointer]:
+                      - /url: https://files.seeedstudio.com/wiki/COBLED_Driver_Board_for_XIAO/Gerber_PCB_V1.2_2025-11-25.zip
+                - paragraph [ref=e1233]:
+                  - text: "[STEP]"
+                  - strong [ref=e1234]:
+                    - link "Seeed Studio COB LED Driver Board 3D Model" [ref=e1235] [cursor=pointer]:
+                      - /url: https://files.seeedstudio.com/wiki/COBLED_Driver_Board_for_XIAO/cob_led_driver_board.STEP
+                - heading "FQADirect link to FQA" [level=2] [ref=e1236]:
+                  - text: FQA
+                  - link "Direct link to FQA" [ref=e1237] [cursor=pointer]:
+                    - /url: "#fqa"
+                    - text: "#"
+                - paragraph [ref=e1238]:
+                  - strong [ref=e1239]: Q1. Why does my board get hot?
+                - list [ref=e1240]:
+                  - listitem [ref=e1241]: Because there is a hot-swapping phenomenon.When the XIAO is plugged into the USB and then plugged back into the driver board, this process will cause a short circuit in the current conduit of the development board and even burns.
+                - heading "Tech Support & Product DiscussionDirect link to Tech Support & Product Discussion" [level=2] [ref=e1242]:
+                  - text: Tech Support & Product Discussion
+                  - link "Direct link to Tech Support & Product Discussion" [ref=e1243] [cursor=pointer]:
+                    - /url: "#tech-support--product-discussion"
+                    - text: "#"
+                - paragraph [ref=e1244]: Thank you for choosing our products! We are here to provide you with different support to ensure that your experience with our products is as smooth as possible. We offer several communication channels to cater to different preferences and needs.
+                - generic [ref=e1245]:
+                  - link [ref=e1246] [cursor=pointer]:
+                    - /url: https://forum.seeedstudio.com/
+                  - link [ref=e1247] [cursor=pointer]:
+                    - /url: https://www.seeedstudio.com/contacts
+                - generic [ref=e1248]:
+                  - link [ref=e1249] [cursor=pointer]:
+                    - /url: https://discord.gg/eWkprNDMU7
+                  - link [ref=e1250] [cursor=pointer]:
+                    - /url: https://github.com/Seeed-Studio/wiki-documents/discussions/69
+              - generic [ref=e1252]:
+                - link "Edit this page" [ref=e1254] [cursor=pointer]:
+                  - /url: https://github.com/Seeed-Studio/wiki-documents/blob/docusaurus-version/sites/en/docs/docs/Sensor/SeeedStudio_XIAO/SeeedStudio_XIAO_Expansion_board/COB_LED_Driver_Board.md
+                  - img [ref=e1255]
+                  - text: Edit this page
+                - generic [ref=e1259]:
+                  - text: Last updated on
+                  - time [ref=e1261]: Nov 27, 2025
+                  - text: by Brandy
+            - navigation "Docs pages" [ref=e1262]:
+              - link "Previous « LED Driver Board for XIAO" [ref=e1263] [cursor=pointer]:
+                - /url: /led_driver_board/
+                - generic [ref=e1264]: Previous
+                - generic [ref=e1265]: « LED Driver Board for XIAO
+              - link "Next Developed on XIAO using Espressif ESP-IDF »" [ref=e1266] [cursor=pointer]:
+                - /url: /xiao_idf/
+                - generic [ref=e1267]: Next
+                - generic [ref=e1268]: Developed on XIAO using Espressif ESP-IDF »
+          - iframe [ref=e1271]:
+            
+        - list [ref=e1274]:
+          - listitem [ref=e1275]:
+            - link "Safety Notes" [ref=e1276] [cursor=pointer]:
+              - /url: "#safety-notes"
+          - listitem [ref=e1277]:
+            - link "Introduction" [ref=e1278] [cursor=pointer]:
+              - /url: "#introduction"
+            - list [ref=e1279]:
+              - listitem [ref=e1280]:
+                - link "Feature" [ref=e1281] [cursor=pointer]:
+                  - /url: "#feature"
+              - listitem [ref=e1282]:
+                - link "Specification" [ref=e1283] [cursor=pointer]:
+                  - /url: "#specification"
+              - listitem [ref=e1284]:
+                - link "Hardware Overview" [ref=e1285] [cursor=pointer]:
+                  - /url: "#hardware-overview"
+                - list [ref=e1286]:
+                  - listitem [ref=e1287]:
+                    - link "Supported COB LEDs Guide" [ref=e1288] [cursor=pointer]:
+                      - /url: "#supported-cob-leds-guide"
+                  - listitem [ref=e1289]:
+                    - link "Supported LEDs Guide" [ref=e1290] [cursor=pointer]:
+                      - /url: "#supported-leds-guide"
+          - listitem [ref=e1291]:
+            - link "Getting Started" [ref=e1292] [cursor=pointer]:
+              - /url: "#getting-started"
+            - list [ref=e1293]:
+              - listitem [ref=e1294]:
+                - link "Play with Arduino" [ref=e1295] [cursor=pointer]:
+                  - /url: "#play-with-arduino"
+                - list [ref=e1296]:
+                  - listitem [ref=e1297]:
+                    - link "Software Preparation" [ref=e1298] [cursor=pointer]:
+                      - /url: "#software-preparation"
+                  - listitem [ref=e1299]:
+                    - link "Low-Power Port Driver Example" [ref=e1300] [cursor=pointer]:
+                      - /url: "#low-power-port-driver-example"
+                  - listitem [ref=e1301]:
+                    - link "High-Power Port Driver Example" [ref=e1302] [cursor=pointer]:
+                      - /url: "#high-power-port-driver-example"
+                  - listitem [ref=e1303]:
+                    - link "Low-Power Port Driver PWM Example" [ref=e1304] [cursor=pointer]:
+                      - /url: "#low-power-port-driver--pwm-example"
+              - listitem [ref=e1305]:
+                - link "Play with Home Assistant via ESPHome" [ref=e1306] [cursor=pointer]:
+                  - /url: "#play-with-home-assistant-via-esphome"
+                - list [ref=e1307]:
+                  - listitem [ref=e1308]:
+                    - link "Hardware Preparation" [ref=e1309] [cursor=pointer]:
+                      - /url: "#hardware-preparation"
+                  - listitem [ref=e1310]:
+                    - link "Software Preparation" [ref=e1311] [cursor=pointer]:
+                      - /url: "#software-preparation-1"
+                  - listitem [ref=e1312]:
+                    - link "Dusk-to-dawn LED lamp" [ref=e1313] [cursor=pointer]:
+                      - /url: "#dusk-to-dawn-led-lamp"
+          - listitem [ref=e1314]:
+            - link "Special appreciation" [ref=e1315] [cursor=pointer]:
+              - /url: "#special-appreciation"
+          - listitem [ref=e1316]:
+            - link "Resources" [ref=e1317] [cursor=pointer]:
+              - /url: "#resources"
+          - listitem [ref=e1318]:
+            - link "FQA" [ref=e1319] [cursor=pointer]:
+              - /url: "#fqa"
+          - listitem [ref=e1320]:
+            - link "Tech Support & Product Discussion" [ref=e1321] [cursor=pointer]:
+              - /url: "#tech-support--product-discussion"
+  - contentinfo [ref=e1322]:
+    - generic [ref=e1323]:
+      - generic [ref=e1324]:
+        - generic [ref=e1325]:
+          - generic [ref=e1326]: Navigation
+          - list [ref=e1327]:
+            - listitem [ref=e1328]:
+              - link "Getting Started" [ref=e1329] [cursor=pointer]:
+                - /url: /Getting_Started/
+            - listitem [ref=e1330]:
+              - link "Sensor and Sensing" [ref=e1331] [cursor=pointer]:
+                - /url: /Sensor_Network/
+            - listitem [ref=e1332]:
+              - link "Network" [ref=e1333] [cursor=pointer]:
+                - /url: /Network/
+            - listitem [ref=e1334]:
+              - link "Edge Computing" [ref=e1335] [cursor=pointer]:
+                - /url: /Edge_Computing/
+            - listitem [ref=e1336]:
+              - link "Cloud" [ref=e1337] [cursor=pointer]:
+                - /url: /Cloud/
+            - listitem [ref=e1338]:
+              - link "Solutions" [ref=e1339] [cursor=pointer]:
+                - /url: https://solution.seeed.cc/
+        - generic [ref=e1340]:
+          - generic [ref=e1341]: Ecosystem
+          - list [ref=e1342]:
+            - listitem [ref=e1343]:
+              - link "Discord" [ref=e1344] [cursor=pointer]:
+                - /url: https://discord.com/invite/QqMgVwHT3X
+            - listitem [ref=e1345]:
+              - link "Project Hub" [ref=e1346] [cursor=pointer]:
+                - /url: https://project.seeedstudio.com/
+            - listitem [ref=e1347]:
+              - link "Partners" [ref=e1348] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/ecosystem/
+            - listitem [ref=e1349]:
+              - link "Distributors" [ref=e1350] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/distributors.html
+        - generic [ref=e1351]:
+          - generic [ref=e1352]: Quick Guide
+          - list [ref=e1353]:
+            - listitem [ref=e1354]:
+              - link "Bazaar" [ref=e1355] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/
+            - listitem [ref=e1356]:
+              - link "How to get help" [ref=e1357] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/get_help/HowToGetHelp
+            - listitem [ref=e1358]:
+              - link "FAQs" [ref=e1359] [cursor=pointer]:
+                - /url: https://support.seeedstudio.com/knowledgebase
+            - listitem [ref=e1360]:
+              - link "Forum" [ref=e1361] [cursor=pointer]:
+                - /url: https://forum.seeedstudio.com/
+            - listitem [ref=e1362]:
+              - link "Technical Support" [ref=e1363] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/get_help/TechnicalSupport
+        - generic [ref=e1364]:
+          - generic [ref=e1365]: Company
+          - list [ref=e1366]:
+            - listitem [ref=e1367]:
+              - link "About Seeed" [ref=e1368] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/about-us/
+            - listitem [ref=e1369]:
+              - link "Join us" [ref=e1370] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/join-us/
+            - listitem [ref=e1371]:
+              - link "Contact Us" [ref=e1372] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/contacts
+            - listitem [ref=e1373]:
+              - link "Press" [ref=e1374] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/blog/2020/04/22/seeed-in-the-news/
+      - generic [ref=e1376]: Copyright © 2026 Seeed Studio, Inc. Built with Docusaurus.

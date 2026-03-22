@@ -1,0 +1,998 @@
+- generic [ref=e2]:
+  - region "Skip to main content":
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#__docusaurus_skipToContent_fallback"
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - text: Collaborate with Seeed -
+      - link "Creator" [ref=e7] [cursor=pointer]:
+        - /url: https://www.seeedstudio.com/blog/affiliate-program/
+      - text: ","
+      - link "Ranger" [ref=e8] [cursor=pointer]:
+        - /url: https://www.seeedstudio.com/ranger-program/
+      - text: ", or"
+      - link "Contributor" [ref=e9] [cursor=pointer]:
+        - /url: https://wiki.seeedstudio.com/contributors/
+      - text: ", there is always a role ideal for you!"
+  - navigation "Main" [ref=e10]:
+    - generic [ref=e11]:
+      - generic [ref=e12]:
+        - link "Seeed Studio" [ref=e13] [cursor=pointer]:
+          - /url: /
+          - img "Seeed Studio" [ref=e15]
+        - button "Quick Links" [ref=e17] [cursor=pointer]
+        - button "Explore with Topics" [ref=e19] [cursor=pointer]
+        - button "FAQs" [ref=e21] [cursor=pointer]
+        - button "Get Involved" [ref=e23] [cursor=pointer]
+      - generic [ref=e24]:
+        - link "Bazaar 🛍️" [ref=e25] [cursor=pointer]:
+          - /url: https://www.seeedstudio.com/
+        - link "SenseCraft AI" [ref=e26] [cursor=pointer]:
+          - /url: https://sensecraft.seeed.cc/ai/#/home
+        - link [ref=e27] [cursor=pointer]:
+          - /url: https://sensecraft.seeed.cc/ai/#/home
+        - link "GitHub repository" [ref=e28] [cursor=pointer]:
+          - /url: https://github.com/Seeed-Studio/wiki-documents
+        - button "Switch between dark and light mode (currently dark mode)" [ref=e30] [cursor=pointer]:
+          - img [ref=e31]
+        - button "Search" [ref=e34] [cursor=pointer]:
+          - generic [ref=e35]:
+            - img [ref=e36]
+            - generic [ref=e38]: Search
+          - generic [ref=e39]:
+            - generic [ref=e40]: ⌘
+            - generic [ref=e41]: K
+  - generic [ref=e44]:
+    - complementary [ref=e45]:
+      - generic [ref=e47]:
+        - navigation "Docs sidebar" [ref=e48]:
+          - list [ref=e49]:
+            - listitem [ref=e50]:
+              - link "Getting Started" [ref=e51] [cursor=pointer]:
+                - /url: /Getting_Started/
+            - listitem [ref=e52]:
+              - link "Weekly Wiki" [ref=e53] [cursor=pointer]:
+                - /url: /weekly_wiki/
+            - listitem [ref=e54]:
+              - link "Sensing" [ref=e55] [cursor=pointer]:
+                - /url: /Sensor_Network/
+            - listitem [ref=e56]:
+              - generic [ref=e57]:
+                - link "Grove" [ref=e58] [cursor=pointer]:
+                  - /url: /Grove_System/
+                - button "Expand sidebar category 'Grove'" [ref=e59] [cursor=pointer]
+            - listitem [ref=e60]:
+              - generic [ref=e61]:
+                - link "SenseCAP" [ref=e62] [cursor=pointer]:
+                  - /url: /SenseCAP_introduction/
+                - button "Expand sidebar category 'SenseCAP'" [ref=e63] [cursor=pointer]
+            - listitem [ref=e64]:
+              - generic [ref=e65]:
+                - link "SenseCAP Indicator" [ref=e66] [cursor=pointer]:
+                  - /url: /Sensor/SenseCAP/SenseCAP_Indicator/Get_started_with_SenseCAP_Indicator/
+                - button "Expand sidebar category 'SenseCAP Indicator'" [ref=e67] [cursor=pointer]
+            - listitem [ref=e68]:
+              - generic [ref=e69]:
+                - link "SenseCAP Watcher" [ref=e70] [cursor=pointer]:
+                  - /url: /watcher/
+                - button "Expand sidebar category 'SenseCAP Watcher'" [ref=e71] [cursor=pointer]
+            - listitem [ref=e72]:
+              - generic [ref=e73]:
+                - link "mmWave Radar Sensor" [ref=e74] [cursor=pointer]:
+                  - /url: /mmwave_radar_Intro/
+                - button "Expand sidebar category 'mmWave Radar Sensor'" [ref=e75] [cursor=pointer]
+            - listitem [ref=e76]:
+              - generic [ref=e77]:
+                - link "XIAO" [ref=e78] [cursor=pointer]:
+                  - /url: /SeeedStudio_XIAO_Series_Introduction/
+                - button "Collapse sidebar category 'XIAO'" [expanded] [ref=e79] [cursor=pointer]
+              - list [ref=e80]:
+                - listitem [ref=e81]:
+                  - link "Exhibition for XIAO Series" [ref=e82] [cursor=pointer]:
+                    - /url: /xiao_topic_page/
+                - listitem [ref=e83]:
+                  - button "XIAO SAMD21" [ref=e85] [cursor=pointer]
+                - listitem [ref=e86]:
+                  - button "XIAO RA4M1" [ref=e88] [cursor=pointer]
+                - listitem [ref=e89]:
+                  - button "XIAO MG24" [ref=e91] [cursor=pointer]
+                - listitem [ref=e92]:
+                  - button "XIAO RP2040" [ref=e94] [cursor=pointer]
+                - listitem [ref=e95]:
+                  - button "XIAO RP2350" [ref=e97] [cursor=pointer]
+                - listitem [ref=e98]:
+                  - button "XIAO nRF52840 Series" [ref=e100] [cursor=pointer]
+                - listitem [ref=e101]:
+                  - button "XIAO nRF54L15 Series" [ref=e103] [cursor=pointer]
+                - listitem [ref=e104]:
+                  - button "XIAO ESP32C3" [ref=e106] [cursor=pointer]
+                - listitem [ref=e107]:
+                  - button "XIAO ESP32C5" [ref=e109] [cursor=pointer]
+                - listitem [ref=e110]:
+                  - button "XIAO ESP32C6" [ref=e112] [cursor=pointer]
+                - listitem [ref=e113]:
+                  - button "XIAO ESP32S3 Series" [ref=e115] [cursor=pointer]
+                - listitem [ref=e116]:
+                  - generic [ref=e117]:
+                    - link "XIAO Debug Mate" [ref=e118] [cursor=pointer]:
+                      - /url: /getting_started_with_xiao_debug_mate/
+                    - button "Expand sidebar category 'XIAO Debug Mate'" [ref=e119] [cursor=pointer]
+                - listitem [ref=e120]:
+                  - button "Expansion Boards for XIAO" [expanded] [ref=e122] [cursor=pointer]
+                  - list [ref=e123]:
+                    - listitem [ref=e124]:
+                      - button "ePaper Breakout Board for XIAO" [ref=e126] [cursor=pointer]
+                    - listitem [ref=e127]:
+                      - button "Round Display for XIAO" [ref=e129] [cursor=pointer]
+                    - listitem [ref=e130]:
+                      - button "GPS Module for XIAO" [ref=e132] [cursor=pointer]
+                    - listitem [ref=e133]:
+                      - link "Expansion Board Base for XIAO" [ref=e134] [cursor=pointer]:
+                        - /url: /Seeeduino-XIAO-Expansion-Board/
+                    - listitem [ref=e135]:
+                      - link "XIAO CAN Bus Expansion Board" [ref=e136] [cursor=pointer]:
+                        - /url: /xiao-can-bus-expansion/
+                    - listitem [ref=e137]:
+                      - link "Grove Shield for XIAO with battery management chip" [ref=e138] [cursor=pointer]:
+                        - /url: /Grove-Shield-for-Seeeduino-XIAO-embedded-battery-management-chip/
+                    - listitem [ref=e139]:
+                      - link "Getting Started with 6x10 RGB MATRIX for XIAO" [ref=e140] [cursor=pointer]:
+                        - /url: /rgb_matrix_for_xiao/
+                    - listitem [ref=e141]:
+                      - link "IO Expander for XIAO" [ref=e142] [cursor=pointer]:
+                        - /url: /io_expander_for_xiao/
+                    - listitem [ref=e143]:
+                      - link "ePaper Driver Board" [ref=e144] [cursor=pointer]:
+                        - /url: /xiao_eink_expansion_board_v2/
+                    - listitem [ref=e145]:
+                      - link "RS485 Expansion Board for XIAO" [ref=e146] [cursor=pointer]:
+                        - /url: /XIAO-RS485-Expansion-Board/
+                    - listitem [ref=e147]:
+                      - link "Bus Servo Driver Board" [ref=e148] [cursor=pointer]:
+                        - /url: /bus_servo_driver_board/
+                    - listitem [ref=e149]:
+                      - link "LED Driver Board for XIAO" [ref=e150] [cursor=pointer]:
+                        - /url: /led_driver_board/
+                    - listitem [ref=e151]:
+                      - link "COB LED Driver Board for XIAO" [ref=e152] [cursor=pointer]:
+                        - /url: /getting_started_with_cob_led_dirver_board/
+                - listitem [ref=e153]:
+                  - button "XIAO + ESP-IDF + ESP-Matter" [ref=e155] [cursor=pointer]
+                - listitem [ref=e156]:
+                  - link "ESP-NOW on XIAO ESP32 Series" [ref=e157] [cursor=pointer]:
+                    - /url: /xiao_espnow/
+                - listitem [ref=e158]:
+                  - link "PCB Design for XIAO" [ref=e159] [cursor=pointer]:
+                    - /url: /PCB_Design_XIAO/
+                - listitem [ref=e160]:
+                  - button "Kit with Courses" [ref=e162] [cursor=pointer]
+                - listitem [ref=e163]:
+                  - link "FAQs for XIAO Series" [ref=e164] [cursor=pointer]:
+                    - /url: /XIAO_FAQ/
+            - listitem [ref=e165]:
+              - button "ePaper" [ref=e167] [cursor=pointer]
+            - listitem [ref=e168]:
+              - button "XIAO Gadgets" [ref=e170] [cursor=pointer]
+            - listitem [ref=e171]:
+              - generic [ref=e172]:
+                - link "Wio Terminal" [ref=e173] [cursor=pointer]:
+                  - /url: /Wio_Terminal_Intro/
+                - button "Expand sidebar category 'Wio Terminal'" [ref=e174] [cursor=pointer]
+            - listitem [ref=e175]:
+              - generic [ref=e176]:
+                - link "reSpeaker" [ref=e177] [cursor=pointer]:
+                  - /url: /respeaker/
+                - button "Expand sidebar category 'reSpeaker'" [ref=e178] [cursor=pointer]
+            - listitem [ref=e179]:
+              - button "Other Sensing Modules" [ref=e181] [cursor=pointer]
+            - listitem [ref=e182]:
+              - button "Other Microcontrollers" [ref=e184] [cursor=pointer]
+            - listitem [ref=e185]:
+              - link "Network" [ref=e186] [cursor=pointer]:
+                - /url: /Network/
+            - listitem [ref=e187]:
+              - generic [ref=e188]:
+                - link "Meshtastic Network" [ref=e189] [cursor=pointer]:
+                  - /url: /meshtastic_introduction/
+                - button "Expand sidebar category 'Meshtastic Network'" [ref=e190] [cursor=pointer]
+            - listitem [ref=e191]:
+              - button "LoRa Wio Series" [ref=e193] [cursor=pointer]
+            - listitem [ref=e194]:
+              - generic [ref=e195]:
+                - link "SenseCAP Gateway" [ref=e196] [cursor=pointer]:
+                  - /url: /Network/SenseCAP_Network/SenseCAP_Gateway_Intro/
+                - button "Expand sidebar category 'SenseCAP Gateway'" [ref=e197] [cursor=pointer]
+            - listitem [ref=e198]:
+              - generic [ref=e199]:
+                - link "SenseCAP K1100" [ref=e200] [cursor=pointer]:
+                  - /url: /SenseCAP_K1100_Intro/
+                - button "Expand sidebar category 'SenseCAP K1100'" [ref=e201] [cursor=pointer]
+            - listitem [ref=e202]:
+              - button "SenseCAP LoRaWAN Starter Kit" [ref=e204] [cursor=pointer]
+            - listitem [ref=e205]:
+              - button "Raspberry Pi Solutions" [ref=e207] [cursor=pointer]
+            - listitem [ref=e208]:
+              - generic [ref=e209]:
+                - link "Rockchip Solutions" [ref=e210] [cursor=pointer]:
+                  - /url: /Rockchip_network_solutions/
+                - button "Expand sidebar category 'Rockchip Solutions'" [ref=e211] [cursor=pointer]
+            - listitem [ref=e212]:
+              - button "Other Network Devices" [ref=e214] [cursor=pointer]
+            - listitem [ref=e215]:
+              - link "Edge Computing" [ref=e216] [cursor=pointer]:
+                - /url: /Edge_Computing/
+            - listitem [ref=e217]:
+              - button "RK Devices" [ref=e219] [cursor=pointer]
+            - listitem [ref=e220]:
+              - generic [ref=e221]:
+                - link "Raspberry Pi Devices" [ref=e222] [cursor=pointer]:
+                  - /url: /raspberry-pi-devices/
+                - button "Expand sidebar category 'Raspberry Pi Devices'" [ref=e223] [cursor=pointer]
+            - listitem [ref=e224]:
+              - generic [ref=e225]:
+                - link "NVIDIA® Jetson™" [ref=e226] [cursor=pointer]:
+                  - /url: /NVIDIA_Jetson/
+                - button "Expand sidebar category 'NVIDIA® Jetson™'" [ref=e227] [cursor=pointer]
+            - listitem [ref=e228]:
+              - button "ESP Devices" [ref=e230] [cursor=pointer]
+            - listitem [ref=e231]:
+              - generic [ref=e232]:
+                - link "BeagleBone®" [ref=e233] [cursor=pointer]:
+                  - /url: /BeagleBone/
+                - button "Expand sidebar category 'BeagleBone®'" [ref=e234] [cursor=pointer]
+            - listitem [ref=e235]:
+              - generic [ref=e236]:
+                - link "ODYSSEY" [ref=e237] [cursor=pointer]:
+                  - /url: /ODYSSEY_Intro/
+                - button "Expand sidebar category 'ODYSSEY'" [ref=e238] [cursor=pointer]
+            - listitem [ref=e239]:
+              - button "reCamera" [ref=e241] [cursor=pointer]
+            - listitem [ref=e242]:
+              - generic [ref=e243]:
+                - link "reTerminal E Series" [ref=e244] [cursor=pointer]:
+                  - /url: /reterminal_e10xx_main_page/
+                - button "Expand sidebar category 'reTerminal E Series'" [ref=e245] [cursor=pointer]
+            - listitem [ref=e246]:
+              - generic [ref=e247]:
+                - link "reTerminal D Series" [ref=e248] [cursor=pointer]:
+                  - /url: /reterminal_d10xx_main_page/
+                - button "Expand sidebar category 'reTerminal D Series'" [ref=e249] [cursor=pointer]
+            - listitem [ref=e250]:
+              - button "Other Edge Devices" [ref=e252] [cursor=pointer]
+            - listitem [ref=e253]:
+              - link "Robotics Page" [ref=e254] [cursor=pointer]:
+                - /url: /robotics_page/
+            - listitem [ref=e255]:
+              - button "Robot Kits" [ref=e257] [cursor=pointer]
+            - listitem [ref=e258]:
+              - button "Actuator" [ref=e260] [cursor=pointer]
+            - listitem [ref=e261]:
+              - button "Sensor" [ref=e263] [cursor=pointer]
+            - listitem [ref=e264]:
+              - button "Software" [ref=e266] [cursor=pointer]
+            - listitem [ref=e267]:
+              - link "SenseCraft & Cloud" [ref=e268] [cursor=pointer]:
+                - /url: /Cloud/
+            - listitem [ref=e269]:
+              - button "SenseCraft AI" [ref=e271] [cursor=pointer]
+            - listitem [ref=e272]:
+              - button "SenseCraft APP" [ref=e274] [cursor=pointer]
+            - listitem [ref=e275]:
+              - button "SenseCraft Data Platform" [ref=e277] [cursor=pointer]
+            - listitem [ref=e278]:
+              - generic [ref=e279]:
+                - link "SenseCraft HMI" [ref=e280] [cursor=pointer]:
+                  - /url: /sensecraft_hmi_overview/
+                - button "Expand sidebar category 'SenseCraft HMI'" [ref=e281] [cursor=pointer]
+            - listitem [ref=e282]:
+              - button "SenseCraft Blockchain" [ref=e284] [cursor=pointer]
+            - listitem [ref=e285]:
+              - link "Solutions" [ref=e286] [cursor=pointer]:
+                - /url: https://www.seeed.cc/category/solutions
+                - text: Solutions
+                - img [ref=e287]
+            - listitem [ref=e289]:
+              - generic [ref=e290]:
+                - link "AI Vision" [ref=e291] [cursor=pointer]:
+                  - /url: /ai-vision/
+                - button "Expand sidebar category 'AI Vision'" [ref=e292] [cursor=pointer]
+            - listitem [ref=e293]:
+              - generic [ref=e294]:
+                - link "AI Sound" [ref=e295] [cursor=pointer]:
+                  - /url: /ai-sound/
+                - button "Expand sidebar category 'AI Sound'" [ref=e296] [cursor=pointer]
+            - listitem [ref=e297]:
+              - button "AI Intelligent" [ref=e299] [cursor=pointer]
+            - listitem [ref=e300]:
+              - button "Device Integration & Control" [ref=e302] [cursor=pointer]
+            - listitem [ref=e303]:
+              - button "Environmental Monitoring" [ref=e305] [cursor=pointer]
+            - listitem [ref=e306]:
+              - generic [ref=e307]:
+                - link "Hazard Response" [ref=e308] [cursor=pointer]:
+                  - /url: /hazard-response/
+                - button "Expand sidebar category 'Hazard Response'" [ref=e309] [cursor=pointer]
+            - listitem [ref=e310]:
+              - button "Indoor-Outdoor Positioning" [ref=e312] [cursor=pointer]
+            - listitem [ref=e313]:
+              - link "Technology Topics" [ref=e314] [cursor=pointer]:
+                - /url: /topicintroduction/
+            - listitem [ref=e315]:
+              - generic [ref=e316]:
+                - link "Home Assistant" [ref=e317] [cursor=pointer]:
+                  - /url: /home_assistant_topic/
+                - button "Expand sidebar category 'Home Assistant'" [ref=e318] [cursor=pointer]
+            - listitem [ref=e319]:
+              - generic [ref=e320]:
+                - link "TinyML" [ref=e321] [cursor=pointer]:
+                  - /url: /tinyml_topic/
+                - button "Expand sidebar category 'TinyML'" [ref=e322] [cursor=pointer]
+            - listitem [ref=e323]:
+              - link "Open Source" [ref=e324] [cursor=pointer]:
+                - /url: /open_source_topic/
+            - listitem [ref=e325]:
+              - link "Edge AI" [ref=e326] [cursor=pointer]:
+                - /url: /edge_ai_topic/
+            - listitem [ref=e327]:
+              - link "Contributions" [ref=e328] [cursor=pointer]:
+                - /url: /Contributor/
+            - listitem [ref=e329]:
+              - generic [ref=e330]:
+                - link "Github Contributions Guide" [ref=e331] [cursor=pointer]:
+                  - /url: /Contribution-Guide/
+                - button "Expand sidebar category 'Github Contributions Guide'" [ref=e332] [cursor=pointer]
+            - listitem [ref=e333]:
+              - link "Scale up Your Creation with Seeed Studio Fusion" [ref=e334] [cursor=pointer]:
+                - /url: /Scale-up-Your-Creation-with-Fusion/
+            - listitem [ref=e335]:
+              - link "Popular Platforms" [ref=e336] [cursor=pointer]:
+                - /url: /popularplatforms/
+            - listitem [ref=e337]:
+              - generic [ref=e338]:
+                - link "Arduino" [ref=e339] [cursor=pointer]:
+                  - /url: /Arduino/
+                - button "Expand sidebar category 'Arduino'" [ref=e340] [cursor=pointer]
+            - listitem [ref=e341]:
+              - generic [ref=e342]:
+                - link "Raspberry Pi" [ref=e343] [cursor=pointer]:
+                  - /url: /Raspberry_Pi/
+                - button "Expand sidebar category 'Raspberry Pi'" [ref=e344] [cursor=pointer]
+            - listitem [ref=e345]:
+              - generic [ref=e346]:
+                - link "Micro:bit" [ref=e347] [cursor=pointer]:
+                  - /url: /microbit_wiki_page/
+                - button "Expand sidebar category 'Micro:bit'" [ref=e348] [cursor=pointer]
+            - listitem [ref=e349]:
+              - link "Discontinued Products" [ref=e350] [cursor=pointer]:
+                - /url: /discontinuedproducts/
+            - listitem [ref=e351]:
+              - button "Product List" [ref=e353] [cursor=pointer]
+            - listitem [ref=e354]:
+              - link "About Seeed" [ref=e355] [cursor=pointer]:
+                - /url: /About/
+            - listitem [ref=e356]:
+              - link "License" [ref=e357] [cursor=pointer]:
+                - /url: /License/
+        - button "Collapse sidebar" [ref=e358] [cursor=pointer]:
+          - img [ref=e359]
+    - main [ref=e363]:
+      - generic [ref=e365]:
+        - generic [ref=e366]:
+          - generic [ref=e367]:
+            - article [ref=e368]:
+              - navigation "Breadcrumbs" [ref=e369]:
+                - list [ref=e370]:
+                  - listitem [ref=e371]:
+                    - link "Home page" [ref=e372] [cursor=pointer]:
+                      - /url: /
+                      - img [ref=e373]
+                  - listitem [ref=e375]:
+                    - link "XIAO" [ref=e376] [cursor=pointer]:
+                      - /url: /SeeedStudio_XIAO_Series_Introduction/
+                  - listitem [ref=e377]:
+                    - generic [ref=e378]: Expansion Boards for XIAO
+                  - listitem [ref=e379]:
+                    - generic [ref=e380]: XIAO CAN Bus Expansion Board
+              - generic [ref=e381]:
+                - heading "XIAO CAN Bus Expansion Board" [level=1] [ref=e383]
+                - paragraph [ref=e384]:
+                  - img "pir" [ref=e385]
+                - link "Get One Now 🖱️" [ref=e387] [cursor=pointer]:
+                  - /url: https://www.seeedstudio.com/Seeed-Studio-CAN-Bus-Breakout-Board-for-XIAO-and-QT-Py-p-5702.html
+                  - strong [ref=e388]:
+                    - generic [ref=e389]: Get One Now 🖱️
+                - paragraph [ref=e390]: The XIAO CAN Bus Expansion Board is specifically designed to work with the Seeed Studio XIAO development board, providing an easy and convenient way to add CAN bus communication functionality to your projects. CAN bus (Controller Area Network) is a widely used communication protocol in automotive, industrial, and other embedded systems, allowing for reliable and robust data exchange between different nodes.
+                - paragraph [ref=e391]: The integration of the MCP2515 controller and SN65HVD230 transceiver chips on the expansion board ensures seamless and efficient communication over the CAN bus. The MCP2515 controller handles the protocol management, message filtering, and error handling, while the SN65HVD230 transceiver converts the digital signals from the controller into the differential signals required for CAN bus communication.
+                - paragraph [ref=e392]: With the XIAO CAN Bus Expansion Board, you can leverage the power of the Seeed Studio XIAO development board and its extensive ecosystem to create projects that require CAN bus communication. Whether you're working on automotive applications, industrial control systems, robotics projects, or IoT devices, this expansion board provides a reliable and compact solution for integrating CAN bus capabilities into your designs.
+                - paragraph [ref=e393]: The expansion board features a user-friendly terminal connection, allowing you to easily connect the CANH and CANL lines to the CAN bus network. The compact design of the board ensures compatibility with various project enclosures and facilitates seamless integration into your existing setups.
+                - paragraph [ref=e394]: By utilizing the XIAO CAN Bus Expansion Board, you can take advantage of the robustness, reliability, and scalability of the CAN bus protocol, enabling efficient data exchange, system control, and interconnectivity in your projects.
+                - heading "IntroductionDirect link to Introduction" [level=2] [ref=e395]:
+                  - text: Introduction
+                  - link "Direct link to Introduction" [ref=e396] [cursor=pointer]:
+                    - /url: "#introduction"
+                    - text: "#"
+                - heading "FeaturesDirect link to Features" [level=3] [ref=e397]:
+                  - text: Features
+                  - link "Direct link to Features" [ref=e398] [cursor=pointer]:
+                    - /url: "#features"
+                    - text: "#"
+                - list [ref=e399]:
+                  - listitem [ref=e400]: "Compatibility: Designed to work seamlessly with the Seeed Studio XIAO development board."
+                  - listitem [ref=e401]: "MCP2515 Controller: The onboard MCP2515 chip provides reliable control and handling of the CAN bus communication."
+                  - listitem [ref=e402]: "SN65HVD230 Transceiver: The integrated SN65HVD230 chip ensures accurate signal conversion and robust communication over the CAN bus."
+                  - listitem [ref=e403]: "Terminal Connection: The CANH and CANL lines are conveniently accessible through a 3-pin terminal, allowing easy connection to the CAN bus."
+                  - listitem [ref=e404]: "Compact Design: The expansion board has been designed with a compact form factor, making it suitable for various applications."
+                - heading "SpecificationDirect link to Specification" [level=3] [ref=e405]:
+                  - text: Specification
+                  - link "Direct link to Specification" [ref=e406] [cursor=pointer]:
+                    - /url: "#specification"
+                    - text: "#"
+                - list [ref=e407]:
+                  - listitem [ref=e408]: "Compatibility: Seeed Studio XIAO development board."
+                  - listitem [ref=e409]: "Communication Interface: CAN bus (Controller Area Network)."
+                  - listitem [ref=e410]: "CAN Transceiver: SN65HVD230."
+                  - listitem [ref=e411]: "CAN Controller: MCP2515."
+                  - listitem [ref=e412]: "Terminal Connection: 2-pin terminal for CANH and CANL lines."
+                - heading "ApplicationsDirect link to Applications" [level=3] [ref=e413]:
+                  - text: Applications
+                  - link "Direct link to Applications" [ref=e414] [cursor=pointer]:
+                    - /url: "#applications"
+                    - text: "#"
+                - paragraph [ref=e415]: "The XIAO CAN Bus Expansion Board can be utilized in various projects that require CAN bus communication. Here are a few application ideas to inspire you:"
+                - list [ref=e416]:
+                  - listitem [ref=e417]: "Automotive Projects: Connect the expansion board to the XIAO and build automotive applications that require CAN bus communication, such as vehicle diagnostics or data logging."
+                  - listitem [ref=e418]: "Industrial Control Systems: Utilize the CAN bus capabilities to interface with industrial devices and systems, enabling efficient data exchange and control."
+                  - listitem [ref=e419]: "Robotics: Incorporate the expansion board into your robotic projects to enable communication between different robotic modules and components."
+                  - listitem [ref=e420]: "IoT Applications: Integrate the expansion board with IoT devices to facilitate communication and data exchange over the CAN bus protocol."
+                - paragraph [ref=e421]: Please refer to the XIAO CAN Bus Expansion Board datasheet and examples for detailed usage instructions and code samples.
+                - heading "Hardware OverviewDirect link to Hardware Overview" [level=2] [ref=e422]:
+                  - text: Hardware Overview
+                  - link "Direct link to Hardware Overview" [ref=e423] [cursor=pointer]:
+                    - /url: "#hardware-overview"
+                    - text: "#"
+                - paragraph [ref=e424]:
+                  - img "pir" [ref=e425]
+                - list [ref=e426]:
+                  - listitem [ref=e427]: GND
+                  - listitem [ref=e428]: CAN-H
+                  - listitem [ref=e429]: CAN-L
+                  - listitem [ref=e430]: LED Indicators for RX/TX
+                  - listitem [ref=e431]: SN65NVD230
+                  - listitem [ref=e432]: MCP2515
+                - paragraph [ref=e433]:
+                  - img "pir" [ref=e434]
+                - paragraph [ref=e435]: XIAO CAN BUS Expansion Board has a pad P1 on the back of the board, which will add a termination resistor to the device after shorting. Considering that some users' communication devices may already have a terminating resistor, XIAO CAN-BUS does not short P1 by default, if you find that CAN communication cannot send or receive messages, you can try to short P1 pad to get a 120 ohm terminating resistor.
+                - heading "Arduino Library OverviewDirect link to Arduino Library Overview" [level=2] [ref=e436]:
+                  - text: Arduino Library Overview
+                  - link "Direct link to Arduino Library Overview" [ref=e437] [cursor=pointer]:
+                    - /url: "#arduino-library-overview"
+                    - text: "#"
+                - paragraph [ref=e438]:
+                  - text: We provide an
+                  - link "Arduino library for the MCP2515 board" [ref=e439] [cursor=pointer]:
+                    - /url: https://github.com/limengdu/Arduino_CAN_BUS_MCP2515
+                  - text: .
+                - link "Download the Libraries" [ref=e441] [cursor=pointer]:
+                  - /url: https://github.com/limengdu/Arduino_CAN_BUS_MCP2515
+                  - strong [ref=e442]:
+                    - generic [ref=e443]: Download the Libraries
+                  - img [ref=e444]
+                - paragraph [ref=e446]: "The library includes several examples, including:"
+                - list [ref=e447]:
+                  - listitem [ref=e448]:
+                    - emphasis [ref=e449]:
+                      - strong [ref=e450]: OBDII-PIDs
+                    - text: "- retrieve data from the OBD-II interface"
+                  - listitem [ref=e451]:
+                    - emphasis [ref=e452]:
+                      - strong [ref=e453]: send
+                    - text: "- send a frame to the CAN bus"
+                  - listitem [ref=e454]:
+                    - emphasis [ref=e455]:
+                      - strong [ref=e456]: recv
+                    - text: "- receive a frame from the CAN bus"
+                  - listitem [ref=e457]:
+                    - emphasis [ref=e458]:
+                      - strong [ref=e459]: set_mask_filter_recv
+                    - text: "- receive a frame from the CAN bus with mask and filter settings"
+                - heading "1. Set the Baud rateDirect link to 1. Set the Baud rate" [level=3] [ref=e460]:
+                  - text: 1. Set the Baud rate
+                  - link "Direct link to 1. Set the Baud rate" [ref=e461] [cursor=pointer]:
+                    - /url: "#1-set-the-baud-rate"
+                    - text: "#"
+                - paragraph [ref=e462]: This function is used to initialize the baud rate of the CAN Bus system.
+                - paragraph [ref=e463]: "The available baud rates are listed as follows:"
+                - generic [ref=e465]:
+                  - code [ref=e467]:
+                    - generic [ref=e468]: "#define CAN_5KBPS 1"
+                    - generic [ref=e469]: "#define CAN_10KBPS 2"
+                    - generic [ref=e470]: "#define CAN_20KBPS 3"
+                    - generic [ref=e471]: "#define CAN_25KBPS 4"
+                    - generic [ref=e472]: "#define CAN_31K25BPS 5"
+                    - generic [ref=e473]: "#define CAN_33KBPS 6"
+                    - generic [ref=e474]: "#define CAN_40KBPS 7"
+                    - generic [ref=e475]: "#define CAN_50KBPS 8"
+                    - generic [ref=e476]: "#define CAN_80KBPS 9"
+                    - generic [ref=e477]: "#define CAN_83K3BPS 10"
+                    - generic [ref=e478]: "#define CAN_95KBPS 11"
+                    - generic [ref=e479]: "#define CAN_100KBPS 12"
+                    - generic [ref=e480]: "#define CAN_125KBPS 13"
+                    - generic [ref=e481]: "#define CAN_200KBPS 14"
+                    - generic [ref=e482]: "#define CAN_250KBPS 15"
+                    - generic [ref=e483]: "#define CAN_500KBPS 16"
+                    - generic [ref=e484]: "#define CAN_666kbps 17"
+                    - generic [ref=e485]: "#define CAN_1000KBPS 18"
+                  - button "Copy code to clipboard" [ref=e487] [cursor=pointer]:
+                    - generic [ref=e488]:
+                      - img [ref=e489]
+                      - img [ref=e491]
+                - heading "2. Set Receive Mask and FilterDirect link to 2. Set Receive Mask and Filter" [level=3] [ref=e493]:
+                  - text: 2. Set Receive Mask and Filter
+                  - link "Direct link to 2. Set Receive Mask and Filter" [ref=e494] [cursor=pointer]:
+                    - /url: "#2-set-receive-mask-and-filter"
+                    - text: "#"
+                - paragraph [ref=e495]: The controller chip has 2 receive mask registers and 5 filter registers that can be used to ensure that data is received from the targeted device. These registers are particularly useful in large networks with many nodes. We have provided two functions that allow you to utilize these mask and filter registers.
+                - paragraph [ref=e496]:
+                  - strong [ref=e497]: "Mask:"
+                - generic [ref=e499]:
+                  - code [ref=e501]:
+                    - generic [ref=e502]: init_Mask(unsigned char num, unsigned char ext, unsigned char ulData);
+                  - button "Copy code to clipboard" [ref=e504] [cursor=pointer]:
+                    - generic [ref=e505]:
+                      - img [ref=e506]
+                      - img [ref=e508]
+                - paragraph [ref=e510]:
+                  - strong [ref=e511]: "Filter:"
+                - generic [ref=e513]:
+                  - code [ref=e515]:
+                    - generic [ref=e516]: init_Filt(unsigned char num, unsigned char ext, unsigned char ulData);
+                  - button "Copy code to clipboard" [ref=e518] [cursor=pointer]:
+                    - generic [ref=e519]:
+                      - img [ref=e520]
+                      - img [ref=e522]
+                - list [ref=e524]:
+                  - listitem [ref=e525]:
+                    - strong [ref=e526]: num
+                    - text: represents which register to use. You can fill 0 or 1 for mask and 0 to 5 for filter.
+                  - listitem [ref=e527]:
+                    - strong [ref=e528]: ext
+                    - text: represents the status of the frame. 0 means it's a mask or filter for a standard frame. 1 means it's for a extended frame.
+                  - listitem [ref=e529]:
+                    - strong [ref=e530]: ulData
+                    - text: represents the content of the mask of filter.
+                - heading "3. Check ReceiveDirect link to 3. Check Receive" [level=3] [ref=e531]:
+                  - text: 3. Check Receive
+                  - link "Direct link to 3. Check Receive" [ref=e532] [cursor=pointer]:
+                    - /url: "#3-check-receive"
+                    - text: "#"
+                - paragraph [ref=e533]: The MCP2515 controller chip has the ability to operate in either a polled mode or an interrupt mode. In polled mode, the software regularly checks for a received frame. In interrupt mode, additional pins can be used to signal that a frame has been received or transmit has completed. This allows for more efficient use of resources as the processor does not need to constantly check for incoming data.
+                - paragraph [ref=e534]: This function is used to check if there are any received frames waiting in the receive buffer. If there are, the function will return true, otherwise it will return false. You can use this function in a loop to continuously check for received frames.
+                - generic [ref=e536]:
+                  - code [ref=e538]:
+                    - generic [ref=e539]: INT8U MCP_CAN::checkReceive(void);
+                  - button "Copy code to clipboard" [ref=e541] [cursor=pointer]:
+                    - generic [ref=e542]:
+                      - img [ref=e543]
+                      - img [ref=e545]
+                - heading "4. Get CAN IDDirect link to 4. Get CAN ID" [level=3] [ref=e547]:
+                  - text: 4. Get CAN ID
+                  - link "Direct link to 4. Get CAN ID" [ref=e548] [cursor=pointer]:
+                    - /url: "#4-get-can-id"
+                    - text: "#"
+                - paragraph [ref=e549]: You can use the following function to get the length of the data received from the "send" node.
+                - generic [ref=e551]:
+                  - code [ref=e553]:
+                    - generic [ref=e554]: INT32U MCP_CAN::getCanId(void)
+                  - button "Copy code to clipboard" [ref=e556] [cursor=pointer]:
+                    - generic [ref=e557]:
+                      - img [ref=e558]
+                      - img [ref=e560]
+                - heading "5. Send a frameDirect link to 5. Send a frame" [level=3] [ref=e562]:
+                  - text: 5. Send a frame
+                  - link "Direct link to 5. Send a frame" [ref=e563] [cursor=pointer]:
+                    - /url: "#5-send-a-frame"
+                    - text: "#"
+                - generic [ref=e565]:
+                  - code [ref=e567]:
+                    - generic [ref=e568]: CAN.sendMsgBuf(INT8U id, INT8U ext, INT8U len, data_buf);
+                  - button "Copy code to clipboard" [ref=e570] [cursor=pointer]:
+                    - generic [ref=e571]:
+                      - img [ref=e572]
+                      - img [ref=e574]
+                - paragraph [ref=e576]: "This function is used to send data onto the CAN Bus. The parameters are as follows:"
+                - list [ref=e577]:
+                  - listitem [ref=e578]:
+                    - strong [ref=e579]: id
+                    - text: "- The ID of can frame."
+                  - listitem [ref=e580]:
+                    - strong [ref=e581]: ext
+                    - text: "- A boolean value representing the status of the frame. '0' means standard frame. '1' means extended frame."
+                  - listitem [ref=e582]:
+                    - strong [ref=e583]: len
+                    - text: "- The length of the frame."
+                  - listitem [ref=e584]:
+                    - strong [ref=e585]: data_buf
+                    - text: "- The content of the message."
+                - paragraph [ref=e586]: "For example, In the 'send' example, we have:"
+                - generic [ref=e588]:
+                  - code [ref=e590]:
+                    - generic [ref=e591]: "unsigned char stmp[8] = {0, 1, 2, 3, 4, 5, 6, 7};"
+                    - generic [ref=e592]: CAN.sendMsgBuf(0x00, 0, 8, stmp); //send out the message 'stmp' to the bus and tell other devices this is a standard frame from 0x00.
+                  - generic [ref=e593]:
+                    - button "Toggle word wrap" [ref=e594] [cursor=pointer]:
+                      - img [ref=e595]
+                    - button "Copy code to clipboard" [ref=e597] [cursor=pointer]:
+                      - generic [ref=e598]:
+                        - img [ref=e599]
+                        - img [ref=e601]
+                - heading "6. Receive a frameDirect link to 6. Receive a frame" [level=3] [ref=e603]:
+                  - text: 6. Receive a frame
+                  - link "Direct link to 6. Receive a frame" [ref=e604] [cursor=pointer]:
+                    - /url: "#6-receive-a-frame"
+                    - text: "#"
+                - paragraph [ref=e605]: "The following function is used to receive data on the 'receive' node:"
+                - generic [ref=e607]:
+                  - code [ref=e609]:
+                    - generic [ref=e610]: CAN.readMsgBuf(unsigned char len, unsigned char buf);
+                  - button "Copy code to clipboard" [ref=e612] [cursor=pointer]:
+                    - generic [ref=e613]:
+                      - img [ref=e614]
+                      - img [ref=e616]
+                - paragraph [ref=e618]: In conditions that masks and filters have been set. This function can only get frames that meet the requirements of masks and filters.
+                - list [ref=e619]:
+                  - listitem [ref=e620]:
+                    - strong [ref=e621]: len
+                    - text: represents the data length.
+                  - listitem [ref=e622]:
+                    - strong [ref=e623]: buf
+                    - text: is where you store the data.
+                - heading "Getting StartedDirect link to Getting Started" [level=2] [ref=e624]:
+                  - text: Getting Started
+                  - link "Direct link to Getting Started" [ref=e625] [cursor=pointer]:
+                    - /url: "#getting-started"
+                    - text: "#"
+                - heading "HardwareDirect link to Hardware" [level=4] [ref=e626]:
+                  - text: Hardware
+                  - link "Direct link to Hardware" [ref=e627] [cursor=pointer]:
+                    - /url: "#hardware"
+                    - text: "#"
+                - paragraph [ref=e628]: This product does not include the XIAO module, so you will need to purchase a separate XIAO module. In this example, we use the XIAO ESP32C3 for demonstration purposes, but other versions of the XIAO module will work similarly. The hardware connection is straightforward - simply insert the XIAO module into the expansion board.
+                - paragraph [ref=e629]: Please refer to the diagram below for the connection to XIAO.
+                - paragraph [ref=e630]:
+                  - img "pir" [ref=e631]
+                - heading "SoftwareDirect link to Software" [level=4] [ref=e632]:
+                  - text: Software
+                  - link "Direct link to Software" [ref=e633] [cursor=pointer]:
+                    - /url: "#software"
+                    - text: "#"
+                - list [ref=e634]:
+                  - listitem [ref=e635]:
+                    - paragraph [ref=e636]:
+                      - strong [ref=e637]: Step 1.
+                      - text: Download the
+                      - link "CAN Bus Library" [ref=e638] [cursor=pointer]:
+                        - /url: https://github.com/limengdu/Arduino_CAN_BUS_MCP2515
+                      - text: from Github.
+                  - listitem [ref=e639]:
+                    - paragraph [ref=e640]:
+                      - strong [ref=e641]: Step 2.
+                      - text: Refer to
+                      - link "How to install library" [ref=e642] [cursor=pointer]:
+                        - /url: https://wiki.seeedstudio.com/How_to_install_Arduino_Library
+                      - text: to install library for Arduino.
+                  - listitem [ref=e643]:
+                    - paragraph [ref=e644]:
+                      - strong [ref=e645]: Step 3.
+                      - text: After downloading and installing the library correctly, you can find an example program named send.ino in the examples folder. This program is designed for the D7S module.
+                - generic [ref=e647]:
+                  - code [ref=e649]:
+                    - generic [ref=e650]: "#include <mcp_can.h>"
+                    - generic [ref=e651]: "#include <SPI.h>"
+                    - generic [ref=e652]: /* Please modify SPI_CS_PIN to adapt to different baords.
+                    - generic [ref=e653]: CANBed V1 - 17
+                    - generic [ref=e654]: CANBed M0 - 3
+                    - generic [ref=e655]: CAN Bus Shield - 9
+                    - generic [ref=e656]: CANBed 2040 - 9
+                    - generic [ref=e657]: CANBed Dual - 9
+                    - generic [ref=e658]: OBD-2G Dev Kit - 9
+                    - generic [ref=e659]: OBD-II GPS Kit - 9
+                    - generic [ref=e660]: Hud Dev Kit - 9
+                    - generic [ref=e661]: "*/"
+                    - generic [ref=e662]: "#define SPI_CS_PIN D7"
+                    - generic [ref=e663]: MCP_CAN CAN(SPI_CS_PIN); // Set CS pin
+                    - generic [ref=e664]: void setup()
+                    - generic [ref=e665]: "{"
+                    - generic [ref=e666]: Serial.begin(115200);
+                    - generic [ref=e667]: while(!Serial);
+                    - generic [ref=e669]: // below code need for OBD-II GPS Dev Kit Atemga32U4 version
+                    - generic [ref=e670]: // pinMode(A3, OUTPUT);
+                    - generic [ref=e671]: // digitalWrite(A3, HIGH);
+                    - generic [ref=e673]: // below code need for OBD-II GPS Dev Kit RP2040 version
+                    - generic [ref=e674]: // pinMode(12, OUTPUT);
+                    - generic [ref=e675]: // digitalWrite(12, HIGH);
+                    - generic [ref=e677]: "while (CAN_OK != CAN.begin(CAN_500KBPS)) // init can bus : baudrate = 500k"
+                    - generic [ref=e678]: "{"
+                    - generic [ref=e679]: Serial.println("CAN BUS FAIL!");
+                    - generic [ref=e680]: delay(100);
+                    - generic [ref=e681]: "}"
+                    - generic [ref=e682]: Serial.println("CAN BUS OK!");
+                    - generic [ref=e683]: "}"
+                    - generic [ref=e684]: "unsigned char stmp[8] = {0, 1, 2, 3, 4, 5, 6, 7};"
+                    - generic [ref=e685]: void loop()
+                    - generic [ref=e686]: "{"
+                    - generic [ref=e687]: CAN.sendMsgBuf(0x00, 0, 8, stmp);
+                    - generic [ref=e688]: delay(100); // send data per 100ms
+                    - generic [ref=e689]: "}"
+                    - generic [ref=e690]: // END FILE
+                  - generic [ref=e691]:
+                    - button "Toggle word wrap" [ref=e692] [cursor=pointer]:
+                      - img [ref=e693]
+                    - button "Copy code to clipboard" [ref=e695] [cursor=pointer]:
+                      - generic [ref=e696]:
+                        - img [ref=e697]
+                        - img [ref=e699]
+                - list [ref=e701]:
+                  - listitem [ref=e702]:
+                    - paragraph [ref=e703]:
+                      - strong [ref=e704]: Step 4.
+                      - text: Upload the demo. If you do not know how to upload the code, please check
+                      - link "How to upload code" [ref=e705] [cursor=pointer]:
+                        - /url: https://wiki.seeedstudio.com/Upload_Code/
+                      - text: .
+                  - listitem [ref=e706]:
+                    - paragraph [ref=e707]:
+                      - strong [ref=e708]: Step 5.
+                      - text: After a successful code upload, you will notice that the RX and TX LEDs light up, indicating that the CAN bus is actively transmitting data. If your CAN bus is connected to other devices, these LEDs will blink instead of remaining constantly lit.
+                - heading "Schematic Online ViewerDirect link to Schematic Online Viewer" [level=2] [ref=e709]:
+                  - text: Schematic Online Viewer
+                  - link "Direct link to Schematic Online Viewer" [ref=e710] [cursor=pointer]:
+                    - /url: "#schematic-online-viewer"
+                    - text: "#"
+                - iframe [ref=e712]:
+                  
+                - heading "TroubleshootingDirect link to Troubleshooting" [level=2] [ref=e713]:
+                  - text: Troubleshooting
+                  - link "Direct link to Troubleshooting" [ref=e714] [cursor=pointer]:
+                    - /url: "#troubleshooting"
+                    - text: "#"
+                - 'heading "Q1: What is the maximum baud rate supported by the XIAO CAN Bus Expansion Board?Direct link to Q1: What is the maximum baud rate supported by the XIAO CAN Bus Expansion Board?" [level=3] [ref=e715]':
+                  - text: "Q1: What is the maximum baud rate supported by the XIAO CAN Bus Expansion Board?"
+                  - 'link "Direct link to Q1: What is the maximum baud rate supported by the XIAO CAN Bus Expansion Board?" [ref=e716] [cursor=pointer]':
+                    - /url: "#q1-what-is-the-maximum-baud-rate-supported-by-the-xiao-can-bus-expansion-board"
+                    - text: "#"
+                - paragraph [ref=e717]: The maximum baud rate supported by the MCP2515 controller on the expansion board is 1 Mbps. Please ensure that the baud rate settings of your CAN bus network are compatible with this limitation.
+                - 'heading "Q2: Can I use multiple XIAO CAN Bus Expansion Boards in the same CAN bus network?Direct link to Q2: Can I use multiple XIAO CAN Bus Expansion Boards in the same CAN bus network?" [level=3] [ref=e718]':
+                  - text: "Q2: Can I use multiple XIAO CAN Bus Expansion Boards in the same CAN bus network?"
+                  - 'link "Direct link to Q2: Can I use multiple XIAO CAN Bus Expansion Boards in the same CAN bus network?" [ref=e719] [cursor=pointer]':
+                    - /url: "#q2-can-i-use-multiple-xiao-can-bus-expansion-boards-in-the-same-can-bus-network"
+                    - text: "#"
+                - paragraph [ref=e720]: Yes, you can use multiple expansion boards in the same CAN bus network. Each expansion board should have a unique node ID assigned to it to ensure proper communication and avoid conflicts on the bus.
+                - 'heading "Q3: Can I use the XIAO CAN Bus Expansion Board with other microcontrollers or development boards?Direct link to Q3: Can I use the XIAO CAN Bus Expansion Board with other microcontrollers or development boards?" [level=3] [ref=e721]':
+                  - text: "Q3: Can I use the XIAO CAN Bus Expansion Board with other microcontrollers or development boards?"
+                  - 'link "Direct link to Q3: Can I use the XIAO CAN Bus Expansion Board with other microcontrollers or development boards?" [ref=e722] [cursor=pointer]':
+                    - /url: "#q3-can-i-use-the-xiao-can-bus-expansion-board-with-other-microcontrollers-or-development-boards"
+                    - text: "#"
+                - paragraph [ref=e723]: The XIAO CAN Bus Expansion Board is specifically designed to work with the Seeed Studio XIAO development board. However, with proper pin mapping and configuration, it may be possible to use it with other microcontrollers or development boards that support the necessary CAN bus communication protocols.
+                - 'heading "Q4: Are there any limitations on the maximum cable length for the CAN bus connection?Direct link to Q4: Are there any limitations on the maximum cable length for the CAN bus connection?" [level=3] [ref=e724]':
+                  - text: "Q4: Are there any limitations on the maximum cable length for the CAN bus connection?"
+                  - 'link "Direct link to Q4: Are there any limitations on the maximum cable length for the CAN bus connection?" [ref=e725] [cursor=pointer]':
+                    - /url: "#q4-are-there-any-limitations-on-the-maximum-cable-length-for-the-can-bus-connection"
+                    - text: "#"
+                - paragraph [ref=e726]: The maximum cable length for the CAN bus connection depends on factors such as the baud rate, cable quality, and electromagnetic interference. In general, for lower baud rates, longer cable lengths (up to several hundred meters) can be supported. However, for higher baud rates, it is recommended to keep the cable length shorter (within a few meters) to maintain reliable communication.
+                - 'heading "Q5: How can I troubleshoot CAN bus communication issues?Direct link to Q5: How can I troubleshoot CAN bus communication issues?" [level=3] [ref=e727]':
+                  - text: "Q5: How can I troubleshoot CAN bus communication issues?"
+                  - 'link "Direct link to Q5: How can I troubleshoot CAN bus communication issues?" [ref=e728] [cursor=pointer]':
+                    - /url: "#q5-how-can-i-troubleshoot-can-bus-communication-issues"
+                    - text: "#"
+                - paragraph [ref=e729]: "If you encounter any issues with CAN bus communication, you can follow these steps for troubleshooting:"
+                - list [ref=e730]:
+                  - listitem [ref=e731]: Verify the physical connections of the CAN bus network, ensuring correct wiring and termination.
+                  - listitem [ref=e732]: Check the baud rate settings and ensure they match on all devices connected to the CAN bus.
+                  - listitem [ref=e733]: Monitor the CAN bus traffic using a CAN bus analyzer or terminal software to identify any errors or issues in the transmitted messages.
+                  - listitem [ref=e734]: Double-check the program code for proper initialization and configuration of the MCP2515 controller.
+                  - listitem [ref=e735]: Ensure that the power supply to the XIAO development board and the CAN bus network is stable and within the specified voltage range.
+                  - listitem [ref=e736]: If you have any other questions or issues not covered in this FAQ section, please feel free to contact our technical support team for further assistance.
+                - heading "ResourcesDirect link to Resources" [level=2] [ref=e737]:
+                  - text: Resources
+                  - link "Direct link to Resources" [ref=e738] [cursor=pointer]:
+                    - /url: "#resources"
+                    - text: "#"
+                - list [ref=e739]:
+                  - listitem [ref=e740]:
+                    - strong [ref=e741]: "[ZIP]"
+                    - link "XIAO CAN Bus Expansion board SCH&PCB" [ref=e742] [cursor=pointer]:
+                      - /url: https://files.seeedstudio.com/wiki/xiao_can_bus_board/CAN_DEV_XIAO.zip
+                  - listitem [ref=e743]:
+                    - strong [ref=e744]: "[PDF]"
+                    - link "Datasheet - MCP2515" [ref=e745] [cursor=pointer]:
+                      - /url: https://files.seeedstudio.com/wiki/xiao_can_bus_board/MCP2515-Stand-Alone-CAN-Controller-with-SPI-200018-708845.pdf
+                  - listitem [ref=e746]:
+                    - strong [ref=e747]: "[PDF]"
+                    - link "Datasheet - SN65HVD230" [ref=e748] [cursor=pointer]:
+                      - /url: https://files.seeedstudio.com/wiki/xiao_can_bus_board/20001667G-1115479.pdf
+                - heading "Tech Support & Product DiscussionDirect link to Tech Support & Product Discussion" [level=2] [ref=e749]:
+                  - text: Tech Support & Product Discussion
+                  - link "Direct link to Tech Support & Product Discussion" [ref=e750] [cursor=pointer]:
+                    - /url: "#tech-support--product-discussion"
+                    - text: "#"
+                - paragraph [ref=e751]: Thank you for choosing our products! We are here to provide you with different support to ensure that your experience with our products is as smooth as possible. We offer several communication channels to cater to different preferences and needs.
+                - generic [ref=e752]:
+                  - link [ref=e753] [cursor=pointer]:
+                    - /url: https://forum.seeedstudio.com/
+                  - link [ref=e754] [cursor=pointer]:
+                    - /url: https://www.seeedstudio.com/contacts
+                - generic [ref=e755]:
+                  - link [ref=e756] [cursor=pointer]:
+                    - /url: https://discord.gg/eWkprNDMU7
+                  - link [ref=e757] [cursor=pointer]:
+                    - /url: https://github.com/Seeed-Studio/wiki-documents/discussions/69
+              - generic [ref=e759]:
+                - link "Edit this page" [ref=e761] [cursor=pointer]:
+                  - /url: https://github.com/Seeed-Studio/wiki-documents/blob/docusaurus-version/sites/en/docs/docs/Sensor/SeeedStudio_XIAO/SeeedStudio_XIAO_Expansion_board/XIAO-CAN-Bus-Expansion-Board.md
+                  - img [ref=e762]
+                  - text: Edit this page
+                - generic [ref=e766]:
+                  - text: Last updated on
+                  - time [ref=e768]: Jun 6, 2023
+                  - text: by Stephen Lo
+            - navigation "Docs pages" [ref=e769]:
+              - link "Previous « Expansion Board Base for XIAO" [ref=e770] [cursor=pointer]:
+                - /url: /Seeeduino-XIAO-Expansion-Board/
+                - generic [ref=e771]: Previous
+                - generic [ref=e772]: « Expansion Board Base for XIAO
+              - link "Next Grove Shield for XIAO with battery management chip »" [ref=e773] [cursor=pointer]:
+                - /url: /Grove-Shield-for-Seeeduino-XIAO-embedded-battery-management-chip/
+                - generic [ref=e774]: Next
+                - generic [ref=e775]: Grove Shield for XIAO with battery management chip »
+          - iframe [ref=e778]:
+            
+        - list [ref=e781]:
+          - listitem [ref=e782]:
+            - link "Introduction" [ref=e783] [cursor=pointer]:
+              - /url: "#introduction"
+            - list [ref=e784]:
+              - listitem [ref=e785]:
+                - link "Features" [ref=e786] [cursor=pointer]:
+                  - /url: "#features"
+              - listitem [ref=e787]:
+                - link "Specification" [ref=e788] [cursor=pointer]:
+                  - /url: "#specification"
+              - listitem [ref=e789]:
+                - link "Applications" [ref=e790] [cursor=pointer]:
+                  - /url: "#applications"
+          - listitem [ref=e791]:
+            - link "Hardware Overview" [ref=e792] [cursor=pointer]:
+              - /url: "#hardware-overview"
+          - listitem [ref=e793]:
+            - link "Arduino Library Overview" [ref=e794] [cursor=pointer]:
+              - /url: "#arduino-library-overview"
+            - list [ref=e795]:
+              - listitem [ref=e796]:
+                - link "1. Set the Baud rate" [ref=e797] [cursor=pointer]:
+                  - /url: "#1-set-the-baud-rate"
+              - listitem [ref=e798]:
+                - link "2. Set Receive Mask and Filter" [ref=e799] [cursor=pointer]:
+                  - /url: "#2-set-receive-mask-and-filter"
+              - listitem [ref=e800]:
+                - link "3. Check Receive" [ref=e801] [cursor=pointer]:
+                  - /url: "#3-check-receive"
+              - listitem [ref=e802]:
+                - link "4. Get CAN ID" [ref=e803] [cursor=pointer]:
+                  - /url: "#4-get-can-id"
+              - listitem [ref=e804]:
+                - link "5. Send a frame" [ref=e805] [cursor=pointer]:
+                  - /url: "#5-send-a-frame"
+              - listitem [ref=e806]:
+                - link "6. Receive a frame" [ref=e807] [cursor=pointer]:
+                  - /url: "#6-receive-a-frame"
+          - listitem [ref=e808]:
+            - link "Getting Started" [ref=e809] [cursor=pointer]:
+              - /url: "#getting-started"
+            - list [ref=e810]:
+              - listitem [ref=e811]:
+                - link "Hardware" [ref=e812] [cursor=pointer]:
+                  - /url: "#hardware"
+              - listitem [ref=e813]:
+                - link "Software" [ref=e814] [cursor=pointer]:
+                  - /url: "#software"
+          - listitem [ref=e815]:
+            - link "Schematic Online Viewer" [ref=e816] [cursor=pointer]:
+              - /url: "#schematic-online-viewer"
+          - listitem [ref=e817]:
+            - link "Troubleshooting" [ref=e818] [cursor=pointer]:
+              - /url: "#troubleshooting"
+            - list [ref=e819]:
+              - listitem [ref=e820]:
+                - 'link "Q1: What is the maximum baud rate supported by the XIAO CAN Bus Expansion Board?" [ref=e821] [cursor=pointer]':
+                  - /url: "#q1-what-is-the-maximum-baud-rate-supported-by-the-xiao-can-bus-expansion-board"
+              - listitem [ref=e822]:
+                - 'link "Q2: Can I use multiple XIAO CAN Bus Expansion Boards in the same CAN bus network?" [ref=e823] [cursor=pointer]':
+                  - /url: "#q2-can-i-use-multiple-xiao-can-bus-expansion-boards-in-the-same-can-bus-network"
+              - listitem [ref=e824]:
+                - 'link "Q3: Can I use the XIAO CAN Bus Expansion Board with other microcontrollers or development boards?" [ref=e825] [cursor=pointer]':
+                  - /url: "#q3-can-i-use-the-xiao-can-bus-expansion-board-with-other-microcontrollers-or-development-boards"
+              - listitem [ref=e826]:
+                - 'link "Q4: Are there any limitations on the maximum cable length for the CAN bus connection?" [ref=e827] [cursor=pointer]':
+                  - /url: "#q4-are-there-any-limitations-on-the-maximum-cable-length-for-the-can-bus-connection"
+              - listitem [ref=e828]:
+                - 'link "Q5: How can I troubleshoot CAN bus communication issues?" [ref=e829] [cursor=pointer]':
+                  - /url: "#q5-how-can-i-troubleshoot-can-bus-communication-issues"
+          - listitem [ref=e830]:
+            - link "Resources" [ref=e831] [cursor=pointer]:
+              - /url: "#resources"
+          - listitem [ref=e832]:
+            - link "Tech Support & Product Discussion" [ref=e833] [cursor=pointer]:
+              - /url: "#tech-support--product-discussion"
+  - contentinfo [ref=e834]:
+    - generic [ref=e835]:
+      - generic [ref=e836]:
+        - generic [ref=e837]:
+          - generic [ref=e838]: Navigation
+          - list [ref=e839]:
+            - listitem [ref=e840]:
+              - link "Getting Started" [ref=e841] [cursor=pointer]:
+                - /url: /Getting_Started/
+            - listitem [ref=e842]:
+              - link "Sensor and Sensing" [ref=e843] [cursor=pointer]:
+                - /url: /Sensor_Network/
+            - listitem [ref=e844]:
+              - link "Network" [ref=e845] [cursor=pointer]:
+                - /url: /Network/
+            - listitem [ref=e846]:
+              - link "Edge Computing" [ref=e847] [cursor=pointer]:
+                - /url: /Edge_Computing/
+            - listitem [ref=e848]:
+              - link "Cloud" [ref=e849] [cursor=pointer]:
+                - /url: /Cloud/
+            - listitem [ref=e850]:
+              - link "Solutions" [ref=e851] [cursor=pointer]:
+                - /url: https://solution.seeed.cc/
+        - generic [ref=e852]:
+          - generic [ref=e853]: Ecosystem
+          - list [ref=e854]:
+            - listitem [ref=e855]:
+              - link "Discord" [ref=e856] [cursor=pointer]:
+                - /url: https://discord.com/invite/QqMgVwHT3X
+            - listitem [ref=e857]:
+              - link "Project Hub" [ref=e858] [cursor=pointer]:
+                - /url: https://project.seeedstudio.com/
+            - listitem [ref=e859]:
+              - link "Partners" [ref=e860] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/ecosystem/
+            - listitem [ref=e861]:
+              - link "Distributors" [ref=e862] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/distributors.html
+        - generic [ref=e863]:
+          - generic [ref=e864]: Quick Guide
+          - list [ref=e865]:
+            - listitem [ref=e866]:
+              - link "Bazaar" [ref=e867] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/
+            - listitem [ref=e868]:
+              - link "How to get help" [ref=e869] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/get_help/HowToGetHelp
+            - listitem [ref=e870]:
+              - link "FAQs" [ref=e871] [cursor=pointer]:
+                - /url: https://support.seeedstudio.com/knowledgebase
+            - listitem [ref=e872]:
+              - link "Forum" [ref=e873] [cursor=pointer]:
+                - /url: https://forum.seeedstudio.com/
+            - listitem [ref=e874]:
+              - link "Technical Support" [ref=e875] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/get_help/TechnicalSupport
+        - generic [ref=e876]:
+          - generic [ref=e877]: Company
+          - list [ref=e878]:
+            - listitem [ref=e879]:
+              - link "About Seeed" [ref=e880] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/about-us/
+            - listitem [ref=e881]:
+              - link "Join us" [ref=e882] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/join-us/
+            - listitem [ref=e883]:
+              - link "Contact Us" [ref=e884] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/contacts
+            - listitem [ref=e885]:
+              - link "Press" [ref=e886] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/blog/2020/04/22/seeed-in-the-news/
+      - generic [ref=e888]: Copyright © 2026 Seeed Studio, Inc. Built with Docusaurus.

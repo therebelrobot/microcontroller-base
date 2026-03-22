@@ -1,0 +1,25 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - button "Skip to content" [ref=e3] [cursor=pointer]:
+      - generic [ref=e5]: Skip to content
+    - generic [ref=e6]:
+      - link "Back to Bing search" [ref=e7] [cursor=pointer]:
+        - /url: /?FORM=Z9FD1
+        - heading "Back to Bing search" [level=1] [ref=e8]
+      - search [ref=e9]:
+        - button "Search" [ref=e12] [cursor=pointer]
+        - searchbox "Enter your search here - Search suggestions will show as you type" [ref=e13]: "\"XIAO PowerBread\" seeedstudio"
+        - button "Search using an image" [ref=e16] [cursor=pointer]
+        - status [ref=e18]
+    - complementary "Account Rewards and Preferences" [ref=e19]:
+      - button "Microsoft Rewards" [ref=e20] [cursor=pointer]:
+        - generic [ref=e22]:
+          - generic [ref=e23]: Rewards
+          - img [ref=e25]
+      - link "Sign in" [ref=e37] [cursor=pointer]:
+        - /url: javascript:void(0)
+        - generic "Sign in" [ref=e38]
+    - generic [ref=e39]:
+      - generic [ref=e40]: One last step
+      - generic [ref=e41]: Please solve the challenge below to continue
+  - dialog "Quick Search"

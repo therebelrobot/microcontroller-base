@@ -1,0 +1,786 @@
+- generic [ref=e2]:
+  - region "Skip to main content":
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#__docusaurus_skipToContent_fallback"
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - text: Collaborate with Seeed -
+      - link "Creator" [ref=e7] [cursor=pointer]:
+        - /url: https://www.seeedstudio.com/blog/affiliate-program/
+      - text: ","
+      - link "Ranger" [ref=e8] [cursor=pointer]:
+        - /url: https://www.seeedstudio.com/ranger-program/
+      - text: ", or"
+      - link "Contributor" [ref=e9] [cursor=pointer]:
+        - /url: https://wiki.seeedstudio.com/contributors/
+      - text: ", there is always a role ideal for you!"
+  - navigation "Main" [ref=e10]:
+    - generic [ref=e11]:
+      - generic [ref=e12]:
+        - link "Seeed Studio" [ref=e13] [cursor=pointer]:
+          - /url: /
+          - img "Seeed Studio" [ref=e15]
+        - button "Quick Links" [ref=e17] [cursor=pointer]
+        - button "Explore with Topics" [ref=e19] [cursor=pointer]
+        - button "FAQs" [ref=e21] [cursor=pointer]
+        - button "Get Involved" [ref=e23] [cursor=pointer]
+      - generic [ref=e24]:
+        - link "Bazaar 🛍️" [ref=e25] [cursor=pointer]:
+          - /url: https://www.seeedstudio.com/
+        - link "SenseCraft AI" [ref=e26] [cursor=pointer]:
+          - /url: https://sensecraft.seeed.cc/ai/#/home
+        - link [ref=e27] [cursor=pointer]:
+          - /url: https://sensecraft.seeed.cc/ai/#/home
+        - link "GitHub repository" [ref=e28] [cursor=pointer]:
+          - /url: https://github.com/Seeed-Studio/wiki-documents
+        - button "Switch between dark and light mode (currently dark mode)" [ref=e30] [cursor=pointer]:
+          - img [ref=e31]
+        - button "Search" [ref=e34] [cursor=pointer]:
+          - generic [ref=e35]:
+            - img [ref=e36]
+            - generic [ref=e38]: Search
+          - generic [ref=e39]:
+            - generic [ref=e40]: ⌘
+            - generic [ref=e41]: K
+  - generic [ref=e44]:
+    - complementary [ref=e45]:
+      - generic [ref=e47]:
+        - navigation "Docs sidebar" [ref=e48]:
+          - list [ref=e49]:
+            - listitem [ref=e50]:
+              - link "Getting Started" [ref=e51] [cursor=pointer]:
+                - /url: /Getting_Started/
+            - listitem [ref=e52]:
+              - link "Weekly Wiki" [ref=e53] [cursor=pointer]:
+                - /url: /weekly_wiki/
+            - listitem [ref=e54]:
+              - link "Sensing" [ref=e55] [cursor=pointer]:
+                - /url: /Sensor_Network/
+            - listitem [ref=e56]:
+              - generic [ref=e57]:
+                - link "Grove" [ref=e58] [cursor=pointer]:
+                  - /url: /Grove_System/
+                - button "Expand sidebar category 'Grove'" [ref=e59] [cursor=pointer]
+            - listitem [ref=e60]:
+              - generic [ref=e61]:
+                - link "SenseCAP" [ref=e62] [cursor=pointer]:
+                  - /url: /SenseCAP_introduction/
+                - button "Expand sidebar category 'SenseCAP'" [ref=e63] [cursor=pointer]
+            - listitem [ref=e64]:
+              - generic [ref=e65]:
+                - link "SenseCAP Indicator" [ref=e66] [cursor=pointer]:
+                  - /url: /Sensor/SenseCAP/SenseCAP_Indicator/Get_started_with_SenseCAP_Indicator/
+                - button "Expand sidebar category 'SenseCAP Indicator'" [ref=e67] [cursor=pointer]
+            - listitem [ref=e68]:
+              - generic [ref=e69]:
+                - link "SenseCAP Watcher" [ref=e70] [cursor=pointer]:
+                  - /url: /watcher/
+                - button "Expand sidebar category 'SenseCAP Watcher'" [ref=e71] [cursor=pointer]
+            - listitem [ref=e72]:
+              - generic [ref=e73]:
+                - link "mmWave Radar Sensor" [ref=e74] [cursor=pointer]:
+                  - /url: /mmwave_radar_Intro/
+                - button "Collapse sidebar category 'mmWave Radar Sensor'" [expanded] [ref=e75] [cursor=pointer]
+              - list [ref=e76]:
+                - listitem [ref=e77]:
+                  - button "mmWave for XIAO" [expanded] [ref=e79] [cursor=pointer]
+                  - list [ref=e80]:
+                    - listitem [ref=e81]:
+                      - link "24GHz mmWave for XIAO" [ref=e82] [cursor=pointer]:
+                        - /url: /mmwave_for_xiao/
+                    - listitem [ref=e83]:
+                      - link "Development of 24GHz mmWave in XIAO and Arduino" [ref=e84] [cursor=pointer]:
+                        - /url: /mmwave_for_xiao_arduino/
+                    - listitem [ref=e85]:
+                      - link "mmWave for XIAO to Home Assistant via Bluetooth or Wifi" [ref=e86] [cursor=pointer]:
+                        - /url: /mmwave_for_xiao_to_ha_bt/
+                - listitem [ref=e87]:
+                  - button "MR60FDA2 mmWave kit" [ref=e89] [cursor=pointer]
+                - listitem [ref=e90]:
+                  - button "MR60BHA2 mmWave kit" [ref=e92] [cursor=pointer]
+                - listitem [ref=e93]:
+                  - button "MR24HPC1 mmWave kit" [ref=e95] [cursor=pointer]
+                - listitem [ref=e96]:
+                  - link "24GHz mmWave Human Static Presence Lite" [ref=e97] [cursor=pointer]:
+                    - /url: /Radar_MR24HPC1/
+                - listitem [ref=e98]:
+                  - link "60GHz mmWave Static Breathing and Heartbeat" [ref=e99] [cursor=pointer]:
+                    - /url: /Radar_MR60BHA1/
+                - listitem [ref=e100]:
+                  - link "60GHz mmWave Fall Detection Pro" [ref=e101] [cursor=pointer]:
+                    - /url: /Radar_MR60FDA1/
+                - listitem [ref=e102]:
+                  - link "24GHz mmWave Sleep Breathing Monitoring" [ref=e103] [cursor=pointer]:
+                    - /url: /Radar_MR24BSD1/
+                - listitem [ref=e104]:
+                  - link "24GHz mmWave Human Static Presence" [ref=e105] [cursor=pointer]:
+                    - /url: /Radar_MR24HPB1/
+                - listitem [ref=e106]:
+                  - link "24GHz mmWave Human Fall Detection" [ref=e107] [cursor=pointer]:
+                    - /url: /Radar_MR24FDB1/
+            - listitem [ref=e108]:
+              - generic [ref=e109]:
+                - link "XIAO" [ref=e110] [cursor=pointer]:
+                  - /url: /SeeedStudio_XIAO_Series_Introduction/
+                - button "Expand sidebar category 'XIAO'" [ref=e111] [cursor=pointer]
+            - listitem [ref=e112]:
+              - button "ePaper" [ref=e114] [cursor=pointer]
+            - listitem [ref=e115]:
+              - button "XIAO Gadgets" [ref=e117] [cursor=pointer]
+            - listitem [ref=e118]:
+              - generic [ref=e119]:
+                - link "Wio Terminal" [ref=e120] [cursor=pointer]:
+                  - /url: /Wio_Terminal_Intro/
+                - button "Expand sidebar category 'Wio Terminal'" [ref=e121] [cursor=pointer]
+            - listitem [ref=e122]:
+              - generic [ref=e123]:
+                - link "reSpeaker" [ref=e124] [cursor=pointer]:
+                  - /url: /respeaker/
+                - button "Expand sidebar category 'reSpeaker'" [ref=e125] [cursor=pointer]
+            - listitem [ref=e126]:
+              - button "Other Sensing Modules" [ref=e128] [cursor=pointer]
+            - listitem [ref=e129]:
+              - button "Other Microcontrollers" [ref=e131] [cursor=pointer]
+            - listitem [ref=e132]:
+              - link "Network" [ref=e133] [cursor=pointer]:
+                - /url: /Network/
+            - listitem [ref=e134]:
+              - generic [ref=e135]:
+                - link "Meshtastic Network" [ref=e136] [cursor=pointer]:
+                  - /url: /meshtastic_introduction/
+                - button "Expand sidebar category 'Meshtastic Network'" [ref=e137] [cursor=pointer]
+            - listitem [ref=e138]:
+              - button "LoRa Wio Series" [ref=e140] [cursor=pointer]
+            - listitem [ref=e141]:
+              - generic [ref=e142]:
+                - link "SenseCAP Gateway" [ref=e143] [cursor=pointer]:
+                  - /url: /Network/SenseCAP_Network/SenseCAP_Gateway_Intro/
+                - button "Expand sidebar category 'SenseCAP Gateway'" [ref=e144] [cursor=pointer]
+            - listitem [ref=e145]:
+              - generic [ref=e146]:
+                - link "SenseCAP K1100" [ref=e147] [cursor=pointer]:
+                  - /url: /SenseCAP_K1100_Intro/
+                - button "Expand sidebar category 'SenseCAP K1100'" [ref=e148] [cursor=pointer]
+            - listitem [ref=e149]:
+              - button "SenseCAP LoRaWAN Starter Kit" [ref=e151] [cursor=pointer]
+            - listitem [ref=e152]:
+              - button "Raspberry Pi Solutions" [ref=e154] [cursor=pointer]
+            - listitem [ref=e155]:
+              - generic [ref=e156]:
+                - link "Rockchip Solutions" [ref=e157] [cursor=pointer]:
+                  - /url: /Rockchip_network_solutions/
+                - button "Expand sidebar category 'Rockchip Solutions'" [ref=e158] [cursor=pointer]
+            - listitem [ref=e159]:
+              - button "Other Network Devices" [ref=e161] [cursor=pointer]
+            - listitem [ref=e162]:
+              - link "Edge Computing" [ref=e163] [cursor=pointer]:
+                - /url: /Edge_Computing/
+            - listitem [ref=e164]:
+              - button "RK Devices" [ref=e166] [cursor=pointer]
+            - listitem [ref=e167]:
+              - generic [ref=e168]:
+                - link "Raspberry Pi Devices" [ref=e169] [cursor=pointer]:
+                  - /url: /raspberry-pi-devices/
+                - button "Expand sidebar category 'Raspberry Pi Devices'" [ref=e170] [cursor=pointer]
+            - listitem [ref=e171]:
+              - generic [ref=e172]:
+                - link "NVIDIA® Jetson™" [ref=e173] [cursor=pointer]:
+                  - /url: /NVIDIA_Jetson/
+                - button "Expand sidebar category 'NVIDIA® Jetson™'" [ref=e174] [cursor=pointer]
+            - listitem [ref=e175]:
+              - button "ESP Devices" [ref=e177] [cursor=pointer]
+            - listitem [ref=e178]:
+              - generic [ref=e179]:
+                - link "BeagleBone®" [ref=e180] [cursor=pointer]:
+                  - /url: /BeagleBone/
+                - button "Expand sidebar category 'BeagleBone®'" [ref=e181] [cursor=pointer]
+            - listitem [ref=e182]:
+              - generic [ref=e183]:
+                - link "ODYSSEY" [ref=e184] [cursor=pointer]:
+                  - /url: /ODYSSEY_Intro/
+                - button "Expand sidebar category 'ODYSSEY'" [ref=e185] [cursor=pointer]
+            - listitem [ref=e186]:
+              - button "reCamera" [ref=e188] [cursor=pointer]
+            - listitem [ref=e189]:
+              - generic [ref=e190]:
+                - link "reTerminal E Series" [ref=e191] [cursor=pointer]:
+                  - /url: /reterminal_e10xx_main_page/
+                - button "Expand sidebar category 'reTerminal E Series'" [ref=e192] [cursor=pointer]
+            - listitem [ref=e193]:
+              - generic [ref=e194]:
+                - link "reTerminal D Series" [ref=e195] [cursor=pointer]:
+                  - /url: /reterminal_d10xx_main_page/
+                - button "Expand sidebar category 'reTerminal D Series'" [ref=e196] [cursor=pointer]
+            - listitem [ref=e197]:
+              - button "Other Edge Devices" [ref=e199] [cursor=pointer]
+            - listitem [ref=e200]:
+              - link "Robotics Page" [ref=e201] [cursor=pointer]:
+                - /url: /robotics_page/
+            - listitem [ref=e202]:
+              - button "Robot Kits" [ref=e204] [cursor=pointer]
+            - listitem [ref=e205]:
+              - button "Actuator" [ref=e207] [cursor=pointer]
+            - listitem [ref=e208]:
+              - button "Sensor" [ref=e210] [cursor=pointer]
+            - listitem [ref=e211]:
+              - button "Software" [ref=e213] [cursor=pointer]
+            - listitem [ref=e214]:
+              - link "SenseCraft & Cloud" [ref=e215] [cursor=pointer]:
+                - /url: /Cloud/
+            - listitem [ref=e216]:
+              - button "SenseCraft AI" [ref=e218] [cursor=pointer]
+            - listitem [ref=e219]:
+              - button "SenseCraft APP" [ref=e221] [cursor=pointer]
+            - listitem [ref=e222]:
+              - button "SenseCraft Data Platform" [ref=e224] [cursor=pointer]
+            - listitem [ref=e225]:
+              - generic [ref=e226]:
+                - link "SenseCraft HMI" [ref=e227] [cursor=pointer]:
+                  - /url: /sensecraft_hmi_overview/
+                - button "Expand sidebar category 'SenseCraft HMI'" [ref=e228] [cursor=pointer]
+            - listitem [ref=e229]:
+              - button "SenseCraft Blockchain" [ref=e231] [cursor=pointer]
+            - listitem [ref=e232]:
+              - link "Solutions" [ref=e233] [cursor=pointer]:
+                - /url: https://www.seeed.cc/category/solutions
+                - text: Solutions
+                - img [ref=e234]
+            - listitem [ref=e236]:
+              - generic [ref=e237]:
+                - link "AI Vision" [ref=e238] [cursor=pointer]:
+                  - /url: /ai-vision/
+                - button "Expand sidebar category 'AI Vision'" [ref=e239] [cursor=pointer]
+            - listitem [ref=e240]:
+              - generic [ref=e241]:
+                - link "AI Sound" [ref=e242] [cursor=pointer]:
+                  - /url: /ai-sound/
+                - button "Expand sidebar category 'AI Sound'" [ref=e243] [cursor=pointer]
+            - listitem [ref=e244]:
+              - button "AI Intelligent" [ref=e246] [cursor=pointer]
+            - listitem [ref=e247]:
+              - button "Device Integration & Control" [ref=e249] [cursor=pointer]
+            - listitem [ref=e250]:
+              - button "Environmental Monitoring" [ref=e252] [cursor=pointer]
+            - listitem [ref=e253]:
+              - generic [ref=e254]:
+                - link "Hazard Response" [ref=e255] [cursor=pointer]:
+                  - /url: /hazard-response/
+                - button "Expand sidebar category 'Hazard Response'" [ref=e256] [cursor=pointer]
+            - listitem [ref=e257]:
+              - button "Indoor-Outdoor Positioning" [ref=e259] [cursor=pointer]
+            - listitem [ref=e260]:
+              - link "Technology Topics" [ref=e261] [cursor=pointer]:
+                - /url: /topicintroduction/
+            - listitem [ref=e262]:
+              - generic [ref=e263]:
+                - link "Home Assistant" [ref=e264] [cursor=pointer]:
+                  - /url: /home_assistant_topic/
+                - button "Expand sidebar category 'Home Assistant'" [ref=e265] [cursor=pointer]
+            - listitem [ref=e266]:
+              - generic [ref=e267]:
+                - link "TinyML" [ref=e268] [cursor=pointer]:
+                  - /url: /tinyml_topic/
+                - button "Expand sidebar category 'TinyML'" [ref=e269] [cursor=pointer]
+            - listitem [ref=e270]:
+              - link "Open Source" [ref=e271] [cursor=pointer]:
+                - /url: /open_source_topic/
+            - listitem [ref=e272]:
+              - link "Edge AI" [ref=e273] [cursor=pointer]:
+                - /url: /edge_ai_topic/
+            - listitem [ref=e274]:
+              - link "Contributions" [ref=e275] [cursor=pointer]:
+                - /url: /Contributor/
+            - listitem [ref=e276]:
+              - generic [ref=e277]:
+                - link "Github Contributions Guide" [ref=e278] [cursor=pointer]:
+                  - /url: /Contribution-Guide/
+                - button "Expand sidebar category 'Github Contributions Guide'" [ref=e279] [cursor=pointer]
+            - listitem [ref=e280]:
+              - link "Scale up Your Creation with Seeed Studio Fusion" [ref=e281] [cursor=pointer]:
+                - /url: /Scale-up-Your-Creation-with-Fusion/
+            - listitem [ref=e282]:
+              - link "Popular Platforms" [ref=e283] [cursor=pointer]:
+                - /url: /popularplatforms/
+            - listitem [ref=e284]:
+              - generic [ref=e285]:
+                - link "Arduino" [ref=e286] [cursor=pointer]:
+                  - /url: /Arduino/
+                - button "Expand sidebar category 'Arduino'" [ref=e287] [cursor=pointer]
+            - listitem [ref=e288]:
+              - generic [ref=e289]:
+                - link "Raspberry Pi" [ref=e290] [cursor=pointer]:
+                  - /url: /Raspberry_Pi/
+                - button "Expand sidebar category 'Raspberry Pi'" [ref=e291] [cursor=pointer]
+            - listitem [ref=e292]:
+              - generic [ref=e293]:
+                - link "Micro:bit" [ref=e294] [cursor=pointer]:
+                  - /url: /microbit_wiki_page/
+                - button "Expand sidebar category 'Micro:bit'" [ref=e295] [cursor=pointer]
+            - listitem [ref=e296]:
+              - link "Discontinued Products" [ref=e297] [cursor=pointer]:
+                - /url: /discontinuedproducts/
+            - listitem [ref=e298]:
+              - button "Product List" [ref=e300] [cursor=pointer]
+            - listitem [ref=e301]:
+              - link "About Seeed" [ref=e302] [cursor=pointer]:
+                - /url: /About/
+            - listitem [ref=e303]:
+              - link "License" [ref=e304] [cursor=pointer]:
+                - /url: /License/
+        - button "Collapse sidebar" [ref=e305] [cursor=pointer]:
+          - img [ref=e306]
+    - main [ref=e310]:
+      - generic [ref=e312]:
+        - generic [ref=e313]:
+          - generic [ref=e314]:
+            - article [ref=e315]:
+              - navigation "Breadcrumbs" [ref=e316]:
+                - list [ref=e317]:
+                  - listitem [ref=e318]:
+                    - link "Home page" [ref=e319] [cursor=pointer]:
+                      - /url: /
+                      - img [ref=e320]
+                  - listitem [ref=e322]:
+                    - link "mmWave Radar Sensor" [ref=e323] [cursor=pointer]:
+                      - /url: /mmwave_radar_Intro/
+                  - listitem [ref=e324]:
+                    - generic [ref=e325]: mmWave for XIAO
+                  - listitem [ref=e326]:
+                    - generic [ref=e327]: 24GHz mmWave for XIAO
+              - generic [ref=e328]:
+                - heading "Seeed Studio 24GHz mmWave for XIAO" [level=1] [ref=e330]
+                - img [ref=e332]
+                - link "Get One Now 🖱️" [ref=e334] [cursor=pointer]:
+                  - /url: https://www.seeedstudio.com/Seeed-Studio-24GHz-mmWave-for-XIAO-p-5830.html
+                  - strong [ref=e335]:
+                    - generic [ref=e336]: Get One Now 🖱️
+                - heading "IntroductionDirect link to Introduction" [level=2] [ref=e337]:
+                  - text: Introduction
+                  - link "Direct link to Introduction" [ref=e338] [cursor=pointer]:
+                    - /url: "#introduction"
+                    - text: "#"
+                - paragraph [ref=e339]: 24GHz mmWave Sensor for XIAO - Human Static Presence is a expansion board for Seeed Studio XIAO series. It is an antenna-integrated, high-sensitivity mmwave radar sensor that is based on the FMCW principle. Combined with radar signal processing and accurate human body sensing algorithms, it can identify human bodies in motion and stationary states.
+                - heading "FeatureDirect link to Feature" [level=3] [ref=e340]:
+                  - text: Feature
+                  - link "Direct link to Feature" [ref=e341] [cursor=pointer]:
+                    - /url: "#feature"
+                    - text: "#"
+                - list [ref=e342]:
+                  - listitem [ref=e343]:
+                    - strong [ref=e344]: Based on the FMCW principle
+                    - text: ": highly sensitive and immune to environmental interferences"
+                  - listitem [ref=e345]:
+                    - strong [ref=e346]: Comprehensive Human Body Detection
+                    - text: ": The sensor not only detects moving human bodies with high sensitivity but also exhibits sensitivity to static individuals, micro-movements, as well as individuals in sitting or lying positions."
+                  - listitem [ref=e347]:
+                    - strong [ref=e348]: Multi-Level Intelligent Parameter Adjustment
+                    - text: ": Adjusted using Bluetooth or a serial port, providing flexibility to meet varying environmental conditions and scene changes. Additionally, it supports direct parameter configuration through an app, eliminating the need for a serial port connection."
+                  - listitem [ref=e349]:
+                    - strong [ref=e350]: Wide Detection Angle and Long Sensing Distance
+                    - text: ": With a field of vision of up to 60 degrees, the sensor can detect movement from a wide angle. Furthermore, it can detect things up to 5 meters away."
+                  - listitem [ref=e351]:
+                    - strong [ref=e352]: Excellent Shell Penetration and Aesthetics Enhancement
+                    - text: ": Has good shell penetration, allowing it to work discreetly inside the product's casing without the need for surface perforations."
+                - heading "ApplicationDirect link to Application" [level=3] [ref=e353]:
+                  - text: Application
+                  - link "Direct link to Application" [ref=e354] [cursor=pointer]:
+                    - /url: "#application"
+                    - text: "#"
+                - list [ref=e355]:
+                  - listitem [ref=e356]: Human body sensor light control
+                  - listitem [ref=e357]: Life safety protection
+                  - listitem [ref=e358]: Smart home appliances
+                  - listitem [ref=e359]: Intelligent security
+                - heading "SpecificationDirect link to Specification" [level=3] [ref=e360]:
+                  - text: Specification
+                  - link "Direct link to Specification" [ref=e361] [cursor=pointer]:
+                    - /url: "#specification"
+                    - text: "#"
+                - table [ref=e363]:
+                  - row "Parameter Value" [ref=e364]:
+                    - columnheader "Parameter" [ref=e365]
+                    - columnheader "Value" [ref=e366]
+                  - row "Operating frequency 24GHz ~ 24.25GHz" [ref=e367]:
+                    - cell "Operating frequency" [ref=e368]
+                    - cell "24GHz ~ 24.25GHz" [ref=e369]
+                  - row "Operating voltage DC 5V" [ref=e370]:
+                    - cell "Operating voltage" [ref=e371]
+                    - cell "DC 5V" [ref=e372]
+                  - row "Power supply capacity >200mA" [ref=e373]:
+                    - cell "Power supply capacity" [ref=e374]
+                    - cell ">200mA" [ref=e375]
+                  - row "Average operating current 79mA" [ref=e376]:
+                    - cell "Average operating current" [ref=e377]
+                    - cell "79mA" [ref=e378]
+                  - row "Modulation FMCW" [ref=e379]:
+                    - cell "Modulation" [ref=e380]
+                    - cell "FMCW" [ref=e381]
+                  - row "Interface GPIO (IO level 3.3V), UART" [ref=e382]:
+                    - cell "Interface" [ref=e383]
+                    - cell "GPIO (IO level 3.3V), UART" [ref=e384]
+                  - row "Target application Human presence sensor" [ref=e385]:
+                    - cell "Target application" [ref=e386]
+                    - cell "Human presence sensor" [ref=e387]
+                  - row "Detection distance 0.75m ~ 6m (adjustable)" [ref=e388]:
+                    - cell "Detection distance" [ref=e389]
+                    - cell "0.75m ~ 6m (adjustable)" [ref=e390]
+                  - row "Detection angle ±60°" [ref=e391]:
+                    - cell "Detection angle" [ref=e392]
+                    - cell "±60°" [ref=e393]
+                  - row "Distance resolution 0.75m" [ref=e394]:
+                    - cell "Distance resolution" [ref=e395]
+                    - cell "0.75m" [ref=e396]
+                  - row "Sweep Bandwidth 250MHz" [ref=e397]:
+                    - cell "Sweep Bandwidth" [ref=e398]
+                    - cell "250MHz" [ref=e399]
+                  - row "Ambient temperature -40℃ ~ 85℃" [ref=e400]:
+                    - cell "Ambient temperature" [ref=e401]
+                    - cell "-40℃ ~ 85℃" [ref=e402]
+                  - row "Dimensions 18mm x 22mm" [ref=e403]:
+                    - cell "Dimensions" [ref=e404]
+                    - cell "18mm x 22mm" [ref=e405]
+                - heading "Hardware OverviewDirect link to Hardware Overview" [level=2] [ref=e406]:
+                  - text: Hardware Overview
+                  - link "Direct link to Hardware Overview" [ref=e407] [cursor=pointer]:
+                    - /url: "#hardware-overview"
+                    - text: "#"
+                - paragraph [ref=e408]: This mmwave sensor is compatible with the full range of XIAO, so the pin definitions follow the XIAO pin definitions. However, considering the widespread use of serial ports, we have designed a soft serial connection for the mmwave sensor.
+                - img [ref=e410]
+                - paragraph [ref=e411]: The sensor relies heavily on the soft serial ports (D2 - TX, D3 - RX) and a 3.3V power supply. Other than that, none of the other pins will be used.
+                - heading "Getting StartedDirect link to Getting Started" [level=2] [ref=e412]:
+                  - text: Getting Started
+                  - link "Direct link to Getting Started" [ref=e413] [cursor=pointer]:
+                    - /url: "#getting-started"
+                    - text: "#"
+                - paragraph [ref=e414]:
+                  - text: This sensor module supports both direct software viewing (via Bluetooth) and secondary development (using XIAO and UART). If you want to observe the sensor values as soon as possible, you can refer to the
+                  - strong [ref=e415]: Getting Started
+                  - text: steps to use the software we provide.
+                - heading "Hardware ConnectionsDirect link to Hardware Connections" [level=2] [ref=e416]:
+                  - text: Hardware Connections
+                  - link "Direct link to Hardware Connections" [ref=e417] [cursor=pointer]:
+                    - /url: "#hardware-connections"
+                    - text: "#"
+                - paragraph [ref=e418]: The sensor is designed for XIAO compatibility, so in general, if you want to use this sensor, you need to prepare an XIAO and install the female header row pin for the sensor. When connecting to the XIAO, please pay special attention to the installation direction of the sensor, please do not plug it in backwards, otherwise it is likely to burn the sensor or the XIAO.
+                - generic [ref=e419]:
+                  - generic [ref=e420]:
+                    - img [ref=e422]
+                    - text: caution
+                  - paragraph [ref=e425]: The correct direction to follow is that the antenna of the sensor should face outwards.
+                - img [ref=e427]
+                - paragraph [ref=e428]: After confirming that the connection direction is correct, you can connect the USB-C type cable to the computer or power supply, and the sensor will start to work.
+                - heading "mmwave Sensor SoftwareDirect link to mmwave Sensor Software" [level=3] [ref=e429]:
+                  - text: mmwave Sensor Software
+                  - link "Direct link to mmwave Sensor Software" [ref=e430] [cursor=pointer]:
+                    - /url: "#mmwave-sensor-software"
+                    - text: "#"
+                - paragraph [ref=e431]: The software HLKRadarTool can be used to observe the sensor values of the radar directly. The software currently supports IOS, Android and Windows systems.
+                - list [ref=e432]:
+                  - listitem [ref=e433]:
+                    - paragraph [ref=e434]:
+                      - link "Download HLKRadarTool from the Google Play" [ref=e435] [cursor=pointer]:
+                        - /url: https://play.google.com/store/apps/details?id=com.hlk.hlkradartool
+                      - text: .
+                  - listitem [ref=e436]:
+                    - paragraph [ref=e437]:
+                      - link "Download HLKRadarTool from the App Store" [ref=e438] [cursor=pointer]:
+                        - /url: https://apps.apple.com/us/app/hlkradartool/id1638651152
+                      - text: .
+                - img [ref=e440]
+                - list [ref=e441]:
+                  - listitem [ref=e442]:
+                    - link "Download HLKRadarTool for Windows" [ref=e443] [cursor=pointer]:
+                      - /url: https://files.seeedstudio.com/wiki/mmwave-for-xiao/HLKRadarTool.zip
+                - img [ref=e445]
+                - paragraph [ref=e446]: Below, we describe how to use these software in conjunction with the sensor.
+                - heading "Mobile Software Operation GuideDirect link to Mobile Software Operation Guide" [level=3] [ref=e447]:
+                  - text: Mobile Software Operation Guide
+                  - link "Direct link to Mobile Software Operation Guide" [ref=e448] [cursor=pointer]:
+                    - /url: "#mobile-software-operation-guide"
+                    - text: "#"
+                - paragraph [ref=e449]: If you wish to observe the sensor's values on your mobile phone, then you will need to communicate with your mobile phone using the sensor's Bluetooth, meaning you will also need a Bluetooth-enabled mobile phone. And download the above software in advance.
+                - paragraph [ref=e450]:
+                  - strong [ref=e451]: Step 1.
+                  - text: Open the app, and the app searches for nearby radar devices. The broadcast name of the device is
+                  - strong [ref=e452]: HLK-LD2410_xxxx
+                  - text: (xxxx is the last four digits of the mac address).
+                - img [ref=e454]
+                - generic [ref=e455]:
+                  - generic [ref=e456]:
+                    - img [ref=e458]
+                    - text: tip
+                  - paragraph [ref=e461]: The use distance of the APP should not exceed the Bluetooth signal range (within 4 meters).
+                - paragraph [ref=e462]:
+                  - strong [ref=e463]: Step 2.
+                  - text: After the module is successfully connected, you can view the radar information, or debug and save the parameters.
+                - img [ref=e465]
+                - paragraph [ref=e466]:
+                  - strong [ref=e467]: Step 3.
+                  - text: In the More option in the top right corner of the software, you can access the settings menu to set custom parameters and features for the sensor.
+                - img [ref=e469]
+                - generic [ref=e470]:
+                  - generic [ref=e471]:
+                    - img [ref=e473]
+                    - text: tip
+                  - paragraph [ref=e476]:
+                    - text: Before modifying these parameters and settings, we recommend that you read the
+                    - link "User Protocol Manual" [ref=e477] [cursor=pointer]:
+                      - /url: https://files.seeedstudio.com/wiki/mmwave-for-xiao/24GHz_mmWave_for_XIAO-Usermanual-V1.00.pdf
+                    - text: carefully and refer to the manual's instructions for modifying these. For more details on the meaning of the values displayed by the software and the setting parameters please read the
+                    - link "User Protocol Manual" [ref=e478] [cursor=pointer]:
+                      - /url: https://files.seeedstudio.com/wiki/mmwave-for-xiao/24GHz_mmWave_for_XIAO-Usermanual-V1.00.pdf
+                    - text: .
+                - heading "Windows Software Operation GuideDirect link to Windows Software Operation Guide" [level=3] [ref=e479]:
+                  - text: Windows Software Operation Guide
+                  - link "Direct link to Windows Software Operation Guide" [ref=e480] [cursor=pointer]:
+                    - /url: "#windows-software-operation-guide"
+                    - text: "#"
+                - paragraph [ref=e481]: In order to facilitate the user to test and configure the module quickly and efficiently, a PC configuration tool is provided. The user can use this tool software to connect the serial port of the module, read and configure the parameters of the module, and receive the detection results reported by the module. Data, and real-time visual display, which greatly facilitates the use of users.
+                - paragraph [ref=e482]:
+                  - strong [ref=e483]: Step 1.
+                  - text: Use the USB to serial port tool to connect the module serial port correctly.
+                - table [ref=e485]:
+                  - row "USB to serial port tool mmWave Sensor" [ref=e486]:
+                    - columnheader [ref=e487]
+                    - columnheader "USB to serial port tool" [ref=e488]
+                    - columnheader "mmWave Sensor" [ref=e489]
+                  - row "3V3 3V3" [ref=e490]:
+                    - cell [ref=e491]:
+                      - img [ref=e493]
+                    - cell "3V3" [ref=e494]
+                    - cell "3V3" [ref=e495]
+                  - row "GND GND" [ref=e496]:
+                    - cell "GND" [ref=e497]
+                    - cell "GND" [ref=e498]
+                  - row "RX TX" [ref=e499]:
+                    - cell "RX" [ref=e500]
+                    - cell "TX" [ref=e501]
+                  - row "TX RX" [ref=e502]:
+                    - cell "TX" [ref=e503]
+                    - cell "RX" [ref=e504]
+                - paragraph [ref=e505]:
+                  - strong [ref=e506]: Step 2.
+                  - text: Select the corresponding serial port number in the host computer tool, set the baud rate to
+                  - strong [ref=e507]: "256000"
+                  - text: ", select the"
+                  - strong [ref=e508]: Engineering Mode
+                  - text: ", and click to"
+                  - strong [ref=e509]: Connect
+                  - text: the device.
+                - generic [ref=e510]:
+                  - generic [ref=e511]:
+                    - img [ref=e513]
+                    - text: tip
+                  - paragraph [ref=e516]: If you opened the software before connecting the sensor to your computer, you may need to click Refresh to refresh the port number.
+                - img [ref=e518]
+                - paragraph [ref=e519]:
+                  - strong [ref=e520]: Step 3.
+                  - text: After the connection is successful, click the Start button, and the graphical interface on the right will display the test results and data. After the connection is successful, click the Start button, and the graphical interface on the right will display the test results and data.
+                - generic [ref=e521]:
+                  - generic [ref=e522]:
+                    - img [ref=e524]
+                    - text: note
+                  - paragraph [ref=e527]: The parameters cannot be read and configured after clicking start, and configuration can only be performed after stopping.
+                - paragraph [ref=e528]: "The ball is the target status output indication: red means there is a movingtarget; purple means there is astationary target; green means no one."
+                - img [ref=e530]
+                - heading "Sensor Abnormal RecoveryDirect link to Sensor Abnormal Recovery" [level=2] [ref=e531]:
+                  - text: Sensor Abnormal Recovery
+                  - link "Direct link to Sensor Abnormal Recovery" [ref=e532] [cursor=pointer]:
+                    - /url: "#sensor-abnormal-recovery"
+                    - text: "#"
+                - paragraph [ref=e533]: If you have encountered radar anomalies in the process of using the sensor, such as data not reporting, downtime and so on. You can try to restore the sensor firmware according to here.
+                - paragraph [ref=e534]:
+                  - text: The method to recover the firmware is to use the mobile phone APP with Bluetooth function, in the upper right corner of the main interface of the software, select
+                  - strong [ref=e535]: More
+                  - text: ", and then select"
+                  - strong [ref=e536]: Initialize
+                  - text: .
+                - img [ref=e538]
+                - heading "OTA UpgradeDirect link to OTA Upgrade" [level=2] [ref=e539]:
+                  - text: OTA Upgrade
+                  - link "Direct link to OTA Upgrade" [ref=e540] [cursor=pointer]:
+                    - /url: "#ota-upgrade"
+                    - text: "#"
+                - paragraph [ref=e541]:
+                  - text: When the firmware of the device has been updated, the word
+                  - strong [ref=e542]: upgradeable
+                  - text: will appear on the firmware version, long press the version number to enter the upgrade interface; only
+                  - strong [ref=e543]: V1.07.22091516
+                  - text: or newer versions support the upgrade.
+                - img [ref=e545]
+                - paragraph [ref=e546]: The overall upgrade time takes 1~3 minutes. The upgrade must be performed from the module, otherwise the upgrade will fail if the Bluetooth signal is poor.
+                - paragraph [ref=e547]: "Do not power off or restart the module before the upgrade is completed, and do not forcibly exit the APP, otherwise the upgrade will fail. If the upgrade fails, the sensor program will be disabled and sensor detection will not be possible. If the device upgrade fails, please restart the device and reconnect the APP, and a \"waiting for upgrade\" prompt will appear on the device list:"
+                - img [ref=e549]
+                - paragraph [ref=e550]: Click the device to be upgraded to re-upgrade, and the radar function can be restored only after the upgrade is successful.
+                - heading "ResourcesDirect link to Resources" [level=2] [ref=e551]:
+                  - text: Resources
+                  - link "Direct link to Resources" [ref=e552] [cursor=pointer]:
+                    - /url: "#resources"
+                    - text: "#"
+                - list [ref=e553]:
+                  - listitem [ref=e554]:
+                    - strong [ref=e555]: "[PDF]"
+                    - link "24GHz mmWave for XIAO Datasheet-V1.00" [ref=e556] [cursor=pointer]:
+                      - /url: https://files.seeedstudio.com/wiki/mmwave-for-xiao/24GHz_mmWave_for_XIAO-Datasheet-V1.00.pdf
+                  - listitem [ref=e557]:
+                    - strong [ref=e558]: "[PDF]"
+                    - link "24GHz mmWave for XIAO User Protocol Manual" [ref=e559] [cursor=pointer]:
+                      - /url: https://files.seeedstudio.com/wiki/mmwave-for-xiao/24GHz_mmWave_for_XIAO-Usermanual-V1.00.pdf
+                  - listitem [ref=e560]:
+                    - strong [ref=e561]: "[PDF]"
+                    - link "24GHz mmWave for XIAO SCH" [ref=e562] [cursor=pointer]:
+                      - /url: https://files.seeedstudio.com/wiki/mmwave-for-xiao/24GHz-mmWave-for-xiao-SCH.pdf
+                - heading "Tech Support & Product DiscussionDirect link to Tech Support & Product Discussion" [level=2] [ref=e563]:
+                  - text: Tech Support & Product Discussion
+                  - link "Direct link to Tech Support & Product Discussion" [ref=e564] [cursor=pointer]:
+                    - /url: "#tech-support--product-discussion"
+                    - text: "#"
+                - paragraph [ref=e565]: Thank you for choosing our products! We are here to provide you with different support to ensure that your experience with our products is as smooth as possible. We offer several communication channels to cater to different preferences and needs.
+                - generic [ref=e566]:
+                  - link [ref=e567] [cursor=pointer]:
+                    - /url: https://forum.seeedstudio.com/
+                  - link [ref=e568] [cursor=pointer]:
+                    - /url: https://www.seeedstudio.com/contacts
+                - generic [ref=e569]:
+                  - link [ref=e570] [cursor=pointer]:
+                    - /url: https://discord.gg/eWkprNDMU7
+                  - link [ref=e571] [cursor=pointer]:
+                    - /url: https://github.com/Seeed-Studio/wiki-documents/discussions/69
+              - generic [ref=e573]:
+                - link "Edit this page" [ref=e575] [cursor=pointer]:
+                  - /url: https://github.com/Seeed-Studio/wiki-documents/blob/docusaurus-version/sites/en/docs/docs/Sensor/mmWave_radar_sensor/mmwave-for-XIAO/mmwave-for-xiao.md
+                  - img [ref=e576]
+                  - text: Edit this page
+                - generic [ref=e580]:
+                  - text: Last updated on
+                  - time [ref=e582]: Nov 9, 2023
+                  - text: by Citric
+            - navigation "Docs pages" [ref=e583]:
+              - link "Previous « mmWave Radar Sensor Introdution" [ref=e584] [cursor=pointer]:
+                - /url: /mmwave_radar_Intro/
+                - generic [ref=e585]: Previous
+                - generic [ref=e586]: « mmWave Radar Sensor Introdution
+              - link "Next Development of 24GHz mmWave in XIAO and Arduino »" [ref=e587] [cursor=pointer]:
+                - /url: /mmwave_for_xiao_arduino/
+                - generic [ref=e588]: Next
+                - generic [ref=e589]: Development of 24GHz mmWave in XIAO and Arduino »
+          - iframe [ref=e592]:
+            
+        - list [ref=e595]:
+          - listitem [ref=e596]:
+            - link "Introduction" [ref=e597] [cursor=pointer]:
+              - /url: "#introduction"
+            - list [ref=e598]:
+              - listitem [ref=e599]:
+                - link "Feature" [ref=e600] [cursor=pointer]:
+                  - /url: "#feature"
+              - listitem [ref=e601]:
+                - link "Application" [ref=e602] [cursor=pointer]:
+                  - /url: "#application"
+              - listitem [ref=e603]:
+                - link "Specification" [ref=e604] [cursor=pointer]:
+                  - /url: "#specification"
+          - listitem [ref=e605]:
+            - link "Hardware Overview" [ref=e606] [cursor=pointer]:
+              - /url: "#hardware-overview"
+          - listitem [ref=e607]:
+            - link "Getting Started" [ref=e608] [cursor=pointer]:
+              - /url: "#getting-started"
+          - listitem [ref=e609]:
+            - link "Hardware Connections" [ref=e610] [cursor=pointer]:
+              - /url: "#hardware-connections"
+            - list [ref=e611]:
+              - listitem [ref=e612]:
+                - link "mmwave Sensor Software" [ref=e613] [cursor=pointer]:
+                  - /url: "#mmwave-sensor-software"
+              - listitem [ref=e614]:
+                - link "Mobile Software Operation Guide" [ref=e615] [cursor=pointer]:
+                  - /url: "#mobile-software-operation-guide"
+              - listitem [ref=e616]:
+                - link "Windows Software Operation Guide" [ref=e617] [cursor=pointer]:
+                  - /url: "#windows-software-operation-guide"
+          - listitem [ref=e618]:
+            - link "Sensor Abnormal Recovery" [ref=e619] [cursor=pointer]:
+              - /url: "#sensor-abnormal-recovery"
+          - listitem [ref=e620]:
+            - link "OTA Upgrade" [ref=e621] [cursor=pointer]:
+              - /url: "#ota-upgrade"
+          - listitem [ref=e622]:
+            - link "Resources" [ref=e623] [cursor=pointer]:
+              - /url: "#resources"
+          - listitem [ref=e624]:
+            - link "Tech Support & Product Discussion" [ref=e625] [cursor=pointer]:
+              - /url: "#tech-support--product-discussion"
+  - contentinfo [ref=e626]:
+    - generic [ref=e627]:
+      - generic [ref=e628]:
+        - generic [ref=e629]:
+          - generic [ref=e630]: Navigation
+          - list [ref=e631]:
+            - listitem [ref=e632]:
+              - link "Getting Started" [ref=e633] [cursor=pointer]:
+                - /url: /Getting_Started/
+            - listitem [ref=e634]:
+              - link "Sensor and Sensing" [ref=e635] [cursor=pointer]:
+                - /url: /Sensor_Network/
+            - listitem [ref=e636]:
+              - link "Network" [ref=e637] [cursor=pointer]:
+                - /url: /Network/
+            - listitem [ref=e638]:
+              - link "Edge Computing" [ref=e639] [cursor=pointer]:
+                - /url: /Edge_Computing/
+            - listitem [ref=e640]:
+              - link "Cloud" [ref=e641] [cursor=pointer]:
+                - /url: /Cloud/
+            - listitem [ref=e642]:
+              - link "Solutions" [ref=e643] [cursor=pointer]:
+                - /url: https://solution.seeed.cc/
+        - generic [ref=e644]:
+          - generic [ref=e645]: Ecosystem
+          - list [ref=e646]:
+            - listitem [ref=e647]:
+              - link "Discord" [ref=e648] [cursor=pointer]:
+                - /url: https://discord.com/invite/QqMgVwHT3X
+            - listitem [ref=e649]:
+              - link "Project Hub" [ref=e650] [cursor=pointer]:
+                - /url: https://project.seeedstudio.com/
+            - listitem [ref=e651]:
+              - link "Partners" [ref=e652] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/ecosystem/
+            - listitem [ref=e653]:
+              - link "Distributors" [ref=e654] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/distributors.html
+        - generic [ref=e655]:
+          - generic [ref=e656]: Quick Guide
+          - list [ref=e657]:
+            - listitem [ref=e658]:
+              - link "Bazaar" [ref=e659] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/
+            - listitem [ref=e660]:
+              - link "How to get help" [ref=e661] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/get_help/HowToGetHelp
+            - listitem [ref=e662]:
+              - link "FAQs" [ref=e663] [cursor=pointer]:
+                - /url: https://support.seeedstudio.com/knowledgebase
+            - listitem [ref=e664]:
+              - link "Forum" [ref=e665] [cursor=pointer]:
+                - /url: https://forum.seeedstudio.com/
+            - listitem [ref=e666]:
+              - link "Technical Support" [ref=e667] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/get_help/TechnicalSupport
+        - generic [ref=e668]:
+          - generic [ref=e669]: Company
+          - list [ref=e670]:
+            - listitem [ref=e671]:
+              - link "About Seeed" [ref=e672] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/about-us/
+            - listitem [ref=e673]:
+              - link "Join us" [ref=e674] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/join-us/
+            - listitem [ref=e675]:
+              - link "Contact Us" [ref=e676] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/contacts
+            - listitem [ref=e677]:
+              - link "Press" [ref=e678] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/blog/2020/04/22/seeed-in-the-news/
+      - generic [ref=e680]: Copyright © 2026 Seeed Studio, Inc. Built with Docusaurus.

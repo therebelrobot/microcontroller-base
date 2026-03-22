@@ -1,0 +1,913 @@
+- generic [active] [ref=e1]:
+  - list:
+    - listitem
+    - listitem
+    - listitem
+    - listitem
+    - listitem
+    - listitem
+    - listitem
+    - listitem
+    - listitem
+  - generic [ref=e2]:
+    - text: 
+    - generic [ref=e7]:
+      - generic [ref=e9]:
+        - generic [ref=e11] [cursor=pointer]: 
+        - generic [ref=e12]: "Notice: Mid-March U.S. Warehouse restocks are delayed ~40 days due to customs inspections. In-stock items are NOT affected. Affected orders will receive email coupons. Thank you for your patience!"
+      - generic [ref=e14]:
+        - generic [ref=e15]:
+          - link "the AI Hardware Partner" [ref=e17] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e19]: the AI Hardware Partner
+          - link "For Industry" [ref=e20] [cursor=pointer]:
+            - /url: https://www.seeed.cc?utm_source=seeedstudio&utm_medium=logo
+            - generic [ref=e21]: For Industry
+            - generic [ref=e22]: 
+        - generic [ref=e23]:
+          - generic "Search" [ref=e26] [cursor=pointer]:
+            - generic [ref=e27]:
+              - textbox "Search for products, categories, ..." [ref=e28]: XIAO Logger HAT
+              - generic [ref=e30]: 
+          - generic [ref=e33]:
+            - link "Products" [ref=e35] [cursor=pointer]:
+              - /url: /catalogsearch/result/?q=
+              - generic [ref=e36]: Products
+              - generic [ref=e37]: 
+            - generic [ref=e39] [cursor=pointer]:
+              - generic [ref=e40]: Local Warehouse
+              - generic [ref=e41]: 
+            - generic [ref=e43] [cursor=pointer]:
+              - generic [ref=e44]: Documents
+              - generic [ref=e45]: 
+            - link "Customization" [ref=e47] [cursor=pointer]:
+              - /url: https://www.seeedstudio.com/fusion.html
+              - generic [ref=e48]: Customization
+              - generic [ref=e49]: 
+            - generic [ref=e51] [cursor=pointer]:
+              - generic [ref=e52]: Solution
+              - generic [ref=e53]: 
+            - generic [ref=e55] [cursor=pointer]:
+              - generic [ref=e56]: Support
+              - generic [ref=e57]: 
+        - generic [ref=e59]:
+          - text: 
+          - link [ref=e66] [cursor=pointer]:
+            - /url: "/quick-order "
+          - generic [ref=e70] [cursor=pointer]:
+            - generic [ref=e71]: Account
+            - generic [ref=e72]: 
+          - generic [ref=e74]:
+            - generic [ref=e75] [cursor=pointer]: $USD
+            - generic [ref=e76] [cursor=pointer]: 
+    - generic: 
+    - main [ref=e77]:
+      - generic [ref=e80]:
+        - generic [ref=e82]:
+          - generic: 
+          - text: 
+          - generic [ref=e85]:
+            - generic [ref=e86]:
+              - generic [ref=e88]:
+                - generic [ref=e89] [cursor=pointer]:
+                  - generic [ref=e90]: Warehouse
+                  - generic [ref=e91]: 
+                - text:      
+              - generic [ref=e93]:
+                - generic [ref=e94] [cursor=pointer]:
+                  - generic [ref=e95]: Price
+                  - generic [ref=e96]: 
+                - text:        
+              - generic [ref=e98]:
+                - generic [ref=e99] [cursor=pointer]:
+                  - generic [ref=e100]: Discount
+                  - generic [ref=e101]: 
+                - text:      
+              - generic [ref=e105] [cursor=pointer]:
+                - generic [ref=e106]: 
+                - text: 
+                - generic [ref=e107]: in stock
+            - generic [ref=e109] [cursor=pointer]:
+              - combobox [ref=e110]:
+                - option "Default" [selected]
+                - option "Popularity"
+                - option "Relevant"
+                - option "New"
+              - generic [ref=e111]:
+                - generic [ref=e113]: 
+                - generic [ref=e115]: 
+            - combobox [ref=e117] [cursor=pointer]:
+              - option "25 per page" [selected]
+              - option "50 per page"
+            - generic [ref=e119]: 131 results
+          - generic [ref=e120]:
+            - generic [ref=e122]:
+              - generic:
+                - generic:
+                  - list
+              - generic [ref=e123]:
+                - tablist [ref=e125]:
+                  - generic [ref=e126]:
+                    - tab "Product Type " [expanded] [ref=e127]:
+                      - button "Product Type " [ref=e128] [cursor=pointer]:
+                        - generic [ref=e129]: Product Type
+                        - generic [ref=e130]: 
+                    - tabpanel "Product Type " [ref=e131]:
+                      - generic [ref=e133]:
+                        - generic [ref=e135] [cursor=pointer]:
+                          - generic [ref=e136]:
+                            - checkbox "Module (56)"
+                          - generic [ref=e139]:
+                            - generic [ref=e141]: Module
+                            - generic [ref=e142]: (56)
+                        - generic [ref=e144] [cursor=pointer]:
+                          - generic [ref=e145]:
+                            - checkbox "Dev board (39)"
+                          - generic [ref=e148]:
+                            - generic [ref=e150]: Dev board
+                            - generic [ref=e151]: (39)
+                        - generic [ref=e153] [cursor=pointer]:
+                          - generic [ref=e154]:
+                            - checkbox "Device (10)"
+                          - generic [ref=e157]:
+                            - generic [ref=e159]: Device
+                            - generic [ref=e160]: (10)
+                        - generic [ref=e162] [cursor=pointer]:
+                          - generic [ref=e163]:
+                            - checkbox "Kits (8)"
+                          - generic [ref=e166]:
+                            - generic [ref=e168]: Kits
+                            - generic [ref=e169]: (8)
+                        - generic [ref=e171] [cursor=pointer]:
+                          - generic [ref=e172]:
+                            - checkbox "Miscellaneous (3)"
+                          - generic [ref=e175]:
+                            - generic [ref=e177]: Miscellaneous
+                            - generic [ref=e178]: (3)
+                - tablist [ref=e180]:
+                  - generic [ref=e181]:
+                    - tab "Categories " [expanded] [ref=e182]:
+                      - button "Categories " [ref=e183] [cursor=pointer]:
+                        - generic [ref=e184]: Categories
+                        - generic [ref=e185]: 
+                    - tabpanel "Categories " [ref=e186]:
+                      - generic [ref=e188]:
+                        - generic [ref=e190] [cursor=pointer]:
+                          - generic [ref=e191]:
+                            - checkbox "MCU (41)"
+                          - generic [ref=e194]:
+                            - generic [ref=e196]: MCU
+                            - generic [ref=e197]: (41)
+                        - generic [ref=e199] [cursor=pointer]:
+                          - generic [ref=e200]:
+                            - checkbox "Extension/hats/expansion (28)"
+                          - generic [ref=e203]:
+                            - generic [ref=e205]: Extension/hats/expansion
+                            - generic [ref=e206]: (28)
+                        - generic [ref=e208] [cursor=pointer]:
+                          - generic [ref=e209]:
+                            - checkbox "HMI/Display (24)"
+                          - generic [ref=e212]:
+                            - generic [ref=e214]: HMI/Display
+                            - generic [ref=e215]: (24)
+                        - generic [ref=e217] [cursor=pointer]:
+                          - generic [ref=e218]:
+                            - checkbox "Sensor (8)"
+                          - generic [ref=e221]:
+                            - generic [ref=e223]: Sensor
+                            - generic [ref=e224]: (8)
+                        - generic [ref=e226] [cursor=pointer]:
+                          - generic [ref=e227]:
+                            - checkbox "Camera (6)"
+                          - generic [ref=e230]:
+                            - generic [ref=e232]: Camera
+                            - generic [ref=e233]: (6)
+                        - generic [ref=e235] [cursor=pointer]:
+                          - generic [ref=e236]:
+                            - checkbox "Accessories (5)"
+                          - generic [ref=e239]:
+                            - generic [ref=e241]: Accessories
+                            - generic [ref=e242]: (5)
+                        - generic [ref=e244] [cursor=pointer]:
+                          - generic [ref=e245]:
+                            - checkbox "Speaker (3)"
+                          - generic [ref=e248]:
+                            - generic [ref=e250]: Speaker
+                            - generic [ref=e251]: (3)
+                        - generic [ref=e253] [cursor=pointer]:
+                          - generic [ref=e254]:
+                            - checkbox "Carrier Board (2)"
+                          - generic [ref=e257]:
+                            - generic [ref=e259]: Carrier Board
+                            - generic [ref=e260]: (2)
+                        - generic [ref=e262] [cursor=pointer]:
+                          - generic [ref=e263]:
+                            - checkbox "Computer (1)"
+                          - generic [ref=e266]:
+                            - generic [ref=e268]: Computer
+                            - generic [ref=e269]: (1)
+                        - generic [ref=e271] [cursor=pointer]:
+                          - generic [ref=e272]:
+                            - checkbox "Gateway/datalogger (1)"
+                          - generic [ref=e275]:
+                            - generic [ref=e277]: Gateway/datalogger
+                            - generic [ref=e278]: (1)
+                - tablist [ref=e280]:
+                  - generic [ref=e281]:
+                    - tab "Sensors " [expanded] [ref=e282]:
+                      - button "Sensors " [ref=e283] [cursor=pointer]:
+                        - generic [ref=e284]: Sensors
+                        - generic [ref=e285]: 
+                    - tabpanel "Sensors " [ref=e286]:
+                      - generic [ref=e288]:
+                        - generic [ref=e290] [cursor=pointer]:
+                          - generic [ref=e291]:
+                            - checkbox "Others (14)"
+                          - generic [ref=e294]:
+                            - generic [ref=e296]: Others
+                            - generic [ref=e297]: (14)
+                        - generic [ref=e299] [cursor=pointer]:
+                          - generic [ref=e300]:
+                            - checkbox "AI-Power (6)"
+                          - generic [ref=e303]:
+                            - generic [ref=e305]: AI-Power
+                            - generic [ref=e306]: (6)
+                        - generic [ref=e308] [cursor=pointer]:
+                          - generic [ref=e309]:
+                            - checkbox "Sound (5)"
+                          - generic [ref=e312]:
+                            - generic [ref=e314]: Sound
+                            - generic [ref=e315]: (5)
+                        - generic [ref=e317] [cursor=pointer]:
+                          - generic [ref=e318]:
+                            - checkbox "Accelerometer (3)"
+                          - generic [ref=e321]:
+                            - generic [ref=e323]: Accelerometer
+                            - generic [ref=e324]: (3)
+                        - generic [ref=e326] [cursor=pointer]:
+                          - generic [ref=e327]:
+                            - checkbox "Light (3)"
+                          - generic [ref=e330]:
+                            - generic [ref=e332]: Light
+                            - generic [ref=e333]: (3)
+                        - generic [ref=e335] [cursor=pointer]:
+                          - generic [ref=e336]:
+                            - checkbox "Motion (2)"
+                          - generic [ref=e339]:
+                            - generic [ref=e341]: Motion
+                            - generic [ref=e342]: (2)
+                        - generic [ref=e344] [cursor=pointer]:
+                          - generic [ref=e345]:
+                            - checkbox "Temperature (2)"
+                          - generic [ref=e348]:
+                            - generic [ref=e350]: Temperature
+                            - generic [ref=e351]: (2)
+                        - generic [ref=e353] [cursor=pointer]:
+                          - generic [ref=e354]:
+                            - checkbox "mmWave (2)"
+                          - generic [ref=e357]:
+                            - generic [ref=e359]: mmWave
+                            - generic [ref=e360]: (2)
+                        - generic [ref=e362] [cursor=pointer]:
+                          - generic [ref=e363]:
+                            - checkbox "Distant (1)"
+                          - generic [ref=e366]:
+                            - generic [ref=e368]: Distant
+                            - generic [ref=e369]: (1)
+                        - generic [ref=e371] [cursor=pointer]:
+                          - generic [ref=e372]:
+                            - checkbox "Humidity (1)"
+                          - generic [ref=e375]:
+                            - generic [ref=e377]: Humidity
+                            - generic [ref=e378]: (1)
+                - tablist [ref=e380]:
+                  - generic [ref=e381]:
+                    - tab "Series " [expanded] [ref=e382]:
+                      - button "Series " [ref=e383] [cursor=pointer]:
+                        - generic [ref=e384]: Series
+                        - generic [ref=e385]: 
+                    - tabpanel "Series " [ref=e386]:
+                      - generic [ref=e388]:
+                        - generic [ref=e390] [cursor=pointer]:
+                          - generic [ref=e391]:
+                            - checkbox "XIAO (98)"
+                          - generic [ref=e394]:
+                            - generic [ref=e396]: XIAO
+                            - generic [ref=e397]: (98)
+                        - generic [ref=e399] [cursor=pointer]:
+                          - generic [ref=e400]:
+                            - checkbox "Arduino (12)"
+                          - generic [ref=e403]:
+                            - generic [ref=e405]: Arduino
+                            - generic [ref=e406]: (12)
+                        - generic [ref=e408] [cursor=pointer]:
+                          - generic [ref=e409]:
+                            - checkbox "Raspberry Pi (4)"
+                          - generic [ref=e412]:
+                            - generic [ref=e414]: Raspberry Pi
+                            - generic [ref=e415]: (4)
+                        - generic [ref=e417] [cursor=pointer]:
+                          - generic [ref=e418]:
+                            - checkbox "Grove (3)"
+                          - generic [ref=e421]:
+                            - generic [ref=e423]: Grove
+                            - generic [ref=e424]: (3)
+                        - generic [ref=e426] [cursor=pointer]:
+                          - generic [ref=e427]:
+                            - checkbox "NVIDIA (3)"
+                          - generic [ref=e430]:
+                            - generic [ref=e432]: NVIDIA
+                            - generic [ref=e433]: (3)
+                        - generic [ref=e435] [cursor=pointer]:
+                          - generic [ref=e436]:
+                            - checkbox "SenseCap (3)"
+                          - generic [ref=e439]:
+                            - generic [ref=e441]: SenseCap
+                            - generic [ref=e442]: (3)
+                        - generic [ref=e444] [cursor=pointer]:
+                          - generic [ref=e445]:
+                            - checkbox "RF Explorer (2)"
+                          - generic [ref=e448]:
+                            - generic [ref=e450]: RF Explorer
+                            - generic [ref=e451]: (2)
+                - tablist [ref=e453]:
+                  - generic [ref=e454]:
+                    - tab "RAM " [expanded] [ref=e455]:
+                      - button "RAM " [ref=e456] [cursor=pointer]:
+                        - generic [ref=e457]: RAM
+                        - generic [ref=e458]: 
+                    - tabpanel "RAM " [ref=e459]:
+                      - generic [ref=e463] [cursor=pointer]:
+                        - generic [ref=e464]:
+                          - checkbox "<=4 GB (12)"
+                        - generic [ref=e467]:
+                          - generic [ref=e469]: <=4 GB
+                          - generic [ref=e470]: (12)
+                - tablist [ref=e472]:
+                  - generic [ref=e473]:
+                    - tab "Storage " [expanded] [ref=e474]:
+                      - button "Storage " [ref=e475] [cursor=pointer]:
+                        - generic [ref=e476]: Storage
+                        - generic [ref=e477]: 
+                    - tabpanel "Storage " [ref=e478]:
+                      - generic [ref=e482] [cursor=pointer]:
+                        - generic [ref=e483]:
+                          - checkbox "4 GB (9)"
+                        - generic [ref=e486]:
+                          - generic [ref=e488]: 4 GB
+                          - generic [ref=e489]: (9)
+                - tablist [ref=e491]:
+                  - generic [ref=e492]:
+                    - tab "Operating System " [expanded] [ref=e493]:
+                      - button "Operating System " [ref=e494] [cursor=pointer]:
+                        - generic [ref=e495]: Operating System
+                        - generic [ref=e496]: 
+                    - tabpanel "Operating System " [ref=e497]:
+                      - generic [ref=e499]:
+                        - generic [ref=e501] [cursor=pointer]:
+                          - generic [ref=e502]:
+                            - checkbox "OpenWrt (3)"
+                          - generic [ref=e505]:
+                            - generic [ref=e507]: OpenWrt
+                            - generic [ref=e508]: (3)
+                        - generic [ref=e510] [cursor=pointer]:
+                          - generic [ref=e511]:
+                            - checkbox "Raspberry Pi OS (3)"
+                          - generic [ref=e514]:
+                            - generic [ref=e516]: Raspberry Pi OS
+                            - generic [ref=e517]: (3)
+                        - generic [ref=e519] [cursor=pointer]:
+                          - generic [ref=e520]:
+                            - checkbox "Raspbian (3)"
+                          - generic [ref=e523]:
+                            - generic [ref=e525]: Raspbian
+                            - generic [ref=e526]: (3)
+                        - generic [ref=e528] [cursor=pointer]:
+                          - generic [ref=e529]:
+                            - checkbox "Ubuntu (3)"
+                          - generic [ref=e532]:
+                            - generic [ref=e534]: Ubuntu
+                            - generic [ref=e535]: (3)
+                        - generic [ref=e537] [cursor=pointer]:
+                          - generic [ref=e538]:
+                            - checkbox "linux (3)"
+                          - generic [ref=e541]:
+                            - generic [ref=e543]: linux
+                            - generic [ref=e544]: (3)
+                        - generic [ref=e546] [cursor=pointer]:
+                          - generic [ref=e547]:
+                            - checkbox "Android (2)"
+                          - generic [ref=e550]:
+                            - generic [ref=e552]: Android
+                            - generic [ref=e553]: (2)
+                - tablist [ref=e555]:
+                  - generic [ref=e556]:
+                    - tab "Network " [expanded] [ref=e557]:
+                      - button "Network " [ref=e558] [cursor=pointer]:
+                        - generic [ref=e559]: Network
+                        - generic [ref=e560]: 
+                    - tabpanel "Network " [ref=e561]:
+                      - generic [ref=e563]:
+                        - generic [ref=e565] [cursor=pointer]:
+                          - generic [ref=e566]:
+                            - checkbox "Bluetooth (36)"
+                          - generic [ref=e569]:
+                            - generic [ref=e571]: Bluetooth
+                            - generic [ref=e572]: (36)
+                        - generic [ref=e574] [cursor=pointer]:
+                          - generic [ref=e575]:
+                            - checkbox "Wi-Fi (27)"
+                          - generic [ref=e578]:
+                            - generic [ref=e580]: Wi-Fi
+                            - generic [ref=e581]: (27)
+                        - generic [ref=e583] [cursor=pointer]:
+                          - generic [ref=e584]:
+                            - checkbox "Zigbee (17)"
+                          - generic [ref=e587]:
+                            - generic [ref=e589]: Zigbee
+                            - generic [ref=e590]: (17)
+                        - generic [ref=e592] [cursor=pointer]:
+                          - generic [ref=e593]:
+                            - checkbox "Thread (8)"
+                          - generic [ref=e596]:
+                            - generic [ref=e598]: Thread
+                            - generic [ref=e599]: (8)
+                        - generic [ref=e601] [cursor=pointer]:
+                          - generic [ref=e602]:
+                            - checkbox "LoRa/LoRaWan (7)"
+                          - generic [ref=e605]:
+                            - generic [ref=e607]: LoRa/LoRaWan
+                            - generic [ref=e608]: (7)
+                        - generic [ref=e610] [cursor=pointer]:
+                          - generic [ref=e611]:
+                            - checkbox "NFC (5)"
+                          - generic [ref=e614]:
+                            - generic [ref=e616]: NFC
+                            - generic [ref=e617]: (5)
+                        - generic [ref=e619] [cursor=pointer]:
+                          - generic [ref=e620]:
+                            - checkbox "RF (4)"
+                          - generic [ref=e623]:
+                            - generic [ref=e625]: RF
+                            - generic [ref=e626]: (4)
+            - generic [ref=e627]:
+              - generic [ref=e632]:
+                - generic [ref=e634]:
+                  - link [ref=e635] [cursor=pointer]:
+                    - /url: https://www.seeedstudio.com/XIAO-LOG-p-6341.html
+                  - generic [ref=e636]:
+                    - generic [ref=e637]: "114993446"
+                    - link "XIAO Logger HAT - A tiny temperature, humidity and light add-on module for XIAO with RTC and battery voltage monitoring" [ref=e638] [cursor=pointer]:
+                      - /url: https://www.seeedstudio.com/XIAO-LOG-p-6341.html
+                    - generic [ref=e639]: This little hat add-on for XIAO incorporates a Sensirion SHT40 temperature and humidity sensor, the BH1750 ambient light sensor, a PCF8563 real-time clock for accurate timekeeping, and an enableable voltage divider to keep track of the battery voltage.This product is a co-create collaboration with Seeed Studio and Westlake University's Marcel.
+                    - generic [ref=e640]:
+                      - generic [ref=e643]: $7.99
+                      - generic [ref=e647] [cursor=pointer]: 
+                - generic [ref=e649]:
+                  - link [ref=e650] [cursor=pointer]:
+                    - /url: https://www.seeedstudio.com/Wio-SX1262-with-XIAO-ESP32S3-p-5982.html
+                  - generic [ref=e651]:
+                    - generic [ref=e652]:
+                      - generic [ref=e653]: Warehouse Available
+                      - generic [ref=e654]:
+                        - link [ref=e655] [cursor=pointer]:
+                          - /url: https://www.seeedstudio.com/us_warehouse
+                        - link [ref=e656] [cursor=pointer]:
+                          - /url: https://www.seeedstudio.com/eu_warehouse
+                    - generic [ref=e657]: "102010611"
+                    - link "XIAO ESP32S3 & Wio-SX1262 Kit for Meshtastic & LoRa" [ref=e658] [cursor=pointer]:
+                      - /url: https://www.seeedstudio.com/Wio-SX1262-with-XIAO-ESP32S3-p-5982.html
+                    - generic [ref=e659]: This thumb-sized LoRa dev kit, featuring the XIAO ESP32S3 and Wio-SX1262 LoRa module, is an ideal starter kit for Meshtastic and LoRa/LoRaWAN projects. Supporting WiFi, BLE, and LoRa, it includes a built-in power management chip and can be extended via IIC, UART, and other GPIO interfaces, with compatibility for Arduino development.
+                    - generic [ref=e660]:
+                      - generic [ref=e663]: $9.90
+                      - generic [ref=e667] [cursor=pointer]: 
+                - generic [ref=e669]:
+                  - link [ref=e670] [cursor=pointer]:
+                    - /url: https://www.seeedstudio.com/XIAO-nRF52840-Wio-SX1262-Kit-for-Meshtastic-p-6400.html
+                  - generic [ref=e671]:
+                    - generic [ref=e672]:
+                      - generic [ref=e673]: Warehouse Available
+                      - generic [ref=e674]:
+                        - link [ref=e675] [cursor=pointer]:
+                          - /url: https://www.seeedstudio.com/us_warehouse
+                        - link [ref=e676] [cursor=pointer]:
+                          - /url: https://www.seeedstudio.com/eu_warehouse
+                    - generic [ref=e677]: "102010710"
+                    - link "XIAO nRF52840 & Wio-SX1262 Kit for Meshtastic" [ref=e678] [cursor=pointer]:
+                      - /url: https://www.seeedstudio.com/XIAO-nRF52840-Wio-SX1262-Kit-for-Meshtastic-p-6400.html
+                    - generic [ref=e679]: This kit combines the XIAO nRF52840 and Wio-SX1262, supporting BLE5.0 and LoRa (862-930MHz), and operates with low power consumption. It can be applied in various fields such as Meshtastic, sensor networks, environmental monitoring, asset tracking, education, and innovation.
+                    - generic [ref=e680]:
+                      - generic [ref=e683]: $13.49
+                      - generic [ref=e687] [cursor=pointer]: 
+                - generic [ref=e689]:
+                  - link [ref=e690] [cursor=pointer]:
+                    - /url: https://www.seeedstudio.com/Seeed-Studio-XIAO-ESP32C5-p-6609.html
+                  - generic [ref=e691]:
+                    - generic [ref=e692]: "100010048"
+                    - link "Seeed Studio XIAO ESP32-C5" [ref=e693] [cursor=pointer]:
+                      - /url: https://www.seeedstudio.com/Seeed-Studio-XIAO-ESP32C5-p-6609.html
+                    - generic [ref=e694]: Seeed Studio XIAO ESP32-C5 — the first XIAO module with 5 GHz Wi-Fi support, marking a new milestone in the XIAO family. Built on the RISC-V architecture, it brings together 2.4 GHz and 5 GHz dual-band Wi-Fi 6, Bluetooth 5 (LE), and IEEE 802.15.4 (Zigbee, Thread) connectivity, while offering full support for IoT application protocols including Matter, HomeKit, and MQTT. With this versatile combination, your projects gain smoother, faster, and more reliable wireless performancer.
+                    - generic [ref=e695]:
+                      - generic [ref=e698]: $6.90
+                      - generic [ref=e702] [cursor=pointer]: 
+                - generic [ref=e704]:
+                  - link [ref=e705] [cursor=pointer]:
+                    - /url: https://www.seeedstudio.com/XIAO-ePaper-DIY-Kit-EE02-for-13-3-Spectratm-6-E-Ink.html
+                  - generic [ref=e706]:
+                    - link "XIAO ePaper DIY Kit EE02 for 13.3\" Spectra™ 6 E-Ink" [ref=e707] [cursor=pointer]:
+                      - /url: https://www.seeedstudio.com/XIAO-ePaper-DIY-Kit-EE02-for-13-3-Spectratm-6-E-Ink.html
+                    - generic [ref=e708]: Powered by XIAO ESP32-S3 Plus, the display board EE02 supports 13.3" spectra™ 6 E-Ink. It features a JST 2.0 mm battery connector with power switch, built-in charging IC, and comes with one reset and three user buttons. Well-suited for low-power ePaper projects such as digital frames and information boards.
+                    - generic [ref=e709]:
+                      - generic [ref=e712]: $14.90 - $163.90
+                      - link [ref=e714] [cursor=pointer]:
+                        - /url: https://www.seeedstudio.com/XIAO-ePaper-DIY-Kit-EE02-for-13-3-Spectratm-6-E-Ink.html
+                        - generic [ref=e715]: 
+                - generic [ref=e717]:
+                  - link [ref=e718] [cursor=pointer]:
+                    - /url: https://www.seeedstudio.com/XIAO-ESP32S3-p-5627.html
+                  - generic [ref=e719]:
+                    - generic [ref=e720]:
+                      - generic [ref=e721]: Warehouse Available
+                      - generic [ref=e722]:
+                        - link [ref=e723] [cursor=pointer]:
+                          - /url: https://www.seeedstudio.com/us_warehouse
+                        - link [ref=e724] [cursor=pointer]:
+                          - /url: https://www.seeedstudio.com/eu_warehouse
+                    - generic [ref=e725]: "113991114"
+                    - link "Seeed Studio XIAO ESP32-S3" [ref=e726] [cursor=pointer]:
+                      - /url: https://www.seeedstudio.com/XIAO-ESP32S3-p-5627.html
+                    - generic [ref=e727]: Seeed Studio XIAO ESP32S3 leverages 240MHz Xtensa 32-bit LX7 dual-core processor, supporting both WiFi and BLE 5.0 wireless connectivities, a 2.4GHz Rod antenna, allows for deep sleep mode with power consumption as low as 14μA while supporting lithium battery charging management. Ideal for the Internet of Things, Smart Homes, Wireless wearable devices, Robotics, etc.
+                    - generic [ref=e728]:
+                      - generic [ref=e731]: $7.49
+                      - generic [ref=e735] [cursor=pointer]: 
+                - generic [ref=e737]:
+                  - link [ref=e738] [cursor=pointer]:
+                    - /url: https://www.seeedstudio.com/MR60BHA2-60GHz-mmWave-Sensor-Breathing-and-Heartbeat-Module-p-5945.html
+                  - generic [ref=e739]:
+                    - generic [ref=e740]:
+                      - generic [ref=e741]: Warehouse Available
+                      - generic [ref=e742]:
+                        - link [ref=e743] [cursor=pointer]:
+                          - /url: https://www.seeedstudio.com/us_warehouse
+                        - link [ref=e744] [cursor=pointer]:
+                          - /url: https://www.seeedstudio.com/eu_warehouse
+                    - generic [ref=e745]: "114993387"
+                    - link "XIAO 60GHz mmWave Human Breathing and Heartbeat Sensor -MR60BHA2" [ref=e746] [cursor=pointer]:
+                      - /url: https://www.seeedstudio.com/MR60BHA2-60GHz-mmWave-Sensor-Breathing-and-Heartbeat-Module-p-5945.html
+                    - generic [ref=e747]: This MR60BHA2 Sensor Kit leverages 60GHz mmWave technology, offering reliable breathing and heartbeat detection, as well as human presence detection. Featuring light level sensing, an RGB LED for customizable interaction, and support for extended sensors/actuators, it provides next-level sensing for more responsive automation. With the XIAO ESP32C6 as the brain, the kit comes with pre-flashed ESPHome firmware and wireless connectivity via Wi-Fi. Thanks to the pre-flashed ESPHome firmware, this kit offers no-code plug-and-play integration with Home Assistant, making it an ideal solution for healthcare monitoring, safety monitoring, elderly care, home automation, and more.
+                    - generic [ref=e748]:
+                      - generic [ref=e751]: $24.90
+                      - generic [ref=e755] [cursor=pointer]: 
+                - generic [ref=e757]:
+                  - link [ref=e758] [cursor=pointer]:
+                    - /url: https://www.seeedstudio.com/XIAO-ePaper-DIY-Kit-EE03-for-10-3-Monochrome-ePaper-Display.html
+                  - generic [ref=e759]:
+                    - link "XIAO ePaper DIY Kit EE03 for 10.3\" Monochrome ePaper Display" [ref=e760] [cursor=pointer]:
+                      - /url: https://www.seeedstudio.com/XIAO-ePaper-DIY-Kit-EE03-for-10-3-Monochrome-ePaper-Display.html
+                    - generic [ref=e761]: Powered by XIAO ESP32-S3 Plus, the ePaper driver board EE03 supports 10.3 monochrome ePaper Display with 1404 × 1872 pixels and up to 16-level grayscale. It features a JST 2.0 mm battery connector with power switch, built-in charging IC, and comes with one reset and three user buttons. Well-suited for low-power ePaper projects such as digital e-book readers and information boards.
+                    - generic [ref=e762]:
+                      - generic [ref=e765]: $29.90 - $114.90
+                      - link [ref=e767] [cursor=pointer]:
+                        - /url: https://www.seeedstudio.com/XIAO-ePaper-DIY-Kit-EE03-for-10-3-Monochrome-ePaper-Display.html
+                        - generic [ref=e768]: 
+                - generic [ref=e770]:
+                  - link [ref=e771] [cursor=pointer]:
+                    - /url: https://www.seeedstudio.com/Grove-Shield-for-Seeeduino-XIAO-p-4621.html
+                  - generic [ref=e772]:
+                    - generic [ref=e773]:
+                      - generic [ref=e774]: Warehouse Available
+                      - generic [ref=e775]:
+                        - link [ref=e776] [cursor=pointer]:
+                          - /url: https://www.seeedstudio.com/us_warehouse
+                        - link [ref=e777] [cursor=pointer]:
+                          - /url: https://www.seeedstudio.com/eu_warehouse
+                    - generic [ref=e778]: "103020312"
+                    - link "Seeed Studio Grove Base for XIAO - with embedded battery management chip" [ref=e779] [cursor=pointer]:
+                      - /url: https://www.seeedstudio.com/Grove-Shield-for-Seeeduino-XIAO-p-4621.html
+                    - generic [ref=e780]: Grove Shield for Seeed Studio XIAO is a plug-and-play Grove extension board for Seeed Studio XIAO series. With the on-board battery management chip and battery bonding pad, you could easily power your Seeed Studio XIAO with lithium battery and recharge it. 8 Grove connectors onboard includes two Grove IIC and one UART. It acts as a bridge for Seeed Studio XIAO and Seeed's Grove system. Flash SPI bonding pad allows you add Flash to Seeed Studio XIAO to expand its memory space, providing Seeed Studio XIAO with more possibilities.
+                    - generic [ref=e781]:
+                      - generic [ref=e784]: $4.50
+                      - generic [ref=e788] [cursor=pointer]: 
+                - generic [ref=e790]:
+                  - link [ref=e791] [cursor=pointer]:
+                    - /url: https://www.seeedstudio.com/ReSpeaker-XVF3800-With-Case-XIAO-ESP32S3-p-6628.html
+                  - generic [ref=e792]:
+                    - generic [ref=e793]: "114993702"
+                    - link "reSpeaker XMOS XVF3800 with XIAO ESP32S3 (Case Version)– AI-powered 4-Mic Array for Clear Voice Even in Noise" [ref=e794] [cursor=pointer]:
+                      - /url: https://www.seeedstudio.com/ReSpeaker-XVF3800-With-Case-XIAO-ESP32S3-p-6628.html
+                    - generic [ref=e795]: A ready-to-use enclosed circular 4-mic array with pre-soldered XIAO ESP32S3, based on the XMOS XVF3800, enabling clear target voice capture in workplaces. Features dual modes (I2S/USB), 360° far-field voice pickup (up to 5m), on-board AI acoustic algorithms (AEC, AGC, DoA, VAD, dereverberation, beamforming, and noise suppression).
+                    - generic [ref=e796]:
+                      - generic [ref=e799]: $64.90
+                      - generic [ref=e803] [cursor=pointer]: 
+                - generic [ref=e805]:
+                  - link [ref=e806] [cursor=pointer]:
+                    - /url: https://www.seeedstudio.com/Seeed-Studio-XIAO-ESP32C5-Pre-Soldered-p-6610.html
+                  - generic [ref=e807]:
+                    - generic [ref=e808]: "100093057"
+                    - link "Seeed Studio XIAO ESP32-C5 (Pre-Soldered)" [ref=e809] [cursor=pointer]:
+                      - /url: https://www.seeedstudio.com/Seeed-Studio-XIAO-ESP32C5-Pre-Soldered-p-6610.html
+                    - generic [ref=e810]: Seeed Studio XIAO ESP32-C5 — the first XIAO module with 5 GHz Wi-Fi support, marking a new milestone in the XIAO family. Built on the RISC-V architecture, it brings together 2.4 GHz and 5 GHz dual-band Wi-Fi 6, Bluetooth 5 (LE), and IEEE 802.15.4 (Zigbee, Thread) connectivity, while offering full support for IoT application protocols including Matter, HomeKit, and MQTT. With this versatile combination, your projects gain smoother, faster, and more reliable wireless performancer.
+                    - generic [ref=e811]:
+                      - generic [ref=e814]: $7.90
+                      - generic [ref=e818] [cursor=pointer]: 
+                - generic [ref=e820]:
+                  - link [ref=e821] [cursor=pointer]:
+                    - /url: https://www.seeedstudio.com/Wio-WM6180-Wi-Fi-HaLow-Module-for-XIAO-p-6395.html
+                  - generic [ref=e822]:
+                    - generic [ref=e823]:
+                      - generic [ref=e824]: Warehouse Available
+                      - link [ref=e826] [cursor=pointer]:
+                        - /url: https://www.seeedstudio.com/us_warehouse
+                    - generic [ref=e827]: "109100041"
+                    - link "Wi-Fi HaLow Transceiver for Seeed Studio XIAO" [ref=e828] [cursor=pointer]:
+                      - /url: https://www.seeedstudio.com/Wio-WM6180-Wi-Fi-HaLow-Module-for-XIAO-p-6395.html
+                    - generic [ref=e829]: The Wi-Fi HaLow Board based on the FGH100M-H module is a high-performance, long-range Wi-Fi HaLow solution. Operating in the 902-928 MHz frequency band, it offers excellent penetration and coverage, making it ideal for smart home and IoT applications. With its compact design and compatibility with the Seeed Studio XIAO ecosystem, this card ensures reliable and efficient connectivity for various projects.
+                    - generic [ref=e830]:
+                      - generic [ref=e833]: $14.90
+                      - generic [ref=e837] [cursor=pointer]: 
+                - generic [ref=e839]:
+                  - link [ref=e840] [cursor=pointer]:
+                    - /url: https://www.seeedstudio.com/Seeed-Studio-XIAO-ESP32S3-Plus-p-6361.html
+                  - generic [ref=e841]:
+                    - generic [ref=e842]:
+                      - generic [ref=e843]: Warehouse Available
+                      - generic [ref=e844]:
+                        - link [ref=e845] [cursor=pointer]:
+                          - /url: https://www.seeedstudio.com/us_warehouse
+                        - link [ref=e846] [cursor=pointer]:
+                          - /url: https://www.seeedstudio.com/eu_warehouse
+                    - generic [ref=e847]: "102010671"
+                    - link "Seeed Studio XIAO ESP32-S3 Plus" [ref=e848] [cursor=pointer]:
+                      - /url: https://www.seeedstudio.com/Seeed-Studio-XIAO-ESP32S3-Plus-p-6361.html
+                    - generic [ref=e849]: Seeed Studio XIAO ESP32-S3 Plus, powered by ESP32-S3's 240MHz Xtensa 32-bit LX7 dual-core processor, brings more SMD pins to the tiny versatile XIAO ESP32-S3. While maintaining all the powerful features including WiFi and BLE 5.0 wireless connectivities, 2.4GHz Rod antenna, and ultra-low power consumption of 14μA in deep sleep mode with lithium battery charging management, the Plus variant features redesigned castellations and pad layout on the back, offering 9 additional GPIOs specifically for advanced Bluetooth projects requiring expanded I/Os via SMD board-to-board soldering. It's ideal for advanced IoT projects, Smart Homes, and professional wireless devices requiring extra I/O connectivity.
+                    - generic [ref=e850]:
+                      - generic [ref=e853]: $7.90
+                      - generic [ref=e857] [cursor=pointer]: 
+                - generic [ref=e859]:
+                  - link [ref=e860] [cursor=pointer]:
+                    - /url: https://www.seeedstudio.com/Wio-SX1262-for-XIAO-p-6379.html
+                  - generic [ref=e861]:
+                    - generic [ref=e862]:
+                      - generic [ref=e863]: Warehouse Available
+                      - generic [ref=e864]:
+                        - link [ref=e865] [cursor=pointer]:
+                          - /url: https://www.seeedstudio.com/us_warehouse
+                        - link [ref=e866] [cursor=pointer]:
+                          - /url: https://www.seeedstudio.com/eu_warehouse
+                    - generic [ref=e867]: "113010003"
+                    - link "Wio-SX1262 for XIAO" [ref=e868] [cursor=pointer]:
+                      - /url: https://www.seeedstudio.com/Wio-SX1262-for-XIAO-p-6379.html
+                    - generic [ref=e869]: This is a high-performance LoRa module specifically designed for the XIAO series development boards. Based on the Semtech SX1262 chip, it supports global LoRa bands (862-930MHz). Combined with the powerful computing capabilities of the XIAO series, it provides developers with a compact and efficient LoRa communication solution. It is suitable for applications in the Internet of Things, smart agriculture, and remote monitoring.
+                    - generic [ref=e870]:
+                      - generic [ref=e873]: $4.99
+                      - generic [ref=e877] [cursor=pointer]: 
+                - generic [ref=e879]:
+                  - link [ref=e880] [cursor=pointer]:
+                    - /url: https://www.seeedstudio.com/ReSpeaker-XVF3800-4-Mic-Array-With-XIAO-ESP32S3-p-6489.html
+                  - generic [ref=e881]:
+                    - generic [ref=e882]:
+                      - generic [ref=e883]: Warehouse Available
+                      - generic [ref=e884]:
+                        - link [ref=e885] [cursor=pointer]:
+                          - /url: https://www.seeedstudio.com/us_warehouse
+                        - link [ref=e886] [cursor=pointer]:
+                          - /url: https://www.seeedstudio.com/eu_warehouse
+                    - generic [ref=e887]: "114993700"
+                    - link "reSpeaker XMOS XVF3800 with XIAO ESP32S3 – AI-powered 4-Mic Array for Clear Voice Even in Noise" [ref=e888] [cursor=pointer]:
+                      - /url: https://www.seeedstudio.com/ReSpeaker-XVF3800-4-Mic-Array-With-XIAO-ESP32S3-p-6489.html
+                    - generic [ref=e889]: A professional circular 4-mic array based on the XMOS XVF3800. Equipped with Seeed Studio XIAO ESP32S3, it enables clear and precise target voice capture in noisy environments. Features dual modes (I2S/USB), 360° far-field voice pickup (up to 5m), on-board AI acoustic algorithms (AEC, AGC, DoA, VAD, dereverberation, beamforming, and noise suppression).
+                    - generic [ref=e890]:
+                      - generic [ref=e893]: $59.90
+                      - generic [ref=e897] [cursor=pointer]: 
+                - generic [ref=e899]:
+                  - link [ref=e900] [cursor=pointer]:
+                    - /url: https://www.seeedstudio.com/XIAO-ESP32S3-for-Meshtastic-LoRa-with-3D-Printed-Enclosure-p-6314.html
+                  - generic [ref=e901]:
+                    - generic [ref=e902]:
+                      - generic [ref=e903]: Warehouse Available
+                      - generic [ref=e904]:
+                        - link [ref=e905] [cursor=pointer]:
+                          - /url: https://www.seeedstudio.com/us_warehouse
+                        - link [ref=e906] [cursor=pointer]:
+                          - /url: https://www.seeedstudio.com/eu_warehouse
+                    - generic [ref=e907]: "113110064"
+                    - link "XIAO ESP32S3 & Wio-SX1262 Kit with 3D case for Meshtastic & LoRa" [ref=e908] [cursor=pointer]:
+                      - /url: https://www.seeedstudio.com/XIAO-ESP32S3-for-Meshtastic-LoRa-with-3D-Printed-Enclosure-p-6314.html
+                    - generic [ref=e909]: This device is based on XIAO ESP32S3 and Wio-SX1262 LoRa module. Coupled with an exquisite 3D - printed casing, it is equipped with an 868 - 915MHZ wide frequency range and 2dBi gain external antenna. It can support 2~5km single channel lorawan gateway and meshtastic communication. Through the GPIO port, it can be paired with GNSS modules and other additional modules.
+                    - generic [ref=e910]:
+                      - generic [ref=e913]: $17.90
+                      - generic [ref=e917] [cursor=pointer]: 
+                - generic [ref=e919]:
+                  - link [ref=e920] [cursor=pointer]:
+                    - /url: https://www.seeedstudio.com/Seeeduino-XIAO-Expansion-board-p-4746.html
+                  - generic [ref=e921]:
+                    - generic [ref=e922]:
+                      - generic [ref=e923]: Warehouse Available
+                      - generic [ref=e924]:
+                        - link [ref=e925] [cursor=pointer]:
+                          - /url: https://www.seeedstudio.com/us_warehouse
+                        - link [ref=e926] [cursor=pointer]:
+                          - /url: https://www.seeedstudio.com/eu_warehouse
+                    - generic [ref=e927]: "103030356"
+                    - link "Seeed Studio Expansion Board Base for XIAO with Grove OLED - IIC, Uart, Analog/Digital" [ref=e928] [cursor=pointer]:
+                      - /url: https://www.seeedstudio.com/Seeeduino-XIAO-Expansion-board-p-4746.html
+                    - generic [ref=e929]: Seeed Studio XIAO Expansion Board is a powerful functional expansion board for Seeed Studio XIAO series of only half Raspberry Pi 4 size. It enables building prototypes and projects in an easy and quick way. With its rich peripherals, you could explore the infinite possibilities of Seeed Studio XIAO series. Circuit python is also well supported by this board.
+                    - generic [ref=e930]:
+                      - generic [ref=e933]: $16.40
+                      - generic [ref=e937] [cursor=pointer]: 
+                - generic [ref=e939]:
+                  - link [ref=e940] [cursor=pointer]:
+                    - /url: https://www.seeedstudio.com/Seeed-StudioXIAO-ESP32C6-3PCS-p-5918.html
+                  - generic [ref=e941]:
+                    - generic [ref=e942]:
+                      - generic [ref=e943]: Warehouse Available
+                      - generic [ref=e944]:
+                        - link [ref=e945] [cursor=pointer]:
+                          - /url: https://www.seeedstudio.com/us_warehouse
+                        - link [ref=e946] [cursor=pointer]:
+                          - /url: https://www.seeedstudio.com/eu_warehouse
+                    - generic [ref=e947]: "102010574"
+                    - link "Seeed Studio XIAO ESP32-C6 (3PCS)" [ref=e948] [cursor=pointer]:
+                      - /url: https://www.seeedstudio.com/Seeed-StudioXIAO-ESP32C6-3PCS-p-5918.html
+                    - generic [ref=e949]: This is a 3PCs pack of XIAO ESP32-C6, which is a cost-effective MCU based on Espressif’s ESP32-C6. This compact MCU excels in Matter-compliant smart home applications with its support for various wireless connectivity (2.4GHz Wi-Fi 6, BLE 5.0, Zigbee, and Thread). Designed with the thumb-size footprint and a single-sided mount of the XIAO Series, it's perfect for space-limited projects. Encrypted on the chip, the XIAO ESP32-C6 ensures a desired level of security streamlined development experience, and swift market entry by integrating easily with major IoT Cloud platforms.
+                    - generic [ref=e950]:
+                      - generic [ref=e951]:
+                        - generic [ref=e952]:
+                          - generic [ref=e953]: $13.04
+                          - generic [ref=e954]: $14.49
+                        - generic [ref=e955]:
+                          - text: Save
+                          - generic [ref=e956]: $1.45
+                          - text: (
+                          - generic [ref=e957]: 10%
+                          - text: )
+                      - generic [ref=e961] [cursor=pointer]: 
+                - generic [ref=e963]:
+                  - link [ref=e964] [cursor=pointer]:
+                    - /url: https://www.seeedstudio.com/XIAO-7-5-ePaper-Panel-p-6416.html
+                  - generic [ref=e965]:
+                    - generic [ref=e966]:
+                      - generic [ref=e967]: Warehouse Available
+                      - generic [ref=e968]:
+                        - link [ref=e969] [cursor=pointer]:
+                          - /url: https://www.seeedstudio.com/us_warehouse
+                        - link [ref=e970] [cursor=pointer]:
+                          - /url: https://www.seeedstudio.com/eu_warehouse
+                    - generic [ref=e971]: "114993635"
+                    - link "XIAO 7.5\" ePaper Panel" [ref=e972] [cursor=pointer]:
+                      - /url: https://www.seeedstudio.com/XIAO-7-5-ePaper-Panel-p-6416.html
+                    - generic [ref=e973]: Powered by XIAO ESP32-C3, this 7.5 inch ePaper display is a energy-efficient smart home e-ink screen designed to seamlessly integrate with Home Assistant. Ideal for showcasing dashboard real-time data, weather updates, and schedules, this compact device offers crisp visuals, 3-months battery life (2000mAh) in deep sleep mode, and easy customization via Arduino. Perfect for modern living spaces, it combines functionality with elegant design for a smarter home experience.
+                    - generic [ref=e974]:
+                      - generic [ref=e977]: $69.00
+                      - generic [ref=e981] [cursor=pointer]: 
+                - generic [ref=e983]:
+                  - link [ref=e984] [cursor=pointer]:
+                    - /url: https://www.seeedstudio.com/Seeed-Studio-XIAO-24Ghz-mmwave-Human-Static-Presence-Module-p-6266.html
+                  - generic [ref=e985]:
+                    - generic [ref=e986]:
+                      - generic [ref=e987]: Warehouse Available
+                      - generic [ref=e988]:
+                        - link [ref=e989] [cursor=pointer]:
+                          - /url: https://www.seeedstudio.com/us_warehouse
+                        - link [ref=e990] [cursor=pointer]:
+                          - /url: https://www.seeedstudio.com/eu_warehouse
+                    - generic [ref=e991]: "101010001"
+                    - link "24Ghz mmwave Human Static Presence Sensor for Seeed Studio XIAO" [ref=e992] [cursor=pointer]:
+                      - /url: https://www.seeedstudio.com/Seeed-Studio-XIAO-24Ghz-mmwave-Human-Static-Presence-Module-p-6266.html
+                    - generic [ref=e993]: 24GHz mmWave Sensor for XIAO - Human Static Presence is a expansion board for Seeed Studio XIAO series. It is an antenna-integrated, high-sensitivity mmwave radar sensor that is based on the FMCW principle. Combined with radar signal processing and accurate human body sensing algorithms, it can identify human bodies in motion and stationary states.
+                    - generic [ref=e994]:
+                      - generic [ref=e997]: $4.49
+                      - generic [ref=e1001] [cursor=pointer]: 
+                - generic [ref=e1003]:
+                  - link [ref=e1004] [cursor=pointer]:
+                    - /url: https://www.seeedstudio.com/Grove-Vision-AI-Module-V2-p-5851.html
+                  - generic [ref=e1005]:
+                    - generic [ref=e1006]:
+                      - generic [ref=e1007]: Warehouse Available
+                      - generic [ref=e1008]:
+                        - link [ref=e1009] [cursor=pointer]:
+                          - /url: https://www.seeedstudio.com/us_warehouse
+                        - link [ref=e1010] [cursor=pointer]:
+                          - /url: https://www.seeedstudio.com/eu_warehouse
+                    - generic [ref=e1011]: "101021112"
+                    - link "Grove - Vision AI Module V2 - Arm Cortex-M55 & Ethos-U55, TensorFlow and PyTorch supported, Arduino, Raspberry Pi, Seeed Studio XIAO, ESP-based dev board compatible" [ref=e1012] [cursor=pointer]:
+                      - /url: https://www.seeedstudio.com/Grove-Vision-AI-Module-V2-p-5851.html
+                    - generic [ref=e1013]: It is an MCU-based vision AI module powered by Himax WiseEye2, featuring Arm Cortex-M55 & Ethos-U55. TensorFlow and PyTorch frameworks are supported. Compatible with Arduino IDE and no code model deployment and immediate visualization of identification results with SenseCraft AI.
+                    - generic [ref=e1014]:
+                      - generic [ref=e1017]: $15.99
+                      - generic [ref=e1021] [cursor=pointer]: 
+                - generic [ref=e1023]:
+                  - link [ref=e1024] [cursor=pointer]:
+                    - /url: https://www.seeedstudio.com/Seeed-XIAO-BLE-nRF52840-p-5201.html
+                  - generic [ref=e1025]:
+                    - generic [ref=e1026]:
+                      - generic [ref=e1027]: Warehouse Available
+                      - link [ref=e1029] [cursor=pointer]:
+                        - /url: https://www.seeedstudio.com/eu_warehouse
+                    - generic [ref=e1030]: "102010448"
+                    - link "Seeed Studio XIAO nRF52840 (XIAO BLE)" [ref=e1031] [cursor=pointer]:
+                      - /url: https://www.seeedstudio.com/Seeed-XIAO-BLE-nRF52840-p-5201.html
+                    - generic [ref=e1032]: Seeed Studio XIAO nRF52840 by Nordic is carrying wireless capability for the first time and it supports Bluetooth Low Energy 5.4, also able to operate with low power consumption. It will be your best microcontroller for Bluetooth applications.
+                    - generic [ref=e1033]:
+                      - generic [ref=e1036]: $9.90
+                      - generic [ref=e1040] [cursor=pointer]: 
+                - generic [ref=e1042]:
+                  - link [ref=e1043] [cursor=pointer]:
+                    - /url: https://www.seeedstudio.com/SenseCAP-Watcher-XIAOZHI-EN-p-6532.html
+                  - generic [ref=e1044]:
+                    - generic [ref=e1045]:
+                      - generic [ref=e1046]: Warehouse Available
+                      - generic [ref=e1047]:
+                        - link [ref=e1048] [cursor=pointer]:
+                          - /url: https://www.seeedstudio.com/us_warehouse
+                        - link [ref=e1049] [cursor=pointer]:
+                          - /url: https://www.seeedstudio.com/eu_warehouse
+                    - generic [ref=e1050]: "100051523"
+                    - link "SenseCAP Watcher for XiaoZhi" [ref=e1051] [cursor=pointer]:
+                      - /url: https://www.seeedstudio.com/SenseCAP-Watcher-XIAOZHI-EN-p-6532.html
+                    - generic [ref=e1052]: SenseCAP Watcher, combined with XiaoZhi AI, becomes a smart interactive companion for your everyday life.It can see, hear, and speak—leveraging powerful LLMs to understand your intent and surroundings, using visual wake-up to recognize you instantly, and interacting with you in a natural, human-like way.As a smart companion, it supports daily reminders, manages home automation, and enables seamless multilingual communication with people around the world. Built on MCP (Model Context Protocol) and an open-source ecosystem, Watcher also gives makers and developers the freedom to customize, extend, and explore countless new possibilities.
+                    - generic [ref=e1053]:
+                      - generic [ref=e1056]: $59.00
+                      - generic [ref=e1060] [cursor=pointer]: 
+                - generic [ref=e1062]:
+                  - link [ref=e1063] [cursor=pointer]:
+                    - /url: https://www.seeedstudio.com/1-28-Round-Touch-Display-for-Seeed-Studio-XIAO-ESP32.html
+                  - generic [ref=e1064]:
+                    - generic [ref=e1065]:
+                      - generic [ref=e1066]: Warehouse Available
+                      - generic [ref=e1067]:
+                        - link [ref=e1068] [cursor=pointer]:
+                          - /url: https://www.seeedstudio.com/us_warehouse
+                        - link [ref=e1069] [cursor=pointer]:
+                          - /url: https://www.seeedstudio.com/eu_warehouse
+                    - generic [ref=e1070]: "104030087"
+                    - link "Round Display for Seeed Studio XIAO" [ref=e1071] [cursor=pointer]:
+                      - /url: https://www.seeedstudio.com/1-28-Round-Touch-Display-for-Seeed-Studio-XIAO-ESP32.html
+                    - generic [ref=e1072]: This compact expansion board is designed for the Seeed Studio XIAO ESP32 series and features a 1.28-inch fully covered round touch display in a 39 mm disc form factor. It integrates an RTC holder, charging circuit, and TF card slot, making it well suited for interactive ESP32 projects such as smart home interfaces and wearables.
+                    - generic [ref=e1073]:
+                      - generic [ref=e1076]: $18.00
+                      - generic [ref=e1080] [cursor=pointer]: 
+                - generic [ref=e1082]:
+                  - link [ref=e1083] [cursor=pointer]:
+                    - /url: https://www.seeedstudio.com/2-4GHz-FPC-Antenna-2-9dBi-for-XIAO-ESP32C3-p-6439.html
+                  - generic [ref=e1084]:
+                    - generic [ref=e1085]:
+                      - generic [ref=e1086]: Warehouse Available
+                      - generic [ref=e1087]:
+                        - link [ref=e1088] [cursor=pointer]:
+                          - /url: https://www.seeedstudio.com/us_warehouse
+                        - link [ref=e1089] [cursor=pointer]:
+                          - /url: https://www.seeedstudio.com/eu_warehouse
+                    - generic [ref=e1090]: "318020748"
+                    - link "2.4GHz FPC Antenna (2.9dBi) for Seeed Studio XIAO ESP32-C3" [ref=e1091] [cursor=pointer]:
+                      - /url: https://www.seeedstudio.com/2-4GHz-FPC-Antenna-2-9dBi-for-XIAO-ESP32C3-p-6439.html
+                    - generic [ref=e1092]: It is a 2.4GHz 2.9dBi FPC flexible antenna designed for XIAO ESP32-C3, using high-gain PCB radiator combined with flexible substrate, greatly increasing the wireless capability of the MCU board.
+                    - generic [ref=e1093]:
+                      - generic [ref=e1096]: $0.50
+                      - generic [ref=e1100] [cursor=pointer]: 
+              - list [ref=e1103]:
+                - listitem [ref=e1104]:
+                  - generic "First Page" [ref=e1105]: ‹‹
+                - listitem [ref=e1106]:
+                  - generic "Previous Page" [ref=e1107]: ‹
+                - listitem [ref=e1108]:
+                  - link "Page 1" [ref=e1109] [cursor=pointer]:
+                    - /url: https://www.seeedstudio.com/catalogsearch/result/?bazaar4_retailer-products%5Bpage%5D=1&q=XIAO%20Logger%20HAT
+                    - text: "1"
+                - listitem [ref=e1110]:
+                  - link "Page 2" [ref=e1111] [cursor=pointer]:
+                    - /url: https://www.seeedstudio.com/catalogsearch/result/?bazaar4_retailer-products%5Bpage%5D=2&q=XIAO%20Logger%20HAT
+                    - text: "2"
+                - listitem [ref=e1112]:
+                  - link "Page 3" [ref=e1113] [cursor=pointer]:
+                    - /url: https://www.seeedstudio.com/catalogsearch/result/?bazaar4_retailer-products%5Bpage%5D=3&q=XIAO%20Logger%20HAT
+                    - text: "3"
+                - listitem [ref=e1114]:
+                  - link "Page 4" [ref=e1115] [cursor=pointer]:
+                    - /url: https://www.seeedstudio.com/catalogsearch/result/?bazaar4_retailer-products%5Bpage%5D=4&q=XIAO%20Logger%20HAT
+                    - text: "4"
+                - listitem [ref=e1116]:
+                  - link "Page 5" [ref=e1117] [cursor=pointer]:
+                    - /url: https://www.seeedstudio.com/catalogsearch/result/?bazaar4_retailer-products%5Bpage%5D=5&q=XIAO%20Logger%20HAT
+                    - text: "5"
+                - listitem [ref=e1118]:
+                  - link "Page 6" [ref=e1119] [cursor=pointer]:
+                    - /url: https://www.seeedstudio.com/catalogsearch/result/?bazaar4_retailer-products%5Bpage%5D=6&q=XIAO%20Logger%20HAT
+                    - text: "6"
+                - listitem [ref=e1120]:
+                  - link "Next Page" [ref=e1121] [cursor=pointer]:
+                    - /url: https://www.seeedstudio.com/catalogsearch/result/?bazaar4_retailer-products%5Bpage%5D=2&q=XIAO%20Logger%20HAT
+                    - text: ›
+                - listitem [ref=e1122]:
+                  - link "Last Page, Page 6" [ref=e1123] [cursor=pointer]:
+                    - /url: https://www.seeedstudio.com/catalogsearch/result/?bazaar4_retailer-products%5Bpage%5D=6&q=XIAO%20Logger%20HAT
+                    - text: ››
+        - generic [ref=e1125] [cursor=pointer]:
+          - text: Help us enhance our search
+          - generic [ref=e1126]: 
+  - generic [ref=e1127] [cursor=pointer]:
+    - button "Chat Widget" [ref=e1128]: 
+    - tooltip "We're offline Leave a message Close tooltip" [ref=e1129]:
+      - generic [ref=e1130]: We're offline
+      - paragraph [ref=e1131]: Leave a message
+      - button "Close tooltip" [ref=e1132]: 

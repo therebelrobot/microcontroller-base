@@ -1,0 +1,378 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#content-area"
+    - generic [ref=e5]:
+      - generic [ref=e11]:
+        - generic [ref=e12]:
+          - link "atopile home page light logo" [ref=e13] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e14]: atopile home page
+            - img "light logo" [ref=e15]
+          - button "0.14.x" [ref=e17] [cursor=pointer]:
+            - generic [ref=e18]: 0.14.x
+            - img [ref=e19]
+        - generic [ref=e21]:
+          - generic [ref=e22]:
+            - link "atopile" [ref=e25] [cursor=pointer]:
+              - /url: /atopile-0.14.x/introduction
+            - navigation:
+              - list
+          - generic [ref=e26]:
+            - button "Open search" [ref=e27] [cursor=pointer]:
+              - generic [ref=e28]: Search...
+              - img [ref=e29]
+            - button [ref=e30] [cursor=pointer]:
+              - img [ref=e31]
+            - button "Toggle dark mode" [ref=e35] [cursor=pointer]:
+              - img [ref=e36]
+      - generic [ref=e43]:
+        - generic [ref=e48]:
+          - list [ref=e49]:
+            - listitem [ref=e50]:
+              - link "GitHub" [ref=e51] [cursor=pointer]:
+                - /url: https://github.com/atopile/atopile
+                - img [ref=e52]
+                - generic [ref=e53]: GitHub
+            - listitem [ref=e54]:
+              - link "Packages" [ref=e55] [cursor=pointer]:
+                - /url: https://packages.atopile.io
+                - img [ref=e56]
+                - generic [ref=e57]: Packages
+            - listitem [ref=e58]:
+              - link "Support" [ref=e59] [cursor=pointer]:
+                - /url: https://docs.atopile.io/support
+                - img [ref=e60]
+                - generic [ref=e61]: Support
+            - listitem [ref=e62]:
+              - link "Community" [ref=e63] [cursor=pointer]:
+                - /url: https://discord.gg/CRe5xaDBr3
+                - img [ref=e64]
+                - generic [ref=e65]: Community
+            - listitem [ref=e66]:
+              - link "Blog" [ref=e67] [cursor=pointer]:
+                - /url: https://blog.atopile.io
+                - img [ref=e68]
+                - generic [ref=e69]: Blog
+          - generic [ref=e70]:
+            - heading "Introduction" [level=5] [ref=e72]
+            - list [ref=e73]:
+              - listitem [ref=e74]:
+                - link "Introduction" [ref=e75] [cursor=pointer]:
+                  - /url: /atopile-0.14.x/introduction
+                  - img [ref=e77]
+                  - generic [ref=e79]: Introduction
+              - listitem [ref=e80]:
+                - link "Change Log" [ref=e81] [cursor=pointer]:
+                  - /url: /atopile-0.14.x/changelog
+                  - img [ref=e83]
+                  - generic [ref=e85]: Change Log
+          - generic [ref=e86]:
+            - heading "Getting Started Guide" [level=5] [ref=e88]
+            - list [ref=e89]:
+              - listitem [ref=e90]:
+                - link "1. Install" [ref=e91] [cursor=pointer]:
+                  - /url: /atopile-0.14.x/quickstart/1-installation
+                  - img [ref=e93]
+                  - generic [ref=e95]: 1. Install
+              - listitem [ref=e96]:
+                - link "2. Hello, World!" [ref=e97] [cursor=pointer]:
+                  - /url: /atopile-0.14.x/quickstart/2-create-a-project
+                  - img [ref=e99]
+                  - generic [ref=e101]: 2. Hello, World!
+              - listitem [ref=e102]:
+                - link "3. Adding Parts" [ref=e103] [cursor=pointer]:
+                  - /url: /atopile-0.14.x/quickstart/3-adding-parts
+                  - img [ref=e105]
+                  - generic [ref=e107]: 3. Adding Parts
+              - listitem [ref=e108]:
+                - link "4. Manufacturing Export" [ref=e109] [cursor=pointer]:
+                  - /url: /atopile-0.14.x/quickstart/4-manufacturing-files
+                  - img [ref=e111]
+                  - generic [ref=e113]: 4. Manufacturing Export
+              - listitem [ref=e114]:
+                - link "5. Examples" [ref=e115] [cursor=pointer]:
+                  - /url: /atopile-0.14.x/quickstart/5-examples
+                  - img [ref=e117]
+                  - generic [ref=e119]: 5. Examples
+          - generic [ref=e120]:
+            - heading "Essentials" [level=5] [ref=e122]
+            - list [ref=e123]:
+              - listitem [ref=e124]:
+                - 'link "1. `ato` Language" [ref=e125] [cursor=pointer]':
+                  - /url: /atopile-0.14.x/essentials/1-the-ato-language
+                  - img [ref=e127]
+                  - generic [ref=e129]: "1. `ato` Language"
+              - listitem [ref=e130]:
+                - 'link "2. `ato` Compiler" [ref=e131] [cursor=pointer]':
+                  - /url: /atopile-0.14.x/essentials/2-the-ato-compiler
+                  - img [ref=e133]
+                  - generic [ref=e135]: "2. `ato` Compiler"
+              - listitem [ref=e136]:
+                - link "3. Add a component" [ref=e137] [cursor=pointer]:
+                  - /url: /atopile-0.14.x/essentials/3-add-component
+                  - img [ref=e139]
+                  - generic [ref=e141]: 3. Add a component
+              - listitem [ref=e142]:
+                - link "4. Packages" [ref=e143] [cursor=pointer]:
+                  - /url: /atopile-0.14.x/essentials/4-packages
+                  - img [ref=e145]
+                  - generic [ref=e147]: 4. Packages
+              - listitem [ref=e148]:
+                - link "5. Project Structure" [ref=e149] [cursor=pointer]:
+                  - /url: /atopile-0.14.x/essentials/5-project-structure
+                  - img [ref=e151]
+                  - generic [ref=e153]: 5. Project Structure
+              - listitem [ref=e154]:
+                - link "6. Layout" [ref=e155] [cursor=pointer]:
+                  - /url: /atopile-0.14.x/essentials/6-layout
+                  - img [ref=e157]
+                  - img [ref=e160]
+                  - generic [ref=e162]: 6. Layout
+              - listitem [ref=e163]:
+                - link "7. Saving Your Work" [ref=e164] [cursor=pointer]:
+                  - /url: /atopile-0.14.x/essentials/7-saving-your-work
+                  - img [ref=e166]
+                  - generic [ref=e168]: 7. Saving Your Work
+              - listitem [ref=e169]:
+                - link "8. Traits" [ref=e170] [cursor=pointer]:
+                  - /url: /atopile-0.14.x/essentials/8-traits
+                  - img [ref=e172]
+                  - generic [ref=e174]: 8. Traits
+          - generic [ref=e175]:
+            - heading "Guides" [level=5] [ref=e177]
+            - list [ref=e178]:
+              - listitem [ref=e179]:
+                - link "git" [ref=e180] [cursor=pointer]:
+                  - /url: /atopile-0.14.x/guides/git
+                  - img [ref=e182]
+                  - generic [ref=e184]: git
+              - listitem [ref=e185]:
+                - link "Publishing Packages" [ref=e186] [cursor=pointer]:
+                  - /url: /atopile-0.14.x/guides/publish
+                  - img [ref=e188]
+                  - generic [ref=e190]: Publishing Packages
+              - listitem [ref=e191]:
+                - link "faebryk" [ref=e192] [cursor=pointer]:
+                  - /url: /atopile-0.14.x/guides/faebryk
+                  - img [ref=e194]
+                  - generic [ref=e196]: faebryk
+              - listitem [ref=e197]:
+                - link "fabll (python)" [ref=e198] [cursor=pointer]:
+                  - /url: /atopile-0.14.x/guides/fabll
+                  - img [ref=e200]
+                  - generic [ref=e202]: fabll (python)
+              - listitem [ref=e203]:
+                - link "Development" [ref=e204] [cursor=pointer]:
+                  - /url: /atopile-0.14.x/guides/development
+                  - img [ref=e206]
+                  - generic [ref=e208]: Development
+          - generic [ref=e209]:
+            - heading "Library Reference" [level=5] [ref=e211]
+            - list [ref=e212]:
+              - listitem [ref=e213]:
+                - button "Toggle Components section" [ref=e214] [cursor=pointer]:
+                  - generic [ref=e215]: Components
+                  - img [ref=e216]
+              - listitem [ref=e218]:
+                - button "Toggle Interfaces section" [ref=e219] [cursor=pointer]:
+                  - generic [ref=e220]: Interfaces
+                  - img [ref=e221]
+              - listitem [ref=e223]:
+                - button "Toggle Traits section" [ref=e224] [cursor=pointer]:
+                  - generic [ref=e225]: Traits
+                  - img [ref=e226]
+        - generic [ref=e229]:
+          - generic [ref=e232]:
+            - button "On this page" [ref=e233] [cursor=pointer]:
+              - img [ref=e234]
+              - generic [ref=e235]: On this page
+            - list [ref=e237]:
+              - listitem [ref=e238]:
+                - img [ref=e239]
+                - link "Opening KiCad" [ref=e241] [cursor=pointer]:
+                  - /url: "#opening-kicad"
+              - listitem [ref=e242]:
+                - link "KiCad plugin" [ref=e243] [cursor=pointer]:
+                  - /url: "#kicad-plugin"
+              - listitem [ref=e244]:
+                - link "Start with existing packages" [ref=e245] [cursor=pointer]:
+                  - /url: "#start-with-existing-packages"
+              - listitem [ref=e246]:
+                - link "Layout the rest of your design" [ref=e247] [cursor=pointer]:
+                  - /url: "#layout-the-rest-of-your-design"
+              - listitem [ref=e248]:
+                - link "Auto-layout 🚀" [ref=e249] [cursor=pointer]:
+                  - /url: "#auto-layout-"
+          - generic [ref=e250]:
+            - banner [ref=e251]:
+              - generic [ref=e252]:
+                - generic [ref=e253]: Essentials
+                - heading "6. Layout" [level=1] [ref=e255]
+            - generic [ref=e256]:
+              - generic [ref=e257]:
+                - code [ref=e258]: ato
+                - text: code defines the function of the circuit via the connections between elements. Unlike a software compiler, these components all need to end up placed somewhere and copper traces need routing between the elements for the circuit to function.
+              - generic [ref=e259]: This process is typically called “layout.”
+              - generic [ref=e260]:
+                - text: atopile uses
+                - link "KiCad" [ref=e261] [cursor=pointer]:
+                  - /url: https://kicad.org
+                - text: ", the premier open source electronics design package for layout."
+              - heading "Navigate to header Opening KiCad" [level=2] [ref=e262]:
+                - link "Navigate to header" [ref=e263] [cursor=pointer]:
+                  - /url: "#opening-kicad"
+                  - img [ref=e265]
+                - generic [ref=e267] [cursor=pointer]: Opening KiCad
+              - generic [ref=e268]:
+                - text: When you run
+                - code [ref=e269]: ato build
+                - text: ","
+                - code [ref=e270]: ato
+                - text: generates a KiCad project file for you. If you’re only building a single build-target,
+                - code [ref=e271]: ato
+                - text: will open the KiCAD file for you.
+              - heading "Navigate to header KiCad plugin" [level=2] [ref=e272]:
+                - link "Navigate to header" [ref=e273] [cursor=pointer]:
+                  - /url: "#kicad-plugin"
+                  - img [ref=e275]
+                - generic [ref=e277] [cursor=pointer]: KiCad plugin
+              - generic [ref=e278]:
+                - text: The
+                - code [ref=e279]: ato
+                - text: compiler automatically installs a KiCad plugin to help you with layout. This saves a lot of time.
+              - generic [ref=e280]:
+                - text: The plugin installs automatically when you run the
+                - code [ref=e281]: ato
+                - text: command-line tool, but in case something went wrong, you can re-trigger the installation by running
+                - code [ref=e282]: ato configure
+                - text: .
+              - heading "Navigate to header Start with existing packages" [level=2] [ref=e283]:
+                - link "Navigate to header" [ref=e284] [cursor=pointer]:
+                  - /url: "#start-with-existing-packages"
+                  - img [ref=e286]
+                - generic [ref=e288] [cursor=pointer]: Start with existing packages
+              - generic [ref=e289]:
+                - text: If you import the
+                - code [ref=e290]: rp2040
+                - text: module installed in the
+                - link "previous section" [ref=e291] [cursor=pointer]:
+                  - /url: ./4-packages
+                - text: ", you can reuse its layout."
+              - generic [ref=e292]:
+                - generic [ref=e293]:
+                  - generic [ref=e294]:
+                    - button "Copy the contents from the code block" [ref=e295] [cursor=pointer]:
+                      - img [ref=e296]
+                    - generic [ref=e299]: Copy
+                  - generic [ref=e300]:
+                    - button "Ask AI" [ref=e301] [cursor=pointer]:
+                      - img [ref=e302]
+                    - generic [ref=e305]: Ask AI
+                - code [ref=e309]:
+                  - generic [ref=e310]: from "rp2040/RP2040Kit.ato" import RP2040Kit
+                  - generic [ref=e311]: "module App:"
+                  - generic [ref=e312]: uc = new RP2040Kit
+                  - generic [ref=e313]: "# Note: I've emptied this module out for brevity."
+                  - generic [ref=e314]: "# You can decide whether you want to keep the demo voltage divider or not."
+              - generic [ref=e315]: "To reuse a layout from a package:"
+              - list [ref=e316]:
+                - listitem [ref=e317]:
+                  - text: run an
+                  - code [ref=e318]: ato build
+                  - text: ", to make sure the layout syncs with the code"
+                - listitem [ref=e319]: hit the “Sync Group” button in the KiCad plugin
+                - listitem [ref=e320]: select the group you want to sync, and hit the “Pull” (Down arrow) button to pull the layout from the module’s KiCad layout file
+              - generic [ref=e322]:
+                - img "Note" [ref=e324]
+                - generic [ref=e326]:
+                  - generic [ref=e327]:
+                    - text: The
+                    - code [ref=e328]: ato
+                    - text: compiler will map layouts with a
+                    - strong [ref=e329]: class or super-class
+                    - text: that
+                    - strong [ref=e330]: has a build
+                    - text: .
+                  - generic [ref=e331]:
+                    - text: The
+                    - code [ref=e332]: RP2040Kit
+                    - text: in the example is the class, and the
+                    - code [ref=e333]: ato.yaml
+                    - text: config file in the
+                    - code [ref=e334]: rp2040
+                    - text: package means that there’s a layout associated with it.
+                  - generic [ref=e335]:
+                    - text: If you want to create a reusable layout for a class of your own, the easiest way is to add a new build config with
+                    - code [ref=e336]: ato create build
+                    - text: ", and then point the newly created"
+                    - link "entry" [ref=e337] [cursor=pointer]:
+                      - /url: ../reference/config.md#builds.entry
+                    - text: at the module you’ve made.
+              - generic [ref=e338]:
+                - img "Tip" [ref=e340]
+                - generic [ref=e343]:
+                  - text: If the plugin is not available in KiCad, try running
+                  - code [ref=e344]: ato configure
+                  - text: to set it up
+              - heading "Navigate to header Layout the rest of your design" [level=2] [ref=e345]:
+                - link "Navigate to header" [ref=e346] [cursor=pointer]:
+                  - /url: "#layout-the-rest-of-your-design"
+                  - img [ref=e348]
+                - generic [ref=e350] [cursor=pointer]: Layout the rest of your design
+              - generic [ref=e351]: Use KiCad to place-and-route the rest of your design, just like if you got it from the schematic editor.
+              - generic [ref=e352]: If you can’t find the quality of KiCad docs you need to get started, drop a comment or upvote on this GitHub Issue !882
+              - heading "Navigate to header Auto-layout 🚀" [level=2] [ref=e353]:
+                - link "Navigate to header" [ref=e354] [cursor=pointer]:
+                  - /url: "#auto-layout-"
+                  - img [ref=e356]
+                - generic [ref=e358] [cursor=pointer]: Auto-layout 🚀
+              - generic [ref=e359]:
+                - text: atopile can do small bits of auto-layout for you, but it’s not fully exposed to
+                - code [ref=e360]: ato
+                - text: yet.
+              - generic [ref=e361]:
+                - text: If this is a feature that’d super-charge your workflow, please come vote and discuss it in the
+                - link "GitHub Discussion" [ref=e362] [cursor=pointer]:
+                  - /url: https://github.com/atopile/atopile/discussions/881
+                - text: .
+            - generic [ref=e363]:
+              - link "5. Project Structure" [ref=e364] [cursor=pointer]:
+                - /url: /atopile-0.14.x/essentials/5-project-structure
+                - generic [ref=e365]:
+                  - generic [ref=e366]: 5. Project Structure
+                  - img [ref=e367]
+              - link "7. Saving Your Work" [ref=e369] [cursor=pointer]:
+                - /url: /atopile-0.14.x/essentials/7-saving-your-work
+                - generic [ref=e370]:
+                  - generic [ref=e371]: 7. Saving Your Work
+                  - img [ref=e372]
+            - generic [ref=e375]:
+              - textbox "Ask a question..." [ref=e376]
+              - generic: ⌘I
+              - button "Send message" [disabled] [ref=e377]:
+                - img [ref=e378]
+            - contentinfo [ref=e380]:
+              - generic [ref=e381]:
+                - link "youtube" [ref=e382] [cursor=pointer]:
+                  - /url: https://www.youtube.com/@atopile_io
+                  - generic [ref=e383]: youtube
+                  - img [ref=e384]
+                - link "x" [ref=e385] [cursor=pointer]:
+                  - /url: https://x.com/atopile_io
+                  - generic [ref=e386]: x
+                  - img [ref=e387]
+                - link "github" [ref=e388] [cursor=pointer]:
+                  - /url: https://github.com/atopile
+                  - generic [ref=e389]: github
+                  - img [ref=e390]
+                - link "linkedin" [ref=e391] [cursor=pointer]:
+                  - /url: https://linkedin.com/company/atopile
+                  - generic [ref=e392]: linkedin
+                  - img [ref=e393]
+              - link "Powered by This documentation is built and hosted on Mintlify, a developer documentation platform" [ref=e396] [cursor=pointer]:
+                - /url: https://www.mintlify.com?utm_campaign=poweredBy&utm_medium=referral&utm_source=atopile
+                - generic [ref=e397]: Powered by
+                - img [ref=e398]
+                - generic [ref=e407]: This documentation is built and hosted on Mintlify, a developer documentation platform
+  - alert [ref=e408]

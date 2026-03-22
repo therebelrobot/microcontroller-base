@@ -1,0 +1,1439 @@
+- generic [ref=e2]:
+  - region "Skip to main content":
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#__docusaurus_skipToContent_fallback"
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - text: Collaborate with Seeed -
+      - link "Creator" [ref=e7] [cursor=pointer]:
+        - /url: https://www.seeedstudio.com/blog/affiliate-program/
+      - text: ","
+      - link "Ranger" [ref=e8] [cursor=pointer]:
+        - /url: https://www.seeedstudio.com/ranger-program/
+      - text: ", or"
+      - link "Contributor" [ref=e9] [cursor=pointer]:
+        - /url: https://wiki.seeedstudio.com/contributors/
+      - text: ", there is always a role ideal for you!"
+  - navigation "Main" [ref=e10]:
+    - generic [ref=e11]:
+      - generic [ref=e12]:
+        - link "Seeed Studio" [ref=e13] [cursor=pointer]:
+          - /url: /
+          - img "Seeed Studio" [ref=e15]
+        - button "Quick Links" [ref=e17] [cursor=pointer]
+        - button "Explore with Topics" [ref=e19] [cursor=pointer]
+        - button "FAQs" [ref=e21] [cursor=pointer]
+        - button "Get Involved" [ref=e23] [cursor=pointer]
+      - generic [ref=e24]:
+        - button "🇺🇸 English" [ref=e1247] [cursor=pointer]:
+          - generic [ref=e1248]: 🇺🇸
+          - generic [ref=e1249]: English
+        - link "Bazaar 🛍️" [ref=e25] [cursor=pointer]:
+          - /url: https://www.seeedstudio.com/
+        - link "SenseCraft AI" [ref=e26] [cursor=pointer]:
+          - /url: https://sensecraft.seeed.cc/ai/#/home
+        - link [ref=e27] [cursor=pointer]:
+          - /url: https://sensecraft.seeed.cc/ai/#/home
+        - link "GitHub repository" [ref=e28] [cursor=pointer]:
+          - /url: https://github.com/Seeed-Studio/wiki-documents
+        - button "Switch between dark and light mode (currently dark mode)" [ref=e30] [cursor=pointer]:
+          - img [ref=e31]
+        - button "Search" [ref=e34] [cursor=pointer]:
+          - generic [ref=e35]:
+            - img [ref=e36]
+            - generic [ref=e38]: Search
+          - generic [ref=e39]:
+            - generic [ref=e40]: ⌘
+            - generic [ref=e41]: K
+  - generic [ref=e44]:
+    - complementary [ref=e45]:
+      - generic [ref=e47]:
+        - navigation "Docs sidebar" [ref=e48]:
+          - list [ref=e49]:
+            - listitem [ref=e50]:
+              - link "Getting Started" [ref=e51] [cursor=pointer]:
+                - /url: /Getting_Started/
+            - listitem [ref=e52]:
+              - link "Weekly Wiki" [ref=e53] [cursor=pointer]:
+                - /url: /weekly_wiki/
+            - listitem [ref=e54]:
+              - link "Sensing" [ref=e55] [cursor=pointer]:
+                - /url: /Sensor_Network/
+            - listitem [ref=e56]:
+              - generic [ref=e57]:
+                - link "Grove" [ref=e58] [cursor=pointer]:
+                  - /url: /Grove_System/
+                - button "Expand sidebar category 'Grove'" [ref=e59] [cursor=pointer]
+            - listitem [ref=e60]:
+              - generic [ref=e61]:
+                - link "SenseCAP" [ref=e62] [cursor=pointer]:
+                  - /url: /SenseCAP_introduction/
+                - button "Expand sidebar category 'SenseCAP'" [ref=e63] [cursor=pointer]
+            - listitem [ref=e64]:
+              - generic [ref=e65]:
+                - link "SenseCAP Indicator" [ref=e66] [cursor=pointer]:
+                  - /url: /Sensor/SenseCAP/SenseCAP_Indicator/Get_started_with_SenseCAP_Indicator/
+                - button "Expand sidebar category 'SenseCAP Indicator'" [ref=e67] [cursor=pointer]
+            - listitem [ref=e68]:
+              - generic [ref=e69]:
+                - link "SenseCAP Watcher" [ref=e70] [cursor=pointer]:
+                  - /url: /watcher/
+                - button "Expand sidebar category 'SenseCAP Watcher'" [ref=e71] [cursor=pointer]
+            - listitem [ref=e72]:
+              - generic [ref=e73]:
+                - link "mmWave Radar Sensor" [ref=e74] [cursor=pointer]:
+                  - /url: /mmwave_radar_Intro/
+                - button "Expand sidebar category 'mmWave Radar Sensor'" [ref=e75] [cursor=pointer]
+            - listitem [ref=e76]:
+              - generic [ref=e77]:
+                - link "XIAO" [ref=e78] [cursor=pointer]:
+                  - /url: /SeeedStudio_XIAO_Series_Introduction/
+                - button "Collapse sidebar category 'XIAO'" [expanded] [ref=e79] [cursor=pointer]
+              - list [ref=e80]:
+                - listitem [ref=e81]:
+                  - link "Exhibition for XIAO Series" [ref=e82] [cursor=pointer]:
+                    - /url: /xiao_topic_page/
+                - listitem [ref=e83]:
+                  - button "XIAO SAMD21" [ref=e85] [cursor=pointer]
+                - listitem [ref=e86]:
+                  - button "XIAO RA4M1" [ref=e88] [cursor=pointer]
+                - listitem [ref=e89]:
+                  - button "XIAO MG24" [ref=e91] [cursor=pointer]
+                - listitem [ref=e92]:
+                  - button "XIAO RP2040" [ref=e94] [cursor=pointer]
+                - listitem [ref=e95]:
+                  - button "XIAO RP2350" [ref=e97] [cursor=pointer]
+                - listitem [ref=e98]:
+                  - button "XIAO nRF52840 Series" [ref=e100] [cursor=pointer]
+                - listitem [ref=e101]:
+                  - button "XIAO nRF54L15 Series" [expanded] [active] [ref=e103] [cursor=pointer]
+                  - list [ref=e1250]:
+                    - listitem [ref=e1251]:
+                      - link "Seeed Studio XIAO nRF54L15(Sense)" [ref=e1252] [cursor=pointer]:
+                        - /url: /xiao_nrf54l15_sense_getting_started/
+                    - listitem [ref=e1253]:
+                      - link "Pin Multiplexing with Seeed Studio XIAO nRF54L15 Sense" [ref=e1254] [cursor=pointer]:
+                        - /url: /xiao_nrf54l15_sense_pin_multiplexing/
+                    - listitem [ref=e1255]:
+                      - link "Seeed Studio XIAO nRF54L15 Sense built-in Sensor" [ref=e1256] [cursor=pointer]:
+                        - /url: /xiao_nrf54l15_sense_built_in_sensor/
+                    - listitem [ref=e1257]:
+                      - link "Power Consumptions Example for XIAO nRF54L15 (PlatformIO)" [ref=e1258] [cursor=pointer]:
+                        - /url: /xiao_nrf54l15_sense_power_consumptions/
+                    - listitem [ref=e1259]:
+                      - link "MicroPython for Seeed Studio XIAO nRF54L15" [ref=e1260] [cursor=pointer]:
+                        - /url: /xiao_nrf54l15_sense_micropython/
+                    - listitem [ref=e1261]:
+                      - button "Wireless Connection" [ref=e1263] [cursor=pointer]
+                    - listitem [ref=e1264]:
+                      - button "Platform" [ref=e1266] [cursor=pointer]
+                - listitem [ref=e104]:
+                  - button "XIAO ESP32C3" [ref=e106] [cursor=pointer]
+                - listitem [ref=e107]:
+                  - button "XIAO ESP32C5" [ref=e109] [cursor=pointer]
+                - listitem [ref=e110]:
+                  - button "XIAO ESP32C6" [ref=e112] [cursor=pointer]
+                - listitem [ref=e136]:
+                  - button "XIAO ESP32S3 Series" [ref=e138] [cursor=pointer]
+                - listitem [ref=e139]:
+                  - generic [ref=e140]:
+                    - link "XIAO Debug Mate" [ref=e141] [cursor=pointer]:
+                      - /url: /getting_started_with_xiao_debug_mate/
+                    - button "Expand sidebar category 'XIAO Debug Mate'" [ref=e142] [cursor=pointer]
+                - listitem [ref=e143]:
+                  - button "Expansion Boards for XIAO" [ref=e145] [cursor=pointer]
+                - listitem [ref=e146]:
+                  - button "XIAO + ESP-IDF + ESP-Matter" [ref=e148] [cursor=pointer]
+                - listitem [ref=e149]:
+                  - link "ESP-NOW on XIAO ESP32 Series" [ref=e150] [cursor=pointer]:
+                    - /url: /xiao_espnow/
+                - listitem [ref=e151]:
+                  - link "PCB Design for XIAO" [ref=e152] [cursor=pointer]:
+                    - /url: /PCB_Design_XIAO/
+                - listitem [ref=e153]:
+                  - button "Kit with Courses" [ref=e155] [cursor=pointer]
+                - listitem [ref=e156]:
+                  - link "FAQs for XIAO Series" [ref=e157] [cursor=pointer]:
+                    - /url: /XIAO_FAQ/
+            - listitem [ref=e158]:
+              - button "ePaper" [ref=e160] [cursor=pointer]
+            - listitem [ref=e161]:
+              - button "XIAO Gadgets" [ref=e163] [cursor=pointer]
+            - listitem [ref=e164]:
+              - generic [ref=e165]:
+                - link "Wio Terminal" [ref=e166] [cursor=pointer]:
+                  - /url: /Wio_Terminal_Intro/
+                - button "Expand sidebar category 'Wio Terminal'" [ref=e167] [cursor=pointer]
+            - listitem [ref=e168]:
+              - generic [ref=e169]:
+                - link "reSpeaker" [ref=e170] [cursor=pointer]:
+                  - /url: /respeaker/
+                - button "Expand sidebar category 'reSpeaker'" [ref=e171] [cursor=pointer]
+            - listitem [ref=e172]:
+              - button "Other Sensing Modules" [ref=e174] [cursor=pointer]
+            - listitem [ref=e175]:
+              - button "Other Microcontrollers" [ref=e177] [cursor=pointer]
+            - listitem [ref=e178]:
+              - link "Network" [ref=e179] [cursor=pointer]:
+                - /url: /Network/
+            - listitem [ref=e180]:
+              - generic [ref=e181]:
+                - link "Meshtastic Network" [ref=e182] [cursor=pointer]:
+                  - /url: /meshtastic_introduction/
+                - button "Expand sidebar category 'Meshtastic Network'" [ref=e183] [cursor=pointer]
+            - listitem [ref=e184]:
+              - button "LoRa Wio Series" [ref=e186] [cursor=pointer]
+            - listitem [ref=e187]:
+              - generic [ref=e188]:
+                - link "SenseCAP Gateway" [ref=e189] [cursor=pointer]:
+                  - /url: /Network/SenseCAP_Network/SenseCAP_Gateway_Intro/
+                - button "Expand sidebar category 'SenseCAP Gateway'" [ref=e190] [cursor=pointer]
+            - listitem [ref=e191]:
+              - generic [ref=e192]:
+                - link "SenseCAP K1100" [ref=e193] [cursor=pointer]:
+                  - /url: /SenseCAP_K1100_Intro/
+                - button "Expand sidebar category 'SenseCAP K1100'" [ref=e194] [cursor=pointer]
+            - listitem [ref=e195]:
+              - button "SenseCAP LoRaWAN Starter Kit" [ref=e197] [cursor=pointer]
+            - listitem [ref=e198]:
+              - button "Raspberry Pi Solutions" [ref=e200] [cursor=pointer]
+            - listitem [ref=e201]:
+              - generic [ref=e202]:
+                - link "Rockchip Solutions" [ref=e203] [cursor=pointer]:
+                  - /url: /Rockchip_network_solutions/
+                - button "Expand sidebar category 'Rockchip Solutions'" [ref=e204] [cursor=pointer]
+            - listitem [ref=e205]:
+              - button "Other Network Devices" [ref=e207] [cursor=pointer]
+            - listitem [ref=e208]:
+              - link "Edge Computing" [ref=e209] [cursor=pointer]:
+                - /url: /Edge_Computing/
+            - listitem [ref=e210]:
+              - button "RK Devices" [ref=e212] [cursor=pointer]
+            - listitem [ref=e213]:
+              - generic [ref=e214]:
+                - link "Raspberry Pi Devices" [ref=e215] [cursor=pointer]:
+                  - /url: /raspberry-pi-devices/
+                - button "Expand sidebar category 'Raspberry Pi Devices'" [ref=e216] [cursor=pointer]
+            - listitem [ref=e217]:
+              - generic [ref=e218]:
+                - link "NVIDIA® Jetson™" [ref=e219] [cursor=pointer]:
+                  - /url: /NVIDIA_Jetson/
+                - button "Expand sidebar category 'NVIDIA® Jetson™'" [ref=e220] [cursor=pointer]
+            - listitem [ref=e221]:
+              - button "ESP Devices" [ref=e223] [cursor=pointer]
+            - listitem [ref=e224]:
+              - generic [ref=e225]:
+                - link "BeagleBone®" [ref=e226] [cursor=pointer]:
+                  - /url: /BeagleBone/
+                - button "Expand sidebar category 'BeagleBone®'" [ref=e227] [cursor=pointer]
+            - listitem [ref=e228]:
+              - generic [ref=e229]:
+                - link "ODYSSEY" [ref=e230] [cursor=pointer]:
+                  - /url: /ODYSSEY_Intro/
+                - button "Expand sidebar category 'ODYSSEY'" [ref=e231] [cursor=pointer]
+            - listitem [ref=e232]:
+              - button "reCamera" [ref=e234] [cursor=pointer]
+            - listitem [ref=e235]:
+              - generic [ref=e236]:
+                - link "reTerminal E Series" [ref=e237] [cursor=pointer]:
+                  - /url: /reterminal_e10xx_main_page/
+                - button "Expand sidebar category 'reTerminal E Series'" [ref=e238] [cursor=pointer]
+            - listitem [ref=e239]:
+              - generic [ref=e240]:
+                - link "reTerminal D Series" [ref=e241] [cursor=pointer]:
+                  - /url: /reterminal_d10xx_main_page/
+                - button "Expand sidebar category 'reTerminal D Series'" [ref=e242] [cursor=pointer]
+            - listitem [ref=e243]:
+              - button "Other Edge Devices" [ref=e245] [cursor=pointer]
+            - listitem [ref=e246]:
+              - link "Robotics Page" [ref=e247] [cursor=pointer]:
+                - /url: /robotics_page/
+            - listitem [ref=e248]:
+              - button "Robot Kits" [ref=e250] [cursor=pointer]
+            - listitem [ref=e251]:
+              - button "Actuator" [ref=e253] [cursor=pointer]
+            - listitem [ref=e254]:
+              - button "Sensor" [ref=e256] [cursor=pointer]
+            - listitem [ref=e257]:
+              - button "Software" [ref=e259] [cursor=pointer]
+            - listitem [ref=e260]:
+              - link "SenseCraft & Cloud" [ref=e261] [cursor=pointer]:
+                - /url: /Cloud/
+            - listitem [ref=e262]:
+              - button "SenseCraft AI" [ref=e264] [cursor=pointer]
+            - listitem [ref=e265]:
+              - button "SenseCraft APP" [ref=e267] [cursor=pointer]
+            - listitem [ref=e268]:
+              - button "SenseCraft Data Platform" [ref=e270] [cursor=pointer]
+            - listitem [ref=e271]:
+              - generic [ref=e272]:
+                - link "SenseCraft HMI" [ref=e273] [cursor=pointer]:
+                  - /url: /sensecraft_hmi_overview/
+                - button "Expand sidebar category 'SenseCraft HMI'" [ref=e274] [cursor=pointer]
+            - listitem [ref=e275]:
+              - button "SenseCraft Blockchain" [ref=e277] [cursor=pointer]
+            - listitem [ref=e278]:
+              - link "Solutions" [ref=e279] [cursor=pointer]:
+                - /url: https://www.seeed.cc/category/solutions
+                - text: Solutions
+                - img [ref=e280]
+            - listitem [ref=e282]:
+              - generic [ref=e283]:
+                - link "AI Vision" [ref=e284] [cursor=pointer]:
+                  - /url: /ai-vision/
+                - button "Expand sidebar category 'AI Vision'" [ref=e285] [cursor=pointer]
+            - listitem [ref=e286]:
+              - generic [ref=e287]:
+                - link "AI Sound" [ref=e288] [cursor=pointer]:
+                  - /url: /ai-sound/
+                - button "Expand sidebar category 'AI Sound'" [ref=e289] [cursor=pointer]
+            - listitem [ref=e290]:
+              - button "AI Intelligent" [ref=e292] [cursor=pointer]
+            - listitem [ref=e293]:
+              - button "Device Integration & Control" [ref=e295] [cursor=pointer]
+            - listitem [ref=e296]:
+              - button "Environmental Monitoring" [ref=e298] [cursor=pointer]
+            - listitem [ref=e299]:
+              - generic [ref=e300]:
+                - link "Hazard Response" [ref=e301] [cursor=pointer]:
+                  - /url: /hazard-response/
+                - button "Expand sidebar category 'Hazard Response'" [ref=e302] [cursor=pointer]
+            - listitem [ref=e303]:
+              - button "Indoor-Outdoor Positioning" [ref=e305] [cursor=pointer]
+            - listitem [ref=e306]:
+              - link "Technology Topics" [ref=e307] [cursor=pointer]:
+                - /url: /topicintroduction/
+            - listitem [ref=e308]:
+              - generic [ref=e309]:
+                - link "Home Assistant" [ref=e310] [cursor=pointer]:
+                  - /url: /home_assistant_topic/
+                - button "Expand sidebar category 'Home Assistant'" [ref=e311] [cursor=pointer]
+            - listitem [ref=e312]:
+              - generic [ref=e313]:
+                - link "TinyML" [ref=e314] [cursor=pointer]:
+                  - /url: /tinyml_topic/
+                - button "Expand sidebar category 'TinyML'" [ref=e315] [cursor=pointer]
+            - listitem [ref=e316]:
+              - link "Open Source" [ref=e317] [cursor=pointer]:
+                - /url: /open_source_topic/
+            - listitem [ref=e318]:
+              - link "Edge AI" [ref=e319] [cursor=pointer]:
+                - /url: /edge_ai_topic/
+            - listitem [ref=e320]:
+              - link "Contributions" [ref=e321] [cursor=pointer]:
+                - /url: /Contributor/
+            - listitem [ref=e322]:
+              - generic [ref=e323]:
+                - link "Github Contributions Guide" [ref=e324] [cursor=pointer]:
+                  - /url: /Contribution-Guide/
+                - button "Expand sidebar category 'Github Contributions Guide'" [ref=e325] [cursor=pointer]
+            - listitem [ref=e326]:
+              - link "Scale up Your Creation with Seeed Studio Fusion" [ref=e327] [cursor=pointer]:
+                - /url: /Scale-up-Your-Creation-with-Fusion/
+            - listitem [ref=e328]:
+              - link "Popular Platforms" [ref=e329] [cursor=pointer]:
+                - /url: /popularplatforms/
+            - listitem [ref=e330]:
+              - generic [ref=e331]:
+                - link "Arduino" [ref=e332] [cursor=pointer]:
+                  - /url: /Arduino/
+                - button "Expand sidebar category 'Arduino'" [ref=e333] [cursor=pointer]
+            - listitem [ref=e334]:
+              - generic [ref=e335]:
+                - link "Raspberry Pi" [ref=e336] [cursor=pointer]:
+                  - /url: /Raspberry_Pi/
+                - button "Expand sidebar category 'Raspberry Pi'" [ref=e337] [cursor=pointer]
+            - listitem [ref=e338]:
+              - generic [ref=e339]:
+                - link "Micro:bit" [ref=e340] [cursor=pointer]:
+                  - /url: /microbit_wiki_page/
+                - button "Expand sidebar category 'Micro:bit'" [ref=e341] [cursor=pointer]
+            - listitem [ref=e342]:
+              - link "Discontinued Products" [ref=e343] [cursor=pointer]:
+                - /url: /discontinuedproducts/
+            - listitem [ref=e344]:
+              - button "Product List" [ref=e346] [cursor=pointer]
+            - listitem [ref=e347]:
+              - link "About Seeed" [ref=e348] [cursor=pointer]:
+                - /url: /About/
+            - listitem [ref=e349]:
+              - link "License" [ref=e350] [cursor=pointer]:
+                - /url: /License/
+        - button "Collapse sidebar" [ref=e351] [cursor=pointer]:
+          - img [ref=e352]
+    - main [ref=e356]:
+      - generic [ref=e358]:
+        - generic [ref=e359]:
+          - generic [ref=e360]:
+            - article [ref=e361]:
+              - navigation "Breadcrumbs" [ref=e362]:
+                - list [ref=e363]:
+                  - listitem [ref=e364]:
+                    - link "Home page" [ref=e365] [cursor=pointer]:
+                      - /url: /
+                      - img [ref=e366]
+                  - listitem [ref=e368]:
+                    - link "XIAO" [ref=e369] [cursor=pointer]:
+                      - /url: /SeeedStudio_XIAO_Series_Introduction/
+                  - listitem [ref=e370]:
+                    - generic [ref=e371]: XIAO ESP32C6
+                  - listitem [ref=e372]:
+                    - generic [ref=e373]: Getting Started with Seeed Studio XIAO ESP32C6
+              - generic [ref=e374]:
+                - heading "Getting Started with Seeed Studio XIAO ESP32C6" [level=1] [ref=e376]
+                - table [ref=e378]:
+                  - row "Seeed Studio XIAO ESP32C6" [ref=e379]:
+                    - columnheader "Seeed Studio XIAO ESP32C6" [ref=e380]
+                  - row [ref=e381]:
+                    - cell [ref=e382]:
+                      - img [ref=e384]
+                  - row "Get One Now 🖱️" [ref=e385]:
+                    - cell "Get One Now 🖱️" [ref=e386]:
+                      - link "Get One Now 🖱️" [ref=e388] [cursor=pointer]:
+                        - /url: "https://www.seeedstudio.com/Seeed-Studio-XIAO-ESP32C6-p-5884.html\n"
+                        - strong [ref=e389]:
+                          - generic [ref=e390]: Get One Now 🖱️
+                - heading "IntroductionDirect link to Introduction" [level=2] [ref=e391]:
+                  - text: Introduction
+                  - link "Direct link to Introduction" [ref=e392] [cursor=pointer]:
+                    - /url: "#introduction"
+                    - text: "#"
+                - paragraph [ref=e393]:
+                  - text: Seeed Studio XIAO ESP32C6 is powered by the highly-integrated
+                  - link "ESP32-C6 SoC" [ref=e394] [cursor=pointer]:
+                    - /url: https://www.espressif.com/en/products/socs/esp32-c6
+                  - text: ", built on"
+                  - strong [ref=e395]: two 32-bit RISC-V processors
+                  - text: ", with a high-performance (HP) processor with"
+                  - strong [ref=e396]: running up to 160 MHz
+                  - text: ", and a low-power (LP) 32-bit RISC-V processor, which can be clocked up to 20 MHz. There are"
+                  - strong [ref=e397]: 512KB SRAM and 4 MB Flash on the chip
+                  - text: ", allowing for more programming space, and binging more possibilities to the IoT control scenarios."
+                - paragraph [ref=e398]:
+                  - text: XIAO ESP32C6 is
+                  - strong [ref=e399]: Matter native thanks to its enhanced wireless connectivity
+                  - text: . The wireless stack supports
+                  - strong [ref=e400]: 2.4 GHz WiFi 6, Bluetooth® 5.3, Zigbee, and Thread (802.15.4)
+                  - text: . As the first XIAO member compatible with Thread, it's a perfect fit for building Matter-compliant projects, thus achieving interoperability in smart-home.
+                - heading "SpecificationsDirect link to Specifications" [level=3] [ref=e401]:
+                  - text: Specifications
+                  - link "Direct link to Specifications" [ref=e402] [cursor=pointer]:
+                    - /url: "#specifications"
+                    - text: "#"
+                - table [ref=e403]:
+                  - row "Product XIAO ESP32-C6 XIAO ESP32-C3 XIAO ESP32-S3" [ref=e404]:
+                    - rowheader "Product" [ref=e405]
+                    - cell "XIAO ESP32-C6" [ref=e406]
+                    - cell "XIAO ESP32-C3" [ref=e407]:
+                      - link "XIAO ESP32-C3" [ref=e408] [cursor=pointer]:
+                        - /url: "https://www.seeedstudio.com/Seeed-XIAO-ESP32C3-p-5431.html "
+                    - cell "XIAO ESP32-S3" [ref=e409]:
+                      - link "XIAO ESP32-S3" [ref=e410] [cursor=pointer]:
+                        - /url: "https://www.seeedstudio.com/XIAO-ESP32S3-p-5627.html "
+                  - row "Processor Espressif ESP32-C6 SoC two 32-bit RISC-V processors, with the high-performance one running up to 160 MHz, and the low-power one clocking up to 20 MHz Espressif ESP32-C3 SoC RISC-V single-core 32-bit chip processor with a four-stage pipeline that operates at up to 160 MHz Espressif ESP32-S3R8 SoC Xtensa LX7 dual-core, 32-bit processor running up to 240 MHz" [ref=e411]:
+                    - rowheader "Processor" [ref=e412]
+                    - cell "Espressif ESP32-C6 SoC two 32-bit RISC-V processors, with the high-performance one running up to 160 MHz, and the low-power one clocking up to 20 MHz" [ref=e413]:
+                      - text: Espressif ESP32-C6 SoC
+                      - text: two 32-bit RISC-V processors, with the high-performance one running up to 160 MHz, and the low-power one clocking up to 20 MHz
+                    - cell "Espressif ESP32-C3 SoC RISC-V single-core 32-bit chip processor with a four-stage pipeline that operates at up to 160 MHz" [ref=e414]:
+                      - text: Espressif ESP32-C3 SoC
+                      - text: RISC-V single-core 32-bit chip processor with a four-stage pipeline that operates at up to 160 MHz
+                    - cell "Espressif ESP32-S3R8 SoC Xtensa LX7 dual-core, 32-bit processor running up to 240 MHz" [ref=e415]:
+                      - text: Espressif ESP32-S3R8 SoC
+                      - text: Xtensa LX7 dual-core, 32-bit processor running up to 240 MHz
+                  - row "Wireless Complete 2.4GHz Wi-Fi 6 subsystem Complete 2.4GHz Wi-Fi subsystem Complete 2.4GHz Wi-Fi subsystem" [ref=e416]:
+                    - rowheader "Wireless" [ref=e417]
+                    - cell "Complete 2.4GHz Wi-Fi 6 subsystem" [ref=e418]
+                    - cell "Complete 2.4GHz Wi-Fi subsystem" [ref=e419]
+                    - cell "Complete 2.4GHz Wi-Fi subsystem" [ref=e420]
+                  - row "Bluetooth Low Energy 5.0" [ref=e421]:
+                    - cell "Bluetooth Low Energy 5.0" [ref=e422]
+                  - row "Zigbee, Thread, IEEE 802.15.4 / /" [ref=e423]:
+                    - cell "Zigbee, Thread, IEEE 802.15.4" [ref=e424]
+                    - cell / [ref=e425]
+                    - cell / [ref=e426]
+                  - row "On-chip Memory 512KB SRAM & 4MB Flash 400KB SRAM & 4MB Flash 8MB PSRAM & 8MB Flash" [ref=e427]:
+                    - rowheader "On-chip Memory" [ref=e428]
+                    - cell "512KB SRAM & 4MB Flash" [ref=e429]
+                    - cell "400KB SRAM & 4MB Flash" [ref=e430]
+                    - cell "8MB PSRAM & 8MB Flash" [ref=e431]
+                  - row "Interface 1x UART 1x LP_UART 1x IIC 1x LP_IIC 1x SPI 11x GPIO(PWM) 7x ADC 1x SDIO 1x UART 1x IIC 1x SPI 11x GPIO(PWM) 4x ADC 1x UART 1x IIC 1x SPI 11x GPIO(PWM) 9x ADC 1x User LED 1x Charge LED" [ref=e432]:
+                    - rowheader "Interface" [ref=e433]
+                    - cell "1x UART 1x LP_UART 1x IIC 1x LP_IIC 1x SPI 11x GPIO(PWM) 7x ADC 1x SDIO" [ref=e434]:
+                      - text: 1x UART
+                      - text: 1x LP_UART
+                      - text: 1x IIC
+                      - text: 1x LP_IIC
+                      - text: 1x SPI
+                      - text: 11x GPIO(PWM)
+                      - text: 7x ADC
+                      - text: 1x SDIO
+                    - cell "1x UART 1x IIC 1x SPI 11x GPIO(PWM) 4x ADC" [ref=e435]:
+                      - text: 1x UART
+                      - text: 1x IIC
+                      - text: 1x SPI
+                      - text: 11x GPIO(PWM)
+                      - text: 4x ADC
+                    - cell "1x UART 1x IIC 1x SPI 11x GPIO(PWM) 9x ADC 1x User LED 1x Charge LED" [ref=e436]:
+                      - text: 1x UART
+                      - text: 1x IIC
+                      - text: 1x SPI
+                      - text: 11x GPIO(PWM)
+                      - text: 9x ADC
+                      - text: 1x User LED
+                      - text: 1x Charge LED
+                  - row "1x Reset button 1x Boot button" [ref=e437]:
+                    - cell "1x Reset button 1x Boot button" [ref=e438]:
+                      - text: 1x Reset button
+                      - text: 1x Boot button
+                  - row "Dimensions 21 x 17.8mm" [ref=e439]:
+                    - rowheader "Dimensions" [ref=e440]
+                    - cell "21 x 17.8mm" [ref=e441]
+                  - 'row "Power Input voltage (Type-C): 5V Input voltage (BAT): 3.7V" [ref=e442]':
+                    - rowheader "Power" [ref=e443]
+                    - 'cell "Input voltage (Type-C): 5V Input voltage (BAT): 3.7V" [ref=e444]':
+                      - text: "Input voltage (Type-C): 5V"
+                      - text: "Input voltage (BAT): 3.7V"
+                  - 'row "Power Consumption Model (Typ.) (Supply Power: 3.8V) Modem-sleep Model: 30 mA Light-sleep Model: 3.1 mA Deep Sleep Model: 15 μA Modem-sleep Model: 24 mA Light-sleep Model: 3 mA Deep Sleep Model: 44 μA Modem-sleep Model: 27 mA Light-sleep Model: 2 mA Deep Sleep Model: 14 μA" [ref=e445]':
+                    - 'rowheader "Power Consumption Model (Typ.) (Supply Power: 3.8V)" [ref=e446]':
+                      - text: Power Consumption Model (Typ.)
+                      - text: "(Supply Power: 3.8V)"
+                    - 'cell "Modem-sleep Model: 30 mA Light-sleep Model: 3.1 mA Deep Sleep Model: 15 μA" [ref=e447]':
+                      - text: "Modem-sleep Model: 30 mA"
+                      - text: "Light-sleep Model: 3.1 mA"
+                      - text: "Deep Sleep Model: 15 μA"
+                    - 'cell "Modem-sleep Model: 24 mA Light-sleep Model: 3 mA Deep Sleep Model: 44 μA" [ref=e448]':
+                      - text: "Modem-sleep Model: 24 mA"
+                      - text: "Light-sleep Model: 3 mA"
+                      - text: "Deep Sleep Model: 44 μA"
+                    - 'cell "Modem-sleep Model: 27 mA Light-sleep Model: 2 mA Deep Sleep Model: 14 μA" [ref=e449]':
+                      - text: "Modem-sleep Model: 27 mA"
+                      - text: "Light-sleep Model: 2 mA"
+                      - text: "Deep Sleep Model: 14 μA"
+                  - row "Working Temperature -40°C ~ 85°C -40°C ~ 85°C -40°C ~ 65°C" [ref=e450]:
+                    - rowheader "Working Temperature" [ref=e451]
+                    - cell "-40°C ~ 85°C" [ref=e452]
+                    - cell "-40°C ~ 85°C" [ref=e453]
+                    - cell "-40°C ~ 65°C" [ref=e454]
+                - blockquote [ref=e455]:
+                  - paragraph [ref=e456]:
+                    - 'link "XIAO ESP32-S3 vs ESP32-C3 vs ESP32-C6: Which One Is Best for Your Project?" [ref=e457] [cursor=pointer]':
+                      - /url: https://www.seeedstudio.com/blog/2026/01/14/xiao-esp32-s3-c3-c6-comparison/
+                - heading "FeaturesDirect link to Features" [level=3] [ref=e458]:
+                  - text: Features
+                  - link "Direct link to Features" [ref=e459] [cursor=pointer]:
+                    - /url: "#features"
+                    - text: "#"
+                - list [ref=e460]:
+                  - listitem [ref=e461]:
+                    - strong [ref=e462]: Enhanced Connectivity
+                    - text: ": Integrates"
+                    - emphasis [ref=e463]:
+                      - strong [ref=e464]: "2.4"
+                    - text: GHz Wi-Fi 6 (802.11ax), Bluetooth 5(LE), and IEEE 802.15.4 radio connectivity, allowing for the application of
+                    - strong [ref=e465]: Thread
+                    - text: and
+                    - strong [ref=e466]: Zigbee
+                    - text: protocols.
+                  - listitem [ref=e467]:
+                    - strong [ref=e468]: Matter Native
+                    - text: ": Supports the building of Matter-compliant smart home projects, ensuring interoperability among different smart devices."
+                  - listitem [ref=e469]:
+                    - strong [ref=e470]: Security Encrypted on Chip
+                    - text: ": Utilizes the ESP32-C6 to provide secure boot, encryption, and Trusted Execution Environment (TEE) features, enhancing the security of smart home projects."
+                  - listitem [ref=e471]:
+                    - strong [ref=e472]: Outstanding RF Performance
+                    - text: ": Features an on-board antenna with up to"
+                    - emphasis [ref=e473]: 80m
+                    - text: BLE/Wi-Fi range and offers an interface for connecting an external UFL antenna, ensuring reliable connectivity.
+                  - listitem [ref=e474]:
+                    - strong [ref=e475]: Leveraging Power Consumption
+                    - text: ": Offers four working modes, including a deep sleep mode with consumption as low as"
+                    - emphasis [ref=e476]: "15"
+                    - text: μA, along with support for lithium battery charge management.
+                  - listitem [ref=e477]:
+                    - strong [ref=e478]: Dual RISC-V Processors
+                    - text: ": Incorporates two 32-bit RISC-V processors, with the high-performance processor capable of running up to 160 MHz and the low-power processor up to"
+                    - emphasis [ref=e479]: 20 MHz
+                    - text: .
+                  - listitem [ref=e480]:
+                    - strong [ref=e481]: Classic XIAO Designs
+                    - text: ": Maintains the thumb-size form factor of 21 x 17.8mm and single-sided mount design, ideal for space-limited projects like wearable devices."
+                - heading "Hardware overviewDirect link to Hardware overview" [level=2] [ref=e482]:
+                  - text: Hardware overview
+                  - link "Direct link to Hardware overview" [ref=e483] [cursor=pointer]:
+                    - /url: "#hardware-overview"
+                    - text: "#"
+                - table [ref=e484]:
+                  - row "XIAO ESP32C6 indication diagram" [ref=e485]:
+                    - columnheader "XIAO ESP32C6 indication diagram" [ref=e486]
+                  - row [ref=e487]:
+                    - cell [ref=e488]:
+                      - img [ref=e490]
+                  - row "XIAO ESP32C6 Pin List" [ref=e491]:
+                    - columnheader "XIAO ESP32C6 Pin List" [ref=e492]
+                  - row [ref=e493]:
+                    - cell [ref=e494]:
+                      - img [ref=e496]
+                - generic [ref=e497]:
+                  - generic [ref=e498]:
+                    - img [ref=e500]
+                    - text: RF Switch
+                  - generic [ref=e502]:
+                    - paragraph [ref=e503]:
+                      - text: The
+                      - strong [ref=e504]: RF Switch
+                      - text: feature allows you to toggle between the built-in ceramic antenna and an external antenna by configuring
+                      - code [ref=e505]: GPIO14
+                      - text: . To enable this function,
+                      - emphasis [ref=e506]:
+                        - text: you must first set
+                        - code [ref=e507]: GPIO3
+                        - text: to a low level
+                      - text: ", as this activates the RF switch control."
+                    - list [ref=e508]:
+                      - listitem [ref=e509]:
+                        - strong [ref=e510]: GPIO14 Low Level (Default Setting)
+                        - text: ": The device uses the built-in ceramic antenna."
+                      - listitem [ref=e511]:
+                        - strong [ref=e512]: GPIO14 High Level
+                        - text: ": The device switches to the external antenna."
+                    - paragraph [ref=e513]:
+                      - text: By default,
+                      - code [ref=e514]: GPIO14
+                      - text: is set to a low level, enabling the built-in antenna. To use an external antenna, set
+                      - code [ref=e515]: GPIO14
+                      - text: to a high level. Refer to the example code below for guidance on configuring
+                      - code [ref=e516]: GPIO3
+                      - text: and
+                      - code [ref=e517]: GPIO14
+                      - text: "to activate the external antenna:"
+                    - generic [ref=e519]:
+                      - code [ref=e521]:
+                        - generic [ref=e522]: "void setup() {"
+                        - generic [ref=e523]: pinMode(WIFI_ENABLE, OUTPUT); // pinMode(3, OUTPUT);
+                        - generic [ref=e524]: digitalWrite(WIFI_ENABLE, LOW); // digitalWrite(3, LOW); // Activate RF switch control
+                        - generic [ref=e525]: delay(100);
+                        - generic [ref=e526]: pinMode(WIFI_ANT_CONFIG, OUTPUT); // pinMode(14, OUTPUT);
+                        - generic [ref=e527]: digitalWrite(WIFI_ANT_CONFIG, HIGH); // digitalWrite(14, HIGH); // Use external antenna
+                        - generic [ref=e528]: "}"
+                      - generic [ref=e529]:
+                        - button "Toggle word wrap" [ref=e530] [cursor=pointer]:
+                          - img [ref=e531]
+                        - button "Copy code to clipboard" [ref=e533] [cursor=pointer]:
+                          - generic [ref=e534]:
+                            - img [ref=e535]
+                            - img [ref=e537]
+                - heading "Pin MapDirect link to pin-map" [level=2] [ref=e539]:
+                  - strong [ref=e540]: Pin Map
+                  - link "Direct link to pin-map" [ref=e541] [cursor=pointer]:
+                    - /url: "#pin-map"
+                    - text: "#"
+                - table [ref=e542]:
+                  - rowgroup [ref=e543]:
+                    - row "XIAO Pin Function Chip Pin Alternate Functions Description" [ref=e544]:
+                      - columnheader "XIAO Pin" [ref=e545]
+                      - columnheader "Function" [ref=e546]
+                      - columnheader "Chip Pin" [ref=e547]
+                      - columnheader "Alternate Functions" [ref=e548]
+                      - columnheader "Description" [ref=e549]
+                  - rowgroup [ref=e550]:
+                    - row "5V VBUS Power Input/Output" [ref=e551]:
+                      - cell "5V" [ref=e552]
+                      - cell "VBUS" [ref=e553]
+                      - cell [ref=e554]
+                      - cell [ref=e555]
+                      - cell "Power Input/Output" [ref=e556]
+                    - row "GND" [ref=e557]:
+                      - cell "GND" [ref=e558]
+                      - cell [ref=e559]
+                      - cell [ref=e560]
+                      - cell [ref=e561]
+                      - cell [ref=e562]
+                    - row "3V3 3V3_OUT Power Output" [ref=e563]:
+                      - cell "3V3" [ref=e564]
+                      - cell "3V3_OUT" [ref=e565]
+                      - cell [ref=e566]
+                      - cell [ref=e567]
+                      - cell "Power Output" [ref=e568]
+                    - row "D0 Analog GPIO0 LP_GPIO0 GPIO, ADC" [ref=e569]:
+                      - cell "D0" [ref=e570]
+                      - cell "Analog" [ref=e571]
+                      - cell "GPIO0" [ref=e572]
+                      - cell "LP_GPIO0" [ref=e573]
+                      - cell "GPIO, ADC" [ref=e574]
+                    - row "D1 Analog GPIO1 LP_GPIO1 GPIO, ADC" [ref=e575]:
+                      - cell "D1" [ref=e576]
+                      - cell "Analog" [ref=e577]
+                      - cell "GPIO1" [ref=e578]
+                      - cell "LP_GPIO1" [ref=e579]
+                      - cell "GPIO, ADC" [ref=e580]
+                    - row "D2 Analog GPIO2 LP_GPIO2 GPIO, ADC" [ref=e581]:
+                      - cell "D2" [ref=e582]
+                      - cell "Analog" [ref=e583]
+                      - cell "GPIO2" [ref=e584]
+                      - cell "LP_GPIO2" [ref=e585]
+                      - cell "GPIO, ADC" [ref=e586]
+                    - row "D3 Digital GPIO21 SDIO_DATA1 GPIO" [ref=e587]:
+                      - cell "D3" [ref=e588]
+                      - cell "Digital" [ref=e589]
+                      - cell "GPIO21" [ref=e590]
+                      - cell "SDIO_DATA1" [ref=e591]
+                      - cell "GPIO" [ref=e592]
+                    - row "D4 SDA GPIO22 SDIO_DATA2 GPIO, I2C Data" [ref=e593]:
+                      - cell "D4" [ref=e594]
+                      - cell "SDA" [ref=e595]
+                      - cell "GPIO22" [ref=e596]
+                      - cell "SDIO_DATA2" [ref=e597]
+                      - cell "GPIO, I2C Data" [ref=e598]
+                    - row "D5 SCL GPIO23 SDIO_DATA3 GPIO, I2C Clock" [ref=e599]:
+                      - cell "D5" [ref=e600]
+                      - cell "SCL" [ref=e601]
+                      - cell "GPIO23" [ref=e602]
+                      - cell "SDIO_DATA3" [ref=e603]
+                      - cell "GPIO, I2C Clock" [ref=e604]
+                    - row "D6 TX GPIO16 GPIO, UART Transmit" [ref=e605]:
+                      - cell "D6" [ref=e606]
+                      - cell "TX" [ref=e607]
+                      - cell "GPIO16" [ref=e608]
+                      - cell [ref=e609]
+                      - cell "GPIO, UART Transmit" [ref=e610]
+                    - row "D7 RX GPIO17 GPIO, UART Receive" [ref=e611]:
+                      - cell "D7" [ref=e612]
+                      - cell "RX" [ref=e613]
+                      - cell "GPIO17" [ref=e614]
+                      - cell [ref=e615]
+                      - cell "GPIO, UART Receive" [ref=e616]
+                    - row "D8 SCK GPIO19 SPI_CLK GPIO, SPI Clock" [ref=e617]:
+                      - cell "D8" [ref=e618]
+                      - cell "SCK" [ref=e619]
+                      - cell "GPIO19" [ref=e620]
+                      - cell "SPI_CLK" [ref=e621]
+                      - cell "GPIO, SPI Clock" [ref=e622]
+                    - row "D9 MISO GPIO20 SPI_MISO GPIO, SPI Data" [ref=e623]:
+                      - cell "D9" [ref=e624]
+                      - cell "MISO" [ref=e625]
+                      - cell "GPIO20" [ref=e626]
+                      - cell "SPI_MISO" [ref=e627]
+                      - cell "GPIO, SPI Data" [ref=e628]
+                    - row "D10 MOSI GPIO18 SPI_MOSI GPIO, SPI Data" [ref=e629]:
+                      - cell "D10" [ref=e630]
+                      - cell "MOSI" [ref=e631]
+                      - cell "GPIO18" [ref=e632]
+                      - cell "SPI_MOSI" [ref=e633]
+                      - cell "GPIO, SPI Data" [ref=e634]
+                    - row "MTDO GPIO7 JTAG" [ref=e635]:
+                      - cell "MTDO" [ref=e636]
+                      - cell [ref=e637]
+                      - cell "GPIO7" [ref=e638]
+                      - cell [ref=e639]
+                      - cell "JTAG" [ref=e640]
+                    - row "MTDI GPIO5 JTAG, ADC" [ref=e641]:
+                      - cell "MTDI" [ref=e642]
+                      - cell [ref=e643]
+                      - cell "GPIO5" [ref=e644]
+                      - cell [ref=e645]
+                      - cell "JTAG, ADC" [ref=e646]
+                    - row "MTCK GPIO6 JTAG, ADC" [ref=e647]:
+                      - cell "MTCK" [ref=e648]
+                      - cell [ref=e649]
+                      - cell "GPIO6" [ref=e650]
+                      - cell [ref=e651]
+                      - cell "JTAG, ADC" [ref=e652]
+                    - row "MTMS GPIO4 JTAG, ADC" [ref=e653]:
+                      - cell "MTMS" [ref=e654]
+                      - cell [ref=e655]
+                      - cell "GPIO4" [ref=e656]
+                      - cell [ref=e657]
+                      - cell "JTAG, ADC" [ref=e658]
+                    - row "EN CHIP_PU Reset" [ref=e659]:
+                      - cell "EN" [ref=e660]
+                      - cell [ref=e661]
+                      - cell "CHIP_PU" [ref=e662]
+                      - cell [ref=e663]
+                      - cell "Reset" [ref=e664]
+                    - row "Boot GPIO9 Enter Boot Mode" [ref=e665]:
+                      - cell "Boot" [ref=e666]
+                      - cell [ref=e667]
+                      - cell "GPIO9" [ref=e668]
+                      - cell [ref=e669]
+                      - cell "Enter Boot Mode" [ref=e670]
+                    - row "RF Switch Port Select GPIO14 Switch onboard antenna and the UFL antenna" [ref=e671]:
+                      - cell "RF Switch Port Select" [ref=e672]
+                      - cell [ref=e673]
+                      - cell "GPIO14" [ref=e674]
+                      - cell [ref=e675]
+                      - cell "Switch onboard antenna and the UFL antenna" [ref=e676]
+                    - row "RF Switch Power GPIO3 Power" [ref=e677]:
+                      - cell "RF Switch Power" [ref=e678]
+                      - cell [ref=e679]
+                      - cell "GPIO3" [ref=e680]
+                      - cell [ref=e681]
+                      - cell "Power" [ref=e682]
+                    - row "Light GPIO15 User Light" [ref=e683]:
+                      - cell "Light" [ref=e684]
+                      - cell [ref=e685]
+                      - cell "GPIO15" [ref=e686]
+                      - cell [ref=e687]
+                      - cell "User Light" [ref=e688]
+                - heading "Getting startedDirect link to Getting started" [level=2] [ref=e689]:
+                  - text: Getting started
+                  - link "Direct link to Getting started" [ref=e690] [cursor=pointer]:
+                    - /url: "#getting-started"
+                    - text: "#"
+                - paragraph [ref=e691]: To enable you to get started with the XIAO ESP32C6 faster, please read the hardware and software preparation below to prepare the XIAO.
+                - heading "Hardware PreparationDirect link to Hardware Preparation" [level=3] [ref=e692]:
+                  - text: Hardware Preparation
+                  - link "Direct link to Hardware Preparation" [ref=e693] [cursor=pointer]:
+                    - /url: "#hardware-preparation"
+                    - text: "#"
+                - paragraph [ref=e694]: "You need to prepare the following:"
+                - list [ref=e695]:
+                  - listitem [ref=e696]:
+                    - text: 1 x
+                    - link "Seeed Studio XIAO ESP32C6" [ref=e697] [cursor=pointer]:
+                      - /url: https://www.seeedstudio.com/Seeed-Studio-XIAO-ESP32C6-p-5884.html
+                  - listitem [ref=e698]: 1 x Computer
+                  - listitem [ref=e699]: 1 x USB Type-C cable
+                - generic [ref=e700]:
+                  - generic [ref=e701]:
+                    - img [ref=e703]
+                    - text: tip
+                  - paragraph [ref=e706]:
+                    - text: Some USB cables can only supply power and cannot transfer data. If you don't have a USB cable or don't know if your USB cable can transmit data, you can check
+                    - link "Seeed USB Type-C support USB 3.1" [ref=e707] [cursor=pointer]:
+                      - /url: https://www.seeedstudio.com/USB-3-1-Type-C-to-A-Cable-1-Meter-3-1A-p-4085.html
+                    - text: .
+                - heading "Solder headerDirect link to Solder header" [level=4] [ref=e708]:
+                  - text: Solder header
+                  - link "Direct link to Solder header" [ref=e709] [cursor=pointer]:
+                    - /url: "#solder-header"
+                    - text: "#"
+                - paragraph [ref=e710]: XIAO ESP32C6 is shipped without pin headers by default, you need to prepare your own pin headers and solder it to the corresponding pins of XIAO so that you can connect to the expansion board or sensor.
+                - paragraph [ref=e711]: Due to the miniature size of XIAO ESP32C6, please be careful when soldering headers, do not stick different pins together, and do not stick solder to the shield or other components. Otherwise, it may cause XIAO to short circuit or not work properly, and the consequences caused by this will be borne by the user.
+                - heading "BootLoader ModeDirect link to BootLoader Mode" [level=4] [ref=e712]:
+                  - text: BootLoader Mode
+                  - link "Direct link to BootLoader Mode" [ref=e713] [cursor=pointer]:
+                    - /url: "#bootloader-mode"
+                    - text: "#"
+                - paragraph [ref=e714]: "There are times when we use the wrong program to make XIAO appear to lose ports or not work properly. The specific performance is:"
+                - list [ref=e715]:
+                  - listitem [ref=e716]: Connected to computer, but no port number found for XIAO.
+                  - listitem [ref=e717]: The computer is connected and the port number appears, but the upload program fails.
+                - paragraph [ref=e718]: "When you encounter the above two situations, you can try to put XIAO into BootLoader mode, which can solve most of the problems of unrecognized devices and failed uploads. The specific method is:"
+                - list [ref=e719]:
+                  - listitem [ref=e720]:
+                    - strong [ref=e721]: Step 1
+                    - text: . Press and hold the BOOT button on the XIAO ESP32C6 without releasing it.
+                  - listitem [ref=e722]:
+                    - strong [ref=e723]: Step 2
+                    - text: . Keep the BOOT button pressed and then connect to the computer via the data cable. Release the BOOT button after connecting to the computer.
+                  - listitem [ref=e724]:
+                    - strong [ref=e725]: Step 3
+                    - text: . Upload the
+                    - strong [ref=e726]: Blink
+                    - text: program to check the operation of the XIAO ESP32C6.
+                - heading "ResetDirect link to Reset" [level=4] [ref=e727]:
+                  - text: Reset
+                  - link "Direct link to Reset" [ref=e728] [cursor=pointer]:
+                    - /url: "#reset"
+                    - text: "#"
+                - paragraph [ref=e729]: When the program runs abnormally, you can press Reset once during power-up to let XIAO re-execute the uploaded program.
+                - paragraph [ref=e730]: When you press and hold the BOOT key while powering up and then press the Reset key once, you can also enter BootLoader mode.
+                - heading "Software PreparationDirect link to Software Preparation" [level=3] [ref=e731]:
+                  - text: Software Preparation
+                  - link "Direct link to Software Preparation" [ref=e732] [cursor=pointer]:
+                    - /url: "#software-preparation"
+                    - text: "#"
+                - paragraph [ref=e733]: The recommended programming tool for the XIAO ESP32C6 is the Arduino IDE, so you need to complete the Arduino installation as part of the software preparation.
+                - generic [ref=e734]:
+                  - generic [ref=e735]:
+                    - img [ref=e737]
+                    - text: tip
+                  - generic [ref=e739]:
+                    - paragraph [ref=e740]:
+                      - text: If this is your first time using Arduino, we highly recommend you to refer to
+                      - link "Getting Started with Arduino" [ref=e741] [cursor=pointer]:
+                        - /url: https://wiki.seeedstudio.com/Getting_Started_with_Arduino/
+                      - text: .
+                    - paragraph [ref=e742]:
+                      - text: And the on-board package for XIAO ESP32C6 requires at least version
+                      - strong [ref=e743]: 2.0.8
+                      - text: to be available.
+                - list [ref=e744]:
+                  - listitem [ref=e745]:
+                    - paragraph [ref=e746]:
+                      - strong [ref=e747]: Step 1.
+                      - text: Download and Install the stable version of Arduino IDE according to your operating system.
+                    - link "Download Arduino IDE" [ref=e749] [cursor=pointer]:
+                      - /url: https://www.arduino.cc/en/software
+                      - strong [ref=e750]:
+                        - generic [ref=e751]: Download Arduino IDE
+                  - listitem [ref=e752]:
+                    - paragraph [ref=e753]:
+                      - strong [ref=e754]: Step 2.
+                      - text: Launch the Arduino application.
+                  - listitem [ref=e755]:
+                    - paragraph [ref=e756]:
+                      - strong [ref=e757]:
+                        - link "Step 3" [ref=e758] [cursor=pointer]:
+                          - /url: "#add-board"
+                        - text: .
+                      - text: Add the XIAO ESP32C6 on-board package to the Arduino IDE and click
+                      - code [ref=e759]: OK
+                      - text: .
+                  - listitem [ref=e760]:
+                    - paragraph [ref=e761]:
+                      - strong [ref=e762]: Step 4.
+                      - text: Close the Arduino IDE and reopen it.
+                - heading "Add the XIAO-C6 BoardDirect link to Add the XIAO-C6 Board" [level=4] [ref=e763]:
+                  - text: Add the XIAO-C6 Board
+                  - link "Direct link to Add the XIAO-C6 Board" [ref=e764] [cursor=pointer]:
+                    - /url: "#add-board"
+                    - text: "#"
+                - paragraph [ref=e765]: "To install the XIAO ESP32C6 board, follow these steps:"
+                - generic [ref=e767]:
+                  - code [ref=e769]:
+                    - generic [ref=e770]: https://espressif.github.io/arduino-esp32/package_esp32_index.json
+                  - button "Copy code to clipboard" [ref=e772] [cursor=pointer]:
+                    - generic [ref=e773]:
+                      - img [ref=e774]
+                      - img [ref=e776]
+                - list [ref=e778]:
+                  - listitem [ref=e779]:
+                    - text: Add the above board manager URL to the preferences of your Arduino IDE, which is taken from the
+                    - link "Installing - Arduino ESP32" [ref=e780] [cursor=pointer]:
+                      - /url: https://docs.espressif.com/projects/arduino-esp32/en/latest/installing.html#installing-using-arduino-ide
+                    - text: .
+                - img [ref=e782]
+                - list [ref=e783]:
+                  - listitem [ref=e784]: Download the XIAO ESP32C6 board package.
+                - generic [ref=e785]:
+                  - generic [ref=e786]:
+                    - img [ref=e788]
+                    - text: note
+                  - paragraph [ref=e791]:
+                    - text: Only available if the version of the esp32 board is greater than
+                    - code [ref=e792]: 3.0.0
+                    - text: .
+                - img [ref=e794]
+                - list [ref=e795]:
+                  - listitem [ref=e796]:
+                    - text: Opt for
+                    - code [ref=e797]: XIAO_ESP32C6
+                    - text: variant.
+                - img [ref=e799]
+                - paragraph [ref=e800]: Now enjoy coding ✨.
+                - heading "Run your first Blink programDirect link to Run your first Blink program" [level=4] [ref=e801]:
+                  - text: Run your first Blink program
+                  - link "Direct link to Run your first Blink program" [ref=e802] [cursor=pointer]:
+                    - /url: "#run-your-first-blink-program"
+                    - text: "#"
+                - list [ref=e803]:
+                  - listitem [ref=e804]:
+                    - paragraph [ref=e805]:
+                      - strong [ref=e806]: Step 1.
+                      - text: Launch the Arduino application.
+                  - listitem [ref=e807]:
+                    - paragraph [ref=e808]:
+                      - strong [ref=e809]: Step 2.
+                      - text: Navigate to
+                      - strong [ref=e810]: File > Examples > 01.Basics > Blink
+                      - text: ", open the program."
+                - img [ref=e812]
+                - list [ref=e813]:
+                  - listitem [ref=e814]:
+                    - strong [ref=e815]: Step 3.
+                    - text: Select the board model to
+                    - strong [ref=e816]: XIAO ESP32C6
+                    - text: ", and select the correct port number to upload the program."
+                - img [ref=e818]
+                - paragraph [ref=e819]: Once the program is successfully uploaded, you will see the following output message and you can observe that the orange LED on the right side of the XIAO ESP32C6 is blinking.
+                - table [ref=e820]:
+                  - row [ref=e821]:
+                    - cell [ref=e822]:
+                      - img [ref=e824]
+                    - cell [ref=e825]:
+                      - img [ref=e827]
+                - heading "Battery UsageDirect link to Battery Usage" [level=2] [ref=e828]:
+                  - text: Battery Usage
+                  - link "Direct link to Battery Usage" [ref=e829] [cursor=pointer]:
+                    - /url: "#battery-usage"
+                    - text: "#"
+                - paragraph [ref=e830]: The XIAO ESP32C6 series features a built-in power management chip, allowing it to be powered independently by a battery or to charge the battery through its USB port.
+                - paragraph [ref=e831]: For connecting a battery to your XIAO, we recommend using a qualified rechargeable 3.7V lithium battery. When soldering the battery, carefully distinguish between the positive and negative terminals. The negative electrode pad should be located on the left side near the silk screen marking "D8," while the positive electrode pad should be located on the right side near the silk screen marking "D5."
+                - generic [ref=e832]:
+                  - generic [ref=e833]:
+                    - img [ref=e835]
+                    - text: caution
+                  - paragraph [ref=e838]: When using battery power, no voltage will be present on the 5V pin.
+                - generic [ref=e839]:
+                  - generic [ref=e840]:
+                    - img [ref=e842]
+                    - text: Red Indicator Light
+                  - generic [ref=e844]:
+                    - paragraph [ref=e845]:
+                      - text: The XIAO ESP32C6 has a red indicator light for battery charging, similar to the
+                      - link "XIAO ESP32S3" [ref=e846] [cursor=pointer]:
+                        - /url: /xiao_esp32s3_getting_started/#battery-usage
+                      - text: ":"
+                    - paragraph [ref=e847]: "The red light behavior for the XIAO ESP32C6 is as follows:"
+                    - list [ref=e848]:
+                      - listitem [ref=e849]:
+                        - text: "When no battery is connected:"
+                        - list [ref=e850]:
+                          - listitem [ref=e851]: The red light turns on when the Type-C cable is connected and turns off after 30 seconds.
+                      - listitem [ref=e852]:
+                        - text: "When a battery is connected and the Type-C cable is plugged in for charging:"
+                        - list [ref=e853]:
+                          - listitem [ref=e854]: The red light flashes.
+                      - listitem [ref=e855]:
+                        - text: "When the battery is fully charged via the Type-C connection:"
+                        - list [ref=e856]:
+                          - listitem [ref=e857]: The red light turns off.
+                - heading "Reading Battery VoltageDirect link to Reading Battery Voltage" [level=2] [ref=e858]:
+                  - text: Reading Battery Voltage
+                  - link "Direct link to Reading Battery Voltage" [ref=e859] [cursor=pointer]:
+                    - /url: "#reading-battery-voltage"
+                    - text: "#"
+                - paragraph [ref=e860]:
+                  - text: To monitor the battery voltage on the XIAO ESP32C6, similar to the
+                  - link "XIAO ESP32C3" [ref=e861] [cursor=pointer]:
+                    - /url: /XIAO_ESP32C3_Getting_Started/#check-the-battery-voltage
+                  - text: ", you'll need to solder a 200k resistor in a 1:2 configuration. This setup reduces the voltage by half, allowing safe monitoring through the A0 analog port."
+                - heading "Sample CodeDirect link to Sample Code" [level=3] [ref=e862]:
+                  - text: Sample Code
+                  - link "Direct link to Sample Code" [ref=e863] [cursor=pointer]:
+                    - /url: "#sample-code"
+                    - text: "#"
+                - paragraph [ref=e864]: The code below initializes the ADC on the A0 port and averages 16 readings to calculate the battery voltage, adjusting for the 1:2 attenuation ratio of the voltage divider.
+                - generic [ref=e866]:
+                  - code [ref=e868]:
+                    - generic [ref=e869]: "#include <Arduino.h>"
+                    - generic [ref=e870]: "void setup() {"
+                    - generic [ref=e871]: Serial.begin(115200);
+                    - generic [ref=e872]: pinMode(A0, INPUT); // Configure A0 as ADC input
+                    - generic [ref=e873]: "}"
+                    - generic [ref=e874]: "void loop() {"
+                    - generic [ref=e875]: uint32_t Vbatt = 0;
+                    - generic [ref=e876]: "for(int i = 0; i < 16; i++) {"
+                    - generic [ref=e877]: Vbatt += analogReadMilliVolts(A0); // Read and accumulate ADC voltage
+                    - generic [ref=e878]: "}"
+                    - generic [ref=e879]: float Vbattf = 2 * Vbatt / 16 / 1000.0; // Adjust for 1:2 divider and convert to volts
+                    - generic [ref=e880]: Serial.println(Vbattf, 3); // Output voltage to 3 decimal places
+                    - generic [ref=e881]: delay(1000); // Wait for 1 second
+                    - generic [ref=e882]: "}"
+                  - generic [ref=e883]:
+                    - button "Toggle word wrap" [ref=e884] [cursor=pointer]:
+                      - img [ref=e885]
+                    - button "Copy code to clipboard" [ref=e887] [cursor=pointer]:
+                      - generic [ref=e888]:
+                        - img [ref=e889]
+                        - img [ref=e891]
+                - paragraph [ref=e893]: This code takes 16 measurements from the ADC, averages them, and then compensates for the voltage divider's 1:2 ratio to output the battery voltage in volts with three decimal places of precision.
+                - heading "Deep sleep mode and wake-upDirect link to Deep sleep mode and wake-up" [level=2] [ref=e894]:
+                  - text: Deep sleep mode and wake-up
+                  - link "Direct link to Deep sleep mode and wake-up" [ref=e895] [cursor=pointer]:
+                    - /url: "#deep-sleep-mode-and-wake-up"
+                    - text: "#"
+                - paragraph [ref=e896]: The XIAO ESP32C6 has a complete deep sleep mode and wake-up function. Here we will show two of the more common examples offered by the ESP.
+                - 'heading "Demo1: Deep Sleep with External Wake UpDirect link to Demo1: Deep Sleep with External Wake Up" [level=3] [ref=e897]':
+                  - text: "Demo1: Deep Sleep with External Wake Up"
+                  - 'link "Direct link to Demo1: Deep Sleep with External Wake Up" [ref=e898] [cursor=pointer]':
+                    - /url: "#demo1-deep-sleep-with-external-wake-up"
+                    - text: "#"
+                - paragraph [ref=e899]: This code displays how to use deep sleep with an external trigger as a wake up source and how to store data in RTC memory to use it over reboots.
+                - generic [ref=e901]:
+                  - code [ref=e903]:
+                    - generic [ref=e904]: /*
+                    - generic [ref=e905]: Hardware Connections
+                    - generic [ref=e906]: ======================
+                    - generic [ref=e907]: Push Button to GPIO 0 pulled down with a 10K Ohm
+                    - generic [ref=e908]: resistor
+                    - generic [ref=e909]: "NOTE:"
+                    - generic [ref=e910]: ======
+                    - generic [ref=e911]: Bit mask of GPIO numbers which will cause wakeup. Only GPIOs
+                    - generic [ref=e912]: which have RTC functionality can be used in this bit map.
+                    - generic [ref=e913]: "For different SoCs, the related GPIOs are:"
+                    - generic [ref=e914]: "- ESP32: 0, 2, 4, 12-15, 25-27, 32-39"
+                    - generic [ref=e915]: "- ESP32-S2: 0-21"
+                    - generic [ref=e916]: "- ESP32-S3: 0-21"
+                    - generic [ref=e917]: "- ESP32-C6: 0-7"
+                    - generic [ref=e918]: "- ESP32-H2: 7-14"
+                    - generic [ref=e919]: "*/"
+                    - generic [ref=e920]: "#define BUTTON_PIN_BITMASK (1ULL << GPIO_NUM_0) // GPIO 0 bitmask for ext1"
+                    - generic [ref=e921]: RTC_DATA_ATTR int bootCount = 0;
+                    - generic [ref=e922]: /*
+                    - generic [ref=e923]: Method to print the reason by which ESP32
+                    - generic [ref=e924]: has been awaken from sleep
+                    - generic [ref=e925]: "*/"
+                    - generic [ref=e926]: "void print_wakeup_reason(){"
+                    - generic [ref=e927]: esp_sleep_wakeup_cause_t wakeup_reason;
+                    - generic [ref=e928]: wakeup_reason = esp_sleep_get_wakeup_cause();
+                    - generic [ref=e929]: switch(wakeup_reason)
+                    - generic [ref=e930]: "{"
+                    - generic [ref=e931]: "case ESP_SLEEP_WAKEUP_EXT0 : Serial.println(\"Wakeup caused by external signal using RTC_IO\"); break;"
+                    - generic [ref=e932]: "case ESP_SLEEP_WAKEUP_EXT1 : Serial.println(\"Wakeup caused by external signal using RTC_CNTL\"); break;"
+                    - generic [ref=e933]: "case ESP_SLEEP_WAKEUP_TIMER : Serial.println(\"Wakeup caused by timer\"); break;"
+                    - generic [ref=e934]: "case ESP_SLEEP_WAKEUP_TOUCHPAD : Serial.println(\"Wakeup caused by touchpad\"); break;"
+                    - generic [ref=e935]: "case ESP_SLEEP_WAKEUP_ULP : Serial.println(\"Wakeup caused by ULP program\"); break;"
+                    - generic [ref=e936]: "default : Serial.printf(\"Wakeup was not caused by deep sleep: %d\\n\",wakeup_reason); break;"
+                    - generic [ref=e937]: "}"
+                    - generic [ref=e938]: "}"
+                    - generic [ref=e939]: "void setup(){"
+                    - generic [ref=e940]: Serial.begin(115200);
+                    - generic [ref=e941]: delay(1000); //Take some time to open up the Serial Monitor
+                    - generic [ref=e942]: //Increment boot number and print it every reboot
+                    - generic [ref=e943]: ++bootCount;
+                    - generic [ref=e944]: "Serial.println(\"Boot number: \" + String(bootCount));"
+                    - generic [ref=e945]: //Print the wakeup reason for ESP32
+                    - generic [ref=e946]: print_wakeup_reason();
+                    - generic [ref=e947]: /*
+                    - generic [ref=e948]: First we configure the wake up source
+                    - generic [ref=e949]: We set our ESP32 to wake up for an external trigger.
+                    - generic [ref=e950]: There are two types for ESP32, ext0 and ext1, ext0
+                    - generic [ref=e951]: don't support ESP32C6 so we use ext1.
+                    - generic [ref=e952]: "*/"
+                    - generic [ref=e953]: //If you were to use ext1, you would use it like
+                    - generic [ref=e954]: esp_sleep_enable_ext1_wakeup(BUTTON_PIN_BITMASK,ESP_EXT1_WAKEUP_ANY_HIGH);
+                    - generic [ref=e955]: //Go to sleep now
+                    - generic [ref=e956]: Serial.println("Going to sleep now");
+                    - generic [ref=e957]: esp_deep_sleep_start();
+                    - generic [ref=e958]: Serial.println("This will never be printed");
+                    - generic [ref=e959]: "}"
+                    - generic [ref=e960]: "void loop(){"
+                    - generic [ref=e961]: //This is not going to be called
+                    - generic [ref=e962]: "}"
+                  - generic [ref=e963]:
+                    - button "Toggle word wrap" [ref=e964] [cursor=pointer]:
+                      - img [ref=e965]
+                    - button "Copy code to clipboard" [ref=e967] [cursor=pointer]:
+                      - generic [ref=e968]:
+                        - img [ref=e969]
+                        - img [ref=e971]
+                - 'heading "Demo2: Deep Sleep with Timer Wake UpDirect link to Demo2: Deep Sleep with Timer Wake Up" [level=3] [ref=e973]':
+                  - text: "Demo2: Deep Sleep with Timer Wake Up"
+                  - 'link "Direct link to Demo2: Deep Sleep with Timer Wake Up" [ref=e974] [cursor=pointer]':
+                    - /url: "#demo2-deep-sleep-with-timer-wake-up"
+                    - text: "#"
+                - paragraph [ref=e975]: "ESP32 offers a deep sleep mode for effective power saving as power is an important factor for IoT applications. In this mode CPUs, most of the RAM, and all the digital peripherals which are clocked from APB_CLK are powered off. The only parts of the chip which can still be powered on are: RTC controller, RTC peripherals ,and RTC memories."
+                - paragraph [ref=e976]: This code displays the most basic deep sleep with a timer to wake it up and how to store data in RTC memory to use it over reboots.
+                - generic [ref=e978]:
+                  - code [ref=e980]:
+                    - generic [ref=e981]: /*
+                    - generic [ref=e982]: Simple Deep Sleep with Timer Wake Up
+                    - generic [ref=e983]: =====================================
+                    - generic [ref=e984]: This code is under Public Domain License.
+                    - generic [ref=e985]: "Author:"
+                    - generic [ref=e986]: Pranav Cherukupalli <cherukupallip@gmail.com>
+                    - generic [ref=e987]: "*/"
+                    - generic [ref=e988]: "#define uS_TO_S_FACTOR 1000000ULL /* Conversion factor for micro seconds to seconds */"
+                    - generic [ref=e989]: "#define TIME_TO_SLEEP 5 /* Time ESP32 will go to sleep (in seconds) */"
+                    - generic [ref=e990]: RTC_DATA_ATTR int bootCount = 0;
+                    - generic [ref=e991]: /*
+                    - generic [ref=e992]: Method to print the reason by which ESP32
+                    - generic [ref=e993]: has been awaken from sleep
+                    - generic [ref=e994]: "*/"
+                    - generic [ref=e995]: "void print_wakeup_reason(){"
+                    - generic [ref=e996]: esp_sleep_wakeup_cause_t wakeup_reason;
+                    - generic [ref=e997]: wakeup_reason = esp_sleep_get_wakeup_cause();
+                    - generic [ref=e998]: switch(wakeup_reason)
+                    - generic [ref=e999]: "{"
+                    - generic [ref=e1000]: "case ESP_SLEEP_WAKEUP_EXT0 : Serial.println(\"Wakeup caused by external signal using RTC_IO\"); break;"
+                    - generic [ref=e1001]: "case ESP_SLEEP_WAKEUP_EXT1 : Serial.println(\"Wakeup caused by external signal using RTC_CNTL\"); break;"
+                    - generic [ref=e1002]: "case ESP_SLEEP_WAKEUP_TIMER : Serial.println(\"Wakeup caused by timer\"); break;"
+                    - generic [ref=e1003]: "case ESP_SLEEP_WAKEUP_TOUCHPAD : Serial.println(\"Wakeup caused by touchpad\"); break;"
+                    - generic [ref=e1004]: "case ESP_SLEEP_WAKEUP_ULP : Serial.println(\"Wakeup caused by ULP program\"); break;"
+                    - generic [ref=e1005]: "default : Serial.printf(\"Wakeup was not caused by deep sleep: %d\\n\",wakeup_reason); break;"
+                    - generic [ref=e1006]: "}"
+                    - generic [ref=e1007]: "}"
+                    - generic [ref=e1008]: "void setup(){"
+                    - generic [ref=e1009]: Serial.begin(115200);
+                    - generic [ref=e1010]: delay(1000); //Take some time to open up the Serial Monitor
+                    - generic [ref=e1011]: //Increment boot number and print it every reboot
+                    - generic [ref=e1012]: ++bootCount;
+                    - generic [ref=e1013]: "Serial.println(\"Boot number: \" + String(bootCount));"
+                    - generic [ref=e1014]: //Print the wakeup reason for ESP32
+                    - generic [ref=e1015]: print_wakeup_reason();
+                    - generic [ref=e1016]: /*
+                    - generic [ref=e1017]: First we configure the wake up source
+                    - generic [ref=e1018]: We set our ESP32 to wake up every 5 seconds
+                    - generic [ref=e1019]: "*/"
+                    - generic [ref=e1020]: esp_sleep_enable_timer_wakeup(TIME_TO_SLEEP * uS_TO_S_FACTOR);
+                    - generic [ref=e1021]: Serial.println("Setup ESP32 to sleep for every " + String(TIME_TO_SLEEP) +
+                    - generic [ref=e1022]: "\" Seconds\");"
+                    - generic [ref=e1023]: /*
+                    - generic [ref=e1024]: Next we decide what all peripherals to shut down/keep on
+                    - generic [ref=e1025]: By default, ESP32 will automatically power down the peripherals
+                    - generic [ref=e1026]: not needed by the wakeup source, but if you want to be a poweruser
+                    - generic [ref=e1027]: this is for you. Read in detail at the API docs
+                    - generic [ref=e1028]: http://esp-idf.readthedocs.io/en/latest/api-reference/system/deep_sleep.html
+                    - generic [ref=e1029]: Left the line commented as an example of how to configure peripherals.
+                    - generic [ref=e1030]: The line below turns off all RTC peripherals in deep sleep.
+                    - generic [ref=e1031]: "*/"
+                    - generic [ref=e1032]: //esp_deep_sleep_pd_config(ESP_PD_DOMAIN_RTC_PERIPH, ESP_PD_OPTION_OFF);
+                    - generic [ref=e1033]: //Serial.println("Configured all RTC Peripherals to be powered down in sleep");
+                    - generic [ref=e1034]: /*
+                    - generic [ref=e1035]: Now that we have setup a wake cause and if needed setup the
+                    - generic [ref=e1036]: peripherals state in deep sleep, we can now start going to
+                    - generic [ref=e1037]: deep sleep.
+                    - generic [ref=e1038]: In the case that no wake up sources were provided but deep
+                    - generic [ref=e1039]: sleep was started, it will sleep forever unless hardware
+                    - generic [ref=e1040]: reset occurs.
+                    - generic [ref=e1041]: "*/"
+                    - generic [ref=e1042]: Serial.println("Going to sleep now");
+                    - generic [ref=e1043]: Serial.flush();
+                    - generic [ref=e1044]: esp_deep_sleep_start();
+                    - generic [ref=e1045]: Serial.println("This will never be printed");
+                    - generic [ref=e1046]: "}"
+                    - generic [ref=e1047]: "void loop(){"
+                    - generic [ref=e1048]: //This is not going to be called
+                    - generic [ref=e1049]: "}"
+                  - generic [ref=e1050]:
+                    - button "Toggle word wrap" [ref=e1051] [cursor=pointer]:
+                      - img [ref=e1052]
+                    - button "Copy code to clipboard" [ref=e1054] [cursor=pointer]:
+                      - generic [ref=e1055]:
+                        - img [ref=e1056]
+                        - img [ref=e1058]
+                - generic [ref=e1060]:
+                  - generic [ref=e1061]:
+                    - img [ref=e1063]
+                    - text: tip
+                  - generic [ref=e1065]:
+                    - paragraph [ref=e1066]: If you want to learn to use more of the deep sleep mode and wake-up functions, you can find more sample programs officially written for the chip by ESP in the Arduino IDE.
+                    - img [ref=e1068]
+                - heading "ResourcesDirect link to Resources" [level=2] [ref=e1069]:
+                  - text: Resources
+                  - link "Direct link to Resources" [ref=e1070] [cursor=pointer]:
+                    - /url: "#resources"
+                    - text: "#"
+                - paragraph [ref=e1071]:
+                  - strong [ref=e1072]: Hardware Design
+                - list [ref=e1073]:
+                  - listitem [ref=e1074]:
+                    - strong [ref=e1075]: 📄[Datasheet]
+                    - link "Espressif ESP32-C6 Datasheet" [ref=e1076] [cursor=pointer]:
+                      - /url: https://files.seeedstudio.com/wiki/SeeedStudio-XIAO-ESP32C6/res/esp32-c6_datasheet_en.pdf
+                  - listitem [ref=e1077]:
+                    - strong [ref=e1078]: 📄[Schematic]
+                    - link "XIAO ESP32-C6 Schematic" [ref=e1079] [cursor=pointer]:
+                      - /url: https://files.seeedstudio.com/wiki/SeeedStudio-XIAO-ESP32C6/XIAO_ESP32_C6_v1.0_SCH_260114.pdf
+                  - listitem [ref=e1080]:
+                    - strong [ref=e1081]: 🗃️[PCB Design Files]
+                    - link "XIAO ESP32-C6 KiCad Project" [ref=e1082] [cursor=pointer]:
+                      - /url: https://files.seeedstudio.com/wiki/SeeedStudio-XIAO-ESP32C6/XIAO_ESP32_C6_v1.0_SCH&PCB_260114.zip
+                  - listitem [ref=e1083]:
+                    - strong [ref=e1084]: 🗃️[PCB Design Libraries]
+                    - list [ref=e1085]:
+                      - listitem [ref=e1086]:
+                        - link "XIAO Series KiCad Footprints" [ref=e1087] [cursor=pointer]:
+                          - /url: https://files.seeedstudio.com/wiki/XIAO-KiCad-Library/XIAO_Series_Footprints.zip
+                      - listitem [ref=e1088]:
+                        - link "XIAO Series KiCad SCH Symbols" [ref=e1089] [cursor=pointer]:
+                          - /url: https://files.seeedstudio.com/wiki/XIAO-KiCad-Library/XIAO_Series_SCH_Symbols.zip
+                  - listitem [ref=e1090]:
+                    - strong [ref=e1091]: 📄[Pinout Diagram]
+                    - link "XIAO ESP32-C6 Pinout Sheet" [ref=e1092] [cursor=pointer]:
+                      - /url: https://files.seeedstudio.com/wiki/SeeedStudio-XIAO-ESP32C6/res/XIAO_ESP32C6_Pinout.xlsx
+                - paragraph [ref=e1093]:
+                  - strong [ref=e1094]: Mechanical Design
+                - list [ref=e1095]:
+                  - listitem [ref=e1096]:
+                    - strong [ref=e1097]: 📄[3D Model]
+                    - link "XIAO ESP32-C6 3D Model" [ref=e1098] [cursor=pointer]:
+                      - /url: https://grabcad.com/library/seeed-studio-xiao-esp32-c6-1
+                - heading "Course ResourcesDirect link to Course Resources" [level=2] [ref=e1099]:
+                  - text: Course Resources
+                  - link "Direct link to Course Resources" [ref=e1100] [cursor=pointer]:
+                    - /url: "#course-resources"
+                    - text: "#"
+                - img [ref=e1102]
+                - list [ref=e1103]:
+                  - listitem [ref=e1104]:
+                    - strong [ref=e1105]: "[Ebook]"
+                    - 'link "XIAO: Big Power, Small Board Mastering Arduino and TinyML" [ref=e1106] [cursor=pointer]':
+                      - /url: https://mjrovai.github.io/XIAO_Big_Power_Small_Board-ebook/
+                - heading "Tech Support & Product DiscussionDirect link to Tech Support & Product Discussion" [level=2] [ref=e1107]:
+                  - text: Tech Support & Product Discussion
+                  - link "Direct link to Tech Support & Product Discussion" [ref=e1108] [cursor=pointer]:
+                    - /url: "#tech-support--product-discussion"
+                    - text: "#"
+                - paragraph [ref=e1109]: Thank you for choosing our products! We are here to provide you with different support to ensure that your experience with our products is as smooth as possible. We offer several communication channels to cater to different preferences and needs.
+                - generic [ref=e1110]:
+                  - link [ref=e1111] [cursor=pointer]:
+                    - /url: https://forum.seeedstudio.com/
+                  - link [ref=e1112] [cursor=pointer]:
+                    - /url: https://www.seeedstudio.com/contacts
+                - generic [ref=e1113]:
+                  - link [ref=e1114] [cursor=pointer]:
+                    - /url: https://discord.gg/eWkprNDMU7
+                  - link [ref=e1115] [cursor=pointer]:
+                    - /url: https://github.com/Seeed-Studio/wiki-documents/discussions/69
+              - generic [ref=e1117]:
+                - link "Edit this page" [ref=e1119] [cursor=pointer]:
+                  - /url: https://github.com/Seeed-Studio/wiki-documents/blob/docusaurus-version/sites/en/docs/docs/Sensor/SeeedStudio_XIAO/SeeedStudio_XIAO_ESP32C6/XIAO_ESP32C6_Getting_Started.md
+                  - img [ref=e1120]
+                  - text: Edit this page
+                - generic [ref=e1124]:
+                  - text: Last updated on
+                  - time [ref=e1126]: Aug 5, 2024
+                  - text: by Spencer
+            - navigation "Docs pages" [ref=e1127]:
+              - link "Previous « XIAO ESP32-C5 With FreeRTOS" [ref=e1128] [cursor=pointer]:
+                - /url: /xiao_esp32c5_with_freertos/
+                - generic [ref=e1129]: Previous
+                - generic [ref=e1130]: « XIAO ESP32-C5 With FreeRTOS
+              - link "Next Pin Multiplexing With Seeed Studio XIAO ESP32C6 »" [ref=e1131] [cursor=pointer]:
+                - /url: /xiao_pin_multiplexing_esp32c6/
+                - generic [ref=e1132]: Next
+                - generic [ref=e1133]: Pin Multiplexing With Seeed Studio XIAO ESP32C6 »
+          - iframe [ref=e1136]:
+            
+        - list [ref=e1139]:
+          - listitem [ref=e1140]:
+            - link "Introduction" [ref=e1141] [cursor=pointer]:
+              - /url: "#introduction"
+            - list [ref=e1142]:
+              - listitem [ref=e1143]:
+                - link "Specifications" [ref=e1144] [cursor=pointer]:
+                  - /url: "#specifications"
+              - listitem [ref=e1145]:
+                - link "Features" [ref=e1146] [cursor=pointer]:
+                  - /url: "#features"
+          - listitem [ref=e1147]:
+            - link "Hardware overview" [ref=e1148] [cursor=pointer]:
+              - /url: "#hardware-overview"
+          - listitem [ref=e1149]:
+            - link "Pin Map" [ref=e1150] [cursor=pointer]:
+              - /url: "#pin-map"
+              - strong [ref=e1151]: Pin Map
+          - listitem [ref=e1152]:
+            - link "Getting started" [ref=e1153] [cursor=pointer]:
+              - /url: "#getting-started"
+            - list [ref=e1154]:
+              - listitem [ref=e1155]:
+                - link "Hardware Preparation" [ref=e1156] [cursor=pointer]:
+                  - /url: "#hardware-preparation"
+                - list [ref=e1157]:
+                  - listitem [ref=e1158]:
+                    - link "Solder header" [ref=e1159] [cursor=pointer]:
+                      - /url: "#solder-header"
+                  - listitem [ref=e1160]:
+                    - link "BootLoader Mode" [ref=e1161] [cursor=pointer]:
+                      - /url: "#bootloader-mode"
+                  - listitem [ref=e1162]:
+                    - link "Reset" [ref=e1163] [cursor=pointer]:
+                      - /url: "#reset"
+              - listitem [ref=e1164]:
+                - link "Software Preparation" [ref=e1165] [cursor=pointer]:
+                  - /url: "#software-preparation"
+                - list [ref=e1166]:
+                  - listitem [ref=e1167]:
+                    - link "Add the XIAO-C6 Board" [ref=e1168] [cursor=pointer]:
+                      - /url: "#add-board"
+                  - listitem [ref=e1169]:
+                    - link "Run your first Blink program" [ref=e1170] [cursor=pointer]:
+                      - /url: "#run-your-first-blink-program"
+          - listitem [ref=e1171]:
+            - link "Battery Usage" [ref=e1172] [cursor=pointer]:
+              - /url: "#battery-usage"
+          - listitem [ref=e1173]:
+            - link "Reading Battery Voltage" [ref=e1174] [cursor=pointer]:
+              - /url: "#reading-battery-voltage"
+            - list [ref=e1175]:
+              - listitem [ref=e1176]:
+                - link "Sample Code" [ref=e1177] [cursor=pointer]:
+                  - /url: "#sample-code"
+          - listitem [ref=e1178]:
+            - link "Deep sleep mode and wake-up" [ref=e1179] [cursor=pointer]:
+              - /url: "#deep-sleep-mode-and-wake-up"
+            - list [ref=e1180]:
+              - listitem [ref=e1181]:
+                - 'link "Demo1: Deep Sleep with External Wake Up" [ref=e1182] [cursor=pointer]':
+                  - /url: "#demo1-deep-sleep-with-external-wake-up"
+              - listitem [ref=e1183]:
+                - 'link "Demo2: Deep Sleep with Timer Wake Up" [ref=e1184] [cursor=pointer]':
+                  - /url: "#demo2-deep-sleep-with-timer-wake-up"
+          - listitem [ref=e1185]:
+            - link "Resources" [ref=e1186] [cursor=pointer]:
+              - /url: "#resources"
+          - listitem [ref=e1187]:
+            - link "Course Resources" [ref=e1188] [cursor=pointer]:
+              - /url: "#course-resources"
+          - listitem [ref=e1189]:
+            - link "Tech Support & Product Discussion" [ref=e1190] [cursor=pointer]:
+              - /url: "#tech-support--product-discussion"
+  - contentinfo [ref=e1191]:
+    - generic [ref=e1192]:
+      - generic [ref=e1193]:
+        - generic [ref=e1194]:
+          - generic [ref=e1195]: Navigation
+          - list [ref=e1196]:
+            - listitem [ref=e1197]:
+              - link "Getting Started" [ref=e1198] [cursor=pointer]:
+                - /url: /Getting_Started/
+            - listitem [ref=e1199]:
+              - link "Sensor and Sensing" [ref=e1200] [cursor=pointer]:
+                - /url: /Sensor_Network/
+            - listitem [ref=e1201]:
+              - link "Network" [ref=e1202] [cursor=pointer]:
+                - /url: /Network/
+            - listitem [ref=e1203]:
+              - link "Edge Computing" [ref=e1204] [cursor=pointer]:
+                - /url: /Edge_Computing/
+            - listitem [ref=e1205]:
+              - link "Cloud" [ref=e1206] [cursor=pointer]:
+                - /url: /Cloud/
+            - listitem [ref=e1207]:
+              - link "Solutions" [ref=e1208] [cursor=pointer]:
+                - /url: https://solution.seeed.cc/
+        - generic [ref=e1209]:
+          - generic [ref=e1210]: Ecosystem
+          - list [ref=e1211]:
+            - listitem [ref=e1212]:
+              - link "Discord" [ref=e1213] [cursor=pointer]:
+                - /url: https://discord.com/invite/QqMgVwHT3X
+            - listitem [ref=e1214]:
+              - link "Project Hub" [ref=e1215] [cursor=pointer]:
+                - /url: https://project.seeedstudio.com/
+            - listitem [ref=e1216]:
+              - link "Partners" [ref=e1217] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/ecosystem/
+            - listitem [ref=e1218]:
+              - link "Distributors" [ref=e1219] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/distributors.html
+        - generic [ref=e1220]:
+          - generic [ref=e1221]: Quick Guide
+          - list [ref=e1222]:
+            - listitem [ref=e1223]:
+              - link "Bazaar" [ref=e1224] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/
+            - listitem [ref=e1225]:
+              - link "How to get help" [ref=e1226] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/get_help/HowToGetHelp
+            - listitem [ref=e1227]:
+              - link "FAQs" [ref=e1228] [cursor=pointer]:
+                - /url: https://support.seeedstudio.com/knowledgebase
+            - listitem [ref=e1229]:
+              - link "Forum" [ref=e1230] [cursor=pointer]:
+                - /url: https://forum.seeedstudio.com/
+            - listitem [ref=e1231]:
+              - link "Technical Support" [ref=e1232] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/get_help/TechnicalSupport
+        - generic [ref=e1233]:
+          - generic [ref=e1234]: Company
+          - list [ref=e1235]:
+            - listitem [ref=e1236]:
+              - link "About Seeed" [ref=e1237] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/about-us/
+            - listitem [ref=e1238]:
+              - link "Join us" [ref=e1239] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/join-us/
+            - listitem [ref=e1240]:
+              - link "Contact Us" [ref=e1241] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/contacts
+            - listitem [ref=e1242]:
+              - link "Press" [ref=e1243] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/blog/2020/04/22/seeed-in-the-news/
+      - generic [ref=e1245]: Copyright © 2026 Seeed Studio, Inc. Built with Docusaurus.

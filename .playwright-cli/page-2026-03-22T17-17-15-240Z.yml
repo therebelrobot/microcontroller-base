@@ -1,0 +1,52 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - button "Skip to content" [ref=e3] [cursor=pointer]:
+      - generic [ref=e5]: Skip to content
+    - generic [ref=e6]:
+      - link "Back to Bing search" [ref=e7] [cursor=pointer]:
+        - /url: /?FORM=Z9FD1
+        - heading "Back to Bing search" [level=1] [ref=e8]
+      - search [ref=e9]:
+        - button "Search" [ref=e12] [cursor=pointer]
+        - searchbox "Enter your search here - Search suggestions will show as you type" [ref=e13]: seeedstudio XIAO PowerBread wiki
+        - button "Search using an image" [ref=e16] [cursor=pointer]
+    - complementary "Account Rewards and Preferences" [ref=e18]:
+      - button "Microsoft Rewards"
+      - link "Sign in" [ref=e19] [cursor=pointer]:
+        - /url: javascript:void(0)
+        - generic "Sign in" [ref=e20]
+    - navigation "Search Filter" [ref=e21]:
+      - list [ref=e22]:
+        - listitem [ref=e23]:
+          - link "All" [ref=e24] [cursor=pointer]:
+            - /url: /?scope=web&FORM=HDRSC1
+        - listitem [ref=e25]:
+          - link "Search" [ref=e26] [cursor=pointer]:
+            - /url: /copilotsearch?q=seeedstudio+XIAO+PowerBread+wiki&FORM=CSSCOP
+            - img [ref=e27]
+            - text: Search
+        - listitem [ref=e29]:
+          - link "Images" [ref=e30] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=9fc878d95580630b5c18370d2d16c5ee27001d9daf501ddce083137bc13bdb56JmltdHM9MTc3NDEzNzYwMA&ptn=3&ver=2&hsh=4&fclid=155dee48-dd88-6a04-2d11-f96cdcef6ba7&u=a1L2ltYWdlcy9zZWFyY2g_cT1zZWVlZHN0dWRpbytYSUFPK1Bvd2VyQnJlYWQrd2lraSZGT1JNPUhEUlNDMg&ntb=1
+        - listitem [ref=e31]:
+          - link "Videos" [ref=e32] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=0766d7c46e6a10fafcd690633f79c0850df173040d3491fcec99055654961614JmltdHM9MTc3NDEzNzYwMA&ptn=3&ver=2&hsh=4&fclid=155dee48-dd88-6a04-2d11-f96cdcef6ba7&u=a1L3ZpZGVvcy9zZWFyY2g_cT1zZWVlZHN0dWRpbytYSUFPK1Bvd2VyQnJlYWQrd2lraSZGT1JNPUhEUlNDMw&ntb=1
+        - listitem [ref=e33]:
+          - link "Maps" [ref=e34] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=c79ad625a07af7a51caf06e96f8892cb41a5d4d727bf5c909b648d0def66a377JmltdHM9MTc3NDEzNzYwMA&ptn=3&ver=2&hsh=4&fclid=155dee48-dd88-6a04-2d11-f96cdcef6ba7&u=a1L21hcHM_cT1zZWVlZHN0dWRpbytYSUFPK1Bvd2VyQnJlYWQrd2lraSZGT1JNPUhEUlNDNA&ntb=1
+        - listitem [ref=e35]:
+          - link "News" [ref=e36] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=3add639821b70e0f5f3edd8e7f8a2a8261756f6625c393ce5dd4c6815f9472e5JmltdHM9MTc3NDEzNzYwMA&ptn=3&ver=2&hsh=4&fclid=155dee48-dd88-6a04-2d11-f96cdcef6ba7&u=a1L25ld3Mvc2VhcmNoP3E9c2VlZWRzdHVkaW8rWElBTytQb3dlckJyZWFkK3dpa2kmRk9STT1IRFJTQzY&ntb=1
+        - listitem [ref=e37]:
+          - button "More" [ref=e38] [cursor=pointer]:
+            - img [ref=e40]
+            - text: More
+  - contentinfo "Footer" [ref=e42]:
+    - generic [ref=e43]:
+      - list:
+        - listitem [ref=e44]:
+          - link "Privacy" [ref=e45] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=243f3c6dd3a3e6bd065cdf694106774b520a9bc86ab5082b0b399980c890e221JmltdHM9MTc3NDEzNzYwMA&ptn=3&ver=2&hsh=4&fclid=155dee48-dd88-6a04-2d11-f96cdcef6ba7&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSWQ9NTIxODM5&ntb=1
+        - listitem [ref=e46]:
+          - link "Terms" [ref=e47] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=1a0d83a8b69b0edf8f9b734393764a9ab1905650da8da938c2a227e54830d1eaJmltdHM9MTc3NDEzNzYwMA&ptn=3&ver=2&hsh=4&fclid=155dee48-dd88-6a04-2d11-f96cdcef6ba7&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSUQ9MjQ2MzM4&ntb=1

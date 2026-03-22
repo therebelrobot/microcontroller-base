@@ -1,0 +1,271 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - link [ref=e7] [cursor=pointer]:
+          - /url: https://www.arduino.cc/
+          - img [ref=e8]
+        - link [ref=e11] [cursor=pointer]:
+          - /url: https://docs.arduino.cc/
+          - img [ref=e12]
+      - combobox [ref=e24]:
+        - generic [ref=e25]:
+          - button "Search" [ref=e28] [cursor=pointer]:
+            - img [ref=e29]
+          - searchbox "Search" [ref=e32]
+          - button / [ref=e35] [cursor=pointer]
+    - main [ref=e37]:
+      - generic [ref=e38]:
+        - generic [ref=e39]:
+          - link "Go Back" [ref=e41] [cursor=pointer]:
+            - /url: /hardware/
+            - img [ref=e43]
+            - generic [ref=e46]: Go Back
+          - generic [ref=e48]: Hardware
+          - button [ref=e49]:
+            - img [ref=e50]
+        - generic [ref=e53]:
+          - button "MKR Family" [ref=e54]:
+            - generic [ref=e55] [cursor=pointer]:
+              - heading "MKR Family" [level=5] [ref=e57]
+              - img [ref=e59]
+          - button "UNO Family Boards UNO Mini Limited Edition UNO Q UNO R4 Minima UNO R4 WiFi UNO R3 UNO R3 SMD UNO WiFi Rev2 Shields 4 Relays Shield 9 Axis Motion Shield Ethernet Shield Rev2 Motor Shield Rev3 UNO SPE Shield" [ref=e62]:
+            - generic [ref=e63] [cursor=pointer]:
+              - heading "UNO Family" [level=5] [ref=e65]
+              - img [ref=e67]
+            - generic [ref=e70]:
+              - heading "Boards" [level=6] [ref=e72]
+              - generic [ref=e74]:
+                - link "UNO Mini Limited Edition" [ref=e75] [cursor=pointer]:
+                  - /url: /hardware/uno-mini-limited-edition
+                - link "UNO Q" [ref=e76] [cursor=pointer]:
+                  - /url: /hardware/uno-q
+                - link "UNO R4 Minima" [ref=e77] [cursor=pointer]:
+                  - /url: /hardware/uno-r4-minima
+                - link "UNO R4 WiFi" [ref=e78] [cursor=pointer]:
+                  - /url: /hardware/uno-r4-wifi
+                - link "UNO R3" [ref=e79] [cursor=pointer]:
+                  - /url: /hardware/uno-rev3
+                - link "UNO R3 SMD" [ref=e80] [cursor=pointer]:
+                  - /url: /hardware/uno-rev3-smd
+                - link "UNO WiFi Rev2" [ref=e81] [cursor=pointer]:
+                  - /url: /hardware/uno-wifi-rev2
+            - generic [ref=e82]:
+              - heading "Shields" [level=6] [ref=e84]
+              - generic [ref=e86]:
+                - link "4 Relays Shield" [ref=e87] [cursor=pointer]:
+                  - /url: /hardware/4-relays-shield
+                - link "9 Axis Motion Shield" [ref=e88] [cursor=pointer]:
+                  - /url: /hardware/9-axis-motion-shield
+                - link "Ethernet Shield Rev2" [ref=e89] [cursor=pointer]:
+                  - /url: /hardware/ethernet-shield-rev2
+                - link "Motor Shield Rev3" [ref=e90] [cursor=pointer]:
+                  - /url: /hardware/motor-shield-rev3
+                - link "UNO SPE Shield" [ref=e91] [cursor=pointer]:
+                  - /url: /hardware/spe-shield
+          - button "Nano Family" [ref=e92]:
+            - generic [ref=e93] [cursor=pointer]:
+              - heading "Nano Family" [level=5] [ref=e95]
+              - img [ref=e97]
+          - button "Portenta Family" [ref=e100]:
+            - generic [ref=e101] [cursor=pointer]:
+              - heading "Portenta Family" [level=5] [ref=e103]
+              - img [ref=e105]
+          - button "Pro Solutions and Kits" [ref=e108]:
+            - generic [ref=e109] [cursor=pointer]:
+              - heading "Pro Solutions and Kits" [level=5] [ref=e111]
+              - img [ref=e113]
+          - button "Nicla Family" [ref=e116]:
+            - generic [ref=e117] [cursor=pointer]:
+              - heading "Nicla Family" [level=5] [ref=e119]
+              - img [ref=e121]
+          - button "Opta" [ref=e124]:
+            - generic [ref=e125] [cursor=pointer]:
+              - heading "Opta" [level=5] [ref=e127]
+              - img [ref=e129]
+          - button "Education" [ref=e132]:
+            - generic [ref=e133] [cursor=pointer]:
+              - heading "Education" [level=5] [ref=e135]
+              - img [ref=e137]
+          - button "Kits" [ref=e140]:
+            - generic [ref=e141] [cursor=pointer]:
+              - heading "Kits" [level=5] [ref=e143]
+              - img [ref=e145]
+          - button "Mega" [ref=e148]:
+            - generic [ref=e149] [cursor=pointer]:
+              - heading "Mega" [level=5] [ref=e151]
+              - img [ref=e153]
+          - button "Modulino" [ref=e156]:
+            - generic [ref=e157] [cursor=pointer]:
+              - heading "Modulino" [level=5] [ref=e159]
+              - img [ref=e161]
+          - button "Classic" [ref=e164]:
+            - generic [ref=e165] [cursor=pointer]:
+              - heading "Classic" [level=5] [ref=e167]
+              - img [ref=e169]
+      - generic [ref=e172]:
+        - generic [ref=e173]:
+          - link "Home /" [ref=e174] [cursor=pointer]:
+            - /url: /
+            - text: Home
+            - generic [ref=e175]: /
+          - link "Hardware /" [ref=e176] [cursor=pointer]:
+            - /url: /hardware/
+            - text: Hardware
+            - generic [ref=e177]: /
+          - link "UNO R3" [ref=e178] [cursor=pointer]:
+            - /url: /hardware/uno-rev3
+        - generic [ref=e179]:
+          - generic [ref=e180]:
+            - generic [ref=e181]:
+              - heading "UNO R3" [level=1] [ref=e184]
+              - generic [ref=e185]:
+                - paragraph [ref=e187]: The Arduino UNO is the best board to get started with electronics and coding. If this is your first experience tinkering with the platform, the UNO is the most robust board you can start playing with. The UNO is the most used and documented board of the whole Arduino family.
+                - link "Get Started" [ref=e189] [cursor=pointer]:
+                  - /url: /tutorials/uno-rev3/getting-started/
+                  - generic [ref=e190]: Get Started
+            - generic [ref=e191]:
+              - img "UNO R3" [ref=e192]
+              - generic [ref=e193]:
+                - button "Interactive Viewer" [ref=e196]:
+                  - img [ref=e197]
+                  - generic: Interactive Viewer
+                - button "Pinout" [ref=e201]:
+                  - img [ref=e202]
+                  - generic: Pinout
+                - link "Buy now" [ref=e207] [cursor=pointer]:
+                  - /url: https://store.arduino.cc/arduino-uno-rev3
+                  - img [ref=e208]
+                  - generic [ref=e211]: Buy now
+          - generic [ref=e212]:
+            - heading "Downloadable resources" [level=2] [ref=e214]
+            - generic [ref=e216]:
+              - link "Pinout (PDF)" [ref=e217] [cursor=pointer]:
+                - /url: /resources/pinouts/A000066-full-pinout.pdf
+                - img [ref=e219]
+                - generic [ref=e222]: Pinout (PDF)
+              - link "Datasheet" [ref=e223] [cursor=pointer]:
+                - /url: /resources/datasheets/A000066-datasheet.pdf
+                - img [ref=e225]
+                - generic [ref=e228]: Datasheet
+              - link "Schematics" [ref=e229] [cursor=pointer]:
+                - /url: /resources/schematics/A000066-schematics.pdf
+                - img [ref=e231]
+                - generic [ref=e234]: Schematics
+              - link "CAD Files" [ref=e235] [cursor=pointer]:
+                - /url: /static/f70b5045f5f73c41d96e4b12775c31c6/A000066-cad-files.zip
+                - img [ref=e237]
+                - generic [ref=e240]: CAD Files
+          - generic [ref=e241]:
+            - generic [ref=e242]:
+              - button "Features" [ref=e244]
+              - button "Tutorials" [ref=e246]
+              - button "Tech Specs" [ref=e248]
+              - button "Compatibility" [ref=e250]
+              - button "Suggested Libraries" [ref=e252]
+            - generic [ref=e255]:
+              - paragraph [ref=e257]:
+                - text: Arduino UNO is a microcontroller board based on the
+                - strong [ref=e258]: ATmega328P
+                - text: . It has 14 digital input/output pins (of which 6 can be used as PWM outputs), 6 analog inputs, a 16 MHz ceramic resonator, a USB connection, a power jack, an ICSP header and a reset button. It contains everything needed to support the microcontroller; simply connect it to a computer with a USB cable or power it with a AC-to-DC adapter or battery to get started. You can tinker with your UNO without worrying too much about doing something wrong, worst case scenario you can replace the chip for a few dollars and start over again.
+              - generic [ref=e259]:
+                - generic [ref=e260]:
+                  - img "Configurability" [ref=e261]
+                  - generic [ref=e262]:
+                    - generic [ref=e263]: Replaceable chip
+                    - paragraph [ref=e265]: The ATmega328P can easily be replaced, as it is not soldered to the board.
+                - generic [ref=e266]:
+                  - img "Microcontroller" [ref=e267]
+                  - generic [ref=e268]:
+                    - generic [ref=e269]: EEPROM
+                    - generic [ref=e270]:
+                      - paragraph [ref=e271]: The ATmega328P also features 1kb of EEPROM, a memory which is not erased when powered off.
+                      - link "Documentation" [ref=e274] [cursor=pointer]:
+                        - /url: /learn/programming/eeprom-guide
+                - generic [ref=e275]:
+                  - img "Power" [ref=e276]
+                  - generic [ref=e277]:
+                    - generic [ref=e278]: Battery Connector
+                    - paragraph [ref=e280]: The Arduino UNO features a barrel plug connector, that works great with a standard 9V battery.
+        - generic [ref=e281]:
+          - heading "Certifications" [level=4] [ref=e282]
+          - generic [ref=e283]:
+            - button "RCM" [ref=e285]
+            - button "UKCA" [ref=e287]
+            - button "CE" [ref=e289]
+            - button "CE (EMC)" [ref=e291]
+            - button "CE (LVD)" [ref=e293]
+            - button "FCC" [ref=e295]
+            - button "IC" [ref=e297]
+            - button "UKCA (EMC)" [ref=e299]
+            - button "UKCA (LVD)" [ref=e301]
+        - generic [ref=e302]:
+          - heading "Connect and Contribute" [level=4] [ref=e303]
+          - generic [ref=e304]:
+            - generic [ref=e305]:
+              - link "Project Hub" [ref=e306] [cursor=pointer]:
+                - /url: https://projecthub.arduino.cc/?value=UNO R3
+              - link "GitHub Repository" [ref=e307] [cursor=pointer]:
+                - /url: https://github.com/arduino/docs-content
+              - link "Forum" [ref=e308] [cursor=pointer]:
+                - /url: https://forum.arduino.cc/c/hardware/12
+            - generic [ref=e309]:
+              - link "Product Compliance" [ref=e310] [cursor=pointer]:
+                - /url: /certifications/
+              - link "Help Center" [ref=e311] [cursor=pointer]:
+                - /url: https://support.arduino.cc/hc/en-us/articles/9264736457500-Hardware-Support
+              - link "Trademarks & Licensing" [ref=e312] [cursor=pointer]:
+                - /url: https://www.arduino.cc/en/trademark/
+        - generic [ref=e313]:
+          - heading "Was this article helpful?" [level=4] [ref=e314]
+          - generic [ref=e315]:
+            - button [ref=e316]:
+              - img [ref=e317]
+            - button [ref=e319]:
+              - img [ref=e320]
+    - contentinfo [ref=e323]:
+      - link "© 2026 Arduino" [ref=e324] [cursor=pointer]:
+        - /url: https://www.arduino.cc/
+      - generic [ref=e325]:
+        - link "Trademark & Copyright" [ref=e326] [cursor=pointer]:
+          - /url: https://www.arduino.cc/en/trademark/
+        - link "Whistleblowing" [ref=e327] [cursor=pointer]:
+          - /url: https://secure.ethicspoint.com/domain/media/en/gui/33575/
+        - link "Digital Services Act" [ref=e328] [cursor=pointer]:
+          - /url: https://www.arduino.cc/en/digital-services-act/
+        - link "Terms Of Service" [ref=e329] [cursor=pointer]:
+          - /url: https://www.arduino.cc/en/terms-conditions
+        - link "Privacy Policy" [ref=e330] [cursor=pointer]:
+          - /url: https://www.arduino.cc/en/privacy-policy
+        - link "Security" [ref=e331] [cursor=pointer]:
+          - /url: https://www.arduino.cc/en/security
+        - link "Cookie Settings" [ref=e332] [cursor=pointer]:
+          - /url: https://www.arduino.cc/en/cookie-policy
+  - iframe [ref=e334]:
+    - button "Help" [ref=f2e4] [cursor=pointer]:
+      - img [ref=f2e6]
+      - generic [ref=f2e13]: Help
+  - alertdialog "Notice" [ref=e336]:
+    - generic [ref=e338]:
+      - img "logo" [ref=e340]
+      - button "Close this notice" [ref=e341] [cursor=pointer]: ×
+      - document [ref=e342]:
+        - heading "Notice" [level=2] [ref=e343]
+        - generic [ref=e345]:
+          - text: With your consent, we use cookies, pixels, and similar tools ("cookies"), some provided by third parties, to operate, improve, and personalize our site; serve ads; collect visitor data; and record user sessions and interactions. We and our third-party vendors may monitor, record, and access information and data, including device data, IP address and online identifiers, for these and similar purposes. By clicking Accept, you agree to such purposes. If you continue to browse our site without clicking Accept, or if you click Reject, only cookies strictly necessary to operate and enable default website features and functionalities will be deployed.
+          - text: "More info:"
+          - link "PRIVACY POLICY" [ref=e346] [cursor=pointer]:
+            - /url: https://www.arduino.cc/en/privacy-policy/
+          - text: and
+          - link "COOKIE POLICY" [ref=e347] [cursor=pointer]:
+            - /url: https://www.arduino.cc/en/cookie-policy/
+          - text: .
+          - text: By clicking "Accept," "Reject," or "Manage Preferences" you agree to our
+          - link "TERMS OF USE" [ref=e348] [cursor=pointer]:
+            - /url: https://www.arduino.cc/en/terms-conditions/
+          - text: ", to the fullest extent permitted by law."
+      - generic [ref=e349]:
+        - button "Manage preferences" [ref=e351] [cursor=pointer]
+        - generic [ref=e352]:
+          - button "Reject" [ref=e353] [cursor=pointer]
+          - button "Accept" [ref=e354] [cursor=pointer]

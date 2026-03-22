@@ -1,0 +1,1634 @@
+- generic [ref=e2]:
+  - region "Skip to main content":
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#__docusaurus_skipToContent_fallback"
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - text: Collaborate with Seeed -
+      - link "Creator" [ref=e7] [cursor=pointer]:
+        - /url: https://www.seeedstudio.com/blog/affiliate-program/
+      - text: ","
+      - link "Ranger" [ref=e8] [cursor=pointer]:
+        - /url: https://www.seeedstudio.com/ranger-program/
+      - text: ", or"
+      - link "Contributor" [ref=e9] [cursor=pointer]:
+        - /url: https://wiki.seeedstudio.com/contributors/
+      - text: ", there is always a role ideal for you!"
+  - navigation "Main" [ref=e10]:
+    - generic [ref=e11]:
+      - generic [ref=e12]:
+        - link "Seeed Studio" [ref=e13] [cursor=pointer]:
+          - /url: /
+          - img "Seeed Studio" [ref=e15]
+        - button "Quick Links" [ref=e17] [cursor=pointer]
+        - button "Explore with Topics" [ref=e19] [cursor=pointer]
+        - button "FAQs" [ref=e21] [cursor=pointer]
+        - button "Get Involved" [ref=e23] [cursor=pointer]
+      - generic [ref=e24]:
+        - link "Bazaar 🛍️" [ref=e25] [cursor=pointer]:
+          - /url: https://www.seeedstudio.com/
+        - link "SenseCraft AI" [ref=e26] [cursor=pointer]:
+          - /url: https://sensecraft.seeed.cc/ai/#/home
+        - link [ref=e27] [cursor=pointer]:
+          - /url: https://sensecraft.seeed.cc/ai/#/home
+        - link "GitHub repository" [ref=e28] [cursor=pointer]:
+          - /url: https://github.com/Seeed-Studio/wiki-documents
+        - button "Switch between dark and light mode (currently dark mode)" [ref=e30] [cursor=pointer]:
+          - img [ref=e31]
+        - button "Search" [ref=e34] [cursor=pointer]:
+          - generic [ref=e35]:
+            - img [ref=e36]
+            - generic [ref=e38]: Search
+          - generic [ref=e39]:
+            - generic [ref=e40]: ⌘
+            - generic [ref=e41]: K
+  - generic [ref=e44]:
+    - complementary [ref=e45]:
+      - generic [ref=e47]:
+        - navigation "Docs sidebar" [ref=e48]:
+          - list [ref=e49]:
+            - listitem [ref=e50]:
+              - link "Getting Started" [ref=e51] [cursor=pointer]:
+                - /url: /Getting_Started/
+            - listitem [ref=e52]:
+              - link "Weekly Wiki" [ref=e53] [cursor=pointer]:
+                - /url: /weekly_wiki/
+            - listitem [ref=e54]:
+              - link "Sensing" [ref=e55] [cursor=pointer]:
+                - /url: /Sensor_Network/
+            - listitem [ref=e56]:
+              - generic [ref=e57]:
+                - link "Grove" [ref=e58] [cursor=pointer]:
+                  - /url: /Grove_System/
+                - button "Expand sidebar category 'Grove'" [ref=e59] [cursor=pointer]
+            - listitem [ref=e60]:
+              - generic [ref=e61]:
+                - link "SenseCAP" [ref=e62] [cursor=pointer]:
+                  - /url: /SenseCAP_introduction/
+                - button "Expand sidebar category 'SenseCAP'" [ref=e63] [cursor=pointer]
+            - listitem [ref=e64]:
+              - generic [ref=e65]:
+                - link "SenseCAP Indicator" [ref=e66] [cursor=pointer]:
+                  - /url: /Sensor/SenseCAP/SenseCAP_Indicator/Get_started_with_SenseCAP_Indicator/
+                - button "Expand sidebar category 'SenseCAP Indicator'" [ref=e67] [cursor=pointer]
+            - listitem [ref=e68]:
+              - generic [ref=e69]:
+                - link "SenseCAP Watcher" [ref=e70] [cursor=pointer]:
+                  - /url: /watcher/
+                - button "Expand sidebar category 'SenseCAP Watcher'" [ref=e71] [cursor=pointer]
+            - listitem [ref=e72]:
+              - generic [ref=e73]:
+                - link "mmWave Radar Sensor" [ref=e74] [cursor=pointer]:
+                  - /url: /mmwave_radar_Intro/
+                - button "Expand sidebar category 'mmWave Radar Sensor'" [ref=e75] [cursor=pointer]
+            - listitem [ref=e76]:
+              - generic [ref=e77]:
+                - link "XIAO" [ref=e78] [cursor=pointer]:
+                  - /url: /SeeedStudio_XIAO_Series_Introduction/
+                - button "Collapse sidebar category 'XIAO'" [expanded] [ref=e79] [cursor=pointer]
+              - list [ref=e80]:
+                - listitem [ref=e81]:
+                  - link "Exhibition for XIAO Series" [ref=e82] [cursor=pointer]:
+                    - /url: /xiao_topic_page/
+                - listitem [ref=e83]:
+                  - button "XIAO SAMD21" [ref=e85] [cursor=pointer]
+                - listitem [ref=e86]:
+                  - button "XIAO RA4M1" [ref=e88] [cursor=pointer]
+                - listitem [ref=e89]:
+                  - button "XIAO MG24" [ref=e91] [cursor=pointer]
+                - listitem [ref=e92]:
+                  - button "XIAO RP2040" [ref=e94] [cursor=pointer]
+                - listitem [ref=e95]:
+                  - button "XIAO RP2350" [ref=e97] [cursor=pointer]
+                - listitem [ref=e98]:
+                  - button "XIAO nRF52840 Series" [expanded] [ref=e100] [cursor=pointer]
+                  - list [ref=e101]:
+                    - listitem [ref=e102]:
+                      - link "Getting Started with Seeed Studio XIAO nRF52840 Series" [ref=e103] [cursor=pointer]:
+                        - /url: /XIAO_BLE/
+                    - listitem [ref=e104]:
+                      - button "RTOS" [ref=e106] [cursor=pointer]
+                    - listitem [ref=e107]:
+                      - button "Programming Language" [ref=e109] [cursor=pointer]
+                    - listitem [ref=e110]:
+                      - button "Platform" [ref=e112] [cursor=pointer]
+                    - listitem [ref=e113]:
+                      - button "Hardware Usage" [ref=e115] [cursor=pointer]
+                    - listitem [ref=e116]:
+                      - button "Bluetooth Libraries" [ref=e118] [cursor=pointer]
+                    - listitem [ref=e119]:
+                      - button "Embedded ML" [ref=e121] [cursor=pointer]
+                    - listitem [ref=e122]:
+                      - button "Application" [ref=e124] [cursor=pointer]
+                - listitem [ref=e125]:
+                  - button "XIAO nRF54L15 Series" [ref=e127] [cursor=pointer]
+                - listitem [ref=e128]:
+                  - button "XIAO ESP32C3" [ref=e130] [cursor=pointer]
+                - listitem [ref=e131]:
+                  - button "XIAO ESP32C5" [ref=e133] [cursor=pointer]
+                - listitem [ref=e134]:
+                  - button "XIAO ESP32C6" [ref=e136] [cursor=pointer]
+                - listitem [ref=e137]:
+                  - button "XIAO ESP32S3 Series" [ref=e139] [cursor=pointer]
+                - listitem [ref=e140]:
+                  - generic [ref=e141]:
+                    - link "XIAO Debug Mate" [ref=e142] [cursor=pointer]:
+                      - /url: /getting_started_with_xiao_debug_mate/
+                    - button "Expand sidebar category 'XIAO Debug Mate'" [ref=e143] [cursor=pointer]
+                - listitem [ref=e144]:
+                  - button "Expansion Boards for XIAO" [ref=e146] [cursor=pointer]
+                - listitem [ref=e147]:
+                  - button "XIAO + ESP-IDF + ESP-Matter" [ref=e149] [cursor=pointer]
+                - listitem [ref=e150]:
+                  - link "ESP-NOW on XIAO ESP32 Series" [ref=e151] [cursor=pointer]:
+                    - /url: /xiao_espnow/
+                - listitem [ref=e152]:
+                  - link "PCB Design for XIAO" [ref=e153] [cursor=pointer]:
+                    - /url: /PCB_Design_XIAO/
+                - listitem [ref=e154]:
+                  - button "Kit with Courses" [ref=e156] [cursor=pointer]
+                - listitem [ref=e157]:
+                  - link "FAQs for XIAO Series" [ref=e158] [cursor=pointer]:
+                    - /url: /XIAO_FAQ/
+            - listitem [ref=e159]:
+              - button "ePaper" [ref=e161] [cursor=pointer]
+            - listitem [ref=e162]:
+              - button "XIAO Gadgets" [ref=e164] [cursor=pointer]
+            - listitem [ref=e165]:
+              - generic [ref=e166]:
+                - link "Wio Terminal" [ref=e167] [cursor=pointer]:
+                  - /url: /Wio_Terminal_Intro/
+                - button "Expand sidebar category 'Wio Terminal'" [ref=e168] [cursor=pointer]
+            - listitem [ref=e169]:
+              - generic [ref=e170]:
+                - link "reSpeaker" [ref=e171] [cursor=pointer]:
+                  - /url: /respeaker/
+                - button "Expand sidebar category 'reSpeaker'" [ref=e172] [cursor=pointer]
+            - listitem [ref=e173]:
+              - button "Other Sensing Modules" [ref=e175] [cursor=pointer]
+            - listitem [ref=e176]:
+              - button "Other Microcontrollers" [ref=e178] [cursor=pointer]
+            - listitem [ref=e179]:
+              - link "Network" [ref=e180] [cursor=pointer]:
+                - /url: /Network/
+            - listitem [ref=e181]:
+              - generic [ref=e182]:
+                - link "Meshtastic Network" [ref=e183] [cursor=pointer]:
+                  - /url: /meshtastic_introduction/
+                - button "Expand sidebar category 'Meshtastic Network'" [ref=e184] [cursor=pointer]
+            - listitem [ref=e185]:
+              - button "LoRa Wio Series" [ref=e187] [cursor=pointer]
+            - listitem [ref=e188]:
+              - generic [ref=e189]:
+                - link "SenseCAP Gateway" [ref=e190] [cursor=pointer]:
+                  - /url: /Network/SenseCAP_Network/SenseCAP_Gateway_Intro/
+                - button "Expand sidebar category 'SenseCAP Gateway'" [ref=e191] [cursor=pointer]
+            - listitem [ref=e192]:
+              - generic [ref=e193]:
+                - link "SenseCAP K1100" [ref=e194] [cursor=pointer]:
+                  - /url: /SenseCAP_K1100_Intro/
+                - button "Expand sidebar category 'SenseCAP K1100'" [ref=e195] [cursor=pointer]
+            - listitem [ref=e196]:
+              - button "SenseCAP LoRaWAN Starter Kit" [ref=e198] [cursor=pointer]
+            - listitem [ref=e199]:
+              - button "Raspberry Pi Solutions" [ref=e201] [cursor=pointer]
+            - listitem [ref=e202]:
+              - generic [ref=e203]:
+                - link "Rockchip Solutions" [ref=e204] [cursor=pointer]:
+                  - /url: /Rockchip_network_solutions/
+                - button "Expand sidebar category 'Rockchip Solutions'" [ref=e205] [cursor=pointer]
+            - listitem [ref=e206]:
+              - button "Other Network Devices" [ref=e208] [cursor=pointer]
+            - listitem [ref=e209]:
+              - link "Edge Computing" [ref=e210] [cursor=pointer]:
+                - /url: /Edge_Computing/
+            - listitem [ref=e211]:
+              - button "RK Devices" [ref=e213] [cursor=pointer]
+            - listitem [ref=e214]:
+              - generic [ref=e215]:
+                - link "Raspberry Pi Devices" [ref=e216] [cursor=pointer]:
+                  - /url: /raspberry-pi-devices/
+                - button "Expand sidebar category 'Raspberry Pi Devices'" [ref=e217] [cursor=pointer]
+            - listitem [ref=e218]:
+              - generic [ref=e219]:
+                - link "NVIDIA® Jetson™" [ref=e220] [cursor=pointer]:
+                  - /url: /NVIDIA_Jetson/
+                - button "Expand sidebar category 'NVIDIA® Jetson™'" [ref=e221] [cursor=pointer]
+            - listitem [ref=e222]:
+              - button "ESP Devices" [ref=e224] [cursor=pointer]
+            - listitem [ref=e225]:
+              - generic [ref=e226]:
+                - link "BeagleBone®" [ref=e227] [cursor=pointer]:
+                  - /url: /BeagleBone/
+                - button "Expand sidebar category 'BeagleBone®'" [ref=e228] [cursor=pointer]
+            - listitem [ref=e229]:
+              - generic [ref=e230]:
+                - link "ODYSSEY" [ref=e231] [cursor=pointer]:
+                  - /url: /ODYSSEY_Intro/
+                - button "Expand sidebar category 'ODYSSEY'" [ref=e232] [cursor=pointer]
+            - listitem [ref=e233]:
+              - button "reCamera" [ref=e235] [cursor=pointer]
+            - listitem [ref=e236]:
+              - generic [ref=e237]:
+                - link "reTerminal E Series" [ref=e238] [cursor=pointer]:
+                  - /url: /reterminal_e10xx_main_page/
+                - button "Expand sidebar category 'reTerminal E Series'" [ref=e239] [cursor=pointer]
+            - listitem [ref=e240]:
+              - generic [ref=e241]:
+                - link "reTerminal D Series" [ref=e242] [cursor=pointer]:
+                  - /url: /reterminal_d10xx_main_page/
+                - button "Expand sidebar category 'reTerminal D Series'" [ref=e243] [cursor=pointer]
+            - listitem [ref=e244]:
+              - button "Other Edge Devices" [ref=e246] [cursor=pointer]
+            - listitem [ref=e247]:
+              - link "Robotics Page" [ref=e248] [cursor=pointer]:
+                - /url: /robotics_page/
+            - listitem [ref=e249]:
+              - button "Robot Kits" [ref=e251] [cursor=pointer]
+            - listitem [ref=e252]:
+              - button "Actuator" [ref=e254] [cursor=pointer]
+            - listitem [ref=e255]:
+              - button "Sensor" [ref=e257] [cursor=pointer]
+            - listitem [ref=e258]:
+              - button "Software" [ref=e260] [cursor=pointer]
+            - listitem [ref=e261]:
+              - link "SenseCraft & Cloud" [ref=e262] [cursor=pointer]:
+                - /url: /Cloud/
+            - listitem [ref=e263]:
+              - button "SenseCraft AI" [ref=e265] [cursor=pointer]
+            - listitem [ref=e266]:
+              - button "SenseCraft APP" [ref=e268] [cursor=pointer]
+            - listitem [ref=e269]:
+              - button "SenseCraft Data Platform" [ref=e271] [cursor=pointer]
+            - listitem [ref=e272]:
+              - generic [ref=e273]:
+                - link "SenseCraft HMI" [ref=e274] [cursor=pointer]:
+                  - /url: /sensecraft_hmi_overview/
+                - button "Expand sidebar category 'SenseCraft HMI'" [ref=e275] [cursor=pointer]
+            - listitem [ref=e276]:
+              - button "SenseCraft Blockchain" [ref=e278] [cursor=pointer]
+            - listitem [ref=e279]:
+              - link "Solutions" [ref=e280] [cursor=pointer]:
+                - /url: https://www.seeed.cc/category/solutions
+                - text: Solutions
+                - img [ref=e281]
+            - listitem [ref=e283]:
+              - generic [ref=e284]:
+                - link "AI Vision" [ref=e285] [cursor=pointer]:
+                  - /url: /ai-vision/
+                - button "Expand sidebar category 'AI Vision'" [ref=e286] [cursor=pointer]
+            - listitem [ref=e287]:
+              - generic [ref=e288]:
+                - link "AI Sound" [ref=e289] [cursor=pointer]:
+                  - /url: /ai-sound/
+                - button "Expand sidebar category 'AI Sound'" [ref=e290] [cursor=pointer]
+            - listitem [ref=e291]:
+              - button "AI Intelligent" [ref=e293] [cursor=pointer]
+            - listitem [ref=e294]:
+              - button "Device Integration & Control" [ref=e296] [cursor=pointer]
+            - listitem [ref=e297]:
+              - button "Environmental Monitoring" [ref=e299] [cursor=pointer]
+            - listitem [ref=e300]:
+              - generic [ref=e301]:
+                - link "Hazard Response" [ref=e302] [cursor=pointer]:
+                  - /url: /hazard-response/
+                - button "Expand sidebar category 'Hazard Response'" [ref=e303] [cursor=pointer]
+            - listitem [ref=e304]:
+              - button "Indoor-Outdoor Positioning" [ref=e306] [cursor=pointer]
+            - listitem [ref=e307]:
+              - link "Technology Topics" [ref=e308] [cursor=pointer]:
+                - /url: /topicintroduction/
+            - listitem [ref=e309]:
+              - generic [ref=e310]:
+                - link "Home Assistant" [ref=e311] [cursor=pointer]:
+                  - /url: /home_assistant_topic/
+                - button "Expand sidebar category 'Home Assistant'" [ref=e312] [cursor=pointer]
+            - listitem [ref=e313]:
+              - generic [ref=e314]:
+                - link "TinyML" [ref=e315] [cursor=pointer]:
+                  - /url: /tinyml_topic/
+                - button "Expand sidebar category 'TinyML'" [ref=e316] [cursor=pointer]
+            - listitem [ref=e317]:
+              - link "Open Source" [ref=e318] [cursor=pointer]:
+                - /url: /open_source_topic/
+            - listitem [ref=e319]:
+              - link "Edge AI" [ref=e320] [cursor=pointer]:
+                - /url: /edge_ai_topic/
+            - listitem [ref=e321]:
+              - link "Contributions" [ref=e322] [cursor=pointer]:
+                - /url: /Contributor/
+            - listitem [ref=e323]:
+              - generic [ref=e324]:
+                - link "Github Contributions Guide" [ref=e325] [cursor=pointer]:
+                  - /url: /Contribution-Guide/
+                - button "Expand sidebar category 'Github Contributions Guide'" [ref=e326] [cursor=pointer]
+            - listitem [ref=e327]:
+              - link "Scale up Your Creation with Seeed Studio Fusion" [ref=e328] [cursor=pointer]:
+                - /url: /Scale-up-Your-Creation-with-Fusion/
+            - listitem [ref=e329]:
+              - link "Popular Platforms" [ref=e330] [cursor=pointer]:
+                - /url: /popularplatforms/
+            - listitem [ref=e331]:
+              - generic [ref=e332]:
+                - link "Arduino" [ref=e333] [cursor=pointer]:
+                  - /url: /Arduino/
+                - button "Expand sidebar category 'Arduino'" [ref=e334] [cursor=pointer]
+            - listitem [ref=e335]:
+              - generic [ref=e336]:
+                - link "Raspberry Pi" [ref=e337] [cursor=pointer]:
+                  - /url: /Raspberry_Pi/
+                - button "Expand sidebar category 'Raspberry Pi'" [ref=e338] [cursor=pointer]
+            - listitem [ref=e339]:
+              - generic [ref=e340]:
+                - link "Micro:bit" [ref=e341] [cursor=pointer]:
+                  - /url: /microbit_wiki_page/
+                - button "Expand sidebar category 'Micro:bit'" [ref=e342] [cursor=pointer]
+            - listitem [ref=e343]:
+              - link "Discontinued Products" [ref=e344] [cursor=pointer]:
+                - /url: /discontinuedproducts/
+            - listitem [ref=e345]:
+              - button "Product List" [ref=e347] [cursor=pointer]
+            - listitem [ref=e348]:
+              - link "About Seeed" [ref=e349] [cursor=pointer]:
+                - /url: /About/
+            - listitem [ref=e350]:
+              - link "License" [ref=e351] [cursor=pointer]:
+                - /url: /License/
+        - button "Collapse sidebar" [ref=e352] [cursor=pointer]:
+          - img [ref=e353]
+    - main [ref=e357]:
+      - generic [ref=e359]:
+        - generic [ref=e360]:
+          - generic [ref=e361]:
+            - article [ref=e362]:
+              - navigation "Breadcrumbs" [ref=e363]:
+                - list [ref=e364]:
+                  - listitem [ref=e365]:
+                    - link "Home page" [ref=e366] [cursor=pointer]:
+                      - /url: /
+                      - img [ref=e367]
+                  - listitem [ref=e369]:
+                    - link "XIAO" [ref=e370] [cursor=pointer]:
+                      - /url: /SeeedStudio_XIAO_Series_Introduction/
+                  - listitem [ref=e371]:
+                    - generic [ref=e372]: XIAO nRF52840 Series
+                  - listitem [ref=e373]:
+                    - generic [ref=e374]: Getting Started with Seeed Studio XIAO nRF52840 Series
+              - generic [ref=e375]:
+                - heading "Getting Started with Seeed Studio XIAO nRF52840 Series" [level=1] [ref=e377]
+                - table [ref=e379]:
+                  - row "XIAO nRF52840 XIAO nRF52840 Sense XIAO nRF52840 Plus XIAO nRF52840 Sense Plus" [ref=e380]:
+                    - columnheader "XIAO nRF52840" [ref=e381]
+                    - columnheader "XIAO nRF52840 Sense" [ref=e382]
+                    - columnheader "XIAO nRF52840 Plus" [ref=e383]
+                    - columnheader "XIAO nRF52840 Sense Plus" [ref=e384]
+                  - row [ref=e385]:
+                    - cell [ref=e386]:
+                      - img [ref=e388]
+                    - cell [ref=e389]:
+                      - img [ref=e391]
+                    - cell [ref=e392]:
+                      - img [ref=e394]
+                    - cell [ref=e395]:
+                      - img [ref=e397]
+                  - row "Get One Now 🖱 Get One Now 🖱 Get One Now 🖱 Get One Now 🖱" [ref=e398]:
+                    - cell "Get One Now 🖱" [ref=e399]:
+                      - link "Get One Now 🖱" [ref=e401] [cursor=pointer]:
+                        - /url: https://www.seeedstudio.com/Seeed-XIAO-BLE-nRF52840-p-5201.html
+                        - strong [ref=e402]:
+                          - generic [ref=e403]: Get One Now 🖱
+                    - cell "Get One Now 🖱" [ref=e404]:
+                      - link "Get One Now 🖱" [ref=e406] [cursor=pointer]:
+                        - /url: https://www.seeedstudio.com/Seeed-XIAO-BLE-Sense-nRF52840-p-5253.html
+                        - strong [ref=e407]:
+                          - generic [ref=e408]: Get One Now 🖱
+                    - cell "Get One Now 🖱" [ref=e409]:
+                      - link "Get One Now 🖱" [ref=e411] [cursor=pointer]:
+                        - /url: https://www.seeedstudio.com/Seeed-Studio-XIAO-nRF52840-Plus-p-6359.html
+                        - strong [ref=e412]:
+                          - generic [ref=e413]: Get One Now 🖱
+                    - cell "Get One Now 🖱" [ref=e414]:
+                      - link "Get One Now 🖱" [ref=e416] [cursor=pointer]:
+                        - /url: https://www.seeedstudio.com/Seeed-Studio-XIAO-nRF52840-Sense-Plus-p-6360.html
+                        - strong [ref=e417]:
+                          - generic [ref=e418]: Get One Now 🖱
+                - paragraph [ref=e419]:
+                  - text: As the first wireless product in the Seeed Studio XIAO family,
+                  - strong [ref=e420]: Seeed Studio XIAO nRF52840
+                  - text: is equipped with a powerful
+                  - strong [ref=e421]: Nordic nRF52840 MCU
+                  - text: which integrates
+                  - strong [ref=e422]: Bluetooth 5.0
+                  - text: connectivity. Meanwhile, it has a
+                  - strong [ref=e423]: small and exquisite form-factor
+                  - text: which can be used for wearable devices and Internet of Things projects. The
+                  - strong [ref=e424]: single-sided surface-mountable design
+                  - text: and the onboard
+                  - strong [ref=e425]: Bluetooth antenna
+                  - text: can greatly facilitate the rapid deployment of IoT projects.
+                - paragraph [ref=e426]:
+                  - text: In addition, there is an advanced version of this board,
+                  - strong [ref=e427]: Seeed Studio XIAO nRF52840 Sense
+                  - text: . It is integrated with two extra onboard sensors. One of them is a
+                  - strong [ref=e428]: Pulse Density Modulation (PDM) Digital Microphone
+                  - text: . It can receive audio data in real-time which allows it to be used for audio recognition. The other one is a
+                  - strong [ref=e429]: 6-axis Inertial Measurement Unit (IMU)
+                  - text: ", this IMU can be very useful in TinyML projects like gesture recognition. These onboard sensors provide a great convenience for users while the board is ultra-small."
+                - paragraph [ref=e430]:
+                  - text: The newly upgraded
+                  - strong [ref=e431]: XIAO nRF52840 Plus and XIAO nRF52840 Sense Plus
+                  - text: provide considerable increases in functionality and usability. The number of multifunctional pins has been increased to
+                  - strong [ref=e432]: "20"
+                  - text: ","
+                  - strong [ref=e433]: I2S
+                  - text: and
+                  - strong [ref=e434]: SPI
+                  - text: resources have been added to support more complex projects,
+                  - strong [ref=e435]: NFC pins
+                  - text: have been exposed for easier integration into IoT and smart card applications, and the
+                  - strong [ref=e436]: BAT pin
+                  - text: has been repositioned for better soldering convenience, resulting in a more user-friendly hardware experience.
+                - paragraph [ref=e437]:
+                  - text: Compared to Seeed Studio XIAO RP2040, Seeed Studio XIAO nRF52840 contains
+                  - strong [ref=e438]: richer interfaces
+                  - text: . The first thing to note is that the
+                  - strong [ref=e439]: Near Field Communication (NFC) interface
+                  - text: is functional on the board. Secondly, there is a tiny
+                  - strong [ref=e440]: reset button
+                  - text: on the side of the Type-C interface. On the other side, there is a
+                  - strong [ref=e441]: 3-in-one LED (User LED)
+                  - text: along with a
+                  - strong [ref=e442]: Charge LED
+                  - text: to indicate the charging status when a battery is connected. There are
+                  - strong [ref=e443]: 11 digital I/O
+                  - text: that can be used as
+                  - strong [ref=e444]: PWM pins
+                  - text: and
+                  - strong [ref=e445]: 6 analog I/O
+                  - text: that can be used as
+                  - strong [ref=e446]: ADC pins
+                  - text: . It supports all three common serial interfaces such as
+                  - strong [ref=e447]: UART, I2C, and SPI
+                  - text: . Same as Seeed Studio XIAO RP2040, it has an
+                  - strong [ref=e448]: onboard 2 MB flash
+                  - text: which means it can also be programmed using
+                  - strong [ref=e449]: Arduino, MicroPython, CircuitPython, or other programming languages
+                  - text: .
+                - paragraph [ref=e450]: Seeed Studio XIAO nRF52840 Sense is compatible to the Seeed Studio XIAO expansion board.
+                - link "Get One Now 🖱️" [ref=e452] [cursor=pointer]:
+                  - /url: https://www.seeedstudio.com/Seeed-XIAO-BLE-nRF52840-p-5201.html
+                  - strong [ref=e453]:
+                    - generic [ref=e454]: Get One Now 🖱️
+                - heading "FeaturesDirect link to Features" [level=2] [ref=e455]:
+                  - text: Features
+                  - link "Direct link to Features" [ref=e456] [cursor=pointer]:
+                    - /url: "#features"
+                    - text: "#"
+                - list [ref=e457]:
+                  - listitem [ref=e458]: "Powerful wireless capabilities: Bluetooth 5.0 with onboard antenna"
+                  - listitem [ref=e459]: "Powerful CPU: Nordic nRF52840, ARM® Cortex®-M4 32-bit processor with FPU, 64 MHz"
+                  - listitem [ref=e460]: "Ultra-Low Power: Standby power consumption is less than 5μA"
+                  - listitem [ref=e461]: "Battery charging chip: Supports lithium battery charge and discharge management"
+                  - listitem [ref=e462]: Onboard 2 MB flash
+                  - listitem [ref=e463]: Onboard PDM microphone (only in Seeed Studio XIAO nRF52840 Sense)
+                  - listitem [ref=e464]: Onboard 6-axis LSM6DS3TR-C IMU (only in Seeed Studio XIAO nRF52840 Sense)
+                  - listitem [ref=e465]: "Ultra Small Size: 21 x 17.8mm, Seeed Studio XIAO series classic form-factor for wearable devices"
+                  - listitem [ref=e466]: "Rich interfaces: 1xUART, 1xI2C, 1xSPI, 1xNFC, 1xSWD, 11xGPIO(PWM), 6xADC in XIAO nRF52840 (Sense); and 2xUART, 1xI2C, 2xSPI, 1xI2S, 1xNFC, 1xSWD, 18xGPIO(PWM), 6xADC in XIAO nRF52840 (Sense) Plus"
+                  - listitem [ref=e467]: Single-sided components, surface mounting design
+                - heading "Specifications comparisonDirect link to Specifications comparison" [level=2] [ref=e468]:
+                  - text: Specifications comparison
+                  - link "Direct link to Specifications comparison" [ref=e469] [cursor=pointer]:
+                    - /url: "#specifications-comparison"
+                    - text: "#"
+                - table [ref=e471]:
+                  - row "Item Seeed Studio XIAO nRF52840 Seeed Studio XIAO nRF52840 Sense Seeed Studio XIAO nRF52840 Plus Seeed Studio XIAO nRF52840 Sense Plus" [ref=e472]:
+                    - columnheader "Item" [ref=e473]
+                    - columnheader "Seeed Studio XIAO nRF52840" [ref=e474]
+                    - columnheader "Seeed Studio XIAO nRF52840 Sense" [ref=e475]
+                    - columnheader "Seeed Studio XIAO nRF52840 Plus" [ref=e476]
+                    - columnheader "Seeed Studio XIAO nRF52840 Sense Plus" [ref=e477]
+                  - row "Processor Nordic nRF52840, ARM® Cortex®-M4 32-bit processor with FPU, 64 MHz" [ref=e478]:
+                    - rowheader "Processor" [ref=e479]
+                    - cell "Nordic nRF52840, ARM® Cortex®-M4 32-bit processor with FPU, 64 MHz" [ref=e480]
+                  - row "Wireless Connectivity Bluetooth Low Energy 5.4/ Bluetooth Mesh/NFC" [ref=e481]:
+                    - rowheader "Wireless Connectivity" [ref=e482]
+                    - cell "Bluetooth Low Energy 5.4/ Bluetooth Mesh/NFC" [ref=e483]
+                  - row "Memory 256 KB RAM,1MB Flash 2MB onboard Flash" [ref=e484]:
+                    - rowheader "Memory" [ref=e485]
+                    - cell "256 KB RAM,1MB Flash 2MB onboard Flash" [ref=e486]
+                  - row "Built-in Sensors N/A 6 DOF IMU (LSM6DS3TR-C), PDM Microphone N/A 6 DOF IMU (LSM6DS3TR-C), PDM Microphone" [ref=e487]:
+                    - rowheader "Built-in Sensors" [ref=e488]
+                    - cell "N/A" [ref=e489]
+                    - cell "6 DOF IMU (LSM6DS3TR-C), PDM Microphone" [ref=e490]
+                    - cell "N/A" [ref=e491]
+                    - cell "6 DOF IMU (LSM6DS3TR-C), PDM Microphone" [ref=e492]
+                  - row "Interfaces 1xI2C, 1xUART, 1xSPI 1xI2C, 2xUART, 2xSPI, 1xI2S" [ref=e493]:
+                    - rowheader "Interfaces" [ref=e494]
+                    - cell "1xI2C, 1xUART, 1xSPI" [ref=e495]
+                    - cell "1xI2C, 2xUART, 2xSPI, 1xI2S" [ref=e496]
+                  - row "PWM/Analog Pins 11/6 20/6" [ref=e497]:
+                    - rowheader "PWM/Analog Pins" [ref=e498]
+                    - cell "11/6" [ref=e499]
+                    - cell "20/6" [ref=e500]
+                  - row "Onboard Buttons Reset Button" [ref=e501]:
+                    - rowheader "Onboard Buttons" [ref=e502]
+                    - cell "Reset Button" [ref=e503]
+                  - row "Onboard LEDs 3-in-one LED/ Charge LED" [ref=e504]:
+                    - rowheader "Onboard LEDs" [ref=e505]
+                    - cell "3-in-one LED/ Charge LED" [ref=e506]
+                  - row "Battery Charge Chip BQ25101" [ref=e507]:
+                    - rowheader "Battery Charge Chip" [ref=e508]
+                    - cell "BQ25101" [ref=e509]
+                  - row "Programming Languages Arduino/ MicroPython/ CircuitPython" [ref=e510]:
+                    - rowheader "Programming Languages" [ref=e511]
+                    - cell "Arduino/ MicroPython/ CircuitPython" [ref=e512]
+                - heading "Hardware overviewDirect link to Hardware overview" [level=2] [ref=e513]:
+                  - text: Hardware overview
+                  - link "Direct link to Hardware overview" [ref=e514] [cursor=pointer]:
+                    - /url: "#hardware-overview"
+                    - text: "#"
+                - generic [ref=e515]:
+                  - tablist [ref=e516]:
+                    - tab "XIAO nRF52840/XIAO nRF52840 Sense" [selected] [ref=e517] [cursor=pointer]
+                    - tab "XIAO nRF52840 Plus/XIAO nRF52840 Sense Plus" [ref=e518] [cursor=pointer]
+                  - tabpanel [ref=e520]:
+                    - table [ref=e521]:
+                      - row "XIAO nRF52840/XIAO nRF52840 Sense front indication diagram" [ref=e522]:
+                        - columnheader "XIAO nRF52840/XIAO nRF52840 Sense front indication diagram" [ref=e523]
+                      - row [ref=e524]:
+                        - cell [ref=e525]:
+                          - img [ref=e527]
+                      - row "XIAO nRF52840/XIAO nRF52840 Sense back indication diagram" [ref=e528]:
+                        - columnheader "XIAO nRF52840/XIAO nRF52840 Sense back indication diagram" [ref=e529]
+                      - row [ref=e530]:
+                        - cell [ref=e531]:
+                          - img [ref=e533]
+                      - row "XIAO nRF52840/XIAO nRF52840 Sense Pin List" [ref=e534]:
+                        - columnheader "XIAO nRF52840/XIAO nRF52840 Sense Pin List" [ref=e535]
+                      - row [ref=e536]:
+                        - cell [ref=e537]:
+                          - img [ref=e539]
+                    - paragraph [ref=e540]:
+                      - strong [ref=e541]: Pin Map
+                    - table [ref=e542]:
+                      - rowgroup [ref=e543]:
+                        - row "XIAO Pin Function Chip Pin Description Arduino Name" [ref=e544]:
+                          - columnheader "XIAO Pin" [ref=e545]
+                          - columnheader "Function" [ref=e546]
+                          - columnheader "Chip Pin" [ref=e547]
+                          - columnheader "Description" [ref=e548]
+                          - columnheader "Arduino Name" [ref=e549]
+                      - rowgroup [ref=e550]:
+                        - row "5V VBUS Power Input/Output" [ref=e551]:
+                          - cell "5V" [ref=e552]
+                          - cell "VBUS" [ref=e553]
+                          - cell [ref=e554]
+                          - cell "Power Input/Output" [ref=e555]
+                          - cell [ref=e556]
+                        - row "GND" [ref=e557]:
+                          - cell "GND" [ref=e558]
+                          - cell [ref=e559]
+                          - cell [ref=e560]
+                          - cell [ref=e561]
+                          - cell [ref=e562]
+                        - row "3V3 3V3_OUT Power Output" [ref=e563]:
+                          - cell "3V3" [ref=e564]
+                          - cell "3V3_OUT" [ref=e565]
+                          - cell [ref=e566]
+                          - cell "Power Output" [ref=e567]
+                          - cell [ref=e568]
+                        - row "D0 Analog P0.02 GPIO, AIN0 0" [ref=e569]:
+                          - cell "D0" [ref=e570]
+                          - cell "Analog" [ref=e571]
+                          - cell "P0.02" [ref=e572]
+                          - cell "GPIO, AIN0" [ref=e573]
+                          - cell "0" [ref=e574]
+                        - row "D1 Analog P0.03 GPIO, AIN1 1" [ref=e575]:
+                          - cell "D1" [ref=e576]
+                          - cell "Analog" [ref=e577]
+                          - cell "P0.03" [ref=e578]
+                          - cell "GPIO, AIN1" [ref=e579]
+                          - cell "1" [ref=e580]
+                        - row "D2 Analog P0.28 GPIO, AIN4 2" [ref=e581]:
+                          - cell "D2" [ref=e582]
+                          - cell "Analog" [ref=e583]
+                          - cell "P0.28" [ref=e584]
+                          - cell "GPIO, AIN4" [ref=e585]
+                          - cell "2" [ref=e586]
+                        - row "D3 Analog P0.29 GPIO, AIN5 3" [ref=e587]:
+                          - cell "D3" [ref=e588]
+                          - cell "Analog" [ref=e589]
+                          - cell "P0.29" [ref=e590]
+                          - cell "GPIO, AIN5" [ref=e591]
+                          - cell "3" [ref=e592]
+                        - row "D4 Analog,SDA P0.04 GPIO, I2C Data, AIN2 4" [ref=e593]:
+                          - cell "D4" [ref=e594]
+                          - cell "Analog,SDA" [ref=e595]
+                          - cell "P0.04" [ref=e596]
+                          - cell "GPIO, I2C Data, AIN2" [ref=e597]
+                          - cell "4" [ref=e598]
+                        - row "D5 Analog,SCL P0.05 GPIO, I2C Clock, AIN3 5" [ref=e599]:
+                          - cell "D5" [ref=e600]
+                          - cell "Analog,SCL" [ref=e601]
+                          - cell "P0.05" [ref=e602]
+                          - cell "GPIO, I2C Clock, AIN3" [ref=e603]
+                          - cell "5" [ref=e604]
+                        - row "D6 TX P1.11 GPIO, UART Transmit 7/6" [ref=e605]:
+                          - cell "D6" [ref=e606]
+                          - cell "TX" [ref=e607]
+                          - cell "P1.11" [ref=e608]
+                          - cell "GPIO, UART Transmit" [ref=e609]
+                          - cell "7/6" [ref=e610]
+                        - row "D7 RX P1.12 GPIO, UART Receive 8/7" [ref=e611]:
+                          - cell "D7" [ref=e612]
+                          - cell "RX" [ref=e613]
+                          - cell "P1.12" [ref=e614]
+                          - cell "GPIO, UART Receive" [ref=e615]
+                          - cell "8/7" [ref=e616]
+                        - row "D8 SPI_SCK P1.13 GPIO, SPI Clock 9/8" [ref=e617]:
+                          - cell "D8" [ref=e618]
+                          - cell "SPI_SCK" [ref=e619]
+                          - cell "P1.13" [ref=e620]
+                          - cell "GPIO, SPI Clock" [ref=e621]
+                          - cell "9/8" [ref=e622]
+                        - row "D9 SPI_MISO P1.14 GPIO, SPI Data 10/9" [ref=e623]:
+                          - cell "D9" [ref=e624]
+                          - cell "SPI_MISO" [ref=e625]
+                          - cell "P1.14" [ref=e626]
+                          - cell "GPIO, SPI Data" [ref=e627]
+                          - cell "10/9" [ref=e628]
+                        - row "D10 SPI_MOSI P1.15 GPIO, SPI Data 11/10" [ref=e629]:
+                          - cell "D10" [ref=e630]
+                          - cell "SPI_MOSI" [ref=e631]
+                          - cell "P1.15" [ref=e632]
+                          - cell "GPIO, SPI Data" [ref=e633]
+                          - cell "11/10" [ref=e634]
+                        - row "NFC1 P0.09 NFC" [ref=e635]:
+                          - cell "NFC1" [ref=e636]
+                          - cell [ref=e637]
+                          - cell "P0.09" [ref=e638]
+                          - cell "NFC" [ref=e639]
+                          - cell [ref=e640]
+                        - row "NFC2 P0.10 NFC" [ref=e641]:
+                          - cell "NFC2" [ref=e642]
+                          - cell [ref=e643]
+                          - cell "P0.10" [ref=e644]
+                          - cell "NFC" [ref=e645]
+                          - cell [ref=e646]
+                        - row "Reset P0.18 RESET" [ref=e647]:
+                          - cell "Reset" [ref=e648]
+                          - cell [ref=e649]
+                          - cell "P0.18" [ref=e650]
+                          - cell "RESET" [ref=e651]
+                          - cell [ref=e652]
+                        - row "ADC_BAT P0.14 Read the BAT voltage value" [ref=e653]:
+                          - cell "ADC_BAT" [ref=e654]
+                          - cell [ref=e655]
+                          - cell "P0.14" [ref=e656]
+                          - cell "Read the BAT voltage value" [ref=e657]
+                          - cell [ref=e658]
+                        - row "6 DOF IMU_PWR P1.08 power switch of the 6D module" [ref=e659]:
+                          - cell "6 DOF IMU_PWR" [ref=e660]
+                          - cell [ref=e661]
+                          - cell "P1.08" [ref=e662]
+                          - cell "power switch of the 6D module" [ref=e663]
+                          - cell [ref=e664]
+                        - row "6 DOF IMU__INT1 P0.11 Interrupt signal pin of the 6D module" [ref=e665]:
+                          - cell "6 DOF IMU__INT1" [ref=e666]
+                          - cell [ref=e667]
+                          - cell "P0.11" [ref=e668]
+                          - cell "Interrupt signal pin of the 6D module" [ref=e669]
+                          - cell [ref=e670]
+                        - row "PDM Microphone_DATA P0.16 PDM audio data input pin" [ref=e671]:
+                          - cell "PDM Microphone_DATA" [ref=e672]
+                          - cell [ref=e673]
+                          - cell "P0.16" [ref=e674]
+                          - cell "PDM audio data input pin" [ref=e675]
+                          - cell [ref=e676]
+                        - row "PDM Microphone_CLK P1.00 PDM audio clock output pin" [ref=e677]:
+                          - cell "PDM Microphone_CLK" [ref=e678]
+                          - cell [ref=e679]
+                          - cell "P1.00" [ref=e680]
+                          - cell "PDM audio clock output pin" [ref=e681]
+                          - cell [ref=e682]
+                        - row "RF Switch Port Select P2.05 Switch onboard antenna" [ref=e683]:
+                          - cell "RF Switch Port Select" [ref=e684]
+                          - cell [ref=e685]
+                          - cell "P2.05" [ref=e686]
+                          - cell "Switch onboard antenna" [ref=e687]
+                          - cell [ref=e688]
+                        - row "RF Switch Power P2.03 Power" [ref=e689]:
+                          - cell "RF Switch Power" [ref=e690]
+                          - cell [ref=e691]
+                          - cell "P2.03" [ref=e692]
+                          - cell "Power" [ref=e693]
+                          - cell [ref=e694]
+                        - row "CHARGE_LED P0.17 CHG-LED_Red" [ref=e695]:
+                          - cell "CHARGE_LED" [ref=e696]
+                          - cell [ref=e697]
+                          - cell "P0.17" [ref=e698]
+                          - cell "CHG-LED_Red" [ref=e699]
+                          - cell [ref=e700]
+                        - row "USER_LED_R P0.26 User-controlled red RGB LED pin 11" [ref=e701]:
+                          - cell "USER_LED_R" [ref=e702]
+                          - cell [ref=e703]
+                          - cell "P0.26" [ref=e704]
+                          - cell "User-controlled red RGB LED pin" [ref=e705]
+                          - cell "11" [ref=e706]
+                        - row "USER_LED_B P0.06 User-controlled blue RGB LED pin 13/12" [ref=e707]:
+                          - cell "USER_LED_B" [ref=e708]
+                          - cell [ref=e709]
+                          - cell "P0.06" [ref=e710]
+                          - cell "User-controlled blue RGB LED pin" [ref=e711]
+                          - cell "13/12" [ref=e712]
+                        - row "USER_LED_G P0.30 User-controlled green RGB LED pin 12/13" [ref=e713]:
+                          - cell "USER_LED_G" [ref=e714]
+                          - cell [ref=e715]
+                          - cell "P0.30" [ref=e716]
+                          - cell "User-controlled green RGB LED pin" [ref=e717]
+                          - cell "12/13" [ref=e718]
+                - heading "Two Arduino LibrariesDirect link to Two Arduino Libraries" [level=2] [ref=e719]:
+                  - text: Two Arduino Libraries
+                  - link "Direct link to Two Arduino Libraries" [ref=e720] [cursor=pointer]:
+                    - /url: "#two-arduino-libraries"
+                    - text: "#"
+                - paragraph [ref=e721]:
+                  - text: Seeed Studio XIAO nRF52840 assembles many functions in one tiny board and sometimes may not perform the best of them. Hence, Seeed has published two Arduino libraries to let it
+                  - strong [ref=e722]: maximum the power of each function
+                  - text: ". Therefore:"
+                - list [ref=e723]:
+                  - listitem [ref=e724]:
+                    - text: It is recommanded to use the
+                    - code [ref=e725]: Seeed nRF52 Boards
+                    - text: library if you want to apply
+                    - strong [ref=e726]: Bluetooth function
+                    - text: and "
+                    - strong [ref=e727]: Low Energy Cost Function
+                    - text: "\"."
+                  - listitem [ref=e728]:
+                    - text: It is recommanded to use the
+                    - code [ref=e729]: Seeed nRF52 mbed-enabled Boards
+                    - text: library if you want to use it in
+                    - strong [ref=e730]: embedded Machine Learning Applications
+                    - text: or apply "
+                    - strong [ref=e731]: IMU & PDM advanced function
+                    - text: "\"."
+                  - listitem [ref=e732]:
+                    - text: Both libraries support very well when it comes to the basic usage, such as
+                    - strong [ref=e733]: LED, Digital, Analog, Serial, I2C, SPI
+                    - text: .
+                - paragraph [ref=e734]: The Pin definition supported by these two libraries might be a little different and Seeed will keep update the wiki until it is clear.
+                - generic [ref=e735]:
+                  - generic [ref=e736]:
+                    - img [ref=e738]
+                    - text: tip
+                  - list [ref=e741]:
+                    - listitem [ref=e742]:
+                      - paragraph [ref=e743]:
+                        - text: If you use the onboard package of Seeed nRF52 Boards, the Serial function may not compile. The solution is to add the line
+                        - code [ref=e744]: "#include <Adafruit_TinyUSB.h>"
+                        - text: "in your code. You can download this package from:"
+                        - link "https://github.com/adafruit/Adafruit_TinyUSB_Arduino" [ref=e745] [cursor=pointer]:
+                          - /url: https://github.com/adafruit/Adafruit_TinyUSB_Arduino
+                    - listitem [ref=e746]:
+                      - paragraph [ref=e747]: If you prefer a simpler approach, you can choose Seeed nRF52 mbed-enabled Boards from the beginning. It supports the compilation of the Serial function without the need for additional modifications.
+                - heading "Getting startedDirect link to Getting started" [level=2] [ref=e748]:
+                  - text: Getting started
+                  - link "Direct link to Getting started" [ref=e749] [cursor=pointer]:
+                    - /url: "#getting-started"
+                    - text: "#"
+                - paragraph [ref=e750]: First, we are going to connect the Seeed Studio XIAO nRF52840 (Sense) to the computer and upload a simple code from Arduino IDE to check whether the board is functioning well.
+                - heading "Hardware setupDirect link to Hardware setup" [level=3] [ref=e751]:
+                  - text: Hardware setup
+                  - link "Direct link to Hardware setup" [ref=e752] [cursor=pointer]:
+                    - /url: "#hardware-setup"
+                    - text: "#"
+                - paragraph [ref=e753]: "You need to prepare the following:"
+                - list [ref=e754]:
+                  - listitem [ref=e755]:
+                    - text: 1 x
+                    - link "Seeed Studio XIAO nRF52840" [ref=e756] [cursor=pointer]:
+                      - /url: https://www.seeedstudio.com/Seeed-XIAO-BLE-nRF52840-p-5201.html
+                    - text: or
+                    - link "Studio XIAO nRF52840 Sense" [ref=e757] [cursor=pointer]:
+                      - /url: https://www.seeedstudio.com/Seeed-XIAO-BLE-Sense-nRF52840-p-5253.html
+                  - listitem [ref=e758]: 1 x Computer
+                  - listitem [ref=e759]: 1 x USB Type-C cable
+                - generic [ref=e760]:
+                  - generic [ref=e761]:
+                    - img [ref=e763]
+                    - text: tip
+                  - paragraph [ref=e766]:
+                    - text: Some USB cables can only supply power and cannot transfer data. If you don't have a USB cable or don't know if your USB cable can transmit data, you can check
+                    - link "Seeed USB Type-C support USB 3.1" [ref=e767] [cursor=pointer]:
+                      - /url: https://www.seeedstudio.com/USB-3-1-Type-C-to-A-Cable-1-Meter-3-1A-p-4085.html
+                    - text: .
+                - paragraph [ref=e768]: Connect the Seeed Studio XIAO nRF52840 (Sense) to your computer via a USB Type-C cable.
+                - paragraph [ref=e769]:
+                  - img "pir" [ref=e770]
+                - heading "Software setupDirect link to Software setup" [level=3] [ref=e771]:
+                  - text: Software setup
+                  - link "Direct link to Software setup" [ref=e772] [cursor=pointer]:
+                    - /url: "#software-setup"
+                    - text: "#"
+                - list [ref=e773]:
+                  - listitem [ref=e774]:
+                    - strong [ref=e775]: Step 1.
+                    - text: Download and Install the latest version of Arduino IDE according to your operating system
+                - paragraph [ref=e776]:
+                  - link "pir" [ref=e777] [cursor=pointer]:
+                    - /url: https://www.arduino.cc/en/software
+                    - img "pir" [ref=e778]
+                - list [ref=e779]:
+                  - listitem [ref=e780]:
+                    - paragraph [ref=e781]:
+                      - strong [ref=e782]: Step 2.
+                      - text: Launch the Arduino application
+                  - listitem [ref=e783]:
+                    - paragraph [ref=e784]:
+                      - strong [ref=e785]: Step 3.
+                      - text: Add Seeed Studio XIAO nRF52840 (Sense) board package to your Arduino IDE
+                - paragraph [ref=e786]:
+                  - text: Navigate to
+                  - strong [ref=e787]: File > Preferences
+                  - text: ", and fill"
+                  - strong [ref=e788]: "\"Additional Boards Manager URLs\""
+                  - text: "with the url below:"
+                  - emphasis [ref=e789]:
+                    - link "https://files.seeedstudio.com/arduino/package_seeeduino_boards_index.json" [ref=e790] [cursor=pointer]:
+                      - /url: https://files.seeedstudio.com/arduino/package_seeeduino_boards_index.json
+                - paragraph [ref=e791]:
+                  - img "pir" [ref=e792]
+                - paragraph [ref=e793]:
+                  - text: Navigate to
+                  - strong [ref=e794]: Tools > Board > Boards Manager...
+                  - text: ", type the keyword \""
+                  - strong [ref=e795]: seeed nrf52
+                  - text: "\" in the search box, select the latest version of the board you want, and install it. You can install both."
+                - paragraph [ref=e796]:
+                  - img "pir" [ref=e797]
+                - list [ref=e798]:
+                  - listitem [ref=e799]:
+                    - strong [ref=e800]: Step 4.
+                    - text: Select your board and port
+                - paragraph [ref=e801]:
+                  - strong [ref=e802]: Board
+                - paragraph [ref=e803]:
+                  - text: After installing the board package, navigate to
+                  - strong [ref=e804]: Tools > Board
+                  - text: and choose the board you want, continue to select "
+                  - strong [ref=e805]: Seeed XIAO nRF52840 Sense
+                  - text: "\". Now we have finished setting up the Seeed Studio XIAO nRF52840 (Sense) for Arduino IDE."
+                - paragraph [ref=e806]:
+                  - img "pir" [ref=e807]
+                - paragraph [ref=e808]:
+                  - strong [ref=e809]: Port
+                - paragraph [ref=e810]:
+                  - text: Navigate to
+                  - strong [ref=e811]: Tools > Port
+                  - text: and select the serial port name of the connected Seeed Studio XIAO nRF52840 (Sense). This is likely to be COM3 or higher (
+                  - strong [ref=e812]: COM1
+                  - text: and
+                  - strong [ref=e813]: COM2
+                  - text: are usually reserved for hardware serial ports). The serial port of the connected Seeed Studio XIAO nRF52840 (Sense) usually contains parentheses that are written
+                  - strong [ref=e814]: Seeed Studio XIAO nRF52840
+                  - text: for
+                  - strong [ref=e815]: Seeed Studio XIAO nRF52840
+                  - text: or
+                  - strong [ref=e816]: Seeed Studio XIAO nRF52840 Sense
+                  - text: for
+                  - strong [ref=e817]: Seeed Studio XIAO nRF52840 Sense
+                  - text: .
+                - paragraph [ref=e818]:
+                  - img "pir" [ref=e819]
+                - list [ref=e820]:
+                  - listitem [ref=e821]:
+                    - strong [ref=e822]: Step 5.
+                    - text: Navigate to
+                    - strong [ref=e823]: File > Examples > 01.Basics > Blink
+                    - text: to open
+                    - strong [ref=e824]: Blink
+                    - text: example
+                - paragraph [ref=e825]:
+                  - img "pir" [ref=e826]
+                - list [ref=e827]:
+                  - listitem [ref=e828]:
+                    - strong [ref=e829]: Step 6.
+                    - text: Click the
+                    - strong [ref=e830]: Upload
+                    - text: button to upload the Blink example code to the board
+                - paragraph [ref=e831]:
+                  - img "pir" [ref=e832]
+                - paragraph [ref=e833]: Once uploaded, you will see the built-in red LED blinking with a 1-second delay between each blink. This means the connection is successful and now you can explore more projects with the Seeed Studio XIAO nRF52840 (Sense)!
+                - heading "Playing with the built-in 3-in-one LEDDirect link to Playing with the built-in 3-in-one LED" [level=2] [ref=e834]:
+                  - text: Playing with the built-in 3-in-one LED
+                  - link "Direct link to Playing with the built-in 3-in-one LED" [ref=e835] [cursor=pointer]:
+                    - /url: "#playing-with-the-built-in-3-in-one-led"
+                    - text: "#"
+                - paragraph [ref=e836]:
+                  - text: Seeed Studio XIAO nRF52840 (Sense) has an
+                  - strong [ref=e837]: onboard 3-in-one LED
+                  - text: which is user-programmable. Now you will learn how to control the RGB colors one-by-one using Arduino!
+                - paragraph [ref=e838]:
+                  - text: You first have to understand that the behavior of this LED is not as usual when controlled by the code. The
+                  - strong [ref=e839]: LED turns ON
+                  - text: when we give a
+                  - strong [ref=e840]: LOW signal
+                  - text: and it
+                  - strong [ref=e841]: turns OFF
+                  - text: when we give a
+                  - strong [ref=e842]: HIGH signal
+                  - text: . This is because this LED is controlled by a common anode and will light up only with a low-level signal.
+                - paragraph [ref=e843]: "An example code would be:"
+                - generic [ref=e845]:
+                  - code [ref=e847]:
+                    - generic [ref=e848]: "void setup() {"
+                    - generic [ref=e849]: pinMode(LED_BUILTIN, OUTPUT);
+                    - generic [ref=e850]: "}"
+                    - generic [ref=e851]: "void loop() {"
+                    - generic [ref=e852]: digitalWrite(LED_BUILTIN, HIGH);
+                    - generic [ref=e853]: "}"
+                  - button "Copy code to clipboard" [ref=e855] [cursor=pointer]:
+                    - generic [ref=e856]:
+                      - img [ref=e857]
+                      - img [ref=e859]
+                - paragraph [ref=e861]:
+                  - text: Here, even though
+                  - strong [ref=e862]: HIGH
+                  - text: is used, the LED will be
+                  - strong [ref=e863]: "OFF"
+                  - text: . You need to replace
+                  - strong [ref=e864]: HIGH
+                  - text: with
+                  - strong [ref=e865]: LOW
+                  - text: to turn
+                  - strong [ref=e866]: "ON"
+                  - text: the LED.
+                - paragraph [ref=e867]: "Refer to the following pin mappings of the LEDs and use them in your codes:"
+                - list [ref=e868]:
+                  - listitem [ref=e869]: Red LED = LED_BUILTIN or LED_RED
+                  - listitem [ref=e870]: Blue LED = LED_BLUE
+                  - listitem [ref=e871]: Green LED = LED_GREEN
+                - heading "Power Consumption VerificationDirect link to Power Consumption Verification" [level=2] [ref=e872]:
+                  - text: Power Consumption Verification
+                  - link "Direct link to Power Consumption Verification" [ref=e873] [cursor=pointer]:
+                    - /url: "#power-consumption-verification"
+                    - text: "#"
+                - paragraph [ref=e874]:
+                  - text: The Seeed Studio XIAO nRF52840 is low power consumption and here we provide a method to verify. It is highly recommend to use the
+                  - code [ref=e875]: Seeed nRF52 Boards
+                  - text: library here.
+                - list [ref=e876]:
+                  - listitem [ref=e877]:
+                    - strong [ref=e878]: Step 1.
+                    - text: Use
+                    - strong [ref=e879]: JLink
+                    - text: Downloader to flash the
+                    - link "bootloader firmware" [ref=e880] [cursor=pointer]:
+                      - /url: https://github.com/0hotpotman0/BLE_52840_Core/blob/main/bootloader/Seeed_XIAO_nRF52840_Sense/Seeed_XIAO_nRF52840_Sense_bootloader-0.6.1_s140_7.3.0.hex
+                    - text: for Seeed Studio XIAO nRF52840 (Sense).
+                - generic [ref=e881]:
+                  - generic [ref=e882]:
+                    - img [ref=e884]
+                    - text: note
+                  - paragraph [ref=e887]: If you are using the factory firmware of the Seeed Studio XIAO nRF52840 or have never made changes to the firmware of the Seeed Studio XIAO nRF52840, you can skip this step.
+                - list [ref=e888]:
+                  - listitem [ref=e889]:
+                    - strong [ref=e890]: Step 2.
+                    - text: Use the
+                    - code [ref=e891]: Seeed nRF52 Boards
+                    - text: library here.
+                - paragraph [ref=e892]:
+                  - img "pir" [ref=e893]
+                - list [ref=e894]:
+                  - listitem [ref=e895]:
+                    - strong [ref=e896]: Step 3.
+                    - text: Upload the deep_sleep demo here and run it with
+                    - strong [ref=e897]: Arduino
+                - generic [ref=e899]:
+                  - code [ref=e901]:
+                    - generic [ref=e902]: // The MIT License (MIT)
+                    - generic [ref=e903]: // Copyright (c) 2019 Ha Thach for Adafruit Industries
+                    - generic [ref=e904]: "#include \"SdFat.h\""
+                    - generic [ref=e905]: "#include \"Adafruit_SPIFlash.h\""
+                    - generic [ref=e906]: // Uncomment to run example with custom SPI and SS e.g with FRAM breakout
+                    - generic [ref=e907]: "// #define CUSTOM_CS A5"
+                    - generic [ref=e908]: "// #define CUSTOM_SPI SPI"
+                    - generic [ref=e909]: "#if defined(CUSTOM_CS) && defined(CUSTOM_SPI)"
+                    - generic [ref=e910]: Adafruit_FlashTransport_SPI flashTransport(CUSTOM_CS, CUSTOM_SPI);
+                    - generic [ref=e911]: "#elif defined(ARDUINO_ARCH_ESP32)"
+                    - generic [ref=e912]: // ESP32 use same flash device that store code.
+                    - generic [ref=e913]: // Therefore there is no need to specify the SPI and SS
+                    - generic [ref=e914]: Adafruit_FlashTransport_ESP32 flashTransport;
+                    - generic [ref=e915]: "#else"
+                    - generic [ref=e916]: // On-board external flash (QSPI or SPI) macros should already
+                    - generic [ref=e917]: // defined in your board variant if supported
+                    - generic [ref=e918]: // - EXTERNAL_FLASH_USE_QSPI
+                    - generic [ref=e919]: // - EXTERNAL_FLASH_USE_CS/EXTERNAL_FLASH_USE_SPI
+                    - generic [ref=e920]: "#if defined(EXTERNAL_FLASH_USE_QSPI)"
+                    - generic [ref=e921]: Adafruit_FlashTransport_QSPI flashTransport;
+                    - generic [ref=e922]: "#elif defined(EXTERNAL_FLASH_USE_SPI)"
+                    - generic [ref=e923]: Adafruit_FlashTransport_SPI flashTransport(EXTERNAL_FLASH_USE_CS, EXTERNAL_FLASH_USE_SPI);
+                    - generic [ref=e924]: "#else"
+                    - generic [ref=e925]: "#error No QSPI/SPI flash are defined on your board variant.h !"
+                    - generic [ref=e926]: "#endif"
+                    - generic [ref=e927]: "#endif"
+                    - generic [ref=e928]: Adafruit_SPIFlash flash(&flashTransport);
+                    - generic [ref=e929]: /* If you want to use a specific flash device, for example for a custom built board, first look for it in Adafruit_SPIFlash\src\flash_devices.h
+                    - generic [ref=e930]: "* If it isn't in there you need to create your own definition like the W25Q80DLX_EXAMPLE example below."
+                    - generic [ref=e931]: "* These definitions need to be edited to match information on the data sheet of the flash device that you want to use."
+                    - generic [ref=e932]: "* If you are not sure what the manufacture ID, memory type and capacity values should be, try running the sketch anyway and look at the serial output"
+                    - generic [ref=e933]: "* The flash device will report these values to you as a single hexadecimal value (the JDEC ID)"
+                    - generic [ref=e934]: "* For example, the first device on the list - the W25Q80DLX - will report its JDEC ID as 0xef4014, which is made of these three values:"
+                    - generic [ref=e935]: "* manufacturer_id = 0xef"
+                    - generic [ref=e936]: "* memory_type = 0x40"
+                    - generic [ref=e937]: "* capacity = 0x14"
+                    - generic [ref=e938]: "* With this macro properly defined you can then create an array of device definitions as shown below, this can include any from the list of devices in flash_devices.h, and any you define yourself here"
+                    - generic [ref=e939]: "* You need to update the variable on line 71 to reflect the number of items in the array"
+                    - generic [ref=e940]: "* You also need to uncomment line 84 and comment out line 81 so this array will be passed to the flash memory driver."
+                    - generic [ref=e941]: "*/"
+                    - generic [ref=e942]: "//Example of a user defined flash memory device:"
+                    - generic [ref=e943]: //#define W25Q80DLX_EXAMPLE \
+                    - generic [ref=e944]: "// { \\"
+                    - generic [ref=e945]: // .total_size = (1 << 20), /* 1 MiB */ \
+                    - generic [ref=e946]: // .start_up_time_us = 5000, .manufacturer_id = 0xef, \
+                    - generic [ref=e947]: // .memory_type = 0x40, .capacity = 0x14, .max_clock_speed_mhz = 80, \
+                    - generic [ref=e948]: // .quad_enable_bit_mask = 0x02, .has_sector_protection = false, \
+                    - generic [ref=e949]: // .supports_fast_read = true, .supports_qspi = true, \
+                    - generic [ref=e950]: // .supports_qspi_writes = false, .write_status_register_split = false, \
+                    - generic [ref=e951]: // .single_status_byte = false, .is_fram = false, \
+                    - generic [ref=e952]: "// }"
+                    - generic [ref=e953]: /*
+                    - generic [ref=e954]: "* Create an array of data structures and fill it with the settings we defined above."
+                    - generic [ref=e955]: "* We are using two devices, but more can be added if you want."
+                    - generic [ref=e956]: "*/"
+                    - generic [ref=e957]: "//static const SPIFlash_Device_t my_flash_devices[] = {"
+                    - generic [ref=e958]: // W25Q80DLX_EXAMPLE,
+                    - generic [ref=e959]: "//};"
+                    - generic [ref=e960]: /*
+                    - generic [ref=e961]: "* Specify the number of different devices that are listed in the array we just created. If you add more devices to the array, update this value to match."
+                    - generic [ref=e962]: "*/"
+                    - generic [ref=e963]: //const int flashDevices = 1;
+                    - generic [ref=e964]: "#include <bluefruit.h>"
+                    - generic [ref=e965]: "bool deepPowerDown(Adafruit_SPIFlash& flash, Adafruit_FlashTransport& transport) {"
+                    - generic [ref=e966]: uint32_t id_before = flash.getJEDECID();
+                    - generic [ref=e967]: transport.begin();
+                    - generic [ref=e968]: transport.runCommand(0xB9); // SPI deep power-down command
+                    - generic [ref=e969]: delay(10);
+                    - generic [ref=e970]: uint32_t id_after = flash.getJEDECID();
+                    - generic [ref=e971]: return (id_after == 0xFFFFFF || id_after == 0xFFFFFFFF);
+                    - generic [ref=e972]: "}"
+                    - generic [ref=e973]: "void setup() {"
+                    - generic [ref=e974]: flash.begin();
+                    - generic [ref=e975]: Bluefruit.begin();
+                    - generic [ref=e976]: "if (!deepPowerDown(flash, flashTransport)) {"
+                    - generic [ref=e977]: pinMode(LED_BUILTIN, OUTPUT);
+                    - generic [ref=e978]: digitalWrite(LED_BUILTIN, LOW);
+                    - generic [ref=e979]: "while (1) {"
+                    - generic [ref=e980]: yield();
+                    - generic [ref=e981]: "}"
+                    - generic [ref=e982]: "}"
+                    - generic [ref=e983]: flash.end();
+                    - generic [ref=e984]: sd_power_system_off();
+                    - generic [ref=e985]: "}"
+                    - generic [ref=e986]: "void loop() {"
+                    - generic [ref=e987]: // nothing to do
+                    - generic [ref=e988]: "}"
+                  - generic [ref=e989]:
+                    - button "Toggle word wrap" [ref=e990] [cursor=pointer]:
+                      - img [ref=e991]
+                    - button "Copy code to clipboard" [ref=e993] [cursor=pointer]:
+                      - generic [ref=e994]:
+                        - img [ref=e995]
+                        - img [ref=e997]
+                - generic [ref=e999]:
+                  - generic [ref=e1000]:
+                    - img [ref=e1002]
+                    - text: tip
+                  - paragraph [ref=e1005]:
+                    - text: Here , We would like to express our special thanks to the author for providing the code →
+                    - emphasis [ref=e1006]:
+                      - strong [ref=e1007]: daCoder
+                    - text: ←
+                - paragraph [ref=e1008]:
+                  - strong [ref=e1009]:
+                    - text: If you want to know about this example more detail inforation , Click
+                    - link "Here" [ref=e1010] [cursor=pointer]:
+                      - /url: https://forum.seeedstudio.com/t/xiao-sense-accelerometer-examples-and-low-power/270801
+                - heading "Battery Charging currentDirect link to Battery Charging current" [level=2] [ref=e1011]:
+                  - text: Battery Charging current
+                  - link "Direct link to Battery Charging current" [ref=e1012] [cursor=pointer]:
+                    - /url: "#battery-charging-current"
+                    - text: "#"
+                - paragraph [ref=e1013]:
+                  - text: The battery charging current is selectable as 50mA or 100mA, where you can set
+                  - strong [ref=e1014]: Pin13
+                  - text: as high or low to change it to 50mA or 100mA. The low current charging current is at the input model set up as HIGH LEVEL and the high current charging current is at the output model set up as LOW LEVEL.
+                - paragraph [ref=e1015]:
+                  - strong [ref=e1016]: Low Charging Current
+                - generic [ref=e1018]:
+                  - code [ref=e1020]:
+                    - generic [ref=e1021]: "void setup(){"
+                    - generic [ref=e1022]: pinMode (P0_13, OUTPUT);
+                    - generic [ref=e1023]: "}"
+                    - generic [ref=e1024]: "void loop() {"
+                    - generic [ref=e1025]: digitalWrite(P0_13, HIGH);
+                    - generic [ref=e1026]: "}"
+                  - button "Copy code to clipboard" [ref=e1028] [cursor=pointer]:
+                    - generic [ref=e1029]:
+                      - img [ref=e1030]
+                      - img [ref=e1032]
+                - paragraph [ref=e1034]:
+                  - strong [ref=e1035]: High Charging Current
+                - generic [ref=e1037]:
+                  - code [ref=e1039]:
+                    - generic [ref=e1040]: "void setup(){"
+                    - generic [ref=e1041]: pinMode (P0_13, OUTPUT);
+                    - generic [ref=e1042]: "}"
+                    - generic [ref=e1043]: "void loop() {"
+                    - generic [ref=e1044]: digitalWrite(P0_13, LOW);
+                    - generic [ref=e1045]: "}"
+                  - button "Copy code to clipboard" [ref=e1047] [cursor=pointer]:
+                    - generic [ref=e1048]:
+                      - img [ref=e1049]
+                      - img [ref=e1051]
+                - heading "Access the SWD Pins for Debugging and Reflashing BootloaderDirect link to Access the SWD Pins for Debugging and Reflashing Bootloader" [level=2] [ref=e1053]:
+                  - text: Access the SWD Pins for Debugging and Reflashing Bootloader
+                  - link "Direct link to Access the SWD Pins for Debugging and Reflashing Bootloader" [ref=e1054] [cursor=pointer]:
+                    - /url: "#access-the-swd-pins-for-debugging-and-reflashing-bootloader"
+                    - text: "#"
+                - paragraph [ref=e1055]:
+                  - strong [ref=e1056]: Hardware Required
+                - list [ref=e1057]:
+                  - listitem [ref=e1058]:
+                    - link "Seeed Studio XIAO nRF52840" [ref=e1059] [cursor=pointer]:
+                      - /url: https://www.seeedstudio.com/Seeed-XIAO-BLE-Sense-nRF52840-p-5253.html
+                  - listitem [ref=e1060]: Jlink
+                - paragraph [ref=e1061]:
+                  - strong [ref=e1062]: Software Required
+                - paragraph [ref=e1063]:
+                  - text: It is required to download the
+                  - link "Segger" [ref=e1064] [cursor=pointer]:
+                    - /url: https://www.segger.com/downloads/jlink/
+                  - text: software from the website.
+                - list [ref=e1065]:
+                  - listitem [ref=e1066]:
+                    - strong [ref=e1067]: Step 1.
+                    - text: "Use Jlink to connect pins below:"
+                - paragraph [ref=e1068]:
+                  - img "pir" [ref=e1069]
+                - list [ref=e1070]:
+                  - listitem [ref=e1071]:
+                    - strong [ref=e1072]: Step 2.
+                    - text: "Start the J-Flash and search nRF52840, creating a new project:"
+                - paragraph [ref=e1073]:
+                  - img "pir" [ref=e1074]
+                - list [ref=e1075]:
+                  - listitem [ref=e1076]:
+                    - strong [ref=e1077]: Step 3.
+                    - text: Click "Target" and then select "Connect".
+                - paragraph [ref=e1078]:
+                  - img "pir" [ref=e1079]
+                - list [ref=e1080]:
+                  - listitem [ref=e1081]:
+                    - strong [ref=e1082]: Step 4.
+                    - text: Draw the bin or
+                    - link "hex file" [ref=e1083] [cursor=pointer]:
+                      - /url: https://files.seeedstudio.com/wiki/XIAO-BLE/Seeed_XIAO_nRF52840_Sense_bootloader-0.6.1_s140_7.3.0.hex
+                    - text: to software. Then press F4 and F5 in that order. The reflashing is done.
+                - heading "FAQDirect link to FAQ" [level=2] [ref=e1084]:
+                  - text: FAQ
+                  - link "Direct link to FAQ" [ref=e1085] [cursor=pointer]:
+                    - /url: "#faq"
+                    - text: "#"
+                - 'heading "Q1: My Arduino IDE is stuck when uploading code to the boardDirect link to Q1: My Arduino IDE is stuck when uploading code to the board" [level=3] [ref=e1086]':
+                  - text: "Q1: My Arduino IDE is stuck when uploading code to the board"
+                  - 'link "Direct link to Q1: My Arduino IDE is stuck when uploading code to the board" [ref=e1087] [cursor=pointer]':
+                    - /url: "#q1-my-arduino-ide-is-stuck-when-uploading-code-to-the-board"
+                    - text: "#"
+                - paragraph [ref=e1088]:
+                  - text: You can first try to
+                  - strong [ref=e1089]: reset
+                  - text: the board by clicking the "Reset Button" once. If that does not work, rapidly click it twice to enter
+                  - strong [ref=e1090]: bootloader mode
+                  - text: . If that also doesn't work, disconnect the board from the PC, and connect the board again.
+                - 'heading "Q2: My board is not showing up as a serial device on Arduino IDEDirect link to Q2: My board is not showing up as a serial device on Arduino IDE" [level=3] [ref=e1091]':
+                  - text: "Q2: My board is not showing up as a serial device on Arduino IDE"
+                  - 'link "Direct link to Q2: My board is not showing up as a serial device on Arduino IDE" [ref=e1092] [cursor=pointer]':
+                    - /url: "#q2-my-board-is-not-showing-up-as-a-serial-device-on-arduino-ide"
+                    - text: "#"
+                - paragraph [ref=e1093]:
+                  - text: You can first try to
+                  - strong [ref=e1094]: reset
+                  - text: the board by clicking the "Reset Button" once. If that does not work, rapidly click it twice to enter
+                  - strong [ref=e1095]: bootloader mode
+                  - text: .
+                - 'heading "Q3: What are the considerations when using XIAO nRF52840 (Sense) for battery charging?Direct link to Q3: What are the considerations when using XIAO nRF52840 (Sense) for battery charging?" [level=3] [ref=e1096]':
+                  - text: "Q3: What are the considerations when using XIAO nRF52840 (Sense) for battery charging?"
+                  - 'link "Direct link to Q3: What are the considerations when using XIAO nRF52840 (Sense) for battery charging?" [ref=e1097] [cursor=pointer]':
+                    - /url: "#q3-what-are-the-considerations-when-using-xiao-nrf52840-sense-for-battery-charging"
+                    - text: "#"
+                - paragraph [ref=e1098]: When P0.14 (D14) turns off the ADC function at a high level of 3.3V, P0.31 will be at the input voltage limit of 3.6V. There is a risk of burning out the P0.31 pin.
+                - paragraph [ref=e1099]: Currently for this issue, we recommend that users do not turn off the ADC function of P0.14 (D14) or set P0.14 (D14) to high during battery charging.
+                - paragraph [ref=e1100]:
+                  - img "pir" [ref=e1101]
+                - 'heading "Q4: How does the green light behave when powered on?Direct link to Q4: How does the green light behave when powered on?" [level=3] [ref=e1102]':
+                  - text: "Q4: How does the green light behave when powered on?"
+                  - 'link "Direct link to Q4: How does the green light behave when powered on?" [ref=e1103] [cursor=pointer]':
+                    - /url: "#q4-how-does-the-green-light-behave-when-powered-on"
+                    - text: "#"
+                - paragraph [ref=e1104]:
+                  - img "nRF52840 RGB Schematic" [ref=e1105]
+                - paragraph [ref=e1106]:
+                  - text: The
+                  - code [ref=e1107]: P0.17
+                  - text: "pin is used to control the green indicator light behavior, indicating the charging status:"
+                - list [ref=e1108]:
+                  - listitem [ref=e1109]:
+                    - text: "Low level: when"
+                    - strong [ref=e1110]: charging
+                    - text: is in progress.
+                  - listitem [ref=e1111]:
+                    - text: "High level: when the battery is either"
+                    - strong [ref=e1112]: not charging
+                    - text: or
+                    - strong [ref=e1113]: fully charged
+                    - text: .
+                - paragraph [ref=e1114]:
+                  - text: When it is at a low level, the
+                  - code [ref=e1115]: RED_CHG
+                  - text: LED will light up.
+                - paragraph [ref=e1116]:
+                  - text: "For more details, check the PMIC datasheet:"
+                  - link "BQ25100" [ref=e1117] [cursor=pointer]:
+                    - /url: https://www.ti.com/lit/ds/symlink/bq25100a.pdf
+                  - text: and
+                  - link "XIAO nRF52840 datasheet" [ref=e1118] [cursor=pointer]:
+                    - /url: https://files.seeedstudio.com/wiki/XIAO-BLE/nRF52840_PS_v1.5.pdf
+                  - text: .
+                - heading "ResourcesDirect link to Resources" [level=2] [ref=e1119]:
+                  - text: Resources
+                  - link "Direct link to Resources" [ref=e1120] [cursor=pointer]:
+                    - /url: "#resources"
+                    - text: "#"
+                - heading "Seeed Studio XIAO nRF52840Direct link to Seeed Studio XIAO nRF52840" [level=3] [ref=e1121]:
+                  - text: Seeed Studio XIAO nRF52840
+                  - link "Direct link to Seeed Studio XIAO nRF52840" [ref=e1122] [cursor=pointer]:
+                    - /url: "#seeed-studio-xiao-nrf52840"
+                    - text: "#"
+                - paragraph [ref=e1123]:
+                  - strong [ref=e1124]: Hardware Design
+                - list [ref=e1125]:
+                  - listitem [ref=e1126]:
+                    - strong [ref=e1127]: 📄[Datasheet]
+                    - link "Nordic nRF52840 Datasheet" [ref=e1128] [cursor=pointer]:
+                      - /url: https://files.seeedstudio.com/wiki/XIAO-BLE/nRF52840_PS_v1.5.pdf
+                  - listitem [ref=e1129]:
+                    - strong [ref=e1130]: 📄[Datasheet]
+                    - link "Flash P25Q16H-UXH-IR Datasheet" [ref=e1131] [cursor=pointer]:
+                      - /url: https://files.seeedstudio.com/wiki/github_weiruanexample/Flash_P25Q16H-UXH-IR_Datasheet.pdf
+                  - listitem [ref=e1132]:
+                    - strong [ref=e1133]: 📄[Schematic]
+                    - link "XIAO nRF52840 Schematic" [ref=e1134] [cursor=pointer]:
+                      - /url: https://files.seeedstudio.com/wiki/XIAO-BLE/Seeed_Studio_XIAO_nRF52840_PDF.pdf
+                  - listitem [ref=e1135]:
+                    - strong [ref=e1136]: 🗃️[PCB Design Files]
+                    - list [ref=e1137]:
+                      - listitem [ref=e1138]:
+                        - link "XIAO nRF52840 KiCad Project" [ref=e1139] [cursor=pointer]:
+                          - /url: https://files.seeedstudio.com/wiki/XIAO-BLE/Seeed-Studio-XIAO-nRF52840V1.1-KiCad-Project-260105.zip
+                  - listitem [ref=e1140]:
+                    - strong [ref=e1141]: 🗃️[PCB Design Libraries]
+                    - list [ref=e1142]:
+                      - listitem [ref=e1143]:
+                        - link "XIAO Series KiCad Footprints" [ref=e1144] [cursor=pointer]:
+                          - /url: https://files.seeedstudio.com/wiki/XIAO-KiCad-Library/XIAO_Series_Footprints.zip
+                      - listitem [ref=e1145]:
+                        - link "XIAO Series KiCad SCH Symbols" [ref=e1146] [cursor=pointer]:
+                          - /url: https://files.seeedstudio.com/wiki/XIAO-KiCad-Library/XIAO_Series_SCH_Symbols.zip
+                  - listitem [ref=e1147]:
+                    - strong [ref=e1148]: 📄[Pinout Diagram]
+                    - link "XIAO nRF52840 Pinout Sheet" [ref=e1149] [cursor=pointer]:
+                      - /url: https://files.seeedstudio.com/wiki/XIAO-BLE/XIAO-nRF52840-pinout_sheet.xlsx
+                - paragraph [ref=e1150]:
+                  - strong [ref=e1151]: Mechanical Design
+                - list [ref=e1152]:
+                  - listitem [ref=e1153]:
+                    - strong [ref=e1154]: 📄[2D Dimensions]
+                    - link "XIAO nRF52840 Dimension in DXF" [ref=e1155] [cursor=pointer]:
+                      - /url: https://files.seeedstudio.com/wiki/XIAO-BLE/XIAO-nRF52840-DXF.zip
+                  - listitem [ref=e1156]:
+                    - strong [ref=e1157]: 📄[2D Dimensions]
+                    - link "XIAO nRF52840 Bottom Pad Data" [ref=e1158] [cursor=pointer]:
+                      - /url: https://files.seeedstudio.com/wiki/XIAO-BLE/Bottom-pad-positioning.zip
+                - heading "Seeed Studio XIAO nRF52840 SenseDirect link to Seeed Studio XIAO nRF52840 Sense" [level=3] [ref=e1159]:
+                  - text: Seeed Studio XIAO nRF52840 Sense
+                  - link "Direct link to Seeed Studio XIAO nRF52840 Sense" [ref=e1160] [cursor=pointer]:
+                    - /url: "#seeed-studio-xiao-nrf52840-sense"
+                    - text: "#"
+                - paragraph [ref=e1161]:
+                  - strong [ref=e1162]: Hardware Design
+                - list [ref=e1163]:
+                  - listitem [ref=e1164]:
+                    - strong [ref=e1165]: 📄[Datasheet]
+                    - link "Nordic nRF52840 Datasheet" [ref=e1166] [cursor=pointer]:
+                      - /url: https://files.seeedstudio.com/wiki/XIAO-BLE/nRF52840_PS_v1.5.pdf
+                  - listitem [ref=e1167]:
+                    - strong [ref=e1168]: 📄[Datasheet]
+                    - link "Flash-P25Q16H-UXH-IR Datasheet" [ref=e1169] [cursor=pointer]:
+                      - /url: https://files.seeedstudio.com/wiki/github_weiruanexample/Flash_P25Q16H-UXH-IR_Datasheet.pdf
+                  - listitem [ref=e1170]:
+                    - strong [ref=e1171]: 📄[Datasheet]
+                    - link "Charger IC-BQ25101 Datasheet" [ref=e1172] [cursor=pointer]:
+                      - /url: https://files.seeedstudio.com/wiki/XIAO-BLE/BQ25101.pdf
+                  - listitem [ref=e1173]:
+                    - strong [ref=e1174]: 📄[Datasheet]
+                    - link "IMU-LSM6DS3TR Datasheet" [ref=e1175] [cursor=pointer]:
+                      - /url: https://files.seeedstudio.com/wiki/XIAO-BLE/ST_LSM6DS3TR_Datasheet.pdf
+                  - listitem [ref=e1176]:
+                    - strong [ref=e1177]: 📄[Datasheet]
+                    - link "Mic-MSM261D3526H1CPM Datasheet" [ref=e1178] [cursor=pointer]:
+                      - /url: https://files.seeedstudio.com/wiki/XIAO-BLE/mic-MSM261D3526H1CPM-ENG.pdf
+                  - listitem [ref=e1179]:
+                    - strong [ref=e1180]: 📄[Schematic]
+                    - link "XIAO nRF52840 Sense Schematic" [ref=e1181] [cursor=pointer]:
+                      - /url: https://files.seeedstudio.com/wiki/XIAO-BLE/Seeed_Studio_XIAO_nRF52840_PDF.pdf
+                  - listitem [ref=e1182]:
+                    - strong [ref=e1183]: 🗃️[PCB Design Files]
+                    - list [ref=e1184]:
+                      - listitem [ref=e1185]:
+                        - link "XIAO nRF52840 Sense KiCad Project" [ref=e1186] [cursor=pointer]:
+                          - /url: https://files.seeedstudio.com/wiki/XIAO-BLE/Seeed-Studio-XIAO-nRF52840V1.1-KiCad-Project-260105.zip
+                  - listitem [ref=e1187]:
+                    - strong [ref=e1188]: 🗃️[PCB Design Libraries]
+                    - list [ref=e1189]:
+                      - listitem [ref=e1190]:
+                        - link "XIAO Series KiCad Footprints" [ref=e1191] [cursor=pointer]:
+                          - /url: https://files.seeedstudio.com/wiki/XIAO-KiCad-Library/XIAO_Series_Footprints.zip
+                      - listitem [ref=e1192]:
+                        - link "XIAO Series KiCad SCH Symbols" [ref=e1193] [cursor=pointer]:
+                          - /url: https://files.seeedstudio.com/wiki/XIAO-KiCad-Library/XIAO_Series_SCH_Symbols.zip
+                  - listitem [ref=e1194]:
+                    - strong [ref=e1195]: 📄[Pinout Diagram]
+                    - link "XIAO nRF52840 Sense Pinout Sheet" [ref=e1196] [cursor=pointer]:
+                      - /url: https://files.seeedstudio.com/wiki/XIAO-BLE/XIAO-nRF52840-Senese-pinout_sheet.xlsx
+                - paragraph [ref=e1197]:
+                  - strong [ref=e1198]: Mechanical Design
+                - list [ref=e1199]:
+                  - listitem [ref=e1200]:
+                    - strong [ref=e1201]: 📄[2D Dimensions]
+                    - link "XIAO nRF52840 Sense Dimension in DXF" [ref=e1202] [cursor=pointer]:
+                      - /url: https://files.seeedstudio.com/wiki/XIAO-BLE/XIAO-nRF52840-Sense-DXF.zip
+                  - listitem [ref=e1203]:
+                    - strong [ref=e1204]: 📄[2D Dimensions]
+                    - link "XIAO nRF52840 Bottom Pad Data" [ref=e1205] [cursor=pointer]:
+                      - /url: https://files.seeedstudio.com/wiki/XIAO-BLE/Bottom-pad-positioning.zip
+                  - listitem [ref=e1206]:
+                    - strong [ref=e1207]: 📄[3D Model]
+                    - link "XIAO nRF52840 Sense 3D Model" [ref=e1208] [cursor=pointer]:
+                      - /url: https://files.seeedstudio.com/wiki/XIAO-BLE/seeed-studio-xiao-nrf52840-3d-model.zip
+                - paragraph [ref=e1209]:
+                  - strong [ref=e1210]: Others
+                - list [ref=e1211]:
+                  - listitem [ref=e1212]:
+                    - strong [ref=e1213]: 📄[Document]
+                    - link "XIAO nRF52840 Sense BLE Communication Distance Test Report" [ref=e1214] [cursor=pointer]:
+                      - /url: https://files.seeedstudio.com/wiki/XIAO-BLE/Seeed_XIAO_BLE_nRF52840_BLE_Communication_Distance_Test_Report.pdf
+                - heading "Seeed Studio XIAO nRF52840 (Sense) PlusDirect link to Seeed Studio XIAO nRF52840 (Sense) Plus" [level=3] [ref=e1215]:
+                  - text: Seeed Studio XIAO nRF52840 (Sense) Plus
+                  - link "Direct link to Seeed Studio XIAO nRF52840 (Sense) Plus" [ref=e1216] [cursor=pointer]:
+                    - /url: "#seeed-studio-xiao-nrf52840-sense-plus"
+                    - text: "#"
+                - paragraph [ref=e1217]:
+                  - strong [ref=e1218]: Hardware Design
+                - list [ref=e1219]:
+                  - listitem [ref=e1220]:
+                    - strong [ref=e1221]: 📄[Datasheet]
+                    - link "Nordic nRF52840 Datasheet" [ref=e1222] [cursor=pointer]:
+                      - /url: https://files.seeedstudio.com/wiki/XIAO-BLE/nRF52840_PS_v1.5.pdf
+                  - listitem [ref=e1223]:
+                    - strong [ref=e1224]: 📄[Datasheet]
+                    - link "Flash-P25Q16H-UXH-IR Datasheet" [ref=e1225] [cursor=pointer]:
+                      - /url: https://files.seeedstudio.com/wiki/github_weiruanexample/Flash_P25Q16H-UXH-IR_Datasheet.pdf
+                  - listitem [ref=e1226]:
+                    - strong [ref=e1227]: 🗃️[Schematic]
+                    - link "XIAO nRF52840 (Sense) Plus Schematic" [ref=e1228] [cursor=pointer]:
+                      - /url: https://files.seeedstudio.com/wiki/XIAO-BLE/Seeed_Studio_XIAO_nRF52840_Plus_SCH_PCB_v1.1.zip
+                  - listitem [ref=e1229]:
+                    - strong [ref=e1230]: 🗃️[PCB Design Files]
+                    - list [ref=e1231]:
+                      - listitem [ref=e1232]:
+                        - link "XIAO nRF52840 (Sense) Plus KiCad Project" [ref=e1233] [cursor=pointer]:
+                          - /url: https://files.seeedstudio.com/wiki/XIAO-BLE/Seeed_Studio_XIAO_nRF52840_Plus.zip
+                      - listitem [ref=e1234]:
+                        - link "XIAO Plus Base （with bottom pad lead out） KiCad Project" [ref=e1235] [cursor=pointer]:
+                          - /url: https://files.seeedstudio.com/wiki/SeeedStudio-XIAO-ESP32S3/res/XIAO_Plus_Base_with_botton_pad_lead_out_V1.0.zip
+                      - listitem [ref=e1236]:
+                        - link "XIAO Plus Base （without bottom pad lead out） KiCad Project" [ref=e1237] [cursor=pointer]:
+                          - /url: https://files.seeedstudio.com/wiki/SeeedStudio-XIAO-ESP32S3/res/XIAO_Plus_Base_without_botton_pad_lead_out_V1.0.zip
+                  - listitem [ref=e1238]:
+                    - strong [ref=e1239]: 🗃️[PCB Design Libraries]
+                    - list [ref=e1240]:
+                      - listitem [ref=e1241]:
+                        - link "XIAO Series KiCad Footprints" [ref=e1242] [cursor=pointer]:
+                          - /url: https://files.seeedstudio.com/wiki/XIAO-KiCad-Library/XIAO_Series_Footprints.zip
+                      - listitem [ref=e1243]:
+                        - link "XIAO Series KiCad SCH Symbols" [ref=e1244] [cursor=pointer]:
+                          - /url: https://files.seeedstudio.com/wiki/XIAO-KiCad-Library/XIAO_Series_SCH_Symbols.zip
+                - paragraph [ref=e1245]:
+                  - strong [ref=e1246]: Mechanical Design
+                - list [ref=e1247]:
+                  - listitem [ref=e1248]:
+                    - strong [ref=e1249]: 🗃️[2D Dimensions]
+                    - link "XIAO nRF52840 Sense Dimension in DXF" [ref=e1250] [cursor=pointer]:
+                      - /url: https://files.seeedstudio.com/wiki/XIAO-BLE/XIAO-nRF52840-Sense-DXF.zip
+                - heading "Course ResourcesDirect link to Course Resources" [level=2] [ref=e1251]:
+                  - text: Course Resources
+                  - link "Direct link to Course Resources" [ref=e1252] [cursor=pointer]:
+                    - /url: "#course-resources"
+                    - text: "#"
+                - img [ref=e1254]
+                - list [ref=e1255]:
+                  - listitem [ref=e1256]:
+                    - strong [ref=e1257]: "[Ebook]"
+                    - 'link "XIAO: Big Power, Small Board Mastering Arduino and TinyML" [ref=e1258] [cursor=pointer]':
+                      - /url: https://mjrovai.github.io/XIAO_Big_Power_Small_Board-ebook/
+                - heading "Tech Support & Product DiscussionDirect link to Tech Support & Product Discussion" [level=2] [ref=e1259]:
+                  - text: Tech Support & Product Discussion
+                  - link "Direct link to Tech Support & Product Discussion" [ref=e1260] [cursor=pointer]:
+                    - /url: "#tech-support--product-discussion"
+                    - text: "#"
+                - paragraph [ref=e1261]: Thank you for choosing our products! We are here to provide you with different support to ensure that your experience with our products is as smooth as possible. We offer several communication channels to cater to different preferences and needs.
+                - generic [ref=e1262]:
+                  - link [ref=e1263] [cursor=pointer]:
+                    - /url: https://forum.seeedstudio.com/
+                  - link [ref=e1264] [cursor=pointer]:
+                    - /url: https://www.seeedstudio.com/contacts
+                - generic [ref=e1265]:
+                  - link [ref=e1266] [cursor=pointer]:
+                    - /url: https://discord.gg/eWkprNDMU7
+                  - link [ref=e1267] [cursor=pointer]:
+                    - /url: https://github.com/Seeed-Studio/wiki-documents/discussions/69
+              - generic [ref=e1269]:
+                - link "Edit this page" [ref=e1271] [cursor=pointer]:
+                  - /url: https://github.com/Seeed-Studio/wiki-documents/blob/docusaurus-version/sites/en/docs/docs/Sensor/SeeedStudio_XIAO/SeeedStudio_XIAO_nRF52840-Sense/XIAO_BLE.md
+                  - img [ref=e1272]
+                  - text: Edit this page
+                - generic [ref=e1276]:
+                  - text: Last updated on
+                  - time [ref=e1278]: Nov 28, 2024
+                  - text: by Clara
+            - navigation "Docs pages" [ref=e1279]:
+              - link "Previous « XIAO RP2350 with PlatformIO" [ref=e1280] [cursor=pointer]:
+                - /url: /xiao_rp2350_with_platform_io/
+                - generic [ref=e1281]: Previous
+                - generic [ref=e1282]: « XIAO RP2350 with PlatformIO
+              - link "Next XIAO nRF52840(sense) With NuttX(RTOS) »" [ref=e1283] [cursor=pointer]:
+                - /url: /xiao_nrf52840_nuttx/
+                - generic [ref=e1284]: Next
+                - generic [ref=e1285]: XIAO nRF52840(sense) With NuttX(RTOS) »
+          - iframe [ref=e1288]:
+            
+        - list [ref=e1291]:
+          - listitem [ref=e1292]:
+            - link "Features" [ref=e1293] [cursor=pointer]:
+              - /url: "#features"
+          - listitem [ref=e1294]:
+            - link "Specifications comparison" [ref=e1295] [cursor=pointer]:
+              - /url: "#specifications-comparison"
+          - listitem [ref=e1296]:
+            - link "Hardware overview" [ref=e1297] [cursor=pointer]:
+              - /url: "#hardware-overview"
+          - listitem [ref=e1298]:
+            - link "Two Arduino Libraries" [ref=e1299] [cursor=pointer]:
+              - /url: "#two-arduino-libraries"
+          - listitem [ref=e1300]:
+            - link "Getting started" [ref=e1301] [cursor=pointer]:
+              - /url: "#getting-started"
+            - list [ref=e1302]:
+              - listitem [ref=e1303]:
+                - link "Hardware setup" [ref=e1304] [cursor=pointer]:
+                  - /url: "#hardware-setup"
+              - listitem [ref=e1305]:
+                - link "Software setup" [ref=e1306] [cursor=pointer]:
+                  - /url: "#software-setup"
+          - listitem [ref=e1307]:
+            - link "Playing with the built-in 3-in-one LED" [ref=e1308] [cursor=pointer]:
+              - /url: "#playing-with-the-built-in-3-in-one-led"
+          - listitem [ref=e1309]:
+            - link "Power Consumption Verification" [ref=e1310] [cursor=pointer]:
+              - /url: "#power-consumption-verification"
+          - listitem [ref=e1311]:
+            - link "Battery Charging current" [ref=e1312] [cursor=pointer]:
+              - /url: "#battery-charging-current"
+          - listitem [ref=e1313]:
+            - link "Access the SWD Pins for Debugging and Reflashing Bootloader" [ref=e1314] [cursor=pointer]:
+              - /url: "#access-the-swd-pins-for-debugging-and-reflashing-bootloader"
+          - listitem [ref=e1315]:
+            - link "FAQ" [ref=e1316] [cursor=pointer]:
+              - /url: "#faq"
+            - list [ref=e1317]:
+              - listitem [ref=e1318]:
+                - 'link "Q1: My Arduino IDE is stuck when uploading code to the board" [ref=e1319] [cursor=pointer]':
+                  - /url: "#q1-my-arduino-ide-is-stuck-when-uploading-code-to-the-board"
+              - listitem [ref=e1320]:
+                - 'link "Q2: My board is not showing up as a serial device on Arduino IDE" [ref=e1321] [cursor=pointer]':
+                  - /url: "#q2-my-board-is-not-showing-up-as-a-serial-device-on-arduino-ide"
+              - listitem [ref=e1322]:
+                - 'link "Q3: What are the considerations when using XIAO nRF52840 (Sense) for battery charging?" [ref=e1323] [cursor=pointer]':
+                  - /url: "#q3-what-are-the-considerations-when-using-xiao-nrf52840-sense-for-battery-charging"
+              - listitem [ref=e1324]:
+                - 'link "Q4: How does the green light behave when powered on?" [ref=e1325] [cursor=pointer]':
+                  - /url: "#q4-how-does-the-green-light-behave-when-powered-on"
+          - listitem [ref=e1326]:
+            - link "Resources" [ref=e1327] [cursor=pointer]:
+              - /url: "#resources"
+            - list [ref=e1328]:
+              - listitem [ref=e1329]:
+                - link "Seeed Studio XIAO nRF52840" [ref=e1330] [cursor=pointer]:
+                  - /url: "#seeed-studio-xiao-nrf52840"
+              - listitem [ref=e1331]:
+                - link "Seeed Studio XIAO nRF52840 Sense" [ref=e1332] [cursor=pointer]:
+                  - /url: "#seeed-studio-xiao-nrf52840-sense"
+              - listitem [ref=e1333]:
+                - link "Seeed Studio XIAO nRF52840 (Sense) Plus" [ref=e1334] [cursor=pointer]:
+                  - /url: "#seeed-studio-xiao-nrf52840-sense-plus"
+          - listitem [ref=e1335]:
+            - link "Course Resources" [ref=e1336] [cursor=pointer]:
+              - /url: "#course-resources"
+          - listitem [ref=e1337]:
+            - link "Tech Support & Product Discussion" [ref=e1338] [cursor=pointer]:
+              - /url: "#tech-support--product-discussion"
+  - contentinfo [ref=e1339]:
+    - generic [ref=e1340]:
+      - generic [ref=e1341]:
+        - generic [ref=e1342]:
+          - generic [ref=e1343]: Navigation
+          - list [ref=e1344]:
+            - listitem [ref=e1345]:
+              - link "Getting Started" [ref=e1346] [cursor=pointer]:
+                - /url: /Getting_Started/
+            - listitem [ref=e1347]:
+              - link "Sensor and Sensing" [ref=e1348] [cursor=pointer]:
+                - /url: /Sensor_Network/
+            - listitem [ref=e1349]:
+              - link "Network" [ref=e1350] [cursor=pointer]:
+                - /url: /Network/
+            - listitem [ref=e1351]:
+              - link "Edge Computing" [ref=e1352] [cursor=pointer]:
+                - /url: /Edge_Computing/
+            - listitem [ref=e1353]:
+              - link "Cloud" [ref=e1354] [cursor=pointer]:
+                - /url: /Cloud/
+            - listitem [ref=e1355]:
+              - link "Solutions" [ref=e1356] [cursor=pointer]:
+                - /url: https://solution.seeed.cc/
+        - generic [ref=e1357]:
+          - generic [ref=e1358]: Ecosystem
+          - list [ref=e1359]:
+            - listitem [ref=e1360]:
+              - link "Discord" [ref=e1361] [cursor=pointer]:
+                - /url: https://discord.com/invite/QqMgVwHT3X
+            - listitem [ref=e1362]:
+              - link "Project Hub" [ref=e1363] [cursor=pointer]:
+                - /url: https://project.seeedstudio.com/
+            - listitem [ref=e1364]:
+              - link "Partners" [ref=e1365] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/ecosystem/
+            - listitem [ref=e1366]:
+              - link "Distributors" [ref=e1367] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/distributors.html
+        - generic [ref=e1368]:
+          - generic [ref=e1369]: Quick Guide
+          - list [ref=e1370]:
+            - listitem [ref=e1371]:
+              - link "Bazaar" [ref=e1372] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/
+            - listitem [ref=e1373]:
+              - link "How to get help" [ref=e1374] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/get_help/HowToGetHelp
+            - listitem [ref=e1375]:
+              - link "FAQs" [ref=e1376] [cursor=pointer]:
+                - /url: https://support.seeedstudio.com/knowledgebase
+            - listitem [ref=e1377]:
+              - link "Forum" [ref=e1378] [cursor=pointer]:
+                - /url: https://forum.seeedstudio.com/
+            - listitem [ref=e1379]:
+              - link "Technical Support" [ref=e1380] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/get_help/TechnicalSupport
+        - generic [ref=e1381]:
+          - generic [ref=e1382]: Company
+          - list [ref=e1383]:
+            - listitem [ref=e1384]:
+              - link "About Seeed" [ref=e1385] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/about-us/
+            - listitem [ref=e1386]:
+              - link "Join us" [ref=e1387] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/join-us/
+            - listitem [ref=e1388]:
+              - link "Contact Us" [ref=e1389] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/contacts
+            - listitem [ref=e1390]:
+              - link "Press" [ref=e1391] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/blog/2020/04/22/seeed-in-the-news/
+      - generic [ref=e1393]: Copyright © 2026 Seeed Studio, Inc. Built with Docusaurus.

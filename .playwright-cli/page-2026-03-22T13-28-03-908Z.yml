@@ -1,0 +1,1041 @@
+- generic [ref=e2]:
+  - region "Skip to main content":
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#__docusaurus_skipToContent_fallback"
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - text: Collaborate with Seeed -
+      - link "Creator" [ref=e7] [cursor=pointer]:
+        - /url: https://www.seeedstudio.com/blog/affiliate-program/
+      - text: ","
+      - link "Ranger" [ref=e8] [cursor=pointer]:
+        - /url: https://www.seeedstudio.com/ranger-program/
+      - text: ", or"
+      - link "Contributor" [ref=e9] [cursor=pointer]:
+        - /url: https://wiki.seeedstudio.com/contributors/
+      - text: ", there is always a role ideal for you!"
+  - navigation "Main" [ref=e10]:
+    - generic [ref=e11]:
+      - generic [ref=e12]:
+        - link "Seeed Studio" [ref=e13] [cursor=pointer]:
+          - /url: /
+          - img "Seeed Studio" [ref=e15]
+        - button "Quick Links" [ref=e17] [cursor=pointer]
+        - button "Explore with Topics" [ref=e19] [cursor=pointer]
+        - button "FAQs" [ref=e21] [cursor=pointer]
+        - button "Get Involved" [ref=e23] [cursor=pointer]
+      - generic [ref=e24]:
+        - link "Bazaar 🛍️" [ref=e25] [cursor=pointer]:
+          - /url: https://www.seeedstudio.com/
+        - link "SenseCraft AI" [ref=e26] [cursor=pointer]:
+          - /url: https://sensecraft.seeed.cc/ai/#/home
+        - link [ref=e27] [cursor=pointer]:
+          - /url: https://sensecraft.seeed.cc/ai/#/home
+        - link "GitHub repository" [ref=e28] [cursor=pointer]:
+          - /url: https://github.com/Seeed-Studio/wiki-documents
+        - button "Switch between dark and light mode (currently dark mode)" [ref=e30] [cursor=pointer]:
+          - img [ref=e31]
+        - button "Search" [ref=e34] [cursor=pointer]:
+          - generic [ref=e35]:
+            - img [ref=e36]
+            - generic [ref=e38]: Search
+          - generic [ref=e39]:
+            - generic [ref=e40]: ⌘
+            - generic [ref=e41]: K
+  - generic [ref=e44]:
+    - complementary [ref=e45]:
+      - generic [ref=e47]:
+        - navigation "Docs sidebar" [ref=e48]:
+          - list [ref=e49]:
+            - listitem [ref=e50]:
+              - link "Getting Started" [ref=e51] [cursor=pointer]:
+                - /url: /Getting_Started/
+            - listitem [ref=e52]:
+              - link "Weekly Wiki" [ref=e53] [cursor=pointer]:
+                - /url: /weekly_wiki/
+            - listitem [ref=e54]:
+              - link "Sensing" [ref=e55] [cursor=pointer]:
+                - /url: /Sensor_Network/
+            - listitem [ref=e56]:
+              - generic [ref=e57]:
+                - link "Grove" [ref=e58] [cursor=pointer]:
+                  - /url: /Grove_System/
+                - button "Expand sidebar category 'Grove'" [ref=e59] [cursor=pointer]
+            - listitem [ref=e60]:
+              - generic [ref=e61]:
+                - link "SenseCAP" [ref=e62] [cursor=pointer]:
+                  - /url: /SenseCAP_introduction/
+                - button "Expand sidebar category 'SenseCAP'" [ref=e63] [cursor=pointer]
+            - listitem [ref=e64]:
+              - generic [ref=e65]:
+                - link "SenseCAP Indicator" [ref=e66] [cursor=pointer]:
+                  - /url: /Sensor/SenseCAP/SenseCAP_Indicator/Get_started_with_SenseCAP_Indicator/
+                - button "Expand sidebar category 'SenseCAP Indicator'" [ref=e67] [cursor=pointer]
+            - listitem [ref=e68]:
+              - generic [ref=e69]:
+                - link "SenseCAP Watcher" [ref=e70] [cursor=pointer]:
+                  - /url: /watcher/
+                - button "Expand sidebar category 'SenseCAP Watcher'" [ref=e71] [cursor=pointer]
+            - listitem [ref=e72]:
+              - generic [ref=e73]:
+                - link "mmWave Radar Sensor" [ref=e74] [cursor=pointer]:
+                  - /url: /mmwave_radar_Intro/
+                - button "Expand sidebar category 'mmWave Radar Sensor'" [ref=e75] [cursor=pointer]
+            - listitem [ref=e76]:
+              - generic [ref=e77]:
+                - link "XIAO" [ref=e78] [cursor=pointer]:
+                  - /url: /SeeedStudio_XIAO_Series_Introduction/
+                - button "Collapse sidebar category 'XIAO'" [expanded] [ref=e79] [cursor=pointer]
+              - list [ref=e80]:
+                - listitem [ref=e81]:
+                  - link "Exhibition for XIAO Series" [ref=e82] [cursor=pointer]:
+                    - /url: /xiao_topic_page/
+                - listitem [ref=e83]:
+                  - button "XIAO SAMD21" [ref=e85] [cursor=pointer]
+                - listitem [ref=e86]:
+                  - button "XIAO RA4M1" [ref=e88] [cursor=pointer]
+                - listitem [ref=e89]:
+                  - button "XIAO MG24" [ref=e91] [cursor=pointer]
+                - listitem [ref=e92]:
+                  - button "XIAO RP2040" [ref=e94] [cursor=pointer]
+                - listitem [ref=e95]:
+                  - button "XIAO RP2350" [expanded] [ref=e97] [cursor=pointer]
+                  - list [ref=e98]:
+                    - listitem [ref=e99]:
+                      - link "Getting Started with Seeed Studio XIAO RP2350(Arduino)" [ref=e100] [cursor=pointer]:
+                        - /url: /xiao_rp2350_arduino/
+                    - listitem [ref=e101]:
+                      - link "Pin Multiplexing (Arduino)" [ref=e102] [cursor=pointer]:
+                        - /url: /XIAO_RP2350_Pin_Multiplexing/
+                    - listitem [ref=e103]:
+                      - button "Programming Language" [ref=e105] [cursor=pointer]
+                    - listitem [ref=e106]:
+                      - link "XIAO RP2350 With NuttX(RTOS)" [ref=e107] [cursor=pointer]:
+                        - /url: /xiao_rp2350_nuttx/
+                    - listitem [ref=e108]:
+                      - link "Seeed Studio XIAO RP2350 with C/C++ SDK" [ref=e109] [cursor=pointer]:
+                        - /url: /xiao-rp2350-c-cpp-sdk/
+                    - listitem [ref=e110]:
+                      - link "XIAO RP2350 with PlatformIO" [ref=e111] [cursor=pointer]:
+                        - /url: /xiao_rp2350_with_platform_io/
+                - listitem [ref=e112]:
+                  - button "XIAO nRF52840 Series" [ref=e114] [cursor=pointer]
+                - listitem [ref=e115]:
+                  - button "XIAO nRF54L15 Series" [ref=e117] [cursor=pointer]
+                - listitem [ref=e118]:
+                  - button "XIAO ESP32C3" [ref=e120] [cursor=pointer]
+                - listitem [ref=e121]:
+                  - button "XIAO ESP32C5" [ref=e123] [cursor=pointer]
+                - listitem [ref=e124]:
+                  - button "XIAO ESP32C6" [ref=e126] [cursor=pointer]
+                - listitem [ref=e127]:
+                  - button "XIAO ESP32S3 Series" [ref=e129] [cursor=pointer]
+                - listitem [ref=e130]:
+                  - generic [ref=e131]:
+                    - link "XIAO Debug Mate" [ref=e132] [cursor=pointer]:
+                      - /url: /getting_started_with_xiao_debug_mate/
+                    - button "Expand sidebar category 'XIAO Debug Mate'" [ref=e133] [cursor=pointer]
+                - listitem [ref=e134]:
+                  - button "Expansion Boards for XIAO" [ref=e136] [cursor=pointer]
+                - listitem [ref=e137]:
+                  - button "XIAO + ESP-IDF + ESP-Matter" [ref=e139] [cursor=pointer]
+                - listitem [ref=e140]:
+                  - link "ESP-NOW on XIAO ESP32 Series" [ref=e141] [cursor=pointer]:
+                    - /url: /xiao_espnow/
+                - listitem [ref=e142]:
+                  - link "PCB Design for XIAO" [ref=e143] [cursor=pointer]:
+                    - /url: /PCB_Design_XIAO/
+                - listitem [ref=e144]:
+                  - button "Kit with Courses" [ref=e146] [cursor=pointer]
+                - listitem [ref=e147]:
+                  - link "FAQs for XIAO Series" [ref=e148] [cursor=pointer]:
+                    - /url: /XIAO_FAQ/
+            - listitem [ref=e149]:
+              - button "ePaper" [ref=e151] [cursor=pointer]
+            - listitem [ref=e152]:
+              - button "XIAO Gadgets" [ref=e154] [cursor=pointer]
+            - listitem [ref=e155]:
+              - generic [ref=e156]:
+                - link "Wio Terminal" [ref=e157] [cursor=pointer]:
+                  - /url: /Wio_Terminal_Intro/
+                - button "Expand sidebar category 'Wio Terminal'" [ref=e158] [cursor=pointer]
+            - listitem [ref=e159]:
+              - generic [ref=e160]:
+                - link "reSpeaker" [ref=e161] [cursor=pointer]:
+                  - /url: /respeaker/
+                - button "Expand sidebar category 'reSpeaker'" [ref=e162] [cursor=pointer]
+            - listitem [ref=e163]:
+              - button "Other Sensing Modules" [ref=e165] [cursor=pointer]
+            - listitem [ref=e166]:
+              - button "Other Microcontrollers" [ref=e168] [cursor=pointer]
+            - listitem [ref=e169]:
+              - link "Network" [ref=e170] [cursor=pointer]:
+                - /url: /Network/
+            - listitem [ref=e171]:
+              - generic [ref=e172]:
+                - link "Meshtastic Network" [ref=e173] [cursor=pointer]:
+                  - /url: /meshtastic_introduction/
+                - button "Expand sidebar category 'Meshtastic Network'" [ref=e174] [cursor=pointer]
+            - listitem [ref=e175]:
+              - button "LoRa Wio Series" [ref=e177] [cursor=pointer]
+            - listitem [ref=e178]:
+              - generic [ref=e179]:
+                - link "SenseCAP Gateway" [ref=e180] [cursor=pointer]:
+                  - /url: /Network/SenseCAP_Network/SenseCAP_Gateway_Intro/
+                - button "Expand sidebar category 'SenseCAP Gateway'" [ref=e181] [cursor=pointer]
+            - listitem [ref=e182]:
+              - generic [ref=e183]:
+                - link "SenseCAP K1100" [ref=e184] [cursor=pointer]:
+                  - /url: /SenseCAP_K1100_Intro/
+                - button "Expand sidebar category 'SenseCAP K1100'" [ref=e185] [cursor=pointer]
+            - listitem [ref=e186]:
+              - button "SenseCAP LoRaWAN Starter Kit" [ref=e188] [cursor=pointer]
+            - listitem [ref=e189]:
+              - button "Raspberry Pi Solutions" [ref=e191] [cursor=pointer]
+            - listitem [ref=e192]:
+              - generic [ref=e193]:
+                - link "Rockchip Solutions" [ref=e194] [cursor=pointer]:
+                  - /url: /Rockchip_network_solutions/
+                - button "Expand sidebar category 'Rockchip Solutions'" [ref=e195] [cursor=pointer]
+            - listitem [ref=e196]:
+              - button "Other Network Devices" [ref=e198] [cursor=pointer]
+            - listitem [ref=e199]:
+              - link "Edge Computing" [ref=e200] [cursor=pointer]:
+                - /url: /Edge_Computing/
+            - listitem [ref=e201]:
+              - button "RK Devices" [ref=e203] [cursor=pointer]
+            - listitem [ref=e204]:
+              - generic [ref=e205]:
+                - link "Raspberry Pi Devices" [ref=e206] [cursor=pointer]:
+                  - /url: /raspberry-pi-devices/
+                - button "Expand sidebar category 'Raspberry Pi Devices'" [ref=e207] [cursor=pointer]
+            - listitem [ref=e208]:
+              - generic [ref=e209]:
+                - link "NVIDIA® Jetson™" [ref=e210] [cursor=pointer]:
+                  - /url: /NVIDIA_Jetson/
+                - button "Expand sidebar category 'NVIDIA® Jetson™'" [ref=e211] [cursor=pointer]
+            - listitem [ref=e212]:
+              - button "ESP Devices" [ref=e214] [cursor=pointer]
+            - listitem [ref=e215]:
+              - generic [ref=e216]:
+                - link "BeagleBone®" [ref=e217] [cursor=pointer]:
+                  - /url: /BeagleBone/
+                - button "Expand sidebar category 'BeagleBone®'" [ref=e218] [cursor=pointer]
+            - listitem [ref=e219]:
+              - generic [ref=e220]:
+                - link "ODYSSEY" [ref=e221] [cursor=pointer]:
+                  - /url: /ODYSSEY_Intro/
+                - button "Expand sidebar category 'ODYSSEY'" [ref=e222] [cursor=pointer]
+            - listitem [ref=e223]:
+              - button "reCamera" [ref=e225] [cursor=pointer]
+            - listitem [ref=e226]:
+              - generic [ref=e227]:
+                - link "reTerminal E Series" [ref=e228] [cursor=pointer]:
+                  - /url: /reterminal_e10xx_main_page/
+                - button "Expand sidebar category 'reTerminal E Series'" [ref=e229] [cursor=pointer]
+            - listitem [ref=e230]:
+              - generic [ref=e231]:
+                - link "reTerminal D Series" [ref=e232] [cursor=pointer]:
+                  - /url: /reterminal_d10xx_main_page/
+                - button "Expand sidebar category 'reTerminal D Series'" [ref=e233] [cursor=pointer]
+            - listitem [ref=e234]:
+              - button "Other Edge Devices" [ref=e236] [cursor=pointer]
+            - listitem [ref=e237]:
+              - link "Robotics Page" [ref=e238] [cursor=pointer]:
+                - /url: /robotics_page/
+            - listitem [ref=e239]:
+              - button "Robot Kits" [ref=e241] [cursor=pointer]
+            - listitem [ref=e242]:
+              - button "Actuator" [ref=e244] [cursor=pointer]
+            - listitem [ref=e245]:
+              - button "Sensor" [ref=e247] [cursor=pointer]
+            - listitem [ref=e248]:
+              - button "Software" [ref=e250] [cursor=pointer]
+            - listitem [ref=e251]:
+              - link "SenseCraft & Cloud" [ref=e252] [cursor=pointer]:
+                - /url: /Cloud/
+            - listitem [ref=e253]:
+              - button "SenseCraft AI" [ref=e255] [cursor=pointer]
+            - listitem [ref=e256]:
+              - button "SenseCraft APP" [ref=e258] [cursor=pointer]
+            - listitem [ref=e259]:
+              - button "SenseCraft Data Platform" [ref=e261] [cursor=pointer]
+            - listitem [ref=e262]:
+              - generic [ref=e263]:
+                - link "SenseCraft HMI" [ref=e264] [cursor=pointer]:
+                  - /url: /sensecraft_hmi_overview/
+                - button "Expand sidebar category 'SenseCraft HMI'" [ref=e265] [cursor=pointer]
+            - listitem [ref=e266]:
+              - button "SenseCraft Blockchain" [ref=e268] [cursor=pointer]
+            - listitem [ref=e269]:
+              - link "Solutions" [ref=e270] [cursor=pointer]:
+                - /url: https://www.seeed.cc/category/solutions
+                - text: Solutions
+                - img [ref=e271]
+            - listitem [ref=e273]:
+              - generic [ref=e274]:
+                - link "AI Vision" [ref=e275] [cursor=pointer]:
+                  - /url: /ai-vision/
+                - button "Expand sidebar category 'AI Vision'" [ref=e276] [cursor=pointer]
+            - listitem [ref=e277]:
+              - generic [ref=e278]:
+                - link "AI Sound" [ref=e279] [cursor=pointer]:
+                  - /url: /ai-sound/
+                - button "Expand sidebar category 'AI Sound'" [ref=e280] [cursor=pointer]
+            - listitem [ref=e281]:
+              - button "AI Intelligent" [ref=e283] [cursor=pointer]
+            - listitem [ref=e284]:
+              - button "Device Integration & Control" [ref=e286] [cursor=pointer]
+            - listitem [ref=e287]:
+              - button "Environmental Monitoring" [ref=e289] [cursor=pointer]
+            - listitem [ref=e290]:
+              - generic [ref=e291]:
+                - link "Hazard Response" [ref=e292] [cursor=pointer]:
+                  - /url: /hazard-response/
+                - button "Expand sidebar category 'Hazard Response'" [ref=e293] [cursor=pointer]
+            - listitem [ref=e294]:
+              - button "Indoor-Outdoor Positioning" [ref=e296] [cursor=pointer]
+            - listitem [ref=e297]:
+              - link "Technology Topics" [ref=e298] [cursor=pointer]:
+                - /url: /topicintroduction/
+            - listitem [ref=e299]:
+              - generic [ref=e300]:
+                - link "Home Assistant" [ref=e301] [cursor=pointer]:
+                  - /url: /home_assistant_topic/
+                - button "Expand sidebar category 'Home Assistant'" [ref=e302] [cursor=pointer]
+            - listitem [ref=e303]:
+              - generic [ref=e304]:
+                - link "TinyML" [ref=e305] [cursor=pointer]:
+                  - /url: /tinyml_topic/
+                - button "Expand sidebar category 'TinyML'" [ref=e306] [cursor=pointer]
+            - listitem [ref=e307]:
+              - link "Open Source" [ref=e308] [cursor=pointer]:
+                - /url: /open_source_topic/
+            - listitem [ref=e309]:
+              - link "Edge AI" [ref=e310] [cursor=pointer]:
+                - /url: /edge_ai_topic/
+            - listitem [ref=e311]:
+              - link "Contributions" [ref=e312] [cursor=pointer]:
+                - /url: /Contributor/
+            - listitem [ref=e313]:
+              - generic [ref=e314]:
+                - link "Github Contributions Guide" [ref=e315] [cursor=pointer]:
+                  - /url: /Contribution-Guide/
+                - button "Expand sidebar category 'Github Contributions Guide'" [ref=e316] [cursor=pointer]
+            - listitem [ref=e317]:
+              - link "Scale up Your Creation with Seeed Studio Fusion" [ref=e318] [cursor=pointer]:
+                - /url: /Scale-up-Your-Creation-with-Fusion/
+            - listitem [ref=e319]:
+              - link "Popular Platforms" [ref=e320] [cursor=pointer]:
+                - /url: /popularplatforms/
+            - listitem [ref=e321]:
+              - generic [ref=e322]:
+                - link "Arduino" [ref=e323] [cursor=pointer]:
+                  - /url: /Arduino/
+                - button "Expand sidebar category 'Arduino'" [ref=e324] [cursor=pointer]
+            - listitem [ref=e325]:
+              - generic [ref=e326]:
+                - link "Raspberry Pi" [ref=e327] [cursor=pointer]:
+                  - /url: /Raspberry_Pi/
+                - button "Expand sidebar category 'Raspberry Pi'" [ref=e328] [cursor=pointer]
+            - listitem [ref=e329]:
+              - generic [ref=e330]:
+                - link "Micro:bit" [ref=e331] [cursor=pointer]:
+                  - /url: /microbit_wiki_page/
+                - button "Expand sidebar category 'Micro:bit'" [ref=e332] [cursor=pointer]
+            - listitem [ref=e333]:
+              - link "Discontinued Products" [ref=e334] [cursor=pointer]:
+                - /url: /discontinuedproducts/
+            - listitem [ref=e335]:
+              - button "Product List" [ref=e337] [cursor=pointer]
+            - listitem [ref=e338]:
+              - link "About Seeed" [ref=e339] [cursor=pointer]:
+                - /url: /About/
+            - listitem [ref=e340]:
+              - link "License" [ref=e341] [cursor=pointer]:
+                - /url: /License/
+        - button "Collapse sidebar" [ref=e342] [cursor=pointer]:
+          - img [ref=e343]
+    - main [ref=e347]:
+      - generic [ref=e349]:
+        - generic [ref=e350]:
+          - generic [ref=e351]:
+            - article [ref=e352]:
+              - navigation "Breadcrumbs" [ref=e353]:
+                - list [ref=e354]:
+                  - listitem [ref=e355]:
+                    - link "Home page" [ref=e356] [cursor=pointer]:
+                      - /url: /
+                      - img [ref=e357]
+                  - listitem [ref=e359]:
+                    - link "XIAO" [ref=e360] [cursor=pointer]:
+                      - /url: /SeeedStudio_XIAO_Series_Introduction/
+                  - listitem [ref=e361]:
+                    - generic [ref=e362]: XIAO RP2350
+                  - listitem [ref=e363]:
+                    - generic [ref=e364]: Getting Started with Seeed Studio XIAO RP2350(Arduino)
+              - generic [ref=e365]:
+                - heading "Seeed Studio XIAO RP2350 with Arduino" [level=1] [ref=e367]
+                - paragraph [ref=e368]:
+                  - text: The Seeed Studio XIAO RP2350 board now supports programming via Arduino, thanks to the
+                  - link "arduino-pico core" [ref=e369] [cursor=pointer]:
+                    - /url: https://github.com/earlephilhower/arduino-pico
+                  - text: . This guide will help you set up and begin using Arduino on your RP2350 board.
+                - heading "FeaturesDirect link to Features" [level=2] [ref=e370]:
+                  - text: Features
+                  - link "Direct link to Features" [ref=e371] [cursor=pointer]:
+                    - /url: "#features"
+                    - text: "#"
+                - list [ref=e372]:
+                  - listitem [ref=e373]:
+                    - strong [ref=e374]: "Powerful MCU Board:"
+                    - text: Equipped with a Raspberry Pi RP2350 chip featuring symmetric dual Arm Cortex-M33 @ 150MHz with FPU.
+                  - listitem [ref=e375]:
+                    - strong [ref=e376]: "Enhanced Security Features:"
+                    - text: Built-in secure boot and encrypted bootloader ensure application security.
+                  - listitem [ref=e377]:
+                    - strong [ref=e378]: "Software Support:"
+                    - text: Compatible with C/C++ and MicroPython, ensuring easy project development and prototyping.
+                  - listitem [ref=e379]:
+                    - strong [ref=e380]: "Rich Onboard Resources:"
+                    - text: Integrates an RGB LED, 2MB Flash, 520kB SRAM, and 19 multifunction GPIOs(Analog, Digital, I²C, UART, SPI, PWM).
+                  - listitem [ref=e381]:
+                    - strong [ref=e382]: "Expanded 8 New IOs:"
+                    - text: Compared to previous XIAO MCUs, the addition of 8 IO pins on the back supports more complex applications.
+                  - listitem [ref=e383]:
+                    - strong [ref=e384]: "Efficient Power Design:"
+                    - text: Ultra-low power consumption of just 50μA in sleep mode, enabling battery power supply. Direct battery voltage measurement via internal IO enhances the battery management system (BMS).
+                  - listitem [ref=e385]:
+                    - strong [ref=e386]: "Compact Thumb-Sized Design:"
+                    - text: Measuring 21 x 17.8mm, adopting Seeed Studio's classic XIAO form factor, ideal for space-conscious applications.
+                  - listitem [ref=e387]:
+                    - strong [ref=e388]: "Production-friendly:"
+                    - text: Surface Mount Device (SMD) design with all components on the front and stamp holes on both sides, facilitating efficient mass production.
+                - heading "SpecificationDirect link to Specification" [level=2] [ref=e389]:
+                  - text: Specification
+                  - link "Direct link to Specification" [ref=e390] [cursor=pointer]:
+                    - /url: "#specification"
+                    - text: "#"
+                - table [ref=e391]:
+                  - row "Product XIAO RP2040 XIAO RP2350" [ref=e392]:
+                    - rowheader "Product" [ref=e393]
+                    - cell "XIAO RP2040" [ref=e394]
+                    - cell "XIAO RP2350" [ref=e395]
+                  - row "Processor Raspberry Pi RP2040 Dual Cortex-M0+ @ 133MHz Raspberry Pi RP2350 Dual Cortex-M33 @ 150MHz, FPU" [ref=e396]:
+                    - rowheader "Processor" [ref=e397]
+                    - cell "Raspberry Pi RP2040 Dual Cortex-M0+ @ 133MHz" [ref=e398]:
+                      - text: Raspberry Pi RP2040
+                      - text: Dual Cortex-M0+ @ 133MHz
+                    - cell "Raspberry Pi RP2350 Dual Cortex-M33 @ 150MHz, FPU" [ref=e399]:
+                      - text: Raspberry Pi RP2350
+                      - text: Dual Cortex-M33 @ 150MHz, FPU
+                  - row "RAM 264kB SRAM 520kB SRAM" [ref=e400]:
+                    - rowheader "RAM" [ref=e401]
+                    - cell "264kB SRAM" [ref=e402]
+                    - cell "520kB SRAM" [ref=e403]
+                  - row "Flash 2MB Onboard 2MB Flash" [ref=e404]:
+                    - rowheader "Flash" [ref=e405]
+                    - cell "2MB Onboard" [ref=e406]
+                    - cell "2MB Flash" [ref=e407]
+                  - row "LEDs 1x user LED 1x power LED 1x RGB LED 1x user LED 1x power LED 1x RGB LED" [ref=e408]:
+                    - rowheader "LEDs" [ref=e409]
+                    - cell "1x user LED 1x power LED 1x RGB LED" [ref=e410]:
+                      - text: 1x user LED
+                      - text: 1x power LED
+                      - text: 1x RGB LED
+                    - cell "1x user LED 1x power LED 1x RGB LED" [ref=e411]:
+                      - text: 1x user LED
+                      - text: 1x power LED
+                      - text: 1x RGB LED
+                  - 'row "Interface 11 Pins (All PWM): 4x Analog 11x Digital 1x I²C 1x UART 1x SPI 19 Pins (All PWM): 3x Analog 19x Digital 2x I²C 2x UART 2x SPI" [ref=e412]':
+                    - rowheader "Interface" [ref=e413]
+                    - 'cell "11 Pins (All PWM): 4x Analog 11x Digital 1x I²C 1x UART 1x SPI" [ref=e414]':
+                      - text: "11 Pins (All PWM):"
+                      - text: 4x Analog
+                      - text: 11x Digital
+                      - text: 1x I²C
+                      - text: 1x UART
+                      - text: 1x SPI
+                    - 'cell "19 Pins (All PWM): 3x Analog 19x Digital 2x I²C 2x UART 2x SPI" [ref=e415]':
+                      - text: "19 Pins (All PWM):"
+                      - text: 3x Analog
+                      - text: 19x Digital
+                      - text: 2x I²C
+                      - text: 2x UART
+                      - text: 2x SPI
+                  - row "Button 1x RESET button 1x BOOT button 1x RESET button 1x BOOT button" [ref=e416]:
+                    - rowheader "Button" [ref=e417]
+                    - cell "1x RESET button 1x BOOT button" [ref=e418]:
+                      - text: 1x RESET button
+                      - text: 1x BOOT button
+                    - cell "1x RESET button 1x BOOT button" [ref=e419]:
+                      - text: 1x RESET button
+                      - text: 1x BOOT button
+                  - row "Security - OTP, Secure Boot, Arm TrustZone" [ref=e420]:
+                    - rowheader "Security" [ref=e421]
+                    - cell "-" [ref=e422]
+                    - cell "OTP, Secure Boot, Arm TrustZone" [ref=e423]
+                  - row "Software compatibility Support Micropython / Arduino / CircuitPython Support Micropython / Arduino / C,C++" [ref=e424]:
+                    - rowheader "Software compatibility" [ref=e425]
+                    - cell "Support Micropython / Arduino / CircuitPython" [ref=e426]
+                    - cell "Support Micropython / Arduino / C,C++" [ref=e427]
+                  - row "Working Temperature -20°C-70°C -20°C-70°C" [ref=e428]:
+                    - rowheader "Working Temperature" [ref=e429]
+                    - cell "-20°C-70°C" [ref=e430]
+                    - cell "-20°C-70°C" [ref=e431]
+                  - row "Dimensions 21x17.8 mm 21x17.8 mm" [ref=e432]:
+                    - rowheader "Dimensions" [ref=e433]
+                    - cell "21x17.8 mm" [ref=e434]
+                    - cell "21x17.8 mm" [ref=e435]
+                - heading "Hardware OverviewDirect link to Hardware Overview" [level=2] [ref=e436]:
+                  - text: Hardware Overview
+                  - link "Direct link to Hardware Overview" [ref=e437] [cursor=pointer]:
+                    - /url: "#hardware-overview"
+                    - text: "#"
+                - table [ref=e439]:
+                  - row "XIAO RP2350 Front Pinout" [ref=e440]:
+                    - columnheader "XIAO RP2350 Front Pinout" [ref=e441]
+                  - row "XIAO RP2350 Front Pinout" [ref=e442]:
+                    - cell "XIAO RP2350 Front Pinout" [ref=e443]:
+                      - img "XIAO RP2350 Front Pinout" [ref=e445]
+                  - row "XIAO RP2350 Back Pinout" [ref=e446]:
+                    - columnheader "XIAO RP2350 Back Pinout" [ref=e447]
+                  - row "XIAO RP2350 Back Pinout" [ref=e448]:
+                    - cell "XIAO RP2350 Back Pinout" [ref=e449]:
+                      - img "XIAO RP2350 Back Pinout" [ref=e451]
+                  - row "XIAO RP2350 Components" [ref=e452]:
+                    - columnheader "XIAO RP2350 Components" [ref=e453]
+                  - row "XIAO RP2350 Components" [ref=e454]:
+                    - cell "XIAO RP2350 Components" [ref=e455]:
+                      - img "XIAO RP2350 Components" [ref=e457]
+                - paragraph [ref=e458]:
+                  - text: Need more details on pinouts? Navigate to
+                  - link "Assets and Resources" [ref=e459] [cursor=pointer]:
+                    - /url: "#assets--resources"
+                  - text: below.
+                - heading "Pin MapDirect link to pin-map" [level=2] [ref=e460]:
+                  - strong [ref=e461]: Pin Map
+                  - link "Direct link to pin-map" [ref=e462] [cursor=pointer]:
+                    - /url: "#pin-map"
+                    - text: "#"
+                - table [ref=e463]:
+                  - rowgroup [ref=e464]:
+                    - row "XIAO Pin Function Chip Pin Alternate Functions Description" [ref=e465]:
+                      - columnheader "XIAO Pin" [ref=e466]
+                      - columnheader "Function" [ref=e467]
+                      - columnheader "Chip Pin" [ref=e468]
+                      - columnheader "Alternate Functions" [ref=e469]
+                      - columnheader "Description" [ref=e470]
+                  - rowgroup [ref=e471]:
+                    - row "5V VBUS Power Input/Output" [ref=e472]:
+                      - cell "5V" [ref=e473]
+                      - cell "VBUS" [ref=e474]
+                      - cell [ref=e475]
+                      - cell [ref=e476]
+                      - cell "Power Input/Output" [ref=e477]
+                    - row "GND" [ref=e478]:
+                      - cell "GND" [ref=e479]
+                      - cell [ref=e480]
+                      - cell [ref=e481]
+                      - cell [ref=e482]
+                      - cell [ref=e483]
+                    - row "3V3 3V3_OUT Power Output" [ref=e484]:
+                      - cell "3V3" [ref=e485]
+                      - cell "3V3_OUT" [ref=e486]
+                      - cell [ref=e487]
+                      - cell [ref=e488]
+                      - cell "Power Output" [ref=e489]
+                    - row "D0 Analog GPIO26 GPIO, ADC" [ref=e490]:
+                      - cell "D0" [ref=e491]
+                      - cell "Analog" [ref=e492]
+                      - cell "GPIO26" [ref=e493]
+                      - cell [ref=e494]
+                      - cell "GPIO, ADC" [ref=e495]
+                    - row "D1 Analog GPIO27 GPIO, ADC" [ref=e496]:
+                      - cell "D1" [ref=e497]
+                      - cell "Analog" [ref=e498]
+                      - cell "GPIO27" [ref=e499]
+                      - cell [ref=e500]
+                      - cell "GPIO, ADC" [ref=e501]
+                    - row "D2 Analog GPIO28 GPIO, ADC" [ref=e502]:
+                      - cell "D2" [ref=e503]
+                      - cell "Analog" [ref=e504]
+                      - cell "GPIO28" [ref=e505]
+                      - cell [ref=e506]
+                      - cell "GPIO, ADC" [ref=e507]
+                    - row "D3 SPIO_CSn GPIO5 GPIO, SPI" [ref=e508]:
+                      - cell "D3" [ref=e509]
+                      - cell "SPIO_CSn" [ref=e510]
+                      - cell "GPIO5" [ref=e511]
+                      - cell [ref=e512]
+                      - cell "GPIO, SPI" [ref=e513]
+                    - row "D4 SDA1 GPIO6 GPIO, I2C Data" [ref=e514]:
+                      - cell "D4" [ref=e515]
+                      - cell "SDA1" [ref=e516]
+                      - cell "GPIO6" [ref=e517]
+                      - cell [ref=e518]
+                      - cell "GPIO, I2C Data" [ref=e519]
+                    - row "D5 SCL1 GPIO7 GPIO, I2C Clock" [ref=e520]:
+                      - cell "D5" [ref=e521]
+                      - cell "SCL1" [ref=e522]
+                      - cell "GPIO7" [ref=e523]
+                      - cell [ref=e524]
+                      - cell "GPIO, I2C Clock" [ref=e525]
+                    - row "D6 TX0 GPIO0 GPIO, UART Transmit" [ref=e526]:
+                      - cell "D6" [ref=e527]
+                      - cell "TX0" [ref=e528]
+                      - cell "GPIO0" [ref=e529]
+                      - cell [ref=e530]
+                      - cell "GPIO, UART Transmit" [ref=e531]
+                    - row "D7 RX0 GPIO1 GPIO, UART Receive" [ref=e532]:
+                      - cell "D7" [ref=e533]
+                      - cell "RX0" [ref=e534]
+                      - cell "GPIO1" [ref=e535]
+                      - cell [ref=e536]
+                      - cell "GPIO, UART Receive" [ref=e537]
+                    - row "D8 SPIO_SCK GPIO2 GPIO, SPI Clock" [ref=e538]:
+                      - cell "D8" [ref=e539]
+                      - cell "SPIO_SCK" [ref=e540]
+                      - cell "GPIO2" [ref=e541]
+                      - cell [ref=e542]
+                      - cell "GPIO, SPI Clock" [ref=e543]
+                    - row "D9 SPIO_MISO GPIO4 GPIO, SPI Data" [ref=e544]:
+                      - cell "D9" [ref=e545]
+                      - cell "SPIO_MISO" [ref=e546]
+                      - cell "GPIO4" [ref=e547]
+                      - cell [ref=e548]
+                      - cell "GPIO, SPI Data" [ref=e549]
+                    - row "D10 SPIO_MOSI GPIO3 GPIO, SPI Data" [ref=e550]:
+                      - cell "D10" [ref=e551]
+                      - cell "SPIO_MOSI" [ref=e552]
+                      - cell "GPIO3" [ref=e553]
+                      - cell [ref=e554]
+                      - cell "GPIO, SPI Data" [ref=e555]
+                    - row "D11 RX1 GPIO21 GPIO, UART Receive" [ref=e556]:
+                      - cell "D11" [ref=e557]
+                      - cell "RX1" [ref=e558]
+                      - cell "GPIO21" [ref=e559]
+                      - cell [ref=e560]
+                      - cell "GPIO, UART Receive" [ref=e561]
+                    - row "D12 TX1 GPIO20 GPIO, UART Transmit" [ref=e562]:
+                      - cell "D12" [ref=e563]
+                      - cell "TX1" [ref=e564]
+                      - cell "GPIO20" [ref=e565]
+                      - cell [ref=e566]
+                      - cell "GPIO, UART Transmit" [ref=e567]
+                    - row "D13 SCL0 GPIO17 GPIO, I2C Clock" [ref=e568]:
+                      - cell "D13" [ref=e569]
+                      - cell "SCL0" [ref=e570]
+                      - cell "GPIO17" [ref=e571]
+                      - cell [ref=e572]
+                      - cell "GPIO, I2C Clock" [ref=e573]
+                    - row "D14 SDA0 GPIO16 GPIO, I2C Data" [ref=e574]:
+                      - cell "D14" [ref=e575]
+                      - cell "SDA0" [ref=e576]
+                      - cell "GPIO16" [ref=e577]
+                      - cell [ref=e578]
+                      - cell "GPIO, I2C Data" [ref=e579]
+                    - row "D15 SPI1_MOSI GPIO11 GPIO, SPI Data" [ref=e580]:
+                      - cell "D15" [ref=e581]
+                      - cell "SPI1_MOSI" [ref=e582]
+                      - cell "GPIO11" [ref=e583]
+                      - cell [ref=e584]
+                      - cell "GPIO, SPI Data" [ref=e585]
+                    - row "D16 SPI1_MISO GPIO12 GPIO, SPI Data" [ref=e586]:
+                      - cell "D16" [ref=e587]
+                      - cell "SPI1_MISO" [ref=e588]
+                      - cell "GPIO12" [ref=e589]
+                      - cell [ref=e590]
+                      - cell "GPIO, SPI Data" [ref=e591]
+                    - row "D17 SPI1_SCK GPIO10 GPIO, SPI Clock" [ref=e592]:
+                      - cell "D17" [ref=e593]
+                      - cell "SPI1_SCK" [ref=e594]
+                      - cell "GPIO10" [ref=e595]
+                      - cell [ref=e596]
+                      - cell "GPIO, SPI Clock" [ref=e597]
+                    - row "D18 SPI1_Csn GPIO9 Csn" [ref=e598]:
+                      - cell "D18" [ref=e599]
+                      - cell "SPI1_Csn" [ref=e600]
+                      - cell "GPIO9" [ref=e601]
+                      - cell "Csn" [ref=e602]
+                      - cell [ref=e603]
+                    - row "ADC_BAT GPIO29 Read the BAT voltage value" [ref=e604]:
+                      - cell "ADC_BAT" [ref=e605]
+                      - cell [ref=e606]
+                      - cell "GPIO29" [ref=e607]
+                      - cell [ref=e608]
+                      - cell "Read the BAT voltage value" [ref=e609]
+                    - row "Reset RUN RUN" [ref=e610]:
+                      - cell "Reset" [ref=e611]
+                      - cell [ref=e612]
+                      - cell "RUN" [ref=e613]
+                      - cell [ref=e614]
+                      - cell "RUN" [ref=e615]
+                    - row "Boot RP2040_BOOT Enter Boot Mode" [ref=e616]:
+                      - cell "Boot" [ref=e617]
+                      - cell [ref=e618]
+                      - cell "RP2040_BOOT" [ref=e619]
+                      - cell [ref=e620]
+                      - cell "Enter Boot Mode" [ref=e621]
+                    - row "CHARGE_LED NCHG CHG-LED_Red" [ref=e622]:
+                      - cell "CHARGE_LED" [ref=e623]
+                      - cell [ref=e624]
+                      - cell "NCHG" [ref=e625]
+                      - cell [ref=e626]
+                      - cell "CHG-LED_Red" [ref=e627]
+                    - row "RGB LED GPIO22 RGB LED" [ref=e628]:
+                      - cell "RGB LED" [ref=e629]
+                      - cell [ref=e630]
+                      - cell "GPIO22" [ref=e631]
+                      - cell [ref=e632]
+                      - cell "RGB LED" [ref=e633]
+                    - row "USER_LED GPIO25 User Light_Yellow" [ref=e634]:
+                      - cell "USER_LED" [ref=e635]
+                      - cell [ref=e636]
+                      - cell "GPIO25" [ref=e637]
+                      - cell [ref=e638]
+                      - cell "User Light_Yellow" [ref=e639]
+                - heading "PrerequisitesDirect link to Prerequisites" [level=2] [ref=e640]:
+                  - text: Prerequisites
+                  - link "Direct link to Prerequisites" [ref=e641] [cursor=pointer]:
+                    - /url: "#prerequisites"
+                    - text: "#"
+                - paragraph [ref=e642]: "To get started, ensure you have:"
+                - list [ref=e643]:
+                  - listitem [ref=e644]: An RP2350 board
+                  - listitem [ref=e645]: The Arduino IDE
+                  - listitem [ref=e646]: A USB cable
+                - heading "Setting Up the SoftwareDirect link to Setting Up the Software" [level=2] [ref=e647]:
+                  - text: Setting Up the Software
+                  - link "Direct link to Setting Up the Software" [ref=e648] [cursor=pointer]:
+                    - /url: "#setting-up-the-software"
+                    - text: "#"
+                - heading "1. Install the Arduino IDEDirect link to 1. Install the Arduino IDE" [level=3] [ref=e649]:
+                  - text: 1. Install the Arduino IDE
+                  - link "Direct link to 1. Install the Arduino IDE" [ref=e650] [cursor=pointer]:
+                    - /url: "#1-install-the-arduino-ide"
+                    - text: "#"
+                - paragraph [ref=e651]:
+                  - text: "Download and install the latest Arduino IDE from the official site:"
+                  - link "Arduino Software" [ref=e652] [cursor=pointer]:
+                    - /url: https://www.arduino.cc/en/software
+                  - text: .
+                - heading "2. Add RP2350 Board SupportDirect link to 2. Add RP2350 Board Support" [level=3] [ref=e653]:
+                  - text: 2. Add RP2350 Board Support
+                  - link "Direct link to 2. Add RP2350 Board Support" [ref=e654] [cursor=pointer]:
+                    - /url: "#2-add-rp2350-board-support"
+                    - text: "#"
+                - list [ref=e655]:
+                  - listitem [ref=e656]:
+                    - paragraph [ref=e657]:
+                      - text: Open the Arduino IDE and navigate to
+                      - strong [ref=e658]: File
+                      - text: ">"
+                      - strong [ref=e659]: Preferences
+                      - text: .
+                  - listitem [ref=e660]:
+                    - paragraph [ref=e661]:
+                      - text: In the
+                      - strong [ref=e662]: Additional Boards Manager URLs
+                      - text: "field, add this URL:"
+                    - generic [ref=e664]:
+                      - code [ref=e666]:
+                        - generic [ref=e667]: https://github.com/earlephilhower/arduino-pico/releases/download/global/package_rp2040_index.json
+                      - generic [ref=e668]:
+                        - button "Toggle word wrap" [ref=e669] [cursor=pointer]:
+                          - img [ref=e670]
+                        - button "Copy code to clipboard" [ref=e672] [cursor=pointer]:
+                          - generic [ref=e673]:
+                            - img [ref=e674]
+                            - img [ref=e676]
+                    - img [ref=e679]
+                  - listitem [ref=e680]:
+                    - paragraph [ref=e681]:
+                      - text: Click
+                      - strong [ref=e682]: OK
+                      - text: to save your settings.
+                  - listitem [ref=e683]:
+                    - paragraph [ref=e684]:
+                      - text: Go to
+                      - strong [ref=e685]: Tools
+                      - text: ">"
+                      - strong [ref=e686]: Board
+                      - text: ">"
+                      - strong [ref=e687]: Boards Manager
+                      - text: .
+                  - listitem [ref=e688]:
+                    - paragraph [ref=e689]:
+                      - text: In the Boards Manager, search for
+                      - strong [ref=e690]: pico
+                      - text: and click
+                      - strong [ref=e691]: Install
+                      - text: .
+                  - listitem [ref=e692]:
+                    - paragraph [ref=e693]:
+                      - text: After installation, go to
+                      - strong [ref=e694]: Tools
+                      - text: ">"
+                      - strong [ref=e695]: Board
+                      - text: and select the board shown below as your board.
+                - generic [ref=e696]:
+                  - generic [ref=e697]:
+                    - img [ref=e699]
+                    - text: note
+                  - paragraph [ref=e702]: Ensure you install version 4.2.0 or later for full support of the XIAO RP2350 board.
+                - img [ref=e704]
+                - heading "3. Uploading a SketchDirect link to 3. Uploading a Sketch" [level=3] [ref=e705]:
+                  - text: 3. Uploading a Sketch
+                  - link "Direct link to 3. Uploading a Sketch" [ref=e706] [cursor=pointer]:
+                    - /url: "#3-uploading-a-sketch"
+                    - text: "#"
+                - paragraph [ref=e707]: "Before uploading a sketch, place your XIAO RP2350 into BOOT mode. Use one of the methods below:"
+                - generic [ref=e708]:
+                  - tablist [ref=e709]:
+                    - 'tab "Method 1: Before Connecting to Computer" [selected] [ref=e710] [cursor=pointer]'
+                    - 'tab "Method 2: While Connected to Computer" [ref=e711] [cursor=pointer]'
+                  - tabpanel [ref=e713]:
+                    - generic [ref=e714]:
+                      - img [ref=e715]
+                      - emphasis [ref=e717]: Hold Boot-> Plug in Cable-> Release Boot
+                - list [ref=e718]:
+                  - listitem [ref=e719]: Open the Arduino IDE and create a new sketch.
+                  - listitem [ref=e720]:
+                    - text: Write your code. For example, use the
+                    - code [ref=e721]: Blink
+                    - text: example code.
+                  - listitem [ref=e722]:
+                    - text: Go to
+                    - strong [ref=e723]: Tools
+                    - text: ">"
+                    - strong [ref=e724]: Port
+                    - text: and select the port where your RP2350 is connected.
+                - img [ref=e726]
+                - heading "Assets & ResourcesDirect link to Assets & Resources" [level=2] [ref=e727]:
+                  - text: Assets & Resources
+                  - link "Direct link to Assets & Resources" [ref=e728] [cursor=pointer]:
+                    - /url: "#assets--resources"
+                    - text: "#"
+                - paragraph [ref=e729]:
+                  - strong [ref=e730]: Hardware Design
+                - list [ref=e731]:
+                  - listitem [ref=e732]:
+                    - strong [ref=e733]: 📄[Datasheet]
+                    - link "Raspberry Pi RP2350 Datasheet" [ref=e734] [cursor=pointer]:
+                      - /url: https://datasheets.raspberrypi.com/rp2350/rp2350-datasheet.pdf
+                  - listitem [ref=e735]:
+                    - strong [ref=e736]: 📄[Schematic]
+                    - link "XIAO RP2350 Schematic" [ref=e737] [cursor=pointer]:
+                      - /url: https://files.seeedstudio.com/wiki/XIAO-RP2350/res/Seeed-Studio-XIAO-RP2350-v1.0.pdf
+                  - listitem [ref=e738]:
+                    - strong [ref=e739]: 🗃️[PCB Design Files]
+                    - link "XIAO RP2350 KiCad Project" [ref=e740] [cursor=pointer]:
+                      - /url: https://files.seeedstudio.com/wiki/XIAO-RP2350/res/XIAO_RP2350_v1.0_SCH&PCB_240626.zip
+                  - listitem [ref=e741]:
+                    - strong [ref=e742]: 🗃️[PCB Design Libraries]
+                    - list [ref=e743]:
+                      - listitem [ref=e744]:
+                        - link "XIAO Series KiCad Footprints" [ref=e745] [cursor=pointer]:
+                          - /url: https://files.seeedstudio.com/wiki/XIAO-KiCad-Library/XIAO_Series_Footprints.zip
+                      - listitem [ref=e746]:
+                        - link "XIAO Series KiCad SCH Symbols" [ref=e747] [cursor=pointer]:
+                          - /url: https://files.seeedstudio.com/wiki/XIAO-KiCad-Library/XIAO_Series_SCH_Symbols.zip
+                  - listitem [ref=e748]:
+                    - strong [ref=e749]: 📄[Pinout Diagram]
+                    - link "XIAO RP2350 Pinout Sheet" [ref=e750] [cursor=pointer]:
+                      - /url: https://files.seeedstudio.com/wiki/XIAO-RP2350/res/XIAO-RP2350-pinout-sheet.xlsx
+                - paragraph [ref=e751]:
+                  - strong [ref=e752]: Mechanical Design
+                - list [ref=e753]:
+                  - listitem [ref=e754]:
+                    - strong [ref=e755]: 📄[2D Dimensions]
+                    - link "XIAO RP2350 Dimension in DXF" [ref=e756] [cursor=pointer]:
+                      - /url: https://files.seeedstudio.com/wiki/XIAO-RP2350/res/XIAO-RP2350-dimension-v1.0.dxf
+                  - listitem [ref=e757]:
+                    - strong [ref=e758]: 🔗[3D Model]
+                    - link "XIAO RP2350 3D Model" [ref=e759] [cursor=pointer]:
+                      - /url: https://grabcad.com/library/seeed-studio-xiao-rp2350-2
+                - paragraph [ref=e760]:
+                  - strong [ref=e761]: Software & Tools
+                - list [ref=e762]:
+                  - listitem [ref=e763]:
+                    - strong [ref=e764]: 📄[Test Firmware]
+                    - link "XIAO RP2350 Low Power Test Firmware" [ref=e765] [cursor=pointer]:
+                      - /url: https://files.seeedstudio.com/wiki/XIAO-RP2350/res/powman_timer-56.uf2
+                - paragraph [ref=e766]:
+                  - strong [ref=e767]: Others
+                - list [ref=e768]:
+                  - listitem [ref=e769]:
+                    - strong [ref=e770]: 📄[Document]
+                    - link "Getting Started with Raspberry Pi Pico-series" [ref=e771] [cursor=pointer]:
+                      - /url: https://datasheets.raspberrypi.com/pico/getting-started-with-pico.pdf
+                    - list [ref=e772]:
+                      - listitem [ref=e773]: A comprehensive guide to setting up and programming Raspberry Pi Pico boards, ideal for beginners looking to learn MicroPython or C/C++.
+                  - listitem [ref=e774]:
+                    - strong [ref=e775]: 📄[Document]
+                    - link "Raspberry Pi Pico-series Python SDK" [ref=e776] [cursor=pointer]:
+                      - /url: https://datasheets.raspberrypi.com/pico/raspberry-pi-pico-python-sdk.pdf
+                    - list [ref=e777]:
+                      - listitem [ref=e778]: The book which documents the MicroPython setup tutorials and APIs
+                  - listitem [ref=e779]:
+                    - strong [ref=e780]: 📄[Document]
+                    - link "Raspberry Pi Pico-series C/C++SDK" [ref=e781] [cursor=pointer]:
+                      - /url: https://datasheets.raspberrypi.com/pico/raspberry-pi-pico-c-sdk.pdf
+                    - list [ref=e782]:
+                      - listitem [ref=e783]: The book which documents the Pico C/C++ SDK APIs
+                  - listitem [ref=e784]:
+                    - strong [ref=e785]: 📄[arduino-pico GitHub]
+                    - text: (
+                    - link "https://github.com/earlephilhower/arduino-pico" [ref=e786] [cursor=pointer]:
+                      - /url: https://github.com/earlephilhower/arduino-pico
+                    - text: )
+                  - listitem [ref=e787]:
+                    - strong [ref=e788]: 📄[Arduino-Pico Core Documentation]
+                    - text: (
+                    - link "https://arduino-pico.readthedocs.io/en/latest/install.html" [ref=e789] [cursor=pointer]:
+                      - /url: https://arduino-pico.readthedocs.io/en/latest/install.html
+                    - text: )
+                - heading "Support & DiscussionDirect link to Support & Discussion" [level=2] [ref=e790]:
+                  - text: Support & Discussion
+                  - link "Direct link to Support & Discussion" [ref=e791] [cursor=pointer]:
+                    - /url: "#support--discussion"
+                    - text: "#"
+                - paragraph [ref=e792]: "Thank you for using Seeed products! We offer multiple channels for support and community discussion:"
+                - generic [ref=e793]:
+                  - link [ref=e794] [cursor=pointer]:
+                    - /url: https://forum.seeedstudio.com/
+                  - link [ref=e795] [cursor=pointer]:
+                    - /url: https://www.seeedstudio.com/contacts
+                - generic [ref=e796]:
+                  - link [ref=e797] [cursor=pointer]:
+                    - /url: https://discord.gg/kpY74apCWj
+                  - link [ref=e798] [cursor=pointer]:
+                    - /url: https://github.com/Seeed-Studio/wiki-documents/discussions/69
+              - generic [ref=e800]:
+                - link "Edit this page" [ref=e802] [cursor=pointer]:
+                  - /url: https://github.com/Seeed-Studio/wiki-documents/blob/docusaurus-version/sites/en/docs/docs/Sensor/SeeedStudio_XIAO/SeeedStudio_XIAO_RP2350/XIAO-RP2350-with-Arduino.md
+                  - img [ref=e803]
+                  - text: Edit this page
+                - generic [ref=e807]:
+                  - text: Last updated on
+                  - time [ref=e809]: Oct 30, 2024
+                  - text: by Spencer
+            - navigation "Docs pages" [ref=e810]:
+              - link "Previous « Motion Recognition based on Edge Impulse" [ref=e811] [cursor=pointer]:
+                - /url: /XIAO-RP2040-EI/
+                - generic [ref=e812]: Previous
+                - generic [ref=e813]: « Motion Recognition based on Edge Impulse
+              - link "Next Pin Multiplexing (Arduino) »" [ref=e814] [cursor=pointer]:
+                - /url: /XIAO_RP2350_Pin_Multiplexing/
+                - generic [ref=e815]: Next
+                - generic [ref=e816]: Pin Multiplexing (Arduino) »
+          - iframe [ref=e819]:
+            
+        - list [ref=e822]:
+          - listitem [ref=e823]:
+            - link "Features" [ref=e824] [cursor=pointer]:
+              - /url: "#features"
+          - listitem [ref=e825]:
+            - link "Specification" [ref=e826] [cursor=pointer]:
+              - /url: "#specification"
+          - listitem [ref=e827]:
+            - link "Hardware Overview" [ref=e828] [cursor=pointer]:
+              - /url: "#hardware-overview"
+          - listitem [ref=e829]:
+            - link "Pin Map" [ref=e830] [cursor=pointer]:
+              - /url: "#pin-map"
+              - strong [ref=e831]: Pin Map
+          - listitem [ref=e832]:
+            - link "Prerequisites" [ref=e833] [cursor=pointer]:
+              - /url: "#prerequisites"
+          - listitem [ref=e834]:
+            - link "Setting Up the Software" [ref=e835] [cursor=pointer]:
+              - /url: "#setting-up-the-software"
+            - list [ref=e836]:
+              - listitem [ref=e837]:
+                - link "1. Install the Arduino IDE" [ref=e838] [cursor=pointer]:
+                  - /url: "#1-install-the-arduino-ide"
+              - listitem [ref=e839]:
+                - link "2. Add RP2350 Board Support" [ref=e840] [cursor=pointer]:
+                  - /url: "#2-add-rp2350-board-support"
+              - listitem [ref=e841]:
+                - link "3. Uploading a Sketch" [ref=e842] [cursor=pointer]:
+                  - /url: "#3-uploading-a-sketch"
+          - listitem [ref=e843]:
+            - link "Assets & Resources" [ref=e844] [cursor=pointer]:
+              - /url: "#assets--resources"
+          - listitem [ref=e845]:
+            - link "Support & Discussion" [ref=e846] [cursor=pointer]:
+              - /url: "#support--discussion"
+  - contentinfo [ref=e847]:
+    - generic [ref=e848]:
+      - generic [ref=e849]:
+        - generic [ref=e850]:
+          - generic [ref=e851]: Navigation
+          - list [ref=e852]:
+            - listitem [ref=e853]:
+              - link "Getting Started" [ref=e854] [cursor=pointer]:
+                - /url: /Getting_Started/
+            - listitem [ref=e855]:
+              - link "Sensor and Sensing" [ref=e856] [cursor=pointer]:
+                - /url: /Sensor_Network/
+            - listitem [ref=e857]:
+              - link "Network" [ref=e858] [cursor=pointer]:
+                - /url: /Network/
+            - listitem [ref=e859]:
+              - link "Edge Computing" [ref=e860] [cursor=pointer]:
+                - /url: /Edge_Computing/
+            - listitem [ref=e861]:
+              - link "Cloud" [ref=e862] [cursor=pointer]:
+                - /url: /Cloud/
+            - listitem [ref=e863]:
+              - link "Solutions" [ref=e864] [cursor=pointer]:
+                - /url: https://solution.seeed.cc/
+        - generic [ref=e865]:
+          - generic [ref=e866]: Ecosystem
+          - list [ref=e867]:
+            - listitem [ref=e868]:
+              - link "Discord" [ref=e869] [cursor=pointer]:
+                - /url: https://discord.com/invite/QqMgVwHT3X
+            - listitem [ref=e870]:
+              - link "Project Hub" [ref=e871] [cursor=pointer]:
+                - /url: https://project.seeedstudio.com/
+            - listitem [ref=e872]:
+              - link "Partners" [ref=e873] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/ecosystem/
+            - listitem [ref=e874]:
+              - link "Distributors" [ref=e875] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/distributors.html
+        - generic [ref=e876]:
+          - generic [ref=e877]: Quick Guide
+          - list [ref=e878]:
+            - listitem [ref=e879]:
+              - link "Bazaar" [ref=e880] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/
+            - listitem [ref=e881]:
+              - link "How to get help" [ref=e882] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/get_help/HowToGetHelp
+            - listitem [ref=e883]:
+              - link "FAQs" [ref=e884] [cursor=pointer]:
+                - /url: https://support.seeedstudio.com/knowledgebase
+            - listitem [ref=e885]:
+              - link "Forum" [ref=e886] [cursor=pointer]:
+                - /url: https://forum.seeedstudio.com/
+            - listitem [ref=e887]:
+              - link "Technical Support" [ref=e888] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/get_help/TechnicalSupport
+        - generic [ref=e889]:
+          - generic [ref=e890]: Company
+          - list [ref=e891]:
+            - listitem [ref=e892]:
+              - link "About Seeed" [ref=e893] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/about-us/
+            - listitem [ref=e894]:
+              - link "Join us" [ref=e895] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/join-us/
+            - listitem [ref=e896]:
+              - link "Contact Us" [ref=e897] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/contacts
+            - listitem [ref=e898]:
+              - link "Press" [ref=e899] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/blog/2020/04/22/seeed-in-the-news/
+      - generic [ref=e901]: Copyright © 2026 Seeed Studio, Inc. Built with Docusaurus.

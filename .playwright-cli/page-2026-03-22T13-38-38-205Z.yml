@@ -1,0 +1,323 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - link [ref=e7] [cursor=pointer]:
+          - /url: https://www.arduino.cc/
+          - img [ref=e8]
+        - link [ref=e11] [cursor=pointer]:
+          - /url: https://docs.arduino.cc/
+          - img [ref=e12]
+      - combobox [ref=e361]:
+        - generic [ref=e362]:
+          - button "Search" [ref=e365] [cursor=pointer]:
+            - img [ref=e366]
+          - searchbox "Search" [ref=e369]
+          - button / [ref=e372] [cursor=pointer]
+    - main [ref=e25]:
+      - generic [ref=e26]:
+        - generic [ref=e27]:
+          - link "Go Back" [ref=e29] [cursor=pointer]:
+            - /url: /hardware/
+            - img [ref=e31]
+            - generic [ref=e34]: Go Back
+          - generic [ref=e36]: Hardware
+          - button [ref=e37]:
+            - img [ref=e38]
+        - generic [ref=e41]:
+          - button "MKR Family" [ref=e373]:
+            - generic [ref=e374] [cursor=pointer]:
+              - heading "MKR Family" [level=5] [ref=e376]
+              - img [ref=e378]
+          - button "UNO Family Boards UNO Mini Limited Edition UNO Q UNO R4 Minima UNO R4 WiFi UNO R3 UNO R3 SMD UNO WiFi Rev2 Shields 4 Relays Shield 9 Axis Motion Shield Ethernet Shield Rev2 Motor Shield Rev3 UNO SPE Shield" [ref=e381]:
+            - generic [ref=e382] [cursor=pointer]:
+              - heading "UNO Family" [level=5] [ref=e384]
+              - img [ref=e386]
+            - generic [ref=e389]:
+              - heading "Boards" [level=6] [ref=e391]
+              - generic [ref=e393]:
+                - link "UNO Mini Limited Edition" [ref=e394] [cursor=pointer]:
+                  - /url: /hardware/uno-mini-limited-edition
+                - link "UNO Q" [ref=e395] [cursor=pointer]:
+                  - /url: /hardware/uno-q
+                - link "UNO R4 Minima" [ref=e396] [cursor=pointer]:
+                  - /url: /hardware/uno-r4-minima
+                - link "UNO R4 WiFi" [ref=e397] [cursor=pointer]:
+                  - /url: /hardware/uno-r4-wifi
+                - link "UNO R3" [ref=e398] [cursor=pointer]:
+                  - /url: /hardware/uno-rev3
+                - link "UNO R3 SMD" [ref=e399] [cursor=pointer]:
+                  - /url: /hardware/uno-rev3-smd
+                - link "UNO WiFi Rev2" [ref=e400] [cursor=pointer]:
+                  - /url: /hardware/uno-wifi-rev2
+            - generic [ref=e401]:
+              - heading "Shields" [level=6] [ref=e403]
+              - generic [ref=e405]:
+                - link "4 Relays Shield" [ref=e406] [cursor=pointer]:
+                  - /url: /hardware/4-relays-shield
+                - link "9 Axis Motion Shield" [ref=e407] [cursor=pointer]:
+                  - /url: /hardware/9-axis-motion-shield
+                - link "Ethernet Shield Rev2" [ref=e408] [cursor=pointer]:
+                  - /url: /hardware/ethernet-shield-rev2
+                - link "Motor Shield Rev3" [ref=e409] [cursor=pointer]:
+                  - /url: /hardware/motor-shield-rev3
+                - link "UNO SPE Shield" [ref=e410] [cursor=pointer]:
+                  - /url: /hardware/spe-shield
+          - button "Nano Family" [ref=e411]:
+            - generic [ref=e412] [cursor=pointer]:
+              - heading "Nano Family" [level=5] [ref=e414]
+              - img [ref=e416]
+          - button "Portenta Family" [ref=e419]:
+            - generic [ref=e420] [cursor=pointer]:
+              - heading "Portenta Family" [level=5] [ref=e422]
+              - img [ref=e424]
+          - button "Pro Solutions and Kits" [ref=e427]:
+            - generic [ref=e428] [cursor=pointer]:
+              - heading "Pro Solutions and Kits" [level=5] [ref=e430]
+              - img [ref=e432]
+          - button "Nicla Family" [ref=e435]:
+            - generic [ref=e436] [cursor=pointer]:
+              - heading "Nicla Family" [level=5] [ref=e438]
+              - img [ref=e440]
+          - button "Opta" [ref=e443]:
+            - generic [ref=e444] [cursor=pointer]:
+              - heading "Opta" [level=5] [ref=e446]
+              - img [ref=e448]
+          - button "Education" [ref=e451]:
+            - generic [ref=e452] [cursor=pointer]:
+              - heading "Education" [level=5] [ref=e454]
+              - img [ref=e456]
+          - button "Kits" [ref=e459]:
+            - generic [ref=e460] [cursor=pointer]:
+              - heading "Kits" [level=5] [ref=e462]
+              - img [ref=e464]
+          - button "Mega" [ref=e467]:
+            - generic [ref=e468] [cursor=pointer]:
+              - heading "Mega" [level=5] [ref=e470]
+              - img [ref=e472]
+          - button "Modulino" [ref=e475]:
+            - generic [ref=e476] [cursor=pointer]:
+              - heading "Modulino" [level=5] [ref=e478]
+              - img [ref=e480]
+          - button "Classic" [ref=e483]:
+            - generic [ref=e484] [cursor=pointer]:
+              - heading "Classic" [level=5] [ref=e486]
+              - img [ref=e488]
+      - generic [ref=e160]:
+        - generic [ref=e161]:
+          - link "Home /" [ref=e162] [cursor=pointer]:
+            - /url: /
+            - text: Home
+            - generic [ref=e163]: /
+          - link "Hardware /" [ref=e164] [cursor=pointer]:
+            - /url: /hardware/
+            - text: Hardware
+            - generic [ref=e165]: /
+          - link "UNO R4 Minima" [ref=e166] [cursor=pointer]:
+            - /url: /hardware/uno-r4-minima
+        - generic [ref=e167]:
+          - generic [ref=e168]:
+            - generic [ref=e169]:
+              - heading "UNO R4 Minima" [level=1] [ref=e172]
+              - generic [ref=e173]:
+                - paragraph [ref=e175]:
+                  - text: The Arduino UNO R4 Minima is the first UNO board featuring a 32-bit microcontroller, the RA4M1 from
+                  - link "Renesas" [ref=e176] [cursor=pointer]:
+                    - /url: https://www.renesas.com/us/en
+                  - text: . It is faster, has more memory and has a number of built-in features such as a
+                  - link "DAC" [ref=e177] [cursor=pointer]:
+                    - /url: /tutorials/uno-r4-minima/dac
+                  - text: ","
+                  - link "RTC" [ref=e178] [cursor=pointer]:
+                    - /url: /tutorials/uno-r4-minima/rtc
+                  - text: and
+                  - link "HID" [ref=e179] [cursor=pointer]:
+                    - /url: /tutorials/uno-r4-minima/usb-hid
+                  - text: . The UNO R4 Minima is a
+                  - strong [ref=e180]: 5 V only
+                  - text: board.
+                - link "Get Started" [ref=e182] [cursor=pointer]:
+                  - /url: /tutorials/uno-r4-minima/minima-getting-started
+                  - generic [ref=e183]: Get Started
+            - generic [ref=e184]:
+              - img "UNO R4 Minima" [ref=e185]
+              - generic [ref=e186]:
+                - button "Interactive Viewer" [ref=e189]:
+                  - img [ref=e190]
+                  - generic: Interactive Viewer
+                - button "Pinout" [ref=e194]:
+                  - img [ref=e195]
+                  - generic: Pinout
+                - link "Buy now" [ref=e200] [cursor=pointer]:
+                  - /url: https://store.arduino.cc/uno-r4-minima
+                  - img [ref=e201]
+                  - generic [ref=e204]: Buy now
+          - generic [ref=e205]:
+            - heading "Downloadable resources" [level=2] [ref=e207]
+            - generic [ref=e209]:
+              - link "Pinout (PDF)" [ref=e210] [cursor=pointer]:
+                - /url: /resources/pinouts/ABX00080-full-pinout.pdf
+                - img [ref=e212]
+                - generic [ref=e215]: Pinout (PDF)
+              - link "Datasheet" [ref=e216] [cursor=pointer]:
+                - /url: /resources/datasheets/ABX00080-datasheet.pdf
+                - img [ref=e218]
+                - generic [ref=e221]: Datasheet
+              - link "Schematics" [ref=e222] [cursor=pointer]:
+                - /url: /resources/schematics/ABX00080-schematics.pdf
+                - img [ref=e224]
+                - generic [ref=e227]: Schematics
+              - link "CAD Files" [ref=e228] [cursor=pointer]:
+                - /url: /static/d819f8b1f63896c24d5949f9c4da7bbf/ABX00080-cad-files.zip
+                - img [ref=e230]
+                - generic [ref=e233]: CAD Files
+          - generic [ref=e234]:
+            - generic [ref=e235]:
+              - button "Features" [ref=e237]
+              - button "Tutorials" [ref=e239]
+              - button "Tech Specs" [active] [ref=e241] [cursor=pointer]
+              - button "Compatibility" [ref=e243]
+              - button "Suggested Libraries" [ref=e245]
+            - generic [ref=e492]:
+              - generic [ref=e493]:
+                - paragraph [ref=e494]: Here you will find the technical specifications for the Arduino® UNO R4 Minima.
+                - paragraph [ref=e495]:
+                  - strong [ref=e496]: "Maximum current draw per pin:"
+                  - text: the UNO R4 series' maximum current draw per GPIO is
+                  - strong [ref=e497]: 8 mA
+                  - text: ", which is significantly lower than previous versions. Exceeding this limit may damage your pin / board."
+              - table [ref=e499]:
+                - rowgroup [ref=e500]:
+                  - row "Board" [ref=e501]:
+                    - columnheader "Board" [ref=e502]
+                  - row "Name Arduino® UNO R4 Minima" [ref=e503]:
+                    - rowheader "Name" [ref=e504]
+                    - cell "Arduino® UNO R4 Minima" [ref=e505]
+                  - row "SKU ABX00080 / ABX00080_CN / ABX00080_IN" [ref=e506]:
+                    - rowheader "SKU" [ref=e507]
+                    - cell "ABX00080 / ABX00080_CN / ABX00080_IN" [ref=e508]
+                  - row "Microcontroller" [ref=e509]:
+                    - columnheader "Microcontroller" [ref=e510]
+                  - row "Renesas RA4M1 (Arm® Cortex®-M4)" [ref=e511]:
+                    - cell "Renesas RA4M1 (Arm® Cortex®-M4)" [ref=e512]
+                  - row "USB" [ref=e513]:
+                    - columnheader "USB" [ref=e514]
+                  - row "USB-C® Programming Port" [ref=e515]:
+                    - rowheader "USB-C®" [ref=e516]
+                    - cell "Programming Port" [ref=e517]
+                  - row "Pins" [ref=e518]:
+                    - columnheader "Pins" [ref=e519]
+                  - row "Digital I/O Pins 14" [ref=e520]:
+                    - rowheader "Digital I/O Pins" [ref=e521]
+                    - cell "14" [ref=e522]
+                  - row "Analog input pins 6" [ref=e523]:
+                    - rowheader "Analog input pins" [ref=e524]
+                    - cell "6" [ref=e525]
+                  - row "DAC 1" [ref=e526]:
+                    - rowheader "DAC" [ref=e527]
+                    - cell "1" [ref=e528]
+                  - row "PWM pins 6" [ref=e529]:
+                    - rowheader "PWM pins" [ref=e530]
+                    - cell "6" [ref=e531]
+                  - row "External interrupts 2,3" [ref=e532]:
+                    - rowheader "External interrupts" [ref=e533]
+                    - cell "2,3" [ref=e534]
+                  - row "Communication" [ref=e535]:
+                    - columnheader "Communication" [ref=e536]
+                  - row "UART Yes, 1x" [ref=e537]:
+                    - rowheader "UART" [ref=e538]
+                    - cell "Yes, 1x" [ref=e539]
+                  - row "I2C Yes, 1x" [ref=e540]:
+                    - rowheader "I2C" [ref=e541]
+                    - cell "Yes, 1x" [ref=e542]
+                  - row "SPI Yes, 1x" [ref=e543]:
+                    - rowheader "SPI" [ref=e544]
+                    - cell "Yes, 1x" [ref=e545]
+                  - row "CAN Yes 1 CAN Bus" [ref=e546]:
+                    - rowheader "CAN" [ref=e547]
+                    - cell "Yes 1 CAN Bus" [ref=e548]
+                  - row "Power" [ref=e549]:
+                    - columnheader "Power" [ref=e550]
+                  - row "Circuit operating voltage 5 V" [ref=e551]:
+                    - rowheader "Circuit operating voltage" [ref=e552]
+                    - cell "5 V" [ref=e553]
+                  - row "Input voltage (VIN) 6-24 V" [ref=e554]:
+                    - rowheader "Input voltage (VIN)" [ref=e555]
+                    - cell "6-24 V" [ref=e556]
+                  - row "DC Current per I/O Pin 8 mA" [ref=e557]:
+                    - rowheader "DC Current per I/O Pin" [ref=e558]
+                    - cell "8 mA" [ref=e559]
+                  - row "Clock speed" [ref=e560]:
+                    - columnheader "Clock speed" [ref=e561]
+                  - row "Main core 48 MHz" [ref=e562]:
+                    - rowheader "Main core" [ref=e563]
+                    - cell "48 MHz" [ref=e564]
+                  - row "Memory" [ref=e565]:
+                    - columnheader "Memory" [ref=e566]
+                  - row "RA4M1 256 kB Flash, 32 kB RAM" [ref=e567]:
+                    - rowheader "RA4M1" [ref=e568]
+                    - cell "256 kB Flash, 32 kB RAM" [ref=e569]
+                  - row "Dimensions" [ref=e570]:
+                    - columnheader "Dimensions" [ref=e571]
+                  - row "Width 68.85 mm" [ref=e572]:
+                    - rowheader "Width" [ref=e573]
+                    - cell "68.85 mm" [ref=e574]
+                  - row "Length 53.34 mm" [ref=e575]:
+                    - rowheader "Length" [ref=e576]
+                    - cell "53.34 mm" [ref=e577]
+        - generic [ref=e311]:
+          - heading "Certifications" [level=4] [ref=e312]
+          - generic [ref=e313]:
+            - button "RCM" [ref=e315]
+            - button "FCC" [ref=e317]
+            - button "UKCA" [ref=e319]
+            - button "CE" [ref=e321]
+            - button "CE (EMC)" [ref=e323]
+            - button "CE (LVD)" [ref=e325]
+            - button "IC" [ref=e327]
+        - generic [ref=e328]:
+          - heading "Connect and Contribute" [level=4] [ref=e329]
+          - generic [ref=e330]:
+            - generic [ref=e331]:
+              - link "Project Hub" [ref=e332] [cursor=pointer]:
+                - /url: https://projecthub.arduino.cc/?value=UNO R4 Minima
+              - link "GitHub Repository" [ref=e333] [cursor=pointer]:
+                - /url: https://github.com/arduino/docs-content
+              - link "Forum" [ref=e334] [cursor=pointer]:
+                - /url: https://forum.arduino.cc/c/hardware/uno-r4/uno-r4-minima/188
+            - generic [ref=e335]:
+              - link "Product Compliance" [ref=e336] [cursor=pointer]:
+                - /url: /certifications/
+              - link "Help Center" [ref=e337] [cursor=pointer]:
+                - /url: https://support.arduino.cc/hc/en-us/articles/9264736457500-Hardware-Support
+              - link "Trademarks & Licensing" [ref=e338] [cursor=pointer]:
+                - /url: https://www.arduino.cc/en/trademark/
+        - generic [ref=e339]:
+          - heading "Was this article helpful?" [level=4] [ref=e340]
+          - generic [ref=e341]:
+            - button [ref=e342]:
+              - img [ref=e343]
+            - button [ref=e345]:
+              - img [ref=e346]
+    - contentinfo [ref=e349]:
+      - link "© 2026 Arduino" [ref=e350] [cursor=pointer]:
+        - /url: https://www.arduino.cc/
+      - generic [ref=e351]:
+        - link "Trademark & Copyright" [ref=e352] [cursor=pointer]:
+          - /url: https://www.arduino.cc/en/trademark/
+        - link "Whistleblowing" [ref=e353] [cursor=pointer]:
+          - /url: https://secure.ethicspoint.com/domain/media/en/gui/33575/
+        - link "Digital Services Act" [ref=e354] [cursor=pointer]:
+          - /url: https://www.arduino.cc/en/digital-services-act/
+        - link "Terms Of Service" [ref=e355] [cursor=pointer]:
+          - /url: https://www.arduino.cc/en/terms-conditions
+        - link "Privacy Policy" [ref=e356] [cursor=pointer]:
+          - /url: https://www.arduino.cc/en/privacy-policy
+        - link "Security" [ref=e357] [cursor=pointer]:
+          - /url: https://www.arduino.cc/en/security
+        - link "Cookie Settings" [ref=e358] [cursor=pointer]:
+          - /url: https://www.arduino.cc/en/cookie-policy
+  - iframe [ref=e360]:
+    - button "Help" [ref=f5e4] [cursor=pointer]:
+      - img [ref=f5e6]
+      - generic [ref=f5e13]: Help

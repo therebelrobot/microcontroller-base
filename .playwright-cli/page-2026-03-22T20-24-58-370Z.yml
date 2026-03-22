@@ -1,0 +1,517 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#content-area"
+    - generic [ref=e5]:
+      - generic [ref=e11]:
+        - generic [ref=e12]:
+          - link "atopile home page light logo" [ref=e13] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e14]: atopile home page
+            - img "light logo" [ref=e15]
+          - button "0.14.x" [ref=e17] [cursor=pointer]:
+            - generic [ref=e18]: 0.14.x
+            - img [ref=e19]
+        - generic [ref=e21]:
+          - generic [ref=e22]:
+            - link "atopile" [ref=e25] [cursor=pointer]:
+              - /url: /atopile-0.14.x/introduction
+            - navigation:
+              - list
+          - generic [ref=e26]:
+            - button "Open search" [ref=e27] [cursor=pointer]:
+              - generic [ref=e28]: Search...
+              - img [ref=e29]
+            - button [ref=e30] [cursor=pointer]:
+              - img [ref=e31]
+            - button "Toggle dark mode" [ref=e35] [cursor=pointer]:
+              - img [ref=e36]
+      - generic [ref=e43]:
+        - generic [ref=e48]:
+          - list [ref=e49]:
+            - listitem [ref=e50]:
+              - link "GitHub" [ref=e51] [cursor=pointer]:
+                - /url: https://github.com/atopile/atopile
+                - img [ref=e52]
+                - generic [ref=e53]: GitHub
+            - listitem [ref=e54]:
+              - link "Packages" [ref=e55] [cursor=pointer]:
+                - /url: https://packages.atopile.io
+                - img [ref=e56]
+                - generic [ref=e57]: Packages
+            - listitem [ref=e58]:
+              - link "Support" [ref=e59] [cursor=pointer]:
+                - /url: https://docs.atopile.io/support
+                - img [ref=e60]
+                - generic [ref=e61]: Support
+            - listitem [ref=e62]:
+              - link "Community" [ref=e63] [cursor=pointer]:
+                - /url: https://discord.gg/CRe5xaDBr3
+                - img [ref=e64]
+                - generic [ref=e65]: Community
+            - listitem [ref=e66]:
+              - link "Blog" [ref=e67] [cursor=pointer]:
+                - /url: https://blog.atopile.io
+                - img [ref=e68]
+                - generic [ref=e69]: Blog
+          - generic [ref=e70]:
+            - heading "Introduction" [level=5] [ref=e72]
+            - list [ref=e73]:
+              - listitem [ref=e74]:
+                - link "Introduction" [ref=e75] [cursor=pointer]:
+                  - /url: /atopile-0.14.x/introduction
+                  - img [ref=e77]
+                  - generic [ref=e79]: Introduction
+              - listitem [ref=e80]:
+                - link "Change Log" [ref=e81] [cursor=pointer]:
+                  - /url: /atopile-0.14.x/changelog
+                  - img [ref=e83]
+                  - generic [ref=e85]: Change Log
+          - generic [ref=e86]:
+            - heading "Getting Started Guide" [level=5] [ref=e88]
+            - list [ref=e89]:
+              - listitem [ref=e90]:
+                - link "1. Install" [ref=e91] [cursor=pointer]:
+                  - /url: /atopile-0.14.x/quickstart/1-installation
+                  - img [ref=e93]
+                  - generic [ref=e95]: 1. Install
+              - listitem [ref=e96]:
+                - link "2. Hello, World!" [ref=e97] [cursor=pointer]:
+                  - /url: /atopile-0.14.x/quickstart/2-create-a-project
+                  - img [ref=e99]
+                  - generic [ref=e101]: 2. Hello, World!
+              - listitem [ref=e102]:
+                - link "3. Adding Parts" [ref=e103] [cursor=pointer]:
+                  - /url: /atopile-0.14.x/quickstart/3-adding-parts
+                  - img [ref=e105]
+                  - generic [ref=e107]: 3. Adding Parts
+              - listitem [ref=e108]:
+                - link "4. Manufacturing Export" [ref=e109] [cursor=pointer]:
+                  - /url: /atopile-0.14.x/quickstart/4-manufacturing-files
+                  - img [ref=e111]
+                  - generic [ref=e113]: 4. Manufacturing Export
+              - listitem [ref=e114]:
+                - link "5. Examples" [ref=e115] [cursor=pointer]:
+                  - /url: /atopile-0.14.x/quickstart/5-examples
+                  - img [ref=e117]
+                  - generic [ref=e119]: 5. Examples
+          - generic [ref=e120]:
+            - heading "Essentials" [level=5] [ref=e122]
+            - list [ref=e123]:
+              - listitem [ref=e124]:
+                - 'link "1. `ato` Language" [ref=e125] [cursor=pointer]':
+                  - /url: /atopile-0.14.x/essentials/1-the-ato-language
+                  - img [ref=e127]
+                  - generic [ref=e129]: "1. `ato` Language"
+              - listitem [ref=e130]:
+                - 'link "2. `ato` Compiler" [ref=e131] [cursor=pointer]':
+                  - /url: /atopile-0.14.x/essentials/2-the-ato-compiler
+                  - img [ref=e133]
+                  - img [ref=e136]
+                  - generic [ref=e138]: "2. `ato` Compiler"
+              - listitem [ref=e139]:
+                - link "3. Add a component" [ref=e140] [cursor=pointer]:
+                  - /url: /atopile-0.14.x/essentials/3-add-component
+                  - img [ref=e142]
+                  - generic [ref=e144]: 3. Add a component
+              - listitem [ref=e145]:
+                - link "4. Packages" [ref=e146] [cursor=pointer]:
+                  - /url: /atopile-0.14.x/essentials/4-packages
+                  - img [ref=e148]
+                  - generic [ref=e150]: 4. Packages
+              - listitem [ref=e151]:
+                - link "5. Project Structure" [ref=e152] [cursor=pointer]:
+                  - /url: /atopile-0.14.x/essentials/5-project-structure
+                  - img [ref=e154]
+                  - generic [ref=e156]: 5. Project Structure
+              - listitem [ref=e157]:
+                - link "6. Layout" [ref=e158] [cursor=pointer]:
+                  - /url: /atopile-0.14.x/essentials/6-layout
+                  - img [ref=e160]
+                  - generic [ref=e162]: 6. Layout
+              - listitem [ref=e163]:
+                - link "7. Saving Your Work" [ref=e164] [cursor=pointer]:
+                  - /url: /atopile-0.14.x/essentials/7-saving-your-work
+                  - img [ref=e166]
+                  - generic [ref=e168]: 7. Saving Your Work
+              - listitem [ref=e169]:
+                - link "8. Traits" [ref=e170] [cursor=pointer]:
+                  - /url: /atopile-0.14.x/essentials/8-traits
+                  - img [ref=e172]
+                  - generic [ref=e174]: 8. Traits
+          - generic [ref=e175]:
+            - heading "Guides" [level=5] [ref=e177]
+            - list [ref=e178]:
+              - listitem [ref=e179]:
+                - link "git" [ref=e180] [cursor=pointer]:
+                  - /url: /atopile-0.14.x/guides/git
+                  - img [ref=e182]
+                  - generic [ref=e184]: git
+              - listitem [ref=e185]:
+                - link "Publishing Packages" [ref=e186] [cursor=pointer]:
+                  - /url: /atopile-0.14.x/guides/publish
+                  - img [ref=e188]
+                  - generic [ref=e190]: Publishing Packages
+              - listitem [ref=e191]:
+                - link "faebryk" [ref=e192] [cursor=pointer]:
+                  - /url: /atopile-0.14.x/guides/faebryk
+                  - img [ref=e194]
+                  - generic [ref=e196]: faebryk
+              - listitem [ref=e197]:
+                - link "fabll (python)" [ref=e198] [cursor=pointer]:
+                  - /url: /atopile-0.14.x/guides/fabll
+                  - img [ref=e200]
+                  - generic [ref=e202]: fabll (python)
+              - listitem [ref=e203]:
+                - link "Development" [ref=e204] [cursor=pointer]:
+                  - /url: /atopile-0.14.x/guides/development
+                  - img [ref=e206]
+                  - generic [ref=e208]: Development
+          - generic [ref=e209]:
+            - heading "Library Reference" [level=5] [ref=e211]
+            - list [ref=e212]:
+              - listitem [ref=e213]:
+                - button "Toggle Components section" [ref=e214] [cursor=pointer]:
+                  - generic [ref=e215]: Components
+                  - img [ref=e216]
+              - listitem [ref=e218]:
+                - button "Toggle Interfaces section" [ref=e219] [cursor=pointer]:
+                  - generic [ref=e220]: Interfaces
+                  - img [ref=e221]
+              - listitem [ref=e223]:
+                - button "Toggle Traits section" [ref=e224] [cursor=pointer]:
+                  - generic [ref=e225]: Traits
+                  - img [ref=e226]
+        - generic [ref=e229]:
+          - generic [ref=e232]:
+            - button "On this page" [ref=e233] [cursor=pointer]:
+              - img [ref=e234]
+              - generic [ref=e235]: On this page
+            - list [ref=e237]:
+              - listitem [ref=e238]:
+                - img [ref=e239]
+                - link "Command structure" [ref=e241] [cursor=pointer]:
+                  - /url: "#command-structure"
+              - listitem [ref=e242]:
+                - link "Build process" [ref=e243] [cursor=pointer]:
+                  - /url: "#build-process"
+              - listitem [ref=e244]:
+                - link "Explaining the hello-world project" [ref=e245] [cursor=pointer]:
+                  - /url: "#explaining-the-hello-world-project"
+              - listitem [ref=e246]:
+                - link "Extending it" [ref=e247] [cursor=pointer]:
+                  - /url: "#extending-it"
+          - generic [ref=e248]:
+            - banner [ref=e249]:
+              - generic [ref=e250]:
+                - generic [ref=e251]: Essentials
+                - 'heading "2. `ato` Compiler" [level=1] [ref=e253]'
+              - paragraph [ref=e255]:
+                - text: The
+                - code [ref=e256]: ato
+                - text: command line interface is the main way to interact with atopile.
+            - generic [ref=e257]:
+              - generic [ref=e258]: "The command-line tool has tools to:"
+              - list [ref=e259]:
+                - listitem [ref=e260]: Build your code to update your PCB
+                - listitem [ref=e261]: Test your design
+                - listitem [ref=e262]: Generate files to order your PCBs from manufacturers
+                - listitem [ref=e263]: Install and manage dependencies
+                - listitem [ref=e264]: Create new projects, components or build-targets
+              - generic [ref=e265]:
+                - text: There’s a semi-de-facto standard format for running apps from the terminal, including
+                - code [ref=e266]: ato
+                - text: .
+              - generic [ref=e267]:
+                - generic [ref=e268]:
+                  - generic [ref=e269]:
+                    - button "Copy the contents from the code block" [ref=e270] [cursor=pointer]:
+                      - img [ref=e271]
+                    - generic [ref=e274]: Copy
+                  - generic [ref=e275]:
+                    - button "Ask AI" [ref=e276] [cursor=pointer]:
+                      - img [ref=e277]
+                    - generic [ref=e280]: Ask AI
+                - code [ref=e284]:
+                  - generic [ref=e285]: app command [options] arguments
+              - list [ref=e286]:
+                - listitem [ref=e287]:
+                  - code [ref=e288]: app
+                  - text: is the name of the app you’re running.
+                - listitem [ref=e289]:
+                  - code [ref=e290]: command
+                  - text: is the command; think of it as a “menu option” the app provides.
+                - listitem [ref=e291]:
+                  - code [ref=e292]: options
+                  - text: are the options for the command, typically zero to many instances of
+                  - code [ref=e293]: "--some-option option-value"
+                  - text: .
+                - listitem [ref=e294]:
+                  - code [ref=e295]: arguments
+                  - text: are just like options, but they only take a value. Their position tells the app which argument they are.
+              - generic [ref=e296]:
+                - img "Tip" [ref=e298]
+                - generic [ref=e301]:
+                  - text: Add
+                  - code [ref=e302]: "--help"
+                  - text: to the app/command/subcommand to get more information at any point.
+              - heading "Navigate to header Command structure" [level=2] [ref=e303]:
+                - link "Navigate to header" [ref=e304] [cursor=pointer]:
+                  - /url: "#command-structure"
+                  - img [ref=e306]
+                - generic [ref=e308] [cursor=pointer]: Command structure
+              - generic [ref=e309]: Some commands might have subcommands. Think of it like a menu where, from left to right you’re choosing deeper and deeper into the menu.
+              - generic [ref=e310]: If an upper command/app accepts options, those options should go right after the app/command, rather than at the end after subcommands.
+              - generic [ref=e311]:
+                - text: For example,
+                - code [ref=e312]: "-v"
+                - text: is a special option, called a “flag,” which doesn’t take a value. Its presence or absence is what matters. It increases the amount of information the compiler prints -> increase its verbosity.
+              - generic [ref=e313]:
+                - text: The
+                - code [ref=e314]: "-v"
+                - text: flag is an app option, so to use it, place it right after the app name.
+              - generic [ref=e315]:
+                - generic [ref=e316]:
+                  - generic [ref=e317]:
+                    - button "Copy the contents from the code block" [ref=e318] [cursor=pointer]:
+                      - img [ref=e319]
+                    - generic [ref=e322]: Copy
+                  - generic [ref=e323]:
+                    - button "Ask AI" [ref=e324] [cursor=pointer]:
+                      - img [ref=e325]
+                    - generic [ref=e328]: Ask AI
+                - code [ref=e332]:
+                  - generic [ref=e333]: ato -v build
+              - heading "Navigate to header Build process" [level=2] [ref=e334]:
+                - link "Navigate to header" [ref=e335] [cursor=pointer]:
+                  - /url: "#build-process"
+                  - img [ref=e337]
+                - generic [ref=e339] [cursor=pointer]: Build process
+              - generic [ref=e340]:
+                - text: As a rough overview, here’s what happens when you run
+                - code [ref=e341]: ato build
+                - text: ":"
+              - heading "Navigate to header Explaining the hello-world project" [level=2] [ref=e342]:
+                - link "Navigate to header" [ref=e343] [cursor=pointer]:
+                  - /url: "#explaining-the-hello-world-project"
+                  - img [ref=e345]
+                - generic [ref=e347] [cursor=pointer]: Explaining the hello-world project
+              - generic [ref=e348]:
+                - img "Note" [ref=e350]
+                - generic [ref=e352]:
+                  - generic [ref=e353]:
+                    - text: This tutorial continues from the
+                    - link "quickstart" [ref=e354] [cursor=pointer]:
+                      - /url: ../quickstart
+                    - text: guide.
+                  - generic [ref=e355]: If you haven’t already, complete it, and then come back here.
+              - generic [ref=e356]:
+                - text: With the explanation of
+                - code [ref=e357]: ato
+                - text: code and the
+                - link "build process" [ref=e358] [cursor=pointer]:
+                  - /url: "#build-process"
+                - text: ", it should be a little more clear what’s happening now in the"
+                - link "quickstart" [ref=e359] [cursor=pointer]:
+                  - /url: ../quickstart
+                - text: project.
+              - generic [ref=e360]:
+                - generic [ref=e361]:
+                  - generic [ref=e362]:
+                    - button "Copy the contents from the code block" [ref=e363] [cursor=pointer]:
+                      - img [ref=e364]
+                    - generic [ref=e367]: Copy
+                  - generic [ref=e368]:
+                    - button "Ask AI" [ref=e369] [cursor=pointer]:
+                      - img [ref=e370]
+                    - generic [ref=e373]: Ask AI
+                - code [ref=e377]:
+                  - generic [ref=e378]: import Resistor
+                  - generic [ref=e379]: "module App:"
+                  - generic [ref=e380]: "r1 = new Resistor # Create a new resistor"
+                  - generic [ref=e381]: "r1.resistance = 50 kohm +/- 10% # Set the resistor value"
+              - generic [ref=e382]: "Here’s a breakdown:"
+              - list [ref=e383]:
+                - listitem [ref=e384]:
+                  - text: Import a
+                  - code [ref=e385]: Resistor
+                - listitem [ref=e386]:
+                  - text: Define a new
+                  - code [ref=e387]: module
+                  - text: ", named"
+                  - code [ref=e388]: App
+                  - text: . This is the
+                  - link "entry point" [ref=e389] [cursor=pointer]:
+                    - /url: ../reference/config.md#builds.entry
+                    - strong [ref=e390]: entry point
+                  - text: of the build (see your
+                  - code [ref=e391]: ato.yaml
+                  - text: ).
+                - listitem [ref=e392]:
+                  - text: Create an instance of the
+                  - code [ref=e393]: Resistor
+                - listitem [ref=e394]:
+                  - text: Set the resistor’s
+                  - code [ref=e395]: value
+                  - text: attribute This constrains what components the compiler can pick for this resistor. For picking, the rated resistance must be wholly within the
+                  - code [ref=e396]: value
+                  - text: attribute. The precise way to say this in more CS terms / what atopile says internally is that the picked resistor’s resistance must be a subset of the quantity interval defined by the value attribute.
+              - heading "Navigate to header Extending it" [level=2] [ref=e397]:
+                - link "Navigate to header" [ref=e398] [cursor=pointer]:
+                  - /url: "#extending-it"
+                  - img [ref=e400]
+                - generic [ref=e402] [cursor=pointer]: Extending it
+              - generic [ref=e403]: Suppose the circuit needs a simple voltage divider - and the standard library doesn’t exist containing one pre-made and tested for you.
+              - generic [ref=e404]: It’s easy to create your own!
+              - generic [ref=e405]:
+                - generic [ref=e406]:
+                  - generic [ref=e407]:
+                    - button "Copy the contents from the code block" [ref=e408] [cursor=pointer]:
+                      - img [ref=e409]
+                    - generic [ref=e412]: Copy
+                  - generic [ref=e413]:
+                    - button "Ask AI" [ref=e414] [cursor=pointer]:
+                      - img [ref=e415]
+                    - generic [ref=e418]: Ask AI
+                - code [ref=e422]:
+                  - generic [ref=e423]: import Resistor
+                  - generic [ref=e424]: "module VoltageDivider:"
+                  - generic [ref=e425]: r_top = new Resistor
+                  - generic [ref=e426]: r_bottom = new Resistor
+                  - generic [ref=e427]: r_top.p2 ~ r_bottom.p1
+                  - generic [ref=e428]: "module App:"
+                  - generic [ref=e429]: my_vdiv = new VoltageDivider
+                  - generic [ref=e430]: my_vdiv.r_top.resistance = 10kohm +/- 10%
+                  - generic [ref=e431]: my_vdiv.r_bottom.resistance = 4.7kohm +/- 10%
+              - generic [ref=e432]: Now, this is, technically, a voltage divider. And the compiler happily builds it, grabbing the right components etc.
+              - generic [ref=e433]: But, it’s not a good voltage divider.
+              - list [ref=e434]:
+                - listitem [ref=e435]: There’s no clear interface showing how to connect to it
+                - listitem [ref=e436]: The point of a voltage divider is to scale voltage, but it’s unclear what its scaling actually is
+                - listitem [ref=e437]: No documentation describes what’s going on
+              - generic [ref=e438]: "To fix that:"
+              - generic [ref=e439]:
+                - generic [ref=e440]:
+                  - generic [ref=e441]:
+                    - button "Copy the contents from the code block" [ref=e442] [cursor=pointer]:
+                      - img [ref=e443]
+                    - generic [ref=e446]: Copy
+                  - generic [ref=e447]:
+                    - button "Ask AI" [ref=e448] [cursor=pointer]:
+                      - img [ref=e449]
+                    - generic [ref=e452]: Ask AI
+                - code [ref=e456]:
+                  - generic [ref=e457]: import Resistor, ElectricPower, ElectricSignal
+                  - generic [ref=e458]: "module VoltageDivider:"
+                  - generic [ref=e459]: "\"\"\""
+                  - generic [ref=e460]: A voltage divider using two resistors.
+                  - generic [ref=e461]: "Connect to the `power` and `output` interfaces"
+                  - generic [ref=e462]: "Configure via:"
+                  - generic [ref=e463]: "- `power.voltage`"
+                  - generic [ref=e464]: "- `output.reference.voltage`"
+                  - generic [ref=e465]: "- `max_current`"
+                  - generic [ref=e466]: "\"\"\""
+                  - generic [ref=e467]: "# External interfaces"
+                  - generic [ref=e468]: power = new ElectricPower
+                  - generic [ref=e469]: output = new ElectricSignal
+                  - generic [ref=e470]: "# Components"
+                  - generic [ref=e471]: r_bottom = new Resistor
+                  - generic [ref=e472]: r_top = new Resistor
+                  - generic [ref=e473]: "# Variables"
+                  - generic [ref=e474]: "v_in: voltage"
+                  - generic [ref=e475]: "v_out: voltage"
+                  - generic [ref=e476]: "max_current: current"
+                  - generic [ref=e477]: "total_resistance: resistance"
+                  - generic [ref=e478]: "ratio: dimensionless"
+                  - generic [ref=e479]: "r_total: resistance"
+                  - generic [ref=e480]: "# Connections"
+                  - generic [ref=e481]: power.hv ~ r_top.p1; r_top.p2 ~ output.line
+                  - generic [ref=e482]: output.line ~ r_bottom.p1; r_bottom.p2 ~ power.lv
+                  - generic [ref=e483]: "# Link interface voltages"
+                  - generic [ref=e484]: assert v_out is output.reference.voltage
+                  - generic [ref=e485]: assert v_in is power.voltage
+                  - generic [ref=e486]: "# Equations - rearranged a few ways to simplify for the solver"
+                  - generic [ref=e487]: assert r_top.resistance is (v_in / max_current) - r_bottom.resistance
+                  - generic [ref=e488]: assert r_bottom.resistance is (v_in / max_current) - r_top.resistance
+                  - generic [ref=e489]: assert r_top.resistance is (v_in - v_out) / max_current
+                  - generic [ref=e490]: assert r_bottom.resistance is v_out / max_current
+                  - generic [ref=e491]: assert r_bottom.resistance is r_total * ratio
+                  - generic [ref=e492]: assert r_top.resistance is r_total * (1 - ratio)
+                  - generic [ref=e493]: "# Calculate outputs"
+                  - generic [ref=e494]: assert r_total is r_top.resistance + r_bottom.resistance
+                  - generic [ref=e495]: assert v_out is v_in * r_bottom.resistance / r_total
+                  - generic [ref=e496]: assert v_out is v_in * ratio
+                  - generic [ref=e497]: assert max_current is v_in / r_total
+                  - generic [ref=e498]: assert ratio is r_bottom.resistance / r_total
+                  - generic [ref=e499]: "module App:"
+                  - generic [ref=e500]: my_vdiv = new VoltageDivider
+                  - generic [ref=e501]: assert my_vdiv.power.voltage is 10V +/- 1%
+                  - generic [ref=e502]: assert my_vdiv.output.reference.voltage within 3.3V +/- 10%
+                  - generic [ref=e503]: assert my_vdiv.max_current within 10uA to 100uA
+              - generic [ref=e504]: Much better! This is a better approach.
+              - generic [ref=e505]: "Here’s a breakdown:"
+              - list [ref=e506]:
+                - listitem [ref=e507]: When possible, import from the standard library.
+                - listitem [ref=e508]:
+                  - text: Define a new
+                  - code [ref=e509]: module
+                  - text: ", named"
+                  - code [ref=e510]: VoltageDivider
+                  - text: This means you can trivially have as many
+                  - code [ref=e511]: VoltageDivider
+                  - text: s as you want, all configured properly with all the same interfaces.
+                - listitem [ref=e512]:
+                  - text: Document with
+                  - code [ref=e513]: "\"\"\""
+                - listitem [ref=e514]:
+                  - text: Place external interfaces somewhere obvious Use sensible types, like
+                  - code [ref=e515]: Power
+                  - text: to expose them.
+                - listitem [ref=e516]:
+                  - text: Embed the relationships between parameters with
+                  - code [ref=e517]: assert
+                  - text: Read these statements as “make sure the following is true.”
+                  - list [ref=e518]:
+                    - listitem [ref=e519]: The output voltage is within the range of the voltage divider ratio equation
+                    - listitem [ref=e520]: The input voltage must be greater than the output voltage
+                    - listitem [ref=e521]: The current through the bottom resistor must be within the allowed range of the maximum quiescent current
+            - generic [ref=e522]:
+              - 'link "1. `ato` Language" [ref=e523] [cursor=pointer]':
+                - /url: /atopile-0.14.x/essentials/1-the-ato-language
+                - generic [ref=e524]:
+                  - generic [ref=e525]: "1. `ato` Language"
+                  - img [ref=e526]
+              - link "3. Add a component" [ref=e528] [cursor=pointer]:
+                - /url: /atopile-0.14.x/essentials/3-add-component
+                - generic [ref=e529]:
+                  - generic [ref=e530]: 3. Add a component
+                  - img [ref=e531]
+            - generic [ref=e534]:
+              - textbox "Ask a question..." [ref=e535]
+              - generic: ⌘I
+              - button "Send message" [disabled] [ref=e536]:
+                - img [ref=e537]
+            - contentinfo [ref=e539]:
+              - generic [ref=e540]:
+                - link "youtube" [ref=e541] [cursor=pointer]:
+                  - /url: https://www.youtube.com/@atopile_io
+                  - generic [ref=e542]: youtube
+                  - img [ref=e543]
+                - link "x" [ref=e544] [cursor=pointer]:
+                  - /url: https://x.com/atopile_io
+                  - generic [ref=e545]: x
+                  - img [ref=e546]
+                - link "github" [ref=e547] [cursor=pointer]:
+                  - /url: https://github.com/atopile
+                  - generic [ref=e548]: github
+                  - img [ref=e549]
+                - link "linkedin" [ref=e550] [cursor=pointer]:
+                  - /url: https://linkedin.com/company/atopile
+                  - generic [ref=e551]: linkedin
+                  - img [ref=e552]
+              - link "Powered by This documentation is built and hosted on Mintlify, a developer documentation platform" [ref=e555] [cursor=pointer]:
+                - /url: https://www.mintlify.com?utm_campaign=poweredBy&utm_medium=referral&utm_source=atopile
+                - generic [ref=e556]: Powered by
+                - img [ref=e557]
+                - generic [ref=e566]: This documentation is built and hosted on Mintlify, a developer documentation platform
+  - alert [ref=e567]

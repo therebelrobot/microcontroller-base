@@ -1,0 +1,2023 @@
+- generic [ref=e2]:
+  - region "Skip to main content":
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#__docusaurus_skipToContent_fallback"
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - text: Collaborate with Seeed -
+      - link "Creator" [ref=e7] [cursor=pointer]:
+        - /url: https://www.seeedstudio.com/blog/affiliate-program/
+      - text: ","
+      - link "Ranger" [ref=e8] [cursor=pointer]:
+        - /url: https://www.seeedstudio.com/ranger-program/
+      - text: ", or"
+      - link "Contributor" [ref=e9] [cursor=pointer]:
+        - /url: https://wiki.seeedstudio.com/contributors/
+      - text: ", there is always a role ideal for you!"
+  - navigation "Main" [ref=e10]:
+    - generic [ref=e11]:
+      - generic [ref=e12]:
+        - link "Seeed Studio" [ref=e13] [cursor=pointer]:
+          - /url: /
+          - img "Seeed Studio" [ref=e15]
+        - button "Quick Links" [ref=e17] [cursor=pointer]
+        - button "Explore with Topics" [ref=e19] [cursor=pointer]
+        - button "FAQs" [ref=e21] [cursor=pointer]
+        - button "Get Involved" [ref=e23] [cursor=pointer]
+      - generic [ref=e24]:
+        - link "Bazaar 🛍️" [ref=e25] [cursor=pointer]:
+          - /url: https://www.seeedstudio.com/
+        - link "SenseCraft AI" [ref=e26] [cursor=pointer]:
+          - /url: https://sensecraft.seeed.cc/ai/#/home
+        - link [ref=e27] [cursor=pointer]:
+          - /url: https://sensecraft.seeed.cc/ai/#/home
+        - link "GitHub repository" [ref=e28] [cursor=pointer]:
+          - /url: https://github.com/Seeed-Studio/wiki-documents
+        - button "Switch between dark and light mode (currently dark mode)" [ref=e30] [cursor=pointer]:
+          - img [ref=e31]
+        - button "Search" [ref=e34] [cursor=pointer]:
+          - generic [ref=e35]:
+            - img [ref=e36]
+            - generic [ref=e38]: Search
+          - generic [ref=e39]:
+            - generic [ref=e40]: ⌘
+            - generic [ref=e41]: K
+  - generic [ref=e44]:
+    - complementary [ref=e45]:
+      - generic [ref=e47]:
+        - navigation "Docs sidebar" [ref=e48]:
+          - list [ref=e49]:
+            - listitem [ref=e50]:
+              - link "Getting Started" [ref=e51] [cursor=pointer]:
+                - /url: /Getting_Started/
+            - listitem [ref=e52]:
+              - link "Weekly Wiki" [ref=e53] [cursor=pointer]:
+                - /url: /weekly_wiki/
+            - listitem [ref=e54]:
+              - link "Sensing" [ref=e55] [cursor=pointer]:
+                - /url: /Sensor_Network/
+            - listitem [ref=e56]:
+              - generic [ref=e57]:
+                - link "Grove" [ref=e58] [cursor=pointer]:
+                  - /url: /Grove_System/
+                - button "Expand sidebar category 'Grove'" [ref=e59] [cursor=pointer]
+            - listitem [ref=e60]:
+              - generic [ref=e61]:
+                - link "SenseCAP" [ref=e62] [cursor=pointer]:
+                  - /url: /SenseCAP_introduction/
+                - button "Expand sidebar category 'SenseCAP'" [ref=e63] [cursor=pointer]
+            - listitem [ref=e64]:
+              - generic [ref=e65]:
+                - link "SenseCAP Indicator" [ref=e66] [cursor=pointer]:
+                  - /url: /Sensor/SenseCAP/SenseCAP_Indicator/Get_started_with_SenseCAP_Indicator/
+                - button "Expand sidebar category 'SenseCAP Indicator'" [ref=e67] [cursor=pointer]
+            - listitem [ref=e68]:
+              - generic [ref=e69]:
+                - link "SenseCAP Watcher" [ref=e70] [cursor=pointer]:
+                  - /url: /watcher/
+                - button "Expand sidebar category 'SenseCAP Watcher'" [ref=e71] [cursor=pointer]
+            - listitem [ref=e72]:
+              - generic [ref=e73]:
+                - link "mmWave Radar Sensor" [ref=e74] [cursor=pointer]:
+                  - /url: /mmwave_radar_Intro/
+                - button "Expand sidebar category 'mmWave Radar Sensor'" [ref=e75] [cursor=pointer]
+            - listitem [ref=e76]:
+              - generic [ref=e77]:
+                - link "XIAO" [ref=e78] [cursor=pointer]:
+                  - /url: /SeeedStudio_XIAO_Series_Introduction/
+                - button "Collapse sidebar category 'XIAO'" [expanded] [ref=e79] [cursor=pointer]
+              - list [ref=e80]:
+                - listitem [ref=e81]:
+                  - link "Exhibition for XIAO Series" [ref=e82] [cursor=pointer]:
+                    - /url: /xiao_topic_page/
+                - listitem [ref=e83]:
+                  - button "XIAO SAMD21" [ref=e85] [cursor=pointer]
+                - listitem [ref=e86]:
+                  - button "XIAO RA4M1" [ref=e88] [cursor=pointer]
+                - listitem [ref=e89]:
+                  - button "XIAO MG24" [ref=e91] [cursor=pointer]
+                - listitem [ref=e92]:
+                  - button "XIAO RP2040" [ref=e94] [cursor=pointer]
+                - listitem [ref=e95]:
+                  - button "XIAO RP2350" [ref=e97] [cursor=pointer]
+                - listitem [ref=e98]:
+                  - button "XIAO nRF52840 Series" [ref=e100] [cursor=pointer]
+                - listitem [ref=e101]:
+                  - button "XIAO nRF54L15 Series" [expanded] [ref=e103] [cursor=pointer]
+                  - list [ref=e104]:
+                    - listitem [ref=e105]:
+                      - link "Seeed Studio XIAO nRF54L15(Sense)" [ref=e106] [cursor=pointer]:
+                        - /url: /xiao_nrf54l15_sense_getting_started/
+                    - listitem [ref=e107]:
+                      - link "Pin Multiplexing with Seeed Studio XIAO nRF54L15 Sense" [ref=e108] [cursor=pointer]:
+                        - /url: /xiao_nrf54l15_sense_pin_multiplexing/
+                    - listitem [ref=e109]:
+                      - link "Seeed Studio XIAO nRF54L15 Sense built-in Sensor" [ref=e110] [cursor=pointer]:
+                        - /url: /xiao_nrf54l15_sense_built_in_sensor/
+                    - listitem [ref=e111]:
+                      - link "Power Consumptions Example for XIAO nRF54L15 (PlatformIO)" [ref=e112] [cursor=pointer]:
+                        - /url: /xiao_nrf54l15_sense_power_consumptions/
+                    - listitem [ref=e113]:
+                      - link "MicroPython for Seeed Studio XIAO nRF54L15" [ref=e114] [cursor=pointer]:
+                        - /url: /xiao_nrf54l15_sense_micropython/
+                    - listitem [ref=e115]:
+                      - button "Wireless Connection" [ref=e117] [cursor=pointer]
+                    - listitem [ref=e118]:
+                      - button "Platform" [ref=e120] [cursor=pointer]
+                - listitem [ref=e121]:
+                  - button "XIAO ESP32C3" [ref=e123] [cursor=pointer]
+                - listitem [ref=e124]:
+                  - button "XIAO ESP32C5" [ref=e126] [cursor=pointer]
+                - listitem [ref=e127]:
+                  - button "XIAO ESP32C6" [ref=e129] [cursor=pointer]
+                - listitem [ref=e130]:
+                  - button "XIAO ESP32S3 Series" [ref=e132] [cursor=pointer]
+                - listitem [ref=e133]:
+                  - generic [ref=e134]:
+                    - link "XIAO Debug Mate" [ref=e135] [cursor=pointer]:
+                      - /url: /getting_started_with_xiao_debug_mate/
+                    - button "Expand sidebar category 'XIAO Debug Mate'" [ref=e136] [cursor=pointer]
+                - listitem [ref=e137]:
+                  - button "Expansion Boards for XIAO" [ref=e139] [cursor=pointer]
+                - listitem [ref=e140]:
+                  - button "XIAO + ESP-IDF + ESP-Matter" [ref=e142] [cursor=pointer]
+                - listitem [ref=e143]:
+                  - link "ESP-NOW on XIAO ESP32 Series" [ref=e144] [cursor=pointer]:
+                    - /url: /xiao_espnow/
+                - listitem [ref=e145]:
+                  - link "PCB Design for XIAO" [ref=e146] [cursor=pointer]:
+                    - /url: /PCB_Design_XIAO/
+                - listitem [ref=e147]:
+                  - button "Kit with Courses" [ref=e149] [cursor=pointer]
+                - listitem [ref=e150]:
+                  - link "FAQs for XIAO Series" [ref=e151] [cursor=pointer]:
+                    - /url: /XIAO_FAQ/
+            - listitem [ref=e152]:
+              - button "ePaper" [ref=e154] [cursor=pointer]
+            - listitem [ref=e155]:
+              - button "XIAO Gadgets" [ref=e157] [cursor=pointer]
+            - listitem [ref=e158]:
+              - generic [ref=e159]:
+                - link "Wio Terminal" [ref=e160] [cursor=pointer]:
+                  - /url: /Wio_Terminal_Intro/
+                - button "Expand sidebar category 'Wio Terminal'" [ref=e161] [cursor=pointer]
+            - listitem [ref=e162]:
+              - generic [ref=e163]:
+                - link "reSpeaker" [ref=e164] [cursor=pointer]:
+                  - /url: /respeaker/
+                - button "Expand sidebar category 'reSpeaker'" [ref=e165] [cursor=pointer]
+            - listitem [ref=e166]:
+              - button "Other Sensing Modules" [ref=e168] [cursor=pointer]
+            - listitem [ref=e169]:
+              - button "Other Microcontrollers" [ref=e171] [cursor=pointer]
+            - listitem [ref=e172]:
+              - link "Network" [ref=e173] [cursor=pointer]:
+                - /url: /Network/
+            - listitem [ref=e174]:
+              - generic [ref=e175]:
+                - link "Meshtastic Network" [ref=e176] [cursor=pointer]:
+                  - /url: /meshtastic_introduction/
+                - button "Expand sidebar category 'Meshtastic Network'" [ref=e177] [cursor=pointer]
+            - listitem [ref=e178]:
+              - button "LoRa Wio Series" [ref=e180] [cursor=pointer]
+            - listitem [ref=e181]:
+              - generic [ref=e182]:
+                - link "SenseCAP Gateway" [ref=e183] [cursor=pointer]:
+                  - /url: /Network/SenseCAP_Network/SenseCAP_Gateway_Intro/
+                - button "Expand sidebar category 'SenseCAP Gateway'" [ref=e184] [cursor=pointer]
+            - listitem [ref=e185]:
+              - generic [ref=e186]:
+                - link "SenseCAP K1100" [ref=e187] [cursor=pointer]:
+                  - /url: /SenseCAP_K1100_Intro/
+                - button "Expand sidebar category 'SenseCAP K1100'" [ref=e188] [cursor=pointer]
+            - listitem [ref=e189]:
+              - button "SenseCAP LoRaWAN Starter Kit" [ref=e191] [cursor=pointer]
+            - listitem [ref=e192]:
+              - button "Raspberry Pi Solutions" [ref=e194] [cursor=pointer]
+            - listitem [ref=e195]:
+              - generic [ref=e196]:
+                - link "Rockchip Solutions" [ref=e197] [cursor=pointer]:
+                  - /url: /Rockchip_network_solutions/
+                - button "Expand sidebar category 'Rockchip Solutions'" [ref=e198] [cursor=pointer]
+            - listitem [ref=e199]:
+              - button "Other Network Devices" [ref=e201] [cursor=pointer]
+            - listitem [ref=e202]:
+              - link "Edge Computing" [ref=e203] [cursor=pointer]:
+                - /url: /Edge_Computing/
+            - listitem [ref=e204]:
+              - button "RK Devices" [ref=e206] [cursor=pointer]
+            - listitem [ref=e207]:
+              - generic [ref=e208]:
+                - link "Raspberry Pi Devices" [ref=e209] [cursor=pointer]:
+                  - /url: /raspberry-pi-devices/
+                - button "Expand sidebar category 'Raspberry Pi Devices'" [ref=e210] [cursor=pointer]
+            - listitem [ref=e211]:
+              - generic [ref=e212]:
+                - link "NVIDIA® Jetson™" [ref=e213] [cursor=pointer]:
+                  - /url: /NVIDIA_Jetson/
+                - button "Expand sidebar category 'NVIDIA® Jetson™'" [ref=e214] [cursor=pointer]
+            - listitem [ref=e215]:
+              - button "ESP Devices" [ref=e217] [cursor=pointer]
+            - listitem [ref=e218]:
+              - generic [ref=e219]:
+                - link "BeagleBone®" [ref=e220] [cursor=pointer]:
+                  - /url: /BeagleBone/
+                - button "Expand sidebar category 'BeagleBone®'" [ref=e221] [cursor=pointer]
+            - listitem [ref=e222]:
+              - generic [ref=e223]:
+                - link "ODYSSEY" [ref=e224] [cursor=pointer]:
+                  - /url: /ODYSSEY_Intro/
+                - button "Expand sidebar category 'ODYSSEY'" [ref=e225] [cursor=pointer]
+            - listitem [ref=e226]:
+              - button "reCamera" [ref=e228] [cursor=pointer]
+            - listitem [ref=e229]:
+              - generic [ref=e230]:
+                - link "reTerminal E Series" [ref=e231] [cursor=pointer]:
+                  - /url: /reterminal_e10xx_main_page/
+                - button "Expand sidebar category 'reTerminal E Series'" [ref=e232] [cursor=pointer]
+            - listitem [ref=e233]:
+              - generic [ref=e234]:
+                - link "reTerminal D Series" [ref=e235] [cursor=pointer]:
+                  - /url: /reterminal_d10xx_main_page/
+                - button "Expand sidebar category 'reTerminal D Series'" [ref=e236] [cursor=pointer]
+            - listitem [ref=e237]:
+              - button "Other Edge Devices" [ref=e239] [cursor=pointer]
+            - listitem [ref=e240]:
+              - link "Robotics Page" [ref=e241] [cursor=pointer]:
+                - /url: /robotics_page/
+            - listitem [ref=e242]:
+              - button "Robot Kits" [ref=e244] [cursor=pointer]
+            - listitem [ref=e245]:
+              - button "Actuator" [ref=e247] [cursor=pointer]
+            - listitem [ref=e248]:
+              - button "Sensor" [ref=e250] [cursor=pointer]
+            - listitem [ref=e251]:
+              - button "Software" [ref=e253] [cursor=pointer]
+            - listitem [ref=e254]:
+              - link "SenseCraft & Cloud" [ref=e255] [cursor=pointer]:
+                - /url: /Cloud/
+            - listitem [ref=e256]:
+              - button "SenseCraft AI" [ref=e258] [cursor=pointer]
+            - listitem [ref=e259]:
+              - button "SenseCraft APP" [ref=e261] [cursor=pointer]
+            - listitem [ref=e262]:
+              - button "SenseCraft Data Platform" [ref=e264] [cursor=pointer]
+            - listitem [ref=e265]:
+              - generic [ref=e266]:
+                - link "SenseCraft HMI" [ref=e267] [cursor=pointer]:
+                  - /url: /sensecraft_hmi_overview/
+                - button "Expand sidebar category 'SenseCraft HMI'" [ref=e268] [cursor=pointer]
+            - listitem [ref=e269]:
+              - button "SenseCraft Blockchain" [ref=e271] [cursor=pointer]
+            - listitem [ref=e272]:
+              - link "Solutions" [ref=e273] [cursor=pointer]:
+                - /url: https://www.seeed.cc/category/solutions
+                - text: Solutions
+                - img [ref=e274]
+            - listitem [ref=e276]:
+              - generic [ref=e277]:
+                - link "AI Vision" [ref=e278] [cursor=pointer]:
+                  - /url: /ai-vision/
+                - button "Expand sidebar category 'AI Vision'" [ref=e279] [cursor=pointer]
+            - listitem [ref=e280]:
+              - generic [ref=e281]:
+                - link "AI Sound" [ref=e282] [cursor=pointer]:
+                  - /url: /ai-sound/
+                - button "Expand sidebar category 'AI Sound'" [ref=e283] [cursor=pointer]
+            - listitem [ref=e284]:
+              - button "AI Intelligent" [ref=e286] [cursor=pointer]
+            - listitem [ref=e287]:
+              - button "Device Integration & Control" [ref=e289] [cursor=pointer]
+            - listitem [ref=e290]:
+              - button "Environmental Monitoring" [ref=e292] [cursor=pointer]
+            - listitem [ref=e293]:
+              - generic [ref=e294]:
+                - link "Hazard Response" [ref=e295] [cursor=pointer]:
+                  - /url: /hazard-response/
+                - button "Expand sidebar category 'Hazard Response'" [ref=e296] [cursor=pointer]
+            - listitem [ref=e297]:
+              - button "Indoor-Outdoor Positioning" [ref=e299] [cursor=pointer]
+            - listitem [ref=e300]:
+              - link "Technology Topics" [ref=e301] [cursor=pointer]:
+                - /url: /topicintroduction/
+            - listitem [ref=e302]:
+              - generic [ref=e303]:
+                - link "Home Assistant" [ref=e304] [cursor=pointer]:
+                  - /url: /home_assistant_topic/
+                - button "Expand sidebar category 'Home Assistant'" [ref=e305] [cursor=pointer]
+            - listitem [ref=e306]:
+              - generic [ref=e307]:
+                - link "TinyML" [ref=e308] [cursor=pointer]:
+                  - /url: /tinyml_topic/
+                - button "Expand sidebar category 'TinyML'" [ref=e309] [cursor=pointer]
+            - listitem [ref=e310]:
+              - link "Open Source" [ref=e311] [cursor=pointer]:
+                - /url: /open_source_topic/
+            - listitem [ref=e312]:
+              - link "Edge AI" [ref=e313] [cursor=pointer]:
+                - /url: /edge_ai_topic/
+            - listitem [ref=e314]:
+              - link "Contributions" [ref=e315] [cursor=pointer]:
+                - /url: /Contributor/
+            - listitem [ref=e316]:
+              - generic [ref=e317]:
+                - link "Github Contributions Guide" [ref=e318] [cursor=pointer]:
+                  - /url: /Contribution-Guide/
+                - button "Expand sidebar category 'Github Contributions Guide'" [ref=e319] [cursor=pointer]
+            - listitem [ref=e320]:
+              - link "Scale up Your Creation with Seeed Studio Fusion" [ref=e321] [cursor=pointer]:
+                - /url: /Scale-up-Your-Creation-with-Fusion/
+            - listitem [ref=e322]:
+              - link "Popular Platforms" [ref=e323] [cursor=pointer]:
+                - /url: /popularplatforms/
+            - listitem [ref=e324]:
+              - generic [ref=e325]:
+                - link "Arduino" [ref=e326] [cursor=pointer]:
+                  - /url: /Arduino/
+                - button "Expand sidebar category 'Arduino'" [ref=e327] [cursor=pointer]
+            - listitem [ref=e328]:
+              - generic [ref=e329]:
+                - link "Raspberry Pi" [ref=e330] [cursor=pointer]:
+                  - /url: /Raspberry_Pi/
+                - button "Expand sidebar category 'Raspberry Pi'" [ref=e331] [cursor=pointer]
+            - listitem [ref=e332]:
+              - generic [ref=e333]:
+                - link "Micro:bit" [ref=e334] [cursor=pointer]:
+                  - /url: /microbit_wiki_page/
+                - button "Expand sidebar category 'Micro:bit'" [ref=e335] [cursor=pointer]
+            - listitem [ref=e336]:
+              - link "Discontinued Products" [ref=e337] [cursor=pointer]:
+                - /url: /discontinuedproducts/
+            - listitem [ref=e338]:
+              - button "Product List" [ref=e340] [cursor=pointer]
+            - listitem [ref=e341]:
+              - link "About Seeed" [ref=e342] [cursor=pointer]:
+                - /url: /About/
+            - listitem [ref=e343]:
+              - link "License" [ref=e344] [cursor=pointer]:
+                - /url: /License/
+        - button "Collapse sidebar" [ref=e345] [cursor=pointer]:
+          - img [ref=e346]
+    - main [ref=e350]:
+      - generic [ref=e352]:
+        - generic [ref=e353]:
+          - generic [ref=e354]:
+            - article [ref=e355]:
+              - navigation "Breadcrumbs" [ref=e356]:
+                - list [ref=e357]:
+                  - listitem [ref=e358]:
+                    - link "Home page" [ref=e359] [cursor=pointer]:
+                      - /url: /
+                      - img [ref=e360]
+                  - listitem [ref=e362]:
+                    - link "XIAO" [ref=e363] [cursor=pointer]:
+                      - /url: /SeeedStudio_XIAO_Series_Introduction/
+                  - listitem [ref=e364]:
+                    - generic [ref=e365]: XIAO nRF54L15 Series
+                  - listitem [ref=e366]:
+                    - generic [ref=e367]: Seeed Studio XIAO nRF54L15(Sense)
+              - generic [ref=e368]:
+                - img [ref=e370]
+                - heading "Getting Started with Seeed Studio XIAO nRF54L15(Sense)" [level=1] [ref=e372]
+                - table [ref=e374]:
+                  - row "Seeed Studio XIAO nRF54L15 Seeed Studio XIAO nRF54L15 Sense" [ref=e375]:
+                    - columnheader "Seeed Studio XIAO nRF54L15" [ref=e376]
+                    - columnheader "Seeed Studio XIAO nRF54L15 Sense" [ref=e377]
+                  - row [ref=e378]:
+                    - cell [ref=e379]:
+                      - img [ref=e381]
+                    - cell [ref=e382]:
+                      - img [ref=e384]
+                  - row "Get One Now 🖱️ Get One Now 🖱️" [ref=e385]:
+                    - cell "Get One Now 🖱️" [ref=e386]:
+                      - link "Get One Now 🖱️" [ref=e388] [cursor=pointer]:
+                        - /url: https://www.seeedstudio.com/XIAO-nRF54L15-p-6493.html
+                        - strong [ref=e389]:
+                          - generic [ref=e390]: Get One Now 🖱️
+                    - cell "Get One Now 🖱️" [ref=e391]:
+                      - link "Get One Now 🖱️" [ref=e393] [cursor=pointer]:
+                        - /url: https://www.seeedstudio.com/XIAO-nRF54L15-Sense-p-6494.html
+                        - strong [ref=e394]:
+                          - generic [ref=e395]: Get One Now 🖱️
+                - heading "IntroductionDirect link to Introduction" [level=2] [ref=e396]:
+                  - text: Introduction
+                  - link "Direct link to Introduction" [ref=e397] [cursor=pointer]:
+                    - /url: "#introduction"
+                    - text: "#"
+                - paragraph [ref=e398]:
+                  - text: The
+                  - strong [ref=e399]: Seeed Studio XIAO nRF54L15
+                  - text: is a compact, high-performance development board featuring the cutting-edge Nordic nRF54L15 chip. This next-generation SoC integrates an ultra-low-power multi-protocol 2.4 GHz radio with an MCU containing a
+                  - strong [ref=e400]: 128 MHz Arm® Cortex®-M33 processor
+                  - text: and a
+                  - strong [ref=e401]: 128 MHz RISC-V coprocessor
+                  - text: . It offers scalable memory up to
+                  - strong [ref=e402]: 1.5 MB NVM and 256 KB RAM
+                  - text: ", and an internal ultra-low-power design that significantly extends battery life. Its powerful radio supports"
+                  - strong [ref=e403]: Bluetooth® 6.0 (including Channel Sounding), Matter, Thread, Zigbee
+                  - text: ", and high throughput 2.4 GHz proprietary modes up to"
+                  - strong [ref=e404]: 4 Mbps
+                  - text: . The board includes a comprehensive peripheral set, an integrated
+                  - strong [ref=e405]: 128 MHz RISC-V coprocessor
+                  - text: ", and advanced security features such as"
+                  - strong [ref=e406]: TrustZone®
+                  - text: isolation and cryptographic engine protection. With
+                  - strong [ref=e407]: built-in Li-ion battery management
+                  - text: ", the XIAO nRF54L15 is ideal for compact, secure and energy-efficient IoT solutions such as smart wearables, industrial sensors and advanced HMIs."
+                - heading "SpecificationDirect link to Specification" [level=3] [ref=e408]:
+                  - text: Specification
+                  - link "Direct link to Specification" [ref=e409] [cursor=pointer]:
+                    - /url: "#specification"
+                    - text: "#"
+                - table [ref=e410]:
+                  - row "Item XIAO nRF54L15 XIAO nRF54L15 Sense" [ref=e411]:
+                    - columnheader "Item" [ref=e412]
+                    - columnheader "XIAO nRF54L15" [ref=e413]
+                    - columnheader "XIAO nRF54L15 Sense" [ref=e414]
+                  - row "MCU Arm Cortex-M33 128 MHz RISC-V coprocessor 128 MHz FLPR Arm Cortex-M33 128 MHz RISC-V coprocessor 128 MHz FLPR" [ref=e415]:
+                    - rowheader "MCU" [ref=e416]
+                    - cell "Arm Cortex-M33 128 MHz RISC-V coprocessor 128 MHz FLPR" [ref=e417]:
+                      - text: Arm Cortex-M33 128 MHz
+                      - text: RISC-V coprocessor 128 MHz FLPR
+                    - cell "Arm Cortex-M33 128 MHz RISC-V coprocessor 128 MHz FLPR" [ref=e418]:
+                      - text: Arm Cortex-M33 128 MHz
+                      - text: RISC-V coprocessor 128 MHz FLPR
+                  - row "Wireless Connectivity Bluetooth LE 6.0（include Channel Sounding） NFC Thread Zigbee Matter Amazon Sidewalk Proprietary 2.4 GHz protocols Bluetooth LE 6.0（include Channel Sounding） NFC Thread Zigbee Matter Amazon Sidewalk Proprietary 2.4 GHz protocols" [ref=e419]:
+                    - rowheader "Wireless Connectivity" [ref=e420]
+                    - cell "Bluetooth LE 6.0（include Channel Sounding） NFC Thread Zigbee Matter Amazon Sidewalk Proprietary 2.4 GHz protocols" [ref=e421]:
+                      - paragraph [ref=e422]:
+                        - text: Bluetooth LE 6.0（include Channel Sounding）
+                        - text: NFC
+                        - text: Thread
+                        - text: Zigbee
+                        - text: Matter
+                        - text: Amazon Sidewalk
+                        - text: Proprietary 2.4 GHz protocols
+                    - cell "Bluetooth LE 6.0（include Channel Sounding） NFC Thread Zigbee Matter Amazon Sidewalk Proprietary 2.4 GHz protocols" [ref=e423]:
+                      - paragraph [ref=e424]:
+                        - text: Bluetooth LE 6.0（include Channel Sounding）
+                        - text: NFC
+                        - text: Thread
+                        - text: Zigbee
+                        - text: Matter
+                        - text: Amazon Sidewalk
+                        - text: Proprietary 2.4 GHz protocols
+                  - row "Memory NVM 1.5 MB + RAM256 KB NVM 1.5 MB + RAM256 KB" [ref=e425]:
+                    - rowheader "Memory" [ref=e426]
+                    - cell "NVM 1.5 MB + RAM256 KB" [ref=e427]
+                    - cell "NVM 1.5 MB + RAM256 KB" [ref=e428]
+                  - row "Built-in Sensor N/A 6 DOF IMU(LSM6DS3TR-C) Microphone (MSM261DGT006)" [ref=e429]:
+                    - rowheader "Built-in Sensor" [ref=e430]
+                    - cell "N/A" [ref=e431]
+                    - cell "6 DOF IMU(LSM6DS3TR-C) Microphone (MSM261DGT006)" [ref=e432]:
+                      - text: 6 DOF IMU(LSM6DS3TR-C)
+                      - text: Microphone (MSM261DGT006)
+                  - row "TX power +8 dBm +8 dBm" [ref=e433]:
+                    - rowheader "TX power" [ref=e434]
+                    - cell "+8 dBm" [ref=e435]
+                    - cell "+8 dBm" [ref=e436]
+                  - row "RX sensitivity -96 dBm -96 dBm" [ref=e437]:
+                    - rowheader "RX sensitivity" [ref=e438]
+                    - cell "-96 dBm" [ref=e439]
+                    - cell "-96 dBm" [ref=e440]
+                  - row "Highlighted peripherals 14-bit ADC, Global RTC 14-bit ADC, Global RTC" [ref=e441]:
+                    - rowheader "Highlighted peripherals" [ref=e442]
+                    - cell "14-bit ADC, Global RTC" [ref=e443]
+                    - cell "14-bit ADC, Global RTC" [ref=e444]
+                  - row "Power USB Type-C interface power supply Internal PMIC supports lithium battery power supply Support lithium battery power collection USB Type-C interface power supply Internal PMIC supports lithium battery power supply Support lithium battery power collection" [ref=e445]:
+                    - rowheader "Power" [ref=e446]
+                    - cell "USB Type-C interface power supply Internal PMIC supports lithium battery power supply Support lithium battery power collection" [ref=e447]:
+                      - paragraph [ref=e448]:
+                        - text: USB Type-C interface power supply
+                        - text: Internal PMIC supports lithium battery power supply
+                        - text: Support lithium battery power collection
+                    - cell "USB Type-C interface power supply Internal PMIC supports lithium battery power supply Support lithium battery power collection" [ref=e449]:
+                      - paragraph [ref=e450]:
+                        - text: USB Type-C interface power supply
+                        - text: Internal PMIC supports lithium battery power supply
+                        - text: Support lithium battery power collection
+                  - row "Operating temperature -40 to 105°C -40 to 105°C" [ref=e451]:
+                    - rowheader "Operating temperature" [ref=e452]
+                    - cell "-40 to 105°C" [ref=e453]
+                    - cell "-40 to 105°C" [ref=e454]
+                  - row "Supply voltage range 3.7 to 5 V 3.7 to 5 V" [ref=e455]:
+                    - rowheader "Supply voltage range" [ref=e456]
+                    - cell "3.7 to 5 V" [ref=e457]
+                    - cell "3.7 to 5 V" [ref=e458]
+                  - row "ESB and 2.4 GHz Proprietary Protocols up to 4 Mbps up to 4 Mbps" [ref=e459]:
+                    - rowheader "ESB and 2.4 GHz Proprietary Protocols" [ref=e460]
+                    - cell "up to 4 Mbps" [ref=e461]
+                    - cell "up to 4 Mbps" [ref=e462]
+                  - row "Tamper detectors YES YES" [ref=e463]:
+                    - rowheader "Tamper detectors" [ref=e464]
+                    - cell "YES" [ref=e465]
+                    - cell "YES" [ref=e466]
+                  - row "Bluetooth channel sounding YES YES" [ref=e467]:
+                    - rowheader "Bluetooth channel sounding" [ref=e468]
+                    - cell "YES" [ref=e469]
+                    - cell "YES" [ref=e470]
+                - heading "FeaturesDirect link to Features" [level=3] [ref=e471]:
+                  - text: Features
+                  - link "Direct link to Features" [ref=e472] [cursor=pointer]:
+                    - /url: "#features"
+                    - text: "#"
+                - list [ref=e473]:
+                  - listitem [ref=e474]:
+                    - strong [ref=e475]: Powerful CPU
+                    - text: ": 128 MHz Arm® Cortex®-M33 processor with support for DSP instructions and FPU floating-point operations, 32-bit RISC architecture, and integrated 128 MHz RISC-V co-processor."
+                  - listitem [ref=e476]:
+                    - strong [ref=e477]: Ultra-low Power
+                    - text: ": Designed for superior ultra-low power consumption, significantly extends battery life and includes advanced power management."
+                  - listitem [ref=e478]:
+                    - strong [ref=e479]: Multi-Mode Wireless Transmission
+                    - text: ": Integrated 2.4 GHz multi-protocol wireless transceiver supports Bluetooth Low Energy (including Channel Sounding), 802.15.4-2020, Matter, Thread, Zigbee, and 2.4 GHz proprietary modes (up to 4 Mbps)."
+                  - listitem [ref=e480]:
+                    - strong [ref=e481]: Robust Security
+                    - text: ": Advanced security features including TrustZone® isolation, tamper detection, and channel leakage protection on the encryption engine side."
+                  - listitem [ref=e482]:
+                    - strong [ref=e483]: Rich on-chip resources
+                    - text: ": Scalable memory configurations up to 1.5 MB NVM and 256 KB RAM provide ample storage space."
+                  - listitem [ref=e484]:
+                    - strong [ref=e485]: Rich Interfaces
+                    - text: ": Comprehensive peripheral set including the new Global RTC (available in System OFF mode), 14-bit ADC, and high-speed serial interfaces. Built-in lithium battery management."
+                - heading "Hardware OverviewDirect link to Hardware Overview" [level=2] [ref=e486]:
+                  - text: Hardware Overview
+                  - link "Direct link to Hardware Overview" [ref=e487] [cursor=pointer]:
+                    - /url: "#hardware-overview"
+                    - text: "#"
+                - generic [ref=e488]:
+                  - tablist [ref=e489]:
+                    - tab "XIAO nRF54L15" [selected] [ref=e490] [cursor=pointer]
+                    - tab "XIAO nRF54L15 Sense" [ref=e491] [cursor=pointer]
+                  - tabpanel [ref=e493]:
+                    - table [ref=e494]:
+                      - row "XIAO nRF54L15 front indication diagram" [ref=e495]:
+                        - columnheader "XIAO nRF54L15 front indication diagram" [ref=e496]
+                      - row [ref=e497]:
+                        - cell [ref=e498]:
+                          - img [ref=e500]
+                      - row "XIAO nRF54L15 back indication diagram" [ref=e501]:
+                        - columnheader "XIAO nRF54L15 back indication diagram" [ref=e502]
+                      - row [ref=e503]:
+                        - cell [ref=e504]:
+                          - img [ref=e506]
+                      - row "XIAO nRF54L15 Pin List" [ref=e507]:
+                        - columnheader "XIAO nRF54L15 Pin List" [ref=e508]
+                      - row [ref=e509]:
+                        - cell [ref=e510]:
+                          - img [ref=e512]
+                - heading "Pin MapDirect link to pin-map" [level=2] [ref=e513]:
+                  - strong [ref=e514]: Pin Map
+                  - link "Direct link to pin-map" [ref=e515] [cursor=pointer]:
+                    - /url: "#pin-map"
+                    - text: "#"
+                - table [ref=e516]:
+                  - rowgroup [ref=e517]:
+                    - row "XIAO Pin Function Chip Pin Description" [ref=e518]:
+                      - columnheader "XIAO Pin" [ref=e519]
+                      - columnheader "Function" [ref=e520]
+                      - columnheader "Chip Pin" [ref=e521]
+                      - columnheader "Description" [ref=e522]
+                  - rowgroup [ref=e523]:
+                    - row "5V VBUS Power Input/Output" [ref=e524]:
+                      - cell "5V" [ref=e525]
+                      - cell "VBUS" [ref=e526]
+                      - cell [ref=e527]
+                      - cell "Power Input/Output" [ref=e528]
+                    - row "GND" [ref=e529]:
+                      - cell "GND" [ref=e530]
+                      - cell [ref=e531]
+                      - cell [ref=e532]
+                      - cell [ref=e533]
+                    - row "3V3 3V3_OUT Power Output" [ref=e534]:
+                      - cell "3V3" [ref=e535]
+                      - cell "3V3_OUT" [ref=e536]
+                      - cell [ref=e537]
+                      - cell "Power Output" [ref=e538]
+                    - row "D0 Analog P1.04 GPIO, ADC" [ref=e539]:
+                      - cell "D0" [ref=e540]
+                      - cell "Analog" [ref=e541]
+                      - cell "P1.04" [ref=e542]
+                      - cell "GPIO, ADC" [ref=e543]
+                    - row "D1 Analog P1.05 GPIO, ADC" [ref=e544]:
+                      - cell "D1" [ref=e545]
+                      - cell "Analog" [ref=e546]
+                      - cell "P1.05" [ref=e547]
+                      - cell "GPIO, ADC" [ref=e548]
+                    - row "D2 Analog P1.06 GPIO, ADC" [ref=e549]:
+                      - cell "D2" [ref=e550]
+                      - cell "Analog" [ref=e551]
+                      - cell "P1.06" [ref=e552]
+                      - cell "GPIO, ADC" [ref=e553]
+                    - row "D3 Analog P1.07 GPIO, ADC" [ref=e554]:
+                      - cell "D3" [ref=e555]
+                      - cell "Analog" [ref=e556]
+                      - cell "P1.07" [ref=e557]
+                      - cell "GPIO, ADC" [ref=e558]
+                    - row "D4 SDA-0 P1.10 GPIO, I2C Data" [ref=e559]:
+                      - cell "D4" [ref=e560]
+                      - cell "SDA-0" [ref=e561]
+                      - cell "P1.10" [ref=e562]
+                      - cell "GPIO, I2C Data" [ref=e563]
+                    - row "D5 SCL-0 P1.11 GPIO, I2C Clock" [ref=e564]:
+                      - cell "D5" [ref=e565]
+                      - cell "SCL-0" [ref=e566]
+                      - cell "P1.11" [ref=e567]
+                      - cell "GPIO, I2C Clock" [ref=e568]
+                    - row "D6 TX P2.08 GPIO, UART Transmit" [ref=e569]:
+                      - cell "D6" [ref=e570]
+                      - cell "TX" [ref=e571]
+                      - cell "P2.08" [ref=e572]
+                      - cell "GPIO, UART Transmit" [ref=e573]
+                    - row "D7 RX P2.07 GPIO, UART Receive" [ref=e574]:
+                      - cell "D7" [ref=e575]
+                      - cell "RX" [ref=e576]
+                      - cell "P2.07" [ref=e577]
+                      - cell "GPIO, UART Receive" [ref=e578]
+                    - row "D8 SPI_SCK P2.01 GPIO, SPI Clock" [ref=e579]:
+                      - cell "D8" [ref=e580]
+                      - cell "SPI_SCK" [ref=e581]
+                      - cell "P2.01" [ref=e582]
+                      - cell "GPIO, SPI Clock" [ref=e583]
+                    - row "D9 SPI_MISO P2.04 GPIO, SPI Data" [ref=e584]:
+                      - cell "D9" [ref=e585]
+                      - cell "SPI_MISO" [ref=e586]
+                      - cell "P2.04" [ref=e587]
+                      - cell "GPIO, SPI Data" [ref=e588]
+                    - row "D10 SPI_MOSI P2.02 GPIO, SPI Data" [ref=e589]:
+                      - cell "D10" [ref=e590]
+                      - cell "SPI_MOSI" [ref=e591]
+                      - cell "P2.02" [ref=e592]
+                      - cell "GPIO, SPI Data" [ref=e593]
+                    - row "D11 SCL-1 P0.03 GPIO, I2C" [ref=e594]:
+                      - cell "D11" [ref=e595]
+                      - cell "SCL-1" [ref=e596]
+                      - cell "P0.03" [ref=e597]
+                      - cell "GPIO, I2C" [ref=e598]
+                    - row "D12 SDA-1 P0.04 GPIO,I2C" [ref=e599]:
+                      - cell "D12" [ref=e600]
+                      - cell "SDA-1" [ref=e601]
+                      - cell "P0.04" [ref=e602]
+                      - cell "GPIO,I2C" [ref=e603]
+                    - row "D13 GPIO P2.10 GPIO" [ref=e604]:
+                      - cell "D13" [ref=e605]
+                      - cell "GPIO" [ref=e606]
+                      - cell "P2.10" [ref=e607]
+                      - cell "GPIO" [ref=e608]
+                    - row "D14 GPIO P2.09 GPIO" [ref=e609]:
+                      - cell "D14" [ref=e610]
+                      - cell "GPIO" [ref=e611]
+                      - cell "P2.09" [ref=e612]
+                      - cell "GPIO" [ref=e613]
+                    - row "D15 GPIO P2.06 GPIO" [ref=e614]:
+                      - cell "D15" [ref=e615]
+                      - cell "GPIO" [ref=e616]
+                      - cell "P2.06" [ref=e617]
+                      - cell "GPIO" [ref=e618]
+                    - row "nRF54L15_SWCLK SWDCLK JTAG" [ref=e619]:
+                      - cell "nRF54L15_SWCLK" [ref=e620]
+                      - cell [ref=e621]
+                      - cell "SWDCLK" [ref=e622]
+                      - cell "JTAG" [ref=e623]
+                    - row "nRF54L15_SWD-IO SWDIO JTAG" [ref=e624]:
+                      - cell "nRF54L15_SWD-IO" [ref=e625]
+                      - cell [ref=e626]
+                      - cell "SWDIO" [ref=e627]
+                      - cell "JTAG" [ref=e628]
+                    - row "nRF54L15_RST RST JTAG" [ref=e629]:
+                      - cell "nRF54L15_RST" [ref=e630]
+                      - cell [ref=e631]
+                      - cell "RST" [ref=e632]
+                      - cell "JTAG" [ref=e633]
+                    - row "SAMD11_SWCLK PA30 JTAG" [ref=e634]:
+                      - cell "SAMD11_SWCLK" [ref=e635]
+                      - cell [ref=e636]
+                      - cell "PA30" [ref=e637]
+                      - cell "JTAG" [ref=e638]
+                    - row "SAMD11_SWDIO PA31 JTAG" [ref=e639]:
+                      - cell "SAMD11_SWDIO" [ref=e640]
+                      - cell [ref=e641]
+                      - cell "PA31" [ref=e642]
+                      - cell "JTAG" [ref=e643]
+                    - row "SAMD11_RST RST2 JTAG" [ref=e644]:
+                      - cell "SAMD11_RST" [ref=e645]
+                      - cell [ref=e646]
+                      - cell "RST2" [ref=e647]
+                      - cell "JTAG" [ref=e648]
+                    - row "NFC1 P1.02 NRF" [ref=e649]:
+                      - cell "NFC1" [ref=e650]
+                      - cell [ref=e651]
+                      - cell "P1.02" [ref=e652]
+                      - cell "NRF" [ref=e653]
+                    - row "NFC2 P1.03 NRF" [ref=e654]:
+                      - cell "NFC2" [ref=e655]
+                      - cell [ref=e656]
+                      - cell "P1.03" [ref=e657]
+                      - cell "NRF" [ref=e658]
+                    - row "Reset nRF54_RESET EN" [ref=e659]:
+                      - cell "Reset" [ref=e660]
+                      - cell [ref=e661]
+                      - cell "nRF54_RESET" [ref=e662]
+                      - cell "EN" [ref=e663]
+                    - row "USER KEY P0.00 User Key" [ref=e664]:
+                      - cell "USER KEY" [ref=e665]
+                      - cell [ref=e666]
+                      - cell "P0.00" [ref=e667]
+                      - cell "User Key" [ref=e668]
+                    - row "RF Switch Port Select P2.05 Switch onboard antenna" [ref=e669]:
+                      - cell "RF Switch Port Select" [ref=e670]
+                      - cell [ref=e671]
+                      - cell "P2.05" [ref=e672]
+                      - cell "Switch onboard antenna" [ref=e673]
+                    - row "RF Switch Power P2.03 Power" [ref=e674]:
+                      - cell "RF Switch Power" [ref=e675]
+                      - cell [ref=e676]
+                      - cell "P2.03" [ref=e677]
+                      - cell "Power" [ref=e678]
+                    - row "AIN7_VBAT P1.14 Read the BAT voltage value" [ref=e679]:
+                      - cell "AIN7_VBAT" [ref=e680]
+                      - cell [ref=e681]
+                      - cell "P1.14" [ref=e682]
+                      - cell "Read the BAT voltage value" [ref=e683]
+                    - row "CHARGE_LED charge_LED CHG-LED_Red" [ref=e684]:
+                      - cell "CHARGE_LED" [ref=e685]
+                      - cell [ref=e686]
+                      - cell "charge_LED" [ref=e687]
+                      - cell "CHG-LED_Red" [ref=e688]
+                    - row "USER_LED P2.00 User Light" [ref=e689]:
+                      - cell "USER_LED" [ref=e690]
+                      - cell [ref=e691]
+                      - cell "P2.00" [ref=e692]
+                      - cell "User Light" [ref=e693]
+                - heading "nRFConnect SDK UsageDirect link to nRFConnect SDK Usage" [level=2] [ref=e694]:
+                  - text: nRFConnect SDK Usage
+                  - link "Direct link to nRFConnect SDK Usage" [ref=e695] [cursor=pointer]:
+                    - /url: "#nrfconnect-sdk-usage"
+                    - text: "#"
+                - paragraph [ref=e696]: The nRF Connect SDK (NCS) is an extensible, unified software development kit from Nordic Semiconductor specifically designed for building low-power wireless applications for Nordic nRF52, nRF53, nRF54, nRF70, and nRF91 series-based wireless devices.
+                - paragraph [ref=e697]: NCS provides a rich ecosystem of off-the-shelf sample applications, protocol stacks, libraries and hardware drivers designed to simplify the development process and accelerate time-to-market. Its modular and configurable nature gives developers the flexibility to build size-optimized software for memory-constrained devices, as well as powerful functionality for more advanced and complex applications.NCS is an open-source project hosted on GitHub and offers excellent support for integrated development environments such as Visual Studio Code.
+                - heading "Using nRF Connect SDK on VSCodeDirect link to Using nRF Connect SDK on VSCode" [level=3] [ref=e698]:
+                  - text: Using nRF Connect SDK on VSCode
+                  - link "Direct link to Using nRF Connect SDK on VSCode" [ref=e699] [cursor=pointer]:
+                    - /url: "#using-nrf-connect-sdk-on-vscode"
+                    - text: "#"
+                - group [ref=e700]:
+                  - generic "Install nRF Connect SDK Knowledge in advance" [ref=e701] [cursor=pointer]
+                - generic [ref=e702]:
+                  - button [ref=e704]:
+                    - generic [ref=e706]: "1"
+                    - generic [ref=e707]:
+                      - generic [ref=e708]: VScode configures the board and builds the burn-in file
+                      - generic [ref=e709]:
+                        - paragraph [ref=e710]: Open VS Code and search for nRF Connect for VS Code Extension Pack in the Plugin Center. This plugin pack will automatically install other VS Code plugins required for nRF Connect.
+                        - img [ref=e712]
+                        - paragraph [ref=e713]: The nRF Connect for VS Code extension enables developers to utilize the popular Visual Studio Code Integrated Development Environment (VS Code IDE) to develop, build, debug and deploy embedded applications based on Nordic's nRF Connect SDK (Software Development Kit). The extension includes useful development tools such as a compiler interface, linker, complete build system, RTOS-enabled debugger, seamless interfacing with the nRF Connect SDK, device tree visualization editor, and an integrated serial terminal.
+                        - paragraph [ref=e714]: "The nRF Connect extension package for VS Code includes the following components:"
+                        - list [ref=e715]:
+                          - listitem [ref=e716]: "nRF Connect for VS Code: The main extension contains the interface between the build system and the nRF Connect SDK, as well as an interface to manage the nRF Connect SDK version and toolchain."
+                          - listitem [ref=e717]: "nRF DeviceTree: Provides device tree language support and a device tree visualization editor."
+                          - listitem [ref=e718]: "nRF Kconfig: Provides Kconfig language support."
+                          - listitem [ref=e719]: "nRF Terminal: Serial and RTT terminals."
+                          - listitem [ref=e720]: "Microsoft C/C++: Adds language support for C/C++, including features of IntelliSense."
+                          - listitem [ref=e721]: "CMake: CMake language support."
+                          - listitem [ref=e722]:
+                            - text: "GNU Linker Mapping Files: Support for linker mapping files. We can download any preferred version of the nRF Connect SDK and its toolchain via the extension. The full nRF Connect for VS Code documentation is available at"
+                            - link "https://docs.nordicsemi.com/bundle/nrf-connect-vscode/page/index.html" [ref=e723] [cursor=pointer]:
+                              - /url: https://docs.nordicsemi.com/bundle/nrf-connect-vscode/page/index.html
+                            - text: .
+                  - button [ref=e725] [cursor=pointer]:
+                    - generic [ref=e727]: "2"
+                    - generic [ref=e728]:
+                      - generic [ref=e729]: Installing the toolchain
+                      - generic [ref=e730]:
+                        - paragraph [ref=e731]: The toolchain is a collection of tools that work together to build nRF Connect SDK applications, including assembler, compiler, linker, and CMake components. The first time you open nRF Connect for VS Code, you will be prompted to install the toolchain. This usually happens if the extension does not detect any installed toolchain on your computer. Click Install Toolchain and a list of toolchain versions will be listed that can be downloaded and installed on your computer. Select the version of the toolchain that matches the version of the nRF Connect SDK you plan to use. We always recommend using the latest tagged version of the nRF Connect SDK.
+                        - paragraph [ref=e732]: "By default, nRF Connect for VS Code only displays the Released tab (i.e., the stable version) of the toolchain. If you are evaluating a new feature and would like to use the Preview tab or another type of tab (e.g. Customer Sampling -cs), click on \"Show all toolchain versions\" as shown below:"
+                        - img [ref=e734]
+                        - generic [ref=e735]:
+                          - generic [ref=e736]:
+                            - img [ref=e738]
+                            - text: note
+                          - paragraph [ref=e741]:
+                            - strong [ref=e742]: The ToolChain here is 3.0.1 or above
+                  - button [ref=e744] [cursor=pointer]:
+                    - generic [ref=e746]: "3"
+                    - generic [ref=e747]:
+                      - generic [ref=e748]: Installing the nRF Connect SDK
+                      - generic [ref=e749]:
+                        - paragraph [ref=e750]: In the nRF Connect extension for VS Code, click on Manage SDK. from the Manage SDK menu, we can install or uninstall the nRF Connect SDK version. Since this is the first time we are using the extension, the interface will only show two options.
+                        - paragraph [ref=e751]: Clicking Install SDK will list all available nRF Connect SDK versions that can be downloaded and installed locally. Select the version of the nRF Connect SDK that is required for the development of your project.
+                        - img [ref=e753]
+                        - paragraph [ref=e754]: If you have opened the SDK folder in VS Code, instead of the Manage SDK menu option, you will see the Manage west workspace. To resolve this issue, open another window or folder in VS Code.
+                        - generic [ref=e755]:
+                          - generic [ref=e756]:
+                            - img [ref=e758]
+                            - text: note
+                          - paragraph [ref=e761]:
+                            - strong [ref=e762]: The nRF Connect SDK here is 3.0.1 or above
+                        - generic [ref=e763]:
+                          - generic [ref=e764]:
+                            - img [ref=e766]
+                            - text: tip
+                          - paragraph [ref=e769]:
+                            - text: If you do not see either of these options, make sure you have the latest version of the nRF Connect for VS Code extension package installed. It is important to note that the nRF Connect SDK is IDE independent, which means you can choose to use any IDE or none at all. The nRF Connect SDK is available via the
+                            - link "https://www.nordicsemi.com/Products/Development-tools/nRF-Util" [ref=e770]:
+                              - /url: https://www.nordicsemi.com/Products/Development-tools/nRF-Util
+                            - text: (nrfutil) command line The (nrfutil) command line interface (CLI) will download and install nRF Connect. However, we highly recommend using our nRF Connect for VS Code extension with VS Code, as it integrates not only a convenient graphical user interface (GUI) and an efficient command line interface (CLI), but also includes a number of features that will greatly simplify firmware development. Configuring other IDEs to work with the nRF Connect SDK requires additional manual steps beyond the scope of this course.
+                  - button [ref=e772] [cursor=pointer]:
+                    - generic [ref=e774]: "4"
+                    - generic [ref=e775]:
+                      - generic [ref=e776]: Creating User Programs
+                      - generic [ref=e777]:
+                        - paragraph [ref=e778]: In this exercise we will write a simple application based on the blinky example to control blinking LEDs on a development board. The same applies to all supported NordicSemiconductor development boards (nRF54, nRF53, nRF52, nRF70 or nRF91 series). The goal is to make sure that all the tools needed to build and burn the example are set up correctly. The focus is on learning how to create an application, build it and burn it to a Nordic chip development board using the “Copy Example” template!
+                        - list [ref=e779]:
+                          - listitem [ref=e780]: In VS Code, click the nRF Connect extension icon. In the Welcome view, click Create New Application.
+                        - img [ref=e782]
+                        - list [ref=e783]:
+                          - listitem [ref=e784]: Type blinky in the search bar and select the second Blinky sample (path zephyr/samples/basic/blinky), as shown below.
+                        - img [ref=e786]
+                        - paragraph [ref=e787]: "The Blinky example will cause the LED1 on the development board to blink continuously. Our first application will be based on the Blinky example. The Blinky example is derived from the Zephyr mold block in the nRF Connect SDK, so you will see the zephyr name in the sample path: zephyr\\samples\\basic\\blinky."
+                  - 'button "5 Add XIAO nRF54L15 Board Download the Libraries To get started, clone the repository from the GitHub linkgit clone https://github.com/Seeed-Studio/platform-seeedboards.git into your preferred local folder. Once cloned, navigate to the platform-seeedboards/zephyr/ directory. Remember this zephyr folder Path; To configure your board for nRF Connect in VS Code, you can follow these steps: Open VS Code and go to Settings. Type nRF Connect in the search box. Find the Board Roots settings item and click Edit in settings.json. Add the zephyr path of the downloaded XIAO nRF54L15 board file to the boardRoots array. In the application view, click Add Build Configuration below the application name . We can select the model of XIAO nRF54L15 in the Board target, and select the default prj.config file in the Base configuration files, and finally click Generate and Build to build the file." [ref=e789] [cursor=pointer]':
+                    - generic [ref=e791]: "5"
+                    - generic [ref=e792]:
+                      - generic [ref=e793]: Add XIAO nRF54L15 Board
+                      - generic [ref=e794]:
+                        - link "Download the Libraries" [ref=e796]:
+                          - /url: https://github.com/Seeed-Studio/platform-seeedboards/tree/main/zephyr/boards
+                          - strong [ref=e797]:
+                            - generic [ref=e798]: Download the Libraries
+                          - img [ref=e799]
+                        - paragraph [ref=e801]:
+                          - text: To get started,
+                          - strong [ref=e802]: clone the repository from the GitHub link
+                          - code [ref=e803]: git clone https://github.com/Seeed-Studio/platform-seeedboards.git
+                          - text: into your preferred local folder. Once cloned, navigate to the
+                          - code [ref=e804]: platform-seeedboards/zephyr/
+                          - text: directory.
+                          - strong [ref=e805]:
+                            - text: Remember this
+                            - code [ref=e806]: zephyr
+                            - text: folder Path
+                          - text: ;
+                        - paragraph [ref=e807]: "To configure your board for nRF Connect in VS Code, you can follow these steps:"
+                        - list [ref=e808]:
+                          - listitem [ref=e809]:
+                            - paragraph [ref=e810]: Open VS Code and go to Settings.
+                          - listitem [ref=e811]:
+                            - paragraph [ref=e812]: Type nRF Connect in the search box.
+                          - listitem [ref=e813]:
+                            - paragraph [ref=e814]: Find the Board Roots settings item and click Edit in settings.json.
+                          - listitem [ref=e815]:
+                            - paragraph [ref=e816]:
+                              - text: Add the
+                              - code [ref=e817]: zephyr
+                              - text: path of the downloaded XIAO nRF54L15 board file to the boardRoots array.
+                        - img [ref=e819]
+                        - list [ref=e820]:
+                          - listitem [ref=e821]:
+                            - paragraph [ref=e822]: In the application view, click Add Build Configuration below the application name .
+                          - listitem [ref=e823]:
+                            - paragraph [ref=e824]:
+                              - text: We can select the model of XIAO nRF54L15 in the Board target, and select the default prj.config file in the Base configuration files, and finally click
+                              - code [ref=e825]: Generate and Build
+                              - text: to build the file.
+                        - img [ref=e827]
+                  - button "6 Download Burn-in Plug-in" [ref=e829] [cursor=pointer]:
+                    - generic [ref=e831]: "6"
+                    - generic [ref=e832]:
+                      - generic [ref=e833]: Download Burn-in Plug-in
+                      - generic [ref=e835]:
+                        - tablist [ref=e836]:
+                          - tab "Window" [selected] [ref=e837]
+                          - tab "Mac OS" [ref=e838]
+                        - tabpanel [ref=e840]:
+                          - paragraph [ref=e841]:
+                            - strong [ref=e842]: "Additional Plugins:"
+                          - paragraph [ref=e843]: On Windows, we'll use the Chocolatey package manager to install OpenOCD.
+                          - paragraph [ref=e844]:
+                            - strong [ref=e845]: "1.Open PowerShell (Run as Administrator):"
+                          - list [ref=e846]:
+                            - listitem [ref=e847]: In the Windows search bar, type "PowerShell".
+                            - listitem [ref=e848]: Right-click "Windows PowerShell" and select "Run as administrator".
+                          - paragraph [ref=e849]:
+                            - strong [ref=e850]: "2.Check PowerShell Execution Policy:"
+                          - list [ref=e851]:
+                            - listitem [ref=e852]:
+                              - text: Type
+                              - code [ref=e853]: Get-ExecutionPolicy
+                              - text: and press Enter.
+                            - listitem [ref=e854]:
+                              - text: Type
+                              - code [ref=e855]: Get-ExecutionPolicy -List
+                              - text: and press Enter.
+                          - paragraph [ref=e856]:
+                            - strong [ref=e857]: "3.Install Chocolatey:"
+                          - list [ref=e858]:
+                            - listitem [ref=e859]: "Paste and run the following command:"
+                          - generic [ref=e861]:
+                            - code [ref=e863]:
+                              - generic [ref=e864]: Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+                            - generic [ref=e865]:
+                              - button "Toggle word wrap" [ref=e866]:
+                                - img [ref=e867]
+                              - button "Copy code to clipboard" [ref=e869]:
+                                - generic [ref=e870]:
+                                  - img [ref=e871]
+                                  - img [ref=e873]
+                          - paragraph [ref=e875]: This command bypasses the execution policy for the current PowerShell session and installs Chocolatey. After installation, close and reopen the PowerShell window (still run as administrator).
+                          - paragraph [ref=e876]:
+                            - strong [ref=e877]: "4.Install OpenOCD:"
+                          - list [ref=e878]:
+                            - listitem [ref=e879]: "In the new PowerShell window (as administrator), type:"
+                          - generic [ref=e881]:
+                            - code [ref=e883]:
+                              - generic [ref=e884]: choco install openocd
+                            - button "Copy code to clipboard" [ref=e886]:
+                              - generic [ref=e887]:
+                                - img [ref=e888]
+                                - img [ref=e890]
+                          - paragraph [ref=e892]:
+                            - strong [ref=e893]: "5.Verify OpenOCD Installation:"
+                          - list [ref=e894]:
+                            - listitem [ref=e895]:
+                              - paragraph [ref=e896]:
+                                - text: Type
+                                - code [ref=e897]: Get-Command openocd
+                                - text: and press Enter.
+                            - listitem [ref=e898]:
+                              - paragraph [ref=e899]: If the installation is successful, this command will display the path to openocd.exe.
+                  - button "7 West Flash burn-in program Open the nRF terminal Just enter the west flash command,To flash your device, simply enter the west flash command. The path highlighted in red indicates the location of your compiled .elf file. You can use this same path to find the corresponding .hex file, which is suitable for programming with a J-Link debugger. tip If the west flash error occurs, it means that there is a conflict with the CMake plugin in VS Code, and you need to remove the CMake plugin. When we successfully burned the program in the Seeed Studio XIAO nRF54L15 Sense, you can see the board above the user indicator in the non-stop blinking green light, if your hands are also the same rendering effect, it means that you have been successfully on it!🎊" [ref=e901] [cursor=pointer]:
+                    - generic [ref=e903]: "7"
+                    - generic [ref=e904]:
+                      - generic [ref=e905]: West Flash burn-in program
+                      - generic [ref=e906]:
+                        - list [ref=e907]:
+                          - listitem [ref=e908]:
+                            - paragraph [ref=e909]: Open the nRF terminal
+                          - listitem [ref=e910]:
+                            - paragraph [ref=e911]:
+                              - text: Just enter the
+                              - code [ref=e912]: west flash
+                              - text: command,To flash your device, simply enter the west flash command. The path highlighted in red indicates the location of your compiled .elf file. You can use this same path to find the corresponding .hex file, which is suitable for programming with a J-Link debugger.
+                        - img [ref=e914]
+                        - generic [ref=e915]:
+                          - generic [ref=e916]:
+                            - img [ref=e918]
+                            - text: tip
+                          - generic [ref=e920]:
+                            - paragraph [ref=e921]: If the west flash error occurs, it means that there is a conflict with the CMake plugin in VS Code, and you need to remove the CMake plugin.
+                            - img [ref=e923]
+                        - paragraph [ref=e924]: When we successfully burned the program in the Seeed Studio XIAO nRF54L15 Sense, you can see the board above the user indicator in the non-stop blinking green light, if your hands are also the same rendering effect, it means that you have been successfully on it!🎊
+                        - img [ref=e926]
+                  - button [ref=e928] [cursor=pointer]:
+                    - generic [ref=e930]: "8"
+                    - generic [ref=e931]:
+                      - generic [ref=e932]: Blinky program explation
+                      - generic [ref=e933]:
+                        - generic [ref=e935]:
+                          - code [ref=e937]:
+                            - generic [ref=e938]: /*
+                            - generic [ref=e939]: "* Copyright (c) 2016 Intel Corporation"
+                            - generic [ref=e940]: "*"
+                            - generic [ref=e941]: "* SPDX-License-Identifier: Apache-2.0"
+                            - generic [ref=e942]: "*/"
+                            - generic [ref=e943]: "#include <stdio.h>"
+                            - generic [ref=e944]: "#include <zephyr/kernel.h>"
+                            - generic [ref=e945]: "#include <zephyr/drivers/gpio.h>"
+                            - generic [ref=e946]: /* 1000 msec = 1 sec */
+                            - generic [ref=e947]: "#define SLEEP_TIME_MS 1000"
+                            - generic [ref=e948]: /* The devicetree node identifier for the "led0" alias. */
+                            - generic [ref=e949]: "#define LED0_NODE DT_ALIAS(led0)"
+                            - generic [ref=e950]: /*
+                            - generic [ref=e951]: "* A build error on this line means your board is unsupported."
+                            - generic [ref=e952]: "* See the sample documentation for information on how to fix this."
+                            - generic [ref=e953]: "*/"
+                            - generic [ref=e954]: static const struct gpio_dt_spec led = GPIO_DT_SPEC_GET(LED0_NODE, gpios);
+                            - generic [ref=e955]: int main(void)
+                            - generic [ref=e956]: "{"
+                            - generic [ref=e957]: int ret;
+                            - generic [ref=e958]: bool led_state = true;
+                            - generic [ref=e959]: "if (!gpio_is_ready_dt(&led)) {"
+                            - generic [ref=e960]: return 0;
+                            - generic [ref=e961]: "}"
+                            - generic [ref=e962]: ret = gpio_pin_configure_dt(&led, GPIO_OUTPUT_ACTIVE);
+                            - generic [ref=e963]: "if (ret < 0) {"
+                            - generic [ref=e964]: return 0;
+                            - generic [ref=e965]: "}"
+                            - generic [ref=e966]: "while (1) {"
+                            - generic [ref=e967]: ret = gpio_pin_toggle_dt(&led);
+                            - generic [ref=e968]: "if (ret < 0) {"
+                            - generic [ref=e969]: return 0;
+                            - generic [ref=e970]: "}"
+                            - generic [ref=e971]: led_state = !led_state;
+                            - generic [ref=e972]: "printf(\"LED state: %s\\n\", led_state ? \"ON\" : \"OFF\");"
+                            - generic [ref=e973]: k_msleep(SLEEP_TIME_MS);
+                            - generic [ref=e974]: "}"
+                            - generic [ref=e975]: return 0;
+                            - generic [ref=e976]: "}"
+                          - button "Copy code to clipboard" [ref=e978]:
+                            - generic [ref=e979]:
+                              - img [ref=e980]
+                              - img [ref=e982]
+                        - paragraph [ref=e984]:
+                          - strong [ref=e985]: LED Device Definition
+                          - text: ":"
+                        - list [ref=e986]:
+                          - listitem [ref=e987]:
+                            - code [ref=e988]: "#define LED0_NODE DT_ALIAS(led0)"
+                            - text: ": Retrieves the device tree node identifier for the \"led0\" alias, enabling hardware-agnostic reference to the LED."
+                          - listitem [ref=e989]:
+                            - code [ref=e990]: static const struct gpio_dt_spec led = GPIO_DT_SPEC_GET(LED0_NODE, gpios)
+                            - text: ": Creates a GPIO specification structure ("
+                            - code [ref=e991]: led
+                            - text: ) using the device tree node, containing hardware details (pin, port) for the LED. A build error here indicates unsupported hardware.
+                        - paragraph [ref=e992]:
+                          - strong [ref=e993]: main() Function Initialization
+                          - text: ：
+                        - list [ref=e994]:
+                          - listitem [ref=e995]:
+                            - paragraph [ref=e996]:
+                              - strong [ref=e997]: Variable Setup
+                              - text: ":"
+                            - list [ref=e998]:
+                              - listitem [ref=e999]:
+                                - code [ref=e1000]: int ret
+                                - text: ": Stores function return values to check operation success."
+                              - listitem [ref=e1001]:
+                                - code [ref=e1002]: bool led_state = true
+                                - text: ": Tracks LED status (initialized to \"ON\")."
+                          - listitem [ref=e1003]:
+                            - paragraph [ref=e1004]:
+                              - strong [ref=e1005]: GPIO Readiness Check
+                              - text: ":"
+                            - list [ref=e1006]:
+                              - listitem [ref=e1007]:
+                                - code [ref=e1008]: "if (!gpio_is_ready_dt(&led)) { return 0; }"
+                                - text: ": Verifies if the LED's GPIO hardware is ready (e.g., driver loaded). Exits if not ready."
+                          - listitem [ref=e1009]:
+                            - paragraph [ref=e1010]:
+                              - strong [ref=e1011]: GPIO Configuration
+                              - text: ":"
+                            - list [ref=e1012]:
+                              - listitem [ref=e1013]:
+                                - code [ref=e1014]: ret = gpio_pin_configure_dt(&led, GPIO_OUTPUT_ACTIVE)
+                                - text: ": Configures the LED's GPIO pin as an active-high output."
+                              - listitem [ref=e1015]:
+                                - text: Exits on failure (
+                                - code [ref=e1016]: ret < 0
+                                - text: ) to prevent invalid operations.
+                        - paragraph [ref=e1017]:
+                          - strong [ref=e1018]: Main Loop
+                          - text: ": Runs in an infinite"
+                          - code [ref=e1019]: while (1)
+                          - text: "loop to toggle the LED periodically:"
+                        - list [ref=e1020]:
+                          - listitem [ref=e1021]:
+                            - paragraph [ref=e1022]:
+                              - strong [ref=e1023]: Toggle LED State
+                              - text: ":"
+                            - list [ref=e1024]:
+                              - listitem [ref=e1025]:
+                                - code [ref=e1026]: ret = gpio_pin_toggle_dt(&led)
+                                - text: ": Flips the LED's GPIO output (ON ↔ OFF). Exits on failure."
+                          - listitem [ref=e1027]:
+                            - paragraph [ref=e1028]:
+                              - strong [ref=e1029]: Update Status Tracking
+                              - text: ":"
+                            - list [ref=e1030]:
+                              - listitem [ref=e1031]:
+                                - code [ref=e1032]: led_state = !led_state
+                                - text: ": Syncs the software status flag with hardware state."
+                          - listitem [ref=e1033]:
+                            - paragraph [ref=e1034]:
+                              - strong [ref=e1035]: Log and Delay
+                              - text: ":"
+                            - list [ref=e1036]:
+                              - listitem [ref=e1037]:
+                                - code [ref=e1038]: "printf(\"LED state: %s\\n\", led_state ? \"ON\" : \"OFF\")"
+                                - text: ": Prints current LED status via serial output."
+                              - listitem [ref=e1039]:
+                                - code [ref=e1040]: k_msleep(SLEEP_TIME_MS)
+                                - text: ": Pauses for 1000ms (1 second) using Zephyr's RTOS delay function, controlling the blink frequency."
+                  - 'button "9 Deep Dive into nRF Connect SDK Internals If you want to have a deeper understanding of the internal principles of nRF Connect SDK, you can refer to the following courses: nRF Connect SDK Fundamentals nRF Connect SDK Intermediate nRF Connect Vscode" [ref=e1042] [cursor=pointer]':
+                    - generic [ref=e1043]: "9"
+                    - generic [ref=e1044]:
+                      - generic [ref=e1045]: Deep Dive into nRF Connect SDK Internals
+                      - generic [ref=e1046]:
+                        - paragraph [ref=e1047]: "If you want to have a deeper understanding of the internal principles of nRF Connect SDK, you can refer to the following courses:"
+                        - list [ref=e1048]:
+                          - listitem [ref=e1049]:
+                            - paragraph [ref=e1050]:
+                              - link "nRF Connect SDK Fundamentals" [ref=e1051]:
+                                - /url: https://academy.nordicsemi.com/courses/nrf-connect-sdk-fundamentals/
+                                - strong [ref=e1052]: nRF Connect SDK Fundamentals
+                          - listitem [ref=e1053]:
+                            - paragraph [ref=e1054]:
+                              - link "nRF Connect SDK Intermediate" [ref=e1055]:
+                                - /url: https://academy.nordicsemi.com/courses/nrf-connect-sdk-intermediate/
+                                - strong [ref=e1056]: nRF Connect SDK Intermediate
+                          - listitem [ref=e1057]:
+                            - paragraph [ref=e1058]:
+                              - link "nRF Connect Vscode" [ref=e1059]:
+                                - /url: https://docs.nordicsemi.com/bundle/nrf-connect-vscode/page/index.html
+                                - strong [ref=e1060]: nRF Connect Vscode
+                - heading "Restore factory settingsDirect link to Restore factory settings" [level=2] [ref=e1061]:
+                  - text: Restore factory settings
+                  - link "Direct link to Restore factory settings" [ref=e1062] [cursor=pointer]:
+                    - /url: "#restore-factory-settings"
+                    - text: "#"
+                - paragraph [ref=e1063]: For XIAO nRF54L15 boards, a factory reset script is provided to recover the board from a bad state (e.g., when it's can not upload due to the internal NVM write protection). This script will perform a mass erase of the flash and program a factory firmware.
+                - link "Factory Reset" [ref=e1065] [cursor=pointer]:
+                  - /url: https://github.com/Seeed-Studio/platform-seeedboards/tree/main/scripts/factory_reset
+                  - strong [ref=e1066]:
+                    - generic [ref=e1067]: Factory Reset
+                  - img [ref=e1068]
+                - paragraph [ref=e1070]:
+                  - strong [ref=e1071]: Location
+                  - text: The scripts are located in the scripts/factory_reset/ directory.
+                  - strong [ref=e1072]: Usage
+                  - text: The script will automatically create and manage a local Python virtual environment to install the necessary tools, so it can be run out-of-the-box.
+                - heading "WindowDirect link to Window" [level=3] [ref=e1073]:
+                  - text: Window
+                  - link "Direct link to Window" [ref=e1074] [cursor=pointer]:
+                    - /url: "#window"
+                    - text: "#"
+                - list [ref=e1075]:
+                  - listitem [ref=e1076]: "For Windows: Navigate to the scripts/factory_reset directory and run:"
+                - generic [ref=e1078]:
+                  - code [ref=e1080]:
+                    - generic [ref=e1081]: .\factory_reset.bat
+                  - button "Copy code to clipboard" [ref=e1083] [cursor=pointer]:
+                    - generic [ref=e1084]:
+                      - img [ref=e1085]
+                      - img [ref=e1087]
+                - heading "Linux-MacOSDirect link to Linux-MacOS" [level=3] [ref=e1089]:
+                  - text: Linux-MacOS
+                  - link "Direct link to Linux-MacOS" [ref=e1090] [cursor=pointer]:
+                    - /url: "#linux-macos"
+                    - text: "#"
+                - list [ref=e1091]:
+                  - listitem [ref=e1092]: "For Linux and macOS: Navigate to the scripts/factory_reset directory and run:"
+                - generic [ref=e1094]:
+                  - code [ref=e1096]:
+                    - generic [ref=e1097]: bash factory_reset.sh
+                  - button "Copy code to clipboard" [ref=e1099] [cursor=pointer]:
+                    - generic [ref=e1100]:
+                      - img [ref=e1101]
+                      - img [ref=e1103]
+                - heading "Wireless Switching ModeDirect link to Wireless Switching Mode" [level=2] [ref=e1105]:
+                  - text: Wireless Switching Mode
+                  - link "Direct link to Wireless Switching Mode" [ref=e1106] [cursor=pointer]:
+                    - /url: "#wireless-switching-mode"
+                    - text: "#"
+                - paragraph [ref=e1107]: This example demonstrates how to control the RF switch on the Seeed Studio XIAO nRF54L15 to toggle between the onboard
+                - paragraph [ref=e1108]:
+                  - text: "::: The following example works for both PlatformIO and nRF Connect SDK. It can be used directly in PlatformIO, while the SDK requires manually adding files. Refer to this"
+                  - link "link" [ref=e1109] [cursor=pointer]:
+                    - /url: https://wiki.seeedstudio.com/xiao_nrf54l15_sense_getting_started/#battery-powered-board
+                  - text: ":::"
+                - generic [ref=e1110]:
+                  - img "XIAO nRF54L15 BLE Advertising Power Consumption" [ref=e1111]
+                  - paragraph [ref=e1112]:
+                    - emphasis [ref=e1113]: External antenna
+                - link "Download the Libraries" [ref=e1115] [cursor=pointer]:
+                  - /url: https://github.com/Seeed-Studio/platform-seeedboards/tree/main/examples/zephyr-rfsw
+                  - strong [ref=e1116]:
+                    - generic [ref=e1117]: Download the Libraries
+                  - img [ref=e1118]
+                - list [ref=e1120]:
+                  - listitem [ref=e1121]:
+                    - paragraph [ref=e1122]: Ceramic antenna and an external antenna.
+                  - listitem [ref=e1123]:
+                    - paragraph [ref=e1124]: Press the user button (SW0) to switch between the ceramic and external antennas.
+                  - listitem [ref=e1125]:
+                    - paragraph [ref=e1126]: The user LED indicates the current antenna selection (LED ON for external, LED OFF for ceramic).
+                  - listitem [ref=e1127]:
+                    - paragraph [ref=e1128]: The default antenna at startup can be configured via prj.conf.
+                - generic [ref=e1130]:
+                  - code [ref=e1132]:
+                    - generic [ref=e1133]: /*
+                    - generic [ref=e1134]: "* Copyright (c) 2024 Seeed Technology Co.,Ltd"
+                    - generic [ref=e1135]: "*"
+                    - generic [ref=e1136]: "* SPDX-License-Identifier: Apache-2.0"
+                    - generic [ref=e1137]: "*/"
+                    - generic [ref=e1138]: "#include <zephyr/kernel.h>"
+                    - generic [ref=e1139]: "#include <zephyr/device.h>"
+                    - generic [ref=e1140]: "#include <zephyr/drivers/gpio.h>"
+                    - generic [ref=e1141]: "#include <zephyr/logging/log.h>"
+                    - generic [ref=e1142]: "#include <zephyr/devicetree.h>"
+                    - generic [ref=e1143]: LOG_MODULE_REGISTER(app, CONFIG_LOG_DEFAULT_LEVEL);
+                    - generic [ref=e1144]: /* Devicetree node identifiers */
+                    - generic [ref=e1145]: "#define RFSW_REGULATOR_NODE DT_NODELABEL(rfsw_ctl)"
+                    - generic [ref=e1146]: "#define SW0_NODE DT_ALIAS(sw0)"
+                    - generic [ref=e1147]: "#define LED0_NODE DT_ALIAS(led0)"
+                    - generic [ref=e1148]: /* State variables */
+                    - generic [ref=e1149]: static uint8_t onoff_flag = 0;
+                    - generic [ref=e1150]: "#ifdef CONFIG_DEFAULT_ANTENNA_EXTERNAL"
+                    - generic [ref=e1151]: static bool is_external_antenna = true;
+                    - generic [ref=e1152]: "#else"
+                    - generic [ref=e1153]: static bool is_external_antenna = false;
+                    - generic [ref=e1154]: "#endif"
+                    - generic [ref=e1155]: /* GPIO device specs */
+                    - generic [ref=e1156]: /* Manually build gpio_dt_spec for rfsw_ctl */
+                    - generic [ref=e1157]: "static const struct gpio_dt_spec rfsw_gpio = {"
+                    - generic [ref=e1158]: .port = DEVICE_DT_GET(DT_GPIO_CTLR(RFSW_REGULATOR_NODE, enable_gpios)),
+                    - generic [ref=e1159]: .pin = DT_GPIO_PIN(RFSW_REGULATOR_NODE, enable_gpios),
+                    - generic [ref=e1160]: .dt_flags = DT_GPIO_FLAGS(RFSW_REGULATOR_NODE, enable_gpios),
+                    - generic [ref=e1161]: "};"
+                    - generic [ref=e1162]: static const struct gpio_dt_spec button = GPIO_DT_SPEC_GET(SW0_NODE, gpios);
+                    - generic [ref=e1163]: static const struct gpio_dt_spec led = GPIO_DT_SPEC_GET(LED0_NODE, gpios);
+                    - generic [ref=e1164]: /* Button callback data */
+                    - generic [ref=e1165]: static struct gpio_callback button_cb_data;
+                    - generic [ref=e1166]: /* Forward declarations */
+                    - generic [ref=e1167]: void button_pressed(const struct device *dev, struct gpio_callback *cb, uint32_t pins);
+                    - generic [ref=e1168]: void update_antenna_switch(void);
+                    - generic [ref=e1169]: /* Function to update antenna switch and LED */
+                    - generic [ref=e1170]: void update_antenna_switch(void)
+                    - generic [ref=e1171]: "{"
+                    - generic [ref=e1172]: int ret;
+                    - generic [ref=e1173]: is_external_antenna = !is_external_antenna;
+                    - generic [ref=e1174]: "if (is_external_antenna) {"
+                    - generic [ref=e1175]: /* Switch to external antenna */
+                    - generic [ref=e1176]: LOG_INF("Switching to External Antenna");
+                    - generic [ref=e1177]: // To get a physical high level (Inactive state), we need to set the logic to '0'
+                    - generic [ref=e1178]: ret = gpio_pin_set_dt(&rfsw_gpio, 0);
+                    - generic [ref=e1179]: "if (ret < 0) {"
+                    - generic [ref=e1180]: "LOG_ERR(\"Error setting rfsw-ctl to physical HIGH: %d\\n\", ret);"
+                    - generic [ref=e1181]: "}"
+                    - generic [ref=e1182]: // Turn on the LED (set 0 for on)
+                    - generic [ref=e1183]: ret = gpio_pin_set_dt(&led, 0);
+                    - generic [ref=e1184]: "if (ret < 0) {"
+                    - generic [ref=e1185]: "LOG_ERR(\"Error turning on LED: %d\\n\", ret);"
+                    - generic [ref=e1186]: "}"
+                    - generic [ref=e1187]: "} else {"
+                    - generic [ref=e1188]: /* Switch back to ceramic antenna */
+                    - generic [ref=e1189]: LOG_INF("Switching to Ceramic Antenna");
+                    - generic [ref=e1190]: // To get a physical low level (Active state), we need to set the logic to '1'
+                    - generic [ref=e1191]: ret = gpio_pin_set_dt(&rfsw_gpio, 1);
+                    - generic [ref=e1192]: "if (ret < 0) {"
+                    - generic [ref=e1193]: "LOG_ERR(\"Error setting rfsw-ctl to physical LOW: %d\\n\", ret);"
+                    - generic [ref=e1194]: "}"
+                    - generic [ref=e1195]: // Turn off the LED (set 1 for off)
+                    - generic [ref=e1196]: ret = gpio_pin_set_dt(&led, 1);
+                    - generic [ref=e1197]: "if (ret < 0) {"
+                    - generic [ref=e1198]: "LOG_ERR(\"Error turning off LED: %d\\n\", ret);"
+                    - generic [ref=e1199]: "}"
+                    - generic [ref=e1200]: "}"
+                    - generic [ref=e1201]: "}"
+                    - generic [ref=e1202]: /* Button pressed callback function */
+                    - generic [ref=e1203]: void button_pressed(const struct device *dev, struct gpio_callback *cb,
+                    - generic [ref=e1204]: uint32_t pins)
+                    - generic [ref=e1205]: "{"
+                    - generic [ref=e1206]: update_antenna_switch();
+                    - generic [ref=e1207]: "}"
+                    - generic [ref=e1208]: int main(void)
+                    - generic [ref=e1209]: "{"
+                    - generic [ref=e1210]: int ret;
+                    - generic [ref=e1212]: /* Check if GPIO devices are ready */
+                    - generic [ref=e1213]: "if (!gpio_is_ready_dt(&rfsw_gpio)) {"
+                    - generic [ref=e1214]: LOG_ERR("RF switch control GPIO not ready\n");
+                    - generic [ref=e1215]: return -1;
+                    - generic [ref=e1216]: "}"
+                    - generic [ref=e1217]: "if (!gpio_is_ready_dt(&button)) {"
+                    - generic [ref=e1218]: LOG_ERR("Button GPIO not ready\n");
+                    - generic [ref=e1219]: return -1;
+                    - generic [ref=e1220]: "}"
+                    - generic [ref=e1221]: "if (!gpio_is_ready_dt(&led)) {"
+                    - generic [ref=e1222]: LOG_ERR("LED GPIO not ready\n");
+                    - generic [ref=e1223]: return -1;
+                    - generic [ref=e1224]: "}"
+                    - generic [ref=e1226]: /* Configure GPIO pins */
+                    - generic [ref=e1227]: ret = gpio_pin_configure_dt(&rfsw_gpio, GPIO_OUTPUT);
+                    - generic [ref=e1228]: "if (ret < 0) {"
+                    - generic [ref=e1229]: "LOG_ERR(\"Error configuring rfsw-ctl: %d\\n\", ret);"
+                    - generic [ref=e1230]: return ret;
+                    - generic [ref=e1231]: "}"
+                    - generic [ref=e1233]: /* Configure LED as output, default off */
+                    - generic [ref=e1234]: ret = gpio_pin_configure_dt(&led, GPIO_OUTPUT_ACTIVE);
+                    - generic [ref=e1235]: "if (ret < 0) {"
+                    - generic [ref=e1236]: "LOG_ERR(\"Error configuring LED: %d\\n\", ret);"
+                    - generic [ref=e1237]: return ret;
+                    - generic [ref=e1238]: "}"
+                    - generic [ref=e1239]: /* Set initial LED state based on antenna selection */
+                    - generic [ref=e1240]: "if (is_external_antenna) {"
+                    - generic [ref=e1241]: // External antenna
+                    - generic [ref=e1242]: "LOG_INF(\"Initial state: External Antenna\");"
+                    - generic [ref=e1243]: ret = gpio_pin_set_dt(&rfsw_gpio, 0);
+                    - generic [ref=e1244]: "if (ret < 0) {"
+                    - generic [ref=e1245]: "LOG_ERR(\"Error setting rfsw-ctl to physical HIGH: %d\\n\", ret);"
+                    - generic [ref=e1246]: "}"
+                    - generic [ref=e1247]: ret = gpio_pin_set_dt(&led, 0); // Turn on LED
+                    - generic [ref=e1248]: "if (ret < 0) {"
+                    - generic [ref=e1249]: "LOG_ERR(\"Error turning on LED: %d\\n\", ret);"
+                    - generic [ref=e1250]: "}"
+                    - generic [ref=e1251]: "} else {"
+                    - generic [ref=e1252]: // Ceramic antenna
+                    - generic [ref=e1253]: "LOG_INF(\"Initial state: Ceramic Antenna\");"
+                    - generic [ref=e1254]: ret = gpio_pin_set_dt(&rfsw_gpio, 1);
+                    - generic [ref=e1255]: "if (ret < 0) {"
+                    - generic [ref=e1256]: "LOG_ERR(\"Error setting rfsw-ctl to physical LOW: %d\\n\", ret);"
+                    - generic [ref=e1257]: "}"
+                    - generic [ref=e1258]: ret = gpio_pin_set_dt(&led, 1); // Turn off LED
+                    - generic [ref=e1259]: "if (ret < 0) {"
+                    - generic [ref=e1260]: "LOG_ERR(\"Error turning off LED: %d\\n\", ret);"
+                    - generic [ref=e1261]: "}"
+                    - generic [ref=e1262]: "}"
+                    - generic [ref=e1263]: /* Configure button as input */
+                    - generic [ref=e1264]: ret = gpio_pin_configure_dt(&button, GPIO_INPUT);
+                    - generic [ref=e1265]: "if (ret < 0) {"
+                    - generic [ref=e1266]: "LOG_ERR(\"Error configuring button: %d\\n\", ret);"
+                    - generic [ref=e1267]: return ret;
+                    - generic [ref=e1268]: "}"
+                    - generic [ref=e1269]: /* Configure button interrupt */
+                    - generic [ref=e1270]: ret = gpio_pin_interrupt_configure_dt(&button, GPIO_INT_EDGE_TO_ACTIVE);
+                    - generic [ref=e1271]: "if (ret < 0) {"
+                    - generic [ref=e1272]: "LOG_ERR(\"Error configuring button interrupt: %d\\n\", ret);"
+                    - generic [ref=e1273]: return ret;
+                    - generic [ref=e1274]: "}"
+                    - generic [ref=e1275]: /* Initialize button callback */
+                    - generic [ref=e1276]: gpio_init_callback(&button_cb_data, button_pressed, BIT(button.pin));
+                    - generic [ref=e1277]: gpio_add_callback(button.port, &button_cb_data);
+                    - generic [ref=e1278]: LOG_INF("Antenna switch example started. Press SW0 to switch.\n");
+                    - generic [ref=e1279]: return 0;
+                    - generic [ref=e1280]: "}"
+                  - generic [ref=e1281]:
+                    - button "Toggle word wrap" [ref=e1282] [cursor=pointer]:
+                      - img [ref=e1283]
+                    - button "Copy code to clipboard" [ref=e1285] [cursor=pointer]:
+                      - generic [ref=e1286]:
+                        - img [ref=e1287]
+                        - img [ref=e1289]
+                - generic [ref=e1291]:
+                  - generic [ref=e1292]:
+                    - img [ref=e1294]
+                    - text: tip
+                  - paragraph [ref=e1297]: "If you wish to switch between the external or internal antenna, you need to modify the zephyr/prj.conf file., Uncomment # CONFIG_DEFAULT_ANTENNA_EXTERNAL=y to enable the external antenna. If using the internal antenna, comment out the line."
+                - generic [ref=e1299]:
+                  - code [ref=e1301]:
+                    - generic [ref=e1302]: CONFIG_GPIO=y
+                    - generic [ref=e1303]: CONFIG_SERIAL=y
+                    - generic [ref=e1304]: CONFIG_LOG=y
+                    - generic [ref=e1305]: CONFIG_CONSOLE=y
+                    - generic [ref=e1306]: CONFIG_UART_CONSOLE=y
+                    - generic [ref=e1307]: CONFIG_SHELL_BACKEND_SERIAL=y
+                    - generic [ref=e1308]: CONFIG_SHELL_BACKEND_DUMMY=n
+                    - generic [ref=e1309]: CONFIG_PM_DEVICE=y
+                    - generic [ref=e1310]: CONFIG_NRFX_POWER=y
+                    - generic [ref=e1311]: CONFIG_POWEROFF=y
+                    - generic [ref=e1312]: CONFIG_BT=y
+                    - generic [ref=e1313]: CONFIG_BT_PERIPHERAL=y
+                    - generic [ref=e1314]: CONFIG_BT_DEVICE_NAME="zephyr-ble"
+                    - generic [ref=e1315]: "# Enable this option to default to external antenna"
+                    - generic [ref=e1316]: "# CONFIG_DEFAULT_ANTENNA_EXTERNAL=y"
+                  - button "Copy code to clipboard" [ref=e1318] [cursor=pointer]:
+                    - generic [ref=e1319]:
+                      - img [ref=e1320]
+                      - img [ref=e1322]
+                - heading "Acess The J-Link Pins For Burn a ProgramDirect link to Acess The J-Link Pins For Burn a Program" [level=2] [ref=e1324]:
+                  - text: Acess The J-Link Pins For Burn a Program
+                  - link "Direct link to Acess The J-Link Pins For Burn a Program" [ref=e1325] [cursor=pointer]:
+                    - /url: "#acess-the-j-link-pins-for-burn-a-program"
+                    - text: "#"
+                - paragraph [ref=e1326]: If you want to use JLink for programming, you can follow the steps below. However, we suggest that you use the serial port built-in on the Seeed Stduio XIAO nRF54L15 board for programming, which will be much more convenient.
+                - paragraph [ref=e1327]:
+                  - strong [ref=e1328]: Hardware Required
+                - list [ref=e1329]:
+                  - listitem [ref=e1330]:
+                    - link "Seeed Studio XIAO nRF54L15" [ref=e1331] [cursor=pointer]:
+                      - /url: https://www.seeedstudio.com/Seeed-XIAO-BLE-Sense-nRF52840-p-5253.html
+                  - listitem [ref=e1332]:
+                    - link "Jlink" [ref=e1333] [cursor=pointer]:
+                      - /url: https://www.segger.com/downloads/jlink/
+                - generic [ref=e1334]:
+                  - generic [ref=e1335]:
+                    - img [ref=e1337]
+                    - text: tip
+                  - paragraph [ref=e1340]: You need to download the latest version of J-Link to have the nRF54L15 model board support.
+                - paragraph [ref=e1341]:
+                  - strong [ref=e1342]: Software Required
+                - paragraph [ref=e1343]:
+                  - text: It is required to download the
+                  - link "Segger" [ref=e1344] [cursor=pointer]:
+                    - /url: https://www.segger.com/downloads/jlink/
+                  - text: software from the website.
+                - list [ref=e1345]:
+                  - listitem [ref=e1346]:
+                    - strong [ref=e1347]: Step 1.
+                    - text: "Use Jlink to connect pins below:"
+                - paragraph [ref=e1348]:
+                  - img "pir" [ref=e1349]
+                - list [ref=e1350]:
+                  - listitem [ref=e1351]:
+                    - strong [ref=e1352]: Step 2.
+                    - text: "Start the J-Flash and search nRF54L15_M33, creating a new project:"
+                - paragraph [ref=e1353]:
+                  - img "pir" [ref=e1354]
+                - list [ref=e1355]:
+                  - listitem [ref=e1356]:
+                    - strong [ref=e1357]: Step 3.
+                    - text: Click "Target" and then select "Connect".
+                - paragraph [ref=e1358]:
+                  - img "pir" [ref=e1359]
+                - list [ref=e1360]:
+                  - listitem [ref=e1361]:
+                    - strong [ref=e1362]: Step 4.
+                    - text: Draw the bin or
+                    - link "hex file" [ref=e1363] [cursor=pointer]:
+                      - /url: https://files.seeedstudio.com/wiki/XIAO_nRF54L15/Getting_Start/zephyr.hex
+                    - text: to software. Then press F4 and F5 in that order. The reflashing is done.
+                - paragraph [ref=e1364]:
+                  - img "pir" [ref=e1365]
+                - heading "Battery Powered BoardDirect link to Battery Powered Board" [level=2] [ref=e1366]:
+                  - text: Battery Powered Board
+                  - link "Direct link to Battery Powered Board" [ref=e1367] [cursor=pointer]:
+                    - /url: "#battery-powered-board"
+                    - text: "#"
+                - paragraph [ref=e1368]: The XIAO nRF54L15 has a built-in power management chip that allows the XIAO nRF54L15 to be powered independently by using a battery or to charge the battery through the XIAO nRF54L15's USB port.
+                - paragraph [ref=e1369]: If you want to connect the battery for XIAO, we recommend you to purchase qualified rechargeable 3.7V lithium battery. When soldering the battery, please be careful to distinguish between the positive and negative terminals.
+                - generic [ref=e1370]:
+                  - img "XIAO nRF54L15 BLE Advertising Power Consumption" [ref=e1371]
+                  - paragraph [ref=e1372]:
+                    - emphasis [ref=e1373]: Battery Connecting Schematic
+                - paragraph [ref=e1374]:
+                  - strong [ref=e1375]: "Instructions on the use of batteries:"
+                - list [ref=e1376]:
+                  - listitem [ref=e1377]: Please use qualified batteries that meet the specifications.
+                  - listitem [ref=e1378]: XIAO can be connected to your computer device via data cable while using the battery, rest assured that XIAO has a built-in circuit protection chip, which is safe.
+                  - listitem [ref=e1379]: The XIAO nRF54L15 will not have any LED on when it is battery powered (unless you have written a specific program), please do not judge whether the XIAO nRF54L15 is working or not by the condition of the LED, please judge it reasonably by your program.
+                - paragraph [ref=e1380]: At the same time, we designed a red indicator light for battery charging, through the indicator light display to inform the user of the current state of the battery in the charge.
+                - generic [ref=e1381]:
+                  - generic [ref=e1382]:
+                    - img [ref=e1384]
+                    - text: caution
+                  - paragraph [ref=e1387]: Please be careful not to short-circuit the positive and negative terminals and burn the battery and equipment when soldering.
+                - heading "Battery Voltage DetectionDirect link to Battery Voltage Detection" [level=3] [ref=e1388]:
+                  - text: Battery Voltage Detection
+                  - link "Direct link to Battery Voltage Detection" [ref=e1389] [cursor=pointer]:
+                    - /url: "#battery-voltage-detection"
+                    - text: "#"
+                - generic [ref=e1390]:
+                  - generic [ref=e1391]:
+                    - img [ref=e1393]
+                    - text: tip
+                  - generic [ref=e1395]:
+                    - paragraph [ref=e1396]: If you encounter a situation where the XIAO nRF54L15 fails to boot when powered solely by a 3.7V lithium battery after flashing the program, please refer to the solutions below.
+                    - paragraph [ref=e1397]:
+                      - text: For the current hardware version (v1.0), we recommend managing two build configurations to switch easily between
+                      - strong [ref=e1398]: Bench Debugging
+                      - text: (USB connected, UART enabled) and
+                      - strong [ref=e1399]: Battery Deployment
+                      - text: (Standalone, UART disabled).
+                    - paragraph [ref=e1400]:
+                      - strong [ref=e1401]: "Scenario A: USB Bench Debugging"
+                    - paragraph [ref=e1402]:
+                      - strong [ref=e1403]: "When to use:"
+                      - text: You are writing code, flashing firmware, and need to view logs via the
+                      - strong [ref=e1404]: USB Serial Port
+                      - text: .
+                    - paragraph [ref=e1405]:
+                      - strong [ref=e1406]:
+                        - text: Configuration (
+                        - code [ref=e1407]: prj_uart.conf
+                        - text: "):"
+                      - text: Create a new file named
+                      - code [ref=e1408]: prj_uart.conf
+                      - text: in your project directory. This overlay file will temporarily re-enable UART for debugging purposes.
+                    - generic [ref=e1410]:
+                      - code [ref=e1412]:
+                        - generic [ref=e1413]: "# Enable UART for USB debugging"
+                        - generic [ref=e1414]: CONFIG_SERIAL=y
+                        - generic [ref=e1415]: CONFIG_UART_CONSOLE=y
+                      - button "Copy code to clipboard" [ref=e1417] [cursor=pointer]:
+                        - generic [ref=e1418]:
+                          - img [ref=e1419]
+                          - img [ref=e1421]
+                    - generic [ref=e1424]:
+                      - code [ref=e1426]:
+                        - generic [ref=e1427]: "# Optional: Keep RTT enabled as a secondary logging backend"
+                        - generic [ref=e1428]: CONFIG_USE_SEGGER_RTT=y
+                        - generic [ref=e1429]: CONFIG_RTT_CONSOLE=y
+                        - generic [ref=e1430]: CONFIG_LOG_BACKEND_RTT=y
+                        - generic [ref=e1431]: CONFIG_LOG_BACKEND_UART=y
+                      - button "Copy code to clipboard" [ref=e1433] [cursor=pointer]:
+                        - generic [ref=e1434]:
+                          - img [ref=e1435]
+                          - img [ref=e1437]
+                    - paragraph [ref=e1439]:
+                      - strong [ref=e1440]: "How to Build:"
+                      - text: Add the overlay configuration argument when building your project.
+                    - generic [ref=e1442]:
+                      - code [ref=e1444]:
+                        - generic [ref=e1445]: "# Build with UART enabled for USB debugging"
+                        - generic [ref=e1446]: west build -p always -d build_uart -b xiao_nrf54l15/nrf54l15/cpuapp . -DOVERLAY_CONFIG="prj_uart.conf"
+                      - generic [ref=e1447]:
+                        - button "Toggle word wrap" [ref=e1448] [cursor=pointer]:
+                          - img [ref=e1449]
+                        - button "Copy code to clipboard" [ref=e1451] [cursor=pointer]:
+                          - generic [ref=e1452]:
+                            - img [ref=e1453]
+                            - img [ref=e1455]
+                    - paragraph [ref=e1457]:
+                      - strong [ref=e1458]: "Scenario B: Battery Deployment (Default)"
+                    - paragraph [ref=e1459]:
+                      - strong [ref=e1460]: "When to use:"
+                      - text: You have finished debugging and intend to power the board solely via the
+                      - strong [ref=e1461]: Battery Pads
+                      - text: .
+                    - paragraph [ref=e1462]:
+                      - strong [ref=e1463]:
+                        - text: Configuration (
+                        - code [ref=e1464]: prj.conf
+                        - text: "):"
+                      - text: Modify your main
+                      - code [ref=e1465]: prj.conf
+                      - text: file to disable UART by default. This ensures the board can boot correctly when powered by a battery.
+                    - generic [ref=e1467]:
+                      - code [ref=e1469]:
+                        - generic [ref=e1470]: "# Disable UART to ensure successful boot on battery"
+                        - generic [ref=e1471]: CONFIG_SERIAL=n
+                        - generic [ref=e1472]: CONFIG_UART_CONSOLE=n
+                      - button "Copy code to clipboard" [ref=e1474] [cursor=pointer]:
+                        - generic [ref=e1475]:
+                          - img [ref=e1476]
+                          - img [ref=e1478]
+                    - generic [ref=e1481]:
+                      - code [ref=e1483]:
+                        - generic [ref=e1484]: "# Use RTT for low-power logging (requires J-Link)"
+                        - generic [ref=e1485]: CONFIG_USE_SEGGER_RTT=y
+                        - generic [ref=e1486]: CONFIG_RTT_CONSOLE=y
+                        - generic [ref=e1487]: CONFIG_LOG=y
+                        - generic [ref=e1488]: CONFIG_LOG_BACKEND_RTT=y
+                      - button "Copy code to clipboard" [ref=e1490] [cursor=pointer]:
+                        - generic [ref=e1491]:
+                          - img [ref=e1492]
+                          - img [ref=e1494]
+                    - paragraph [ref=e1496]:
+                      - strong [ref=e1497]: "How to Build:"
+                      - text: Build normally without the overlay argument.
+                    - generic [ref=e1499]:
+                      - code [ref=e1501]:
+                        - generic [ref=e1502]: "# Build default firmware (Battery Safe)"
+                        - generic [ref=e1503]: west build -p always -d build_batt -b xiao_nrf54l15/nrf54l15/cpuapp .
+                      - button "Copy code to clipboard" [ref=e1505] [cursor=pointer]:
+                        - generic [ref=e1506]:
+                          - img [ref=e1507]
+                          - img [ref=e1509]
+                    - paragraph [ref=e1511]:
+                      - strong [ref=e1512]: Summary
+                    - list [ref=e1513]:
+                      - listitem [ref=e1514]:
+                        - strong [ref=e1515]: Plugged in via USB
+                        - text: Use the
+                        - strong [ref=e1516]:
+                          - code [ref=e1517]: prj_uart.conf
+                        - text: overlay to enable the Serial Monitor.
+                      - listitem [ref=e1518]:
+                        - strong [ref=e1519]: Running on Battery
+                        - text: Use the default
+                        - strong [ref=e1520]:
+                          - code [ref=e1521]: prj.conf
+                        - text: to ensure the device boots without issues.
+                - paragraph [ref=e1522]:
+                  - text: The XIAO nRF54L15 integrates a battery voltage detection feature that centers on efficiently managing battery power measurements using the TPS22916CYFPR load switch. This guide will focus on analyzing the software implementation of the battery detection
+                  - strong [ref=e1523]: (especially the main.c code)
+                  - text: and guide you on how to easily deploy and use this feature in a PlatformIO environment, avoiding the complexity of the Zephyr NCS SDK.
+                - generic [ref=e1524]:
+                  - img "XIAO nRF54L15 BLE Advertising Power Consumption" [ref=e1525]
+                  - paragraph [ref=e1526]:
+                    - emphasis [ref=e1527]: Detecting Battery Schematic
+                - paragraph [ref=e1528]: "What the TPS22916CYFPR chip does:"
+                - list [ref=e1529]:
+                  - listitem [ref=e1530]:
+                    - paragraph [ref=e1531]: It is an intelligent power switch that controls the on-off of the battery voltage on demand. When the battery voltage needs to be measured, it will turn on, connecting the battery to the voltage divider circuit; when it does not need to be measured, it will turn off, disconnecting the connection.
+                  - listitem [ref=e1532]:
+                    - paragraph [ref=e1533]: What does this feature help us do? Through this on-demand switching mechanism, the chip greatly reduces unnecessary current consumption and effectively extends battery life. Combined with the subsequent voltage divider circuit and the nRF54L15's ADC (analog-to-digital converter), the XIAO nRF54L15 is able to accurately monitor the battery's remaining charge, providing important range optimization for battery-powered, low-power applications such as IoT devices.
+                - generic [ref=e1534]:
+                  - generic [ref=e1535]:
+                    - img [ref=e1537]
+                    - text: note
+                  - generic [ref=e1539]:
+                    - paragraph [ref=e1540]: The following sample code is designed for PlatformIO, but it is also compatible with the nRF Connect SDK.
+                    - paragraph [ref=e1541]:
+                      - text: "Using XIAO nRF54L15 in PlatformIO If you want to use XIAO nRF54L15 in PlatformIO, please refer to this tutorial to configure it:"
+                      - link "XIAO nRF54L15 PlatformIO Configuration" [ref=e1542] [cursor=pointer]:
+                        - /url: https://wiki.seeedstudio.com/xiao_nrf54l15_with_platform_io/
+                      - text: .
+                - link "Download the Library" [ref=e1544] [cursor=pointer]:
+                  - /url: https://github.com/Seeed-Studio/platform-seeedboards/tree/main/examples/zephyr-battery
+                  - strong [ref=e1545]:
+                    - generic [ref=e1546]: Download the Library
+                  - img [ref=e1547]
+                - heading "Add overlay and modify the conf fileDirect link to Add overlay and modify the conf file" [level=3] [ref=e1549]:
+                  - text: Add overlay and modify the conf file
+                  - link "Direct link to Add overlay and modify the conf file" [ref=e1550] [cursor=pointer]:
+                    - /url: "#add-overlay-and-modify-the-conf-file"
+                    - text: "#"
+                - paragraph [ref=e1551]: If you want to use this battery routine in the nRF Connect SDK, you need to add app.overlay and modify the prj.conf file.
+                - list [ref=e1552]:
+                  - listitem [ref=e1553]:
+                    - paragraph [ref=e1554]:
+                      - text: Create a new file named
+                      - code [ref=e1555]: app.overlay
+                      - text: under the project directory. Then paste the following code into it, and finally press Ctrl + S to save.
+                    - list [ref=e1556]:
+                      - listitem [ref=e1557]: The overlay file extends the hardware description layer and customizes the physical hardware connections through the device tree. It does not modify the code logic, but rather declares the actual hardware details to ensure that the driver can correctly initialize the physical device.
+                - group [ref=e1558]:
+                  - generic "app.overlay code" [ref=e1559] [cursor=pointer]
+                - img [ref=e1561]
+                - list [ref=e1562]:
+                  - listitem [ref=e1563]:
+                    - paragraph [ref=e1564]: Add the following content under the prj.conf file
+                    - list [ref=e1565]:
+                      - listitem [ref=e1566]: prj.conf is the core configuration file of the Zephyr project. It is managed by the Kconfig system for the selection of software functions during compilation. It determines which drivers (such as ADC, display, Bluetooth), middleware (such as LVGL), and system services (such as logging, memory management) are included in the firmware, and sets their behavior parameters (such as log level, heap size),finally press Ctrl + S to save.
+                - group [ref=e1567]:
+                  - generic "prj.conf code" [ref=e1568] [cursor=pointer]
+                - img [ref=e1570]
+                - heading "Core CodeDirect link to Core Code" [level=3] [ref=e1571]:
+                  - text: Core Code
+                  - link "Direct link to Core Code" [ref=e1572] [cursor=pointer]:
+                    - /url: "#core-code"
+                    - text: "#"
+                - generic [ref=e1574]:
+                  - code [ref=e1576]:
+                    - generic [ref=e1577]: "#include <inttypes.h>"
+                    - generic [ref=e1578]: "#include <stddef.h>"
+                    - generic [ref=e1579]: "#include <stdint.h>"
+                    - generic [ref=e1580]: "#include <zephyr/device.h>"
+                    - generic [ref=e1581]: "#include <zephyr/devicetree.h>"
+                    - generic [ref=e1582]: "#include <zephyr/drivers/regulator.h>"
+                    - generic [ref=e1583]: "#include <zephyr/drivers/adc.h>"
+                    - generic [ref=e1584]: "#include <zephyr/kernel.h>"
+                    - generic [ref=e1585]: "#if !DT_NODE_EXISTS(DT_PATH(zephyr_user)) || \\"
+                    - generic [ref=e1586]: "!DT_NODE_HAS_PROP(DT_PATH(zephyr_user), io_channels)"
+                    - generic [ref=e1587]: "#error \"No suitable devicetree overlay specified\""
+                    - generic [ref=e1588]: "#endif"
+                    - generic [ref=e1589]: "#define DT_SPEC_AND_COMMA(node_id, prop, idx) \\"
+                    - generic [ref=e1590]: ADC_DT_SPEC_GET_BY_IDX(node_id, idx),
+                    - generic [ref=e1591]: /* Data of ADC io-channels specified in devicetree. */
+                    - generic [ref=e1592]: "static const struct adc_dt_spec adc_channels[] = {"
+                    - generic [ref=e1593]: DT_FOREACH_PROP_ELEM(DT_PATH(zephyr_user), io_channels,
+                    - generic [ref=e1594]: "DT_SPEC_AND_COMMA)};"
+                    - generic [ref=e1595]: static const struct device *const vbat_reg = DEVICE_DT_GET(DT_NODELABEL(vbat_pwr));
+                    - generic [ref=e1596]: int main(void)
+                    - generic [ref=e1597]: "{"
+                    - generic [ref=e1598]: int err;
+                    - generic [ref=e1599]: uint16_t buf;
+                    - generic [ref=e1600]: int32_t val_mv;
+                    - generic [ref=e1601]: "struct adc_sequence sequence = {"
+                    - generic [ref=e1602]: .buffer = &buf,
+                    - generic [ref=e1603]: /* buffer size in bytes, not number of samples */
+                    - generic [ref=e1604]: .buffer_size = sizeof(buf),
+                    - generic [ref=e1605]: "};"
+                    - generic [ref=e1606]: regulator_enable(vbat_reg);
+                    - generic [ref=e1607]: k_sleep(K_MSEC(100));
+                    - generic [ref=e1608]: /* Configure channels individually prior to sampling. */
+                    - generic [ref=e1609]: if (!adc_is_ready_dt(&adc_channels[7]))
+                    - generic [ref=e1610]: "{"
+                    - generic [ref=e1611]: printf("ADC controller device %s not ready\n", adc_channels[7].dev->name);
+                    - generic [ref=e1612]: return 0;
+                    - generic [ref=e1613]: "}"
+                    - generic [ref=e1614]: err = adc_channel_setup_dt(&adc_channels[7]);
+                    - generic [ref=e1615]: if (err < 0)
+                    - generic [ref=e1616]: "{"
+                    - generic [ref=e1617]: "printf(\"Could not setup channel #7 (%d)\\n\", err);"
+                    - generic [ref=e1618]: return 0;
+                    - generic [ref=e1619]: "}"
+                    - generic [ref=e1620]: (void)adc_sequence_init_dt(&adc_channels[7], &sequence);
+                    - generic [ref=e1621]: err = adc_read_dt(&adc_channels[7], &sequence);
+                    - generic [ref=e1622]: if (err < 0)
+                    - generic [ref=e1623]: "{"
+                    - generic [ref=e1624]: printf("Could not read (%d)\n", err);
+                    - generic [ref=e1625]: return 0;
+                    - generic [ref=e1626]: "}"
+                    - generic [ref=e1627]: /*
+                    - generic [ref=e1628]: "* If using differential mode, the 16 bit value"
+                    - generic [ref=e1629]: "* in the ADC sample buffer should be a signed 2's"
+                    - generic [ref=e1630]: "* complement value."
+                    - generic [ref=e1631]: "*/"
+                    - generic [ref=e1632]: if (adc_channels[7].channel_cfg.differential)
+                    - generic [ref=e1633]: "{"
+                    - generic [ref=e1634]: val_mv = (int32_t)((int16_t)buf);
+                    - generic [ref=e1635]: "}"
+                    - generic [ref=e1636]: else
+                    - generic [ref=e1637]: "{"
+                    - generic [ref=e1638]: val_mv = (int32_t)buf;
+                    - generic [ref=e1639]: "}"
+                    - generic [ref=e1640]: err = adc_raw_to_millivolts_dt(&adc_channels[7],
+                    - generic [ref=e1641]: "&val_mv);"
+                    - generic [ref=e1642]: /* conversion to mV may not be supported, skip if not */
+                    - generic [ref=e1643]: if (err < 0)
+                    - generic [ref=e1644]: "{"
+                    - generic [ref=e1645]: printf(" value in mV not available\n");
+                    - generic [ref=e1646]: "}"
+                    - generic [ref=e1647]: else
+                    - generic [ref=e1648]: "{"
+                    - generic [ref=e1649]: printf("bat vol = %" PRId32 " mV\n", val_mv * 2);
+                    - generic [ref=e1650]: "}"
+                    - generic [ref=e1651]: regulator_disable(vbat_reg);
+                    - generic [ref=e1652]: return 0;
+                    - generic [ref=e1653]: "}"
+                  - generic [ref=e1654]:
+                    - button "Toggle word wrap" [ref=e1655] [cursor=pointer]:
+                      - img [ref=e1656]
+                    - button "Copy code to clipboard" [ref=e1658] [cursor=pointer]:
+                      - generic [ref=e1659]:
+                        - img [ref=e1660]
+                        - img [ref=e1662]
+                - heading "ResourcesDirect link to Resources" [level=2] [ref=e1664]:
+                  - text: Resources
+                  - link "Direct link to Resources" [ref=e1665] [cursor=pointer]:
+                    - /url: "#resources"
+                    - text: "#"
+                - heading "Seeed Studio XIAO nRF54L15Direct link to Seeed Studio XIAO nRF54L15" [level=3] [ref=e1666]:
+                  - text: Seeed Studio XIAO nRF54L15
+                  - link "Direct link to Seeed Studio XIAO nRF54L15" [ref=e1667] [cursor=pointer]:
+                    - /url: "#seeed-studio-xiao-nrf54l15"
+                    - text: "#"
+                - paragraph [ref=e1668]:
+                  - strong [ref=e1669]: Hardware Design
+                - list [ref=e1670]:
+                  - listitem [ref=e1671]:
+                    - strong [ref=e1672]: 📄[Datasheet]
+                    - link "Nordic nRF54L15 Datasheet" [ref=e1673] [cursor=pointer]:
+                      - /url: https://files.seeedstudio.com/wiki/XIAO_nRF54L15/Getting_Start/Nordic_nRF54L15_Datasheet_v1.0.pdf
+                  - listitem [ref=e1674]:
+                    - strong [ref=e1675]: 📄[Schematic]
+                    - link "XIAO nRF54L15 Schematic" [ref=e1676] [cursor=pointer]:
+                      - /url: https://files.seeedstudio.com/wiki/XIAO_nRF54L15/Getting_Start/nRF54L15_Schematic.pdf
+                  - listitem [ref=e1677]:
+                    - strong [ref=e1678]: 🗃️[PCB Design Files]
+                    - link "XIAO nRF54L15 KiCad Project" [ref=e1679] [cursor=pointer]:
+                      - /url: https://files.seeedstudio.com/wiki/XIAO_nRF54L15/Getting_Start/nRF54L15_KICAD.zip
+                  - listitem [ref=e1680]:
+                    - strong [ref=e1681]: 🗃️[PCB Design Libraries]
+                    - list [ref=e1682]:
+                      - listitem [ref=e1683]:
+                        - link "XIAO Series KiCad Footprints" [ref=e1684] [cursor=pointer]:
+                          - /url: https://files.seeedstudio.com/wiki/XIAO-KiCad-Library/XIAO_Series_Footprints.zip
+                      - listitem [ref=e1685]:
+                        - link "XIAO Series KiCad SCH Symbols" [ref=e1686] [cursor=pointer]:
+                          - /url: https://files.seeedstudio.com/wiki/XIAO-KiCad-Library/XIAO_Series_SCH_Symbols.zip
+                  - listitem [ref=e1687]:
+                    - strong [ref=e1688]: 📄[Pinout Diagram]
+                    - link "XIAO nRF54L15 Pinout Sheet" [ref=e1689] [cursor=pointer]:
+                      - /url: https://files.seeedstudio.com/wiki/XIAO_nRF54L15/Getting_Start/XIAO_nRF54L15datasheet.xlsx
+                - paragraph [ref=e1690]:
+                  - strong [ref=e1691]: Mechanical
+                - list [ref=e1692]:
+                  - listitem [ref=e1693]:
+                    - strong [ref=e1694]: 🗃️[2D Dimensions]
+                    - link "XIAO nRF54L15 Dimension in DXF" [ref=e1695] [cursor=pointer]:
+                      - /url: https://files.seeedstudio.com/wiki/XIAO_nRF54L15/Getting_Start/nRF54L15(Sense)_DXF.zip
+                - heading "Seeed Studio XIAO nRF54L15 SenseDirect link to Seeed Studio XIAO nRF54L15 Sense" [level=3] [ref=e1696]:
+                  - text: Seeed Studio XIAO nRF54L15 Sense
+                  - link "Direct link to Seeed Studio XIAO nRF54L15 Sense" [ref=e1697] [cursor=pointer]:
+                    - /url: "#seeed-studio-xiao-nrf54l15-sense"
+                    - text: "#"
+                - paragraph [ref=e1698]:
+                  - strong [ref=e1699]: Hardware Design
+                - list [ref=e1700]:
+                  - listitem [ref=e1701]:
+                    - strong [ref=e1702]: 📄[Datasheet]
+                    - link "Nordic nRF54L15 Datasheet" [ref=e1703] [cursor=pointer]:
+                      - /url: https://files.seeedstudio.com/wiki/XIAO_nRF54L15/Getting_Start/Nordic_nRF54L15_Datasheet_v1.0.pdf
+                  - listitem [ref=e1704]:
+                    - strong [ref=e1705]: 📄[Schematic]
+                    - link "XIAO nRF54L15 Sense Schematic" [ref=e1706] [cursor=pointer]:
+                      - /url: https://files.seeedstudio.com/wiki/XIAO_nRF54L15/Getting_Start/nRF54L15_Sense_Schematic.pdf
+                  - listitem [ref=e1707]:
+                    - strong [ref=e1708]: 🗃️[PCB Design Files]
+                    - list [ref=e1709]:
+                      - listitem [ref=e1710]:
+                        - link "XIAO nRF54L15 Sense KiCad Project" [ref=e1711] [cursor=pointer]:
+                          - /url: https://files.seeedstudio.com/wiki/XIAO_nRF54L15/Getting_Start/nRF54L15_Sense_KICAD.zip
+                      - listitem [ref=e1712]:
+                        - link "XIAO nRF54L15 Sense Flux.ai Project" [ref=e1713] [cursor=pointer]:
+                          - /url: https://www.flux.ai/seeedstudio/seeed-studio-xiao-nrf54l15-sense
+                  - listitem [ref=e1714]:
+                    - strong [ref=e1715]: 🗃️[PCB Design Libraries]
+                    - list [ref=e1716]:
+                      - listitem [ref=e1717]:
+                        - link "XIAO Series KiCad Footprints" [ref=e1718] [cursor=pointer]:
+                          - /url: https://files.seeedstudio.com/wiki/XIAO-KiCad-Library/XIAO_Series_Footprints.zip
+                      - listitem [ref=e1719]:
+                        - link "XIAO Series KiCad SCH Symbols" [ref=e1720] [cursor=pointer]:
+                          - /url: https://files.seeedstudio.com/wiki/XIAO-KiCad-Library/XIAO_Series_SCH_Symbols.zip
+                  - listitem [ref=e1721]:
+                    - strong [ref=e1722]: 🗃️[Pinout Diagram]
+                    - link "XIAO nRF54L15 Sense Pinout Sheet" [ref=e1723] [cursor=pointer]:
+                      - /url: https://files.seeedstudio.com/wiki/XIAO_nRF54L15/Getting_Start/XIAO_nRF54L15datasheet.xlsx
+                - paragraph [ref=e1724]:
+                  - strong [ref=e1725]: Mechanical
+                - list [ref=e1726]:
+                  - listitem [ref=e1727]:
+                    - strong [ref=e1728]: 📄[2D Dimensions]
+                    - link "XIAO nRF54L15 Sense Dimension in DXF" [ref=e1729] [cursor=pointer]:
+                      - /url: https://files.seeedstudio.com/wiki/XIAO_nRF54L15/Getting_Start/nRF54L15(Sense)_DXF.zip
+                  - listitem [ref=e1730]:
+                    - strong [ref=e1731]: 🗃️[3D Dimensions]
+                    - link "XIAO nRF54L15 Sense 3D imensions" [ref=e1732] [cursor=pointer]:
+                      - /url: https://grabcad.com/library/seeed-studio-xiao-nrf54l15-sense-1
+                - heading "Tech Support & Product DiscussionDirect link to Tech Support & Product Discussion" [level=2] [ref=e1733]:
+                  - text: Tech Support & Product Discussion
+                  - link "Direct link to Tech Support & Product Discussion" [ref=e1734] [cursor=pointer]:
+                    - /url: "#tech-support--product-discussion"
+                    - text: "#"
+                - paragraph [ref=e1735]: Thank you for choosing our products! We are here to provide you with different support to ensure that your experience with our products is as smooth as possible. We offer several communication channels to cater to different preferences and needs.
+                - generic [ref=e1736]:
+                  - link [ref=e1737] [cursor=pointer]:
+                    - /url: https://forum.seeedstudio.com/
+                  - link [ref=e1738] [cursor=pointer]:
+                    - /url: https://www.seeedstudio.com/contacts
+                - generic [ref=e1739]:
+                  - link [ref=e1740] [cursor=pointer]:
+                    - /url: https://discord.gg/eWkprNDMU7
+                  - link [ref=e1741] [cursor=pointer]:
+                    - /url: https://github.com/Seeed-Studio/wiki-documents/discussions/69
+              - generic [ref=e1743]:
+                - link "Edit this page" [ref=e1745] [cursor=pointer]:
+                  - /url: https://github.com/Seeed-Studio/wiki-documents/blob/docusaurus-version/sites/en/docs/docs/Sensor/SeeedStudio_XIAO/SeeedStudio_XIAO_nRF54L15-Sense/XIAO_nRF54L15-Sense_Getting_Started.md
+                  - img [ref=e1746]
+                  - text: Edit this page
+                - generic [ref=e1750]:
+                  - text: Last updated on
+                  - time [ref=e1752]: Jul 2, 2025
+                  - text: by Jason
+            - navigation "Docs pages" [ref=e1753]:
+              - link "Previous « BTHome Protocol with XIAO nRF52840 Sense(CircuitPython)" [ref=e1754] [cursor=pointer]:
+                - /url: /XIAO_BLE_HA/
+                - generic [ref=e1755]: Previous
+                - generic [ref=e1756]: « BTHome Protocol with XIAO nRF52840 Sense(CircuitPython)
+              - link "Next Pin Multiplexing with Seeed Studio XIAO nRF54L15 Sense »" [ref=e1757] [cursor=pointer]:
+                - /url: /xiao_nrf54l15_sense_pin_multiplexing/
+                - generic [ref=e1758]: Next
+                - generic [ref=e1759]: Pin Multiplexing with Seeed Studio XIAO nRF54L15 Sense »
+          - iframe [ref=e1762]:
+            
+        - list [ref=e1765]:
+          - listitem [ref=e1766]:
+            - link "Introduction" [ref=e1767] [cursor=pointer]:
+              - /url: "#introduction"
+            - list [ref=e1768]:
+              - listitem [ref=e1769]:
+                - link "Specification" [ref=e1770] [cursor=pointer]:
+                  - /url: "#specification"
+              - listitem [ref=e1771]:
+                - link "Features" [ref=e1772] [cursor=pointer]:
+                  - /url: "#features"
+          - listitem [ref=e1773]:
+            - link "Hardware Overview" [ref=e1774] [cursor=pointer]:
+              - /url: "#hardware-overview"
+          - listitem [ref=e1775]:
+            - link "Pin Map" [ref=e1776] [cursor=pointer]:
+              - /url: "#pin-map"
+              - strong [ref=e1777]: Pin Map
+          - listitem [ref=e1778]:
+            - link "nRFConnect SDK Usage" [ref=e1779] [cursor=pointer]:
+              - /url: "#nrfconnect-sdk-usage"
+            - list [ref=e1780]:
+              - listitem [ref=e1781]:
+                - link "Using nRF Connect SDK on VSCode" [ref=e1782] [cursor=pointer]:
+                  - /url: "#using-nrf-connect-sdk-on-vscode"
+                - list [ref=e1783]:
+                  - listitem [ref=e1784]:
+                    - link "VScode configures the board and builds the burn-in file" [ref=e1785] [cursor=pointer]:
+                      - /url: "#vscode-configures-the-board-and-builds-the-burn-in-file"
+                  - listitem [ref=e1786]:
+                    - link "Installing the toolchain" [ref=e1787] [cursor=pointer]:
+                      - /url: "#installing-the-toolchain"
+                  - listitem [ref=e1788]:
+                    - link "Installing the nRF Connect SDK" [ref=e1789] [cursor=pointer]:
+                      - /url: "#installing-the-nrf-connect-sdk"
+                  - listitem [ref=e1790]:
+                    - link "Creating User Programs" [ref=e1791] [cursor=pointer]:
+                      - /url: "#creating-user-programs"
+                  - listitem [ref=e1792]:
+                    - link "Add XIAO nRF54L15 Board" [ref=e1793] [cursor=pointer]:
+                      - /url: "#add-xiao-nrf54l15-board"
+                  - listitem [ref=e1794]:
+                    - link "Download Burn-in Plug-in" [ref=e1795] [cursor=pointer]:
+                      - /url: "#download-burn-in-plug-in"
+                  - listitem [ref=e1796]:
+                    - link "West Flash burn-in program" [ref=e1797] [cursor=pointer]:
+                      - /url: "#west-flash-burn-in-program"
+                  - listitem [ref=e1798]:
+                    - link "Blinky program explation" [ref=e1799] [cursor=pointer]:
+                      - /url: "#blinky-program-explation"
+                  - listitem [ref=e1800]:
+                    - link "Deep Dive into nRF Connect SDK Internals" [ref=e1801] [cursor=pointer]:
+                      - /url: "#deep-dive-into-nrf-connect-sdk-internals"
+          - listitem [ref=e1802]:
+            - link "Restore factory settings" [ref=e1803] [cursor=pointer]:
+              - /url: "#restore-factory-settings"
+            - list [ref=e1804]:
+              - listitem [ref=e1805]:
+                - link "Window" [ref=e1806] [cursor=pointer]:
+                  - /url: "#window"
+              - listitem [ref=e1807]:
+                - link "Linux-MacOS" [ref=e1808] [cursor=pointer]:
+                  - /url: "#linux-macos"
+          - listitem [ref=e1809]:
+            - link "Wireless Switching Mode" [ref=e1810] [cursor=pointer]:
+              - /url: "#wireless-switching-mode"
+          - listitem [ref=e1811]:
+            - link "Acess The J-Link Pins For Burn a Program" [ref=e1812] [cursor=pointer]:
+              - /url: "#acess-the-j-link-pins-for-burn-a-program"
+          - listitem [ref=e1813]:
+            - link "Battery Powered Board" [ref=e1814] [cursor=pointer]:
+              - /url: "#battery-powered-board"
+            - list [ref=e1815]:
+              - listitem [ref=e1816]:
+                - link "Battery Voltage Detection" [ref=e1817] [cursor=pointer]:
+                  - /url: "#battery-voltage-detection"
+              - listitem [ref=e1818]:
+                - link "Add overlay and modify the conf file" [ref=e1819] [cursor=pointer]:
+                  - /url: "#add-overlay-and-modify-the-conf-file"
+              - listitem [ref=e1820]:
+                - link "Core Code" [ref=e1821] [cursor=pointer]:
+                  - /url: "#core-code"
+          - listitem [ref=e1822]:
+            - link "Resources" [ref=e1823] [cursor=pointer]:
+              - /url: "#resources"
+            - list [ref=e1824]:
+              - listitem [ref=e1825]:
+                - link "Seeed Studio XIAO nRF54L15" [ref=e1826] [cursor=pointer]:
+                  - /url: "#seeed-studio-xiao-nrf54l15"
+              - listitem [ref=e1827]:
+                - link "Seeed Studio XIAO nRF54L15 Sense" [ref=e1828] [cursor=pointer]:
+                  - /url: "#seeed-studio-xiao-nrf54l15-sense"
+          - listitem [ref=e1829]:
+            - link "Tech Support & Product Discussion" [ref=e1830] [cursor=pointer]:
+              - /url: "#tech-support--product-discussion"
+  - contentinfo [ref=e1831]:
+    - generic [ref=e1832]:
+      - generic [ref=e1833]:
+        - generic [ref=e1834]:
+          - generic [ref=e1835]: Navigation
+          - list [ref=e1836]:
+            - listitem [ref=e1837]:
+              - link "Getting Started" [ref=e1838] [cursor=pointer]:
+                - /url: /Getting_Started/
+            - listitem [ref=e1839]:
+              - link "Sensor and Sensing" [ref=e1840] [cursor=pointer]:
+                - /url: /Sensor_Network/
+            - listitem [ref=e1841]:
+              - link "Network" [ref=e1842] [cursor=pointer]:
+                - /url: /Network/
+            - listitem [ref=e1843]:
+              - link "Edge Computing" [ref=e1844] [cursor=pointer]:
+                - /url: /Edge_Computing/
+            - listitem [ref=e1845]:
+              - link "Cloud" [ref=e1846] [cursor=pointer]:
+                - /url: /Cloud/
+            - listitem [ref=e1847]:
+              - link "Solutions" [ref=e1848] [cursor=pointer]:
+                - /url: https://solution.seeed.cc/
+        - generic [ref=e1849]:
+          - generic [ref=e1850]: Ecosystem
+          - list [ref=e1851]:
+            - listitem [ref=e1852]:
+              - link "Discord" [ref=e1853] [cursor=pointer]:
+                - /url: https://discord.com/invite/QqMgVwHT3X
+            - listitem [ref=e1854]:
+              - link "Project Hub" [ref=e1855] [cursor=pointer]:
+                - /url: https://project.seeedstudio.com/
+            - listitem [ref=e1856]:
+              - link "Partners" [ref=e1857] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/ecosystem/
+            - listitem [ref=e1858]:
+              - link "Distributors" [ref=e1859] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/distributors.html
+        - generic [ref=e1860]:
+          - generic [ref=e1861]: Quick Guide
+          - list [ref=e1862]:
+            - listitem [ref=e1863]:
+              - link "Bazaar" [ref=e1864] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/
+            - listitem [ref=e1865]:
+              - link "How to get help" [ref=e1866] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/get_help/HowToGetHelp
+            - listitem [ref=e1867]:
+              - link "FAQs" [ref=e1868] [cursor=pointer]:
+                - /url: https://support.seeedstudio.com/knowledgebase
+            - listitem [ref=e1869]:
+              - link "Forum" [ref=e1870] [cursor=pointer]:
+                - /url: https://forum.seeedstudio.com/
+            - listitem [ref=e1871]:
+              - link "Technical Support" [ref=e1872] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/get_help/TechnicalSupport
+        - generic [ref=e1873]:
+          - generic [ref=e1874]: Company
+          - list [ref=e1875]:
+            - listitem [ref=e1876]:
+              - link "About Seeed" [ref=e1877] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/about-us/
+            - listitem [ref=e1878]:
+              - link "Join us" [ref=e1879] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/join-us/
+            - listitem [ref=e1880]:
+              - link "Contact Us" [ref=e1881] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/contacts
+            - listitem [ref=e1882]:
+              - link "Press" [ref=e1883] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/blog/2020/04/22/seeed-in-the-news/
+      - generic [ref=e1885]: Copyright © 2026 Seeed Studio, Inc. Built with Docusaurus.

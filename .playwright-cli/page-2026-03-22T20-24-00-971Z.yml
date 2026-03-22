@@ -1,0 +1,257 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#content-area"
+    - generic [ref=e5]:
+      - generic [ref=e11]:
+        - generic [ref=e12]:
+          - link "atopile home page light logo" [ref=e13] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e14]: atopile home page
+            - img "light logo" [ref=e15]
+          - button "0.14.x" [ref=e17] [cursor=pointer]:
+            - generic [ref=e18]: 0.14.x
+            - img [ref=e19]
+        - generic [ref=e21]:
+          - generic [ref=e22]:
+            - link "atopile" [ref=e25] [cursor=pointer]:
+              - /url: /atopile-0.14.x/introduction
+            - navigation:
+              - list
+          - generic [ref=e26]:
+            - button "Open search" [ref=e27] [cursor=pointer]:
+              - generic [ref=e28]: Search...
+              - img [ref=e29]
+            - button [ref=e30] [cursor=pointer]:
+              - img [ref=e31]
+            - button "Toggle dark mode" [ref=e35] [cursor=pointer]:
+              - img [ref=e36]
+      - generic [ref=e43]:
+        - generic [ref=e48]:
+          - list [ref=e49]:
+            - listitem [ref=e50]:
+              - link "GitHub" [ref=e51] [cursor=pointer]:
+                - /url: https://github.com/atopile/atopile
+                - img [ref=e52]
+                - generic [ref=e53]: GitHub
+            - listitem [ref=e54]:
+              - link "Packages" [ref=e55] [cursor=pointer]:
+                - /url: https://packages.atopile.io
+                - img [ref=e56]
+                - generic [ref=e57]: Packages
+            - listitem [ref=e58]:
+              - link "Support" [ref=e59] [cursor=pointer]:
+                - /url: https://docs.atopile.io/support
+                - img [ref=e60]
+                - generic [ref=e61]: Support
+            - listitem [ref=e62]:
+              - link "Community" [ref=e63] [cursor=pointer]:
+                - /url: https://discord.gg/CRe5xaDBr3
+                - img [ref=e64]
+                - generic [ref=e65]: Community
+            - listitem [ref=e66]:
+              - link "Blog" [ref=e67] [cursor=pointer]:
+                - /url: https://blog.atopile.io
+                - img [ref=e68]
+                - generic [ref=e69]: Blog
+          - generic [ref=e70]:
+            - heading "Introduction" [level=5] [ref=e72]
+            - list [ref=e73]:
+              - listitem [ref=e74]:
+                - link "Introduction" [ref=e75] [cursor=pointer]:
+                  - /url: /atopile-0.14.x/introduction
+                  - img [ref=e77]
+                  - img [ref=e80]
+                  - generic [ref=e82]: Introduction
+              - listitem [ref=e83]:
+                - link "Change Log" [ref=e84] [cursor=pointer]:
+                  - /url: /atopile-0.14.x/changelog
+                  - img [ref=e86]
+                  - generic [ref=e88]: Change Log
+          - generic [ref=e89]:
+            - heading "Getting Started Guide" [level=5] [ref=e91]
+            - list [ref=e92]:
+              - listitem [ref=e93]:
+                - link "1. Install" [ref=e94] [cursor=pointer]:
+                  - /url: /atopile-0.14.x/quickstart/1-installation
+                  - img [ref=e96]
+                  - generic [ref=e98]: 1. Install
+              - listitem [ref=e99]:
+                - link "2. Hello, World!" [ref=e100] [cursor=pointer]:
+                  - /url: /atopile-0.14.x/quickstart/2-create-a-project
+                  - img [ref=e102]
+                  - generic [ref=e104]: 2. Hello, World!
+              - listitem [ref=e105]:
+                - link "3. Adding Parts" [ref=e106] [cursor=pointer]:
+                  - /url: /atopile-0.14.x/quickstart/3-adding-parts
+                  - img [ref=e108]
+                  - generic [ref=e110]: 3. Adding Parts
+              - listitem [ref=e111]:
+                - link "4. Manufacturing Export" [ref=e112] [cursor=pointer]:
+                  - /url: /atopile-0.14.x/quickstart/4-manufacturing-files
+                  - img [ref=e114]
+                  - generic [ref=e116]: 4. Manufacturing Export
+              - listitem [ref=e117]:
+                - link "5. Examples" [ref=e118] [cursor=pointer]:
+                  - /url: /atopile-0.14.x/quickstart/5-examples
+                  - img [ref=e120]
+                  - generic [ref=e122]: 5. Examples
+          - generic [ref=e123]:
+            - heading "Essentials" [level=5] [ref=e125]
+            - list [ref=e126]:
+              - listitem [ref=e127]:
+                - 'link "1. `ato` Language" [ref=e128] [cursor=pointer]':
+                  - /url: /atopile-0.14.x/essentials/1-the-ato-language
+                  - img [ref=e130]
+                  - generic [ref=e132]: "1. `ato` Language"
+              - listitem [ref=e133]:
+                - 'link "2. `ato` Compiler" [ref=e134] [cursor=pointer]':
+                  - /url: /atopile-0.14.x/essentials/2-the-ato-compiler
+                  - img [ref=e136]
+                  - generic [ref=e138]: "2. `ato` Compiler"
+              - listitem [ref=e139]:
+                - link "3. Add a component" [ref=e140] [cursor=pointer]:
+                  - /url: /atopile-0.14.x/essentials/3-add-component
+                  - img [ref=e142]
+                  - generic [ref=e144]: 3. Add a component
+              - listitem [ref=e145]:
+                - link "4. Packages" [ref=e146] [cursor=pointer]:
+                  - /url: /atopile-0.14.x/essentials/4-packages
+                  - img [ref=e148]
+                  - generic [ref=e150]: 4. Packages
+              - listitem [ref=e151]:
+                - link "5. Project Structure" [ref=e152] [cursor=pointer]:
+                  - /url: /atopile-0.14.x/essentials/5-project-structure
+                  - img [ref=e154]
+                  - generic [ref=e156]: 5. Project Structure
+              - listitem [ref=e157]:
+                - link "6. Layout" [ref=e158] [cursor=pointer]:
+                  - /url: /atopile-0.14.x/essentials/6-layout
+                  - img [ref=e160]
+                  - generic [ref=e162]: 6. Layout
+              - listitem [ref=e163]:
+                - link "7. Saving Your Work" [ref=e164] [cursor=pointer]:
+                  - /url: /atopile-0.14.x/essentials/7-saving-your-work
+                  - img [ref=e166]
+                  - generic [ref=e168]: 7. Saving Your Work
+              - listitem [ref=e169]:
+                - link "8. Traits" [ref=e170] [cursor=pointer]:
+                  - /url: /atopile-0.14.x/essentials/8-traits
+                  - img [ref=e172]
+                  - generic [ref=e174]: 8. Traits
+          - generic [ref=e175]:
+            - heading "Guides" [level=5] [ref=e177]
+            - list [ref=e178]:
+              - listitem [ref=e179]:
+                - link "git" [ref=e180] [cursor=pointer]:
+                  - /url: /atopile-0.14.x/guides/git
+                  - img [ref=e182]
+                  - generic [ref=e184]: git
+              - listitem [ref=e185]:
+                - link "Publishing Packages" [ref=e186] [cursor=pointer]:
+                  - /url: /atopile-0.14.x/guides/publish
+                  - img [ref=e188]
+                  - generic [ref=e190]: Publishing Packages
+              - listitem [ref=e191]:
+                - link "faebryk" [ref=e192] [cursor=pointer]:
+                  - /url: /atopile-0.14.x/guides/faebryk
+                  - img [ref=e194]
+                  - generic [ref=e196]: faebryk
+              - listitem [ref=e197]:
+                - link "fabll (python)" [ref=e198] [cursor=pointer]:
+                  - /url: /atopile-0.14.x/guides/fabll
+                  - img [ref=e200]
+                  - generic [ref=e202]: fabll (python)
+              - listitem [ref=e203]:
+                - link "Development" [ref=e204] [cursor=pointer]:
+                  - /url: /atopile-0.14.x/guides/development
+                  - img [ref=e206]
+                  - generic [ref=e208]: Development
+          - generic [ref=e209]:
+            - heading "Library Reference" [level=5] [ref=e211]
+            - list [ref=e212]:
+              - listitem [ref=e213]:
+                - button "Toggle Components section" [ref=e214] [cursor=pointer]:
+                  - generic [ref=e215]: Components
+                  - img [ref=e216]
+              - listitem [ref=e218]:
+                - button "Toggle Interfaces section" [ref=e219] [cursor=pointer]:
+                  - generic [ref=e220]: Interfaces
+                  - img [ref=e221]
+              - listitem [ref=e223]:
+                - button "Toggle Traits section" [ref=e224] [cursor=pointer]:
+                  - generic [ref=e225]: Traits
+                  - img [ref=e226]
+        - generic [ref=e231]:
+          - banner [ref=e232]:
+            - generic [ref=e233]:
+              - generic [ref=e234]: Introduction
+              - heading "Introduction" [level=1] [ref=e236]
+            - paragraph [ref=e238]: Design circuit boards blazing fast - with code
+          - generic [ref=e239]:
+            - generic [ref=e240]: atopile brings the power of software development workflows to hardware design. By describing electronics with code, you can leverage modularity, version control, and deep validation.
+            - generic [ref=e241]: Capture design intelligence and constraints directly in your code, enabling auto-selection of components, embedded calculations checked on every build, and reliable, configurable modules.
+            - generic [ref=e242]: This allows for rapid iteration, easier collaboration, and robust designs validated through continuous integration.
+            - generic [ref=e243]:
+              - link [ref=e244] [cursor=pointer]:
+                - link [ref=e246]:
+                  - /url: ./quickstart/1-installation
+                  - img [ref=e248]
+                  - generic [ref=e249]:
+                    - heading [level=2] [ref=e250]: Quickstart
+                    - generic [ref=e252]: Get set up and running.
+              - link [ref=e253] [cursor=pointer]:
+                - link [ref=e255]:
+                  - /url: ./essentials/4-packages
+                  - img [ref=e257]
+                  - generic [ref=e258]:
+                    - heading [level=2] [ref=e259]: Make each project faster
+                    - generic [ref=e261]: Confidently reuse chunks of design between projects.
+              - link [ref=e262] [cursor=pointer]:
+                - link [ref=e264]:
+                  - /url: ./essentials/3-add-component
+                  - img [ref=e266]
+                  - generic [ref=e267]:
+                    - heading [level=2] [ref=e268]: Pick parts automatically
+                    - generic [ref=e270]: Tell us what you need and we’ll pick discretes for you!
+              - link [ref=e271] [cursor=pointer]:
+                - link [ref=e273]:
+                  - /url: ./essentials/2-the-ato-compiler
+                  - img [ref=e275]
+                  - generic [ref=e276]:
+                    - heading [level=2] [ref=e277]: Validate constantly
+                    - generic [ref=e279]: Recheck every calculation, tolerance and requirement on every build - all automatically.
+          - link "Change Log" [ref=e281] [cursor=pointer]:
+            - /url: /atopile-0.14.x/changelog
+            - generic [ref=e282]:
+              - generic [ref=e283]: Change Log
+              - img [ref=e284]
+          - generic [ref=e287]:
+            - textbox "Ask a question..." [ref=e288]
+            - generic: ⌘I
+            - button "Send message" [disabled] [ref=e289]:
+              - img [ref=e290]
+          - contentinfo [ref=e292]:
+            - generic [ref=e293]:
+              - link "youtube" [ref=e294] [cursor=pointer]:
+                - /url: https://www.youtube.com/@atopile_io
+                - generic [ref=e295]: youtube
+                - img [ref=e296]
+              - link "x" [ref=e297] [cursor=pointer]:
+                - /url: https://x.com/atopile_io
+                - generic [ref=e298]: x
+                - img [ref=e299]
+              - link "github" [ref=e300] [cursor=pointer]:
+                - /url: https://github.com/atopile
+                - generic [ref=e301]: github
+                - img [ref=e302]
+              - link "linkedin" [ref=e303] [cursor=pointer]:
+                - /url: https://linkedin.com/company/atopile
+                - generic [ref=e304]: linkedin
+                - img [ref=e305]
+            - link "Powered by This documentation is built and hosted on Mintlify, a developer documentation platform" [ref=e308] [cursor=pointer]:
+              - /url: https://www.mintlify.com?utm_campaign=poweredBy&utm_medium=referral&utm_source=atopile
+              - generic [ref=e309]: Powered by
+              - img [ref=e310]
+              - generic [ref=e319]: This documentation is built and hosted on Mintlify, a developer documentation platform
+  - alert [ref=e320]

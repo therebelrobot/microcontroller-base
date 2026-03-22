@@ -1,0 +1,960 @@
+- generic [ref=e2]:
+  - region "Skip to main content":
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#__docusaurus_skipToContent_fallback"
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - text: Collaborate with Seeed -
+      - link "Creator" [ref=e7] [cursor=pointer]:
+        - /url: https://www.seeedstudio.com/blog/affiliate-program/
+      - text: ","
+      - link "Ranger" [ref=e8] [cursor=pointer]:
+        - /url: https://www.seeedstudio.com/ranger-program/
+      - text: ", or"
+      - link "Contributor" [ref=e9] [cursor=pointer]:
+        - /url: https://wiki.seeedstudio.com/contributors/
+      - text: ", there is always a role ideal for you!"
+  - navigation "Main" [ref=e10]:
+    - generic [ref=e11]:
+      - generic [ref=e12]:
+        - link "Seeed Studio" [ref=e13] [cursor=pointer]:
+          - /url: /
+          - img "Seeed Studio" [ref=e15]
+        - button "Quick Links" [ref=e17] [cursor=pointer]
+        - button "Explore with Topics" [ref=e19] [cursor=pointer]
+        - button "FAQs" [ref=e21] [cursor=pointer]
+        - button "Get Involved" [ref=e23] [cursor=pointer]
+      - generic [ref=e24]:
+        - link "Bazaar 🛍️" [ref=e25] [cursor=pointer]:
+          - /url: https://www.seeedstudio.com/
+        - link "SenseCraft AI" [ref=e26] [cursor=pointer]:
+          - /url: https://sensecraft.seeed.cc/ai/#/home
+        - link [ref=e27] [cursor=pointer]:
+          - /url: https://sensecraft.seeed.cc/ai/#/home
+        - link "GitHub repository" [ref=e28] [cursor=pointer]:
+          - /url: https://github.com/Seeed-Studio/wiki-documents
+        - button "Switch between dark and light mode (currently dark mode)" [ref=e30] [cursor=pointer]:
+          - img [ref=e31]
+        - button "Search" [ref=e34] [cursor=pointer]:
+          - generic [ref=e35]:
+            - img [ref=e36]
+            - generic [ref=e38]: Search
+          - generic [ref=e39]:
+            - generic [ref=e40]: ⌘
+            - generic [ref=e41]: K
+  - generic [ref=e44]:
+    - complementary [ref=e45]:
+      - generic [ref=e47]:
+        - navigation "Docs sidebar" [ref=e48]:
+          - list [ref=e49]:
+            - listitem [ref=e50]:
+              - link "Getting Started" [ref=e51] [cursor=pointer]:
+                - /url: /Getting_Started/
+            - listitem [ref=e52]:
+              - link "Weekly Wiki" [ref=e53] [cursor=pointer]:
+                - /url: /weekly_wiki/
+            - listitem [ref=e54]:
+              - link "Sensing" [ref=e55] [cursor=pointer]:
+                - /url: /Sensor_Network/
+            - listitem [ref=e56]:
+              - generic [ref=e57]:
+                - link "Grove" [ref=e58] [cursor=pointer]:
+                  - /url: /Grove_System/
+                - button "Expand sidebar category 'Grove'" [ref=e59] [cursor=pointer]
+            - listitem [ref=e60]:
+              - generic [ref=e61]:
+                - link "SenseCAP" [ref=e62] [cursor=pointer]:
+                  - /url: /SenseCAP_introduction/
+                - button "Expand sidebar category 'SenseCAP'" [ref=e63] [cursor=pointer]
+            - listitem [ref=e64]:
+              - generic [ref=e65]:
+                - link "SenseCAP Indicator" [ref=e66] [cursor=pointer]:
+                  - /url: /Sensor/SenseCAP/SenseCAP_Indicator/Get_started_with_SenseCAP_Indicator/
+                - button "Expand sidebar category 'SenseCAP Indicator'" [ref=e67] [cursor=pointer]
+            - listitem [ref=e68]:
+              - generic [ref=e69]:
+                - link "SenseCAP Watcher" [ref=e70] [cursor=pointer]:
+                  - /url: /watcher/
+                - button "Expand sidebar category 'SenseCAP Watcher'" [ref=e71] [cursor=pointer]
+            - listitem [ref=e72]:
+              - generic [ref=e73]:
+                - link "mmWave Radar Sensor" [ref=e74] [cursor=pointer]:
+                  - /url: /mmwave_radar_Intro/
+                - button "Expand sidebar category 'mmWave Radar Sensor'" [ref=e75] [cursor=pointer]
+            - listitem [ref=e76]:
+              - generic [ref=e77]:
+                - link "XIAO" [ref=e78] [cursor=pointer]:
+                  - /url: /SeeedStudio_XIAO_Series_Introduction/
+                - button "Collapse sidebar category 'XIAO'" [expanded] [ref=e79] [cursor=pointer]
+              - list [ref=e80]:
+                - listitem [ref=e81]:
+                  - link "Exhibition for XIAO Series" [ref=e82] [cursor=pointer]:
+                    - /url: /xiao_topic_page/
+                - listitem [ref=e83]:
+                  - button "XIAO SAMD21" [ref=e85] [cursor=pointer]
+                - listitem [ref=e86]:
+                  - button "XIAO RA4M1" [ref=e88] [cursor=pointer]
+                - listitem [ref=e89]:
+                  - button "XIAO MG24" [ref=e91] [cursor=pointer]
+                - listitem [ref=e92]:
+                  - button "XIAO RP2040" [ref=e94] [cursor=pointer]
+                - listitem [ref=e95]:
+                  - button "XIAO RP2350" [ref=e97] [cursor=pointer]
+                - listitem [ref=e98]:
+                  - button "XIAO nRF52840 Series" [ref=e100] [cursor=pointer]
+                - listitem [ref=e101]:
+                  - button "XIAO nRF54L15 Series" [ref=e103] [cursor=pointer]
+                - listitem [ref=e104]:
+                  - button "XIAO ESP32C3" [ref=e106] [cursor=pointer]
+                - listitem [ref=e107]:
+                  - button "XIAO ESP32C5" [ref=e109] [cursor=pointer]
+                - listitem [ref=e110]:
+                  - button "XIAO ESP32C6" [ref=e112] [cursor=pointer]
+                - listitem [ref=e113]:
+                  - button "XIAO ESP32S3 Series" [ref=e115] [cursor=pointer]
+                - listitem [ref=e116]:
+                  - generic [ref=e117]:
+                    - link "XIAO Debug Mate" [ref=e118] [cursor=pointer]:
+                      - /url: /getting_started_with_xiao_debug_mate/
+                    - button "Expand sidebar category 'XIAO Debug Mate'" [ref=e119] [cursor=pointer]
+                - listitem [ref=e120]:
+                  - button "Expansion Boards for XIAO" [expanded] [ref=e122] [cursor=pointer]
+                  - list [ref=e123]:
+                    - listitem [ref=e124]:
+                      - button "ePaper Breakout Board for XIAO" [ref=e126] [cursor=pointer]
+                    - listitem [ref=e127]:
+                      - button "Round Display for XIAO" [ref=e129] [cursor=pointer]
+                    - listitem [ref=e130]:
+                      - button "GPS Module for XIAO" [expanded] [ref=e132] [cursor=pointer]
+                      - list [ref=e133]:
+                        - listitem [ref=e134]:
+                          - link "Quectel L76K" [ref=e135] [cursor=pointer]:
+                            - /url: /get_start_l76k_gnss/
+                        - listitem [ref=e136]:
+                          - link "L76K Path Tracking on Ubidots" [ref=e137] [cursor=pointer]:
+                            - /url: /L76K_Path_Tracking_on_Ubidots/
+                    - listitem [ref=e138]:
+                      - link "Expansion Board Base for XIAO" [ref=e139] [cursor=pointer]:
+                        - /url: /Seeeduino-XIAO-Expansion-Board/
+                    - listitem [ref=e140]:
+                      - link "XIAO CAN Bus Expansion Board" [ref=e141] [cursor=pointer]:
+                        - /url: /xiao-can-bus-expansion/
+                    - listitem [ref=e142]:
+                      - link "Grove Shield for XIAO with battery management chip" [ref=e143] [cursor=pointer]:
+                        - /url: /Grove-Shield-for-Seeeduino-XIAO-embedded-battery-management-chip/
+                    - listitem [ref=e144]:
+                      - link "Getting Started with 6x10 RGB MATRIX for XIAO" [ref=e145] [cursor=pointer]:
+                        - /url: /rgb_matrix_for_xiao/
+                    - listitem [ref=e146]:
+                      - link "IO Expander for XIAO" [ref=e147] [cursor=pointer]:
+                        - /url: /io_expander_for_xiao/
+                    - listitem [ref=e148]:
+                      - link "ePaper Driver Board" [ref=e149] [cursor=pointer]:
+                        - /url: /xiao_eink_expansion_board_v2/
+                    - listitem [ref=e150]:
+                      - link "RS485 Expansion Board for XIAO" [ref=e151] [cursor=pointer]:
+                        - /url: /XIAO-RS485-Expansion-Board/
+                    - listitem [ref=e152]:
+                      - link "Bus Servo Driver Board" [ref=e153] [cursor=pointer]:
+                        - /url: /bus_servo_driver_board/
+                    - listitem [ref=e154]:
+                      - link "LED Driver Board for XIAO" [ref=e155] [cursor=pointer]:
+                        - /url: /led_driver_board/
+                    - listitem [ref=e156]:
+                      - link "COB LED Driver Board for XIAO" [ref=e157] [cursor=pointer]:
+                        - /url: /getting_started_with_cob_led_dirver_board/
+                - listitem [ref=e158]:
+                  - button "XIAO + ESP-IDF + ESP-Matter" [ref=e160] [cursor=pointer]
+                - listitem [ref=e161]:
+                  - link "ESP-NOW on XIAO ESP32 Series" [ref=e162] [cursor=pointer]:
+                    - /url: /xiao_espnow/
+                - listitem [ref=e163]:
+                  - link "PCB Design for XIAO" [ref=e164] [cursor=pointer]:
+                    - /url: /PCB_Design_XIAO/
+                - listitem [ref=e165]:
+                  - button "Kit with Courses" [ref=e167] [cursor=pointer]
+                - listitem [ref=e168]:
+                  - link "FAQs for XIAO Series" [ref=e169] [cursor=pointer]:
+                    - /url: /XIAO_FAQ/
+            - listitem [ref=e170]:
+              - button "ePaper" [ref=e172] [cursor=pointer]
+            - listitem [ref=e173]:
+              - button "XIAO Gadgets" [ref=e175] [cursor=pointer]
+            - listitem [ref=e176]:
+              - generic [ref=e177]:
+                - link "Wio Terminal" [ref=e178] [cursor=pointer]:
+                  - /url: /Wio_Terminal_Intro/
+                - button "Expand sidebar category 'Wio Terminal'" [ref=e179] [cursor=pointer]
+            - listitem [ref=e180]:
+              - generic [ref=e181]:
+                - link "reSpeaker" [ref=e182] [cursor=pointer]:
+                  - /url: /respeaker/
+                - button "Expand sidebar category 'reSpeaker'" [ref=e183] [cursor=pointer]
+            - listitem [ref=e184]:
+              - button "Other Sensing Modules" [ref=e186] [cursor=pointer]
+            - listitem [ref=e187]:
+              - button "Other Microcontrollers" [ref=e189] [cursor=pointer]
+            - listitem [ref=e190]:
+              - link "Network" [ref=e191] [cursor=pointer]:
+                - /url: /Network/
+            - listitem [ref=e192]:
+              - generic [ref=e193]:
+                - link "Meshtastic Network" [ref=e194] [cursor=pointer]:
+                  - /url: /meshtastic_introduction/
+                - button "Expand sidebar category 'Meshtastic Network'" [ref=e195] [cursor=pointer]
+            - listitem [ref=e196]:
+              - button "LoRa Wio Series" [ref=e198] [cursor=pointer]
+            - listitem [ref=e199]:
+              - generic [ref=e200]:
+                - link "SenseCAP Gateway" [ref=e201] [cursor=pointer]:
+                  - /url: /Network/SenseCAP_Network/SenseCAP_Gateway_Intro/
+                - button "Expand sidebar category 'SenseCAP Gateway'" [ref=e202] [cursor=pointer]
+            - listitem [ref=e203]:
+              - generic [ref=e204]:
+                - link "SenseCAP K1100" [ref=e205] [cursor=pointer]:
+                  - /url: /SenseCAP_K1100_Intro/
+                - button "Expand sidebar category 'SenseCAP K1100'" [ref=e206] [cursor=pointer]
+            - listitem [ref=e207]:
+              - button "SenseCAP LoRaWAN Starter Kit" [ref=e209] [cursor=pointer]
+            - listitem [ref=e210]:
+              - button "Raspberry Pi Solutions" [ref=e212] [cursor=pointer]
+            - listitem [ref=e213]:
+              - generic [ref=e214]:
+                - link "Rockchip Solutions" [ref=e215] [cursor=pointer]:
+                  - /url: /Rockchip_network_solutions/
+                - button "Expand sidebar category 'Rockchip Solutions'" [ref=e216] [cursor=pointer]
+            - listitem [ref=e217]:
+              - button "Other Network Devices" [ref=e219] [cursor=pointer]
+            - listitem [ref=e220]:
+              - link "Edge Computing" [ref=e221] [cursor=pointer]:
+                - /url: /Edge_Computing/
+            - listitem [ref=e222]:
+              - button "RK Devices" [ref=e224] [cursor=pointer]
+            - listitem [ref=e225]:
+              - generic [ref=e226]:
+                - link "Raspberry Pi Devices" [ref=e227] [cursor=pointer]:
+                  - /url: /raspberry-pi-devices/
+                - button "Expand sidebar category 'Raspberry Pi Devices'" [ref=e228] [cursor=pointer]
+            - listitem [ref=e229]:
+              - generic [ref=e230]:
+                - link "NVIDIA® Jetson™" [ref=e231] [cursor=pointer]:
+                  - /url: /NVIDIA_Jetson/
+                - button "Expand sidebar category 'NVIDIA® Jetson™'" [ref=e232] [cursor=pointer]
+            - listitem [ref=e233]:
+              - button "ESP Devices" [ref=e235] [cursor=pointer]
+            - listitem [ref=e236]:
+              - generic [ref=e237]:
+                - link "BeagleBone®" [ref=e238] [cursor=pointer]:
+                  - /url: /BeagleBone/
+                - button "Expand sidebar category 'BeagleBone®'" [ref=e239] [cursor=pointer]
+            - listitem [ref=e240]:
+              - generic [ref=e241]:
+                - link "ODYSSEY" [ref=e242] [cursor=pointer]:
+                  - /url: /ODYSSEY_Intro/
+                - button "Expand sidebar category 'ODYSSEY'" [ref=e243] [cursor=pointer]
+            - listitem [ref=e244]:
+              - button "reCamera" [ref=e246] [cursor=pointer]
+            - listitem [ref=e247]:
+              - generic [ref=e248]:
+                - link "reTerminal E Series" [ref=e249] [cursor=pointer]:
+                  - /url: /reterminal_e10xx_main_page/
+                - button "Expand sidebar category 'reTerminal E Series'" [ref=e250] [cursor=pointer]
+            - listitem [ref=e251]:
+              - generic [ref=e252]:
+                - link "reTerminal D Series" [ref=e253] [cursor=pointer]:
+                  - /url: /reterminal_d10xx_main_page/
+                - button "Expand sidebar category 'reTerminal D Series'" [ref=e254] [cursor=pointer]
+            - listitem [ref=e255]:
+              - button "Other Edge Devices" [ref=e257] [cursor=pointer]
+            - listitem [ref=e258]:
+              - link "Robotics Page" [ref=e259] [cursor=pointer]:
+                - /url: /robotics_page/
+            - listitem [ref=e260]:
+              - button "Robot Kits" [ref=e262] [cursor=pointer]
+            - listitem [ref=e263]:
+              - button "Actuator" [ref=e265] [cursor=pointer]
+            - listitem [ref=e266]:
+              - button "Sensor" [ref=e268] [cursor=pointer]
+            - listitem [ref=e269]:
+              - button "Software" [ref=e271] [cursor=pointer]
+            - listitem [ref=e272]:
+              - link "SenseCraft & Cloud" [ref=e273] [cursor=pointer]:
+                - /url: /Cloud/
+            - listitem [ref=e274]:
+              - button "SenseCraft AI" [ref=e276] [cursor=pointer]
+            - listitem [ref=e277]:
+              - button "SenseCraft APP" [ref=e279] [cursor=pointer]
+            - listitem [ref=e280]:
+              - button "SenseCraft Data Platform" [ref=e282] [cursor=pointer]
+            - listitem [ref=e283]:
+              - generic [ref=e284]:
+                - link "SenseCraft HMI" [ref=e285] [cursor=pointer]:
+                  - /url: /sensecraft_hmi_overview/
+                - button "Expand sidebar category 'SenseCraft HMI'" [ref=e286] [cursor=pointer]
+            - listitem [ref=e287]:
+              - button "SenseCraft Blockchain" [ref=e289] [cursor=pointer]
+            - listitem [ref=e290]:
+              - link "Solutions" [ref=e291] [cursor=pointer]:
+                - /url: https://www.seeed.cc/category/solutions
+                - text: Solutions
+                - img [ref=e292]
+            - listitem [ref=e294]:
+              - generic [ref=e295]:
+                - link "AI Vision" [ref=e296] [cursor=pointer]:
+                  - /url: /ai-vision/
+                - button "Expand sidebar category 'AI Vision'" [ref=e297] [cursor=pointer]
+            - listitem [ref=e298]:
+              - generic [ref=e299]:
+                - link "AI Sound" [ref=e300] [cursor=pointer]:
+                  - /url: /ai-sound/
+                - button "Expand sidebar category 'AI Sound'" [ref=e301] [cursor=pointer]
+            - listitem [ref=e302]:
+              - button "AI Intelligent" [ref=e304] [cursor=pointer]
+            - listitem [ref=e305]:
+              - button "Device Integration & Control" [ref=e307] [cursor=pointer]
+            - listitem [ref=e308]:
+              - button "Environmental Monitoring" [ref=e310] [cursor=pointer]
+            - listitem [ref=e311]:
+              - generic [ref=e312]:
+                - link "Hazard Response" [ref=e313] [cursor=pointer]:
+                  - /url: /hazard-response/
+                - button "Expand sidebar category 'Hazard Response'" [ref=e314] [cursor=pointer]
+            - listitem [ref=e315]:
+              - button "Indoor-Outdoor Positioning" [ref=e317] [cursor=pointer]
+            - listitem [ref=e318]:
+              - link "Technology Topics" [ref=e319] [cursor=pointer]:
+                - /url: /topicintroduction/
+            - listitem [ref=e320]:
+              - generic [ref=e321]:
+                - link "Home Assistant" [ref=e322] [cursor=pointer]:
+                  - /url: /home_assistant_topic/
+                - button "Expand sidebar category 'Home Assistant'" [ref=e323] [cursor=pointer]
+            - listitem [ref=e324]:
+              - generic [ref=e325]:
+                - link "TinyML" [ref=e326] [cursor=pointer]:
+                  - /url: /tinyml_topic/
+                - button "Expand sidebar category 'TinyML'" [ref=e327] [cursor=pointer]
+            - listitem [ref=e328]:
+              - link "Open Source" [ref=e329] [cursor=pointer]:
+                - /url: /open_source_topic/
+            - listitem [ref=e330]:
+              - link "Edge AI" [ref=e331] [cursor=pointer]:
+                - /url: /edge_ai_topic/
+            - listitem [ref=e332]:
+              - link "Contributions" [ref=e333] [cursor=pointer]:
+                - /url: /Contributor/
+            - listitem [ref=e334]:
+              - generic [ref=e335]:
+                - link "Github Contributions Guide" [ref=e336] [cursor=pointer]:
+                  - /url: /Contribution-Guide/
+                - button "Expand sidebar category 'Github Contributions Guide'" [ref=e337] [cursor=pointer]
+            - listitem [ref=e338]:
+              - link "Scale up Your Creation with Seeed Studio Fusion" [ref=e339] [cursor=pointer]:
+                - /url: /Scale-up-Your-Creation-with-Fusion/
+            - listitem [ref=e340]:
+              - link "Popular Platforms" [ref=e341] [cursor=pointer]:
+                - /url: /popularplatforms/
+            - listitem [ref=e342]:
+              - generic [ref=e343]:
+                - link "Arduino" [ref=e344] [cursor=pointer]:
+                  - /url: /Arduino/
+                - button "Expand sidebar category 'Arduino'" [ref=e345] [cursor=pointer]
+            - listitem [ref=e346]:
+              - generic [ref=e347]:
+                - link "Raspberry Pi" [ref=e348] [cursor=pointer]:
+                  - /url: /Raspberry_Pi/
+                - button "Expand sidebar category 'Raspberry Pi'" [ref=e349] [cursor=pointer]
+            - listitem [ref=e350]:
+              - generic [ref=e351]:
+                - link "Micro:bit" [ref=e352] [cursor=pointer]:
+                  - /url: /microbit_wiki_page/
+                - button "Expand sidebar category 'Micro:bit'" [ref=e353] [cursor=pointer]
+            - listitem [ref=e354]:
+              - link "Discontinued Products" [ref=e355] [cursor=pointer]:
+                - /url: /discontinuedproducts/
+            - listitem [ref=e356]:
+              - button "Product List" [ref=e358] [cursor=pointer]
+            - listitem [ref=e359]:
+              - link "About Seeed" [ref=e360] [cursor=pointer]:
+                - /url: /About/
+            - listitem [ref=e361]:
+              - link "License" [ref=e362] [cursor=pointer]:
+                - /url: /License/
+        - button "Collapse sidebar" [ref=e363] [cursor=pointer]:
+          - img [ref=e364]
+    - main [ref=e368]:
+      - generic [ref=e370]:
+        - generic [ref=e371]:
+          - generic [ref=e372]:
+            - article [ref=e373]:
+              - navigation "Breadcrumbs" [ref=e374]:
+                - list [ref=e375]:
+                  - listitem [ref=e376]:
+                    - link "Home page" [ref=e377] [cursor=pointer]:
+                      - /url: /
+                      - img [ref=e378]
+                  - listitem [ref=e380]:
+                    - link "XIAO" [ref=e381] [cursor=pointer]:
+                      - /url: /SeeedStudio_XIAO_Series_Introduction/
+                  - listitem [ref=e382]:
+                    - generic [ref=e383]: Expansion Boards for XIAO
+                  - listitem [ref=e384]:
+                    - generic [ref=e385]: GPS Module for XIAO
+                  - listitem [ref=e386]:
+                    - generic [ref=e387]: Quectel L76K
+              - generic [ref=e388]:
+                - heading "Getting Started with L76K GNSS Module for SeeedStudio XIAO" [level=1] [ref=e390]
+                - img [ref=e392]
+                - link "Get One Now 🖱️" [ref=e394] [cursor=pointer]:
+                  - /url: https://www.seeedstudio.com/L76K-GNSS-Module-for-Seeed-Studio-XIAO-p-5864.html
+                  - strong [ref=e395]:
+                    - generic [ref=e396]: Get One Now 🖱️
+                - heading "IntroductionDirect link to Introduction" [level=2] [ref=e397]:
+                  - text: Introduction
+                  - link "Direct link to Introduction" [ref=e398] [cursor=pointer]:
+                    - /url: "#introduction"
+                    - text: "#"
+                - paragraph [ref=e399]: L76K GNSS Module for SeeedStudio XIAO is a Multi-GNSS (Global Navigation Satellite System) module compatible with all XIAO development boards, supports GPS, BeiDou (BDS), GLONASS and QZSS systems, allows multi-system combined or single-system independent positioning. It also supports AGNSS function, built-in low-noise amplifier and sound surface filter, and provides a good positioning experience of fast, accurate, high-performance.
+                - paragraph [ref=e400]: The module comes with a high-performance active GNSS antenna intended to cover GPS L1 C/A, BeiDou B1 and GLONASS L1 bands. The design also has a tiny bright green LED for indicating the 1PPS output on fix.
+                - heading "FeaturesDirect link to Features" [level=3] [ref=e401]:
+                  - text: Features
+                  - link "Direct link to Features" [ref=e402] [cursor=pointer]:
+                    - /url: "#features"
+                    - text: "#"
+                - list [ref=e403]:
+                  - listitem [ref=e404]:
+                    - strong [ref=e405]: "Enhanced Reception:"
+                    - text: Built-in Low Noise Amplifier and Surface Acoustic Wave Filter for improved sensitivity and noise reduction
+                  - listitem [ref=e406]:
+                    - strong [ref=e407]: "High Precision:"
+                    - text: 32/72 channels, -162dBm tracking, -160dBm re-acquisition sensitivity
+                  - listitem [ref=e408]:
+                    - strong [ref=e409]: Energy Efficiency
+                    - text: ": 41mA tracking/acquisition, 360µA standby"
+                  - listitem [ref=e410]:
+                    - strong [ref=e411]: Multi-GNSS Systems
+                    - text: ": Powered by Quectel L76K, supporting GPS, BeiDou, GLONASS and QZSS"
+                  - listitem [ref=e412]:
+                    - strong [ref=e413]: "Ceramic Antenna:"
+                    - text: Enhanced signal reception, superior to traditional antennas.
+                - heading "SpecificationDirect link to Specification" [level=3] [ref=e414]:
+                  - text: Specification
+                  - link "Direct link to Specification" [ref=e415] [cursor=pointer]:
+                    - /url: "#specification"
+                    - text: "#"
+                - table [ref=e417]:
+                  - row "Item Detail" [ref=e418]:
+                    - columnheader "Item" [ref=e419]
+                    - columnheader "Detail" [ref=e420]
+                  - 'row "GNSS bands GPS L1 C/A: 1575.42MHz GLONASS L1: 1602MHz BeiDou B1: 1561.098MHz" [ref=e421]':
+                    - rowheader "GNSS bands" [ref=e422]
+                    - 'cell "GPS L1 C/A: 1575.42MHz GLONASS L1: 1602MHz BeiDou B1: 1561.098MHz" [ref=e423]':
+                      - text: "GPS L1 C/A: 1575.42MHz"
+                      - text: "GLONASS L1: 1602MHz"
+                      - text: "BeiDou B1: 1561.098MHz"
+                  - row "Channels 32 tracking ch/72 acquisition ch" [ref=e424]:
+                    - rowheader "Channels" [ref=e425]
+                    - cell "32 tracking ch/72 acquisition ch" [ref=e426]
+                  - 'row "TTFF (Time To First Fix) Cold Starts: 30s(w/o AGNSS), 5.5s(w/ GNSS) Hot Starts: 5.5s(w/o AGNSS), 2s(w/ AGNSS)" [ref=e427]':
+                    - rowheader "TTFF (Time To First Fix)" [ref=e428]
+                    - 'cell "Cold Starts: 30s(w/o AGNSS), 5.5s(w/ GNSS) Hot Starts: 5.5s(w/o AGNSS), 2s(w/ AGNSS)" [ref=e429]':
+                      - text: "Cold Starts: 30s(w/o AGNSS), 5.5s(w/ GNSS)"
+                      - text: "Hot Starts: 5.5s(w/o AGNSS), 2s(w/ AGNSS)"
+                  - 'row "Sensitivity Auto-aquisition: -148dBm Tracking: -162dBm Re-acquisition: -160dBm" [ref=e430]':
+                    - rowheader "Sensitivity" [ref=e431]
+                    - 'cell "Auto-aquisition: -148dBm Tracking: -162dBm Re-acquisition: -160dBm" [ref=e432]':
+                      - text: "Auto-aquisition: -148dBm"
+                      - text: "Tracking: -162dBm"
+                      - text: "Re-acquisition: -160dBm"
+                  - 'row "Accuracy Position: 2.0m CEP Velocity: 0.1m/s Acceleration: 0.1m/s² Timing: 30ns" [ref=e433]':
+                    - rowheader "Accuracy" [ref=e434]
+                    - 'cell "Position: 2.0m CEP Velocity: 0.1m/s Acceleration: 0.1m/s² Timing: 30ns" [ref=e435]':
+                      - text: "Position: 2.0m CEP"
+                      - text: "Velocity: 0.1m/s"
+                      - text: "Acceleration: 0.1m/s²"
+                      - text: "Timing: 30ns"
+                  - 'row "UART Interface Baud Rate: 9600~115200bps(9600bps default) Update Rate: 1Hz(default), 5Hz(Max.) Protocol: NMEA 0183, CASIC proprietary protocol" [ref=e436]':
+                    - rowheader "UART Interface" [ref=e437]
+                    - 'cell "Baud Rate: 9600~115200bps(9600bps default) Update Rate: 1Hz(default), 5Hz(Max.) Protocol: NMEA 0183, CASIC proprietary protocol" [ref=e438]':
+                      - text: "Baud Rate: 9600~115200bps(9600bps default)"
+                      - text: "Update Rate: 1Hz(default), 5Hz(Max.)"
+                      - text: "Protocol: NMEA 0183, CASIC proprietary protocol"
+                  - 'row "Antenna Type: Active Antenna Operating Frequency: 1559–1606MHz Coaxial Cable: RF1.13 Length=10cm Cable Connector: U.FL Plug RA" [ref=e439]':
+                    - rowheader "Antenna" [ref=e440]
+                    - 'cell "Type: Active Antenna Operating Frequency: 1559–1606MHz Coaxial Cable: RF1.13 Length=10cm Cable Connector: U.FL Plug RA" [ref=e441]':
+                      - text: "Type: Active Antenna"
+                      - text: "Operating Frequency: 1559–1606MHz"
+                      - text: "Coaxial Cable: RF1.13 Length=10cm"
+                      - text: "Cable Connector: U.FL Plug RA"
+                  - 'row "Current consumption(w/ active antenna) Auto-aquisition: 41mA Tracking: 41mA Standby: 360uA" [ref=e442]':
+                    - rowheader "Current consumption(w/ active antenna)" [ref=e443]
+                    - 'cell "Auto-aquisition: 41mA Tracking: 41mA Standby: 360uA" [ref=e444]':
+                      - text: "Auto-aquisition: 41mA"
+                      - text: "Tracking: 41mA"
+                      - text: "Standby: 360uA"
+                  - row "Dimension 18mm x 21mm" [ref=e445]:
+                    - rowheader "Dimension" [ref=e446]
+                    - cell "18mm x 21mm" [ref=e447]
+                - heading "Hardware OverviewDirect link to Hardware Overview" [level=2] [ref=e448]:
+                  - text: Hardware Overview
+                  - link "Direct link to Hardware Overview" [ref=e449] [cursor=pointer]:
+                    - /url: "#hardware-overview"
+                    - text: "#"
+                - paragraph [ref=e450]: Before we start, we can refer to the following pictures to understand the pin design of the L76K GNSS Module for SeeedStudio XIAO to facilitate our understanding of the function of the module.
+                - img [ref=e452]
+                - heading "Getting StartedDirect link to Getting Started" [level=2] [ref=e453]:
+                  - text: Getting Started
+                  - link "Direct link to Getting Started" [ref=e454] [cursor=pointer]:
+                    - /url: "#getting-started"
+                    - text: "#"
+                - heading "Hardware PreparationDirect link to Hardware Preparation" [level=3] [ref=e455]:
+                  - text: Hardware Preparation
+                  - link "Direct link to Hardware Preparation" [ref=e456] [cursor=pointer]:
+                    - /url: "#hardware-preparation"
+                    - text: "#"
+                - paragraph [ref=e457]:
+                  - text: To fully experience the capabilities of the L76K GNSS Module, we recommend pairing it with a motherboard from our XIAO series.
+                  - emphasis [ref=e458]: Any of the following XIAO models
+                  - text: would be compatible for use with the L76K GNSS Module.
+                - table [ref=e459]:
+                  - row "Seeed Studio XIAO SAMD21 Seeed Studio XIAO RP2040 Seeed Studio XIAO nRF52840 (Sense) Seeed Studio XIAO ESP32C3 Seeed Studio XIAO ESP32S3 (Sense)" [ref=e460]:
+                    - columnheader "Seeed Studio XIAO SAMD21" [ref=e461]
+                    - columnheader "Seeed Studio XIAO RP2040" [ref=e462]
+                    - columnheader "Seeed Studio XIAO nRF52840 (Sense)" [ref=e463]
+                    - columnheader "Seeed Studio XIAO ESP32C3" [ref=e464]
+                    - columnheader "Seeed Studio XIAO ESP32S3 (Sense)" [ref=e465]
+                  - row [ref=e466]:
+                    - cell [ref=e467]:
+                      - img [ref=e469]
+                    - cell [ref=e470]:
+                      - img [ref=e472]
+                    - cell [ref=e473]:
+                      - img [ref=e475]
+                    - cell [ref=e476]:
+                      - img [ref=e478]
+                    - cell [ref=e479]:
+                      - img [ref=e481]
+                  - row "Get One Now 🖱️ Get One Now 🖱️ Get One Now 🖱️ Get One Now 🖱️ Get One Now 🖱️" [ref=e482]:
+                    - cell "Get One Now 🖱️" [ref=e483]:
+                      - link "Get One Now 🖱️" [ref=e485] [cursor=pointer]:
+                        - /url: https://www.seeedstudio.com/Seeeduino-XIAO-Arduino-Microcontroller-SAMD21-Cortex-M0+-p-4426.html
+                        - strong [ref=e486]:
+                          - generic [ref=e487]: Get One Now 🖱️
+                    - cell "Get One Now 🖱️" [ref=e488]:
+                      - link "Get One Now 🖱️" [ref=e490] [cursor=pointer]:
+                        - /url: https://www.seeedstudio.com/XIAO-RP2040-v1-0-p-5026.html
+                        - strong [ref=e491]:
+                          - generic [ref=e492]: Get One Now 🖱️
+                    - cell "Get One Now 🖱️" [ref=e493]:
+                      - link "Get One Now 🖱️" [ref=e495] [cursor=pointer]:
+                        - /url: https://www.seeedstudio.com/Seeed-XIAO-BLE-Sense-nRF52840-p-5253.html
+                        - strong [ref=e496]:
+                          - generic [ref=e497]: Get One Now 🖱️
+                    - cell "Get One Now 🖱️" [ref=e498]:
+                      - link "Get One Now 🖱️" [ref=e500] [cursor=pointer]:
+                        - /url: https://www.seeedstudio.com/seeed-xiao-esp32c3-p-5431.html
+                        - strong [ref=e501]:
+                          - generic [ref=e502]: Get One Now 🖱️
+                    - cell "Get One Now 🖱️" [ref=e503]:
+                      - link "Get One Now 🖱️" [ref=e505] [cursor=pointer]:
+                        - /url: https://www.seeedstudio.com/XIAO-ESP32S3-Sense-p-5639.html
+                        - strong [ref=e506]:
+                          - generic [ref=e507]: Get One Now 🖱️
+                - paragraph [ref=e508]: Before using this module on a XIAO motherboard, you need to install the header sockets on the module and plug the active GNSS antenna onto the module. When connecting to the XIAO, please pay special attention to the installation direction of the module, please do not plug it in backwards, otherwise it is likely to burn the module or the XIAO.
+                - img [ref=e510]
+                - generic [ref=e511]:
+                  - generic [ref=e512]:
+                    - img [ref=e514]
+                    - text: caution
+                  - paragraph [ref=e517]: Please pay special attention to the installation direction of the module, please do not plug it in backwards, otherwise it is likely to burn the module or the XIAO.
+                - heading "Software PreparationDirect link to Software Preparation" [level=3] [ref=e518]:
+                  - text: Software Preparation
+                  - link "Direct link to Software Preparation" [ref=e519] [cursor=pointer]:
+                    - /url: "#software-preparation"
+                    - text: "#"
+                - paragraph [ref=e520]: To use the L76K GNSS Module for SeeedStudio XIAO, we need to program the XIAO series. The recommended programming tool is the Arduino IDE, and you need to configure the Arduino environment for the XIAO and add the on-board package.
+                - generic [ref=e521]:
+                  - generic [ref=e522]:
+                    - img [ref=e524]
+                    - text: tip
+                  - paragraph [ref=e527]:
+                    - text: If this is your first time using Arduino, we highly recommend you to refer to
+                    - link "Getting Started with Arduino" [ref=e528] [cursor=pointer]:
+                      - /url: /Getting_Started_with_Arduino/
+                    - text: .
+                - heading "Step 1. Download and Install the stable version of Arduino IDE according to your operating systemDirect link to Step 1. Download and Install the stable version of Arduino IDE according to your operating system" [level=4] [ref=e529]:
+                  - text: Step 1. Download and Install the stable version of Arduino IDE according to your operating system
+                  - link "Direct link to Step 1. Download and Install the stable version of Arduino IDE according to your operating system" [ref=e530] [cursor=pointer]:
+                    - /url: "#step-1-download-and-install-the-stable-version-of-arduino-ide-according-to-your-operating-system"
+                    - text: "#"
+                - link "Download Arduino IDE" [ref=e532] [cursor=pointer]:
+                  - /url: https://www.arduino.cc/en/software
+                  - strong [ref=e533]:
+                    - generic [ref=e534]: Download Arduino IDE
+                - heading "Step 2. Launch the Arduino applicationDirect link to Step 2. Launch the Arduino application" [level=4] [ref=e535]:
+                  - text: Step 2. Launch the Arduino application
+                  - link "Direct link to Step 2. Launch the Arduino application" [ref=e536] [cursor=pointer]:
+                    - /url: "#step-2-launch-the-arduino-application"
+                    - text: "#"
+                - heading "Step 3. Configure the Arduino IDE for the XIAO you are usingDirect link to Step 3. Configure the Arduino IDE for the XIAO you are using" [level=4] [ref=e537]:
+                  - text: Step 3. Configure the Arduino IDE for the XIAO you are using
+                  - link "Direct link to Step 3. Configure the Arduino IDE for the XIAO you are using" [ref=e538] [cursor=pointer]:
+                    - /url: "#step-3-configure-the-arduino-ide-for-the-xiao-you-are-using"
+                    - text: "#"
+                - list [ref=e539]:
+                  - listitem [ref=e540]:
+                    - paragraph [ref=e541]:
+                      - text: If you want to use
+                      - strong [ref=e542]: Seeed Studio XIAO SAMD21
+                      - text: for the later routines, please refer to
+                      - strong [ref=e543]:
+                        - link "this tutorial" [ref=e544] [cursor=pointer]:
+                          - /url: /Seeeduino-XIAO/#software
+                      - text: to finish adding.
+                  - listitem [ref=e545]:
+                    - paragraph [ref=e546]:
+                      - text: If you want to use
+                      - strong [ref=e547]: Seeed Studio XIAO RP2040
+                      - text: for the later routines, please refer to
+                      - strong [ref=e548]:
+                        - link "this tutorial" [ref=e549] [cursor=pointer]:
+                          - /url: /XIAO-RP2040-with-Arduino/#software-setup
+                      - text: to finish adding.
+                  - listitem [ref=e550]:
+                    - paragraph [ref=e551]:
+                      - text: If you want to use
+                      - strong [ref=e552]: Seeed Studio XIAO nRF52840
+                      - text: for the later routines, please refer to
+                      - strong [ref=e553]:
+                        - link "this tutorial" [ref=e554] [cursor=pointer]:
+                          - /url: /XIAO_BLE/#software-setup
+                      - text: to finish adding.
+                  - listitem [ref=e555]:
+                    - paragraph [ref=e556]:
+                      - text: If you want to use
+                      - strong [ref=e557]: Seeed Studio XIAO ESP32C3
+                      - text: for the later routines, please refer to
+                      - strong [ref=e558]:
+                        - link "this tutorial" [ref=e559] [cursor=pointer]:
+                          - /url: /XIAO_ESP32C3_Getting_Started/#software-setup
+                      - text: to finish adding.
+                  - listitem [ref=e560]:
+                    - paragraph [ref=e561]:
+                      - text: If you want to use
+                      - strong [ref=e562]: Seeed Studio XIAO ESP32S3
+                      - text: for the later routines, please refer to
+                      - strong [ref=e563]:
+                        - link "this tutorial" [ref=e564] [cursor=pointer]:
+                          - /url: /xiao_esp32s3_getting_started/#software-preparation
+                      - text: to finish adding.
+                - heading "Step 4. Add the TinyGPSPlus library to ArduinoDirect link to Step 4. Add the TinyGPSPlus library to Arduino" [level=4] [ref=e565]:
+                  - text: Step 4. Add the TinyGPSPlus library to Arduino
+                  - link "Direct link to Step 4. Add the TinyGPSPlus library to Arduino" [ref=e566] [cursor=pointer]:
+                    - /url: "#step-4-add-the-tinygpsplus-library-to-arduino"
+                    - text: "#"
+                - paragraph [ref=e567]:
+                  - text: First, you need to search and download the latest version
+                  - strong [ref=e568]: TinyGPSPlus
+                  - text: library in the Arduino IDE.
+                - img [ref=e570]
+                - heading "Application DemoDirect link to Application Demo" [level=2] [ref=e571]:
+                  - text: Application Demo
+                  - link "Direct link to Application Demo" [ref=e572] [cursor=pointer]:
+                    - /url: "#application-demo"
+                    - text: "#"
+                - 'heading "Example 1: Reading and Displaying GNSS DataDirect link to Example 1: Reading and Displaying GNSS Data" [level=3] [ref=e573]':
+                  - text: "Example 1: Reading and Displaying GNSS Data"
+                  - 'link "Direct link to Example 1: Reading and Displaying GNSS Data" [ref=e574] [cursor=pointer]':
+                    - /url: "#example-1-reading-and-displaying-gnss-data"
+                    - text: "#"
+                - paragraph [ref=e575]:
+                  - text: Once the hardware and software are ready, we start uploading our first example program. The L76K GNSS Module prints the GNSS information via the serial port every 1 second after powering up. In this example, we will use
+                  - strong [ref=e576]: TinyGPSPlus
+                  - text: library to parse the NMEA sentences received from the module and print the results including atitude, longitude and time to the Arduino IDE's Serial Monitor.
+                - paragraph [ref=e577]: "Here is the source code:"
+                - generic [ref=e579]:
+                  - code [ref=e581]:
+                    - generic [ref=e582]: "#include <TinyGPSPlus.h>"
+                    - generic [ref=e583]: "#include <SoftwareSerial.h>"
+                    - generic [ref=e584]: /*
+                    - generic [ref=e585]: This sample sketch demonstrates how to use L76K GNSS Module on SeeedStudio XIAO.
+                    - generic [ref=e586]: "*/"
+                    - generic [ref=e587]: static const int RXPin = D7, TXPin = D6;
+                    - generic [ref=e588]: static const uint32_t GPSBaud = 9600;
+                    - generic [ref=e589]: // The TinyGPSPlus object
+                    - generic [ref=e590]: TinyGPSPlus gps;
+                    - generic [ref=e591]: // The serial connection to the GNSS module
+                    - generic [ref=e592]: SoftwareSerial ss(RXPin, TXPin);
+                    - generic [ref=e593]: "void setup() {"
+                    - generic [ref=e594]: Serial.begin(115200);
+                    - generic [ref=e595]: "#ifdef ARDUINO_SEEED_XIAO_RP2040"
+                    - generic [ref=e596]: pinMode(D2,OUTPUT);
+                    - generic [ref=e597]: digitalWrite(D2,1);
+                    - generic [ref=e598]: pinMode(D0,OUTPUT);
+                    - generic [ref=e599]: digitalWrite(D0,1);
+                    - generic [ref=e600]: "#endif"
+                    - generic [ref=e601]: ss.begin(GPSBaud);
+                    - generic [ref=e602]: Serial.println(F("DeviceExample.ino"));
+                    - generic [ref=e603]: Serial.println(F("A simple demonstration of TinyGPSPlus with L76K GNSS Module"));
+                    - generic [ref=e604]: Serial.print(F("Testing TinyGPSPlus library v. "));
+                    - generic [ref=e605]: Serial.println(TinyGPSPlus::libraryVersion());
+                    - generic [ref=e606]: Serial.println(F("by Mikal Hart"));
+                    - generic [ref=e607]: Serial.println();
+                    - generic [ref=e608]: "}"
+                    - generic [ref=e609]: "void loop() {"
+                    - generic [ref=e610]: // This sketch displays information every time a new sentence is correctly encoded.
+                    - generic [ref=e611]: while (ss.available() > 0)
+                    - generic [ref=e612]: if (gps.encode(ss.read()))
+                    - generic [ref=e613]: displayInfo();
+                    - generic [ref=e614]: "if (millis() > 5000 && gps.charsProcessed() < 10) {"
+                    - generic [ref=e615]: "Serial.println(F(\"No GPS detected: check wiring.\"));"
+                    - generic [ref=e616]: while (true);
+                    - generic [ref=e617]: "}"
+                    - generic [ref=e618]: "}"
+                    - generic [ref=e619]: "void displayInfo() {"
+                    - generic [ref=e620]: "Serial.print(F(\"Location: \"));"
+                    - generic [ref=e621]: "if (gps.location.isValid()) {"
+                    - generic [ref=e622]: Serial.print(gps.location.lat(), 6);
+                    - generic [ref=e623]: Serial.print(F(","));
+                    - generic [ref=e624]: Serial.print(gps.location.lng(), 6);
+                    - generic [ref=e625]: "} else {"
+                    - generic [ref=e626]: Serial.print(F("INVALID"));
+                    - generic [ref=e627]: "}"
+                    - generic [ref=e628]: "Serial.print(F(\" Date/Time: \"));"
+                    - generic [ref=e629]: "if (gps.date.isValid()) {"
+                    - generic [ref=e630]: Serial.print(gps.date.month());
+                    - generic [ref=e631]: Serial.print(F("/"));
+                    - generic [ref=e632]: Serial.print(gps.date.day());
+                    - generic [ref=e633]: Serial.print(F("/"));
+                    - generic [ref=e634]: Serial.print(gps.date.year());
+                    - generic [ref=e635]: "} else {"
+                    - generic [ref=e636]: Serial.print(F("INVALID"));
+                    - generic [ref=e637]: "}"
+                    - generic [ref=e638]: Serial.print(F(" "));
+                    - generic [ref=e639]: "if (gps.time.isValid()) {"
+                    - generic [ref=e640]: if (gps.time.hour() < 10) Serial.print(F("0"));
+                    - generic [ref=e641]: Serial.print(gps.time.hour());
+                    - generic [ref=e642]: Serial.print(F(":"));
+                    - generic [ref=e643]: if (gps.time.minute() < 10) Serial.print(F("0"));
+                    - generic [ref=e644]: Serial.print(gps.time.minute());
+                    - generic [ref=e645]: Serial.print(F(":"));
+                    - generic [ref=e646]: if (gps.time.second() < 10) Serial.print(F("0"));
+                    - generic [ref=e647]: Serial.print(gps.time.second());
+                    - generic [ref=e648]: Serial.print(F("."));
+                    - generic [ref=e649]: if (gps.time.centisecond() < 10) Serial.print(F("0"));
+                    - generic [ref=e650]: Serial.print(gps.time.centisecond());
+                    - generic [ref=e651]: "} else {"
+                    - generic [ref=e652]: Serial.print(F("INVALID"));
+                    - generic [ref=e653]: "}"
+                    - generic [ref=e654]: Serial.println();
+                    - generic [ref=e655]: "}"
+                  - generic [ref=e656]:
+                    - button "Toggle word wrap" [ref=e657] [cursor=pointer]:
+                      - img [ref=e658]
+                    - button "Copy code to clipboard" [ref=e660] [cursor=pointer]:
+                      - generic [ref=e661]:
+                        - img [ref=e662]
+                        - img [ref=e664]
+                - paragraph [ref=e666]: Just select the XIAO you are using and the port number where the XIAO is located, compile and upload it.
+                - paragraph [ref=e667]: Make sure that the L76K GNSS Module is placed outdoor where good GNSS signals can be received. Upload the code to your XIAO and wait a few minutes, you should see the information displayed on the serial monitor.
+                - img [ref=e669]
+                - paragraph [ref=e670]: This code uses the TinyGPSPlus library to read data from the L76K GNSS module via a serial connection and displays valid location information and date/time on the serial monitor.
+                - heading "ResourcesDirect link to Resources" [level=2] [ref=e671]:
+                  - text: Resources
+                  - link "Direct link to Resources" [ref=e672] [cursor=pointer]:
+                    - /url: "#resources"
+                    - text: "#"
+                - list [ref=e673]:
+                  - listitem [ref=e674]:
+                    - strong [ref=e675]: PDF
+                    - text: ":"
+                    - link "L76K GNSS Module for Seeed Studio XIAO Schematic" [ref=e676] [cursor=pointer]:
+                      - /url: https://files.seeedstudio.com/wiki/Seeeduino-XIAO-Expansion-Board/GPS_Module/L76K/109100021-L76K-GNSS-Module-for-Seeed-Studio-XIAO-Schematic.pdf
+                  - listitem [ref=e677]:
+                    - strong [ref=e678]: PDF
+                    - text: ":"
+                    - link "Quectel_L76K_GNSS_协议规范_V1.0" [ref=e679] [cursor=pointer]:
+                      - /url: https://raw.githubusercontent.com/Seeed-Projects/Seeed_L76K-GNSS_for_XIAO/fb74b715224e0ac153c3884e578ee8e024ed8946/docs/Quectel_L76K_GNSS_%E5%8D%8F%E8%AE%AE%E8%A7%84%E8%8C%83_V1.0.pdf
+                  - listitem [ref=e680]:
+                    - strong [ref=e681]: PDF
+                    - text: ":"
+                    - link "Quectel_L76K_GNSS_Protocol_Specification_V1.1" [ref=e682] [cursor=pointer]:
+                      - /url: https://raw.githubusercontent.com/Seeed-Projects/Seeed_L76K-GNSS_for_XIAO/fb74b715224e0ac153c3884e578ee8e024ed8946/docs/Quectel_L76K_GNSS_Protocol_Specification_V1.1.pdf
+                  - listitem [ref=e683]:
+                    - strong [ref=e684]: GitHub
+                    - text: ":"
+                    - link "Seeed_L76K-GNSS_for_XIAO" [ref=e685] [cursor=pointer]:
+                      - /url: https://github.com/Seeed-Projects/Seeed_L76K-GNSS_for_XIAO
+                - heading "TroubleshootingDirect link to Troubleshooting" [level=2] [ref=e686]:
+                  - text: Troubleshooting
+                  - link "Direct link to Troubleshooting" [ref=e687] [cursor=pointer]:
+                    - /url: "#troubleshooting"
+                    - text: "#"
+                - group [ref=e688]:
+                  - generic "Details" [ref=e689] [cursor=pointer]
+                - group [ref=e690]:
+                  - generic "Why doesn't the GNSS information display on the serial monitor?" [ref=e691] [cursor=pointer]
+                - group [ref=e692]:
+                  - generic "Details" [ref=e693] [cursor=pointer]
+                - heading "Tech Support & Product DiscussionDirect link to Tech Support & Product Discussion" [level=2] [ref=e694]:
+                  - text: Tech Support & Product Discussion
+                  - link "Direct link to Tech Support & Product Discussion" [ref=e695] [cursor=pointer]:
+                    - /url: "#tech-support--product-discussion"
+                    - text: "#"
+                - paragraph [ref=e696]: Thank you for choosing our products! We are here to provide you with different support to ensure that your experience with our products is as smooth as possible. We offer several communication channels to cater to different preferences and needs.
+                - generic [ref=e697]:
+                  - link [ref=e698] [cursor=pointer]:
+                    - /url: https://forum.seeedstudio.com/
+                  - link [ref=e699] [cursor=pointer]:
+                    - /url: https://www.seeedstudio.com/contacts
+                - generic [ref=e700]:
+                  - link [ref=e701] [cursor=pointer]:
+                    - /url: https://discord.gg/eWkprNDMU7
+                  - link [ref=e702] [cursor=pointer]:
+                    - /url: https://github.com/Seeed-Studio/wiki-documents/discussions/69
+              - generic [ref=e704]:
+                - link "Edit this page" [ref=e706] [cursor=pointer]:
+                  - /url: https://github.com/Seeed-Studio/wiki-documents/blob/docusaurus-version/sites/en/docs/docs/Sensor/SeeedStudio_XIAO/SeeedStudio_XIAO_Expansion_board/GPS_Module_For_XIAO/L76K_GNSS_Module.md
+                  - img [ref=e707]
+                  - text: Edit this page
+                - generic [ref=e711]:
+                  - text: Last updated on
+                  - time [ref=e713]: Oct 14, 2024
+                  - text: by Spencer
+            - navigation "Docs pages" [ref=e714]:
+              - link "Previous « XIAO ESP32-S3 and LVGL Optimization Guide" [ref=e715] [cursor=pointer]:
+                - /url: /round_display_animation_workshop/
+                - generic [ref=e716]: Previous
+                - generic [ref=e717]: « XIAO ESP32-S3 and LVGL Optimization Guide
+              - link "Next L76K Path Tracking on Ubidots »" [ref=e718] [cursor=pointer]:
+                - /url: /L76K_Path_Tracking_on_Ubidots/
+                - generic [ref=e719]: Next
+                - generic [ref=e720]: L76K Path Tracking on Ubidots »
+          - iframe [ref=e723]:
+            
+        - list [ref=e726]:
+          - listitem [ref=e727]:
+            - link "Introduction" [ref=e728] [cursor=pointer]:
+              - /url: "#introduction"
+            - list [ref=e729]:
+              - listitem [ref=e730]:
+                - link "Features" [ref=e731] [cursor=pointer]:
+                  - /url: "#features"
+              - listitem [ref=e732]:
+                - link "Specification" [ref=e733] [cursor=pointer]:
+                  - /url: "#specification"
+          - listitem [ref=e734]:
+            - link "Hardware Overview" [ref=e735] [cursor=pointer]:
+              - /url: "#hardware-overview"
+          - listitem [ref=e736]:
+            - link "Getting Started" [ref=e737] [cursor=pointer]:
+              - /url: "#getting-started"
+            - list [ref=e738]:
+              - listitem [ref=e739]:
+                - link "Hardware Preparation" [ref=e740] [cursor=pointer]:
+                  - /url: "#hardware-preparation"
+              - listitem [ref=e741]:
+                - link "Software Preparation" [ref=e742] [cursor=pointer]:
+                  - /url: "#software-preparation"
+                - list [ref=e743]:
+                  - listitem [ref=e744]:
+                    - link "Step 1. Download and Install the stable version of Arduino IDE according to your operating system" [ref=e745] [cursor=pointer]:
+                      - /url: "#step-1-download-and-install-the-stable-version-of-arduino-ide-according-to-your-operating-system"
+                  - listitem [ref=e746]:
+                    - link "Step 2. Launch the Arduino application" [ref=e747] [cursor=pointer]:
+                      - /url: "#step-2-launch-the-arduino-application"
+                  - listitem [ref=e748]:
+                    - link "Step 3. Configure the Arduino IDE for the XIAO you are using" [ref=e749] [cursor=pointer]:
+                      - /url: "#step-3-configure-the-arduino-ide-for-the-xiao-you-are-using"
+                  - listitem [ref=e750]:
+                    - link "Step 4. Add the TinyGPSPlus library to Arduino" [ref=e751] [cursor=pointer]:
+                      - /url: "#step-4-add-the-tinygpsplus-library-to-arduino"
+          - listitem [ref=e752]:
+            - link "Application Demo" [ref=e753] [cursor=pointer]:
+              - /url: "#application-demo"
+            - list [ref=e754]:
+              - listitem [ref=e755]:
+                - 'link "Example 1: Reading and Displaying GNSS Data" [ref=e756] [cursor=pointer]':
+                  - /url: "#example-1-reading-and-displaying-gnss-data"
+          - listitem [ref=e757]:
+            - link "Resources" [ref=e758] [cursor=pointer]:
+              - /url: "#resources"
+          - listitem [ref=e759]:
+            - link "Troubleshooting" [ref=e760] [cursor=pointer]:
+              - /url: "#troubleshooting"
+          - listitem [ref=e761]:
+            - link "Tech Support & Product Discussion" [ref=e762] [cursor=pointer]:
+              - /url: "#tech-support--product-discussion"
+  - contentinfo [ref=e763]:
+    - generic [ref=e764]:
+      - generic [ref=e765]:
+        - generic [ref=e766]:
+          - generic [ref=e767]: Navigation
+          - list [ref=e768]:
+            - listitem [ref=e769]:
+              - link "Getting Started" [ref=e770] [cursor=pointer]:
+                - /url: /Getting_Started/
+            - listitem [ref=e771]:
+              - link "Sensor and Sensing" [ref=e772] [cursor=pointer]:
+                - /url: /Sensor_Network/
+            - listitem [ref=e773]:
+              - link "Network" [ref=e774] [cursor=pointer]:
+                - /url: /Network/
+            - listitem [ref=e775]:
+              - link "Edge Computing" [ref=e776] [cursor=pointer]:
+                - /url: /Edge_Computing/
+            - listitem [ref=e777]:
+              - link "Cloud" [ref=e778] [cursor=pointer]:
+                - /url: /Cloud/
+            - listitem [ref=e779]:
+              - link "Solutions" [ref=e780] [cursor=pointer]:
+                - /url: https://solution.seeed.cc/
+        - generic [ref=e781]:
+          - generic [ref=e782]: Ecosystem
+          - list [ref=e783]:
+            - listitem [ref=e784]:
+              - link "Discord" [ref=e785] [cursor=pointer]:
+                - /url: https://discord.com/invite/QqMgVwHT3X
+            - listitem [ref=e786]:
+              - link "Project Hub" [ref=e787] [cursor=pointer]:
+                - /url: https://project.seeedstudio.com/
+            - listitem [ref=e788]:
+              - link "Partners" [ref=e789] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/ecosystem/
+            - listitem [ref=e790]:
+              - link "Distributors" [ref=e791] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/distributors.html
+        - generic [ref=e792]:
+          - generic [ref=e793]: Quick Guide
+          - list [ref=e794]:
+            - listitem [ref=e795]:
+              - link "Bazaar" [ref=e796] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/
+            - listitem [ref=e797]:
+              - link "How to get help" [ref=e798] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/get_help/HowToGetHelp
+            - listitem [ref=e799]:
+              - link "FAQs" [ref=e800] [cursor=pointer]:
+                - /url: https://support.seeedstudio.com/knowledgebase
+            - listitem [ref=e801]:
+              - link "Forum" [ref=e802] [cursor=pointer]:
+                - /url: https://forum.seeedstudio.com/
+            - listitem [ref=e803]:
+              - link "Technical Support" [ref=e804] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/get_help/TechnicalSupport
+        - generic [ref=e805]:
+          - generic [ref=e806]: Company
+          - list [ref=e807]:
+            - listitem [ref=e808]:
+              - link "About Seeed" [ref=e809] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/about-us/
+            - listitem [ref=e810]:
+              - link "Join us" [ref=e811] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/join-us/
+            - listitem [ref=e812]:
+              - link "Contact Us" [ref=e813] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/contacts
+            - listitem [ref=e814]:
+              - link "Press" [ref=e815] [cursor=pointer]:
+                - /url: https://www.seeedstudio.com/blog/2020/04/22/seeed-in-the-news/
+      - generic [ref=e817]: Copyright © 2026 Seeed Studio, Inc. Built with Docusaurus.
