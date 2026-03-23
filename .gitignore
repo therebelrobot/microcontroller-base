@@ -21,3 +21,4 @@ Thumbs.db
 # Atopile
 circuits/.ato/
 circuits/build/
+.playwright-cli/

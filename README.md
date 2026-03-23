@@ -97,7 +97,7 @@ cd ../../../..
 
 ## 🛠 Supported Boards
 
-This template includes AI agent skills, pin references, and toolchain support for **20 boards** across two families.
+This template includes AI agent skills, pin references, and toolchain support for **22 boards** across three families.
 
 ### Seeed Studio XIAO
 
@@ -129,7 +129,14 @@ This template includes AI agent skills, pin references, and toolchain support fo
 | Arduino Nano | ATmega328P | — | 32 KB | 2 KB | 5V |
 | Arduino Mega 2560 | ATmega2560 | — | 256 KB | 8 KB | 5V |
 
-> **Note:** All XIAO boards share the same ultra-compact form factor (21×17.8mm). Arduino boards use their standard form factors. "Sense" variants include onboard IMU and/or microphone.
+### Raspberry Pi SBCs
+
+| Board | SoC | CPU | RAM | Connectivity | GPIO | Voltage |
+|-------|-----|-----|-----|-------------|------|---------|
+| Raspberry Pi 4 Model B | BCM2711 | Quad Cortex-A72 @ 1.8GHz | 1/2/4/8 GB | WiFi 5, BT 5.0, GbE | 40-pin (28 GPIO) | 3.3V |
+| Raspberry Pi 5 | BCM2712 | Quad Cortex-A76 @ 2.4GHz | 4/8 GB | WiFi 5, BT 5.0, GbE | 40-pin (28 GPIO) | 3.3V |
+
+> **Note:** All XIAO boards share the same ultra-compact form factor (21×17.8mm). Arduino boards use their standard form factors. "Sense" variants include onboard IMU and/or microphone. Raspberry Pi SBCs are full single-board computers with Linux support.
 
 ---
 
@@ -275,7 +282,7 @@ Use the provided scripts from the project root:
 │   ├── WIRING.md              # Wiring diagrams and pin connections
 │   └── BOM.md                 # Bill of materials
 │
-└── .roo/skills/               # AI agent skills (54 board+language+accessory skills)
+└── .roo/skills/               # AI agent skills (56 board+language+accessory skills)
 ```
 
 📖 **For the complete directory tree and all conventions, see [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md).**
@@ -378,7 +385,7 @@ File naming convention: `<descriptive-name>[-v<version>].<ext>` (e.g., `xiao-cas
 
 ## 🤖 AI Agent Skills
 
-This template includes **54 AI agent skills** in [`.roo/skills/`](.roo/skills/) that provide board-specific and accessory-specific reference information for [Roo Code](https://roocode.com/) and compatible AI coding assistants.
+This template includes **56 AI agent skills** in [`.roo/skills/`](.roo/skills/) that provide board-specific and accessory-specific reference information for [Roo Code](https://roocode.com/) and compatible AI coding assistants.
 
 ### What Skills Provide
 
@@ -400,10 +407,18 @@ When you ask an AI agent to write firmware for a specific board, the relevant sk
 |--------|--------|-----------|--------|
 | Seeed Studio XIAO | 15 | TinyGo, Arduino | 30 |
 | Arduino | 5 | TinyGo, Arduino | 10 |
+| Raspberry Pi | 2 | Python, Go | 2 |
 | XIAO Accessories | 14 | — | 14 |
-| **Total** | **20 boards + 14 accessories** | **2** | **54** |
+| **Total** | **22 boards + 14 accessories** | **4** | **56** |
 
 Board skills follow the naming pattern `<Family>-<Model>-<Language>` (e.g., `XIAO-ESP32S3-TinyGo`, `Arduino-Uno-Arduino`).
+
+### Raspberry Pi SBCs (2 skills)
+
+| Board | Languages | Skill |
+|-------|-----------|-------|
+| Raspberry Pi 4 Model B | Python, Go | `raspberrypi-4b` |
+| Raspberry Pi 5 | Python, Go | `raspberrypi-5` |
 
 ### XIAO Expansion Hats & Accessories (14 skills)
 
