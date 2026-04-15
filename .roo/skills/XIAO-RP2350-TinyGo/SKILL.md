@@ -1,5 +1,5 @@
 ---
-name: XIAO-RP2350-TinyGo
+name: xiao-rp2350-tinygo
 description: >
   Provides comprehensive pinout reference, board specifications, and TinyGo development guide
   for the Seeed Studio XIAO RP2350 microcontroller. Use when writing TinyGo firmware for the

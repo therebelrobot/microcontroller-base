@@ -1,5 +1,5 @@
 ---
-name: XIAO-Accessory-GroveVisionAIv2
+name: xiao-accessory-grovevisionaiv2
 description: >
   Provides comprehensive reference for using the Grove Vision AI Module V2 with Seeed Studio XIAO
   microcontrollers. Covers WiseEye2 HX6538 processor (dual Cortex-M55 + Ethos-U55 NPU), I2C

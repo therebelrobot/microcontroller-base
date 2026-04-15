@@ -1,5 +1,5 @@
 ---
-name: XIAO-RP2040-TinyGo
+name: xiao-rp2040-tinygo
 description: >
   Provides comprehensive pinout reference, board specifications, and TinyGo development guide
   for the Seeed Studio XIAO RP2040 microcontroller. Use when writing TinyGo firmware for the

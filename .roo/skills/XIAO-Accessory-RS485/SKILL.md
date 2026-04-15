@@ -1,5 +1,5 @@
 ---
-name: XIAO-Accessory-RS485
+name: xiao-accessory-rs485
 description: >
   Provides comprehensive reference for using the RS485 Breakout Board with Seeed Studio XIAO
   microcontrollers. Covers UART-based RS485 half-duplex communication, 120Ω termination switch,

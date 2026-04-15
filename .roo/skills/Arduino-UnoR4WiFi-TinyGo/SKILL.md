@@ -1,5 +1,5 @@
 ---
-name: Arduino-UnoR4WiFi-TinyGo
+name: arduino-unor4wifi-tinygo
 description: >
   Provides comprehensive pinout reference, board specifications, and TinyGo development guide
   for the Arduino Uno R4 WiFi (Renesas RA4M1 + ESP32-S3) microcontroller. Use when writing TinyGo

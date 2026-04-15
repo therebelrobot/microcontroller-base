@@ -1,5 +1,5 @@
 ---
-name: XIAO-RA4M1-Arduino
+name: xiao-ra4m1-arduino
 description: >
   Provides comprehensive pinout reference, board specifications, and Arduino C++ development guide
   for the Seeed Studio XIAO RA4M1 microcontroller. Use when writing Arduino firmware for the

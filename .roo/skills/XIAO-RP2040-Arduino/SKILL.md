@@ -1,5 +1,5 @@
 ---
-name: XIAO-RP2040-Arduino
+name: xiao-rp2040-arduino
 description: >
   Provides comprehensive pinout reference, board specifications, and Arduino C++ development guide
   for the Seeed Studio XIAO RP2040 microcontroller. Use when writing Arduino firmware for the

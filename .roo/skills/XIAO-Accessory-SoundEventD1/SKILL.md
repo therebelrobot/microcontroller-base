@@ -1,5 +1,5 @@
 ---
-name: XIAO-Accessory-SoundEventD1
+name: xiao-accessory-soundeventd1
 description: >
   Provides reference for using the Sound Event Detection Module D1 with Seeed Studio XIAO
   microcontrollers. Covers audio event detection capabilities and known product information.

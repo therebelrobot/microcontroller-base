@@ -1,5 +1,5 @@
 ---
-name: XIAO-Accessory-ePaperBreakout
+name: xiao-accessory-epaperbreakout
 description: >
   Provides comprehensive reference for using the ePaper Breakout Board with Seeed Studio XIAO
   microcontrollers. Covers SPI display communication, supported eInk display sizes (1.54" to 7.5"),

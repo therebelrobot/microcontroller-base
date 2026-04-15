@@ -1,5 +1,5 @@
 ---
-name: XIAO-SAMD21-TinyGo
+name: xiao-samd21-tinygo
 description: >
   Provides comprehensive pinout reference, board specifications, and TinyGo development guide
   for the Seeed Studio XIAO SAMD21 microcontroller. Use when writing TinyGo firmware for the

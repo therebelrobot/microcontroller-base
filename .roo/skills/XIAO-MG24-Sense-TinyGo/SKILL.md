@@ -1,5 +1,5 @@
 ---
-name: XIAO-MG24-Sense-TinyGo
+name: xiao-mg24-sense-tinygo
 description: >
   Provides comprehensive pinout reference, board specifications, and TinyGo development guide
   for the Seeed Studio XIAO MG24 Sense microcontroller. Use when writing TinyGo firmware for the

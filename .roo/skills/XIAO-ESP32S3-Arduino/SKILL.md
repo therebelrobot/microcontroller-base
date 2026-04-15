@@ -1,5 +1,5 @@
 ---
-name: XIAO-ESP32S3-Arduino
+name: xiao-esp32s3-arduino
 description: >
   Provides comprehensive pinout reference, board specifications, and Arduino C++ development guide
   for the Seeed Studio XIAO ESP32-S3 microcontroller. Use when writing Arduino firmware for the

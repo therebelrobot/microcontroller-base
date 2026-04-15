@@ -1,5 +1,5 @@
 ---
-name: Arduino-Nano-TinyGo
+name: arduino-nano-tinygo
 description: >
   Provides comprehensive pinout reference, board specifications, and TinyGo development guide
   for the Arduino Nano (ATmega328P) microcontroller. Use when writing TinyGo firmware for the

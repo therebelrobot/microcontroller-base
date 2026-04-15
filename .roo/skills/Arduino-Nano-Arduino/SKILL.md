@@ -1,5 +1,5 @@
 ---
-name: Arduino-Nano-Arduino
+name: arduino-nano-arduino
 description: >
   Provides comprehensive pinout reference, board specifications, and Arduino C++ development guide
   for the Arduino Nano (ATmega328P) microcontroller. Use when writing Arduino firmware for the

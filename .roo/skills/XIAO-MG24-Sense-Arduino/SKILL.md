@@ -1,5 +1,5 @@
 ---
-name: XIAO-MG24-Sense-Arduino
+name: xiao-mg24-sense-arduino
 description: >
   Provides comprehensive pinout reference, board specifications, and Arduino C++ development guide
   for the Seeed Studio XIAO MG24 Sense microcontroller. Use when writing Arduino firmware for the

@@ -1,5 +1,5 @@
 ---
-name: XIAO-nRF54L15-Arduino
+name: xiao-nrf54l15-arduino
 description: >
   Provides comprehensive pinout reference, board specifications, and Arduino C++ development guide
   for the Seeed Studio XIAO nRF54L15 microcontroller. Use when writing Arduino firmware for the

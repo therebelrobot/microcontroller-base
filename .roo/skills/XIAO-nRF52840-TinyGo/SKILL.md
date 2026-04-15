@@ -1,5 +1,5 @@
 ---
-name: XIAO-nRF52840-TinyGo
+name: xiao-nrf52840-tinygo
 description: >
   Provides comprehensive pinout reference, board specifications, and TinyGo development guide
   for the Seeed Studio XIAO nRF52840 microcontroller. Use when writing TinyGo firmware for the

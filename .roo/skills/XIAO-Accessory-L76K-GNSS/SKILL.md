@@ -1,5 +1,5 @@
 ---
-name: XIAO-Accessory-L76K-GNSS
+name: xiao-accessory-l76k-gnss
 description: >
   Provides comprehensive reference for using the L76K GNSS Module with Seeed Studio XIAO
   microcontrollers. Covers multi-GNSS positioning (GPS, BeiDou, GLONASS, QZSS), UART serial

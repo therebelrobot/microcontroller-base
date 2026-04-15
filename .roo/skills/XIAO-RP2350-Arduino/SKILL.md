@@ -1,5 +1,5 @@
 ---
-name: XIAO-RP2350-Arduino
+name: xiao-rp2350-arduino
 description: >
   Provides comprehensive pinout reference, board specifications, and Arduino C++ development guide
   for the Seeed Studio XIAO RP2350 microcontroller. Use when writing Arduino firmware for the

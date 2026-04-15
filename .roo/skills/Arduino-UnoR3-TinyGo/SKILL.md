@@ -1,5 +1,5 @@
 ---
-name: Arduino-UnoR3-TinyGo
+name: arduino-unor3-tinygo
 description: >
   Provides comprehensive pinout reference, board specifications, and TinyGo development guide
   for the Arduino Uno R3 (ATmega328P) microcontroller. Use when writing TinyGo firmware for the

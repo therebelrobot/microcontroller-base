@@ -1,5 +1,5 @@
 ---
-name: XIAO-ESP32C6-TinyGo
+name: xiao-esp32c6-tinygo
 description: >
   Provides comprehensive pinout reference, board specifications, and TinyGo development guide
   for the Seeed Studio XIAO ESP32-C6 microcontroller. Use when writing TinyGo firmware for the

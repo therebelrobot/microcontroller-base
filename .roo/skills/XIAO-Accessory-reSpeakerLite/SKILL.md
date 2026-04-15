@@ -1,5 +1,5 @@
 ---
-name: XIAO-Accessory-reSpeakerLite
+name: xiao-accessory-respeakerlite
 description: >
   Provides comprehensive reference for using the reSpeaker Lite voice/audio processing board
   with Seeed Studio XIAO microcontrollers. Covers XMOS XU316 AI audio chipset, dual microphone

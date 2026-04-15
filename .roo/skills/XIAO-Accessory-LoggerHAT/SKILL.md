@@ -1,5 +1,5 @@
 ---
-name: XIAO-Accessory-LoggerHAT
+name: xiao-accessory-loggerhat
 description: >
   Provides comprehensive reference for using the XIAO Logger HAT with Seeed Studio XIAO
   microcontrollers. Covers I2C sensors (SHT40 temperature/humidity, BH1750 light, PCF8563 RTC),

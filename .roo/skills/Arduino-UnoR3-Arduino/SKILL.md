@@ -1,5 +1,5 @@
 ---
-name: Arduino-UnoR3-Arduino
+name: arduino-unor3-arduino
 description: >
   Provides comprehensive pinout reference, board specifications, and Arduino C++ development guide
   for the Arduino Uno R3 (ATmega328P) microcontroller. Use when writing Arduino firmware for the

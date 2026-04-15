@@ -1,5 +1,5 @@
 ---
-name: Arduino-UnoR4Minima-TinyGo
+name: arduino-unor4minima-tinygo
 description: >
   Provides comprehensive pinout reference, board specifications, and TinyGo development guide
   for the Arduino Uno R4 Minima (Renesas RA4M1) microcontroller. Use when writing TinyGo firmware

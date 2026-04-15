@@ -1,5 +1,5 @@
 ---
-name: XIAO-Accessory-PowerBread
+name: xiao-accessory-powerbread
 description: >
   Provides reference for using the XIAO PowerBread power supply and breadboard integration board
   with Seeed Studio XIAO microcontrollers. Covers pin passthrough, power regulation, and breadboard

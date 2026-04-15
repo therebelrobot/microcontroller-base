@@ -1,5 +1,5 @@
 ---
-name: XIAO-Accessory-COBLEDDriver
+name: xiao-accessory-cobleddriver
 description: >
   Provides comprehensive reference for using the COB LED Driver Board with Seeed Studio XIAO
   microcontrollers. Covers 7-channel LED control (3 high-power 300mA + 4 PWM 80mA), active LOW

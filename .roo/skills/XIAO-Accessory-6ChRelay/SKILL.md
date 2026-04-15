@@ -1,5 +1,5 @@
 ---
-name: XIAO-Accessory-6ChRelay
+name: xiao-accessory-6chrelay
 description: >
   Provides comprehensive reference for using the XIAO 6-Channel Wi-Fi 5V DC Relay module
   with Seeed Studio XIAO microcontrollers. Covers GPIO relay control, ESPHome/Home Assistant

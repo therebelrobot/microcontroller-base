@@ -1,5 +1,5 @@
 ---
-name: XIAO-Accessory-mmWave24GHz
+name: xiao-accessory-mmwave24ghz
 description: >
   Provides comprehensive reference for using the 24GHz mmWave Human Static Presence Sensor
   with Seeed Studio XIAO microcontrollers. Covers FMCW radar detection, UART serial communication,

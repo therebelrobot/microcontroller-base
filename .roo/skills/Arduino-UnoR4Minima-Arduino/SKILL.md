@@ -1,5 +1,5 @@
 ---
-name: Arduino-UnoR4Minima-Arduino
+name: arduino-unor4minima-arduino
 description: >
   Provides comprehensive pinout reference, board specifications, and Arduino C++ development guide
   for the Arduino Uno R4 Minima (Renesas RA4M1) microcontroller. Use when writing Arduino firmware

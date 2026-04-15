@@ -1,5 +1,5 @@
 ---
-name: XIAO-ESP32C5-Arduino
+name: xiao-esp32c5-arduino
 description: >
   Provides comprehensive pinout reference, board specifications, and Arduino C++ development guide
   for the Seeed Studio XIAO ESP32-C5 microcontroller. Use when writing Arduino firmware for the

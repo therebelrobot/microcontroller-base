@@ -1,5 +1,5 @@
 ---
-name: XIAO-SAMD21-Arduino
+name: xiao-samd21-arduino
 description: >
   Provides comprehensive pinout reference, board specifications, and Arduino C++ development guide
   for the Seeed Studio XIAO SAMD21 microcontroller. Use when writing Arduino firmware for the

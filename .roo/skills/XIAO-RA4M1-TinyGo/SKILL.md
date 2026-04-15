@@ -1,5 +1,5 @@
 ---
-name: XIAO-RA4M1-TinyGo
+name: xiao-ra4m1-tinygo
 description: >
   Provides comprehensive pinout reference, board specifications, and TinyGo development guide
   for the Seeed Studio XIAO RA4M1 microcontroller. Use when writing TinyGo firmware for the

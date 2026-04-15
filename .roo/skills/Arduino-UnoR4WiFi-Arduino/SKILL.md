@@ -1,5 +1,5 @@
 ---
-name: Arduino-UnoR4WiFi-Arduino
+name: arduino-unor4wifi-arduino
 description: >
   Provides comprehensive pinout reference, board specifications, and Arduino C++ development guide
   for the Arduino Uno R4 WiFi (Renesas RA4M1 + ESP32-S3) microcontroller. Use when writing Arduino

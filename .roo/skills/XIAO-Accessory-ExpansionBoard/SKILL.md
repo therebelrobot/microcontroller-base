@@ -1,5 +1,5 @@
 ---
-name: XIAO-Accessory-ExpansionBoard
+name: xiao-accessory-expansionboard
 description: >
   Provides comprehensive reference for using the Seeed Studio Expansion Board Base with XIAO
   microcontrollers. Covers onboard OLED display (SSD1306 128×64 I2C), RTC (PCF8563), MicroSD

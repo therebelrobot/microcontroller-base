@@ -1,5 +1,5 @@
 ---
-name: XIAO-Accessory-CANBus
+name: xiao-accessory-canbus
 description: >
   Provides comprehensive reference for using the CAN Bus Breakout Board with Seeed Studio XIAO
   microcontrollers. Covers MCP2515 CAN controller, SN65HVD230 transceiver, SPI communication,

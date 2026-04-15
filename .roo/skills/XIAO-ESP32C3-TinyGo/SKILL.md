@@ -1,5 +1,5 @@
 ---
-name: XIAO-ESP32C3-TinyGo
+name: xiao-esp32c3-tinygo
 description: >
   Provides comprehensive pinout reference, board specifications, and TinyGo development guide
   for the Seeed Studio XIAO ESP32-C3 microcontroller. Use when writing TinyGo firmware for the

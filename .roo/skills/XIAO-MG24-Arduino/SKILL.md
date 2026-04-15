@@ -1,5 +1,5 @@
 ---
-name: XIAO-MG24-Arduino
+name: xiao-mg24-arduino
 description: >
   Provides comprehensive pinout reference, board specifications, and Arduino C++ development guide
   for the Seeed Studio XIAO MG24 microcontroller. Use when writing Arduino firmware for the

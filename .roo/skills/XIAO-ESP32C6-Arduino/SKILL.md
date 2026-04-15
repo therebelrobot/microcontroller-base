@@ -1,5 +1,5 @@
 ---
-name: XIAO-ESP32C6-Arduino
+name: xiao-esp32c6-arduino
 description: >
   Provides comprehensive pinout reference, board specifications, and Arduino C++ development guide
   for the Seeed Studio XIAO ESP32-C6 microcontroller. Use when writing Arduino firmware for the

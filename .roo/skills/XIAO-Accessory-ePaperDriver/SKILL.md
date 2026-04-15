@@ -1,5 +1,5 @@
 ---
-name: XIAO-Accessory-ePaperDriver
+name: xiao-accessory-epaperdriver
 description: >
   Provides comprehensive reference for using the ePaper Driver Board with Seeed Studio XIAO
   microcontrollers. Covers SPI communication, 24-pin FPC connector, support for 11 ePaper display

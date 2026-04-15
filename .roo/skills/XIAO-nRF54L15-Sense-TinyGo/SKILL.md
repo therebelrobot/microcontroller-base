@@ -1,5 +1,5 @@
 ---
-name: XIAO-nRF54L15-Sense-TinyGo
+name: xiao-nrf54l15-sense-tinygo
 description: >
   Provides comprehensive pinout reference, board specifications, and TinyGo development guide
   for the Seeed Studio XIAO nRF54L15 Sense microcontroller. Use when writing TinyGo firmware for the

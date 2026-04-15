@@ -1,5 +1,5 @@
 ---
-name: XIAO-nRF52840-Arduino
+name: xiao-nrf52840-arduino
 description: >
   Provides comprehensive pinout reference, board specifications, and Arduino C++ development guide
   for the Seeed Studio XIAO nRF52840 microcontroller. Use when writing Arduino firmware for the
